@@ -1,0 +1,37 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+>  File "swamee.py", line 14
+>    print('%.4f'%D)
+>        ^
+>SyntaxError: invalid syntax
+
+ --- Saida esperada (text)---
+> 'D=1.7382'
+>'Rey=476122.1893'
+>k='0.0132'
+
+--|>
+
+<|--
+-Resumo dos Testes
+>+------------------------------+
+>|  1  teste realizados/ 0 testes corretos |
+>+------------------------------+
+
+--|>
+
+Nota :=>> 0

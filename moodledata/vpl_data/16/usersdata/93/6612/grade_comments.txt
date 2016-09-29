@@ -1,0 +1,21 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 10
+>3
+>2
+
+ --- Program output ---
+>a: b: c: Traceback (most recent call last):
+>  File "triangulo.py", line 22, in <module>
+>    prin('N')
+>NameError: name 'prin' is not defined
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

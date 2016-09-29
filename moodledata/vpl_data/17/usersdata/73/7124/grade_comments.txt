@@ -1,0 +1,19 @@
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

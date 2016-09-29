@@ -1,0 +1,11 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Resumo dos Testes
+>+------------------------------+
+>|  1  teste realizados/ 1  teste corretos |
+>+------------------------------+
+
+--|>
+
+Nota :=>>10

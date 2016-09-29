@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-1.250)
+Incorrect program result
+ --- Input ---
+> 78
+>1.80
+
+ --- Program output ---
+>digite o seu peso:digite sua altura:NORMAL
+>OBESIDADE GRAVE
+
+ --- Expected output (text)---
+>'NORMAL'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

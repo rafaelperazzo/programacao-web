@@ -1,0 +1,17 @@
+-Test 2: Teste 2 (-1.250)
+Incorrect program result
+ --- Input ---
+> 90
+>1.80
+
+ --- Program output ---
+>peso em kg:altura:obeso
+
+ --- Expected output (text)---
+>'SOBREPESO'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,54 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>Programa para verificar se uma gangorra está ou não em equilíbro.
+>Na condição de equilíbro o torque resultante é nulo. Assim, P1*C1=P2*c2
+>Digite o valor de p1Digite o valor de c1Digite o valor de p2Digite o valor de c20
+
+ --- Expected output (text)---
+>'0'
+
+-Test 2: Teste 2 (-1.667)
+Incorrect program result
+ --- Input ---
+>40
+>40
+>38
+>60
+
+ --- Program output ---
+>Programa para verificar se uma gangorra está ou não em equilíbro.
+>Na condição de equilíbro o torque resultante é nulo. Assim, P1*C1=P2*c2
+>Digite o valor de p1Digite o valor de c1Digite o valor de p2Digite o valor de c21
+
+ --- Expected output (text)---
+> '1'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 1.67

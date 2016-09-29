@@ -1,0 +1,28 @@
+Testing 1/1 : Test 2
+
+<|--
+-Test 1: Test 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>digite o valor de a = digite o valor de b = Traceback (most recent call last):
+>  File "ex1.py", line 6, in <module>
+>    b = input('digite o valor de b = ')
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

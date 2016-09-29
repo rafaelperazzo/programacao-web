@@ -1,0 +1,25 @@
+s:681:"<b>Test 1: Teste 1 </b><br />(***ERRO***)
+<br />Resultado incorreto
+<br />(***ERRO***)
+<br /> --- Entrada ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>Voce deve corrigir seu codigo!
+<br /><br /> --- Saida do programa ---
+<br /><pre><i>Digite o valor de f: Digite o valor de L: Digite o valor de Q: Digite o valor da variação de H: Digite o valor de v: 1.7382
+476121.5213
+0.0132
+</i></pre>
+<br /> --- Saida esperada (text)---
+<br /><pre><i> 'D=1.7382'
+'Rey=476122.1893'
+k='0.0132'
+</i></pre>
+<br /><b>Resumo dos Testes</b><br /><pre><i>+------------------------------+
+|  1  teste realizados/ 0 testes corretos |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,20 @@
+s:561:"<b>Test 1: Test 1 </b><br />(***ERRO***)
+<br />Resultado incorreto
+<br />(***ERRO***)
+<br /> --- Entrada ---
+<br /><pre><i> 5
+</i></pre>Voce deve corrigir seu codigo!
+<br /><br /> --- Saida do programa ---
+<br /><pre><i>  File "poligono.py", line 4
+    nd = (n*(n-3))/2
+     ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Saida esperada (numbers)---
+<br /><pre><i>5.0
+</i></pre>
+<br /><b>Resumo dos Testes</b><br /><pre><i>+------------------------------+
+|  1  teste realizados/ 0 testes corretos |
++------------------------------+
+</i></pre>
+<br /><br />";

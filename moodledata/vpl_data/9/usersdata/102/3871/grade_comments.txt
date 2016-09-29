@@ -1,0 +1,51 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>peso da criança 1:peso da criança 2:comprimento da gangorra do lado direitocomprimento da gangorra do lado esquerdo1
+
+ --- Expected output (text)---
+>'0'
+
+-Test 2: Teste 2 (-1.667)
+Incorrect program result
+ --- Input ---
+>40
+>40
+>38
+>60
+
+ --- Program output ---
+>peso da criança 1:peso da criança 2:comprimento da gangorra do lado direitocomprimento da gangorra do lado esquerdo1
+
+ --- Expected output (text)---
+> '1'
+
+-Test 3: Teste 3 (-1.667)
+Incorrect program result
+ --- Input ---
+> 35
+>80
+>35
+>75
+
+ --- Program output ---
+>peso da criança 1:peso da criança 2:comprimento da gangorra do lado direitocomprimento da gangorra do lado esquerdo1
+
+ --- Expected output (text)---
+>'-1'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

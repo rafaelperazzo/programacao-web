@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+> digite o peso do pessoa:  digite o peso da pessoa:  digite o comprimento do lado esquerdo da gangorra:  digite o comprimento do lado direito da gangorra: -1
+
+ --- Expected output (text)---
+>'0'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

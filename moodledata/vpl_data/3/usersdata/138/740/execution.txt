@@ -1,0 +1,29 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:valor de x1: 2.2.000000
+>valor de x2: 2.-2.000000
+
+ --- Expected output (numbers)---
+>2.00
+>-2.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

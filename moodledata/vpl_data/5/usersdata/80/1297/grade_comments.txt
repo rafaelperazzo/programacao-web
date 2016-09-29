@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>digite o valor:o numero de cedulas de 20 é: 6
+>o numero de cedulas de 10 é:
+>o numero de cedulas de 5 é:
+>o numero de cedulas de 2 é: 1
+>o numero de cedulas de 1 é: 1
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

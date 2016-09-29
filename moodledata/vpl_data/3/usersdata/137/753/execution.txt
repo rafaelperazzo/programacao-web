@@ -1,0 +1,31 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>  File "ex1.py", line 10
+>    x1= (-b + (D**(1/2))/(2*a))
+>     ^
+>IndentationError: expected an indented block
+
+ --- Expected output (numbers)---
+>2.00
+>-2.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

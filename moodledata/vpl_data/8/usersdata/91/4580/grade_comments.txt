@@ -1,0 +1,58 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 1: Teste 1 (-1.250)
+Incorrect program result
+ --- Input ---
+> 78
+>1.80
+
+ --- Program output ---
+>Digite seu peso:Digite sua altura em metrosnormal
+
+ --- Expected output (text)---
+>'NORMAL'
+
+-Test 2: Teste 2 (-1.250)
+Incorrect program result
+ --- Input ---
+> 90
+>1.80
+
+ --- Program output ---
+>Digite seu peso:Digite sua altura em metrossobrepeso
+
+ --- Expected output (text)---
+>'SOBREPESO'
+
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>Digite seu peso:Digite sua altura em metrosobesidade
+
+ --- Expected output (text)---
+>'OBESIDADE'
+
+-Test 4: Teste 4 (-1.250)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>Digite seu peso:Digite sua altura em metrosobesidade grave
+
+ --- Expected output (text)---
+>'OBESIDADE GRAVE'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,20 @@
+s:567:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+18
+11
+1
+18
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'C'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

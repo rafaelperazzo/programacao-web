@@ -1,0 +1,26 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-100.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>digite o valor de nnúmero de lados:5
+>número de diagonais:5
+
+ --- Expected output (numbers)---
+>35.0
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

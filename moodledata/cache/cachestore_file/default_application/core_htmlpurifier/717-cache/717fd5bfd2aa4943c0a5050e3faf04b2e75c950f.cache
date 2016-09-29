@@ -1,0 +1,13 @@
+s:930:"<p>The range of the IP addresses of the terminal which permits attendance are specified.
+Basically format is list of "IP address/submetmask" that divided with the blank or the comma. But you can use the following forms, too<br /><br />
+* The prefix length notation is also possible instead of a subnetmask. <br />
+    202.26.155.0/16 =&gt; 202.26.0.0/255.255.0.0 <br /><br />
+* When a part of IP address is omitted, it is regarded as 0. <br />
+    202.26./255.255.255.0 =&gt; 202.26.0.0/255.255.255.0<br /><br />
+* When a parts of subnetmask is omitted, it is regarded as 0. <br />
+    202.26.100.2/255.255. =&gt; 202.26.0.0/255.255.0.0 <br />
+    202.26./255.255.255. =&gt; 202.26.0.0/255.255.255.0<br /><br />
+* When all subnet masks are omitted, the portion omitted by the IP address is 0. <br />
+    202. =&gt; 202.0.0.0/255.0.0.0<br /><br />
+ex.) 192.168.100. 202.26.144.0/255.255.255. 202.26.148.122</p>
+";

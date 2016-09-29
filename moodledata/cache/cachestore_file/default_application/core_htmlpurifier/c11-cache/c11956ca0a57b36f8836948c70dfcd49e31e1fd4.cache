@@ -1,0 +1,23 @@
+s:578:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de fdigite o valor de ldigite o valor de qdigite o valor de Deltahdigite o valor de v1.7382
+476122.1893
+-0.0575
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'D=1.7382'
+'Rey=476122.1893'
+k='0.0132'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

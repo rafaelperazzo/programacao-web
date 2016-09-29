@@ -1,0 +1,21 @@
+s:539:"<b>Test 1: Test 1 </b><br />(***ERRO***)
+<br />Resultado incorreto
+<br />(***ERRO***)
+<br /> --- Entrada ---
+<br /><pre><i> 1
+0
+-4
+</i></pre>Voce deve corrigir seu codigo!
+<br /><br /> --- Saida do programa ---
+<br /><pre><i>Digite a: Digite b: Digite c: 2.00
+-2.00
+</i></pre>
+<br /> --- Saida esperada (text)---
+<br /><pre><i> 'x1=2.06'
+"='x2=-2.06'
+</i></pre>
+<br /><b>Resumo dos Testes</b><br /><pre><i>+------------------------------+
+|  2 testes realizados/ 1  teste corretos |
++------------------------------+
+</i></pre>
+<br /><br />";

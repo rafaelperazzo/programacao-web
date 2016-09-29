@@ -1,0 +1,30 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>digite p1digite p2digite c2-1
+
+ --- Expected output (text)---
+>'0'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 3.33

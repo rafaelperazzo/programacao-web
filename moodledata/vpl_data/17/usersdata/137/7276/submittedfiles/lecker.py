@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('a:')
+b=input('b:')
+c=input('c:')
+d=input('d:')
+if a>b and b>c and c>d:
+    print ('S')
+elif a<b and b>c and c>d:
+    print ('S')
+elif a<b and b<c and c>d:
+    print ('S')
+elif a<b and b<c and c<d:
+    print ('S')
+else:
+    print ('N')

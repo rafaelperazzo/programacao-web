@@ -1,0 +1,47 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-1.250)
+Incorrect program result
+ --- Input ---
+> 78
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:
+
+ --- Expected output (text)---
+>'NORMAL'
+
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:
+
+ --- Expected output (text)---
+>'OBESIDADE'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2.50

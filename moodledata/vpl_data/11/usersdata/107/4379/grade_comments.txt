@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>digite o valor de cv:digite o valor de ce:digite o valor de cs:digite o valor de fv:digite o valor de fe:digite o valor de fs:Traceback (most recent call last):
+>  File "jogo.py", line 11, in <module>
+>    pf=(cf*3)+(cf*1)
+>NameError: name 'cf' is not defined
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

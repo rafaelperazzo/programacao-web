@@ -1,0 +1,19 @@
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

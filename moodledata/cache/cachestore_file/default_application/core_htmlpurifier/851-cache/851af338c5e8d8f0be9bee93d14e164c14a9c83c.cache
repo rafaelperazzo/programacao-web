@@ -1,0 +1,6 @@
+s:266:"<p>Seu problema está na saída (comando print). A saída deve ser exatamente como pedido no enunciado do problema. <br />
+Ex:<br />
+D=14567.1234<br /><br />
+E não:<br />
+O valor de D é: 14567.1234<br /><br />
+Corrija seus prints que ficará tudo correto!</p>";

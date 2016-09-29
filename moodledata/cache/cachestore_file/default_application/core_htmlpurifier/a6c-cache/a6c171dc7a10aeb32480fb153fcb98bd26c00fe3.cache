@@ -1,0 +1,20 @@
+s:541:"<b>Test 1: Test 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+2
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Traceback (most recent call last):
+  File "ex1.py", line 11, in &lt;module&gt;
+    print ('%.2f' %c)
+TypeError: float argument required, not str
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>3.00
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

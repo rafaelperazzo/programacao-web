@@ -1,0 +1,13 @@
+s:436:"Professor, identifica o erro aí pra mim:<br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br /><br />
+a = input('Digite a:')<br />
+b = input('Digite b:')<br />
+c = input('Digite c:')<br /><br />
+delta = (b**2)-4*a*c<br /><br />
+if delta&gt;=0 :<br />
+    x1 = (-b+(delta**0,5))/2*a<br />
+    x2 = (-b-(delta**0,5))/2*a<br />
+    print('%.2f %.2f'% (x1,x2))<br />
+else :<br />
+    print('SRR')<br />";

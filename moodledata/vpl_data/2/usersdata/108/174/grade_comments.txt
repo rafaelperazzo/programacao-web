@@ -1,0 +1,16 @@
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>Digite o número de lados do polígono:O polígono possui 5.0 lados
+
+ --- Expected output (numbers)---
+>35.0
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

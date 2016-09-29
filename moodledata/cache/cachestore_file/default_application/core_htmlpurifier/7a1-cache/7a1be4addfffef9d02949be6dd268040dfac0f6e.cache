@@ -1,0 +1,18 @@
+s:590:"<b>Test 2: Test 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro termo:Digite o segundo termo:Traceback (most recent call last):
+  File "ex1.py", line 4, in &lt;module&gt;
+    b=input('Digite o segundo termo:')
+EOFError: EOF when reading a line
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>2.00
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

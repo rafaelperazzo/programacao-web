@@ -1,0 +1,27 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>Digite o primeiro valorDigite o segundo valorDigite o terceiro valorO valor v e: 14032679567648713314593612934176351907913270119146632797191512497368214484266516480.00
+
+ --- Expected output (numbers)---
+>52204.19
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

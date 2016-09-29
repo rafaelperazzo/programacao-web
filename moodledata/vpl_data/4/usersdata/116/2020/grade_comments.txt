@@ -1,0 +1,25 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>insira o valor de f:insira o valor de L:insira o valor da Q:insira o valor de DeltaH:insira o valor de v:Traceback (most recent call last):
+>  File "swamee.py", line 15, in <module>
+>    k = (0.25)/(math.log10((E/(3.7*D)+(5.74/Rey))**0.9)**(0.5))
+>ValueError: negative number cannot be raised to a fractional power
+
+ --- Expected output (text)---
+> 'D=1.7382'
+>'Rey=476122.1893'
+>k='0.0132'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

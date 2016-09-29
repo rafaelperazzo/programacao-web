@@ -1,0 +1,21 @@
+case = Teste 1
+input = 10
+9
+8
+output = 'S'
+'Ac'
+'Es'
+
+case = Teste 2
+input = 2
+2
+2
+output = 'S'
+'Ac'
+'Eq'
+
+case = Teste 3
+input = 10
+3
+2
+output = 'N'

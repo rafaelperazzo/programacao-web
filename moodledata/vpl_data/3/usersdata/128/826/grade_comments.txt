@@ -1,0 +1,21 @@
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>2
+>3
+
+ --- Program output ---
+>  File "ex1.py", line 14
+>    print ('%.2f' %)
+>                   ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+>3.00
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

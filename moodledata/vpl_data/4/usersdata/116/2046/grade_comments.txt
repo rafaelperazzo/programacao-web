@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>insira o valor de f:insira o valor de L:insira o valor de Q:insira o valor de DeltaH:insira o valor de v:D =    2
+>Rey = 476122
+>k =    0
+
+ --- Expected output (text)---
+> 'D=1.7382'
+>'Rey=476122.1893'
+>k='0.0132'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,24 @@
+s:750:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de f:digite o valor de L:digite o valor de Q:digite o valor de deltaH:digite o valor de V:Traceback (most recent call last):
+  File "swamee.py", line 13, in &lt;module&gt;
+    D=(8*f*L*(Q**2)/((math.pi**2)*g*deltaH))**0.2
+TypeError: can't multiply sequence by non-int of type 'float'
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'D=1.7382'
+'Rey=476122.1893'
+k='0.0132'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

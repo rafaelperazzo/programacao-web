@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>Digite o valor de Cv:Digite o valor de Ce:Digite o valor de Cs:Digite o valor de Fv:Digite o valor de Fe:Digite o valor de Fs:
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

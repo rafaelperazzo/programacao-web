@@ -1,0 +1,27 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>Digite o valor de i:Digite o valor de P:Digite o valor de n:O valor de v para as informações é: 234618412563199302282159602165932649822892031821778231704728557245002582475279343488334745612634417226972682846134130589040640.00
+
+ --- Expected output (numbers)---
+>52204.19
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

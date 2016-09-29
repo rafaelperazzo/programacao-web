@@ -1,0 +1,18 @@
+s:794:"<p>Ei Perazzo, boa tarde.. cara é que eu to tento muito problema nesse exercício 7, porque eu já fiz e refiz várias vezes mas está dando problema no print... <br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br />
+import math<br /><br />
+#Entrada<br />
+f= input ('Digite o valor de f:')<br />
+L= input ('Digite o valor de l:')<br />
+Q= input ('Digite o valor de Q:')<br />
+DeltaH= input ('Digite o valor de Delta:')<br />
+v= input ('Digite o valor de v:')<br /><br />
+#Processamento <br /><br />
+D=((8*f*l*(Q**2))/((math.pi**2)*9,81*DeltaH))**(1/5)<br />
+Rey=(4*Q)/(math.pi*D*v)<br />
+k=0,25/((math.log10((o,ooooo2/(3,7*D))+(5,74/(Rey**0,9)))**2<br /><br />
+#Saida<br />
+print ('D=%.4f'%(D))<br />
+print ('Rey=%.4f'%(Rey))<br />
+print ('k=%.4f'%(k))</p>";

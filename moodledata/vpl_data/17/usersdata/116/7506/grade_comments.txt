@@ -1,0 +1,19 @@
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>insira o valor de a:insira o valor de b:insira o valor de c:insira o valor de d:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

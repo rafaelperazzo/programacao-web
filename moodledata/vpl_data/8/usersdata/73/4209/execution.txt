@@ -1,0 +1,29 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o seu peso em quilogramas:digite a seu altura em metros:ÓBESIDADE
+
+ --- Expected output (text)---
+>'OBESIDADE'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 3.75

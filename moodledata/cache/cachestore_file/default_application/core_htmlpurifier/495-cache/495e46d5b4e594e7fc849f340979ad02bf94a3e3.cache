@@ -1,0 +1,53 @@
+s:1468:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 78
+1.80
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite seu peso:Digite sua altura em metrosnormal
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'NORMAL'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 90
+1.80
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite seu peso:Digite sua altura em metrossobrepeso
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'SOBREPESO'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 110
+1.80
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite seu peso:Digite sua altura em metrosobesidade
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'OBESIDADE'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 180
+1.80
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite seu peso:Digite sua altura em metrosobesidade grave
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'OBESIDADE GRAVE'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

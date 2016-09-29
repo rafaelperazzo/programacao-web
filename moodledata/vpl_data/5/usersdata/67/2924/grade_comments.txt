@@ -1,0 +1,23 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>Digite o valor:Traceback (most recent call last):
+>  File "atm.py", line 9, in <module>
+>    c5=cd10/5
+>NameError: name 'cd10' is not defined
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

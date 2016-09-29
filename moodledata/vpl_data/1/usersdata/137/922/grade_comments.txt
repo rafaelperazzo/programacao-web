@@ -1,0 +1,20 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>  File "formula.py", line 4
+>    float(i)= input ('Digite o valor de i:')
+>SyntaxError: can't assign to function call
+
+ --- Expected output (numbers)---
+>52204.19
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

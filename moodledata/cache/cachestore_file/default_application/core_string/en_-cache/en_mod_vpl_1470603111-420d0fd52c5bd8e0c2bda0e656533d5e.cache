@@ -1,0 +1,147 @@
+a:254:{s:5:"about";s:5:"About";s:18:"acceptcertificates";s:31:"Accept self signed certificates";s:30:"acceptcertificates_description";s:83:"If the execution servers are not using self signed certificates uncheck this option";s:22:"acceptcertificatesnote";s:364:"<p>You are using an encrypted connection.<p/>
+<p>To use an encrypted connection with the execution servers it is required you accept its certificates.</p>
+<p>If you have problems with this process, you can try to use a http (unencrypted) connection or other browser.</p>
+<p>Please, click on the following links (server #) and accept the offered certificate.</p>";s:7:"addfile";s:8:"Add file";s:8:"advanced";s:8:"Advanced";s:8:"allfiles";s:9:"All files";s:14:"allsubmissions";s:15:"All submissions";s:7:"anyfile";s:8:"Any file";s:13:"attemptnumber";s:19:"Attempt number {$a}";s:19:"automaticevaluation";s:20:"Automatic evaluation";s:16:"automaticgrading";s:15:"Automatic grade";s:14:"averageperiods";s:20:"Average periods {$a}";s:11:"averagetime";s:17:"Average time {$a}";s:7:"basedon";s:8:"Based on";s:5:"basic";s:5:"Basic";s:13:"browserupdate";s:91:"Please update your browser to the last version<br />or use another that supports Websocket.";s:9:"calculate";s:9:"Calculate";s:15:"changesNotSaved";s:27:"Changes have not been saved";s:18:"check_jail_servers";s:23:"Check execution servers";s:6:"closed";s:6:"Closed";s:8:"comments";s:8:"Comments";s:11:"compilation";s:11:"Compilation";s:9:"connected";s:9:"connected";s:10:"connecting";s:10:"connecting";s:17:"connection_closed";s:17:"connection closed";s:15:"connection_fail";s:15:"connection fail";s:7:"console";s:7:"Console";s:4:"copy";s:4:"Copy";s:15:"create_new_file";s:17:"Create a new file";s:13:"currentstatus";s:14:"Current status";s:3:"cut";s:3:"Cut";s:13:"datesubmitted";s:14:"Date submitted";s:5:"debug";s:5:"Debug";s:9:"debugging";s:9:"Debugging";s:18:"defaultexefilesize";s:35:"Maximum default execution file size";s:16:"defaultexememory";s:27:"Maximum default memory used";s:19:"defaultexeprocesses";s:35:"Maximum default number of processes";s:14:"defaultexetime";s:30:"Maximum default execution time";s:15:"defaultfilesize";s:32:"Default maximum upload file size";s:21:"defaultresourcelimits";s:34:"Default execution resources limits";s:6:"delete";s:6:"Delete";s:14:"delete_file_fq";s:19:"delete '{$a}' file?";s:13:"delete_file_q";s:12:"Delete file?";s:20:"deleteallsubmissions";s:22:"Delete all submissions";s:11:"description";s:11:"Description";s:4:"diff";s:4:"diff";s:25:"discard_submission_period";s:25:"Discard submission period";s:37:"discard_submission_period_description";s:145:"For each student and assignment, the system tries to discard submissions. The system keep the last one and at least a submission for every period";s:8:"download";s:8:"Download";s:22:"downloadallsubmissions";s:24:"Download all submissions";s:7:"duedate";s:8:"Due date";s:4:"edit";s:4:"Edit";s:7:"editing";s:7:"Editing";s:8:"evaluate";s:8:"Evaluate";s:20:"evaluateonsubmission";s:27:"Evaluate just on submission";s:10:"evaluating";s:10:"Evaluating";s:10:"evaluation";s:10:"Evaluation";s:8:"examples";s:8:"Examples";s:9:"execution";s:9:"Execution";s:14:"executionfiles";s:15:"Execution files";s:16:"executionoptions";s:17:"Execution options";s:4:"file";s:4:"File";s:9:"file_name";s:9:"File name";s:9:"fileadded";s:30:"The '{$a}' file has been added";s:11:"filedeleted";s:32:"The '{$a}' file has been deleted";s:12:"filenotadded";s:23:"File has not been added";s:14:"fileNotChanged";s:20:"File has not changed";s:14:"filenotdeleted";s:36:"The '{$a}' file has NOT been deleted";s:14:"filenotrenamed";s:36:"The '{$a}' file has NOT been renamed";s:11:"filerenamed";s:52:"The '{$a->from}' file has been renamed to '{$a->to}'";s:20:"filesChangedNotSaved";s:47:"Files have changed but they have not been saved";s:15:"filesNotChanged";s:22:"Files have not changed";s:11:"filestoscan";s:13:"Files to scan";s:11:"fileupdated";s:32:"The '{$a}' file has been updated";s:4:"find";s:4:"Find";s:12:"find_replace";s:12:"Find/Replace";s:15:"fulldescription";s:16:"Full description";s:10:"fullscreen";s:10:"Fullscreen";s:8:"getjails";s:21:"Get execution servers";s:12:"gradeandnext";s:12:"Grade & next";s:6:"graded";s:6:"Graded";s:12:"gradedbyuser";s:14:"Graded by user";s:8:"gradedon";s:12:"Evaluated on";s:10:"gradedonby";s:42:"Reviewed on {$a->date} by {$a->gradername}";s:15:"gradenotremoved";s:71:"The grade has NOT been removed. Check activity config in the gradebook.";s:13:"gradenotsaved";s:69:"The grade has NOT been saved. Check activity config in the gradebook.";s:12:"gradeoptions";s:13:"Grade options";s:6:"grader";s:9:"Evaluator";s:14:"gradercomments";s:17:"Assessment report";s:12:"graderemoved";s:26:"The grade has been removed";s:9:"groupwork";s:10:"Group work";s:17:"inconsistentgroup";s:45:"You are not member of only one group (0 o >1)";s:19:"incorrect_file_name";s:19:"Incorrect file name";s:14:"individualwork";s:15:"Individual work";s:17:"instanceselection";s:13:"VPL selection";s:9:"isexample";s:29:"This activity acts as example";s:12:"jail_servers";s:22:"Execution servers list";s:19:"jail_servers_config";s:24:"Execution servers config";s:24:"jail_servers_description";s:28:"Write a line for each server";s:11:"joinedfiles";s:21:"Joined selected files";s:9:"keepfiles";s:26:"Files to keep when running";s:9:"lasterror";s:15:"Last error info";s:13:"lasterrordate";s:15:"Last error date";s:14:"listofcomments";s:16:"List of comments";s:14:"listsimilarity";s:26:"List of similarities found";s:14:"listwatermarks";s:16:"Water marks list";s:18:"local_jail_servers";s:23:"Local execution servers";s:13:"manualgrading";s:14:"Manual grading";s:14:"maxexefilesize";s:27:"Maximum execution file size";s:12:"maxexememory";s:19:"Maximum memory used";s:15:"maxexeprocesses";s:27:"Maximum number of processes";s:10:"maxexetime";s:22:"Maximum execution time";s:8:"maxfiles";s:23:"Maximum number of files";s:16:"maxfilesexceeded";s:32:"Maximum number of files exceeded";s:11:"maxfilesize";s:24:"Maximum upload file size";s:19:"maxfilesizeexceeded";s:26:"Maximum file size exceeded";s:13:"maximumperiod";s:19:"Maximum period {$a}";s:17:"maxresourcelimits";s:34:"Maximum execution resources limits";s:19:"maxsimilarityoutput";s:28:"Maximum output by similarity";s:22:"menucheck_jail_servers";s:23:"Check execution servers";s:18:"menuexecutionfiles";s:15:"Execution files";s:20:"menuexecutionoptions";s:7:"Options";s:13:"menukeepfiles";s:13:"Files to keep";s:22:"menulocal_jail_servers";s:23:"Local execution servers";s:18:"menuresourcelimits";s:16:"Resources limits";s:11:"minsimlevel";s:32:"Minimum similarity level to show";s:17:"moduleconfigtitle";s:17:"VPL Module Config";s:10:"modulename";s:23:"Virtual programming lab";s:16:"modulenameplural";s:24:"Virtual programming labs";s:3:"new";s:3:"New";s:13:"new_file_name";s:13:"New file name";s:4:"next";s:4:"Next";s:15:"nojailavailable";s:29:"No execution server available";s:7:"noright";s:30:"You don't have right to access";s:12:"nosubmission";s:23:"No submission available";s:11:"notexecuted";s:12:"Not executed";s:9:"notgraded";s:10:"Not graded";s:8:"notsaved";s:9:"Not saved";s:6:"novpls";s:34:"No virtual programming lab defined";s:11:"nowatermark";s:20:"Own water marks {$a}";s:12:"nsubmissions";s:16:"{$a} submissions";s:10:"numcluster";s:12:"Cluster {$a}";s:4:"open";s:4:"Open";s:20:"opnotallowfromclient";s:36:"Action not allowed from this machine";s:7:"options";s:7:"Options";s:15:"optionsnotsaved";s:27:"Options have not been saved";s:12:"optionssaved";s:23:"Options have been saved";s:6:"origin";s:6:"Origin";s:12:"othersources";s:32:"Other sources to add to the scan";s:11:"outofmemory";s:13:"Out of memory";s:5:"paste";s:5:"Paste";s:20:"pluginadministration";s:18:"VPL administration";s:10:"pluginname";s:23:"Virtual programming lab";s:23:"previoussubmissionslist";s:25:"Previous submissions list";s:13:"proposedgrade";s:20:"Proposed grade: {$a}";s:5:"proxy";s:5:"proxy";s:17:"proxy_description";s:38:"Proxy from Moodle to execution servers";s:4:"redo";s:4:"Redo";s:13:"regularscreen";s:14:"Regular screen";s:11:"removegrade";s:12:"Remove grade";s:6:"rename";s:6:"Rename";s:11:"rename_file";s:11:"Rename file";s:12:"replace_find";s:12:"Replace/Find";s:14:"requestedfiles";s:15:"Requested files";s:11:"requirednet";s:27:"Allowed submission from net";s:16:"requiredpassword";s:22:"A password is required";s:10:"resetfiles";s:11:"Reset files";s:8:"resetvpl";s:10:"Reset {$a}";s:14:"resourcelimits";s:16:"Resources limits";s:16:"restrictededitor";s:62:"Dissable external file upload, paste and drop external content";s:8:"retrieve";s:16:"Retrieve results";s:3:"run";s:3:"Run";s:7:"running";s:7:"Running";s:4:"save";s:4:"Save";s:12:"savecontinue";s:17:"Save and continue";s:5:"saved";s:5:"Saved";s:9:"savedfile";s:30:"The '{$a}' file has been saved";s:11:"saveoptions";s:12:"save options";s:6:"saving";s:6:"Saving";s:12:"scanactivity";s:8:"Activity";s:13:"scandirectory";s:9:"Directory";s:11:"scanningdir";s:22:"Scanning directory ...";s:11:"scanoptions";s:12:"Scan options";s:9:"scanother";s:34:"Scan similarities in added sources";s:11:"scanzipfile";s:8:"Zip file";s:10:"select_all";s:10:"Select all";s:6:"server";s:6:"Server";s:20:"serverexecutionerror";s:22:"Server execution error";s:16:"shortdescription";s:17:"Short description";s:10:"similarity";s:10:"Similarity";s:9:"similarto";s:10:"Similar to";s:9:"startdate";s:14:"Avaliable from";s:10:"submission";s:10:"Submission";s:16:"submissionperiod";s:17:"Submission period";s:22:"submissionrestrictions";s:23:"Submission restrictions";s:11:"submissions";s:11:"Submissions";s:19:"submissionselection";s:20:"Submission selection";s:15:"submissionslist";s:16:"Submissions list";s:14:"submissionview";s:15:"Submission view";s:11:"submittedby";s:17:"Submitted by {$a}";s:11:"submittedon";s:12:"Submitted on";s:12:"submittedonp";s:17:"Submitted on {$a}";s:14:"sureresetfiles";s:76:"Do you want to lost all your work and reset the files to its original state?";s:4:"test";s:13:"Test activity";s:9:"testcases";s:10:"Test cases";s:11:"timelimited";s:12:"Time limited";s:7:"timeout";s:7:"Timeout";s:13:"timeunlimited";s:14:"Time unlimited";s:19:"totalnumberoferrors";s:6:"Errors";s:4:"undo";s:4:"Undo";s:20:"unexpected_file_name";s:70:"Incorrect file name: expected '{$a->expected}' and found '{$a->found}'";s:9:"unzipping";s:13:"Unzipping ...";s:10:"uploadfile";s:11:"Upload file";s:13:"usevariations";s:14:"Use variations";s:9:"variation";s:14:"Variation {$a}";s:17:"variation_options";s:17:"Variation options";s:10:"variations";s:10:"Variations";s:17:"variations_unused";s:46:"This activity has variations, but are disabled";s:14:"variationtitle";s:15:"Variation title";s:17:"varidentification";s:14:"Identification";s:12:"visiblegrade";s:7:"Visible";s:15:"vpl:addinstance";s:21:"Add new vpl instances";s:9:"vpl:grade";s:20:"Grade VPL assignment";s:10:"vpl:manage";s:21:"Manage VPL assignment";s:12:"vpl:setjails";s:50:"Set execution servers for particular VPL instances";s:14:"vpl:similarity";s:32:"Search VPL assignment similarity";s:10:"vpl:submit";s:21:"Submit VPL assignment";s:8:"vpl:view";s:36:"View full VPL assignment description";s:3:"vpl";s:23:"Virtual Programming Lab";s:21:"VPL_COMPILATIONFAILED";s:54:"The compilation or preparation of execution has failed";s:12:"vpl_debug.sh";s:34:"This script prepares the debugging";s:18:"vpl_evaluate.cases";s:25:"Test cases for evaluation";s:15:"vpl_evaluate.sh";s:35:"This script prepares the evaluation";s:10:"vpl_run.sh";s:34:"This script prepares the execution";s:14:"workingperiods";s:15:"Working periods";s:8:"worktype";s:12:"Type of work";s:18:"websocket_protocol";s:18:"WebSocket protocol";s:30:"websocket_protocol_description";s:97:"Type of WebSocket protocol (ws:// or wss://) used by the browser to connect to execution servers.";s:14:"always_use_wss";s:45:"Always use encrypted (wss) websocket protocol";s:13:"always_use_ws";s:46:"Always use unencrypted (ws) websocket protocol";s:16:"depends_on_https";s:49:"Use ws or wss depending on if using http or https";s:23:"check_jail_servers_help";s:88:"<p>This page check and show the status of execution servers used
+for this activity.</p>";s:19:"executionfiles_help";s:4800:"<h2>Introduction</h2>
+<p>Here you set the files that are needed to prepare the execution,
+debug or assessment of a submission. This includes scripting files,
+program test files and data files.</p>
+<h2>Default script to run or debug</h2>
+<p>If you don't set script files for run or  debug submissions, the system
+will resolve the language you use (based on file name extensions) and use a
+predefined script.
+<h2>Automatic evaluation</h2>
+<p>The incorporates features to facilitate the evaluation of student's submissions.
+This feature allows to run the student program and check its output for a given input.
+To set up the evaluation cases you must populate the file &quot;vpl_evaluate.cases&quot;.
+<p>The file "vpl_evaluate.cases" has the following format:
+<ul>
+<li> "<strong>case </strong>= Description of case": Optional. Set an start of test case definition.</li>
+<li> "<strong>input </strong>= text": can use several lines. Ends with other instruction.</li>
+<li> "<strong>output </strong>= text": can use several lines. Ends with other instruction. A case can have differents correct output. There are three types of output: numbers, text and exact test:
+<ul>
+<li> <strong>number</strong>: defined as sequence of numbers (integers and floats). Only numbers in the output are checked, other text are ignored. Floats are checked with tolerance</li>
+<li> <strong>text</strong>: defined as text without double quote. Only words are checked and the rest of chars are ignored, the comparation is case-insensitive </li>
+<li> <strong>exact text</strong>: defined as text into double quote. The exact match is used to test the output.</li>
+</ul>
+</li>
+<li> "<strong>grade reduction</strong> = [value|percentage%]" : By default an error reduces student's grade
+(starts with maxgrade) by (grade_range/number of cases) but with this instruction you can change
+the reduction value or percentage.</li>
+</ul>
+</p>
+<h2>General use</h2>
+<p>A new file can be added by writing its name in the box  &quot;<b>Add file</b>&quot;
+and then clicking on the button &quot;<b>Add file</b>&quot;.</p>
+<p>An existing file can be uploaded by means of the  &quot;<b>Upload file</b>&quot;.<p>All the added  or uploaded files can
+be edited, and all of them, except the three scripting files mentioned
+below, can be renamed or deleted.</p>
+<h2>Manual run, execute or evaluation</h2>
+<p>Three scripting files to prepare each of the actions may be set.
+These files have predefined names: <b>vpl_run.sh</b> (execution),
+<b>vpl_debug.sh</b>  (debug) and <b>vpl_evaluate.sh</b> (assessment).</p>
+<p>The execution of any of those scripting files should generate a
+file named <b>vpl_execution</b>.
+This file must be a binary executable or a script beginning with &quot;#!/bin/sh &quot;.
+The non-generation of this file impedes to run the selected action.</p>
+<p>If the activity that you are configuring is "based on" other activity,
+the files of the base activity are added automatically.
+The contents of the vpl_run.sh, vpl_debug.sh and vpl_evaluate.sh files
+are concatenated from the deepest level of "based on" to the current.</P>
+<p>Finally, the file <b>vpl_environment.sh</b> is automatically added.
+This scripting file contain information about the submission.
+The information come as environment variables: </p>
+<ul> <li> LANG:  used language. </li>
+<li> LC_ALL: same value as LANG. </li>
+<li> VPL_MAXTIME: maximum execution time in seconds. </li>
+<li> VPL_FILEBASEURL: URL to access the files of the course. </li>
+<li> VPL_SUBFILE#:  each name of the files submitted by the student. # Ranges from 0 to number of submitted files. </Li>
+<li> VPL_SUBFILES: list of all submitted files. </li>
+<li> VPL_VARIATION + id: where id is the variation order starting with 0 and the value is the value of the variation. </li>
+</ul>
+If the action requested is evaluation, then the following vars are added too.
+<ul>
+	<li>VPL_MAXTIME: max time of execution in seconds.</li>
+	<li>VPL_MAXMEMORY: max memmory usable</li>
+	<li>VPL_MAXFILESIZE: max file size in byte that can be create.</li>
+	<li>VPL_MAXPROCESSES: max number of procceses that can be run simultaneous.</li>
+	<Li>VPL_FILEBASEURL: URL to the course files.</Li>
+	<li>VPL_GRADEMIN: Min grade for this activity</li>
+	<li>VPL_GRADEMAX: Max grade for this activity</li>
+</ul>
+<h2>Assessment result</h2>
+<p>Evaluation output is processed to extract, if possible, comments and a proposed grade for the assessment.
+Comments can be set in two ways: with a line comment defined by a line beginning with 'Comment :=&gt;&gt;' or
+with block comments starting with a line containing only '&lt;|--' and ending with a line containing only '--|&gt;'.
+The grade is taken from the last line that begins with 'Grade :=&gt;&gt;'.
+</p>";s:21:"executionoptions_help";s:929:"<p>Various execution options are set in this page</p>
+<ul>
+<li><b>Based on</b>: sets other VPL instance from which some features are imported:
+<ul><li>Execution files (concatenating the predefined scripting files)</li>
+<li>Limits for the execution resources.</li>
+<li>Variations, that are concatenating to generate multivariations.</li>
+<li>Maximun length for each file to be uploaded with the submission</li>
+</ul>
+</li>
+<li><b>Run</b>, <b>Debug</b> and <b>Evalaute</b>: must be set to 'Yes' if the corresponding action can be executed when editing the submission. This affects to the students only, users with  capability of grading can always execute these actions.</li>
+<li><b>Evaluate just on submission</b>: the submission is evaluated automatically when it is uploaded.</li>
+<li><b>Automatic grading</b>: if the evaluation result includes grading codes, they are used to set the grade automatically.</li>
+</ul>";s:20:"fulldescription_help";s:263:"<p>You must write here a full description for the activity.</p>
+<p>If you don't write anything here, the short description is shown instead.</p>
+<p>If you want to evaluate automatically, the interfaces for the assignments must be detailed and non-ambiguous.</p>";s:14:"keepfiles_help";s:245:"<p>Due to security issues, the files added as &quot;Execution files&quot; are deleted before running the file vpl_execution.</p>
+If any of those files is needed during the execution (by example, to be used as test data), it must be marked here.";s:23:"local_jail_servers_help";s:573:"<p>Here you can set the local execution servers added for this activity and those
+that are based on it.</p>
+<p>Enter the full URL of a server on each line. You can use blank lines
+and comments starting the line with "#".</p>
+<p>This activity will use as execution server list: the servers sets here
+plus the server list set in the "based on" activity
+plus the list of common execution servers.
+If you want to prevent this activity and derived ones
+from using other servers, then you have to add a line
+containing "end_of_jails" at the end of the server list.
+</p>";s:15:"modulename_help";s:1321:"<p>VPL is a activity module for Moodle that manage programming assignments and whose salient features are:
+</p>
+
+<ul>
+<li>Enable to edit the programs source code in the browser using an applet</li>
+<li>Students can run interactively programs in the browser</li>
+<li>You can run tests to review the programs.</li>
+<li>Allows searching for similarity between files.</li>
+<li>Allows setting editing restrictions and avoiding external text pasting.</li>
+</ul>
+<p><b>Basic definition of a Virtual Programming Lab activity</b></p>
+<p>To access other options, a basic definition <b>must be saved first</b>.</p>
+<p>Constraints for the submission can be set in the <b>Submission restrictions</b> panel:</p>
+<ul>
+<li>Maximum number of files to be submitted. You can set the file names at the "requested files" tabs.</li>
+<li>Submission available only by means of the restricted Code
+	Editor. If you set this option, you can't upload files or paste text from outside the code editor.</li>
+<li>Maximum upload file size.</li>
+<li>Password to access and submit the activity.
+If you set a password the system will ask the password to access the activity.</li>
+<li>Nets from which the submission is permited.</li>
+</ul>
+<p>Also common options, such as the grading scale and groups,
+can be setting in this page.</p>";s:15:"modulename_link";s:12:"mod/vpl/view";s:19:"requestedfiles_help";s:455:"<p>Here you set names and its initial content up for the requested files to the max number of files that was set in the basic description of the activity.</p>
+<p>If you don't set names for whole number of files, the unnamed files are optional and can have any name.</p>
+<p>You also can add contents to the requested files, so these contents will be available the first time that they will be opened with the editor, if no previous submission exists.</p>";s:19:"resourcelimits_help";s:479:"<p>You can set limits for the execution time, the memory used, the execution files sizes and the number of processes to be executed simultaneously.</p>
+<p>These limits are used when running the scripting files vpl_run.sh, vpl_debug.sh and vpl_evaluate.sh and the file vpl_execution built by them.</p>
+<p>If this activity is based on other activity, the limits can be affected by those set in the base activity and its ancestors or in the global configuration of the module.</p>";s:14:"testcases_help";s:1398:"<p>This feature allows to run the student program and check its output for a given input.  To set up the evaluation cases you must populate the file &quot;vpl_evaluate.cases&quot;.</p>
+<p>The file "vpl_evaluate.cases" has the following format:
+<ul>
+<li> "<strong>case </strong>= Description of case": Optional. Set an start of test case definition.</li>
+<li> "<strong>input </strong>= text": can use several lines. Ends with other instruction.</li>
+<li> "<strong>output </strong>= text": can use several lines. Ends with other instruction. A case can have differents correct output. There are three types of output: numbers, text and exact test:
+<ul>
+<li> <strong>number</strong>: defined as sequence of numbers (integers and floats). Only numbers in the output are checked, other text are ignored. Floats are checked with tolerance</li>
+<li> <strong>text</strong>: defined as text without double quote. Only words are checked and the rest of chars are ignored, the comparation is case-insensitive </li>
+<li> <strong>exact text</strong>: defined as text into double quote. The exact match is used to test the output.</li>
+</ul>
+</li>
+<li> "<strong>grade reduction</strong> = [value|percentage%]" : By default an error reduces student's grade (starts with maxgrade) by (grade_range/number of cases) but with this instruction
+you can change the reduction value or percentage.</li>
+</ul>";s:15:"variations_help";s:568:"<p>A set of variations can be defined for an activity. These variations are randomly assigned to the students.</p>
+<p>Here you can indicate if this activity has variations, put a title for the set of variations, and to add the desired variations.</p>
+<p>Each variation has an identification code and a description. The identification code is used by the <b>vpl_enviroment.sh</b> file to pass
+the variation assigned to each student to the script files. The description, formatted in HTML, is shown to the students that have assigned
+the corresponding variation.</p>";}

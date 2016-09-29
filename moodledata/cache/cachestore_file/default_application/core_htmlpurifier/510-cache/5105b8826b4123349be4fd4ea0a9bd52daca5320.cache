@@ -1,0 +1,16 @@
+s:787:"<p>Olá professor, boa noite, o senhor poderia analisar o segundo teste do Exercício Prático 06? O meu código ficou desta forma:<br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br />
+a = input('Digite a: ')<br />
+b = input('Digite b: ')<br />
+c = input('Digite c: ')<br /><br />
+#COMECE A PARTIR DAQUI!<br /><br />
+delta=((b**2)-4*a*c)<br /><br />
+if (delta&lt;0):<br />
+    print('SSR')<br /><br />
+elif (delta&gt;=0):<br />
+    x1=(((-b)+(delta**0.5))/(2*a))<br />
+    x2=(((-b)-(delta**0.5))/(2*a))<br />
+    print('x1=%.2f' %x1)<br />
+    print('x2=%.2f' %x2)<br /><br />
+Pelo que entendi, ele deseja ler apenas "SSR", sem a entrada, o senhor poderia verificar? Desculpe por te incomodar muitas vezes, desde já, agradeço e Boa Noite!</p>";

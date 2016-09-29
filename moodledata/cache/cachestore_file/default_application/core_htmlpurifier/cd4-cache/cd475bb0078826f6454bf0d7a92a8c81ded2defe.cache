@@ -1,0 +1,37 @@
+s:963:"<b>Testes que falharam</b><br />Test 1: Test 1
+<br />Test 2: Test 2
+<br /><b>Test 1: Test 1 </b><br />(***ERRO***)
+<br />Resultado incorreto
+<br />(***ERRO***)
+<br /> --- Entrada ---
+<br /><pre><i> 1
+0
+-4
+</i></pre>Voce deve corrigir seu codigo!
+<br /><br /> --- Saida do programa ---
+<br /><pre><i>Digite a: Digite b: Digite c: x1=2.00
+ x2=-2.00
+</i></pre>
+<br /> --- Saida esperada (text)---
+<br /><pre><i> 'x1=2.06'
+"='x2=-2.06'
+</i></pre>
+<br /><b>Test 2: Test 2 </b><br />(***ERRO***)
+<br />Resultado incorreto
+<br />(***ERRO***)
+<br /> --- Entrada ---
+<br /><pre><i> 1
+1
+1
+</i></pre>Voce deve corrigir seu codigo!
+<br /><br /> --- Saida do programa ---
+<br /><pre><i>Digite a: Digite b: Digite c: SSR
+</i></pre>
+<br /> --- Saida esperada (text)---
+<br /><pre><i> 'SRR'
+</i></pre>
+<br /><b>Resumo dos Testes</b><br /><pre><i>+------------------------------+
+|  2 testes realizados/ 0 testes corretos |
++------------------------------+
+</i></pre>
+<br /><br />";

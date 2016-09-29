@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>valor de cv:valor de ce:valor de cs:valor de fv:valor de fe:valor de fs:f
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

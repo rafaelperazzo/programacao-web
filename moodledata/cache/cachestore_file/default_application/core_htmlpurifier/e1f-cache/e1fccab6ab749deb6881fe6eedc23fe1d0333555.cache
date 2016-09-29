@@ -1,0 +1,19 @@
+s:473:"<b>Test 1: Test 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+0
+-4
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a:Digite b:Digite c:valor de x1=2.00
+valor de x2=-2.00
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'x1=2.00'
+'x2=-2.00'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,13 @@
+case = Teste 1
+input = 12
+3
+3
+6
+output ='S'
+
+case = Teste 2
+input = 2002
+560
+560
+882
+output='N'

@@ -1,0 +1,30 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>Digite o valor de a:4.00
+
+ --- Expected output (numbers)---
+>2.00
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> -2
+
+ --- Program output ---
+>Digite o valor de a:-2.00
+
+ --- Expected output (numbers)---
+>4.00
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

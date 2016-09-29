@@ -1,0 +1,23 @@
+-Test 1: Test 1 (-5.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+> 1
+>0
+>-4
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+>Digite a: Digite b: Digite c: 2.00
+>-2.00
+
+ --- Saida esperada (text)---
+> 'x1=2.06'
+>"='x2=-2.06'
+
+-Resumo dos Testes
+>+------------------------------+
+>|  2 testes realizados/ 1  teste corretos |
+>+------------------------------+
+

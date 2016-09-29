@@ -1,0 +1,20 @@
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: 2.00
+>-2.00
+
+ --- Expected output (text)---
+> 'x1=2.06'
+>'x2=-2.06'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

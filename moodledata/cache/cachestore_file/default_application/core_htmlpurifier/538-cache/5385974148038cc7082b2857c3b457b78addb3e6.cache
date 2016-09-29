@@ -1,0 +1,12 @@
+s:631:"<p>Perazzo, boa tarde. <br />
+Não estou conseguindo encontrar o erro neste programa<br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br />
+import math<br /><br />
+T1 = input ('Quantidade de tomadas da primeira régua:')<br />
+T2 = input ('Quantidade de tomadas da segunda régua:')<br />
+T3 = input ('Quantidade de tomadas da terceira régua:')<br />
+T4 = input ('Quantidade de tomadas da quarta régua:')<br /><br />
+TT = (T1+T2+T3+T4)-3<br /><br />
+print (TT)<br /><br />
+Por algum motivo o terceiro teste não está imprimindo o valor adequando, mas os cálculos atendem as expectativas.<br /></p>";

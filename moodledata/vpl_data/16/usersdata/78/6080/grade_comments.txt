@@ -1,0 +1,20 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 10
+>3
+>2
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:S
+>Ob
+>Es
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

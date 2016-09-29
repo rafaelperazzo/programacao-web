@@ -1,0 +1,17 @@
+-Test 2: Teste 2 (-1.250)
+Incorrect program result
+ --- Input ---
+> 90
+>1.80
+
+ --- Program output ---
+>Digite seu peso: Digite sua altura: Sobrepese
+
+ --- Expected output (text)---
+>'SOBREPESO'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

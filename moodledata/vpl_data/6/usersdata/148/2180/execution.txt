@@ -1,0 +1,44 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>Digite o valor inicial do investimento:Digite a taxa de crescimento percentual:1000.45
+>1000.90
+>1001.35
+>1001.80
+>1002.25
+>1002.70
+>1003.15
+>1003.61
+>1004.06
+>1004.51
+
+ --- Expected output (numbers)---
+>1045.00
+>1092.03
+>1141.17
+>1192.52
+>1246.18
+>1302.26
+>1360.86
+>1422.10
+>1486.10
+>1552.97
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

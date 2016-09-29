@@ -1,0 +1,31 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>2
+>3
+
+ --- Program output ---
+>Traceback (most recent call last):
+>  File "ex1.py", line 15, in <module>
+>    print ('%f' %n3)
+>TypeError: float argument required, not str
+
+ --- Expected output (numbers)---
+>3.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

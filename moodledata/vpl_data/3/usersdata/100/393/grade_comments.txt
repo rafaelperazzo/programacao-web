@@ -1,0 +1,38 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>digite o valor de a:digte o valor de b:digite o valor de c:As raízes são:
+> X1:-2
+> X2: 2
+
+ --- Expected output (numbers)---
+>2.00
+>-2.00
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>digite o valor de a:digte o valor de b:Traceback (most recent call last):
+>  File "ex1.py", line 4, in <module>
+>    b= input ('digte o valor de b:')
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2.00
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

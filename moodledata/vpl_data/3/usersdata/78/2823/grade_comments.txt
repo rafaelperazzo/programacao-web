@@ -1,0 +1,21 @@
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Traceback (most recent call last):
+>  File "ex1.py", line 10, in <module>
+>    print(SRR)
+>NameError: name 'SRR' is not defined
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

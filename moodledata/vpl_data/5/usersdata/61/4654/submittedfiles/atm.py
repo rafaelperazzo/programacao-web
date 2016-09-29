@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+V=int(input('Digite um valor a ser sacado: '))
+cedula20=int(V/20)
+resto1=(V-(cedula20*20))
+cedula10=int(resto1/10)
+resto2=(V-(cedula10*10))
+
+
+

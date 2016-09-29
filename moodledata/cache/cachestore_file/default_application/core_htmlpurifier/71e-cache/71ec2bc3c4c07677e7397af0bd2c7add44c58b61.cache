@@ -1,0 +1,28 @@
+s:631:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+0.045
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "investimento.py", line 21
+    print=('m1 and m2 and m3 and m4 and m5 and m6 and m7 and m8 and m9 and m10')
+         ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>1045.00
+1092.03
+1141.17
+1192.52
+1246.18
+1302.26
+1360.86
+1422.10
+1486.10
+1552.97
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

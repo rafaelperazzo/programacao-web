@@ -1,0 +1,17 @@
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o seu peso em quilogramas:digite a seu altura em metros:ÓBESIDADE
+
+ --- Expected output (text)---
+>'OBESIDADE'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,19 @@
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Seguindo a fórmula AX²+BX+C, insira o valor de A:Seguindo a fórmula AX²+BX+C, insira o valor de B:Seguindo a fórmula AX²+BX+C, insira o valor de C:As raízes da equação são 2.00 e -2.00
+
+ --- Expected output (numbers)---
+>2.00
+>-2.00
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,19 @@
+-Test 1: Test 1 (-100.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>Traceback (most recent call last):
+>  File "poligono.py", line 7, in <module>
+>    nd= ((n*(n-3))/2)
+>TypeError: unsupported operand type(s) for -: 'str' and 'int'
+
+ --- Expected output (numbers)---
+>35.0
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

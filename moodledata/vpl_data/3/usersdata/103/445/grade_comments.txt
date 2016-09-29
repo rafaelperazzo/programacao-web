@@ -1,0 +1,36 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Seguindo a fórmula AX²+BX+C, insira o valor de A:Seguindo a fórmula AX²+BX+C, insira o valor de B:Seguindo a fórmula AX²+BX+C, insira o valor de C:As raízes da equação são 2.00 e -2.00
+
+ --- Expected output (numbers)---
+>2.00
+>-2.00
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>Seguindo a fórmula AX²+BX+C, insira o valor de A:Seguindo a fórmula AX²+BX+C, insira o valor de B:Traceback (most recent call last):
+>  File "ex1.py", line 4, in <module>
+>    b=input('Seguindo a fórmula AX²+BX+C, insira o valor de B:')
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2.00
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>Digite o valor do investimento inicial:Digite o valor da taxa de crescimento percentual anual:1000.45
+>1000.9002025
+>1001.35060759
+>1001.80121536
+>1002.25202591
+>1002.70303932
+>1003.15425569
+>1003.60567511
+>1004.05729766
+>1004.50912344
+
+ --- Expected output (numbers)---
+>1045.00
+>1092.03
+>1141.17
+>1192.52
+>1246.18
+>1302.26
+>1360.86
+>1422.10
+>1486.10
+>1552.97
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

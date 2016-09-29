@@ -1,0 +1,37 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>  File "ex1.py", line 14
+>SyntaxError: Non-ASCII character '\xc3' in file ex1.py on line 14, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (text)---
+> 'x1=2.00'
+>'x2=-2.00'
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>  File "ex1.py", line 14
+>SyntaxError: Non-ASCII character '\xc3' in file ex1.py on line 14, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,7 @@
+i=float(input('digite o valor de i: '))
+p=float(input('digite o valor de p: '))
+n=float(input('digite o valor de n: '))
+
+v=(p*(1+i)**n)/i
+
+print('resultado %d:'%(v))

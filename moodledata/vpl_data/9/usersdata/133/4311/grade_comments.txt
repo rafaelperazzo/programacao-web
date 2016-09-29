@@ -1,0 +1,36 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>Digite o valor de p1Digite o valor de c1Digite o valor de p2Digite o valor de c20
+
+ --- Expected output (text)---
+>'0'
+
+-Test 2: Teste 2 (-1.667)
+Incorrect program result
+ --- Input ---
+>40
+>40
+>38
+>60
+
+ --- Program output ---
+>Digite o valor de p1Digite o valor de c1Digite o valor de p2Digite o valor de c21
+
+ --- Expected output (text)---
+> '1'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,19 @@
+-Test 1: Test 1 (-100.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>Digite a quantidade de lados do polígono:Traceback (most recent call last):
+>  File "poligono.py", line 10, in <module>
+>    print('A quantidade de diagonais diferentes é:.1f'%nd)
+>TypeError: not all arguments converted during string formatting
+
+ --- Expected output (numbers)---
+>35.0
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

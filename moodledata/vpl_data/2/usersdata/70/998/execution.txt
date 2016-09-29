@@ -1,0 +1,28 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>Digite o numero de lados: Traceback (most recent call last):
+>  File "poligono.py", line 13, in <module>
+>    print"O umero de diagonais: " + srt(nd)
+>NameError: name 'srt' is not defined
+
+ --- Expected output (numbers)---
+>5.0
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

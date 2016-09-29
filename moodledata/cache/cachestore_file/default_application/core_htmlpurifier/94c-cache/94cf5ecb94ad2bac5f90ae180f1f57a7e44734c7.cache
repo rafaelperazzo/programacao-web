@@ -1,0 +1,34 @@
+s:803:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+0.045
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor do investimento inicial:digite o valor da taxa de crescimento percentual em forma decimal:1045.00 R$ no 1° ano
+1092.03 R$ no 2° ano
+1141.17 R$ no 3° ano
+1192.52 R$ no 4° ano
+1246.18 R$ no 5° ano
+1302.26 R$ no 6° ano
+1360.86 R$ no 7° ano
+1422.10 R$ no 8° ano
+1486.10 R$ no 9° ano
+1552.97 R$ no 10° ano
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>1045.00
+1092.03
+1141.17
+1192.52
+1246.18
+1302.26
+1360.86
+1422.10
+1486.10
+1552.97
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,23 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>  File "atm.py", line 14
+>    nota2=(valor-nota20*20-nota10*10-nota5*5)//2)
+>                                                ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

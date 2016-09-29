@@ -1,0 +1,36 @@
+-Failed tests
+Test 7: Teste 7
+Test 8: Teste 8
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 7 tests passed |
+>+------------------------------+
+

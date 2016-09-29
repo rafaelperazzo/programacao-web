@@ -1,0 +1,35 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+>1
+>0
+>1
+>0
+>0
+
+ --- Program output ---
+>Digite o valor de x1:Digite o valor de x2:Digite o valor de x3:Digite o valor de x4:Digite o valor de x5:Digite o valor de x6:Digite o valor de x7:Digite o valor de x8:Digite o valor de x9:0
+
+ --- Expected output (text)---
+> '1'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 6.67

@@ -1,0 +1,13 @@
+s:694:"<p>Perazzo, os meus exercícios práticos estão informando que estão errados, mas creio que estão corretos. Mandarei para q o senhor mesmo confira assim que possível:<br /><br />
+Exercício 3: <br /><br />
+i = input(' digite um valor para i: ')<br />
+p = input(' digite um valor para p: ')<br />
+n = input(' digite um valor para n: ')<br /><br />
+v = p*((((1+i)**n)-1)/i)<br /><br />
+print('o valor de v eh %.2f' %v)<br /><br /><br />
+Exercício 5: <br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br /><br />
+n = input ( ' digite o numero de lados do poligono: ' )<br />
+nd = ((n*(n-3)/2)<br />
+print (' o poligono tem %.1f lados' %nd)<br /><br /></p>";

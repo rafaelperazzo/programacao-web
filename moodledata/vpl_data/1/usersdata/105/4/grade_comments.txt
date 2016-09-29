@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>Digite P: 52204.1979877
+
+ --- Expected output (numbers)---
+>688.71
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

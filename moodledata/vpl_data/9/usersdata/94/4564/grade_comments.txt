@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>digite o valor do peso da criança do lado esquerdodigite o valor do peso da criança do lado direitodigite o comprimento do lado esquerdo da gangorradigite o comprimento do lado direito da gangorra-1
+
+ --- Expected output (text)---
+>'0'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

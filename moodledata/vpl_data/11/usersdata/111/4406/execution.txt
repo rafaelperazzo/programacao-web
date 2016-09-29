@@ -1,0 +1,31 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>Digite o numero de vitorias de C: Digite o numero de empates de C: Digite o saldo de gols de C: Digite o numero de vitorias de D: Digite o numero de empates de D: Digite o saldo de gols de D: F
+
+ --- Expected output (text)---
+>'C'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2.50

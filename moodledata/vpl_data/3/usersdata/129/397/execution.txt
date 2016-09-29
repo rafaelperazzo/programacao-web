@@ -1,0 +1,29 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>Digite valor de a da função: Digite o valor de b da função: Traceback (most recent call last):
+>  File "ex1.py", line 4, in <module>
+>    b= float(input('Digite o valor de b da função: '))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

@@ -1,0 +1,42 @@
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 6
+>8
+>6
+>8
+>3
+
+ --- Program output ---
+>Digite o número 1: Digite o número 2: Digite o número 3: Digite o número 4: Digite o número 5: 3
+>Erro
+
+ --- Expected output (text)---
+> '3'
+>'8'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>2
+>2
+>2
+
+ --- Program output ---
+>Digite o número 1: Digite o número 2: Digite o número 3: Digite o número 4: Digite o número 5: Erro
+>Erro
+
+ --- Expected output (text)---
+> '2'
+>'2'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

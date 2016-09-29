@@ -1,0 +1,17 @@
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 0
+>0
+
+ --- Program output ---
+>Digite a posição de P:Digite a posição de R:
+
+ --- Expected output (text)---
+> 'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,33 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>digite fdigite o valor de Ldigite o valor de Qdigite o valor de DELTAHdigite o valor de vo valor de D eh:1.7382
+>o valor de Rey eh:476122.1893
+>o valor de k eh:0.0132
+
+ --- Expected output (text)---
+> 'D=1.7382'
+>'Rey=476122.1893'
+>k='0.0132'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

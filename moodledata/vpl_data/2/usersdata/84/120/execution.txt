@@ -1,0 +1,25 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-100.000)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>digite o numero de lados do poligono:seu poligono tem 5:
+
+ --- Expected output (numbers)---
+>35.0
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

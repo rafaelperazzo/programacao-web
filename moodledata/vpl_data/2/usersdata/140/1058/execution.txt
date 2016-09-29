@@ -1,0 +1,31 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-10.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+> 5
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+>lados de um poligono:Traceback (most recent call last):
+>  File "poligono.py", line 6, in <module>
+>    nd=(n(n-3))/(2)
+>TypeError: 'int' object is not callable
+
+ --- Saida esperada (numbers)---
+>5.0
+
+--|>
+
+<|--
+-Resumo dos Testes
+>+------------------------------+
+>|  1  teste realizados/ 0 testes corretos |
+>+------------------------------+
+
+--|>
+
+Nota :=>> 0

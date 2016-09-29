@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 12
+>3
+>3
+>6
+
+ --- Program output ---
+>Digite o peso A: Digite o peso B: Digite o peso C: Digite o peso D: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

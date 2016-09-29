@@ -1,0 +1,22 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>Digite o número de vitórias do Cormengo :Digite o número de empates do Cormengo :Digite o número de saldo de gols do Cormengo :Digite o número de vitórias do Flaminthias :Digite o número de empates do Flaminthias :Digite o número de saldo de gols do Flaminthias :F
+>=
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

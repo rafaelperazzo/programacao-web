@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>insira o valor a ser sacado:6.0
+>1.0
+>0.0
+>1.0
+>2.0
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

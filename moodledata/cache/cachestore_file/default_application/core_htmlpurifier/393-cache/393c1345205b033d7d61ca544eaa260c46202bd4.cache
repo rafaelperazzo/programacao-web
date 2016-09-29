@@ -1,0 +1,18 @@
+s:523:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>30
+100
+60
+50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>informe o valor do peso P1:informe o valor do peso P2:informe o valor do comprimento C1:informe o valor do comprimento C2:1
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'0'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

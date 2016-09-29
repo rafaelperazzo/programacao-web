@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input('digite o valor de f: ')
+
+l = input('digite o valor de l: ')
+
+q = input('digite o valor de q: ')
+
+dh = input('digite o valor de dh: ')
+
+v = input('digite o valor de v: ')
+
+e=0.000002
+
+g=9.81
+
+D = ((8*f*(q**2))/((math.pi**2)*g*dh)**1/5)
+
+rey = (4*q)/(math*D*v)
+
+k = 0.25/(math.log10(e/(3.7*D))+(5.74/(rey**0.9)))**2
+
+print("%.4f" %(D))
+print("%.4f" %(rey))
+print("%.4f" %(k))

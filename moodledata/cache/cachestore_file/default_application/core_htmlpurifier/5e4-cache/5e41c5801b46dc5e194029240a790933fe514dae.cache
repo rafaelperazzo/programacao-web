@@ -1,0 +1,15 @@
+s:697:"<p>Professor, referente ao exercício 6, não estou conseguindo encontrar o problema.<br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br /><br />
+a = input('Digite a: ')<br />
+b = input('Digite b: ')<br />
+c = input('Digite c: ')<br /><br />
+delta = ((b**2)-(4*a*c))<br /><br />
+if (delta&gt;=0):<br />
+    x1 = (-b+(delta**0.5))/(2*a)<br />
+    x2 = (-b-(delta**0.5))/(2*a)<br /><br />
+    print ('%.2f' %x1)<br />
+    print ('%.2f' %x2)<br /><br />
+else:<br />
+    print ('SRR')<br /><br /><br /><br />
+Quando usado os valores 2,1,1 para as variáveis respectivamente, o delta dará zero, porém ele não está entrando no if e portanto aparece a mensagem de erro. </p>";

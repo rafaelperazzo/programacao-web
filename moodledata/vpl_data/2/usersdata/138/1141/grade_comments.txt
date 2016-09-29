@@ -1,0 +1,22 @@
+-Test 1: Test 1 (-10.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+> 5
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+>  File "poligono.py", line 4
+>    D=(n*(n-3))/2
+>    ^
+>SyntaxError: invalid syntax
+
+ --- Saida esperada (numbers)---
+>5.0
+
+-Resumo dos Testes
+>+------------------------------+
+>|  1  teste realizados/ 0 testes corretos |
+>+------------------------------+
+

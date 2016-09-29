@@ -1,0 +1,23 @@
+s:716:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+18
+11
+1
+18
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>numero de vitorias do Cormengo:numero de empates do Cormengo:saldo de gols do Cormengo:numero de vitorias do flainthians:numero de empates do flainthians:saldo de gols do flainthians:CTraceback (most recent call last):
+  File "jogo.py", line 11, in &lt;module&gt;
+    input('C')
+EOFError: EOF when reading a line
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'C'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

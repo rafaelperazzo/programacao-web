@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>insira a quantidade de vitórias do Cormengo:insira a quantidade de empates do Cormengo:insira o saldo de gols do Cormengo:insira a quantidade de vitórias do Flaminthians:insira a quantidade de empates do Flaminthians:insira o saldo de gols do Flaminthians:Traceback (most recent call last):
+>  File "jogo.py", line 12, in <module>
+>    if Cv<Cf:
+>NameError: name 'Cf' is not defined
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

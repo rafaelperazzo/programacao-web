@@ -1,0 +1,19 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 2,2,2,2
+
+ --- Program output ---
+>Digite o número de tomadas da primeira régua:Digite o número de tomadas da segunda régua:Traceback (most recent call last):
+>  File "tomadas.py", line 6, in <module>
+>    T2 = input ('Digite o número de tomadas da segunda régua:')
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>5
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

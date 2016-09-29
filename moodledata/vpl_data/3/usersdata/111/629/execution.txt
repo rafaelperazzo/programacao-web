@@ -1,0 +1,30 @@
+Testing 1/1 : Test 1
+
+<|--
+-Test 1: Test 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1
+>2
+>3
+
+ --- Program output ---
+>  File "ex1.py", line 8
+>    if a>b and a>c
+>                 ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+>3.00
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0
