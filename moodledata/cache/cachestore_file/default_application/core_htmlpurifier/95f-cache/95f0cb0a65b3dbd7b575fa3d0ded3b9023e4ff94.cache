@@ -1,0 +1,158 @@
+s:4026:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br />Test 6: Teste 6
+<br />Test 7: Teste 7
+<br />Test 8: Teste 8
+<br />Test 9: Teste 9
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+5
+10
+46
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 16
+16
+16
+16
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+7
+1
+10
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+7
+5
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+1
+2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+7
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 7: Teste 7 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 8: Teste 8 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+0
+1
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 9: Teste 9 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+1
+0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lecker.py", line 9
+    if (a&lt;b&gt;c) or (b&lt;c&gt;d) or (c&lt;d&gt;a) or (d&lt;):
+                                           ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  9 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

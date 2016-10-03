@@ -1,0 +1,16 @@
+s:666:"Boa noite professor, <br />
+Relacionado ao Exercício 25, não estou conseguindo executar o programa idealizado<br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br />
+import math<br /><br />
+n = int (input ('Digite a quantidade de múltiplos:'))<br />
+a = int (input ('Digite a:'))<br />
+b = int (input ('Digite b:'))<br />
+i=1<br />
+contador=0<br /><br />
+while (contador&lt;=n):<br />
+    if ((i%a==0) or (i%b==0)):<br />
+        print (i)<br />
+        i=i+1<br />
+    contador=contador+1<br /><br />
+Gostaria de saber se estou usando o while de forma inadequada neste programa e também como pensar parar resolver o mesmo.";
