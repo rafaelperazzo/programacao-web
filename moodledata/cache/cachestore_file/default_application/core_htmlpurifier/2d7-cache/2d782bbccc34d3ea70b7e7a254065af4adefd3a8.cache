@@ -1,0 +1,18 @@
+s:1592:"<p>O módulo glossário permite que os membros do fórum criem e mantenham uma lista de termos ou definições, como um dicionário.</p>
+
+<p>Um professor pode permitir que arquivos sejam anexados as entradas no glossário. Imagens anexas são exibidas na entrada. Entradas podem ser pesquisadas ou navegadas alfabeticamente ou por categoria, data ou autor. Entradas podem ser aprovadaspor padrão ou necessário aprovação por um professor antes que sejam visualizadas por alguém.</p>
+
+<p>Caso o filtro auto-link, do glossário,  esteja habilitado
+As entradas no glossário serão linkadas ao conceito ou frase no local onde elas aparecem no curso.</p>
+
+<p>Um professor pode permitir comentários ou entradas. Entradas podem também ser avaliadas por professores ou estudantes (avaliação por pares). Avaliações podem também ser agregadas para formar a nota final que será registrada no livro de notas.</p>
+
+<p>Glossários tem muitos usos, como por exemplo:</p>
+
+<ul><li>Um banco colaborativo de termos chaves</li>
+<li>Um espaço "apresente-se" onde novos estudantes adicionam seus nomes e detalhes pessoais</li>
+<li>Centralização de dicas ou melhores práticas sobre algum item</li>
+<li>Uma área de compartilhamento de vídeos, imagens ou arquivos de som</li>
+<li>Como recurso de revisão de fatos a serem lembrados</li>
+</ul><div class="helpdoclink"><a href="http://docs.moodle.org/31/pt_br/mod/glossary/view" class="helplinkpopup"><img class="iconhelp icon-pre" alt="" src="http://programacao.ufca.edu.br/moodle/theme/image.php/clean/core/1475452896/docs" />Mais ajuda</a></div>
+";

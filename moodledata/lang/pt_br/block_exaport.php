@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'block_exaport', language 'pt_br', branch 'MOODLE_30_STABLE'
+ * Strings for component 'block_exaport', language 'pt_br', branch 'MOODLE_31_STABLE'
  *
  * @package   block_exaport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -43,13 +43,8 @@ $string['comments'] = 'Comentários';
 $string['commentshouldnotbeempty'] = 'Você precisa digitar um comentário.';
 $string['competences'] = 'competências';
 $string['config_feature_copy_to_course'] = 'Permitir que os alunos copiem arquivos E- Portfolio para seus cursos';
-$string['config_version_2'] = 'Layout antigo do E-Portfolio';
-$string['config_version_3'] = 'Novo layout do E-Portfolio: incluindo visualizações, etc';
 $string['contactcomps'] = 'Contrair todos';
 $string['copyitemtocourse'] = 'Copiar para o curso';
-$string['copystructure'] = 'Copiar estrutura';
-$string['copystructureconfirmation'] = 'Você realmente deseja copiar esta estrutura?';
-$string['copytocategory'] = 'Copie para essa categoria:';
 $string['couldninsertcomment'] = 'Não foi possível inserir comentário!';
 $string['couldntcopyfile'] = 'Não foi possível copiar o arquivo para $a! Arquivo não importado.';
 $string['couldntcreatedirectory'] = 'Não foi possível criar diretório';
@@ -73,23 +68,16 @@ $string['deletefileconfirm'] = 'Você realmente quer apagar este arquivo?';
 $string['deletelinkconfirm'] = 'Você realmente deseja excluir este link?';
 $string['deletenoteconfirm'] = 'Você realmente deseja excluir esta anotação?';
 $string['deleteposterror'] = 'Ocorreu um erro durante a exclusão da postagem';
-$string['deleteurlconfirm'] = 'Você realmente quer apagar esta url?';
 $string['descriptionsaved'] = 'Descrição salva';
 $string['deselectall'] = 'Desmarcar todos';
-$string['desp_explainingfile'] = 'Arquivos. Esses arquivos podem ser compartilhados com todos os participantes autorizados do curso.';
-$string['desp_explaininglink'] = 'Links. Esses links podem ser compartilhados com todos os participantes autorizados do curso.';
-$string['desp_explainingnote'] = 'Notas. Essas notas podem ser compartilhados com todos os participantes autorizados do curso.';
 $string['details'] = 'Detalhes';
 $string['developed'] = 'desenvolvido por';
-$string['display_all'] = 'Exibir todas as visualizações';
-$string['display_onlyexternal'] = 'Exibir somente visualizações compartilhadas externamente';
 $string['explainingsharenote'] = 'Para permitir que um participante veja sua nota, clique em seu nome e em seguida, clique em Salvar Alterações. Você pode escolher mais de um participante.';
 $string['explainingviews'] = 'Gerencie suas visualizações.';
 $string['explainpersonal'] = 'Informações Pessoais';
 $string['export'] = 'Exportar arquivo SCORM';
 $string['exportcomment'] = 'Este é um arquivo exportado do Exabis E-Portfolio. Por favor, não remova os comentários , eles são necessários para a importação!';
 $string['exportepx'] = 'Exportar arquivo EPX';
-$string['exportimport'] = 'Exportar/Importar';
 $string['exportviewselect'] = 'Para exportar todos os itens de uma visão específica, por favor, selecione-o aqui';
 $string['externaccess'] = 'Link esterno para E-Portfolio';
 $string['externalaccess'] = 'Acesso Externo';
@@ -140,15 +128,9 @@ $string['mandatoryfieldsforcat'] = 'O nome do campo é obrigatório. Por favor, 
 $string['media'] = 'Mídia';
 $string['media_allowed_notes'] = 'URLs dos seguintes sites são permitidos:';
 $string['mediacontent'] = 'URL ou código incorporado *';
-$string['membersnumber'] = 'Número de ouvintes';
-$string['modulename'] = 'E-Portfolio Exabis';
 $string['moodleimport'] = 'Importar da tarefas Moodle';
 $string['movebottom'] = 'Mover fundo';
 $string['movetop'] = 'Mover topo';
-$string['mybookmarks'] = 'Meu Portfolio';
-$string['mybookmarkstitle'] = 'Módulo E-Portfolio Exabis: Adicione seus links e arquivos aqui.';
-$string['mydialogues'] = 'Meus Diálogos';
-$string['mymoodle'] = 'Meu Moodle';
 $string['name'] = 'Nome';
 $string['new'] = 'Novo';
 $string['newfile'] = 'Adicionar novo arquivo';
@@ -178,7 +160,6 @@ $string['nouserforaccess'] = 'Usuário não encontrado (código de acesso descon
 $string['nouserforid'] = 'Usuário não encontrado (ID desconhecido)';
 $string['nousersfound'] = 'Usuário não encontrado';
 $string['noviews'] = 'Por favor, crie uma nova visualização';
-$string['only_external'] = 'Compartilhar somente visualizações externas';
 $string['opencomps'] = 'Escolha suas competências';
 $string['othercourses'] = 'outros cursos';
 $string['other_groups_course'] = 'Outros cursos';

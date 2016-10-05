@@ -577,6 +577,7 @@ $cache = array (
       'openclosedate' => '/var/www/html/moodle/mod/quiz/accessrule/openclosedate',
       'password' => '/var/www/html/moodle/mod/quiz/accessrule/password',
       'safebrowser' => '/var/www/html/moodle/mod/quiz/accessrule/safebrowser',
+      'safeexambrowser' => '/var/www/html/moodle/mod/quiz/accessrule/safeexambrowser',
       'securewindow' => '/var/www/html/moodle/mod/quiz/accessrule/securewindow',
       'timelimit' => '/var/www/html/moodle/mod/quiz/accessrule/timelimit',
     ),
@@ -768,8 +769,9 @@ $cache = array (
         3 => 'openclosedate',
         4 => 'password',
         5 => 'safebrowser',
-        6 => 'securewindow',
-        7 => 'timelimit',
+        6 => 'safeexambrowser',
+        7 => 'securewindow',
+        8 => 'timelimit',
       ),
     ),
     'mod_scorm' => 
@@ -2910,6 +2912,7 @@ $cache = array (
       ),
       'quizaccess' => 
       array (
+        'safeexambrowser' => '/var/www/html/moodle/mod/quiz/accessrule/safeexambrowser/settings.php',
       ),
       'scormreport' => 
       array (

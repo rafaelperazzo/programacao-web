@@ -26,5 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['ajaxerror'] = 'Erro ao entrar em contato com o servidor para converter horas';
+$string['conditiontitle'] = 'Semana a partir do início';
+$string['pluginname'] = 'Restrição por semana a partir do início';
 $string['short_week'] = 'Disponível a partir da semana <strong>{$a}</strong>';
 $string['title'] = 'Semana';

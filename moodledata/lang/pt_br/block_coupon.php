@@ -25,6 +25,46 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['and'] = 'e';
+$string['blockname'] = 'Cupom';
+$string['button:next'] = 'Próximo';
+$string['button:save'] = 'Gerar Cupons';
+$string['button:submit_coupon_code'] = 'Enviar Cupom';
+$string['confirm_coupons_sent_subject'] = 'Todos os Cupons foram enviados';
+$string['coupon:addinstance'] = 'Adicionar um novo bloco de Cupom';
+$string['coupon:administration'] = 'Administrar o bloco de Cupom';
+$string['coupon:generatecoupons'] = 'Gerar um novo cupom';
+$string['coupon:inputcoupons'] = 'Usar o cupom para se inscrever';
+$string['coupon_mail_content'] = 'Prezado(a) {$a->to_name},<br /><br />
+
+Você esta recebendo esta mensagem pois novos cupons foram gerados recentemente. Os cupons estão disponíveis anexos à esta mensagem.
+<br /><br />
+
+Atenciosamente,<br /><br />
+
+{$a->from_name}';
+$string['coupon_mail_subject'] = 'Cupom Moodle gerado';
+$string['coupon:myaddinstance'] = 'Adicionar um novo bloco Cupom à pagina My Moodle';
+$string['coupon:send:fail'] = 'Envio do e-mail falhou! Motivo: {$a}';
+$string['heading:coupon_type'] = 'Tipo de cupom';
+$string['heading:csvForm'] = 'Configurações CSV';
+$string['heading:general_settings'] = 'Últimas configurações';
+$string['heading:input_course'] = 'Selecionar o curso';
+$string['heading:input_groups'] = 'Selecionar os grupos';
+$string['heading:label_instructions'] = 'Instruções';
+$string['heading:manualForm'] = 'Configuração manual';
+$string['label:alternative_email'] = 'E-mail alternativo';
+$string['label:alternative_email_help'] = 'Enviar os cupons por padrão para este endereço de e-mail.';
+$string['label:api_enabled'] = 'Habilitar API';
+$string['label:api_password'] = 'Senha API';
+$string['label:api_user'] = 'Usuário API';
+$string['label:api_user_desc'] = 'O usuário que pode ser utilizado para gerar um cupom usando a API.';
+$string['label:cleanupage'] = 'Idade máxima?';
+$string['label:cleanupage_help'] = 'Digite a idade máxima de um cupom não utilizado antes de ser removido';
+$string['label:connected_courses'] = 'Curso(s) conectado(s)';
+$string['label:coupon_amount'] = 'Quantidade de cupons';
+$string['label:coupon_code'] = 'Código do Cupom';
+$string['label:coupon_code_help'] = 'Este código de cupom é único e esta ligado à cada cupom individual. Você pode encontrar este código em seu cupom.';
 $string['report:owner'] = 'Proprietário';
 $string['report:senddate'] = 'Enviar data';
 $string['report:status_completed'] = 'Curso concluído';
