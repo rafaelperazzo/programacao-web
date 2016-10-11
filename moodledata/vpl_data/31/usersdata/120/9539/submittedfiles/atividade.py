@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+n=input('insira o valor de n:')
+
+
+i=1
+#SAIDA
+while i<=n:
+    x=input('insira o valor de x':)
+    y=input('insira o valor de y':)
+    
+    if x>=0 and y>=o and (x**2)+(y**2)<=1:
+        print ('SIM')
+    else:
+        print ('NAO')
+    i=i+1
+    
