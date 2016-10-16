@@ -1,0 +1,20 @@
+-Test 6: Teste 6 (-1.667)
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+>Digite o valor de n: Traceback (most recent call last):
+>  File "atividade.py", line 9, in <module>
+>    for i in range (1,k+1,1):
+>TypeError: range() integer end argument expected, got float.
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+

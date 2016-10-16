@@ -1,0 +1,16 @@
+-Test 4: Teste 4 (-2.500)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>Digite o valor de n:2
+
+ --- Expected output (text)---
+> '1'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

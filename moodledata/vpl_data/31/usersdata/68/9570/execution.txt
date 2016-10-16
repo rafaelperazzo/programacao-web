@@ -1,0 +1,32 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>3
+>0.5
+>0.2
+
+ --- Program output ---
+>Digite n:Digite x:Digite y:NAO
+>Digite x:Digite y:NAO
+
+ --- Expected output (regular expression)---
+>[[:print:]]+\bNAO\b
+>[[:print:]]+\bSIM\b
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

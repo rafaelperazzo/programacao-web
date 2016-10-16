@@ -1,0 +1,22 @@
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>3
+>0.5
+>0.2
+
+ --- Program output ---
+>n: x: y: NAO
+>x: y: NAO
+
+ --- Expected output (regular expression)---
+>[[:print:]]+\bNAO\b
+>[[:print:]]+\bSIM\b
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

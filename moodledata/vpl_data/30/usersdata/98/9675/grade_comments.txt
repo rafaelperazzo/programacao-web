@@ -1,0 +1,31 @@
+-Failed tests
+Test 4: Teste 4
+Test 6: Teste 6
+-Test 4: Teste 4 (-1.667)
+Incorrect program result
+ --- Input ---
+> 0
+
+ --- Program output ---
+>Digite o valor de n: 0.50000
+
+ --- Expected output (text)---
+> '0.00000'
+
+-Test 6: Teste 6 (-1.667)
+Program timeout
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+

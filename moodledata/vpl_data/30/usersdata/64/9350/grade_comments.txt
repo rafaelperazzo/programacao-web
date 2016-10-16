@@ -1,0 +1,31 @@
+-Failed tests
+Test 5: Teste 5
+Test 6: Teste 6
+-Test 5: Teste 5 (-1.667)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>Digite o valor de n: 0.00000
+
+ --- Expected output (text)---
+> '8.70000'
+
+-Test 6: Teste 6 (-1.667)
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+>Digite o valor de n: 0.00000
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,17 @@
+-Test 6: Teste 6 (-1.667)
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+>digite n:5.42375
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+

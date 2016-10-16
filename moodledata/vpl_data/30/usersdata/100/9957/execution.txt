@@ -1,0 +1,34 @@
+Testing 1/6 : Teste 1
+Testing 2/6 : Teste 2
+Testing 3/6 : Teste 3
+Testing 4/6 : Teste 4
+Testing 5/6 : Teste 5
+Testing 6/6 : Teste 6
+
+<|--
+-Test 6: Teste 6 (-1.667)
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+>Insira n: Traceback (most recent call last):
+>  File "atividade.py", line 9, in <module>
+>    for i in range (1,n+1,1):
+>TypeError: range() integer end argument expected, got float.
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 8.33

@@ -1,0 +1,28 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 4: Teste 4 (-2.500)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>Digite o valor: 2
+
+ --- Expected output (text)---
+> '1'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 7.50
