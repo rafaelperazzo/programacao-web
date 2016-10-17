@@ -1,0 +1,14 @@
+s:1026:"<p></p><p>Este campo é opcional.</p>
+<p>Pode-se restringir o acesso a um questionário a sub-redes particulares numa LAN ou
+Internet especificando-se uma lista separada por vírgulas dos endereços IP completos ou parciais.</p>
+<p>Isto é especialmente útil para um questionário pré-determinado ("proctored quiz"), onde se desejar certeza
+que somente as pessoas de uma certa sala estiverem aptas a acessar o questionário.</p>
+<p>Por exemplo: <b>192.168. , 231.54.211.0/20, 231.3.56.211</b></p>
+<p>Existem três tipos de números que podem ser usados (não se podem utilizar nomes de domínios em texto como exemplo.com):
+</p><ol><li>Endereços IP completos, tais como <b>192.168.10.1</b> designarão um simples
+  computador (ou proxy).
+  </li><li>Endereços parciais, tais como <b>192.168</b> designarão qualquer um
+  iniciando com estes números.
+  </li><li>Notação CIDR, tais como <b>231.54.211.0/20</b> permitirá que se especifiquem
+  sub-redes mais detalhadas. </li></ol><p></p><p>Os espaços são ignorados.</p>
+";

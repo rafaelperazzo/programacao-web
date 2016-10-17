@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO ABAIXO DESTA LINHA
+a= int(input('digite o valor de a: '))
+b= int(input('digite o valor de b: '))
+c= int(input('digite o valor de c: '))
+d= int(input('digite o valor de d: '))
+e= int(input('digite o valor de e: '))
+if 1<=a<=13 and 1<=b<=13 and 1<=c<=13 and 1<=d<=13 and 1<=e<=13:
+    if a>b>c>d>e:
+        print('D')
+    elif a<b<c<d<e:
+        print('C')
+    else:
+        print('N')
+

@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+m=input('digite o valor de m:')
+
+
+#SAIDA
+

@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI ABAIXO
+
+n=input('digite o valor de n:')
+
+j=1
+soma=0
+
+for j in range(1,n+1,2):
+    if n%i==0
+    soma=soma+(1/(j*(3**i)))
+    else:
+        soma=soma-(1/j*(3**i)
+        
+    j=j+2
+    soma=12**(1/2)*soma
+    print('%.6f'%soma)
+    
+    
+ 
