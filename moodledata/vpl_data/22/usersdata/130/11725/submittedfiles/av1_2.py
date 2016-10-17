@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+d=input('Digite o valor de d:')
+if a==c and b!=d:
+    print('V')
+else:
+    print('F')
+if b==0 and a!=c:
+    print('V')
+else:
+    print('F')

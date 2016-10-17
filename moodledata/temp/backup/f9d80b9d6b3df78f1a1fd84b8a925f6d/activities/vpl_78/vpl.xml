@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="10" moduleid="78" modulename="vpl" contextid="1280">
+  <vpl id="10">
+    <name>Ambiente virtual de programação</name>
+    <shortdescription>Programação</shortdescription>
+    <intro>&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: xx-large;"&gt;Espaço para treinamento, testes e estudos de programação em Python.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1482285300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>0</grade>
+    <visiblegrade>0</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>1</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>testes.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/testes.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI ABAIXO
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="9652">
+        <vpl>10</vpl>
+        <userid>2</userid>
+        <datesubmitted>1476184586</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import numpy as np
+#COMECE AQUI ABAIXO
+n = input('Digite n: ')
+m = input('Digite o valor de m: ')
+
+#Contar digitos de m
+cont = 0
+temp = m
+while temp&gt;0:
+    temp = temp//10
+    cont = cont + 1
+
+divisor = 10**cont
+
+temp = n
+verdade = False
+while temp&gt;0:
+    numero = temp%divisor
+    if numero==m:
+        verdade = True
+        break
+    temp = temp // 10
+
+if verdade:
+    print('SIM')
+else:
+    print('NAO')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11661">
+        <vpl>10</vpl>
+        <userid>61</userid>
+        <datesubmitted>1476722824</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math 
+
+n=int(input('n:'))
+x=1
+while n%x==0:
+    print x 
+    x=x+1
+    
+    
+    
+
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11662">
+        <vpl>10</vpl>
+        <userid>71</userid>
+        <datesubmitted>1476722869</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input()
+b=input()
+i=2
+
+while True:
+    if i%a==0 and i%b==0:
+        print i 
+        break
+    i=i+1
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11586">
+        <vpl>10</vpl>
+        <userid>73</userid>
+        <datesubmitted>1476719333</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite a:')
+b=input('digite b:')
+i=2
+mdc=1
+while i&lt;=a:
+    if a%i==0 and b%i==0:
+        mdc=i
+    i=i+1
+print mdc</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11643">
+        <vpl>10</vpl>
+        <userid>80</userid>
+        <datesubmitted>1476721219</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+n=int(input('Digite N:'))
+x=1
+while x&lt;(2*n)+1:
+    print(x)
+    x=x+2
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="10276">
+        <vpl>10</vpl>
+        <userid>85</userid>
+        <datesubmitted>1476562729</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+hf=1.5
+hc=1.1
+
+cont=0
+while hc&lt;=hf:
+    cont=cont+1
+    hc=hc+0.03
+    hf=hf+0.02
+print cont</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11660">
+        <vpl>10</vpl>
+        <userid>98</userid>
+        <datesubmitted>1476722651</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI ABAIXO
+n=input('Digite o valor de n: ')
+j=input('Digite o valor de j: ')
+m=input('Digite o valor de m: ')
+cont=0
+i=0
+while True:
+    a=i%m
+    b=j%m
+    if a==b:
+        print(i)
+        cont=cont+1
+    i=i+1
+    if cont==n:
+        break</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11648">
+        <vpl>10</vpl>
+        <userid>100</userid>
+        <datesubmitted>1476721432</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#COMECE AQUI ABAIXO
+n = input ('Digite o valor decimal:')
+cont=0
+soma=0
+while True:
+    a=n%10
+    soma=soma+(n%2)*10**cont
+    n=n//2
+    cont=cont +1
+    if n==0:
+        break
+print soma</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7339">
+        <vpl>10</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474945648</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11658">
+        <vpl>10</vpl>
+        <userid>128</userid>
+        <datesubmitted>1476722481</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI ABAIXO
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="10038">
+        <vpl>10</vpl>
+        <userid>132</userid>
+        <datesubmitted>1476449741</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+n=input('a quantidade de termos:')
+j=input('digite um numero:')
+m=input('digite um numero:')
+i=1
+while(i&lt;=n):
+    if i%m==j%m:
+        print(i)
+    i=i+1    
+
+
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="10454">
+        <vpl>10</vpl>
+        <userid>136</userid>
+        <datesubmitted>1476654386</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE AQUI ABAIXO
+n = int(input("Digite o valor de n:"))
+cont = 0
+while n&gt;0:
+    n = n//10
+    cont = cont + 1
+print (cont)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="11649">
+        <vpl>10</vpl>
+        <userid>137</userid>
+        <datesubmitted>1476721510</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+n=int(input('digite n:'))
+cont=0
+for i in range(1,n+1,1):
+    if n%i==0:
+        cont=cont+1
+if cont&gt;2:
+    print ('não é primo')
+else:
+    print('primo')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="9592">
+        <vpl>10</vpl>
+        <userid>143</userid>
+        <datesubmitted>1476130106</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>testes.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/testes.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+n = input('n')
+i = 1
+cont = 0
+while i&lt;n:
+    if i%2==1:
+        cont=cont + 1
+    i=i+1
+print(cont)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

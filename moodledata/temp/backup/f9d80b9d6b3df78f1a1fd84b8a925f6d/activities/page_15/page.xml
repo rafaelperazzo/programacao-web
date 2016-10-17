@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="15" modulename="page" contextid="455">
+  <page id="1">
+    <name>Como abordar um problema de programação</name>
+    <intro>Conteúdo retirado da página:&lt;br&gt;&lt;a target="_blank" href="http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/"&gt;http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/&lt;/a&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;&lt;table width="100%" border="0" cellpadding="5"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top" width="*"&gt;&lt;h3&gt;Como Abordar um Problema de Programação&lt;/h3&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top" width="*"&gt;&lt;em&gt;Vinícius José Fortuna&lt;/em&gt;&lt;em&gt;(aluno de mestrado do IC-UNICAMP, participante da IOI 99)&lt;/em&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h4&gt;Projete seu programa antes de programá-lo&lt;/h4&gt;
+&lt;p&gt;Nunca comece a programar a partir do nada. Deve-se sempre 
+esquematizar alguns pseudo-códigos explicando o que o seu programa vai 
+fazer (em um nível mais elevado) antes de começar a programar. A única 
+exceção é quando se trata de um código que você já escreveu diversas 
+vezes (p/ ex.: encontrar um elemento em um vetor).&lt;/p&gt;
+&lt;p&gt;Quando se começa a escrever um programa sem ter pensado nele antes, 
+fica difícil visualizá-lo como um todo. Criando um rascunho prévio do 
+programa, podem aparecer várias abordagens do problema e as dificuldades
+ ficam mais fáceis de serem superadas. Esquematizar o programa ajudar a 
+fixar exatamente o que se deseja e economiza-se bastante tempo em frente
+ ao monitor na tentativa de escrever um programa que cumpra o desejado.&lt;/p&gt;
+&lt;h4&gt;Escreva um código legível&lt;/h4&gt;
+&lt;p&gt;Escrever um código legível é muito importante para facilitar o 
+entendimento de um programa. Até para o próprio criador do código. Em 
+programa claro e auto-explicativo fica mais difícil se perder e torna 
+muito mais fácil a depuração.&lt;/p&gt;
+&lt;h4&gt;Comente seu código enquanto escreve, não depois&lt;/h4&gt;
+&lt;p&gt;Comentários são ferramentas muito úteis para tornar o código mais 
+legível. É interessante comentar tudo que não seja muito claro. Não 
+comente algo que seja óbvio (p/ ex&lt;span style="font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular; font-size: xx-small;"&gt;.: “&lt;span style="font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular; font-size: xx-small;"&gt;i := 0 { Atribui o valor 0 à variável i }” ). Comente algo como&lt;span style="font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular; font-size: xx-small;"&gt;: “x:= 40 – Lenght(frase)/2 { x recebe a posição para frase ficar centralizada }”.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Em programa muito grandes ou complicados, é interessante criar um 
+cabeçalho comentado em cada função, definindo exatamente o que espera-se
+ que ela faça, quais suas entradas e quais suas saídas. O pseudo-código 
+rascunhado pode ser muito útil para isso. Agindo assim, não se precisa 
+ler diversas linhas de código para saber o que uma função faz.&lt;/p&gt;
+&lt;p&gt;É recomendável que se escreva os comentários enquanto se escreve o 
+programa, pois é menos provável que se escreva alguma coisa útil ou 
+significativa depois. Escreva enquanto programa e seus comentários serão
+ muito mais completos.&lt;/p&gt;
+&lt;h4&gt;Utilize margens e indentação apropriadamente&lt;/h4&gt;
+&lt;p&gt;A cada novo &lt;em&gt;loop&lt;/em&gt;, expressões condicionais, definição de 
+funções e blocos de comandos, seu código deve ser indentado um nível 
+mais à direita (pressione [TAB] ou a barra de espaço algumas vezes). 
+Esteja certo de voltar ao nível de indentação anterior quando terminar o
+ bloco.&lt;/p&gt;
+&lt;p&gt;Linhas em branco também são muito úteis para aumentar a legibilidade 
+do seu código. Umas duas linhas entre as definições de funções e 
+procedimentos e uma linha entre a definição de variáveis e o código irão
+ separar claramente cada parte, o que torna a identificação delas mais 
+rápida. Isso torna o código bem mais claro.&lt;/p&gt;
+&lt;h4&gt;Use nomes sugestivos para variáveis, funções e procedimentos&lt;/h4&gt;
+&lt;p&gt;O código fica incrivelmente mais difícil de ser depurado quando 
+variáveis importantes se chamam p, t, ma1, qq, e assim por diante. 
+Deve-se sempre utilizar nomes sugestivos para as variáveis, funções e 
+procedimentos. O nome deve dar idéia do que a variável representa ou o 
+que a função ou procedimento fazem. Por exemplo, se você quer armazenar o
+ número de alunos em uma variável, pode-se usar um_alunos. Se for uma 
+função que calcula o salário médio, pode-se nomeá-la&lt;/p&gt;
+&lt;h4&gt;Utilize funções e procedimentos curtos e objetivos&lt;/h4&gt;
+&lt;p&gt;Evite sempre funções/procedimentos grandes que englobem todo tipo de 
+processamento. Separe algoritmos distintos em suas próprias 
+funções/procedimentos. Projete sua grande função/procedimento em várias 
+pequenas, de forma que seu programa fique mais fácil de ler e entender.&lt;/p&gt;
+&lt;p&gt;Dessa forma, cada parte do seu programa fica bem definida e torna-se 
+muito mais fácil escrevê-lo, pois pode-se fazê-lo passo a passo. Dessa 
+forma, a cada parte que se termina, pode-se verificar se ela está 
+correta. Além disso a localização de um problema no programa também fica
+ facilitada, pois ele se restringirá a um bloco menor de código.&lt;/p&gt;
+&lt;h4&gt;Conclusão:&lt;/h4&gt;
+&lt;p&gt;Lembre-se que a maior parte do tempo que se gasta programando é corrigindo e modificando código&lt;/p&gt;
+&lt;p&gt;existente. Relativamente pouco tempo é realmente utilizado para 
+adicionar coisas novas. Isso significa que você gastará muito tempo 
+lendo o seu código, então faz sentido gastar algum tempo aprendendo a 
+escrever um código legível. Código legível é fácil de escrever, fácil de
+ depurar e fácil de manter. Você realmente sai ganhando!&lt;/p&gt;
+&lt;h4&gt;Se estiver confuso na hora da depuração&lt;/h4&gt;
+&lt;p&gt;Se você estiver confuso ao tentar procurar algum problema no seu 
+programa, tente explicá-lo para você mesmo. Dessa forma é possível notar
+ inconsistências ou fugas ao algoritmo planejado.&lt;/p&gt;
+&lt;p&gt;Caso isso não resolva, pode-se tentar executar o programa no papel. 
+Isso se aplica tanto a códigos que você escreveu e não está mais 
+entendendo como a códigos pegos de outros. Funciona da seguinte maneira:
+ Pegue uma folha em branco e liste todas as variáveis usadas no 
+programa. Siga linha por linha do código, escrevendo o valor das 
+variáveis enquanto elas mudam, como se você fosse o computador. Pode-se 
+usar uma calculadora para ajudar nas contas. Anote todas as saídas em 
+uma folha à parte. Após algumas poucas iterações a estrutura básica do 
+algoritmo e sua intenção devem ficar claras. Tome cuidado, pois nem 
+sempre o código funciona do jeito que nós pensamos que funciona.&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>1</revision>
+    <timemodified>1468416513</timemodified>
+  </page>
+</activity>

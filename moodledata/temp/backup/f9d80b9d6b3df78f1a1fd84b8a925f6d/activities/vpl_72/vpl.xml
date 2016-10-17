@@ -1,0 +1,5896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="72" modulename="vpl" contextid="1266">
+  <vpl id="6">
+    <name>Exercício 9 - Prático</name>
+    <shortdescription>Atividade Prática</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="text-decoration: underline; font-size: x-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Escreva um programa em Python que calcule o saldo total de um investimento, que cresce a uma taxa fixa anual. O programa deve pedir ao usuário dois valores reais:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entrada&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;- O valor do investimento inicial: Ex: 100, 2500.50&lt;/p&gt;
+&lt;p&gt;- A taxa de crescimento percentual. Ex: 5% deve ser escrito como 0.05.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saída&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O programa deve mostrar 10 valores reais, que correspondem aos valores atualizados a cada ano, no total de 10 anos.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suponha que o usuário entre com um investimento inicial de &lt;strong&gt;1000&lt;/strong&gt; reais com taxa de &lt;strong&gt;4.5&lt;/strong&gt;% ao ano. Os valores ano a ano que devem ser mostrados são (com duas casas decimais):&lt;/p&gt;
+&lt;p&gt;1045.00&lt;br /&gt;1092.02&lt;br /&gt;1141.17&lt;br /&gt;1192.52&lt;br /&gt;1246.18&lt;br /&gt;1302.26&lt;br /&gt;1360.86&lt;br /&gt;1422.10&lt;br /&gt;1486.10&lt;br /&gt;1552.97&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DICA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O valor a cada ano deve ser atualizado de acordo com a formula:&lt;/p&gt;
+&lt;p&gt;investimento = investimento + taxa*investimento&lt;/p&gt;
+&lt;p&gt;Considerando que a taxa é um valor entre 0 e 1.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1473332400</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>investimento.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/investimento.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 1000
+0.045
+output = 1045.00
+1092.03
+1141.17
+1192.52
+1246.18
+1302.26
+1360.86
+1422.10
+1486.10
+1552.97</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="5097">
+        <vpl>6</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474459018</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+total = input('Digite o valor do investimento : ')
+taxa = input('Digite a taxa de crescimento anual: ')
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+total = total + total*taxa
+print ('%.2f' % total)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5808">
+        <vpl>6</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474684707</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684712</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+Capital=input('Digite o valor do capital/:')
+Taxa=input('Digite o valor da taxa de crescimento:')
+Saldo1=Capital+(Capital*Taxa)
+Saldo2=Saldo1+(Saldo1*Taxa)
+Saldo3=Saldo2+(Saldo2*Taxa)
+Saldo4=Saldo3+(Saldo3*Taxa)
+Saldo5=Saldo4+(Saldo4*Taxa)
+Saldo6=Saldo5+(Saldo5*Taxa)
+Saldo7=Saldo6+(Saldo6*Taxa)
+Saldo8=Saldo7+(Saldo7*Taxa)
+Saldo9=Saldo8+(Saldo8*Taxa)
+Saldo10=Saldo9+(Saldo9*Taxa)
+print('%.2f' %Saldo1)
+print('%.2f' %Saldo2)
+print('%.2f' %Saldo3)
+print('%.2f' %Saldo4)
+print('%.2f' %Saldo5)
+print('%.2f' %Saldo6)
+print('%.2f' %Saldo7)
+print('%.2f' %Saldo8)
+print('%.2f' %Saldo9)
+print('%.2f' %Saldo10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1973">
+        <vpl>6</vpl>
+        <userid>62</userid>
+        <datesubmitted>1473682116</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473682166</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+#ENTRADA
+inicial=input("investimento inicial: ")
+taxa=input("taxa de crescimento percentual: ")
+#PROCESSAMENTO
+ano1=inicial+taxa*inicial
+ano2=ano1+taxa*ano1
+ano3=ano2+taxa*ano2
+ano4=ano3+taxa*ano3
+ano5=ano4+taxa*ano4
+ano6=ano5+taxa*ano5
+ano7=ano6+taxa*ano6
+ano8=ano7+taxa*ano7
+ano9=ano8+taxa*ano8
+ano10=ano9+taxa*ano9
+#SAIDA
+print("resultados: ")
+print("%.2f" %ano1)
+print("%.2f" %ano2)
+print("%.2f" %ano3)
+print("%.2f" %ano4)
+print("%.2f" %ano5)
+print("%.2f" %ano6)
+print("%.2f" %ano7)
+print("%.2f" %ano8)
+print("%.2f" %ano9)
+print("%.2f" %ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2348">
+        <vpl>6</vpl>
+        <userid>63</userid>
+        <datesubmitted>1473779985</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473780039</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a1=input('Digite o valor do investimento:')
+taxa=input('taxa do crescimento percentual:')
+
+a=a1+(taxa*a1)
+b=a+(taxa*a)
+c=b+(taxa*b)
+d=c+(taxa*c)
+e=d+(taxa*d)
+f=e+(taxa*e)
+g=f+(taxa*f)
+h=g+(taxa*g)
+i=h+(taxa*h)
+j=i+(taxa*i)
+
+
+print('%.2f' %a)
+print('%.2f' %b)
+print('%.2f' %c)
+print('%.2f' %d)
+print('%.2f' %e)
+print('%.2f' %f)
+print('%.2f' %g)
+print('%.2f' %h)
+print('%.2f' %i)
+print('%.2f' %j)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2992">
+        <vpl>6</vpl>
+        <userid>64</userid>
+        <datesubmitted>1473951554</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473951558</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+
+vi = input('Digite o valor inicial: ')
+t = input('Digite a taxa de crescimento percentual: ')
+
+#PROCESSAMENTO
+
+a = float(vi+(vi*t))
+b = float(a+(a*t))
+c = float(b+(b*t))
+d = float(c+(c*t))
+e = float(d+(d*t))
+f = float(e+(e*t))
+g = float(f+(f*t))
+h = float(g+(g*t))
+i = float(h+(h*t))
+j = float(i+(i*t))
+
+#SAÍDA 
+
+print ('%.2f' %(a))
+print ('%.2f' %(b))
+print ('%.2f' %(c))
+print ('%.2f' %(d))
+print ('%.2f' %(e))
+print ('%.2f' %(f))
+print ('%.2f' %(g))
+print ('%.2f' %(h))
+print ('%.2f' %(i))
+print ('%.2f' %(j))
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2531">
+        <vpl>6</vpl>
+        <userid>65</userid>
+        <datesubmitted>1473816629</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473816631</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+investimento=input('Digite o valor a ser investido: ')
+taxa=input('Digite a taxa: ')
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)
+
+investimento=float(investimento+(taxa*investimento))
+print('%.2f' %investimento)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2217">
+        <vpl>6</vpl>
+        <userid>66</userid>
+        <datesubmitted>1473767905</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473767910</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+a=input ("digite o valor inicial:")
+b=input("digite a taxa anual:")
+a1=a+(b*a)
+a2=a1+(b*a1)
+a3=a2+(b*a2)
+a4=a3+(b*a3)
+a5=a4+(b*a4)
+a6=a5+(b*a5)
+a7=a6+(b*a6)
+a8=a7+(b*a7)
+a9=a8+(b*a8)
+a10=a9+(b*a9)
+print("%.2f"%a1)
+print("%.2f"%a2)
+print("%.2f"%a3)
+print("%.2f"%a4)
+print("%.2f"%a5)
+print("%.2f"%a6)
+print("%.2f"%a7)
+print("%.2f"%a8)
+print("%.2f"%a9)
+print("%.2f"%a10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3281">
+        <vpl>6</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474050619</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474050622</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+a=input("Digite o valor do investimento:")
+b=input("Digite a taxa de crescimento:")
+
+c= float(a+(a*b))
+d= float(c+(c*b))
+e= float(d+(d*b))
+f= float(e+(e*b))
+g= float(f+(f*b))
+h= float(g+(g*b))
+i= float(h+(h*b))
+j= float(i+(i*b))
+k= float(j+(j*b))
+l= float(k+(k*b))
+
+print("%.2f"%(c)) 
+print("%.2f"%(d)) 
+print("%.2f"%(e))
+print("%.2f"%(f))
+print("%.2f"%(g))
+print("%.2f"%(h))
+print("%.2f"%(i))
+print("%.2f"%(j))
+print("%.2f"%(k))
+print("%.2f"%(l))
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3626">
+        <vpl>6</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474241018</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474241055</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA:
+Inv=input ('Digite o valor do investimento:') 
+taxa=input ('Digite a taxa em casas decimais:')
+
+Inv1= Inv+(taxa*Inv)
+Inv2= Inv1+(taxa*Inv1)
+Inv3= Inv2+(taxa*Inv2)
+Inv4= Inv3+(taxa*Inv3)
+Inv5= Inv4+(taxa*Inv4)
+Inv6= Inv5+(taxa*Inv5)
+Inv7= Inv6+(taxa*Inv6)
+Inv8= Inv7+(taxa*Inv7)
+Inv9= Inv8+(taxa*Inv8)
+Inv10= Inv9+(taxa*Inv9)
+
+print ('%.2f' %Inv1)
+print ('%.2f' %Inv2)
+print ('%.2f' %Inv3)
+print ('%.2f' %Inv4)
+print ('%.2f' %Inv5)
+print ('%.2f' %Inv6)
+print ('%.2f' %Inv7)
+print ('%.2f' %Inv8)
+print ('%.2f' %Inv9)
+print ('%.2f' %Inv10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1831">
+        <vpl>6</vpl>
+        <userid>69</userid>
+        <datesubmitted>1473528964</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473528989</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+from __future__ import division
+i=input('Digite o valor do investimento inicial:')
+t=input('Digite a taxa de crescimento percentual:')
+i1=i+(t*i)
+i2=i1+(t*i1)
+i3=i2+(t*i2)
+i4=i3+(t*i3)
+i5=i4+(t*i4)
+i6=i5+(t*i5)
+i7=i6+(t*i6)
+i8=i7+(t*i7)
+i9=i8+(t*i8)
+i10=i9+(t*i9)
+print('%.2f'%i1)
+print('%.2f'%i2)
+print('%.2f'%i3)
+print('%.2f'%i4)
+print('%.2f'%i5)
+print('%.2f'%i6)
+print('%.2f'%i7)
+print('%.2f'%i8)
+print('%.2f'%i9)
+print('%.2f'%i10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3405">
+        <vpl>6</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474063342</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474063424</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+vi = input("Valor Inicial: ")
+tx = input("Taxa Anual: ")
+
+a1 = vi+(tx*vi)
+a2 = a1+(tx*a1)
+a3 = a2+(tx*a2)
+a4 = a3+(tx*a3)
+a5 = a4+(tx*a4)
+a6 = a5+(tx*a5)
+a7 = a6+(tx*a6)
+a8 = a7+(tx*a7)
+a9 = a8+(tx*a8)
+a10 = a9+(tx*a9)
+
+print("%.2f" %a1)
+print("%.2f" %a2)
+print("%.2f" %a3)
+print("%.2f" %a4)
+print("%.2f" %a5)
+print("%.2f" %a6)
+print("%.2f" %a7)
+print("%.2f" %a8)
+print("%.2f" %a9)
+print("%.2f" %a10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2798">
+        <vpl>6</vpl>
+        <userid>72</userid>
+        <datesubmitted>1473868765</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473868802</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+a=input('insira o valor do investimento inicial')
+b=input('insira o valor da taxa de crescimento percentual')
+
+#PROCESSAMENTO
+c=(a+(a*b))
+d=(c+(c*b))
+e=(d+(d*b))
+f=(e+(e*b))
+g=(f+(f*b))
+h=(g+(g*b))
+i=(h+(h*b))
+j=(i+(i*b))
+k=(j+(j*b))
+l=(k+(k*b))
+
+#SAIDA
+print ('seus valores sao:')
+print ('c=%.2f' %c)
+print ('d=%.2f' %d)
+print ('e=%.2f' %e)
+print ('f=%.2f' %f)
+print ('g=%.2f' %g)
+print ('h=%.2f' %h)
+print ('i=%.2f' %i)
+print ('j=%.2f' %j)
+print ('k=%.2f' %k)
+print ('l=%.2f' %l)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2591">
+        <vpl>6</vpl>
+        <userid>73</userid>
+        <datesubmitted>1473855701</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473855784</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv= int(input('digite o valor do investimento:'))
+tx= input ('digite o valor da taxa anual:')
+
+inv1=inv+(tx*inv)
+print (inv1)
+inv2=inv1+(tx*inv1)
+print (inv2)
+inv3=inv2+(tx*inv2)
+print (inv3)
+inv4=inv3+(tx*inv3)
+print (inv4)
+inv5=inv4+(tx*inv4)
+print (inv5)
+inv6=inv5+(tx*inv5)
+print (inv6)
+inv7=inv6+(tx*inv6)
+print (inv7)
+inv8=inv7+(tx*inv7)
+print(inv8)
+inv9=inv8+(tx*inv8)
+print (inv9)
+inv10=inv9+(tx*inv9)
+print (inv10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3236">
+        <vpl>6</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474040642</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474040715</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+i = input('Digite o valor do investimento:')
+tcp = input('Digite a taxa de crescimento percentual em valor decimal')
+
+#Anos seguidos
+
+a1 = i+i*tcp
+a2 = a1+a1*tcp
+a3 = a2+a2*tcp
+a4 = a3+a3*tcp
+a5 = a4+a4*tcp
+a6 = a5+a5*tcp
+a7 = a6+a6*tcp
+a8 = a7+a7*tcp
+a9 = a8+a8*tcp
+a10 = a9+a9*tcp
+
+print('%.2f'% a1)
+print('%.2f'% a2)
+print('%.2f'% a3)
+print('%.2f'% a4)
+print('%.2f'% a5)
+print('%.2f'% a6)
+print('%.2f'% a7)
+print('%.2f'% a8)
+print('%.2f'% a9)
+print('%.2f'% a10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2639">
+        <vpl>6</vpl>
+        <userid>75</userid>
+        <datesubmitted>1473858897</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858900</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+
+valor= input('Digite o valor do investimento:') 
+taxa= input('Digite a taxa de invstimento:')
+
+#Processamento
+
+ano1= valor+(valor*taxa)
+ano2= ano1+(ano1*taxa)
+ano3= ano2+(ano2*taxa)
+ano4= ano3+(ano3*taxa)
+ano5= ano4+(ano4*taxa)
+ano6= ano5+(ano5*taxa)
+ano7= ano6+(ano6*taxa)
+ano8= ano7+(ano7*taxa)
+ano9= ano8+(ano8*taxa)
+ano10= ano9+(ano9*taxa)
+
+#Saida
+
+print ('%.2f'%(ano1))
+print ('%.2f'%(ano2))
+print ('%.2f'%(ano3))
+print ('%.2f'%(ano4))
+print ('%.2f'%(ano5))
+print ('%.2f'%(ano6))
+print ('%.2f'%(ano7))
+print ('%.2f'%(ano8))
+print ('%.2f'%(ano9))
+print ('%.2f'%(ano10)) 
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3135">
+        <vpl>6</vpl>
+        <userid>76</userid>
+        <datesubmitted>1473992878</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473992881</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+a1 = input('Digite o valor do investimento:')
+t = input('Taxa do crescimento:')
+
+a = a1 + (t*a1)
+b = a + (t*a)
+c = b + (t*b)
+d = c + (t*c)
+e = d + (t*d)
+f = e + (t*e)
+g = f + (t*f)
+h = g + (t*g)
+i = h + (t*h)
+j = i + (t*i)
+
+print('%.2f' %a)
+print('%.2f' %b)
+print('%.2f' %c)
+print('%.2f' %d)
+print('%.2f' %e)
+print('%.2f' %f)
+print('%.2f' %g)
+print('%.2f' %h)
+print('%.2f' %i)
+print('%.2f' %j)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2331">
+        <vpl>6</vpl>
+        <userid>77</userid>
+        <datesubmitted>1473778220</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778223</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+investimentoInicial=input('Digite o valor do investimento inicial:')
+taxaDeCrescimento=input('Digite o valor da taxa de crescimento percentual:')
+
+investimento1=investimentoInicial+taxaDeCrescimento*(investimentoInicial)
+investimento2=investimento1+taxaDeCrescimento*(investimento1)
+investimento3=investimento2+taxaDeCrescimento*(investimento2)
+investimento4=investimento3+taxaDeCrescimento*(investimento3)
+investimento5=investimento4+taxaDeCrescimento*(investimento4)
+investimento6=investimento5+taxaDeCrescimento*(investimento5)
+investimento7=investimento6+taxaDeCrescimento*(investimento6)
+investimento8=investimento7+taxaDeCrescimento*(investimento7)
+investimento9=investimento8+taxaDeCrescimento*(investimento8)
+investimento10=investimento9+taxaDeCrescimento*(investimento9)
+
+print('%.2f' %investimento1)
+print('%.2f' %investimento2)
+print('%.2f' %investimento3)
+print('%.2f' %investimento4)
+print('%.2f' %investimento5)
+print('%.2f' %investimento6)
+print('%.2f' %investimento7)
+print('%.2f' %investimento8)
+print('%.2f' %investimento9)
+print('%.2f' %investimento10)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5258">
+        <vpl>6</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474479275</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474479308</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+iv=input('digite o valor do investimento:')
+tx=input('digite o valor da taxa:')
+
+a1=iv+(tx*iv)
+a2=a1+(tx*a1)
+a3=a2+(tx*a2)
+a4=a3+(tx*a3)
+a5=a4+(tx*a4)
+a6=a5+(tx*a5)
+a7=a6+(tx*a6)
+a8=a7+(tx*a7)
+a9=a8+(tx*a8)
+a10=a9+(tx*a9)
+
+print('%.2f' %a1)
+print('%.2f' %a2)
+print('%.2f' %a3)
+print('%.2f' %a4)
+print('%.2f' %a5)
+print('%.2f' %a6)
+print('%.2f' %a7)
+print('%.2f' %a8)
+print('%.2f' %a9)
+print('%.2f' %a10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3049">
+        <vpl>6</vpl>
+        <userid>79</userid>
+        <datesubmitted>1473963436</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473963461</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content>
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Sep 15 15:09:14 2016
+
+@author: arist_000
+"""
+
+# -*- coding: utf-8 -*-
+from __future__ import (division)
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+A = float(input('Digite o valor: '))
+x = float(input('Digite a taxa: '))
+
+#Processamento
+
+B = (A*x + A)
+
+C = (B*x + B)
+
+D = (C*x + C)
+
+E = (D*x + D)
+
+F = (E*x + E)
+
+G = (F*x + F)
+
+H = (G*x + G)
+
+I = (H*x + H)
+
+J = (I*x + I)
+
+K = (J*x + J)
+
+#Saida
+
+print('%.2f' %(B))
+
+print('%.2f' %(C))
+
+print('%.2f' %(D))
+
+print('%.2f' %(E))
+
+print('%.2f' %(F))
+
+print('%.2f' %(G))
+
+print('%.2f' %(H))
+
+print('%.2f' %(I))
+
+print('%.2f' %(J))
+
+print('%.2f' %(K))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1435">
+        <vpl>6</vpl>
+        <userid>80</userid>
+        <datesubmitted>1473437562</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473437582</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+c=input('digite o valor do capital:') 
+i=input('digite o valor da taxa:') 
+m1=c+(c*i)
+m2=m1+(m1*i)
+m3=m2+(m2*i)
+m4=m3+(m3*i)
+m5=m4+(m4*i)
+m6=m5+(m5*i)
+m7=m6+(m6*i)
+m8=m7+(m7*i)
+m9=m8+(m8*i)
+m10=m9+(m9*i)
+print('%.2f' %m1)
+print('%.2f' %m2)
+print('%.2f' %m3)
+print('%.2f' %m4)
+print('%.2f' %m5)
+print('%.2f' %m6)
+print('%.2f' %m7)
+print('%.2f' %m8)
+print('%.2f' %m9)
+print('%.2f' %m10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2418">
+        <vpl>6</vpl>
+        <userid>81</userid>
+        <datesubmitted>1473795703</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473795725</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv=input('Digite o valor do investimento:')
+t=input('Digite o valor da taxa anual:')
+
+ano1=inv+t*inv
+ano2=ano1+t*ano1
+ano3=ano2+t*ano2
+ano4=ano3+t*ano3
+ano5=ano4+t*ano4
+ano6=ano5+t*ano5
+ano7=ano6+t*ano6
+ano8=ano7+t*ano7
+ano9=ano8+t*ano8
+ano10=ano9+t*ano9
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3607">
+        <vpl>6</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474214681</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474214751</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+I = input ('Digite o valor do invertimento:')
+T = input ('Taxa crescimento percentual:')
+
+#PROCESSAMENTO
+Ia = I+(T*I)
+Ib = Ia+(T*Ia)
+Ic = Ib+(T*Ib)
+Id = Ic+(T*Ic)
+Ie = Id+(T*Id)
+If = Ie+(T*Ie)
+Ig = If+(T*If)
+Ih = Ig+(T*Ig)
+Ii = Ih+(T*Ih)
+Ij = Ii+(T*Ii)
+
+#SAIDA
+print ('%.2f' %Ia)
+print ('%.2f' %Ib)
+print ('%.2f' %Ic)
+print ('%.2f' %Id)
+print ('%.2f' %Ie)
+print ('%.2f' %If)
+print ('%.2f' %Ig)
+print ('%.2f' %Ih)
+print ('%.2f' %Ii)
+print ('%.2f' %Ij)
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2819">
+        <vpl>6</vpl>
+        <userid>84</userid>
+        <datesubmitted>1473869498</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473869556</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+valor=input('Valor: ')
+taxa=input('Taxa: ')
+
+anual=(valor+(valor*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)
+
+anual=(anual+(anual*taxa))
+print('%.2f' %anual)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1912">
+        <vpl>6</vpl>
+        <userid>85</userid>
+        <datesubmitted>1473623722</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473623725</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+i= input('Digite o valor do investimento: ')
+
+a1= i+(i*0.045)
+a2= a1+(a1*0.045)
+a3= a2+(a2*0.045)
+a4= a3+(a3*0.045)
+a5= a4+(a4*0.045)
+a6= a5+(a5*0.045)
+a7= a6+(a6*0.045)
+a8= a7+(a7*0.045)
+a9= a8+(a8*0.045)
+a10= a9+(a9*0.045)
+
+print('%.2f'%a1)
+print('%.2f'%a2)
+print('%.2f'%a3)
+print('%.2f'%a4)
+print('%.2f'%a5)
+print('%.2f'%a6)
+print('%.2f'%a7)
+print('%.2f'%a8)
+print('%.2f'%a9)
+print('%.2f'%a10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3133">
+        <vpl>6</vpl>
+        <userid>86</userid>
+        <datesubmitted>1473991743</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473991769</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+vii = input('digite o valor de investimento inicial:')
+tcp = input('digite o valor da taxa de crescimento percentual:')
+#processamento
+investimento1 = vii+vii*tcp
+investimento2 = investimento1+investimento1*tcp
+investimento3 = investimento2+investimento2*tcp
+investimento4 = investimento3+investimento3*tcp
+investimento5 = investimento4+investimento4*tcp
+investimento6 = investimento5+investimento5*tcp
+investimento7 = investimento6+investimento6*tcp
+investimento8 = investimento7+investimento7*tcp
+investimento9 = investimento8+investimento8*tcp
+investimento10 = investimento9+investimento9*tcp
+#saida
+print('%.2f'%investimento1)
+print('%.2f'%investimento2)
+print('%.2f'%investimento3)
+print('%.2f'%investimento4)
+print('%.2f'%investimento5)
+print('%.2f'%investimento6)
+print('%.2f'%investimento7)
+print('%.2f'%investimento8)
+print('%.2f'%investimento9)
+print('%.2f'%investimento10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3003">
+        <vpl>6</vpl>
+        <userid>87</userid>
+        <datesubmitted>1473956377</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473956385</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v=input('Valor do investimento inicial:')
+t=input('Taxa de crescimento percentual:')
+
+i1=v+(t*v)
+i2=i1+(t*i1)
+i3=i2+(t*i2)
+i4=i3+(t*i3)
+i5=i4+(t*i4)
+i6=i5+(t*i5)
+i7=i6+(t*i6)
+i8=i7+(t*i7)
+i9=i8+(t*i8)
+i10=i9+(t*i9)
+
+print('%.2f' %i1)
+print('%.2f' %i2)
+print('%.2f' %i3)
+print('%.2f' %i4)
+print('%.2f' %i5)
+print('%.2f' %i6)
+print('%.2f' %i7)
+print('%.2f' %i8)
+print('%.2f' %i9)
+print('%.2f' %i10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3619">
+        <vpl>6</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474237854</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474237919</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv= input('valor a ser investido: ')
+taxa= input('taxa fixa anual: ')
+
+inv1= inv+(taxa*inv)
+inv2= inv1+(taxa*inv1)
+inv3= inv2+(taxa*inv2)
+inv4= inv3+(taxa*inv3)
+inv5= inv4+(taxa*inv4)
+inv6= inv5+(taxa*inv5)
+inv7= inv6+(taxa*inv6)
+inv8= inv7+(taxa*inv7)
+inv9= inv8+(taxa*inv8)
+inv10= inv9+(taxa*inv9)
+
+print ('%.2f' %inv1)
+print ('%.2f' %inv2)
+print ('%.2f' %inv3)
+print ('%.2f' %inv4)
+print ('%.2f' %inv5)
+print ('%.2f' %inv6)
+print ('%.2f' %inv7)
+print ('%.2f' %inv8)
+print ('%.2f' %inv9)
+print ('%.2f' %inv10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2624">
+        <vpl>6</vpl>
+        <userid>89</userid>
+        <datesubmitted>1473858059</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858095</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+#entrada
+a=input('digite investimento inicial:')
+b=input('digite taxa anual:')
+#processamento
+ano1=a+(b*a)
+ano2=ano1+(b*ano1)
+ano3=ano2+(b*ano2)
+ano4=ano3+(b*ano3)
+ano5=ano4+(b*ano4)
+ano6=ano5+(b*ano5)
+ano7=ano6+(b*ano6)
+ano8=ano7+(b*ano7)
+ano9=ano8+(b*ano8)
+ano10=ano9+(b*ano9)
+#saida
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2827">
+        <vpl>6</vpl>
+        <userid>90</userid>
+        <datesubmitted>1473869788</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473869834</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+#Entrada
+x=input('Digite aqui o valor do investimento inicial:')
+y=input('Digite aqui a taxa de crescimento:')
+
+#Processamento
+ano1=(x*y)+x
+ano2=(ano1*y)+ano1
+ano3=(ano2*y)+ano2
+ano4=(ano3*y)+ano3
+ano5=(ano4*y)+ano4
+ano6=(ano5*y)+ano5
+ano7=(ano6*y)+ano6
+ano8=(ano7*y)+ano7
+ano9=(ano8*y)+ano8
+ano10=(ano9*y)+ano9
+
+#Saida
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2448">
+        <vpl>6</vpl>
+        <userid>91</userid>
+        <datesubmitted>1473802661</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473802665</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+inv=input('Digite o valor do investimento :')
+t=input('Digite o valorda taxa anual :')
+
+ano1=inv+t*inv
+ano2=ano1+t*ano1
+ano3=ano2+t*ano2
+ano4=ano3+t*ano3
+ano5=ano4+t*ano4
+ano6=ano5+t*ano5
+ano7=ano6+t*ano6
+ano8=ano7+t*ano7
+ano9=ano8+t*ano8
+ano10=ano9+t*ano9
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5065">
+        <vpl>6</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474425887</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474425889</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv= input( )
+taxa= input( )
+
+inv1= inv + inv*taxa
+inv2= inv1 + inv1*taxa
+inv3= inv2 + inv2*taxa
+inv4= inv3 + inv3*taxa
+inv5= inv4 + inv4*taxa
+inv6= inv5 + inv5*taxa
+inv7= inv6 + inv6*taxa
+inv8= inv7 + inv7*taxa
+inv9= inv8 + inv8*taxa
+inv10= inv9 + inv9*taxa
+
+print('%.2f' %inv1)
+print('%.2f' %inv2)
+print('%.2f' %inv3)
+print('%.2f' %inv4)
+print('%.2f' %inv5)
+print('%.2f' %inv6)
+print('%.2f' %inv7)
+print('%.2f' %inv8)
+print('%.2f' %inv9)
+print('%.2f' %inv10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1858">
+        <vpl>6</vpl>
+        <userid>93</userid>
+        <datesubmitted>1473562172</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473562201</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+a=input('investimento inicial: ')
+b=input('taxa de crescimento percentual: ')
+t1=a*(1+b)
+t2=a*(1+b)**2
+t3=a*(1+b)**3
+t4=a*(1+b)**4
+t5=a*(1+b)**5
+t6=a*(1+b)**6
+t7=a*(1+b)**7
+t8=a*(1+b)**8
+t9=a*(1+b)**9
+t10=a*(1+b)**10
+print('%.2f'%t1)
+print('%.2f'%t2)
+print('%.2f'%t3)
+print('%.2f'%t4)
+print('%.2f'%t5)
+print('%.2f'%t6)
+print('%.2f'%t7)
+print('%.2f'%t8)
+print('%.2f'%t9)
+print('%.2f'%t10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2465">
+        <vpl>6</vpl>
+        <userid>94</userid>
+        <datesubmitted>1473807153</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473807170</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv=input('digite o valor do investimento:')
+t=input('digite o valor da taxa anual:')
+
+ano1=inv+t*inv
+ano2=ano1+t*ano1
+ano3=ano2+t*ano2
+ano4=ano3+t*ano3
+ano5=ano4+t*ano4
+ano6=ano5+t*ano5
+ano7=ano6+t*ano6
+ano8=ano7+t*ano7
+ano9=ano8+t*ano8
+ano10=ano9+t*ano9
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1751">
+        <vpl>6</vpl>
+        <userid>95</userid>
+        <datesubmitted>1473517978</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473517983</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+inv=input('Digite o valor do investimento:')
+t=input('Digite o valor da taxa anual:')
+
+ano1=inv+t*inv
+ano2=ano1+t*ano1
+ano3=ano2+t*ano2
+ano4=ano3+t*ano3
+ano5=ano4+t*ano4
+ano6=ano5+t*ano5
+ano7=ano6+t*ano6
+ano8=ano7+t*ano7
+ano9=ano8+t*ano8
+ano10=ano9+t*ano9
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5355">
+        <vpl>6</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474560156</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474560172</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+ValorInvestimento = input('Digite o valor do investimento:')
+Taxa = input('Digite o valor da taxa de crescimento:')
+
+SaldoAno1 = ValorInvestimento + (ValorInvestimento*Taxa)
+SaldoAno2 = SaldoAno1 + (SaldoAno1*Taxa)
+SaldoAno3 = SaldoAno2 + (SaldoAno2*Taxa)
+SaldoAno4 = SaldoAno3 + (SaldoAno3*Taxa)
+SaldoAno5 = SaldoAno4 + (SaldoAno4*Taxa)
+SaldoAno6 = SaldoAno5 + (SaldoAno5*Taxa)
+SaldoAno7 = SaldoAno6 + (SaldoAno6*Taxa)
+SaldoAno8 = SaldoAno7 + (SaldoAno7*Taxa)
+SaldoAno9 = SaldoAno8 + (SaldoAno8*Taxa)
+SaldoAno10 = SaldoAno9 + (SaldoAno9*Taxa)
+
+print('%.2f' %SaldoAno1)
+print('%.2f' %SaldoAno2)
+print('%.2f' %SaldoAno3)
+print('%.2f' %SaldoAno4)
+print('%.2f' %SaldoAno5)
+print('%.2f' %SaldoAno6)
+print('%.2f' %SaldoAno7)
+print('%.2f' %SaldoAno8)
+print('%.2f' %SaldoAno9)
+print('%.2f' %SaldoAno10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3396">
+        <vpl>6</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474063156</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474063173</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v=input('Digite o valor do investimento:')
+taxa=input('Digite o valor da taxa anual:')
+
+m1=(v+(taxa*v))
+m2=(m1+(taxa*m1))
+m3=(m2+(taxa*m2))
+m4=(m3+(taxa*m3))
+m5=(m4+(taxa*m4))
+m6=(m5+(taxa*m5))
+m7=(m6+(taxa*m6))
+m8=(m7+(taxa*m7))
+m9=(m8+(taxa*m8))
+m10=(m9+(taxa*m9))
+
+
+print('%.2f'%m1)
+print('%.2f'%m2)
+print('%.2f'%m3)
+print('%.2f'%m4)
+print('%.2f'%m5)
+print('%.2f'%m6)
+print('%.2f'%m7)
+print('%.2f'%m8)
+print('%.2f'%m9)
+print('%.2f'%m10)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2722">
+        <vpl>6</vpl>
+        <userid>98</userid>
+        <datesubmitted>1473863315</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473863330</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i=input('Digite o valor do Investimento: ')
+t=input('Dgite o valor da Taxa de crescimento anual: ')
+
+i1=i+(t*i)
+i2=i1+(t*i1)
+i3=i2+(t*i2)
+i4=i3+(t*i3)
+i5=i4+(t*i4)
+i6=i5+(t*i5)
+i7=i6+(t*i6)
+i8=i7+(t*i7)
+i9=i8+(t*i8)
+i10=i9+(t*i9)
+
+
+print('%.2f'%i1)
+print('%.2f'%i2)
+print('%.2f'%i3)
+print('%.2f'%i4)
+print('%.2f'%i5)
+print('%.2f'%i6)
+print('%.2f'%i7)
+print('%.2f'%i8)
+print('%.2f'%i9)
+print('%.2f'%i10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2851">
+        <vpl>6</vpl>
+        <userid>99</userid>
+        <datesubmitted>1473871030</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473871032</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+investimento=input('Digite o valor a ser investido: ')
+taxa=input('Digite a taxa: ')
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)
+
+investimento=(investimento+(taxa*investimento))
+print('%.2f' % investimento)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1913">
+        <vpl>6</vpl>
+        <userid>100</userid>
+        <datesubmitted>1473626594</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473626632</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+a = input ('digite o valor do investimento:')
+b = input ('digite o valor da taxa de investimento:')
+c = a+(a*b)
+d = c+(c*b)
+e = d+(d*b)
+f = e+(e*b)
+g = f+(f*b)
+h = g+(g*b)
+i = h+(h*b)
+j = i+(i*b)
+k = j+(j*b)
+l = k+(k*b)
+print ('%.2f'%c)
+print ('%.2f'%d)
+print ('%.2f'%e)
+print ('%.2f'%f)
+print ('%.2f'%g)
+print ('%.2f'%h)
+print ('%.2f'%i)
+print ('%.2f'%j)
+print ('%.2f'%k)
+print ('%.2f'%l)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3635">
+        <vpl>6</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474290421</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474290439</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+investimentoInicial = input (' Digite o valor do investimento inicial: ')
+taxaAnual= input (' Digite o valor da taxa anual: ')
+
+A1 = investimentoInicial + (taxaAnual*investimentoInicial)
+A2 = A1 + (taxaAnual*A1)
+A3 = A2 + (taxaAnual*A2)
+A4 = A3 + (taxaAnual*A3)
+A5 = A4 + (taxaAnual*A4)
+A6 = A5 + (taxaAnual*A5)
+A7 = A6 + (taxaAnual*A6)
+A8 = A7 + (taxaAnual*A7)
+A9 = A8 + (taxaAnual*A8)
+A10 = A9 + (taxaAnual*A9)
+
+print ('%.2f' %A1)
+print ('%.2f' %A2)
+print ('%.2f' %A3)
+print ('%.2f' %A4)
+print ('%.2f' %A5)
+print ('%.2f' %A6)
+print ('%.2f' %A7)
+print ('%.2f' %A8)
+print ('%.2f' %A9)
+print ('%.2f' %A10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2350">
+        <vpl>6</vpl>
+        <userid>102</userid>
+        <datesubmitted>1473780051</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473780053</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('valor do investimento inicial')
+b=input('taxa do crescimento percentual')
+
+a1=a+(b*a)
+a2=a1+(b*a1)
+a3=a2+(b*a2)
+a4=a3+(b*a3)
+a5=a4+(b*a4)
+a6=a5+(b*a5)
+a7=a6+(b*a6)
+a8=a7+(b*a7)
+a9=a8+(b*a8)
+a10=a9+(b*a9)
+
+print('%.2f'%a1)
+print('%.2f'%a2)
+print('%.2f'%a3)
+print('%.2f'%a4)
+print('%.2f'%a5)
+print('%.2f'%a6)
+print('%.2f'%a7)
+print('%.2f'%a8)
+print('%.2f'%a9)
+print('%.2f'%a10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4639">
+        <vpl>6</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474338860</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474339389</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v=input('Informe o valor do investimento inicial:')
+t=input('Informe a taxa de crescimento anual em forma de número decimal:')
+A1=v+(v*t)
+A2=A1+(A1*t)
+A3=A2+(A2*t)
+A4=A3+(A3*t)
+A5=A4+(A4*t)
+A6=A5+(A5*t)
+A7=A6+(A6*t)
+A8=A7+(A7*t)
+A9=A8+(A8*t)
+A10=A9+(A9*t)
+print('%.2f'%A1)
+print('%.2f'%A2)
+print('%.2f'%A3)
+print('%.2f'%A4)
+print('%.2f'%A5)
+print('%.2f'%A6)
+print('%.2f'%A7)
+print('%.2f'%A8)
+print('%.2f'%A9)
+print('%.2f'%A10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4608">
+        <vpl>6</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474334197</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474334199</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+investimento=input('Digite o valor do investimento:')
+taxa=input('Digite o valor da taxa anual:')
+#PROCESSAMENTO
+investimento1=investimento+(taxa*investimento)
+investimento2=investimento1+(taxa*investimento1)
+investimento3=investimento2+(taxa*investimento2)
+investimento4=investimento3+(taxa*investimento3)
+investimento5=investimento4+(taxa*investimento4)
+investimento6=investimento5+(taxa*investimento5)
+investimento7=investimento6+(taxa*investimento6)
+investimento8=investimento7+(taxa*investimento7)
+investimento9=investimento8+(taxa*investimento8)
+investimento10=investimento9+(taxa*investimento9)
+#SAÍDA
+print('%.2f'%(investimento1))
+print('%.2f'%(investimento2))
+print('%.2f'%(investimento3))
+print('%.2f'%(investimento4))
+print('%.2f'%(investimento5))
+print('%.2f'%(investimento6))
+print('%.2f'%(investimento7))
+print('%.2f'%(investimento8))
+print('%.2f'%(investimento9))
+print('%.2f'%(investimento10))
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3987">
+        <vpl>6</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474304018</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474304020</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v = input ('Digite o valor do investimento inicial:')
+i = input ('Digite o valor da taxa de crescimento percentual anual:')
+
+
+ano1 = v+v*i
+ano2 = ano1 + ano1*i
+ano3 = ano2 + ano2*i
+ano4 = ano3 + ano3*i
+ano5 = ano4 + ano4*i
+ano6 = ano5 + ano5*i
+ano7 = ano6 + ano6*i
+ano8 = ano7 + ano7*i
+ano9 = ano8 + ano8*i
+ano10 = ano9 + ano9*i
+
+print ('%.2f'%ano1)
+print ('%.2f'%ano2)
+print ('%.2f'%ano3)
+print ('%.2f'%ano4)
+print ('%.2f'%ano5)
+print ('%.2f'%ano6)
+print ('%.2f'%ano7)
+print ('%.2f'%ano8)
+print ('%.2f'%ano9)
+print ('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2601">
+        <vpl>6</vpl>
+        <userid>107</userid>
+        <datesubmitted>1473856529</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473856550</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i=input('digite o valor do investimento:')
+t=input('digite o valor da taxa:')
+i1=i+(t*i)
+i2=i1+(t*i1)
+i3=i2+(t*i2)
+i4=i3+(t*i3)
+i5=i4+(t*i4)
+i6=i5+(t*i5)
+i7=i6+(t*i6)
+i8=i7+(t*i7)
+i9=i8+(t*i8)
+i10=i9+(t*i9)
+print('%.2f'%i1)
+print('%.2f'%i2)
+print('%.2f'%i3)
+print('%.2f'%i4)
+print('%.2f'%i5)
+print('%.2f'%i6)
+print('%.2f'%i7)
+print('%.2f'%i8)
+print('%.2f'%i9)
+print('%.2f'%i10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1964">
+        <vpl>6</vpl>
+        <userid>108</userid>
+        <datesubmitted>1473637294</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473637296</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+inv = input ('Digite o valor do investimento inicial:')
+per = input ('Digite a taxa de crescimento percentual:')
+
+ano1 = inv+(inv*per)
+ano2 = ano1+(ano1*per)
+ano3 = ano2+(ano2*per)
+ano4 = ano3+(ano3*per)
+ano5 = ano4+(ano4*per)
+ano6 = ano5+(ano5*per)
+ano7 = ano6+(ano6*per)
+ano8 = ano7+(ano7*per)
+ano9 = ano8+(ano8*per)
+ano10 = ano9+(ano9*per)
+
+print ('%.2f' %ano1)
+print ('%.2f' %ano2)
+print ('%.2f' %ano3)
+print ('%.2f' %ano4)
+print ('%.2f' %ano5)
+print ('%.2f' %ano6)
+print ('%.2f' %ano7)
+print ('%.2f' %ano8)
+print ('%.2f' %ano9)
+print ('%.2f' %ano10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1686">
+        <vpl>6</vpl>
+        <userid>109</userid>
+        <datesubmitted>1473466160</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473466162</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+inv = input('Informe o valor do investimento inicial:')
+tax = input('Informe a taxa de crescimento percentual:')
+
+#Processamento
+
+a1 = inv+(inv*tax)
+a2 = a1+(a1*tax)
+a3 = a2+(a2*tax)
+a4 = a3+(a3*tax)
+a5 = a4+(a4*tax)
+a6 = a5+(a5*tax)
+a7 = a6+(a6*tax)
+a8 = a7+(a7*tax)
+a9 = a8+(a8*tax)
+a10 = a9+(a9*tax)
+
+#Saída
+
+print ('%.2f'%a1)
+print ('%.2f'%a2)
+print ('%.2f'%a3)
+print ('%.2f'%a4)
+print ('%.2f'%a5)
+print ('%.2f'%a6)
+print ('%.2f'%a7)
+print ('%.2f'%a8)
+print ('%.2f'%a9)
+print ('%.2f'%a10)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3088">
+        <vpl>6</vpl>
+        <userid>110</userid>
+        <datesubmitted>1473985463</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473985527</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i=input(' Digite o valor de investimento inicial: ')
+t=input(' Digite a taxa de crescimento percentual: ')
+t1=i+i*t
+t2=t1+t1*t
+t3=t2+t2*t
+t4=t3+t3*t
+t5=t4+t4*t
+t6=t5+t5*t
+t7=t6+t6*t
+t8=t7+t7*t
+t9=t8+t8*t
+t10=t9+t9*t
+print('%.2f' %t1)
+print('%.2f' %t2)
+print('%.2f' %t3)
+print('%.2f' %t4)
+print('%.2f' %t5)
+print('%.2f' %t6)
+print('%.2f' %t7)
+print('%.2f' %t8)
+print('%.2f' %t9)
+print('%.2f' %t10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2794">
+        <vpl>6</vpl>
+        <userid>111</userid>
+        <datesubmitted>1473868613</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473868628</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+a=input('Digite o valor do investimento: ')
+b=input('Digite o valor percentual da taxa anual: ')
+c= (a + (a*b))
+d= (c + (c*b))
+e= (d + (d*b))
+f= (e + (e*b))
+g= (f + (f*b))
+h= (g + (g*b))
+i= (h + (h*b))
+j= (i + (i*b))
+l= (j + (j*b))
+m= (l + (l*b))
+print ('valor %.2f ' %c)
+print ('valor %.2f ' %d)
+print ('valor %.2f ' %e)
+print ('valor %.2f ' %f)
+print ('valor %.2f ' %g)
+print ('valor %.2f ' %h)
+print ('valor %.2f ' %i)
+print ('valor %.2f ' %j)
+print ('valor %.2f ' %l)
+print ('valor %.2f ' %m)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3440">
+        <vpl>6</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474067260</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474067263</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+valor=input('valor')
+ano1=valor+valor*0.045
+ano2=ano1+ano1*0.045
+ano3=ano2+ano2*0.045
+ano4=ano3+ano3*0.045
+ano5=ano4+ano4*0.045
+ano6=ano5+ano5*0.045
+ano7=ano6+ano6*0.045
+ano8=ano7+ano7*0.045
+ano9=ano8+ano8*0.045
+ano10=ano9+ano9*0.045
+
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3582">
+        <vpl>6</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474210341</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474210460</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+n=input('Valor do investimento: ')
+taxa=input('Taxa de crescimento percentual: ')
+
+x1=n + (taxa*n)
+x2=x1 + (taxa*x1)
+x3=x2 + (taxa*x2)
+x4=x3 + (taxa*x3)
+x5=x4 + (taxa*x4)
+x6=x5 + (taxa*x5)
+x7=x6 + (taxa*x6)
+x8=x7 + (taxa*x7)
+x9=x8 + (taxa*x8)
+x10=x9 + (taxa*x9)
+
+print ('%.2f' % x1)
+print ('%.2f' % x2)
+print ('%.2f' % x3)
+print ('%.2f' % x4)
+print ('%.2f' % x5)
+print ('%.2f' % x6)
+print ('%.2f' % x7)
+print ('%.2f' % x8)
+print ('%.2f' % x9)
+print ('%.2f' % x10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3482">
+        <vpl>6</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474078786</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474078885</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v=input('digite o valor inicial:')
+j=input('digite o valor da taxa de juros:')
+v1=v+j*v
+v2=v1+j*v1
+v3=v2+j*v2
+v4=v3+j*v3
+v5=v4+j*v4
+v6=v5+j*v5
+v7=v6+j*v6
+v8=v7+j*v7
+v9=v8+j*v8
+v10=v9+j*v9
+print('%.2f' %v1)
+print('%.2f' %v2)
+print('%.2f' %v3)
+print('%.2f' %v4)
+print('%.2f' %v5)
+print('%.2f' %v6)
+print('%.2f' %v7)
+print('%.2f' %v8)
+print('%.2f' %v9)
+print('%.2f' %v10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2511">
+        <vpl>6</vpl>
+        <userid>116</userid>
+        <datesubmitted>1473813366</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473813407</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+m = input ('O seu investimento inicial foi de:')
+i = input ('insira a taxa de crescimento:')
+
+a = m+(i*m)
+b = a+i*a
+c = b+i*b
+d = c+i*c
+e = d+i*d
+f = e+i*e
+g = f+i*f
+h = g+i*g
+j = h+i*h
+k = j+i*j
+
+print ('%.2f' % a)
+print ('%.2f' % b)
+print ('%.2f' % c)
+print ('%.2f' % d)
+print ('%.2f' % e)
+print ('%.2f' % f)
+print ('%.2f' % g)
+print ('%.2f' % h)
+print ('%.2f' % j)
+print ('%.2f' % k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3200">
+        <vpl>6</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474031550</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474031586</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i=input('Digite o valor do investimento inicial:')
+t=input('Digite a taxa de crescimento percentual:')
+
+a=i+(t*i)
+b=a+(t*a)
+c=b+(t*b)
+d=c+(t*c)
+e=d+(t*d)
+f=e+(t*e)
+g=f+(t*f)
+h=g+(t*g)
+i=h+(t*h)
+j=i+(t*i)
+
+print('a:%.2f'%a)
+print('b:%.2f'%b)
+print('c:%.2f'%c)
+print('d:%.2f'%d)
+print('e:%.2f'%e)
+print('f:%.2f'%f)
+print('g:%.2f'%g)
+print('h:%.2f'%h)
+print('i:%.2f'%i)
+print('j:%.2f'%j)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2177">
+        <vpl>6</vpl>
+        <userid>118</userid>
+        <datesubmitted>1473727427</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473727432</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#1
+valori = input('digite o valor do investimento inicial:')
+taxa = input('digite o valor da taxa de crescimento percentual em forma decimal:')
+
+#2
+invest1 = valori + (valori*taxa)
+invest2 = invest1 + (invest1*taxa)
+invest3 = invest2 + (invest2*taxa)
+invest4 = invest3 + (invest3*taxa)
+invest5 = invest4 + (invest4*taxa)
+invest6 = invest5 + (invest5*taxa)
+invest7 = invest6 + (invest6*taxa)
+invest8 = invest7 + (invest7*taxa)
+invest9 = invest8 + (invest8*taxa)
+invest10 = invest9 + (invest9*taxa)
+
+#3
+print('%.2f '  %invest1)
+print('%.2f '  %invest2)
+print('%.2f '  %invest3)
+print('%.2f '  %invest4)
+print('%.2f '  %invest5)
+print('%.2f '  %invest6)
+print('%.2f '  %invest7)
+print('%.2f '  %invest8)
+print('%.2f '  %invest9)
+print('%.2f '  %invest10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2237">
+        <vpl>6</vpl>
+        <userid>120</userid>
+        <datesubmitted>1473769808</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473769839</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+a=input('insira o valor do investimento inicial:')
+b=input('insira o valor da taxa de crescimento percentual:')
+#PROCESSAMENTO
+c=(a+(a*b))
+d=(c+(c*b))
+e=(d+(d*b))
+f=(e+(e*b))
+g=(f+(f*b))
+h=(g+(g*b))
+i=(h+(h*b))
+j=(i+(i*b))
+k=(j+(j*b))
+l=(k+(k*b))
+#SAIDA
+print('seus valores sao:')
+print('c=%.2f'%c)
+print('d=%.2f'%d)
+print('e=%.2f'%e)
+print('f=%.2f'%f)
+print('g=%.2f'%g)
+print('h=%.2f'%h)
+print('i=%.2f'%i)
+print('j=%.2f'%j)
+print('k=%.2f'%k)
+print('l=%.2f'%l)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3545">
+        <vpl>6</vpl>
+        <userid>122</userid>
+        <datesubmitted>1474163292</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474165079</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+c=input('digite o investimento:')
+i=input('digite a taxa de crescimento percentual:')
+
+#PROCESSAMENTO
+m1=c+(c*i)
+m2=m1+(m1*i)
+m3=m2+(m2*i)
+m4=m3+(m3*i)
+m5=m4+(m4*i)
+m6=m5+(m5*i)
+m7=m6+(m6*i)
+m8=m7+(m7*i)
+m9=m8+(m8*i)
+m10=m9+(m9*i)
+
+#SAÍDA
+print(m1)
+print(m2)
+print(m3)
+print(m4)
+print(m5)
+print(m6)
+print(m7)
+print(m8)
+print(m9)
+print(m10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1902">
+        <vpl>6</vpl>
+        <userid>123</userid>
+        <datesubmitted>1473615868</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473615973</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+invest= input('Insira o valor do investimento inicial:')
+taxa= input('Insira o valor da taxa percentual de crescimeto:')
+
+ano1= invest + invest*taxa
+ano2= ano1 + ano1*taxa
+ano3= ano2 + ano2*taxa
+ano4= ano3 + ano3*taxa
+ano5= ano4 + ano4*taxa
+ano6= ano5 + ano5*taxa
+ano7= ano6 + ano6*taxa
+ano8= ano7 + ano7*taxa
+ano9= ano8 + ano8*taxa
+ano10= ano9 + ano9*taxa
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1920">
+        <vpl>6</vpl>
+        <userid>124</userid>
+        <datesubmitted>1473627916</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473627920</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i = input('Digite o valor do investimento: ')
+t = input('Digite a taxa de crescimento: ')
+I1 = 1000 + i*t
+I2 = I1 + I1*t
+I3 = I2 + I2*t
+I4 = I3 + I3*t
+I5 = I4 + I4*t
+I6 = I5 + I5*t
+I7 = I6 + I6*t
+I8 = I7 + I7*t
+I9 = I8 + I8*t
+I10 = I9 + I9*t
+print('%.2f' %I1)
+print('%.2f' %I2)
+print('%.2f' %I3)
+print('%.2f' %I4)
+print('%.2f' %I5)
+print('%.2f' %I6)
+print('%.2f' %I7)
+print('%.2f' %I8)
+print('%.2f' %I9)
+print('%.2f' %I10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1790">
+        <vpl>6</vpl>
+        <userid>128</userid>
+        <datesubmitted>1473521464</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473521687</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+valor=input('Digite o valor do invesmento: ')
+taxa=input('Informe a taxa percentual: ')
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)
+
+valor=valor+(taxa*valor)
+print ('%.2f' %valor)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1287">
+        <vpl>6</vpl>
+        <userid>129</userid>
+        <datesubmitted>1473363388</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473363390</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+A= input('Digite o valor do investimento inicial: ')
+B= input('Digite o valor de crescimento percentual: ')
+C= A + A*B
+D= C + C*B
+E= D + D*B
+F= E + E*B
+G= F + F*B
+H= G + G*B
+I= H + H*B
+J= I + I*B
+K= J + J*B
+L= K + K*B
+print ('%.2f' %C)
+print ('%.2f' %D)
+print ('%.2f' %E)
+print ('%.2f' %F)
+print ('%.2f' %G)
+print ('%.2f' %H)
+print ('%.2f' %I)
+print ('%.2f' %J)
+print ('%.2f' %K)
+print ('%.2f' %L)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2637">
+        <vpl>6</vpl>
+        <userid>130</userid>
+        <datesubmitted>1473858859</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858890</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+I=input('Digite o valor de I:')
+T=input('Digite o valor de T:')
+
+I1=I+T*I
+I2=I1+T*I1
+I3=I2+T*I2
+I4=I3+T*I3
+I5=I4+T*I4
+I6=I5+T*I5
+I7=I6+T*I6
+I8=I7+T*I7
+I9=I8+T*I8
+I10=I9+T*I9
+print(I1)
+print(I2)
+print(I3)
+print(I4)
+print(I5)
+print(I6)
+print(I7)
+print(I8)
+print(I9)
+print(I10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3633">
+        <vpl>6</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474290376</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474290384</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+#ENTRADA
+
+a=input (' ')
+
+#proscessamento
+
+b = (a*0.045 + a) 
+
+c = (b*0.045 + b)
+
+d = (c*0.045 + c)
+
+e = (d*0.045 + d)
+
+f = (e*0.045 + e)
+
+g = (f*0.045 + f)
+
+h = (g*0.045 + g)
+
+i = (h*0.045 + h)
+
+j = (i*0.045 + i)
+
+k = (j*0.045 + j)
+
+
+#saida
+
+print(' %.2f' % b)
+
+print(' %.2f' % c)
+
+print(' %.2f' % d)
+
+print(' %.2f' % e)
+
+print(' %.2f' % f)
+
+print(' %.2f' % g)
+
+print(' %.2f' % h)
+
+print(' %.2f' % i)
+
+print(' %.2f' % j)
+
+print(' %.2f' % k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2473">
+        <vpl>6</vpl>
+        <userid>132</userid>
+        <datesubmitted>1473809483</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473809485</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+a=input(' digite o valor do investimento inicial: ')
+b= input(' digite o valor do crescimento percentual:')
+x1=a+(a*(b))
+x2=x1+(x1*(b))
+x3=x2+(x2*(b))
+x4=x3+(x3*(b))
+x5=x4+(x4*(b))
+x6=x5+(x5*(b))
+x7=x6+(x6*(b))
+x8=x7+(x7*(b))
+x9=x8+(x8*(b))
+x10=x9+(x9*(b))
+print('%.2f'%x1,x2,x3,x4,x5,x6,x7,x8,x9,x10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3077">
+        <vpl>6</vpl>
+        <userid>133</userid>
+        <datesubmitted>1473982311</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474310699</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+v=input('Digite o valor inicial:')
+j=input('Digite o valor da taxa de juros:')
+v1=v+j*v
+v2=v1+j*v1
+v3=v2+j*v2
+v4=v3+j*v3
+v5=v4+j*v4
+v6=v5+j*v5
+v7=v6+j*v6
+v8=v7+j*v7
+v9=v8+j*v8
+v10=v9+j*v9
+print('%.2f' %v1)
+print('%.2f' %v2)
+print('%.2f' %v3)
+print('%.2f' %v4)
+print('%.2f' %v5)
+print('%.2f' %v6)
+print('%.2f' %v7)
+print('%.2f' %v8)
+print('%.2f' %v9)
+print('%.2f' %v10)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3085">
+        <vpl>6</vpl>
+        <userid>134</userid>
+        <datesubmitted>1473984034</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473984076</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+investimento = input('valor inicial do investimento:')
+tx = input('taxa de crescimento percentual:')
+
+INV = investimento + (tx*investimento)
+INV2 = INV + (tx*INV)
+INV3 = INV2 + (tx*INV2)
+INV4 = INV3 + (tx*INV3)
+INV5 = INV4 + (tx*INV4)
+INV6 = INV5 + (tx*INV5)
+INV7 = INV6 + (tx*INV6)
+INV8 = INV7 + (tx*INV7)
+INV9 = INV8 + (tx*INV8)
+INV10 = INV9 + (tx*INV9)
+
+print ('%f' %INV)
+print ('%f' %INV2)
+print ('%f' %INV3)
+print ('%f' %INV4)
+print ('%f' %INV5)
+print ('%f' %INV6)
+print ('%f' %INV7)
+print ('%f' %INV8)
+print ('%f' %INV9)
+print ('%f' %INV10)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3730">
+        <vpl>6</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474291524</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291525</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+valorInicial= input('digite o valor:')
+taxa=input ('digite a taxa de crescimento:')
+
+N1= valorInicial+ (taxa*valorInicial)
+N2= N1+ (taxa*N1)
+N3= N2+ (taxa*N2)
+N4= N3+ (taxa*N3)
+N5= N4+ (taxa*N4)
+N6= N5+ (taxa*N5)
+N7= N6+ (taxa*N6)
+N8= N7+ (taxa*N7)
+N9= N8+ (taxa*N8)
+N10= N9+ (taxa*N9)
+
+print '%.2f'%N1
+print '%.2f'%N2
+print '%.2f'%N3
+print '%.2f'%N4
+print '%.2f'%N5
+print '%.2f'%N6
+print '%.2f'%N7
+print '%.2f'%N8
+print '%.2f'%N9
+print '%.2f'%N10</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2490">
+        <vpl>6</vpl>
+        <userid>136</userid>
+        <datesubmitted>1473811567</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473811570</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+investimento = input('Digite o valor do investimento inicial:')
+taxa = input('Digite a taxa de crescimento percentual:')
+a = investimento + taxa*investimento
+b = a + taxa*a
+c = b + taxa*b
+d = c + taxa*c
+e = d + taxa*d
+f = e + taxa*e
+g = f + taxa*f
+h = g + taxa*g
+i = h + taxa*h
+j = i + taxa*i
+
+print ("%.2f"%a)
+print ("%.2f"%b)
+print ("%.2f"%c)
+print ("%.2f"%d)
+print ("%.2f"%e)
+print ("%.2f"%f)
+print ("%.2f"%g)
+print ("%.2f"%h)
+print ("%.2f"%i)
+print ("%.2f"%j)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1645">
+        <vpl>6</vpl>
+        <userid>137</userid>
+        <datesubmitted>1473460593</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473460612</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+investimento= input('i:')
+taxa= input('t:')
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+investimento= investimento + (taxa*investimento)
+print('%f' %investimento)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1431">
+        <vpl>6</vpl>
+        <userid>138</userid>
+        <datesubmitted>1473436988</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473436994</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+c=input('digite o valor do capital:') 
+i=input('digite o valor da taxa:') 
+m1=c+(c*i)
+m2=m1+(m1*i)
+m3=m2+(m2*i)
+m4=m3+(m3*i)
+m5=m4+(m4*i)
+m6=m5+(m5*i)
+m7=m6+(m6*i)
+m8=m7+(m7*i)
+m9=m8+(m8*i)
+m10=m9+(m9*i)
+print('%.2f' %m1)
+print('%.2f' %m2)
+print('%.2f' %m3)
+print('%.2f' %m4)
+print('%.2f' %m5)
+print('%.2f' %m6)
+print('%.2f' %m7)
+print('%.2f' %m8)
+print('%.2f' %m9)
+print('%.2f' %m10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3624">
+        <vpl>6</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474239100</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474239107</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('informe o valor do investimento inicial a:')
+c=input('informe o valor da taxa de crescimento percentual c:')
+a1=a+(c*a)
+print(a1)
+a2=a1+(c*a1)
+print(a2)
+a3=a2+(c*a2)
+print(a3)
+a4=a3+(c*a3)
+print(a4)
+a5=a4+(c*a4)
+print(a5)
+a6=a5+(c*a5)
+print(a6)
+a7=a6+(c*a6)
+print(a7)
+a8=a7+(c*a7)
+print(a8)
+a9=a8+(c*a8)
+print(a9)
+a10=a9+(c*a9)
+print(a10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3529">
+        <vpl>6</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474148553</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474148598</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i = input ('Digite o valor inicial do investimento:')
+t = input ('Digite a taxa de correção anual:')
+
+
+v1 = i+t*i
+v2 = v1+t*v1
+v3 = v2+t*v2
+v4 = v3+t*v3
+v5 = v4+t*v4
+v6 = v5+t*v5
+v7 = v6+t*v6
+v8 = v7+t*v7
+v9 = v8+t*v8
+v10 = v9+t*v9
+
+print ('%.2f'%v1)
+print ('%.2f'%v2)
+print ('%.2f'%v3)
+print ('%.2f'%v4)
+print ('%.2f'%v5)
+print ('%.2f'%v6)
+print ('%.2f'%v7)
+print ('%.2f'%v8)
+print ('%.2f'%v9)
+print ('%.2f'%v10)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3312">
+        <vpl>6</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474054323</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474054329</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+
+a=input('digite investimento inicial:')
+b=input('digite taxa anual:')
+
+ano1=a+(b*a)
+ano2=ano1+(b*ano1)
+ano3=ano2+(b*ano2)
+ano4=ano3+(b*ano3)
+ano5=ano4+(b*ano4)
+ano6=ano5+(b*ano5)
+ano7=ano6+(b*ano6)
+ano8=ano7+(b*ano7)
+ano9=ano8+(b*ano8)
+ano10=ano9+(b*ano9)
+
+
+print('%.2f'%ano1)
+print('%.2f'%ano2)
+print('%.2f'%ano3)
+print('%.2f'%ano4)
+print('%.2f'%ano5)
+print('%.2f'%ano6)
+print('%.2f'%ano7)
+print('%.2f'%ano8)
+print('%.2f'%ano9)
+print('%.2f'%ano10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4774">
+        <vpl>6</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474388526</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474388529</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+valor = input('DIGITE O VALOR DO INVESTIMENTO INICIAL: ')
+taxa = input('DIGITE A TAXA DE CRESCIMENTO PERCENTUAL: ')
+
+a = valor+valor*taxa
+b = a+a*taxa
+c = b+b*taxa
+d = c+c*taxa
+e = d+d*taxa
+f = e+e*taxa
+g = f+f*taxa
+h = g+g*taxa
+i = h+h*taxa
+j = i+i*taxa
+
+print ('%.2f' %a)
+print ('%.2f' %b)
+print ('%.2f' %c)
+print ('%.2f' %d)
+print ('%.2f' %e)
+print ('%.2f' %f)
+print ('%.2f' %g)
+print ('%.2f' %h)
+print ('%.2f' %i)
+print ('%.2f' %j)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2181">
+        <vpl>6</vpl>
+        <userid>148</userid>
+        <datesubmitted>1473728537</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778365</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>investimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/investimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+vInicial = input('Digite o valor inicial do investimento:')
+tPerc = input('Digite a taxa de crescimento percentual:')
+
+#PROCESSAMENTO
+vAtualizado1 = vInicial + (tPerc * vInicial)
+vAtualizado2 = vAtualizado1 + (tPerc * vAtualizado1)
+vAtualizado3 = vAtualizado2 + (tPerc * vAtualizado2)
+vAtualizado4 = vAtualizado3 + (tPerc * vAtualizado3)
+vAtualizado5 = vAtualizado4 + (tPerc * vAtualizado4)
+vAtualizado6 = vAtualizado5 + (tPerc * vAtualizado5)
+vAtualizado7 = vAtualizado6 + (tPerc * vAtualizado6)
+vAtualizado8 = vAtualizado7 + (tPerc * vAtualizado7)
+vAtualizado9 = vAtualizado8 + (tPerc * vAtualizado8)
+vAtualizado10 = vAtualizado9 + (tPerc * vAtualizado9)
+
+#SAIDA
+print('%.2f' %vAtualizado1)
+print('%.2f' %vAtualizado2)
+print('%.2f' %vAtualizado3)
+print('%.2f' %vAtualizado4)
+print('%.2f' %vAtualizado5)
+print('%.2f' %vAtualizado6)
+print('%.2f' %vAtualizado7)
+print('%.2f' %vAtualizado8)
+print('%.2f' %vAtualizado9)
+print('%.2f' %vAtualizado10)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

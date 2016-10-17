@@ -1,0 +1,2969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="1" modulename="forum" contextid="34">
+  <forum id="1">
+    <type>news</type>
+    <name>Fórum de notícias</name>
+    <intro>Notícias e avisos</intro>
+    <introformat>0</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>0</scale>
+    <maxbytes>0</maxbytes>
+    <maxattachments>1</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1466086709</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="13">
+        <name>Bem vindos!</name>
+        <firstpost>15</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471045818</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="15">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471045818</created>
+            <modified>1471045818</modified>
+            <mailed>1</mailed>
+            <subject>Bem vindos!</subject>
+            <message>&lt;p&gt;Prezados,&lt;/p&gt;
+&lt;p&gt;Bem vindos ao semestre 2016.2. Antes de iniciarmos as aulas gostaria de solicitar a todos vocês que já estão cadastrados e inscritos no ambiente da disciplina, que editem seus perfis, colocando seu nome completo (não omita o primeiro nome) e sua foto, se possível. A foto me ajuda a identifica-los mais rapidamente e a gravar seus nomes. Para os que ainda não se cadastraram, favor, o façam (&lt;a href="http://programacao.ufca.edu.br" target="_blank"&gt;http://programacao.ufca.edu.br&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Peço também o favor de repassarem para os colegas que nosso &lt;strong&gt;primeiro dia de aula será na quarta feira (17/08/2016)&lt;/strong&gt;, &lt;strong&gt;&lt;span style="color: #ff0000;"&gt;em sala de aula&lt;/span&gt;&lt;/strong&gt;, e não nesta segunda no laboratório.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Bom final de semana a todos e até breve!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="14">
+        <name>Pesquisa</name>
+        <firstpost>16</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471351661</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="16">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471351661</created>
+            <modified>1471351661</modified>
+            <mailed>1</mailed>
+            <subject>Pesquisa</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Peço a gentileza de vocês para responderem as duas enquetes disponíveis na página da disciplina:&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=35" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=35&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=34" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=34&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;É rápido e fácil!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="15">
+        <name>Local de aula - 22/08/2016 (segunda)</name>
+        <firstpost>17</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471624578</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="17">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471624578</created>
+            <modified>1471624578</modified>
+            <mailed>1</mailed>
+            <subject>Local de aula - 22/08/2016 (segunda)</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Nossa aula desta segunda, dia 22/08/2016 (segunda-feira) será na sala 22, bloco Azul, piso inferior. Quarta feira será na sala de aula normal. Avisem aos demais!!&lt;/p&gt;
+&lt;p&gt;Bom final de semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="16">
+        <name>Sistema funcionando</name>
+        <firstpost>18</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471957193</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="18">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471957193</created>
+            <modified>1471957193</modified>
+            <mailed>1</mailed>
+            <subject>Sistema funcionando</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O sistema já voltou a normalidade desde o final da tarde desta segunda feira. Favor, quem ainda tiver algum problema de acesso, pode me procurar pessoalmente, pelo e-mail ou no final das aulas.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="17">
+        <name>Exercício I</name>
+        <firstpost>19</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471960633</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="19">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471960633</created>
+            <modified>1471960633</modified>
+            <mailed>1</mailed>
+            <subject>Exercício I</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Modifiquei o prazo máximo de envio do Exercício Teórico I para o dia 24/08 (quarta-feira) as 23:55. Observem que neste mesmo dia 24/08 já será aberto mais um novo questionário, o Exercício Teórico 2 - Fundamentos. &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="18">
+        <name>Frequência</name>
+        <firstpost>20</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1471974288</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="20">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1471974288</created>
+            <modified>1471974288</modified>
+            <mailed>1</mailed>
+            <subject>Frequência</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Todo início de aula vocês devem acessar a página da disciplina - http://programacao.ufca.edu.br (no computador, tablet ou celular) para que a frequência de cada um de vocês seja registrada. Lembrando que presença só é confirmada se você estiver na rede da UFCA. Como o recurso ainda é experimental, também será necessário assinar a lista de frequência que é passada no início de cada aula.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="19">
+        <name>Frequência semi-automática</name>
+        <firstpost>21</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472561909</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="21">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472561909</created>
+            <modified>1472561909</modified>
+            <mailed>1</mailed>
+            <subject>Frequência semi-automática</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Fiz uma pequena modificação para a obtenção eletrônica da frequência. Todos agora devem inserir um código de frequência que será disponibilizado em todas as aulas. Seguem as instruções abaixo:&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;1) Opção 1:&lt;/p&gt;
+&lt;p&gt;No navegador do celular, acessar a página http://programacao.ufca.edu.br, procurar o link Frequência na seção "Informações Gerais". Inserir o código fornecido em sala de aula.&lt;/p&gt;
+&lt;p&gt;2) Opção 2:&lt;/p&gt;
+&lt;p&gt;Pelo aplicativo de celular disponível no link:&lt;/p&gt;
+&lt;p&gt;http://programacao.ufca.edu.br/moodle/mod/resource/view.php?id=54&lt;/p&gt;
+&lt;p&gt;Observem que este aplicativo não é o oficial Moodle Mobile e sim um pequeno aplicativo que eu mesmo criei para facilitar a obtenção da presença.&lt;/p&gt;
+&lt;p&gt;No aplicativo vocês verão o botão "Frequência" que leva até a página para inserção do código de frequência disponibilizado em aula.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Em resumo,&lt;/p&gt;
+&lt;p&gt;Toda aula eu anotarei no quadro um código de frequência diferente, para que vocês acessem o site através de uma das opções acima e obtenham a frequência.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me perguntem!! :)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="20">
+        <name>Lista de Exercícios</name>
+        <firstpost>22</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472562112</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="22">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472562112</created>
+            <modified>1472562112</modified>
+            <mailed>1</mailed>
+            <subject>Lista de Exercícios</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Disponibilizei a primeira lista de exercícios na página da disciplina. Quando possível, tentem resolver estes exercícios.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="21">
+        <name>Monitoria</name>
+        <firstpost>23</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472582932</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="23">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472582932</created>
+            <modified>1472582932</modified>
+            <mailed>1</mailed>
+            <subject>Monitoria</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar sobre os horários da monitoria da disciplina:&lt;/p&gt;
+&lt;p&gt;Segundas e sextas, das 13 as 14 no laboratório de informática. Os fóruns de discussão podem ser utilizados a qualquer momento, e na minha opinião é a forma mais rápida para esclarecimento de dúvidas.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="22">
+        <name>Aviso</name>
+        <firstpost>24</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472824513</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="24">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472824513</created>
+            <modified>1472824513</modified>
+            <mailed>1</mailed>
+            <subject>Aviso</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Não teremos aula nesta segunda dia 05/09/2016 para a turma de Eng. Materiais, pois fui convocado para uma reunião na reitoria das 8:30 as 12.&lt;/p&gt;
+&lt;p&gt;No entanto, serão disponibilizadas 3 atividades online para vocês desenvolverem: Exercicio 3, Exercício 4 e Exercício 5. O prazo de entrega para o exercício 3 e 5 é até as 23:55 de terça feira dia 06/09 (vocês podem fazer e refazer várias vezes). Já o Exercício 4, vocês tem 1 hora para resolver a partir do momento que a atividade for visualizada.&lt;/p&gt;
+&lt;p&gt;Eu vou preparar um vídeo explicativo (e volto a postar a notícia aqui) sobre como vocês devem fazer as atividades práticas (3 e 5). Já atividade 4 é igual as anteriores.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt;Bom final de semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="24">
+        <name>Exercícios</name>
+        <firstpost>26</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472834109</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="26">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472834109</created>
+            <modified>1472834109</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já disponibilizei 3 exercícios online (atividades) na página da disciplina. Os mesmos devem ser entregues até o final do dia 06/09/2016 (terça).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="25">
+        <name>Exercício 7</name>
+        <firstpost>27</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473171924</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="27">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473171924</created>
+            <modified>1473171924</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 7</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O exercício 7-Prático já está disponível para resolução, para ambas as turmas, Civil e Materiais. O prazo para resolução é até o próximo dia 09/09/2016 (sexta feira), as 23:55.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="26">
+        <name>Exercício 7</name>
+        <firstpost>28</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473171924</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="28">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473171924</created>
+            <modified>1473171924</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 7</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O exercício 7-Prático já está disponível para resolução, para ambas as turmas, Civil e Materiais. O prazo para resolução é até o próximo dia 09/09/2016 (sexta feira), as 23:55.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="28">
+        <name>Aviso</name>
+        <firstpost>30</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473335607</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="30">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473335607</created>
+            <modified>1473335607</modified>
+            <mailed>1</mailed>
+            <subject>Aviso</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrando que na próxima semana não teremos aula presencial. A aula será realizada em ambiente virtual e transmitida ao vivo pelo Youtube no horário da aula (10:00). A aula fica automaticamente gravada, caso você queira assistir depois em outro horário.&lt;/p&gt;
+&lt;p&gt;Aula do dia 12/09 - https://www.youtube.com/watch?v=VqteheuP7ZE&lt;/p&gt;
+&lt;p&gt;Além disso, teremos 2 atividades práticas valendo nota. Portanto fiquem atentos aos prazos. Na quarta feira, da mesma forma. Aula ao vivo pelo youtube as 10, ficando gravada também automaticamente. Os links serão disponibilizados na página da disciplina.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Assuntos:&lt;/p&gt;
+&lt;p&gt;Aula do dia 12/09/2016 - Estruturas Condicionais e Exercícios&lt;/p&gt;
+&lt;p&gt;Aula do dia 14/09/2016 - Exercícios&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estarei a disposição. Utilizem os fóruns de discussão ou me enviem email.&lt;/p&gt;
+&lt;p&gt;Bom final de semana a todos,&lt;/p&gt;
+&lt;p&gt;Rafael Perazzo&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="29">
+        <name>Aviso</name>
+        <firstpost>31</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473336292</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="31">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473336292</created>
+            <modified>1473336292</modified>
+            <mailed>1</mailed>
+            <subject>Aviso</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrando que na próxima semana não teremos aula presencial. No entanto, serão disponibilizadas mais 2 atividades práticas em ambiente virtual, na página da disciplina. A primeira atividade será disponibilizada na segunda-feira e a segunda na quarta-feira.&lt;/p&gt;
+&lt;p&gt;Estarei a disposição através dos fóruns de discussão, e-mail e chat online (também na página da disciplina).&lt;/p&gt;
+&lt;p&gt;Nesta &lt;strong&gt;sexta feira, dia 09/09/2016 teremos aula normalmente&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="30">
+        <name>Atividades disponíveis</name>
+        <firstpost>32</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473339355</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="32">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473339355</created>
+            <modified>1473339355</modified>
+            <mailed>1</mailed>
+            <subject>Atividades disponíveis</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já disponibilizei mais 4 atividades que devem ser feitas (na página da disciplina) até o próximo dia 16/09/2016:&lt;/p&gt;
+&lt;p&gt;- Exercício 6&lt;/p&gt;
+&lt;p&gt;- Exercício 7&lt;/p&gt;
+&lt;p&gt;- Exercício 8&lt;/p&gt;
+&lt;p&gt;- Exercício 9&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;O único que precisa utilizar condicionais (falarei do assunto na aula online de segunda feira) é o Exercício 6. Os demais todos já tem condições de resolver.&lt;/p&gt;
+&lt;p&gt;Se alguem ainda está com dúvidas sobre como resolver as atividades online, favor me procurar e perguntar, pois todas as atividades até o final da disciplina serão realizadas desta forma.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida é só entrar em contato,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="31">
+        <name>Atividades disponíveis</name>
+        <firstpost>33</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473339445</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="33">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473339445</created>
+            <modified>1473339445</modified>
+            <mailed>1</mailed>
+            <subject>Atividades disponíveis</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já disponibilizei mais 3 atividades que devem ser feitas (na página da disciplina) até o próximo dia 16/09/2016:&lt;/p&gt;
+&lt;p&gt;- Exercício 7&lt;/p&gt;
+&lt;p&gt;- Exercício 8&lt;/p&gt;
+&lt;p&gt;- Exercício 9&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Favor, confiram suas notas das atividades e suas frequências. Caso você perceba algum erro ou problema, me avise o mais rápido possível.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="32">
+        <name>Atividades</name>
+        <firstpost>34</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473352805</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="34">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473352805</created>
+            <modified>1473352805</modified>
+            <mailed>1</mailed>
+            <subject>Atividades</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Os Exercícios 7,8 e 9 referem-se ao assunto que já vimos, ou seja, todos já podem tentar resolver. Já os Exercícios 6 e 10 referem-se ao conteúdo de estruturas de seleção (condicionais), que veremos na próxima semana. Se for necessário eu adio por mais 1 semana os Exercícios 6 e 10. Mas mesmo assim, não deixem de tentar resolver.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Independente do assunto, se tiverem dúvidas, me perguntem.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me procurem!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="33">
+        <name>Mais um aviso</name>
+        <firstpost>35</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473354419</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="35">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473354419</created>
+            <modified>1473354419</modified>
+            <mailed>1</mailed>
+            <subject>Mais um aviso</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Mais um aviso: Confiram sempre as notas de vocês na página da disciplina. Todas as atividades feitas valem nota que são automaticamente gravadas ao término da atividade.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="35">
+        <name>Aula online</name>
+        <firstpost>38</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473680240</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="38">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473680240</created>
+            <modified>1473680240</modified>
+            <mailed>1</mailed>
+            <subject>Aula online</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que teremos aula online ao vivo hoje. Quem não puder assistir ao vivo, pode assistir em outro horário sem nenhum problema, pois a transmissão ficará gravada. Quem puder assistir ao vivo pode participar através do chat disponível em:&lt;/p&gt;
+&lt;p&gt;http://programacao.ufca.edu.br/moodle/mod/chat/view.php?id=67&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Já estarei neste chat a partir das 09:00, quem quiser tirar alguma dúvida antes, estou a disposição.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="36">
+        <name>Atividades da semana</name>
+        <firstpost>39</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473680448</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="39">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473680448</created>
+            <modified>1473680448</modified>
+            <mailed>1</mailed>
+            <subject>Atividades da semana</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que estão disponíveis várias atividades (Exercícios) que devem ser entregues até o final desta semana. Aproveitem que não teremos aula para exercitar e tirar dúvidas. Concentrem-se em tentar aprender e entender cada um dos problemas resolvidos, ao invés de simplesmente tentar apenas entregar o código para ganhar nota.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Estou a disposição para esclarecer as dúvidas!&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="37">
+        <name>Atividades da semana</name>
+        <firstpost>40</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473680448</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="40">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473680448</created>
+            <modified>1473680448</modified>
+            <mailed>1</mailed>
+            <subject>Atividades da semana</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que estão disponíveis várias atividades (Exercícios) que devem ser entregues até o final desta semana. Aproveitem que não teremos aula para exercitar e tirar dúvidas. Concentrem-se em tentar aprender e entender cada um dos problemas resolvidos, ao invés de simplesmente tentar apenas entregar o código para ganhar nota.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Estou a disposição para esclarecer as dúvidas!&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="38">
+        <name>Link para participação</name>
+        <firstpost>41</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473681368</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="41">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473681368</created>
+            <modified>1473681368</modified>
+            <mailed>1</mailed>
+            <subject>Link para participação</subject>
+            <message>&lt;p&gt;Quem quiser fazer alguma pergunta no momento da transmissão, o link é:&lt;/p&gt;
+&lt;p&gt;https://hangouts.google.com/call/2xotrat73fgerke2zpring57lue&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="39">
+        <name>Listas de Exercícios</name>
+        <firstpost>42</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473682306</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="42">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473682306</created>
+            <modified>1473682306</modified>
+            <mailed>1</mailed>
+            <subject>Listas de Exercícios</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrando também que já estão disponíveis 2 listas de exercícios. Tentem resolver aos poucos e me enviem as dúvidas!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="40">
+        <name>Listas de Exercícios</name>
+        <firstpost>43</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473682306</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="43">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473682306</created>
+            <modified>1473682306</modified>
+            <mailed>1</mailed>
+            <subject>Listas de Exercícios</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrando também que já estão disponíveis 2 listas de exercícios. Tentem resolver aos poucos e me enviem as dúvidas!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="41">
+        <name>Aula 14/09/2016</name>
+        <firstpost>44</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473692149</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="44">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473692149</created>
+            <modified>1473692149</modified>
+            <mailed>1</mailed>
+            <subject>Aula 14/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que nesta quarta teremos aula a distância (transmissão pelo youtube ao vivo a partir das 10:15) novamente.&lt;/p&gt;
+&lt;p&gt;Tentem participar!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="42">
+        <name>Exercícios para a semana</name>
+        <firstpost>45</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473767877</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="45">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473767877</created>
+            <modified>1473767877</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios para a semana</subject>
+            <message>&lt;p&gt;Olá pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para parabenizar os que estão tentando resolver as atividades. Continuem assim, tentando, tentando novamente, errando, acertando, me perguntando, etc... Para os que ainda não começaram a praticar minha sugestão é que comecem agora para evitar problemas futuros.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="43">
+        <name>Atividades Práticas</name>
+        <firstpost>46</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474021371</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="46">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474021371</created>
+            <modified>1474021371</modified>
+            <mailed>1</mailed>
+            <subject>Atividades Práticas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Adiei o prazo para entrega dos Exercícios 7,8 e 9 para as 23:55 do dia 19/09/2016 (segunda-feira).&lt;/p&gt;
+&lt;p&gt;O Exercício 10 continua com prazo final hoje (16/09/2016), as 23:55.&lt;/p&gt;
+&lt;p&gt;No entanto, sugiro que vocês não deixem pra fazer de última hora.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="44">
+        <name>Atividades Práticas</name>
+        <firstpost>47</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474021371</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="47">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474021371</created>
+            <modified>1474021371</modified>
+            <mailed>1</mailed>
+            <subject>Atividades Práticas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Adiei o prazo para entrega dos Exercícios 7,8 e 9 para as 23:55 do dia 19/09/2016 (segunda-feira).&lt;/p&gt;
+&lt;p&gt;O Exercício 10 continua com prazo final hoje (16/09/2016), as 23:55.&lt;/p&gt;
+&lt;p&gt;No entanto, sugiro que vocês não deixem pra fazer de última hora.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="45">
+        <name>Dúvidas</name>
+        <firstpost>48</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474286864</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="48">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474286864</created>
+            <modified>1474286864</modified>
+            <mailed>1</mailed>
+            <subject>Dúvidas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Quem ainda tiver dúvidas sobre os exercícios, favor me perguntem hoje na aula. Hoje teremos 3 exercícios práticos, para todas as turmas.&lt;/p&gt;
+&lt;p&gt;Não deixem de tentar fazer e tirar as dúvidas o quanto antes.&lt;/p&gt;
+&lt;p&gt;Até breve,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="46">
+        <name>Dúvidas</name>
+        <firstpost>49</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474286865</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="49">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474286865</created>
+            <modified>1474286865</modified>
+            <mailed>1</mailed>
+            <subject>Dúvidas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Quem ainda tiver dúvidas sobre os exercícios, favor me perguntem hoje na aula. Hoje teremos 3 exercícios práticos, para todas as turmas.&lt;/p&gt;
+&lt;p&gt;Não deixem de tentar fazer e tirar as dúvidas o quanto antes.&lt;/p&gt;
+&lt;p&gt;Até breve,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="47">
+        <name>Frequência</name>
+        <firstpost>50</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474287039</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="50">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474287039</created>
+            <modified>1474287039</modified>
+            <mailed>1</mailed>
+            <subject>Frequência</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrem-se de pegar a frequência todo início de aula com o código que escrevo no quadro. Além disso também não esqueçam de assinar a lista impressa.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="48">
+        <name>Frequência</name>
+        <firstpost>51</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474287039</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="51">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474287039</created>
+            <modified>1474287039</modified>
+            <mailed>1</mailed>
+            <subject>Frequência</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Lembrem-se de pegar a frequência todo início de aula com o código que escrevo no quadro. Além disso também não esqueçam de assinar a lista impressa.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="49">
+        <name>Exercício 14</name>
+        <firstpost>52</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474309170</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="52">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474309170</created>
+            <modified>1474309170</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 14</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já está disponível mais um exercício prático para ser entregue pela página da disciplina: Exercício 14.&lt;/p&gt;
+&lt;p&gt;O prazo é até sexta feira, dia 23/09/2016, não esqueçam de fazer!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="50">
+        <name>Exercícios práticos</name>
+        <firstpost>53</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474309265</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="53">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474309265</created>
+            <modified>1474309265</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios práticos</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Adiei o prazo de entrega dos exercícios de 6 a 14 para o dia 23/09/2016 (sexta-feira). Quem ainda não fez, pode fazer e enviar.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me perguntem.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="51">
+        <name>Exercícios práticos</name>
+        <firstpost>54</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474309265</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="54">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474309265</created>
+            <modified>1474309265</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios práticos</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Adiei o prazo de entrega dos exercícios de 6 a 14 para o dia 23/09/2016 (sexta-feira). Quem ainda não fez, pode fazer e enviar.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me perguntem.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="52">
+        <name>Mais exercícios...</name>
+        <firstpost>55</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474373384</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="55">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474373384</created>
+            <modified>1474373384</modified>
+            <mailed>1</mailed>
+            <subject>Mais exercícios...</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já disponibilizei mais 3 exercícios (15,16 e 17). A entrega deverá ser realizada até o prazo máximo de &lt;strong&gt;23/09/2016 (sexta feira desta semana)&lt;/strong&gt;, &lt;strong&gt;&lt;span style="color: #ff0000;"&gt;sem adiamento de prazo&lt;/span&gt;&lt;/strong&gt;. Tentem resolver entendendo a lógica da resolução e não simplesmente "fazer funcionar" para obter a nota. &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="53">
+        <name>Mais exercícios...</name>
+        <firstpost>56</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474373384</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="56">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474373384</created>
+            <modified>1474373384</modified>
+            <mailed>1</mailed>
+            <subject>Mais exercícios...</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Já disponibilizei mais 3 exercícios (15,16 e 17). A entrega deverá ser realizada até o prazo máximo de &lt;strong&gt;23/09/2016 (sexta feira desta semana)&lt;/strong&gt;, &lt;strong&gt;&lt;span style="color: #ff0000;"&gt;sem adiamento de prazo&lt;/span&gt;&lt;/strong&gt;. Tentem resolver entendendo a lógica da resolução e não simplesmente "fazer funcionar" para obter a nota. &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="54">
+        <name>Acompanhamento de Notas</name>
+        <firstpost>57</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474379121</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="57">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474379121</created>
+            <modified>1474379121</modified>
+            <mailed>1</mailed>
+            <subject>Acompanhamento de Notas</subject>
+            <message>&lt;p&gt;Prezados,&lt;/p&gt;
+&lt;p&gt;Vocês podem acompanhar as notas no sistema clicando no link "Notas" que fica no menu do lado esquerdo da página.&lt;/p&gt;
+&lt;p&gt;Lembrando que a escala de notas varia de 0 a 100% e que o pesos são:&lt;/p&gt;
+&lt;p&gt;Somatório dos exercícios práticos e teóricos: 15%&lt;/p&gt;
+&lt;p&gt;Trabalho: 15%&lt;/p&gt;
+&lt;p&gt;Prova 1: 30%&lt;/p&gt;
+&lt;p&gt;Prova 2: 40%&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas me perguntem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="55">
+        <name>Acompanhamento de Notas</name>
+        <firstpost>58</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474379121</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="58">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474379121</created>
+            <modified>1474379121</modified>
+            <mailed>1</mailed>
+            <subject>Acompanhamento de Notas</subject>
+            <message>&lt;p&gt;Prezados,&lt;/p&gt;
+&lt;p&gt;Vocês podem acompanhar as notas no sistema clicando no link "Notas" que fica no menu do lado esquerdo da página.&lt;/p&gt;
+&lt;p&gt;Lembrando que a escala de notas varia de 0 a 100% e que o pesos são:&lt;/p&gt;
+&lt;p&gt;Somatório dos exercícios práticos e teóricos: 15%&lt;/p&gt;
+&lt;p&gt;Trabalho: 15%&lt;/p&gt;
+&lt;p&gt;Prova 1: 30%&lt;/p&gt;
+&lt;p&gt;Prova 2: 40%&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas me perguntem.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="56">
+        <name>Mudança de pesos das notas</name>
+        <firstpost>59</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474380245</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="59">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474380245</created>
+            <modified>1474380245</modified>
+            <mailed>1</mailed>
+            <subject>Mudança de pesos das notas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Fiz uma pequena modificação nos pesos das notas. Aumentei o peso dos Exercícios para 20% e diminui o peso da Prova 2 para 35%.&lt;/p&gt;
+&lt;p&gt;Portanto, fica ainda mais importante que vocês resolvam e entreguem as atividades no prazo &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;estabelecido&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Lembrando até o exercício 17, o prazo é dia 23/09/2016, prazo este que &lt;strong&gt;não será mais adiado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="57">
+        <name>Mudança de pesos das notas</name>
+        <firstpost>60</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474380245</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="60">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474380245</created>
+            <modified>1474380245</modified>
+            <mailed>1</mailed>
+            <subject>Mudança de pesos das notas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Fiz uma pequena modificação nos pesos das notas. Aumentei o peso dos Exercícios para 20% e diminui o peso da Prova 2 para 35%.&lt;/p&gt;
+&lt;p&gt;Portanto, fica ainda mais importante que vocês resolvam e entreguem as atividades no prazo &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;estabelecido&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Lembrando até o exercício 17, o prazo é dia 23/09/2016, prazo este que &lt;strong&gt;não será mais adiado&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="58">
+        <name>LEIAM ESTA MENSAGEM</name>
+        <firstpost>61</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474389591</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="61">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474389591</created>
+            <modified>1474389591</modified>
+            <mailed>1</mailed>
+            <subject>LEIAM ESTA MENSAGEM</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Alguns de vocês estão tendo problemas na avaliação automática das atividades, mesmo quando o código está completamente correto. Verifiquei e observei que estes problemas ocorrem quando são escritos números nas mensagens de input. Por exemplo:&lt;/p&gt;
+&lt;p&gt;a = input('Digite o numero 1: ') &lt;/p&gt;
+&lt;p&gt;O comando acima vai ocasionar um erro na avaliação, mesmo sem ter erro algum. Portanto, sempre que vocês escreverem a mensagem do input, &lt;strong&gt;NÃO&lt;/strong&gt; coloquem nenhum número na mensagem. O exemplo acima poderia ser escrito assim:&lt;/p&gt;
+&lt;p&gt;a = input('Digite o primeiro número: ')&lt;/p&gt;
+&lt;p&gt;Entendido ?&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me perguntem&lt;/p&gt;
+&lt;p&gt;Fazendo assim, o sistema corrigirá corretamente a atividade.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="59">
+        <name>LEIAM ESTA MENSAGEM</name>
+        <firstpost>62</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474389591</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="62">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474389591</created>
+            <modified>1474389591</modified>
+            <mailed>1</mailed>
+            <subject>LEIAM ESTA MENSAGEM</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Alguns de vocês estão tendo problemas na avaliação automática das atividades, mesmo quando o código está completamente correto. Verifiquei e observei que estes problemas ocorrem quando são escritos números nas mensagens de input. Por exemplo:&lt;/p&gt;
+&lt;p&gt;a = input('Digite o numero 1: ') &lt;/p&gt;
+&lt;p&gt;O comando acima vai ocasionar um erro na avaliação, mesmo sem ter erro algum. Portanto, sempre que vocês escreverem a mensagem do input, &lt;strong&gt;NÃO&lt;/strong&gt; coloquem nenhum número na mensagem. O exemplo acima poderia ser escrito assim:&lt;/p&gt;
+&lt;p&gt;a = input('Digite o primeiro número: ')&lt;/p&gt;
+&lt;p&gt;Entendido ?&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida me perguntem&lt;/p&gt;
+&lt;p&gt;Fazendo assim, o sistema corrigirá corretamente a atividade.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="60">
+        <name>Aula 23/09/2016</name>
+        <firstpost>63</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474639318</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="63">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474639318</created>
+            <modified>1474639318</modified>
+            <mailed>1</mailed>
+            <subject>Aula 23/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Na aula de hoje continuaremos estudando estruturas de repetição, laço "for" e "while". As 15:20 será liberada uma atividade (Exercício 22) na página da disciplina, com duração máxima de 40 minutos. É uma rápida atividade teórica sobre o laço while, que pode ser resolvida pelo computador ou celular, inclusive pelo aplicativo Moodle Mobile. A entrega será &lt;strong&gt;obrigatoriamente hoje (23/09/2016), entre 15:20 e 16:20, com duração de 40 minutos&lt;/strong&gt;. Apenas &lt;strong&gt;quem estiver presente no campus&lt;/strong&gt; poderá realizar a entrega no intervalo de 15:20 e 16:20.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas me perguntem!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="61">
+        <name>Aula 23/09/2016</name>
+        <firstpost>64</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474639338</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="64">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474639338</created>
+            <modified>1474639338</modified>
+            <mailed>1</mailed>
+            <subject>Aula 23/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Na aula de hoje continuaremos estudando estruturas de repetição, laço "for" e "while". As 15:20 será liberada uma atividade (Exercício 22) na página da disciplina, com duração máxima de 40 minutos. É uma rápida atividade teórica sobre o laço while, que pode ser resolvida pelo computador ou celular, inclusive pelo aplicativo Moodle Mobile. A entrega será &lt;strong&gt;obrigatoriamente hoje (23/09/2016), entre 15:20 e 16:20, com duração de 40 minutos&lt;/strong&gt;. Apenas &lt;strong&gt;quem estiver presente no campus&lt;/strong&gt; poderá realizar a entrega no intervalo de 15:20 e 16:20.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas me perguntem!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="62">
+        <name>Frequência</name>
+        <firstpost>65</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474647417</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="65">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474647417</created>
+            <modified>1474647417</modified>
+            <mailed>1</mailed>
+            <subject>Frequência</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;A partir de hoje, o controle de frequência será realizado unicamente de forma eletrônica, com o código que é disponibilizado em sala. Não será mais passada a lista de frequência. Portanto, não esqueçam de pegar a presença no início da aula. Quem não conseguir pegar a presença online favor falar comigo no final da aula para que eu registre a presença manualmente.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="64">
+        <name>Simulado de Prova</name>
+        <firstpost>67</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474888161</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="67">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474888161</created>
+            <modified>1474888161</modified>
+            <mailed>1</mailed>
+            <subject>Simulado de Prova</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Na aula de hoje (26/09/2016 - segunda), no laboratório, faremos um simulado de prova. Serão 4 questões, ainda sobre o assunto de condicionais.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="65">
+        <name>Exercícios 18,19,20,21</name>
+        <firstpost>69</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474974092</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="69">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474974092</created>
+            <modified>1474974092</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios 18,19,20,21</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Os exercícios 18,19,20 e 21 estão liberados até as &lt;strong&gt;23:55 desta quarta feira dia 28/09/2016&lt;/strong&gt;. Este prazo &lt;strong&gt;não será adiado&lt;/strong&gt; em hipótese nenhuma.&lt;/p&gt;
+&lt;p&gt;Lembrando que nesta quarta dia 28/09/2016 também teremos o exercício 22 (para turma de materiais) e o exercício 23 (para a turma de civil), que deverá ser respondido até as 23:55 deste mesmo dia (28/09/2016). A partir de hoje &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;os prazos estipulados deverão ser rigorosamente cumpridos&lt;/strong&gt;&lt;/span&gt;. Portanto fiquem atentos para não perderem estes prazos.&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="66">
+        <name>Exercícios 18,19,20,21</name>
+        <firstpost>70</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474974092</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="70">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474974092</created>
+            <modified>1474974092</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios 18,19,20,21</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Os exercícios 18,19,20 e 21 estão liberados até as &lt;strong&gt;23:55 desta quarta feira dia 28/09/2016&lt;/strong&gt;. Este prazo &lt;strong&gt;não será adiado&lt;/strong&gt; em hipótese nenhuma.&lt;/p&gt;
+&lt;p&gt;Lembrando que nesta quarta dia 28/09/2016 também teremos o exercício 22 (para turma de materiais) e o exercício 23 (para a turma de civil), que deverá ser respondido até as 23:55 deste mesmo dia (28/09/2016). A partir de hoje &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;os prazos estipulados deverão ser rigorosamente cumpridos&lt;/strong&gt;&lt;/span&gt;. Portanto fiquem atentos para não perderem estes prazos.&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="67">
+        <name>Exercícios 18,19,20,21</name>
+        <firstpost>71</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474974092</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="71">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474974092</created>
+            <modified>1474974092</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios 18,19,20,21</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Os exercícios 18,19,20 e 21 estão liberados até as &lt;strong&gt;23:55 desta quarta feira dia 28/09/2016&lt;/strong&gt;. Este prazo &lt;strong&gt;não será adiado&lt;/strong&gt; em hipótese nenhuma.&lt;/p&gt;
+&lt;p&gt;Lembrando que nesta quarta dia 28/09/2016 também teremos o exercício 22 (para turma de materiais) e o exercício 23 (para a turma de civil), que deverá ser respondido até as 23:55 deste mesmo dia (28/09/2016). A partir de hoje &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;os prazos estipulados deverão ser rigorosamente cumpridos&lt;/strong&gt;&lt;/span&gt;. Portanto fiquem atentos para não perderem estes prazos.&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="68">
+        <name>Exercícios 18,19,20,21</name>
+        <firstpost>72</firstpost>
+        <userid>2</userid>
+        <groupid>4</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474974092</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="72">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1474974092</created>
+            <modified>1474974092</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios 18,19,20,21</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Os exercícios 18,19,20 e 21 estão liberados até as &lt;strong&gt;23:55 desta quarta feira dia 28/09/2016&lt;/strong&gt;. Este prazo &lt;strong&gt;não será adiado&lt;/strong&gt; em hipótese nenhuma.&lt;/p&gt;
+&lt;p&gt;Lembrando que nesta quarta dia 28/09/2016 também teremos o exercício 22 (para turma de materiais) e o exercício 23 (para a turma de civil), que deverá ser respondido até as 23:55 deste mesmo dia (28/09/2016). A partir de hoje &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;os prazos estipulados deverão ser rigorosamente cumpridos&lt;/strong&gt;&lt;/span&gt;. Portanto fiquem atentos para não perderem estes prazos.&lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="69">
+        <name>Exercício 22</name>
+        <firstpost>73</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475080082</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="73">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475080082</created>
+            <modified>1475080082</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 22</subject>
+            <message>&lt;p&gt;Pessoal,Apenas para lembrar que o exercício 22 já está aberto para resolução. É um questionário com 5 questões rápidas sobre estrutura de repetição &lt;em&gt;while&lt;/em&gt;, com duração máxima de 1 hora, podendo ser iniciado até o final do dia 29/09/2016 (quinta). Este prazo de 1 hora começa a ser contado a partir do momento da visuazação do questionário. &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="70">
+        <name>Exercício 23</name>
+        <firstpost>74</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475080255</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="74">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475080255</created>
+            <modified>1475080255</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 23</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O Exercício 23 (atividade teórica, questionário) estará disponível a partir das 15:30 de hoje, dia 28/09/2016. Vocês podem inicia-lo a partir das 15:00 de hoje (28/09, quarta) até o final do dia de amanhã (29/09/2016, quinta). Uma vez aberto o questionário, o mesmo é encerrado uma hora depois. Portanto, so abram a atividade quando forem realmente resolver.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="71">
+        <name>Exercício 23</name>
+        <firstpost>75</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475080275</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="75">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475080275</created>
+            <modified>1475080275</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 23</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O Exercício 23 (atividade teórica, questionário) estará disponível a partir das 15:30 de hoje, dia 28/09/2016. Vocês podem inicia-lo a partir das 15:00 de hoje (28/09, quarta) até o final do dia de amanhã (29/09/2016, quinta). Uma vez aberto o questionário, o mesmo é encerrado uma hora depois. Portanto, so abram a atividade quando forem realmente resolver.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="72">
+        <name>Exercícios 24,25,26</name>
+        <firstpost>76</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475080644</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="76">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475080644</created>
+            <modified>1475080644</modified>
+            <mailed>1</mailed>
+            <subject>Exercícios 24,25,26</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Também já &lt;strong&gt;estão disponíveis os Exercícios 24,25 e 26&lt;/strong&gt; (atividades práticas). O prazo encerra-se no dia &lt;strong&gt;09/10/2016&lt;/strong&gt;. Não deixem pra última hora!! Tente começar a resolver aos poucos!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="73">
+        <name>Aula sexta, 30/09/2016</name>
+        <firstpost>77</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475156931</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="77">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475156931</created>
+            <modified>1475156931</modified>
+            <mailed>1</mailed>
+            <subject>Aula sexta, 30/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Nesta sexta feira não farei controle de frequência nem será dado novo conteúdo. Quem não puder comparecer não terá qualquer prejuízo. Muitos me falaram que precisam viajar para as eleições.&lt;/p&gt;
+&lt;p&gt;Resolverei alguns exercícios juntamente com os que estiverem presentes. Na segunda feira voltamos normalmente com as aulas no laboratório.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="74">
+        <name>Aula sexta, 30/09/2016</name>
+        <firstpost>78</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475156949</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="78">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475156949</created>
+            <modified>1475156949</modified>
+            <mailed>1</mailed>
+            <subject>Aula sexta, 30/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Nesta sexta feira não farei controle de frequência nem será dado novo conteúdo. Quem não puder comparecer não terá qualquer prejuízo. Muitos me falaram que precisam viajar para as eleições.&lt;/p&gt;
+&lt;p&gt;Resolverei alguns exercícios juntamente com os que estiverem presentes. Na segunda feira voltamos normalmente com as aulas no laboratório.&lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="75">
+        <name>Saída dos exercícios 24,25 e 26</name>
+        <firstpost>79</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475253696</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="79">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475253696</created>
+            <modified>1475253696</modified>
+            <mailed>1</mailed>
+            <subject>Saída dos exercícios 24,25 e 26</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;A saída a ser exibida para os exercícios 24,25 e 26 devem ser apenas os números, sem frase ou texto algum.&lt;/p&gt;
+&lt;p&gt;Verifiquei que alguns colocaram como saída:&lt;/p&gt;
+&lt;p&gt;O MDC de x e y é z&lt;/p&gt;
+&lt;p&gt;O correto é mostrar apenas z na saída, sem a frase.&lt;/p&gt;
+&lt;p&gt;Os que fizeram assim, favor fazer as correções!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="76">
+        <name>Aula 03/10/2016 - Segunda-Feira</name>
+        <firstpost>80</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475488154</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="80">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475488154</created>
+            <modified>1475488154</modified>
+            <mailed>1</mailed>
+            <subject>Aula 03/10/2016 - Segunda-Feira</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;A aula de hoje será na sala 70 e não no laboratório. Avisem aos colegas!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="77">
+        <name>Aula 03/10/2016</name>
+        <firstpost>81</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475498021</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="81">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475498021</created>
+            <modified>1475498021</modified>
+            <mailed>1</mailed>
+            <subject>Aula 03/10/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Hoje teremos 4 questões para serem resolvidas no laboratório (&lt;strong&gt;exclusivamente&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Turma 1: 14-16&lt;/p&gt;
+&lt;p&gt;Turma 2: 16-18&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Todos os 4 exercícios encerram as 18:00.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="78">
+        <name>Aula 03/10/2016</name>
+        <firstpost>82</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475498049</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="82">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475498049</created>
+            <modified>1475498049</modified>
+            <mailed>1</mailed>
+            <subject>Aula 03/10/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Hoje teremos 4 questões para serem resolvidas no laboratório (&lt;strong&gt;exclusivamente&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Turma 1: 14-16&lt;/p&gt;
+&lt;p&gt;Turma 2: 16-18&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Todos os 4 exercícios encerram as 18:00.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quaisquer dúvidas estou a disposição,&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="79">
+        <name>Exercício 23</name>
+        <firstpost>83</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475498229</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="83">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475498229</created>
+            <modified>1475498229</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 23</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;exercício 23 (teórico)&lt;/strong&gt;, será &lt;strong&gt;aberto hoje (03/10/2016) as 12:00&lt;/strong&gt;, encerrando-se nesta &lt;strong&gt;terça (04/10/2016) as 23:55&lt;/strong&gt;. Não esqueçam de resolver &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;no prazo&lt;/strong&gt;&lt;/span&gt;, pois o mesmo &lt;span style="color: #ff0000;"&gt;&lt;strong&gt;não será adiado&lt;/strong&gt;&lt;/span&gt; em hipótese nenhuma.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="80">
+        <name>Atividades do dia 03/10/2016</name>
+        <firstpost>84</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475578439</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="84">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475578439</created>
+            <modified>1475578439</modified>
+            <mailed>1</mailed>
+            <subject>Atividades do dia 03/10/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;As atividades previstas para o dia 03/10/2016, que não puderam ser realizadas devido ao problema de energia na UFCA, ficaram automaticamente adiadas para a próxima segunda feira, dia 10/10/2016.&lt;/p&gt;
+&lt;p&gt;Não esqueçam que os exercicios 24,25 e 26 tem prazo até dia 09/10/2016.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="81">
+        <name>Atividades do dia 03/10/2016</name>
+        <firstpost>85</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475578456</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="85">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475578456</created>
+            <modified>1475578456</modified>
+            <mailed>1</mailed>
+            <subject>Atividades do dia 03/10/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;As atividades previstas para o dia 03/10/2016, que não puderam ser realizadas devido ao problema de energia na UFCA, ficaram automaticamente adiadas para a próxima segunda feira, dia 10/10/2016.&lt;/p&gt;
+&lt;p&gt;Não esqueçam que os exercicios 24,25 e 26 tem prazo até dia 09/10/2016.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="82">
+        <name>Computador no dia da AV1</name>
+        <firstpost>86</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475608379</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="86">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475608379</created>
+            <modified>1475608379</modified>
+            <mailed>1</mailed>
+            <subject>Computador no dia da AV1</subject>
+            <message>&lt;p&gt;Prezado(a),&lt;/p&gt;
+&lt;p&gt;Responda se você vai utilizar seu notebook próprio ou o computador do laboratório no dia da prova AV1.&lt;/p&gt;
+&lt;p&gt;O link para responder é:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=115" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=115&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Quem vai utilizar o notebook próprio deve &lt;strong&gt;OBRIGATORIAMENTE&lt;/strong&gt; responder esta pesquisa do link acima.&lt;/p&gt;
+&lt;p&gt;Os demais também devem responder, porém não será obrigatório.&lt;/p&gt;
+&lt;p&gt;Responda imediatamente ao ler este e-mail! :)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Qualquer dúvida estou a disposição,&lt;/p&gt;
+&lt;p&gt;Boa semana a todos,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="83">
+        <name>Prova AV1</name>
+        <firstpost>87</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475684905</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="87">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475684905</created>
+            <modified>1475684905</modified>
+            <mailed>1</mailed>
+            <subject>Prova AV1</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Preciso de 15 a 20 voluntários para fazer a prova no horário das 8 as 10, no dia 17/10/2016 (segunda-feira).&lt;/p&gt;
+&lt;p&gt;Favor, responder (o mais rápido possível) no link abaixo se você pode fazer neste horário.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=117"&gt;http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=117&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;No aguardo,&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="84">
+        <name>Prova AV as 08</name>
+        <firstpost>88</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1475758008</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="88">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1475758008</created>
+            <modified>1475758008</modified>
+            <mailed>1</mailed>
+            <subject>Prova AV as 08</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas 3 responderam sobre fazer a prova as 8 no dia 17.&lt;/p&gt;
+&lt;p&gt;Por favor, clique no link abaixo para responder.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=117"&gt;http://programacao.ufca.edu.br/moodle/mod/choice/view.php?id=117&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="85">
+        <name>Atividades de Laboratório</name>
+        <firstpost>89</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476183835</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="89">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476183835</created>
+            <modified>1476183835</modified>
+            <mailed>1</mailed>
+            <subject>Atividades de Laboratório</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;As atividades que deveriam ser entregues nesta segunda no laboratório estão liberadas para envio até o dia 14/10/2016 as 23:55.&lt;/p&gt;
+&lt;p&gt;Não esqueçam!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="86">
+        <name>Atividades de Laboratório</name>
+        <firstpost>90</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476183850</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="90">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476183850</created>
+            <modified>1476183850</modified>
+            <mailed>1</mailed>
+            <subject>Atividades de Laboratório</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;As atividades que deveriam ser entregues nesta segunda no laboratório estão liberadas para envio até o dia 14/10/2016 as 23:55.&lt;/p&gt;
+&lt;p&gt;Não esqueçam!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="87">
+        <name>Tira Dúvidas</name>
+        <firstpost>91</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476183968</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="91">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476183968</created>
+            <modified>1476183968</modified>
+            <mailed>1</mailed>
+            <subject>Tira Dúvidas</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Nesta quinta feira das 14 as 16 estarei a disposição para tirar dúvidas de vocês.&lt;/p&gt;
+&lt;p&gt;Solicitei a reserva do laboratório, e assim que a mesma for confirmada eu aviso novamente aqui!!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="88">
+        <name>Trancamento</name>
+        <firstpost>92</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476185217</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="92">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476185217</created>
+            <modified>1476185217</modified>
+            <mailed>1</mailed>
+            <subject>Trancamento</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que o período para trancamento de disciplinas será entre quinta e sexta feira (13 e 14 de outubro).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="89">
+        <name>Tira dúvidas 13/10/2016 (quinta)</name>
+        <firstpost>93</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476186645</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="93">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476186645</created>
+            <modified>1476186645</modified>
+            <mailed>1</mailed>
+            <subject>Tira dúvidas 13/10/2016 (quinta)</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Confirmada a reserva do laboratório para quinta, 13/10, das 14 as 16.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="90">
+        <name>Sugestão de questão</name>
+        <firstpost>94</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476207508</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="94">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476207508</created>
+            <modified>1476207508</modified>
+            <mailed>1</mailed>
+            <subject>Sugestão de questão</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Tentem resolver a questão 18 da lista de exercícios. É um problema interessante de se resolver!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="91">
+        <name>Sugestão de questão</name>
+        <firstpost>95</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476207523</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="95">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476207523</created>
+            <modified>1476207523</modified>
+            <mailed>1</mailed>
+            <subject>Sugestão de questão</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Tentem resolver a questão 18 da lista de exercícios. É um problema interessante de se resolver!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="92">
+        <name>Horário da Prova AV1</name>
+        <firstpost>96</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476361705</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="96">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476361705</created>
+            <modified>1476361705</modified>
+            <mailed>1</mailed>
+            <subject>Horário da Prova AV1</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que o horário da realização da prova AV1 é das 14 as 16 para a turma 1 e das 16 as 18 para a turma 2.&lt;/p&gt;
+&lt;p&gt;Apenas quem está oficialmente matriculado(a) na turma 1 poderá fazer a prova no horário das 14 e 16. Assim como apenas os que estão oficialmente matriculados na turma 2, poderão fazer das 16 as 18.&lt;/p&gt;
+&lt;p&gt;Não há a possibilidade de troca de horário, nem troca com o colega, favor não me peçam isso, porque não poderei atender este tipo de pedido.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="93">
+        <name>Horário Prova AV1</name>
+        <firstpost>97</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476361722</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="97">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476361722</created>
+            <modified>1476361722</modified>
+            <mailed>1</mailed>
+            <subject>Horário Prova AV1</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Apenas para lembrar que o horário da realização da prova AV1 é das 14 as 16 para a turma 1 e das 16 as 18 para a turma 2.&lt;/p&gt;
+&lt;p&gt;Apenas quem está oficialmente matriculado(a) na turma 1 poderá fazer a prova no horário das 14 e 16. Assim como apenas os que estão oficialmente matriculados na turma 2, poderão fazer das 16 as 18.&lt;/p&gt;
+&lt;p&gt;Não há a possibilidade de troca de horário, nem troca com o colega, favor não me peçam isso, porque não poderei atender este tipo de pedido.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="94">
+        <name>Confira o horário da sua prova</name>
+        <firstpost>98</firstpost>
+        <userid>2</userid>
+        <groupid>1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476363073</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="98">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476363073</created>
+            <modified>1476363073</modified>
+            <mailed>1</mailed>
+            <subject>Confira o horário da sua prova</subject>
+            <message>&lt;p&gt;Acesse o link abaixo para conferir o horário da sua prova:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=123" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=123&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="95">
+        <name>Confira o horário da sua prova</name>
+        <firstpost>99</firstpost>
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476363096</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="99">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476363096</created>
+            <modified>1476363096</modified>
+            <mailed>1</mailed>
+            <subject>Confira o horário da sua prova</subject>
+            <message>&lt;p&gt;Acesse o link abaixo para conferir o horário da sua prova:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=123" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=123&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="96">
+        <name>Confira o horário da sua prova</name>
+        <firstpost>100</firstpost>
+        <userid>2</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476363163</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="100">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476363163</created>
+            <modified>1476363163</modified>
+            <mailed>1</mailed>
+            <subject>Confira o horário da sua prova</subject>
+            <message>&lt;p&gt;Confira o horário da sua prova:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=124" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=124&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="97">
+        <name>Confira o horário da sua prova</name>
+        <firstpost>101</firstpost>
+        <userid>2</userid>
+        <groupid>4</groupid>
+        <assessed>0</assessed>
+        <timemodified>1476363198</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="101">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1476363198</created>
+            <modified>1476363198</modified>
+            <mailed>1</mailed>
+            <subject>Confira o horário da sua prova</subject>
+            <message>&lt;p&gt;Confira o horário da sua prova:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=124" target="_blank"&gt;http://programacao.ufca.edu.br/moodle/mod/page/view.php?id=124&lt;/a&gt;&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

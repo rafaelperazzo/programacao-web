@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="32" modulename="data" contextid="496">
+  <data id="2">
+    <name>Perguntas e respostas frequentes</name>
+    <intro>&lt;p&gt;Base de dados de perguntas e respostas frequente sobre assuntos ligados à linguagem Python.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <comments>1</comments>
+    <timeavailablefrom>0</timeavailablefrom>
+    <timeavailableto>0</timeavailableto>
+    <timeviewfrom>0</timeviewfrom>
+    <timeviewto>0</timeviewto>
+    <requiredentries>0</requiredentries>
+    <requiredentriestoview>0</requiredentriestoview>
+    <maxentries>0</maxentries>
+    <rssarticles>0</rssarticles>
+    <singletemplate>&lt;div class="defaulttemplate"&gt;
+&lt;table class="mod-data-default-template ##approvalstatus##"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="template-field cell c0"&gt;Pergunta:&lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol"&gt;[[Pergunta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="template-field cell c0"&gt;Resposta:&lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol"&gt;[[Resposta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lastrow"&gt;
+&lt;td class="controls template-field cell c0 lastcol" colspan="2"&gt;##edit## ##delete## ##approve## ##disapprove## ##export##&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</singletemplate>
+    <listtemplate>&lt;p&gt;##delcheck##&lt;/p&gt;
+&lt;div class="defaulttemplate"&gt;
+&lt;table class="mod-data-default-template ##approvalstatus##"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="template-field cell c0"&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Pergunta:&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol"&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;[[Pergunta]]&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class="template-field cell c0"&gt;&lt;span style="font-size: medium;"&gt;Resposta:&lt;/span&gt;&lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol"&gt;&lt;span style="color: #003366;"&gt;&lt;em&gt;&lt;span style="font-size: medium;"&gt;[[Resposta]]&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lastrow"&gt;
+&lt;td class="controls template-field cell c0 lastcol" colspan="2"&gt;##edit## ##more## ##delete## ##approve## ##disapprove## ##export##&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;hr /&gt;</listtemplate>
+    <listtemplateheader></listtemplateheader>
+    <listtemplatefooter></listtemplatefooter>
+    <addtemplate>&lt;div class="defaulttemplate"&gt;&lt;table class="mod-data-default-template ##approvalstatus##"&gt;
+&lt;tbody&gt;&lt;tr class=""&gt;
+&lt;td class="template-field cell c0" style=""&gt;Pergunta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Pergunta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lastrow"&gt;
+&lt;td class="template-field cell c0" style=""&gt;Resposta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Resposta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</addtemplate>
+    <rsstemplate>&lt;div class="defaulttemplate"&gt;&lt;table class="mod-data-default-template ##approvalstatus##"&gt;
+&lt;tbody&gt;&lt;tr class=""&gt;
+&lt;td class="template-field cell c0" style=""&gt;Pergunta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Pergunta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lastrow"&gt;
+&lt;td class="template-field cell c0" style=""&gt;Resposta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Resposta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</rsstemplate>
+    <rsstitletemplate>$@NULL@$</rsstitletemplate>
+    <csstemplate>$@NULL@$</csstemplate>
+    <jstemplate>$@NULL@$</jstemplate>
+    <asearchtemplate>&lt;div class="defaulttemplate"&gt;&lt;table class="mod-data-default-template ##approvalstatus##"&gt;
+&lt;tbody&gt;&lt;tr class=""&gt;
+&lt;td class="template-field cell c0" style=""&gt;Pergunta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Pergunta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=""&gt;
+&lt;td class="template-field cell c0" style=""&gt;Resposta: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;[[Resposta]]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="searchcontrols"&gt;
+&lt;td class="template-field cell c0" style=""&gt;Nome do autor: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;##firstname##&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="searchcontrols lastrow"&gt;
+&lt;td class="template-field cell c0" style=""&gt;Sobrenome do autor: &lt;/td&gt;
+&lt;td class="template-token cell c1 lastcol" style=""&gt;##lastname##&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;</asearchtemplate>
+    <approval>0</approval>
+    <manageapproved>1</manageapproved>
+    <scale>100</scale>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <defaultsort>0</defaultsort>
+    <defaultsortdir>0</defaultsortdir>
+    <editany>0</editany>
+    <notification>0</notification>
+    <timemodified>1475156625</timemodified>
+    <fields>
+      <field id="4">
+        <type>textarea</type>
+        <name>Pergunta</name>
+        <description>Enunciado da Pergunta</description>
+        <required>1</required>
+        <param1></param1>
+        <param2>60</param2>
+        <param3>10</param3>
+        <param4>1</param4>
+        <param5>0</param5>
+        <param6></param6>
+        <param7></param7>
+        <param8></param8>
+        <param9></param9>
+        <param10></param10>
+      </field>
+      <field id="5">
+        <type>textarea</type>
+        <name>Resposta</name>
+        <description>Resposta</description>
+        <required>1</required>
+        <param1></param1>
+        <param2>60</param2>
+        <param3>10</param3>
+        <param4>1</param4>
+        <param5>0</param5>
+        <param6></param6>
+        <param7></param7>
+        <param8></param8>
+        <param9></param9>
+        <param10></param10>
+      </field>
+    </fields>
+    <records>
+      <record id="1">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <timecreated>1468957806</timecreated>
+        <timemodified>1468957806</timemodified>
+        <approved>1</approved>
+        <contents>
+          <content id="1">
+            <fieldid>4</fieldid>
+            <content>&lt;p&gt;Posso programar em Python utilizando o celular ?&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+          <content id="2">
+            <fieldid>5</fieldid>
+            <content>&lt;p&gt;Pode sim. Para isso baixe o aplicativo QPython no Google Play. No entanto o Python para android possui limitações em relação ao que podemos fazer em um computador convencional. Sugiro que você utilize o computador para programar, uma vez que programar exige concentração, conforto e muita digitação.&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+        </contents>
+        <ratings>
+        </ratings>
+      </record>
+      <record id="2">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <timecreated>1468958024</timecreated>
+        <timemodified>1468958024</timemodified>
+        <approved>1</approved>
+        <contents>
+          <content id="3">
+            <fieldid>4</fieldid>
+            <content>&lt;p&gt;Os aplicativos em Python podem ser convertidos para um apk, de tal forma que posso instalar no meu celular ?&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+          <content id="4">
+            <fieldid>5</fieldid>
+            <content>&lt;p&gt;Não. Aplicativos Python são diferentes de aplicativos de celular. Para criação de aplicativos para Android utiliza-se, em geral, a linguagem de Programação Java, com a aplicação Android Studio. Programar para celular segue uma filosofia um pouco diferente. No entanto, a base que estudaremos nesta disciplina, é a mesma.&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+        </contents>
+        <ratings>
+        </ratings>
+      </record>
+      <record id="3">
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <timecreated>1474920777</timecreated>
+        <timemodified>1474920777</timemodified>
+        <approved>1</approved>
+        <contents>
+          <content id="5">
+            <fieldid>4</fieldid>
+            <content>&lt;p&gt;Erro: SyntaxError&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+          <content id="6">
+            <fieldid>5</fieldid>
+            <content>&lt;p&gt;Seu código possui algum erro de escrita.&lt;/p&gt;
+&lt;p&gt;Verifique:&lt;/p&gt;
+&lt;p&gt;O simbolo de dois pontos ":" ao final das condições dos ifs ou elifs ou while ou for.&lt;/p&gt;
+&lt;p&gt;O símbolo "==" nas comparações.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+        </contents>
+        <ratings>
+        </ratings>
+      </record>
+      <record id="4">
+        <userid>2</userid>
+        <groupid>3</groupid>
+        <timecreated>1474920994</timecreated>
+        <timemodified>1474920994</timemodified>
+        <approved>1</approved>
+        <contents>
+          <content id="7">
+            <fieldid>4</fieldid>
+            <content>&lt;p&gt;Erro: IdentError&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+          <content id="8">
+            <fieldid>5</fieldid>
+            <content>&lt;p&gt;Provavelmente um erro de tabulação. Verifique as tabulações.&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+        </contents>
+        <ratings>
+        </ratings>
+      </record>
+      <record id="5">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <timecreated>1474922099</timecreated>
+        <timemodified>1474922099</timemodified>
+        <approved>1</approved>
+        <contents>
+          <content id="9">
+            <fieldid>4</fieldid>
+            <content>&lt;p&gt;Tem um jeito mais fácil de resolver este problema ?&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+          <content id="10">
+            <fieldid>5</fieldid>
+            <content>&lt;p&gt;O jeito mais fácil pra um muitas vezes não é o mais fácil para outro. A forma mais fácil é a que você sabe resolver.&lt;/p&gt;</content>
+            <content1>1</content1>
+            <content2>$@NULL@$</content2>
+            <content3>$@NULL@$</content3>
+            <content4>$@NULL@$</content4>
+          </content>
+        </contents>
+        <ratings>
+        </ratings>
+      </record>
+    </records>
+  </data>
+</activity>

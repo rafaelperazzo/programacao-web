@@ -1,0 +1,20 @@
+-Test 6: Teste 6 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>3
+>3
+
+ --- Program output ---
+>Para verificar a cobra, especifique valores entre 1 e 9 para representar cada cor observada
+>Digite o valor para a primeira cor:Digite o valor para a segunda cor:Digite o valor para a terceira cor:Digite o valor para a quarta cor:V
+
+ --- Expected output (text)---
+> 'F'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,7210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="16" moduleid="89" modulename="vpl" contextid="1298">
+  <vpl id="16">
+    <name>Exercício 18</name>
+    <shortdescription>E18</shortdescription>
+    <intro>&lt;p&gt;Sejam $$a,b,c$$ números inteiros tal que $$a \geq b \geq c &amp;gt; 0$$. Sabe-se que $$a,b,c$$ são comprimentos de lados de um triângulo se $$a&amp;lt;b+c$$. Suponha que $$a, b, c$$ são comprimentos dos lados de um triângulo.&lt;/p&gt;
+&lt;p&gt;Quanto aos ângulos diz-se que um triângulo é&lt;br /&gt;    &lt;br /&gt;    - Retângulo, se $$a^2=b^2+c^2$$;&lt;br /&gt;    - Obtusângulo, se $$a^2&amp;gt;b^2+c^2$$;&lt;br /&gt;    - Acutângulo, se $$a^2&amp;lt;b^2+c^2$$.&lt;br /&gt;    &lt;br /&gt;Quanto aos lados diz-se que o triângulo é &lt;br /&gt;      - Equilátero, se $$a=b=c$$;&lt;br /&gt;      - Isósceles se, $$b=c\neq a$$;&lt;br /&gt;      - Escaleno se, $$a \neq b \neq c$$.&lt;br /&gt;  &lt;br /&gt;Escreva um programa que lê 3 números inteiros positivos e imprime uma mensagem indicando se eles são ou não comprimentos dos lados de um triângulo. No caso deles serem comprimentos de um triângulo o programa deve ainda imprimir mensagens indicando a classificação do triângulo quanto aos ângulos e quanto aos lados. Considere sempre que $$a \geq b \geq c$$&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENTRADA:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3 valores quaisquer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SAÍDA:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;'N' em caso de a,b e c não formarem um triângulo;&lt;/p&gt;
+&lt;p&gt;'S'&lt;/p&gt;
+&lt;p&gt;'Re' ou 'Ob' ou 'Ac'&lt;/p&gt;
+&lt;p&gt;'Eq' ou 'Is' ou 'Es'&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para os valores:&lt;/p&gt;
+&lt;table style="width: 569px; height: 264px;" border="1"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: medium;"&gt;a&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: medium;"&gt;b&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: medium;"&gt;c&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: medium;"&gt;Saída&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;10&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;2&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;3&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;N&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;10&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;5&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;4&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;N&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;2&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;2&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;span style="font-size: medium;"&gt;2&lt;/span&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;S&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;Ac&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: medium;"&gt;Eq&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1475117700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>114688</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>triangulo.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/triangulo.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 10
+9
+8
+output = 'S'
+'Ac'
+'Es'
+
+case = Teste 2
+input = 2
+2
+2
+output = 'S'
+'Ac'
+'Eq'
+
+case = Teste 3
+input = 10
+3
+2
+output = 'N'</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="5350">
+        <vpl>16</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474557815</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474557861</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input ('Digite a: ')
+b = input ('Digite b: ')
+c = input ('Digite c: ')
+
+if a&lt;(b+c):
+    print('S')
+    
+    if (a**2) == (b**2+c**2):
+        print('Re')
+    elif a**2 &gt; b**2+c**2:
+        print ('Ob')
+    else:
+        print ('Ac')
+    
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    else:
+        print('Es')
+else:
+    print('N')
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6747">
+        <vpl>16</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474911694</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150761</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor do lado 1: ')
+b=input('digite o valor do lado 2: ')
+c=input('digite o valor do lado 3: ')
+if a&lt;(b+c):
+    print ('S')
+    if (a**2)==((b**2)+(c**2)):
+        print ('Re')
+    if (a**2)&gt;((b**2)+(c**2)):
+        print ('Ob')
+    if (a**2)&lt;((b**2)+(c**2)):
+        print ('Ac')
+    if a==b==c:
+        print ('Eq')
+    if b==c!=a:
+        print ('Is')
+    if a!=b!=c:
+        print ('Es')
+else:
+    print ('N')
+    
+        
+            
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5914">
+        <vpl>16</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474896462</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150762</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+    
+a=int(input("Digite o valor de a: "))
+b=int(input("Digite o valor de b: "))
+c=int(input("Digite o valor de c: "))
+
+#PROCESSAMENTO
+
+if a&lt;(b+c):
+    print("S")
+    if a**2==(b**2)+(c**2):
+        print("Re")
+    elif a**2&gt;(b**2)+(c**2):
+        print("Ob")
+    else:
+        print("Ac")
+    if a==b==c:
+        print("Eq")
+    elif b==c!=a:
+        print("Is")
+    else:
+        print("Es")
+else:
+    print("N")
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5922">
+        <vpl>16</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474896512</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150764</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+a&gt;=b&gt;=c&gt;0
+
+if (a&lt;b+c):
+    print ('S')
+    if a**2==b**2+c**2:
+        print('Re')
+    
+    if a**2&gt;b**2+c**2:
+        print('Ob')
+    
+    if a**2&lt;b**2+c**2:
+        print ('Ac')
+        
+        if a==b==c:
+            print ('Eq')
+        if b==c!=a:
+            print('Is')
+        if a!=b!=c:
+            print ('Es')
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5857">
+        <vpl>16</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474896038</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150745</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a: Digite o valor de b: Digite o valor de c: 'S'
+&gt;'Ob'
+&gt;'Es'
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a: Digite o valor de b: Digite o valor de c: 'S'
+&gt;'Ob'
+&gt;'Es'
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input('Digite o valor de a: '))
+b = int(input('Digite o valor de b: '))
+c = int(input('Digite o valor de c: '))
+
+if a &gt;= b &gt;= c &gt; 0:
+    print "'S'"
+    
+    if (a**2) == (b**2) + (c**2):
+        print "'Re'"
+        
+    elif (a**2) &gt; (b**2) + (b**2):
+        print "'Ob'"
+        
+    elif (a**2) &lt; (b**2) + (b**2):
+        print "'Ac'"
+        
+    if a == b == c:
+            print "'Eq'"
+        
+    elif b == c != a:
+            print "'Is'"
+            
+    elif a != b != c:
+            print "'Es'"
+            
+else:
+    print "'N'"
+        
+        
+        
+        
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6002">
+        <vpl>16</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474896882</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150766</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite o comprimento do lado "a": '))
+b=int(input('Digite o comprimento do lado "b": '))
+c=int(input('Digite o comprimento do lado "c": '))
+
+if(a&gt;=b&gt;=c&gt;0 and a&lt;b+c):
+      
+      print('S')
+      
+      if ((a**2)==(b**2) + (c**2)):
+         print('Re')
+
+      elif (a**2&gt;b**2 + c**2):
+         print('Ob')
+
+      elif (a**2&lt;b**2 + c**2):
+         print('Ac')
+    
+
+      if (a==b==c):
+         print('Eq')
+    
+      elif (b==c!=a):
+        print('Is')
+    
+      elif (a!=b!=c):
+        print('Es')
+    
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6086">
+        <vpl>16</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474897559</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150747</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;digite a:digite b:digite c:s
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;digite a:digite b:digite c:s
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+A=int(input("digite a:"))
+B=int(input("digite b:"))
+C=int(input("digite c:"))
+if A&lt;(B+C):
+    print("s")
+    if (A)**2==((B)**2 +(C)**2):
+        print("Re")
+    if (A)**2 &gt; ((B)**2 + (C)**2):
+        print("Ob")
+    if (A)**2 &lt; ((B)**2 + (C)**2):
+        print("Ac")
+    if A==B==C :
+        print("Eq")
+        if B==C!=A :
+            print("Is")
+            if A!=B!=C :
+                print("Es")
+        
+        
+else:
+    print("N")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6031">
+        <vpl>16</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474897034</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150768</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input("Digite o valor de a:")
+b=input("Digite o valor de b:")
+c=input("Digite o valor de c:")
+if a&lt;b+c:
+    print("'S'")
+    if (a**2)==(b**2)+(c**2):
+        print("'Re'")
+    elif a**2&gt;(b**2)+(c**2):
+        print("'Ob'")
+    elif a**2&lt;(b**2)+(c**2):
+         print("'Ac'")
+    if a==b==c:
+        print("'Eq'")
+    
+            
+    elif b==c!=a:
+        print("'Is'")
+    
+           
+    elif a!=b!=c:
+        print("'Es'")
+else: 
+    print("'N'")
+     
+     
+
+        
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6039">
+        <vpl>16</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474897122</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150769</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a= int(input('Digite a:'))
+b= int(input('Digite b:'))
+c= int(input('Digite c:'))
+
+if a&lt;(b+c):
+    print ('S')
+    if (a**2)==(b**2)+(c**2):
+        print ('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print ('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print ('Ac') 
+    if a== b == c:
+        print ('Eq')
+    if b==c!=a:
+        print ('Is')
+    if a!=b!=c:
+        print ('Es')
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6740">
+        <vpl>16</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474911648</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150771</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+if a&lt;(b+c):
+    print('S')
+    if (a*a)==((b*b)+(c*c)):
+        print('Re')
+    elif (a*a)&gt;((b*b)+(c*c)):
+        print('Ob')
+    else:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    else:
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6185">
+        <vpl>16</vpl>
+        <userid>70</userid>
+        <datesubmitted>1474898132</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150748</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor a: Digite o valor b: Digite o valor c: 
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor a: Digite o valor b: Digite o valor c:
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#E
+a = input('Digite o valor a: ')
+b = input('Digite o valor b: ')
+c = input('Digite o valor c: ')
+#PS
+if a&lt;b+c:
+    print("'S'")
+    if(a**2)==(b**2)+(c**2):
+        print("'Re'")
+    elif a**2&lt;(b**2)==(c**2):
+        print("'Ob'")
+    elif a**2&lt;(b**2)+(c**2):
+        print("'Ac'")
+    if a==b==c:
+        print("'Eq'")
+    
+    elif b==c!=a:
+        print("'Is'")
+        
+    elif a!=b!=c:
+        print("'Es'")
+        
+    else:
+        print("'N'")
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6571">
+        <vpl>16</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474910491</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150772</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input("Insira o valor de a: ")
+b = input("Insira o valor de b: ")
+c = input("Insira o valor de c: ")
+
+if a&lt;b+c:
+    print("S")
+    if (a**2)==(b**2)+(c**2):
+        print("Re")
+    elif (a**2)&gt;(b**2)+(c**2):
+        print("Ob")
+    elif (a**2)&lt;(b**2)+(c**2):
+        print("Ac")
+    if a==b==c:
+        print("Eq")
+    elif b==c!=a:
+        print("Is")
+    elif a!=b!=c:
+        print("Es")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6023">
+        <vpl>16</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474896992</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150774</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+a=input ('digite o valor do lado  a:')
+b=input ('digite o valor do lado  b:')
+c=input ('digite o valor do lado  c:')
+
+#SAIDA
+if a&lt;b+c:
+    print 'S'
+    if (a**2)==(b**2)+(c**2):
+        print 'Re'
+    if (a**2)&gt;(b**2)+(c**2):
+        print 'Ob'
+    if (a**2)&lt;(b**2)+(c**2):
+        print 'Ac'
+    if a==b==c:
+        print 'Eq'
+    if b==c!=a:
+        print 'Is'
+    if a!=b!=c:
+        print 'Es'
+else:
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6609">
+        <vpl>16</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474910643</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150775</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input ('digite o valor de a:')
+b=input ('digite o valor de b:')
+c=input ('digite o valor de c:')
+
+if a&lt;b+c:
+    print ('s')
+    if (a*a)==(b*b)+(c*c):
+        print ('Re')
+    if (a*a)&gt;(b*b)+(c*c):
+        print ('Ob')
+    if (a*a)&lt;(b*b)+(c*c): 
+        print ('Ac')
+    if a==b==c:
+        print ('Eq')
+    if b==c!=a:
+        print ('Is')
+    if a!=b!=c:
+        print ('Es')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7326">
+        <vpl>16</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474923233</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150742</dategraded>
+        <grade>3.33000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|&gt;
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Primeiro valor: Segundo valor: Terceiro valor: S
+&gt;Es
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Primeiro valor: Segundo valor: Terceiro valor: S
+&gt;Eq
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 3.33
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Primeiro valor: Segundo valor: Terceiro valor: S
+&gt;Es
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Primeiro valor: Segundo valor: Terceiro valor: S
+&gt;Eq
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('Primeiro valor: ')
+b = input('Segundo valor: ')
+c = input('Terceiro valor: ')
+
+a1 = b+c
+a2 = b**2+c**2
+h = a**2
+
+if a1&gt;a:
+    print('S')
+    if a == b and b == c:
+        print('Eq')
+        print('Ac')
+    elif b == c and a != c:
+        print('Is')
+        if a2 == h:
+            print('Re')
+        elif h &gt; a2:
+            print('O')
+        else:
+            print('Ac')
+    else:
+        print('Es')
+        if a2 == h:
+            print('Re')
+        elif h &gt; a2:
+            print('O')
+        else:
+            print('Ac')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5974">
+        <vpl>16</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474896765</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150777</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+a= int(input ('Digite o valor do lado a:'))
+b= int(input ('Digite o valor do lado b:'))
+c= int(input ('Digite o valor do lado c:'))
+
+#Processamento e Saida
+
+if (a&lt;b+c):
+    print ('S')
+    if (a**2==((b**2)+(c**2))):
+        print ('Re')
+    elif (a&gt;(b**2)+(c**2)):
+        print ('Ob')
+    else: 
+        print ('Ac')
+    
+    if (a==b==c):
+        print ('Eq')
+    elif (b==c!=a):
+        print ('Is')
+    else:
+        print ('Es')
+
+else: 
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5877">
+        <vpl>16</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474896217</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150750</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite a:Digite b:Digite c:S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite a:Digite b:Digite c:S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('Digite a:')
+b = input('Digite b:')
+c = input('Digite c:')
+
+if a&gt;=b&gt;=c&gt;0:
+    print('S')
+    if a**2 == b**2 + c**2:
+        print('Re')
+    if a**2 &gt; b**2 + c**2:
+        print('Ob')
+    if a**2 &lt; b**2 + c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5958">
+        <vpl>16</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474896688</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150779</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+ 
+a&gt;=b&gt;=c&gt;0 
+ 
+if a&lt;b+c:
+    print('S')
+    if a**2==b**2+c**2:
+        print('Re')
+    if a**2&gt;b**+c**2:
+        print('Ob')
+    if a**2&lt;b**2+c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!= b!= c:
+        print('Es')
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6080">
+        <vpl>16</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474897502</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150751</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;digite o valor de a:digite o valor de b:digite o valor de c:S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;digite o valor de a:digite o valor de b:digite o valor de c:S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+
+if a&gt;=b&gt;=c&gt;0:
+    print('S')
+    if a**2==(b**2)+(c**2):
+        print('Re')
+    if a**2&gt;(b**2)+(c**2):
+        print('Ob')
+    if a**2&lt;(b**2)+(c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+else:
+    print('N')
+    
+
+
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6037">
+        <vpl>16</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474897097</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150780</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+a = float(input('Digite o valor do lado "a": '))
+b = float(input('Digite o valor do lado "b": '))
+c = float(input('Digite o valor do lado "c": '))
+
+#Processamento 
+
+if a &lt; b + c:
+    print('S')
+    
+    if (a**2) == (b**2) + (c**2):
+        print('Re')
+        
+    elif  (a**2) &gt; (b**2) + (c**2):
+        print('Ob')
+        
+    elif (a**2) &lt; (b**2) + (c**2):
+        print('Ac')
+    
+    if a == b == c:
+        print('Eq')
+        
+    elif b == c != a:
+         print('Is')
+    
+    elif a != b != c:
+         print('Es')
+    
+else:
+    print('N')
+
+    
+    
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6607">
+        <vpl>16</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474910634</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150782</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+
+if a&lt;b+c and b&lt;c+a and c&lt;a+b:
+    print('S')
+    if (a**2)==((b**2)+(c**2)) or (b**2)==((a**2)+(c**2)) or (c**2)==((b**2)+(a**2)):
+        print('Re')
+        if a==b and b==c:
+            print('Eq')
+        elif a==b and b!=c or a==c and c!=b or c==b and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    elif (a**2)&gt;((b**2)+(c**2)) or (c**2)&gt;((b**2)+(a**2)) or (b**2)&gt;((a**2)+(c**2)):
+        print('Re')
+        if a==b and b==c:
+            print('Eq')
+        elif a==b and b!=c or a==c and c!=b or c==b and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    else:
+        print('Ac')
+        if a==b and b==c:
+            print('Eq')
+        elif a==b and b!=c or a==c and c!=b or c==b and c!=a:
+            print('Is')
+        else:
+            print('Es')
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5979">
+        <vpl>16</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474896783</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150783</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+
+if a&lt;b+c:
+    print('S')
+    if a**2==b**2+c**2:
+        print('Re')
+    if a**2&gt;b**2+c**2:
+        print('Ob')
+    if a**2&lt;b**2+c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7578">
+        <vpl>16</vpl>
+        <userid>82</userid>
+        <datesubmitted>1475116521</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150739</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|&gt;
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Eq
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Eq
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+&gt;Re
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = input ('Digite o valor de a:')
+b = input ('Digite o valor de b:')
+c = input ('Digite o valor de c:')
+
+if (a+b)&gt;a:
+    print ('S')
+
+if (a**2)+(b**2)+(c**2):
+    print ('Re')
+else:
+    if (a**2)&gt;(b**2)+(c**2):
+        print ('Ob')
+    else:
+        if (a**2)&lt;(b**2)+(c**2):
+            print ('Ac')
+            
+if a==b==c:
+    print ('Eq')
+else:
+    if b==c!=a:
+        print ('Is')
+    else:
+        if a!=b!=c:
+            print ('Es')
+        else:
+            print ('N')
+        
+        
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7271">
+        <vpl>16</vpl>
+        <userid>83</userid>
+        <datesubmitted>1474920985</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150784</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+
+a=input('Digite o primeiro valor :')
+b=input('Digite o segundo valor :')
+c=input('Digite o terceiro valor :')
+
+if a&gt;=b&gt;=c&gt;0 and a&lt;b+c :
+    print ('S')
+if a&gt;=b&gt;=c&gt;0 and a&lt;b+c :
+        if ((a)**2)==((b)**2)+((c)**2):
+            print ('Re')
+        elif ((a)**2)&gt;((b)**2)+((c)**2):
+            print ('Ob')
+        elif ((a)**2)&lt;((b)**2)+((c)**2):
+            print ('Ac')
+if a&gt;=b&gt;=c&gt;0 and a&lt;b+c :
+    if a==b==c :
+        print ('Eq')
+    elif a==b!=c or a!=b==c :
+        print ('Is')
+    elif a!=b!=c:
+        print ('Es')
+else :
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6059">
+        <vpl>16</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474897322</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150786</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('valor de a:'))
+b=int(input('valor de b:'))
+c=int(input('valor de c:'))
+
+if(a&lt;b+c):
+    print('S')
+    if(a**2==(b**2)+(c**2)):
+        print('Re')
+    if((a**2)&gt;(b**2)+(c**2)):
+        print('Ob')
+    if((a**2)&lt;(b**2)+(c**2)):
+        print('Ac')
+    if(a==b==c):
+        print('Eq')
+    if(b==c!=a):
+        print('Is')
+    if(a!=b!=c):
+        print('Es')
+else:
+    print('N')
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6768">
+        <vpl>16</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474911956</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150788</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a= int(input('Digite o valor de a: '))
+b= int(input('Digite o valor de b: '))
+c= int(input('Digite o valor de c: '))
+
+if a&lt;b+c:
+    print ('S')
+    if (a**2)==(b**2)+(c**2) and (b**2)==(a**2)+(c**2) and (c**2)==(b**2)+(a**2):
+        print ('Re')
+        if a==b and b==c:
+            print('Eq')
+        elif  b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+        if a==b and b==c:
+            print('Eq')
+        elif  b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    else:
+        print('Ac')
+        if a==b and b==c:
+            print('Eq')
+        elif  b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+else:
+    print('N')
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6621">
+        <vpl>16</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474910712</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150789</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+a = int(input('digite o valor de a:'))
+b = int(input('digite o valor de b:'))
+c = int(input('digite o valor de c:'))
+
+if a&gt;=b&gt;=c&gt;0 and a&lt;b+c:
+    print ('S')
+    if a**2==b**2+c**2:
+        if a==b==c:
+            print('Re')
+            print('Eq')
+        elif b==c!=a:
+            print('Re')
+            print('Is')
+        elif a!=b!=c:
+            print('Re')
+            print('Es')      
+    elif a**2&gt;b**2+c**2:
+        if a==b==c:
+            print('Ob')
+            print('Eq')
+        elif b==c!=a:
+            print('Ob')
+            print('Is')
+        elif a!=b!=c:
+            print('Ob')
+            print('Es') 
+    elif a**2&lt;b**2+c**2:
+        if a==b==c:
+            print('Ac')
+            print('Eq')
+        elif b==c!=a:
+            print('Ac')
+            print('Is')
+        elif a!=b!=c:
+            print('Ac')
+            print('Es') 
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5858">
+        <vpl>16</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474896039</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150791</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input("Digite valor de a:"))
+b = int(input("Digite valor de b:"))
+c = int(input("Digite valor de c:"))
+
+if a&lt;b+c:
+    print("S")
+    if a**2==b**2+c**2:
+        print("Re")
+    if a**2&gt;b**2+c**2:
+        print("Ob")
+    if a**2&lt;b**2+c**2:
+        print("Ac")
+    if a==b==c:
+        print("Eq")
+    if b==c!=a:
+        print("Is")
+    if a!=b!=c:
+        print("Es")
+
+else:
+    print("N")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5892">
+        <vpl>16</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474896355</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150753</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;digite um valor: digite um valor: digite um valor: S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;digite um valor: digite um valor: digite um valor: S
+&gt;Ob
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a= input('digite um valor: ')
+b= input('digite um valor: ')
+c= input('digite um valor: ')
+
+if a&gt;=b&gt;=c&gt;0:
+    print('S')
+    if (a*2)==(b*2)+(c*2):
+        print('Re')
+    if (a*2)&gt;(b*2)+(c*2):
+        print('Ob')
+    if (a*2)&lt;(b*2)+(c*2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+else:
+    print('N')
+
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5975">
+        <vpl>16</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474896778</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150792</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#entrada
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+#processamento e saida
+if (a&lt;b+c):
+    print('S')
+    if (a**2==(b**2)+(c**2)):
+        print('Re')
+    elif (a**2&gt;(b**2)+(c**2)):
+        print('Ob')
+    else:
+        print('Ac')
+    if (a==b==c):
+        print('Eq')
+    elif (b==c!=a):
+        print('Is')
+    else:
+        print('Es')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6005">
+        <vpl>16</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474896885</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150794</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('Digite aqui o lado a:'))
+b=int(input('Digite aqui o lado b:'))
+c=int(input('Digite aqui o lado c:'))
+
+if (a&lt;(b+c)):
+    print ('S')
+    if (a**2==(b**2+c**2)):
+        print ('Re')
+        
+    elif (a&gt;(b**2+c**2)):
+        print ('Ob')
+        
+    elif (a&lt;(b**2+c**2)):
+        print ('Ac')
+        
+    if (a==b==c):
+        print ('Eq')
+    
+    elif (b==c!=a):
+        print ('Is')
+    
+    elif (a!=b!=c):
+        print ('Es')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6014">
+        <vpl>16</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474896928</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150795</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+
+if a&lt;b+c:
+    print('s')
+    if a**2==b**2+c**2:
+        print( 'Re')
+    if a**2&gt;b**2+c**2:
+        print('Ob')
+    if a**2&lt;b**2+c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+         print('Is')
+    if a!=b!=c:
+         print('Es')
+else:
+    print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7182">
+        <vpl>16</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474918989</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150797</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a= input('Digite o valor do comprimento a: ')
+b= input('Digite o valor do comprimento b: ')
+c= input('Digite o valor do comprimento c: ')
+
+if a&gt;b+c or b&gt;c+a or c&gt;a+b:
+    print('N')
+
+else:
+    print('S')
+    if (a)**(2)== (((b)**(2))+((c)**(2))) or (b)**(2)== (((a)**(2))+((c)**(2))) or (c)**(2)== (((b)**(2))+((a)**(2))):
+        print ('Re')
+    elif (a)**(2)&gt; (((b)**(2))+((c)**(2))) or (b)**(2)&gt; (((a)**(2))+((c)**(2))) or (c)**(2)&gt; (((b)**(2))+((a)**(2))):
+        print ('Ob')
+    else:
+        print ('Ac')
+    
+    if a==b==c:
+        print ('Eq')
+    elif (a==b and a!=c) or (a==c and a!=b) or (b==a and b!=c) or (b==c and b!=a) or (c==a and c!=b) or (c==b and c!=a):
+        print ('Is')
+    else:
+        print ('Es')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6612">
+        <vpl>16</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474910647</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150755</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;a: b: c: Traceback (most recent call last):
+&gt;  File "triangulo.py", line 22, in &lt;module&gt;
+&gt;    prin('N')
+&gt;NameError: name 'prin' is not defined
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;a: b: c: Traceback (most recent call last):
+&gt;  File "triangulo.py", line 22, in &lt;module&gt;
+&gt;    prin('N')
+&gt;NameError: name 'prin' is not defined
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('a: '))
+b=int(input('b: '))
+c=int(input('c: '))
+if a&lt;b+c:
+    print('S')
+    if a**2 == b**2 + c**2:
+        print('Re')
+    elif a**2 &gt; b**2 + c**2:
+        print('Ob')
+    else: 
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    elif a!=b!=c:
+        print('Es')
+else:
+    prin('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6004">
+        <vpl>16</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474896884</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150798</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+
+if a&lt;b+c:
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+         print('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+        
+else:
+    print('N')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5991">
+        <vpl>16</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474896839</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150800</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite a:'))
+b=int(input('Digite b:'))
+c=int(input('Digite c:'))
+
+if a&lt;(b+c):
+    print('S')
+    if a**2==(b**2+c**2):
+        print('Re')
+    if a**2&gt;(b**2+c**2):
+        print('Ob')
+    if a**2&lt;(b**2+c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7260">
+        <vpl>16</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474920361</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150756</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a:Digite o valor de b:Digite o valor de c:
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input('Digite o valor de a:'))
+b = int(input('Digite o valor de b:'))
+c = int(input('Digite o valor de c:'))
+ 
+if a &lt; b + c:
+    print('S')
+    if a**2 == b**2 + c**2:
+        print('Re')
+    if a**2 &gt; b**2 + c**2:
+        print('Ob')
+    if a**2 &lt; b**2 + c**2:
+        print('Ac')
+    if a == b == c:
+        print('Eq')
+    if b == c != a:
+        print('Is')
+    if a != b != c:
+        print('Es')
+else:
+    ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5917">
+        <vpl>16</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474896475</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150801</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+
+if a&lt;b+c:
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    elif (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    elif a!=b!=c:
+        print('Es')
+else:
+    print('N')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6648">
+        <vpl>16</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474910994</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150803</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('Digite o valor de a: ')
+b=input('Digite o valor de b: ')
+c=input('Digite o valor de c: ')
+
+if a&gt;=b+c:
+    print('N')
+else: 
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    else :
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    else:
+        print('Es')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5955">
+        <vpl>16</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474896678</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150805</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+
+if (a&lt;(b+c)):
+    print ('S')
+    
+    if (a**2==b**2+c**2):
+        print ('Re')
+        
+    if (a**2&gt;b**2+c**2):
+        print ('Ob')
+        
+    if (a**2&lt;b**2+c**2):
+        print ('Ac')
+        
+    if (a==b==c):
+        print ('Eq')
+        
+    if (b==c!=a):
+        print ('Is')
+        
+    if (a!=b!=c):
+        print ('Es')
+        
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6592">
+        <vpl>16</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474910595</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150807</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a =  int(input('Digite o valor de A:'))
+b =  int(input('Digite o valor de B:'))
+c =  int(input('Digite o valor de C:'))
+if a&lt;(b+c):
+    print 'S'
+    if a*a== (b*b)+(c*c):
+        print 'Rec'
+    elif (a**2)&gt;b**2+c**2:
+        print 'Ob'
+    elif (a**2)&lt;b**2+c**2:
+        print 'Ac'
+    if a == b==c:
+        print 'Eq'
+    elif b == c != a:
+        print 'Is'
+    elif a!= b!=c:
+        print 'Es'
+else:
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5931">
+        <vpl>16</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474896568</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150808</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input (' digite o valor de A: ')
+b = input (' digite o valor de B: ')
+c = input (' digite o valor de C: ')
+
+if a &lt; b+c:
+    print ('S')
+    if a**2 == b**2 + c**2:
+        print ('Re')
+    if a**2 &gt; b**2 + c**2:
+        print ('Ob')
+    if a**2 &lt; b**2 + c**2:
+        print ('Ac')
+    if a == b == c:
+        print ('Eq')        
+    if b == c != a:
+        print ('Is')
+    if a != b != c:
+        print ('Es')
+    
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6227">
+        <vpl>16</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474898461</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150810</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('valor de a:')
+b=input('valor de b:')
+c=input('valor de c:')
+
+
+if a&lt;b+c:
+    print('s')
+    if (a**2)==(b**2)+(c**2):
+        print('re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print('ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('ac')
+    if a==b==c:
+        print('eq')
+    if b==c!=a:
+        print('is')
+    if a!=b!=c:
+        print('es')
+else:
+    print('n')
+
+    
+       
+    
+
+        
+
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6657">
+        <vpl>16</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474911068</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150811</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+A=int(input('Insira o valor do maior lado:'))
+B=int(input('Insira o valor do segundo maior lado:'))
+C=int(input('Insira o valor do menos lado:'))
+if A&lt;B+C and A!=0 and B!=0 and C!=0:
+    print('S')
+    d=(B**2)+(C**2)
+    if (A**2)==d:
+        print('Re')
+    if (A**2)&gt;d:
+        print('Ob')
+    if (A**2)&lt;d:
+        print('Ac')
+    if A==B==C:
+        print('Eq')
+    if B==C!=A:
+        print('Is')
+    if A!=B!=C:
+        print('Es')
+else:
+    print('N')
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6795">
+        <vpl>16</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474912289</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150813</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+#PROCESSAMENTO
+if a&lt;(b+c):
+    if a&gt;=b and a&gt;=c and b&gt;=c and b&gt;=0 and c&gt;=0:
+        print('S')
+        if a**2==(b**2+c**2):
+            print('Re')
+            if a==b and b==c:
+                print('Eq')
+            elif b==c and c!=a:
+                print('Iso')
+            else:
+                print('ES')
+        elif a**2&gt;(b**2+c**2):
+            print('O')
+            if a==b and b==c:
+                print('Eq')
+            elif b==c and c!=a:
+                print('Iso')
+            else:
+                print('ES')
+        else:
+            print('Ac')
+            if a==b and b==c:
+                print('Eq')
+            elif b==c and c!=a:
+                print('Iso')
+            else:
+                print('ES')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5815">
+        <vpl>16</vpl>
+        <userid>105</userid>
+        <datesubmitted>1474838070</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6591">
+        <vpl>16</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474910592</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150814</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+# entrada
+a = input ('Digite o valor da maior medida:')
+b = input ('Digite o valor da medida intermediária:')
+c = input ('Digite p valor da menor medida:')
+
+if a&gt;=(b+c):
+    print ('N')
+else:
+    print ('S')
+    if a**2 == (b**2) + (c**2):
+        print ('RE')
+    if a**2 &gt; (b**2) + (c**2):
+        print ('OB')
+    if a**2 &lt; (b**2) + (c**2):
+        print ('AC')
+    if a==b and b==c:
+        print ('EQ')
+    if b==c and c!=a:
+        print ('IS')
+    if b!=c and b!=a and c!=a:
+        print ('ES')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6714">
+        <vpl>16</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474911457</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150817</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+c=int(input('digite o valor de c:'))
+if a&lt;b+c and b&lt;a+c and c&lt;a+b:
+    print('S')
+    if ((a**2)==(b**2)+(c**2)) or ((b**2)==(a**2)+(c**2)) or ((c**2)==(b**2)+(a**2)):
+        print('Re')
+        if a==b and b==c:
+             print('Eq')
+        elif b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    elif ((a**2)&gt;(b**2)+(c**2)) or ((b**2)&gt;(a**2)+(c**2)) or ((c**2)&gt;(b**2)+(a**2)):
+        print('Ob')
+        if a==b and b==c:
+             print('Eq')
+        elif b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+    else:
+        print('Ac')
+        if a==b and b==c:
+             print('Eq')
+        elif b==c and c!=a:
+            print('Is')
+        else:
+            print('Es')
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7148">
+        <vpl>16</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474918143</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150818</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int( input ('Digite a:'))
+b = int( input ('Digite b:'))
+c = int( input ('Digite c:'))
+
+if (a&gt;=(b+c)):
+    print ('N')
+else:
+    print ('S')
+    
+    if ((a**2)==((b**2)+(c**2))):
+       print ('Re')
+    if ((a**2)&gt;((b**2)+(c**2))):
+        print ('Ob')
+    if ((a**2)&lt;((b**2)+(c**2))):
+        print ('Ac')
+    
+    if ((a==b) and (a==c)):
+        print ('Eq')
+    if ((b==c) and (c!=a)):
+        print ('Is')
+    if ((a!=b) and (a!=c) and (a!=c)):
+        print ('Es')
+        
+    
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6610">
+        <vpl>16</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474910645</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150820</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+
+if a&lt;(b+c):
+    print 'S'
+    if (a**2)==(b**2)+(c**2):
+        print 'Re'
+    if (a**2)&gt;(b**2)+(c**2):
+        print 'Ob'
+    if (a**2)&lt;(b**2)+(c**2):
+        print 'Ac'
+    if a==b==c:
+        print 'Eq'
+    if b==c and c!=a:
+        print 'Iq'
+    if a!=b and b!=c:
+        print 'Es'
+if a&gt;(b+c) or a==(b+c):
+    print 'N'
+
+    
+    
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6688">
+        <vpl>16</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474911278</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150743</dategraded>
+        <grade>3.33000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|&gt;
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: S
+&gt;Acutângulo
+&gt; Escaleno
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: S
+&gt;Acutângulo
+&gt; Equilátero
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 3.33
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: S
+&gt;Acutângulo
+&gt; Escaleno
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: S
+&gt;Acutângulo
+&gt; Equilátero
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite a: '))
+b=int(input('Digite b: '))
+c=int(input('Digite c: '))
+if a&lt;b+c :
+    print('S')
+    if a*a==(b*b + c*c) :
+        print('Retângulo')
+    elif a*a&gt;(b*b + c*c) :
+        print('Obtusângulo')
+    elif a*a&lt;b*b + c*c :
+        print('Acutângulo')
+    if a==b==c :
+        print(' Equilátero')
+    elif b==c!=a :
+        print('Isóceles')
+    elif a!=b!=c :
+        print(' Escaleno')
+else :
+    print('N')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6668">
+        <vpl>16</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474911180</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150821</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('Digite o valor do primeiro lado: ')
+b=input('Digite o valor do segundo lado: ')
+c=input('Digite o valor do terceiro lado: ')
+
+if (a&lt;b+c):
+    print 'S'
+    if ((a**2) == (b**2) + (c**2)):
+        print 'RE'
+    if ((a**2) &gt; (b**2) + (c**2)):
+        print 'OB'
+    if ((a**2) &lt; (b**2) + (c**2)):
+        print 'AC'
+    if (a==b==c):
+        print 'EQ'
+    if (b==c!=a):
+        print 'IS'
+    if (a!=b!=c):
+        print 'ES'
+    
+else:
+    print 'N'
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6751">
+        <vpl>16</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474911717</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150823</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('Digite o valor de a:'))
+b=int(input('Digite o valor de b:'))
+c=int(input('Digite o valor de c:'))
+if a&lt;(b+c):
+    print('S')
+if a&gt;0 and b&gt;0 and c&gt;0 and a&lt;(b+c) and (a**2)==(b**2)+(c**2):
+    print('Re')
+if a&gt;0 and b&gt;0 and c&gt;0 and  a&lt;(b+c) and (a**2)&gt;(b**2)+(c**2):
+    print('Ob')
+if a&gt;0 and b&gt;0 and c&gt;0 and  a&lt;(b+c) and (a**2)&lt;(b**2)+(c**2):
+    print('Ac')
+else:
+    print('N')
+if a&lt;(b+c) and  a==b==c:
+    print('Eq')
+if a&lt;(b+c) and  b==c!=a:
+    print('Is')
+if a&lt;(b+c) and  a!=b!=a:
+    print('Es')
+if a&lt;0 or b&lt;0 or c&lt;0:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6022">
+        <vpl>16</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474896979</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150826</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('valor positivo para a: '))
+b=int(input('valor positivo (menor ou igual que a) para b : '))
+c=int(input('valor positivo (menor ou igual que b) para c : '))
+
+if a&gt;(b+c):
+    print('N')
+if a&lt;(b+c):
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    if (a**2)&gt;(b**2)+(c**2):   
+        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7387">
+        <vpl>16</vpl>
+        <userid>115</userid>
+        <datesubmitted>1475071915</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150827</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+
+if a&gt;b+c:
+    print ('N')
+else:
+    print('S')
+    if a**2==b**2+c**2:
+        print('Re')
+    if a**2&gt;b**2+c**2:
+        print('Ob')
+    if a**2&lt;b**2+c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=b:
+        print('Is')
+    if a!=b!=c:
+        print('Es')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6801">
+        <vpl>16</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474912381</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150829</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = int(input ('insira o valor de a:')) 
+b = int(input ('insira o valor de b:')) 
+c = int(input ('insira o valor de c:')) 
+
+if a&lt;(b+c): 
+    print ('S') 
+    if (a**2)==(b**2)+(c**2):
+        print ('Re') 
+    if (a^2)&gt;(b^2)+(c^2):
+        print ('Ob')
+    if (a**2)&lt;(b**2)+(c**2): 
+        print ('Ac') 
+    if a==b and b==c and c==a:
+        print ('Eq')
+    if c==b and b!=a:
+        print ('Is')
+    if a!=b and b!=c and a!=c:
+        print ('Es')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5933">
+        <vpl>16</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474896585</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150830</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+
+if a&lt;b+c:
+    print('S')
+    if a**2==b**2+c**2:
+        print('Re')
+    if a**2&gt;b**2+c**2:
+        print('Ob')
+    if a**2&lt;b**2+c**2:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if a!=b!=c:
+        print('Es')
+ 
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6641">
+        <vpl>16</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474910945</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150833</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#1
+a = int(input('Digite o valor da medida a :'))
+b = int(input('Digite o valor da medida b :'))
+c = int(input('Digite o valor da medida c :'))
+
+#2
+
+if a&lt;b+c:
+    print('S')
+    if a**2==((b**2)+(c**2)):
+        print('Re')
+    elif a**2 &gt; ((b**2)+(c**2)):
+        print('Ob')
+    elif a**2 &lt; ((b**2)+(c**2)):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    elif a!=b!=c:
+        print('Es')
+else: 
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5990">
+        <vpl>16</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474896829</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150835</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+a=input('insira o valor do lado a:')
+b=input('insira o valor do lado b:')
+c=input('insira o valor do lado c:')
+#SAIDA
+if a&lt;b+c:
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print ('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print ('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print ('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print ('Is')
+    if a!=b!=c:
+        print('Es')
+else :
+    print('N')
+        
+        
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6199">
+        <vpl>16</vpl>
+        <userid>122</userid>
+        <datesubmitted>1474898202</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150836</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+
+a=input('digite o valor do lado a:')
+b=input('digite o valor do lado b:')
+c=input('digite o valor do lado c:')
+
+if a&lt;(b+c):
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    elif (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    elif a!=b!=c:
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6658">
+        <vpl>16</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474911081</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150838</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a= input('insira um valor para a:')
+b= input('insira um valor para b:')
+c= input('insira um valor para c:')
+
+if a&lt;(b+c):
+    print('S')
+    if (a**2)==((b**2)+(c**2)):
+        print('Re')
+    if (a**2)&gt;((b**2)+(c**2)):
+        print('Ob')
+    if (a**2)&lt;((b**2)+(c**2)):
+        print('Ac')
+    if a==b and a==c:
+        print('Eq')
+    if b==c and c!=a:
+        print('Is')
+    if a!=b and b!=c:
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6526">
+        <vpl>16</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474910072</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150839</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = input('Digite o valor de a: ')
+b = input('Digite o valor de b: ')
+c = input('Digite o valor de c: ')
+
+if  (a &gt;= b &gt;= c &gt; 0) and (a &lt; b + c):
+    print('s')
+    if a**2 == b**2 + c**2:
+        print('Re')
+    if a**2 &gt; b**2 + c**2:
+        print('Ob')
+    if a**2 &lt; b**2 + c**2:
+        print('Ac')
+    if a == b == c:
+        print('Eq')
+    if b == c != a:
+        print('Is')
+    if a != b != c:
+        print('Es')
+else: print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7592">
+        <vpl>16</vpl>
+        <userid>125</userid>
+        <datesubmitted>1475117196</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150842</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input(' Digite um valor:')
+b=input(' Digite um valor:')
+c=input(' Digite um valor:')
+if a&lt;b+c:
+    print "S"
+    if a**2==b**2+c**2:
+        print "RE"
+    if a**2&lt;b**2+c**2:
+        print "AC"
+    if a**2&gt;b**2+c**2:
+        print "OB"
+    if a==b==c:
+        print "EQ"
+    if b==c!=a:
+        print "IS"
+    if a!=b!=c:
+        print "ES"
+else:
+    print "N"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7146">
+        <vpl>16</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474918120</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150843</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input('Digite o primeiro valor: '))
+b=int(input('Digite o segundo valor: '))
+c=int(input('Digite o terceiro valor: '))
+
+if a&gt;=b+c:
+    print ('N')
+
+else:
+    print ('S')
+    if (a**2)==(b**2)+(c**2):
+        print ('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print ('Ob')
+    else:
+        print ('Ac')
+    
+    if a==b and b==c:
+        print ('Eq')
+    elif b==c and c!=a:
+        print ('Is')
+    elif a!=b and a!=c:
+        print ('Es')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6527">
+        <vpl>16</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474910086</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150845</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a= input('Digite o valor: ')
+b= input('Digite o valor: ')
+c= input('Digite o valor: ')
+if a&gt;=b&gt;=c and a&lt;b+c :
+    print ('S')
+    if a**2==(b**2)+(c**2):
+        print ('Re')
+    elif a**2&gt;(b**2)+(c**2):
+        print ('Ob')
+    elif a**2&lt;(b**2)+(c**2):
+        print ('Ac')
+    if a==b==c:
+        print ('Eq')
+    elif b==c!=a:
+        print ('Is')
+    elif a!=b!=c:
+        print ('Es')
+else:
+    print ('N')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6615">
+        <vpl>16</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474910665</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150847</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+
+if (a&lt;b+c) and (b&lt;c+a) and (c&lt;b+a):
+    print('S')
+    if (a**2)==((b**2)+(c**2)):
+        print('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    else:
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    else:
+        print('Es')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5986">
+        <vpl>16</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474896815</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150848</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('o valor de a: ')
+b=input('o valor de b: ')
+c=input('o valor de c: ')
+
+if a&lt;b+c:
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('RE')
+    if (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if (a)==(b)==(c):
+        print('Eq')
+    if (b)==(c)!=(a):
+        print('Is')
+    if (a)!=(b)!=(c):
+        print('Es')
+        
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6620">
+        <vpl>16</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474910711</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150758</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt; digite o valor do lado do triangulo sendo maior igual a zero: digite o valor do lado do triangulo sendo maior igual a zero: digite o valor do lado do triangulo sendo maior igaul a zero:S
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt; digite o valor do lado do triangulo sendo maior igual a zero: digite o valor do lado do triangulo sendo maior igual a zero: digite o valor do lado do triangulo sendo maior igaul a zero:S
+&gt;Ac
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a= int(input(' digite o valor do lado do triangulo sendo maior igual a zero:'))
+b= int(input(' digite o valor do lado do triangulo sendo maior igual a zero:'))
+c= int(input(' digite o valor do lado do triangulo sendo maior igaul a zero:'))
+if a&lt;(b+c):
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+                        print('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+                        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):   
+                        print('Ac')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+        if a!=b!=c:
+            print('Es')
+else:
+    print('N')    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6741">
+        <vpl>16</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474911665</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150851</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+print('Programa que verifica três lados formam um triângulo e o classifica')
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+if a&lt;b+c and b&lt;a+c and c&lt;b+a:
+    print('S')
+    if (a*a)==(b*b)+(c*c) or (b*b)==(a*a)+(c*c) or (c*c)==(a*a)+(b*b):
+        print('Re')
+        if (a==b)and (a==c):
+            print('Eq')
+        elif (a==b and a!=c) or (b==c and b!=a) or (c==a and c!=b):
+            print('Is')
+        elif a!=b and a!=c and b!=c:
+            print('Es')
+    elif (a*a)&gt;(b*b)+(c*c) or (b*b)&gt;(a*a)+(c*c) or (c*c)&gt;(a*a)+(b*b):
+        print('Ob')
+        if (a==b)and (a==c):
+            print('Eq')
+        elif (a==b and a!=c) or (b==c and b!=a) or (c==a and c!=b):
+            print('Is')
+        elif a!=b and a!=c and b!=c:
+            print('Es')
+    elif (a*a)&lt;(b*b)+(c*c) or (b*b)&lt;(a*a)+(c*c) or (c*c)&lt;(a*a)+(b*b):
+        print('Ac')
+        if (a==b)and (a==c):
+            print('Eq')
+        elif (a==b and a!=c) or (b==c and b!=a) or (c==a and c!=b):
+            print('Is')
+        elif a!=b and a!=c and b!=c:
+            print('Es')
+    
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7170">
+        <vpl>16</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474918757</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150852</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('Digite o valor de a:')
+b = input('Digite o valor de b:')
+c = input('Digite o valor de c:')
+
+if a&gt;=b&gt;=c and a&lt;(b+c) :
+    print ('S')
+    if (a**2)==((b**2)+(c**2)):
+        print ('Re')
+    if (a**2)&gt;((b**2)+(c**2)):
+        print ('Ob')
+    if (a**2)&lt;((b**2)+(c**2)):
+        print ('Ac')
+    if a==b and b==c:
+        print ('Eq')
+    if b==c and c!=a:
+        print ('Is')
+    if a!=b and a!=c and b!=c:
+        print ('Es')
+        
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6279">
+        <vpl>16</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474898931</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150854</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a= input ('digite o valor de a: ')
+b= input ('digite o valor de b: ')
+c= input ('digite o valor de c: ')
+
+if a&lt;b+c:
+    print 'S'
+    if a**2==((b**2)+(c**2)):
+        print 'Re'
+    elif a**2&gt;((b**2)+c**2):
+        print 'Ob'
+    else:
+        print 'Ac'
+    if a==b==c:
+        print 'Eq'
+    elif b==c!=a:
+        print 'Is'
+    else:
+        print 'Es'
+else:
+    print 'N'
+        
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5893">
+        <vpl>16</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474896358</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150856</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = input("Digite o valor do lado a:")
+b = input("Digite o valor do lado b:")
+c = input("Digite o valor do lado c:")
+
+if a &lt; b + c:
+    print("S")
+    if a**2 == b**2 + c**2:
+        print("Re")
+    if a**2 &gt; b**2 + c**2:
+        print("Ob")
+    if a**2 &lt; b**2 + c**2:
+        print("Ac")
+    if a == b == c:
+        print("Eq")
+    if b == c != a:
+        print("Is")
+    if a != b != c:
+        print("Es")
+        
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7231">
+        <vpl>16</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474919674</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150857</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('a:')
+b=input('b:')
+c=input('c:')
+if a&lt;(b+c):
+    print ('s')
+    if (a**2)==((b**2)+(c**2)):
+        print ('re')
+    if (a**2)&gt; ((b**2)+(c**2)):
+        print ('ob')
+    if (a**2)&lt;((b**2)+(c**2)):
+        print ('ac')
+    if a==b==c:
+        print ('eq')
+    if b==c!=a :
+        print ('is')
+    if a!=b!=c:
+        print ('es')
+else:
+    print ('n')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7221">
+        <vpl>16</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474919501</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150859</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite a:')
+b=input('digite b:')
+c=input('digite c:')
+if a&lt;(b+c):
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    elif (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    elif (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if a==b==c:
+        print('Eq')
+    elif b==c!=a:
+        print('Is')
+    elif a!=b!=c:
+        print('Es')
+else:
+    print('N')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7555">
+        <vpl>16</vpl>
+        <userid>139</userid>
+        <datesubmitted>1475113344</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150862</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+if a&lt;b+c:
+    print ("s")
+    if a**2==b**2+c**2:
+        print ("re")
+    if a**2&lt;b**2+c**2:
+        print ("ac")
+    if a**2&gt;b**2+c**2:
+        print("ob")
+    if a==b==c:
+        print("eq")
+    if b==c!=a:
+        print("is")
+    if a!=b!=c:
+        print("es")
+else:
+    print("n")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7115">
+        <vpl>16</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474916216</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150863</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:') 
+if (a&lt;(b+c)):
+    print('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('Ac')
+    if (a==b) and (a==c) and (b==c):
+        print('Eq')
+    if (b==c) and (c!=a):
+        print('Is')
+    if (a!=b!=c):
+        print('Es')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6725">
+        <vpl>16</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474911541</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150865</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input('Digite um valor inteiro "a":'))
+b = int(input('Digite um valor inteiro "b":'))
+c = int(input('Digite um valor inteiro "c":'))
+
+if a&gt;=b and b&gt;=c and c&gt;0:
+    if (b+c)&gt;a:
+        print ('S')
+        if a**2 ==(b**2+c**2):
+            print ('Re')
+        elif a**2 &gt;(b**2+c**2):
+            print ('Ob')
+        elif a**2 &lt;(b**2+c**2):
+            print ('Ac')
+        if a==b and b==c:
+            print ('Eq')
+        elif b==c and c!=a:
+            print ('Is')
+        elif a!=b and b!=c:
+            print ('Es')
+    else:
+        print ('N')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7223">
+        <vpl>16</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474919513</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150867</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = input ('valor de a ')
+b = input ('valor de b ')
+c = input ('valor de c ')
+
+if a&gt;=(b+c):
+    print('N ')
+else:
+    print('S ')
+    if a**2==b**2+c**2:
+        print ('Re ')
+    elif a**2&gt;b**2+c**2:
+        print('Ob ')
+    elif  a**2&lt;b**2+c**2:
+        print('Ac ')
+    if a==b==c:
+        print('Eq ')
+    elif b==c!=a:
+        print('Is ')
+    elif a!=b!=c:
+        print('Es ')
+        
+    
+        
+    
+   
+
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7229">
+        <vpl>16</vpl>
+        <userid>144</userid>
+        <datesubmitted>1474919649</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150759</dategraded>
+        <grade>6.67000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a: Digite o valor de b: Digite o valor de c: 'S'
+&gt;'Ob'
+&gt;'Es'
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 6.67
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de a: Digite o valor de b: Digite o valor de c: 'S'
+&gt;'Ob'
+&gt;'Es'
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input('Digite o valor de a: '))
+b = int(input('Digite o valor de b: '))
+c = int(input('Digite o valor de c: '))
+
+if a &gt;= b &gt;= c &gt; 0:
+    print "'S'"
+    
+    if (a**2) == (b**2) + (c**2):
+        print "'Re'"
+        
+    elif (a**2) &gt; (b**2) + (b**2):
+        print "'Ob'"
+        
+    elif (a**2) &lt; (b**2) + (b**2):
+        print "'Ac'"
+        
+    if a == b == c:
+            print "'Eq'"
+        
+    elif b == c != a:
+            print "'Is'"
+            
+    elif a != b != c:
+            print "'Es'"
+            
+else:
+    print "'N'"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6000">
+        <vpl>16</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474896872</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150868</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+
+#processamento
+
+if a&lt;b+c:
+    print('s')
+    if a**2==b**2+c**2:
+        print('re')
+    if a**2&gt;b**2+c**2:
+        print('ob')
+    if a**2&lt;b**2+c**2:
+        print('ac')
+    if a==b==c:
+        print('eq')
+    if a==b!=c:
+        print('is')
+    if a!=b!=c:
+        print('es')
+else:
+    print('n')
+    
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6287">
+        <vpl>16</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474898988</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150871</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('Digite o valor de A: ')
+b = input('Digite o valor de B: ')
+c = input('Digite o valor de C: ')
+
+if a&lt;b+c:
+    print 'S'
+    
+    if a**2==b**2+c**2:
+        print 'Re'
+    elif a**2&gt;b**2+c**2:
+        print 'Ob'
+    else:
+        print 'Ac'
+    if a==b==c: 
+        print 'Eq'
+    elif b==c!=a:
+        print 'Is'
+    else:
+        print 'Es'
+else: 
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7176">
+        <vpl>16</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474918843</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150740</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|&gt;
+
+&lt;|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de cS
+&gt;Ac
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de cS
+&gt;Ac
+&gt;Eq
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de c
+
+ --- Expected output (text)---
+&gt; 'N'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;9
+&gt;8
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de cS
+&gt;Ac
+&gt;Es
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Es'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 2
+&gt;2
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de cS
+&gt;Ac
+&gt;Eq
+
+ --- Expected output (text)---
+&gt; 'S'
+&gt;'Ac'
+&gt;'Eq'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;3
+&gt;2
+
+ --- Program output ---
+&gt;Digite o valor de aDigite o valor de bDigite o valor de c
+
+ --- Expected output (text)---
+&gt; 'N'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+a= input('Digite o valor de a')
+b= input('Digite o valor de b')
+c= input('Digite o valor de c')
+#PROCESSAMENTO
+if a&gt;=b and b&gt;=c and c&gt;0:
+    soma = b+c
+    if a&lt;soma : 
+        print ('S')
+        bc= (b**2)+(c**2)
+        aQ= a**2
+        if aQ==bc :
+            print ('Re')
+        elif aQ&gt;bc :
+            print ('Ob')
+        elif aQ&lt;bc :
+            print ('Ac')
+            
+        if a==b and b==c :
+            print('Eq')
+        elif b==c and c!=a :
+            print('Is')
+        elif a!=b and b!=c and a!=c:
+            print('Es')
+else:
+    print('N')
+                
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="6482">
+        <vpl>16</vpl>
+        <userid>149</userid>
+        <datesubmitted>1474901481</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1475150873</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>triangulo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/triangulo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+if a&lt;(b+c): 
+    print ('S')
+    if (a**2)==(b**2)+(c**2):
+        print('Re')
+    if (a**2)&gt;(b**2)+(c**2):
+        print('Ob')
+    if (a**2)&lt;(b**2)+(c**2):
+        print('AC')
+    if a==b==c:
+        print('Eq')
+    if b==c!=a:
+        print('Is')
+    if (a!=b!=c):
+        print('Es')
+else:
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="7" moduleid="64" modulename="url" contextid="1257">
+  <url id="7">
+    <name>Python Online</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <externalurl>https://repl.it/languages/python</externalurl>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1472842604</timemodified>
+  </url>
+</activity>

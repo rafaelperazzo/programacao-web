@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="20" modulename="label" contextid="462">
+  <label id="1">
+    <name>_________________________________________
+Bem vin...</name>
+    <intro>&lt;p&gt;_________________________________________&lt;/p&gt;
+&lt;h3&gt;Bem vindo ao ambiente virtual de ECI0007/EM0006&lt;/h3&gt;
+&lt;p&gt;_________________________________________&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: large;"&gt;Informações gerais&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1476211878</timemodified>
+  </label>
+</activity>

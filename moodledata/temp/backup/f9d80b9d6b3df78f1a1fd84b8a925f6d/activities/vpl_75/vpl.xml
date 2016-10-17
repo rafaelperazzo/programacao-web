@@ -1,0 +1,4899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="7" moduleid="75" modulename="vpl" contextid="1277">
+  <vpl id="7">
+    <name>Exercício 11</name>
+    <shortdescription>Exercício 11</shortdescription>
+    <intro>&lt;p&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Escreva um programa em Python que dados os valores de A,B,C e D que representam os pesos de 4 esferas. As esferas estão em equilíbrio se as 3 condições forem &lt;strong&gt;simultaneamente&lt;/strong&gt; verdadeiras.&lt;/p&gt;
+&lt;p&gt;1) A=B+C+D&lt;/p&gt;
+&lt;p&gt;2) B+C=D&lt;/p&gt;
+&lt;p&gt;3) B=C&lt;/p&gt;
+&lt;p&gt;A saída do programa deve ser 'S' caso o sistema esteja em equilíbrio, ou 'N' caso o sistema não esteja em equilíbrio.&lt;/p&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;p&gt;Para a entrada 12,3,3,6 o programa deve mostrar&lt;/p&gt;
+&lt;p&gt;S&lt;/p&gt;
+&lt;p&gt;Para a entrada 2002, 560,560, 882 o programa deve mostrar&lt;/p&gt;
+&lt;p&gt;N&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1474290000</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>5</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>esferas.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/esferas.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 12
+3
+3
+6
+output ='S'
+
+case = Teste 2
+input = 2002
+560
+560
+882
+output='N'</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="3627">
+        <vpl>7</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474284400</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+d = input('Digite d: ')
+
+if a==(b+c+d) and d==(b+c) and b==c:
+    print('S')
+else:
+    print('N')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4173">
+        <vpl>7</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474306301</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306315</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=int(input('Digite o valor de a: '))
+b=int(input('Digite o valor de b: '))
+c=int(input('Digite o valor de c: '))
+d=int(input('Digite o valor de d: '))
+if ((a==b+c+d) and (b+c==d) and (b==c)):
+    print ("S")
+else:
+    print ("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5343">
+        <vpl>7</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474553557</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474553584</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+a=input("Digite o valor de A: ")
+b=input("Digite o valor de B: ")
+c=input("Digite o valor de C: ")
+d=input("Digite o valor de D: ")
+
+#PROCESSAMENTO
+
+if a==b+c+d and b+c==d and b==c:
+    print("S")
+else:
+    print("N")
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3716">
+        <vpl>7</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474291387</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291466</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('Digite o valor de c:')
+d=input('Digite o valor de d:')
+
+
+if a==b+c+d and b+c==d and b==c:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3798">
+        <vpl>7</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474291983</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292036</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite o peso de A: ')
+b = input('Digite o peso de B: ')
+c = input('Digite o peso de C: ')
+d = input('Digite o peso de D: ')
+
+if (a==b+c+d) and (b+c==d) and (b==c):
+    print('S')
+else:
+    print('N')
+    
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3664">
+        <vpl>7</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474291058</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291067</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('Digite o peso da primeira esfera: ')
+B=input('Digite o peso da segunda esfera: ')
+C=input('Digite o peso da terceira esfera: ')
+D=input('Digite o peso da quarta esfera: ')
+
+if (A==B+C+D and B+C==D and B==C):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5084">
+        <vpl>7</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474458196</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474458201</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input("digite o valor de a:")
+B=input("digite b:")
+C=input("digite c:")
+D=input("digite d:")
+
+if (A==B+C+D) and (B+C==D) and (B==C):
+    print ("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3713">
+        <vpl>7</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474291364</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291365</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input("Digite o valor de a:")
+b=input("Digite o valor de b:")
+c=input("Digite o valor de c:")
+d=input("Digite o valor de d:")
+
+if a==b+c+d and b+c==d and b==c:
+   print("S")
+
+else:
+   print("N")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3679">
+        <vpl>7</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474291155</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291160</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A= input ('Digite o peso da esfera A:')
+B= input ('Digite o peso da esfera B:')
+C= input ('Digite o peso da esfera C:')
+D= input ('Digite o peso da esfera D:')
+
+if A== B+C+D and D== B+C and B==C:
+   print ('S')
+else:
+    print ('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4033">
+        <vpl>7</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474305487</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305489</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+d=input('digite o valor de d:')
+if a==b+c+d and b+c==d and b==c:
+    print ('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4024">
+        <vpl>7</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474305403</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305521</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input("Insira o peso a: ")
+b = input("Insira o peso b: ")
+c = input("Insira o peso c: ")
+d = input("Insira o peso d: ")
+
+if a==b+c+d and b+c==d and b==c:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3705">
+        <vpl>7</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474291324</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291418</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+a=input ('digite o peso da esfera a:')
+b=input ('digite o peso da esfera b:')
+c=input ('digite o peso da esfera c:')
+d=input ('digite o peso da esfera d:')
+
+#PROCESSAMENTO
+
+if a==b+c+d and b+c==d and b==c: 
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4084">
+        <vpl>7</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474305772</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305788</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('digite o valor de a:')
+b = input ('digite o valor de b:')
+c = input ('digite o valor de c:')
+d = input ('digite o valor de d:')
+if a==b+c+d and b+c==d and b==c:
+    print ('S')
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4525">
+        <vpl>7</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474314074</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314076</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('')
+b = input('')
+c = input('')
+d = input('')
+
+if (a == b+c+d) and (d == b+c) and (b == c):
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3663">
+        <vpl>7</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474291056</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291082</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+a= input('Digite o valor da esfera a:')
+b= input('Digite o valor da esfera b:')
+c= input('Digite o valor da esfera c:')
+d= input('Digite o valor da esfera d:')
+
+#Processamento e Saida
+
+if (a==b+c+d) and (b+c==d) and (b==c) :
+    print ('S')
+else:
+    print ('N')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3789">
+        <vpl>7</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474291943</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291944</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A = input('Digite o valor de A:')
+B = input('Digite o valor de B:')
+C = input('Digite o valor de C:')
+D = input('Digite o valor de D:')
+
+if (A==B+C+D) and (B+C==D) and (B==C):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3725">
+        <vpl>7</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474291477</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291498</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de A:')
+b=input('Digite o valor de B:')
+c=input('Digite o valor de C:')
+d=input('Digite o valor de D:')
+
+if (a==b+c+d) and (b+c==d) and (b==c):
+    print('S')
+
+else:
+    print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3753">
+        <vpl>7</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474291755</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291877</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite a:')
+b=input('digite b:')
+c=input('digite c:')
+d=input('digite d:')
+
+if (a==b+c+d)and(b+c==d)and(b==c):
+    print('s')
+    
+else:
+    print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3815">
+        <vpl>7</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474292063</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292066</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrado
+
+a = float(input('Peso da bola "A": '))
+b = float(input('Peso da bola "B": '))
+c = float(input('Peso da bola "C": '))
+d = float(input('Peso da bola "D": '))
+
+#Processamento e Saída
+
+if (a == b + c + d) and (b + c == d) and (b == c):
+    print('S')
+    
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4483">
+        <vpl>7</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474313146</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313158</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('digite o peso da esfera 1:')
+B=input('digite o peso da esfera 2:')
+C=input('digite o peso da esfera 3:')
+D=input('digite o peso da esfera 4:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3704">
+        <vpl>7</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474291322</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291371</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+
+if A==(B+C+D) and D==(B+C) and B==C:
+     print ('S')
+    
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5628">
+        <vpl>7</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474658454</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474658471</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+A=input ('Digite o valor de A:')
+B=input ('Digite o valor de B:')
+C=input ('Digite o valor de C:')
+D=input ('Digite o valor de D:')
+
+#PROCESSAMENTO E SAIDA
+if A==(B+C+D) and D==(B+C) and B==C:
+    print ('S')
+else:
+    print ('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4478">
+        <vpl>7</vpl>
+        <userid>83</userid>
+        <datesubmitted>1474313007</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313024</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de A: ')
+b=input('Digite o valor de B: ')
+c=input('Digite o valor de C: ')
+d=input('Digite o valor de D: ')
+
+if (a==b+c+d) and (b+c==d) and (b==c):
+    print ('S')
+else :
+    print ('N')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3656">
+        <vpl>7</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474290987</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291095</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('digite o valor de A:')
+B=input('digite o valor de B:')
+C=input('digite o valor de C:')
+D=input('digite o valor de D:')
+
+if (A==B+C+D) and (B+C==D) and (B==C):
+    print('S')
+    
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4076">
+        <vpl>7</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474305750</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305752</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite o peso A: ')
+b= input('Digite o peso B: ')
+c= input('Digite o peso C: ')
+d= input('Digite o peso D: ')
+
+if a== b+c+d and d== b+c and b==c:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4009">
+        <vpl>7</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474305104</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305173</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+A = input('digite o valor do peso da esfera A:')
+B = input('digite o valor do peso da esfera B:')
+C = input('digite o valor do peso da esfera C:')
+D = input('digite o valor do peso da esfera D:') 
+
+if A==(B+C+D) and D==(B+C) and B==C:
+    print('S')
+else:
+    print('N')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3657">
+        <vpl>7</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474291002</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291004</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input("Digite valor de a:")
+b = input("Digite valor de b:")
+c = input("Digite valor de c:")
+d = input("Digite valor de d:")
+
+if a==b+c+d and b+c==d and b==c:
+    print("S")
+else:
+    print("N")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3667">
+        <vpl>7</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474291071</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291125</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A= input('digite o valor de A: ')
+B= input('gihite o valor de B: ')
+C= input('digite o valor de C: ')
+D= input('digite o valor de D: ')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3650">
+        <vpl>7</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474290931</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291002</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+a=input('digite o valor de a :')
+b=input('digite o valor de b :')
+c=input('digite o valor de c :')
+d=input('digite o valor de d :')
+#processamento
+if (a==b+c+d) and (b+c==d) and (b==c):
+    print('S')
+else :
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3692">
+        <vpl>7</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474291211</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291213</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite aqui o peso da Esfera a:')
+b=input('Digite aqui o peso da Esfera b:')
+c=input('Digite aqui o peso da Esfera c:')
+d=input('Digite aqui o peso da Esfera d:')
+
+if(a==b+c+d)and(b+c==d)and(b==c):
+    print('S')
+    
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4577">
+        <vpl>7</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474329435</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474329469</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('s')
+else:
+    print('n')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4475">
+        <vpl>7</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474312953</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474312957</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite o valor de A: ')
+b= input('Digite o valor de B: ')
+c= input('Digite o valor de C: ')
+d= input('Digite o valor de D: ')
+
+if a==b+c+d and b+c==d and b==c:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4034">
+        <vpl>7</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474305501</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305544</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('peso de A:')
+B=input('peso de B:')
+C=input('peso de C:')
+D=input('peso de D:')
+if A== B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4562">
+        <vpl>7</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474325689</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474325756</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+
+A=input('digite o valor de A:')
+B=input('digite o valor de B:')
+C=input('digite o valor de C:')
+D=input('digite o valor de D:')
+
+if A==(B+C+D) and D==(B+C) and B==C:
+    print ('S')
+
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4572">
+        <vpl>7</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474327950</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474327982</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Peso da esfera a:')
+b=input('Peso da esfera b:')
+c=input('Peso da esfera c:')
+d=input('Peso da esfera d:')
+
+if a==(b+c+d) and (b+c)==d and b==c:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5357">
+        <vpl>7</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474561002</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474561013</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A = input('Digite o valor do peso da esfera A:')
+B = input('Digite o valor do peso da esfera B:')
+C = input('Digite o valor do peso da esfera C:')
+D = input('Digite o valor do peso da esfera D:')
+
+if A == B + C + D and D == B + C and B == C:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3757">
+        <vpl>7</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474291775</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291815</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4020">
+        <vpl>7</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474305383</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305449</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a: ')
+b=input('Digite o valor de b: ')
+c=input('Digite o valor de c: ')
+d=input('Digite o valor de d: ')
+
+if a==(b+c+d) and (b+c)==d and b==c:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5255">
+        <vpl>7</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474478870</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474478898</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o peso da esfera A:')
+B=input('Digite o peso da esfera B:')
+C=input('Digite o peso da esfera C:')
+D=input('Digite o peso da esfera D:')
+
+if (A==B+C+D) and (B+C==D) and (B==C):
+    print('S')
+
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4650">
+        <vpl>7</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474376777</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474376862</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('digite A:')
+b = input ('digite B:')
+c = input ('digite C:')
+d = input ('digite D:')
+if a == b+c+d and b+c==d and b==c:
+    print 'S'
+else: 
+    print 'N'
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3719">
+        <vpl>7</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474291412</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291414</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A = input (' digite o valor de A: ')
+B = input (' digite o valor de B: ')
+C = input (' digite o valor de C: ' )
+D = input (' digite o valor de D: ')
+
+if (A == B + C + D) and ( B + C == D) and ( B == C):
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3727">
+        <vpl>7</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474291501</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291538</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('valor de A:')
+b=input('valor de B:')
+c=input('valor de C:')
+d=input('valor de D:')
+
+if a==b+c+d and b+c==d and b==c:
+    print('S')
+
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4250">
+        <vpl>7</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474306780</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306810</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('Insira o peso da primeira esfera:')
+B=input('Insira o peso da segunda esfera:')
+C=input('Insira o peso da terceira esfera:')
+D=input('Insira o peso da quarta esfera:')
+if A==B+C+D and B==C and B+C==D:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4164">
+        <vpl>7</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474306200</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306307</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+#PROCESSAMENTO
+y=(B+C+D)
+x=(B+C)
+if A==y and D==x and B==C:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4005">
+        <vpl>7</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474305034</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305145</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+A= input ('Digite o valor do peso de A:')
+B = input ('Digite o valor do peso de B:')
+C = input ('Digite o valor do peso de C:')
+D = input ('Digite p valor do peso de D:')
+
+#processamento e saída
+if A == (B+C+D) and D==(B+C) and B==C:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4092">
+        <vpl>7</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474305806</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305808</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+d=input('digite o valor de d:')
+if ((a==b+c+d) and (d==b+c) and (b==c)):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4453">
+        <vpl>7</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474312619</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474312621</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input ('Digite o peso da primeira esfera:')
+b = input ('Digite o peso da segunda esfera:')
+c = input ('Digite o peso da terça esfera:')
+d = input ('Digite o peso da quarta esfera:')
+
+if ((a==b+c+d) and (d==b+c) and (b==c)):
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4167">
+        <vpl>7</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474306217</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306232</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de A:')
+b=input('Digite o valor de B:')
+c=input('Digite o valor de C:')
+d=input('Digite o valor de D:')
+
+
+if a==(b+c+d) and d==(b+c) and b==c:
+    print 'S'
+else:
+    print 'N'
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3997">
+        <vpl>7</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474304861</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474304864</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digigite o peso de A= ')
+b=input('Digite o peso de B= ')
+c=input('Digite o peso de C= ')
+d=input('Digite o peso de D= ')
+if a==b+c+d and b+c==d and b==c :
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4171">
+        <vpl>7</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474306265</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306284</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a: ')
+b=input('Digite o valor de b: ')
+c=input('Digite o valor de c: ')
+d=input('Digite o valor de d: ')
+
+if (a==b+c+d) and (b+c==d) and (b==c):
+    print 'S'
+else: 
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4123">
+        <vpl>7</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474305974</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305976</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3688">
+        <vpl>7</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474291198</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291251</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o valor de A: ')
+B=input('Digite o valor de B: ')
+C=input('Digite o valor de C: ')
+D=input('Digite o valor de D: ')
+
+if A==B+C+D and B+C==D and B==C:
+    print ('S')
+
+else:
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4474">
+        <vpl>7</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474312951</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313009</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input ('digite o seu valor:')
+b=input ('digite o seu valor:')
+c=input ('digite o seu valor:')
+d=input ('digite o seu valor:')
+if (a==b+c+d) and (d==b+c) and (b==c):
+    print ('S')
+
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4093">
+        <vpl>7</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474305811</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305864</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A = input ('insira o valor de A:')
+B = input ('insira o valor de B:')
+C = input ('insira o valor de C:')
+D = input ('insira o valor de D:')
+
+if A==B+C+D and D==B+C and B==C:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3665">
+        <vpl>7</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474291063</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291123</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('Digite o valopr da esfera A:')
+B=input('Digite o valopr da esfera B:')
+C=input('Digite o valopr da esfera C:')
+D=input('Digite o valopr da esfera D:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+
+else :
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4103">
+        <vpl>7</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474305875</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305927</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#1
+A = input('Digite o valor de A:')
+B = input('Digite o valor de B:')
+C = input('Digite o valor de C:')
+D = input('Digite o valor de D:')
+
+#2
+if A==B+C+D and B+C==D and B==C :
+    print('S')
+else:
+    print('N')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3720">
+        <vpl>7</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474291415</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291531</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+a=input('insira o valor do peso a:')
+b=input('insira o valor do peso b:')
+c=input('insira o valor do peco c:')
+d=input('insira o valor do peso d:')
+#PROCESSAMENTO
+if a==b+c+d and b+c==d and b==c:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4068">
+        <vpl>7</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474305728</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305786</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A= input ('Insira um valor para A:')
+B= input ('Insira um valor para B:')
+C= input ('Insira um valor para C:')
+D= input ('Insira um valor para D:')
+
+E=B+C+D
+F=B+C
+
+if A==E and F==D and B==C:
+    print ('S')
+
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4148">
+        <vpl>7</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474306084</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306088</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de a: ')
+b = input('Digite o valor de b: ')
+c = input('Digite o valor de c: ')
+d = input('Digite o valor de d: ')
+if(a == b+c+d)and(b + c == d)and(c==b):
+    print('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3813">
+        <vpl>7</vpl>
+        <userid>125</userid>
+        <datesubmitted>1474292052</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292111</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite um valor:')
+b=input('Digite um valor:')
+c=input('Digite um valor:')
+d=input('Digite um valor:')
+
+if a==b+c+d and b+c==d and b==c:
+
+    print "S"
+
+else:
+    print "N"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4839">
+        <vpl>7</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474393156</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474393172</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('peso de A: ')
+b=input('peso de B: ')
+c=input('peso de C: ')
+d=input('peso de D: ')
+
+if a==(b+c+d) and (b+c)==d and b==c:
+    print('S')
+
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4006">
+        <vpl>7</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474305037</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305107</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+A=input('Digite o valor da esfera A: ')
+B=input('Digite o valor da esfera B: ')
+C=input('Digite o valor da esfera C: ')
+D=input('Digite o valor da esfera D: ')
+if A==B+C+D and D==C+B and B==C:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4087">
+        <vpl>7</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474305787</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305799</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('Digite o valor de A:')
+B=input('Digite o valor de B:')
+C=input('Digite o valor de C:')
+D=input('Digite o valor de D:')
+
+if B+C+D==A and B+C==D and B==C:
+     print('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3691">
+        <vpl>7</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474291211</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291273</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('digite o valor de a: ')
+b = input('digite o valor de b: ')
+c = input('digite o valor de c: ')
+d = input('digite o valor de d: ')
+
+if (a==b+c+d and b+c==d and b==c):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4012">
+        <vpl>7</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474305265</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305279</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input(' digite o valor da esfera 1:')
+b=input(' digite o valor da esfera 2:')
+c=input(' digite o valor da esfera 3:')
+d=input(' digite o valor da esfera 4:')
+if a==b+c+d and b+c==d and b==c:
+    print('s')
+else:
+    print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4039">
+        <vpl>7</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474305531</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305634</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+print('Programa que verifica se quatro esferas estão em equilíbro.')
+a=input('Digite o valor da esfera a:')
+b=input('Digite o valor da esfera b:')
+c=input('Digite o valor da esfera c:')
+d=input('Digite o valor da esfera d:')
+if((a==b+c+d)and(b+c==d)and(b==c)):
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4085">
+        <vpl>7</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474305786</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305790</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A = int(input('Digite o valor de A:'))
+B = int(input('Digite o valor de B:'))
+C = int(input('Digite o valor de C:'))
+D = int(input('Digite o valor de D:'))
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3819">
+        <vpl>7</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474292137</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292142</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A= input ('digite o valor da esfera:')
+B= input ('digite o valor da esfera:')
+C= input ('digite o valor da esfera:')
+D= input ('digite o valor da esfera:')
+if A==B+C+D and B+C==D and B==C:
+    print 'S'
+else:
+    print 'N'
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3646">
+        <vpl>7</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474290884</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474290951</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input("Digite A:")
+b = input("Digite B:")
+c = input("Digite C:")
+d = input("Digite D:")
+
+if a==b+c+d and b+c==d and b==c:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5741">
+        <vpl>7</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678698</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678701</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+A=input('digite o peso da esfera 1:')
+B=input('digite o peso da esfera 2:')
+C=input('digite o peso da esfera 3:')
+D=input('digite o peso da esfera 4:')
+
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4480">
+        <vpl>7</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474313097</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313178</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('digite A:') 
+B=input('digite B:')
+C=input('digite C:') 
+D=input('digite D:')
+if A==B+C+D and B+C==D and B==C:
+    print('S')
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3770">
+        <vpl>7</vpl>
+        <userid>139</userid>
+        <datesubmitted>1474291861</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291907</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+A=input('digite o primeiro peso da esfera:')
+B=input('digite o segundo peso da esfera:')
+C=input('digite o terceiro peso da esfera:')
+D=input('digiteo quarto peso da esfera:')
+if A==B+C+D and B+C==D and B==C:
+    print "s"
+else:
+    print "n"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4142">
+        <vpl>7</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474306070</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306073</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+d=input('digite o valor de d:')
+if ((a==b+c+d) and (b+c==d) and (b==c)):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4166">
+        <vpl>7</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474306213</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306215</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o peso da esfera 1:')
+b=input('Digite o peso da esfera 2:')
+c=input('Digite o peso da esfera 3:')
+d=input('Digite o peso da esfera 4:')
+
+if  a==b+c+d and b+c==d and b==c:
+    print('S')
+else: 
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4493">
+        <vpl>7</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474313419</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313429</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Valor de a ')
+b = input('Valor de b ')
+c = input('Valor de c ')
+d = input('Valor de d ')
+
+if a==(b+c+d) and (b+c)==d and b==c:
+    print('S')
+else:
+    print('N')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3772">
+        <vpl>7</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474291870</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291895</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+
+A=input('digite o valor de A:')
+B=input('digite o valor de B:')
+C=input('digite o valor de C:')
+D=input('digite o valor de D:')
+
+#processamento
+
+if (A==B+C+D)and(B+C==D)and(B==C):
+    print('S')
+
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4672">
+        <vpl>7</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474385795</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385833</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('digite o valor de A: ')
+b = input('digite o valor de B: ')
+c = input('digite o valor de C: ')
+d = input('digite o valor de D: ')
+
+if a==b+c+d and b+c==d and b==c:
+    print ('S')
+else:
+    print ('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4491">
+        <vpl>7</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474313391</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474313394</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>esferas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/esferas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+a = input('Digite o valor de A ')
+b = input('Digite o valor de B ')
+c = input('Digite o valor de C ')
+d = input('Digite o valor de D ')
+#PROCESSAMENTO
+x = b+c+d
+y = b+c
+if x==a and d==y and b==c:
+    print ('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

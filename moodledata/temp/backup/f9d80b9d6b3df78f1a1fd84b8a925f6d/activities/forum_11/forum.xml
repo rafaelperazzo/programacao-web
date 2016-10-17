@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="11" modulename="forum" contextid="54">
+  <forum id="2">
+    <type>general</type>
+    <name>Fórum Geral de Dúvidas</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <maxbytes>512000</maxbytes>
+    <maxattachments>2</maxattachments>
+    <forcesubscribe>1</forcesubscribe>
+    <trackingtype>1</trackingtype>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <timemodified>1473174881</timemodified>
+    <warnafter>0</warnafter>
+    <blockafter>0</blockafter>
+    <blockperiod>0</blockperiod>
+    <completiondiscussions>0</completiondiscussions>
+    <completionreplies>0</completionreplies>
+    <completionposts>0</completionposts>
+    <displaywordcount>0</displaywordcount>
+    <discussions>
+      <discussion id="23">
+        <name>Dúvidas sobre os exercícios práticos</name>
+        <firstpost>25</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1472824641</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="25">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1472824641</created>
+            <modified>1472824641</modified>
+            <mailed>1</mailed>
+            <subject>Dúvidas sobre os exercícios práticos</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Podem postar nesta espaço suas dúvidas sobre o envio das atividades práticas.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+          <discussion_sub id="5">
+            <userid>2</userid>
+            <preference>1472824641</preference>
+          </discussion_sub>
+        </discussion_subs>
+      </discussion>
+      <discussion id="27">
+        <name>Atividade Online - 12/09/2016</name>
+        <firstpost>29</firstpost>
+        <userid>2</userid>
+        <groupid>-1</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473174856</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="29">
+            <parent>0</parent>
+            <userid>2</userid>
+            <created>1473174856</created>
+            <modified>1473174856</modified>
+            <mailed>1</mailed>
+            <subject>Atividade Online - 12/09/2016</subject>
+            <message>&lt;p&gt;Pessoal,&lt;/p&gt;
+&lt;p&gt;Dúvidas relacionadas a atividade de 12/09/2016 devem ser postadas neste tópico.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="34">
+        <name>Exercício 7</name>
+        <firstpost>36</firstpost>
+        <userid>64</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1473600559</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="36">
+            <parent>0</parent>
+            <userid>64</userid>
+            <created>1473466668</created>
+            <modified>1473466668</modified>
+            <mailed>1</mailed>
+            <subject>Exercício 7</subject>
+            <message>&lt;p&gt;Professor, já fiz e refiz meu código do exercício 7, mas os meus resultados não batem com os que o senhor colocou como exemplo.. Pode me dizer onde estou errando?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;# -*- coding: utf-8 -*-&lt;br /&gt;from __future__ import division&lt;br /&gt;import math&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;#ENTRADA&lt;/p&gt;
+&lt;p&gt;f = input('Digite o valor de f: ')&lt;br /&gt;L = input('Digite o valor de L: ')&lt;br /&gt;Q = input('Digite o valor de Q: ') &lt;br /&gt;DH = input('Digite o valor de DeltaH: ')&lt;br /&gt;V = input('Digite o valor de V: ')&lt;br /&gt;g = 9.81&lt;br /&gt;E = 0.000002&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;#PROCESSAMENTO&lt;/p&gt;
+&lt;p&gt;D = float((8*f*L*(Q**2))/((math.pi**2)*g*DH)*(1/5))&lt;/p&gt;
+&lt;p&gt;Rey = float(4*Q)/(math.pi*D*V)&lt;/p&gt;
+&lt;p&gt;k = float(0.25 / ((math.log10( (E/(3.7*D) ) + (5.74/Rey**(0.9)) ))**2))&lt;/p&gt;
+&lt;p&gt;#SAÍDA&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;print ("O valor de D é: {0:.4f}".format(round(D,2)))&lt;br /&gt;print ("O valor de Rey é: {0:.4f}".format(round(Rey,2)))&lt;br /&gt;print ("O valor de k é: {0:.4f}".format(round(k,2)))&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Obrigado, desde já.&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="37">
+            <parent>36</parent>
+            <userid>2</userid>
+            <created>1473600559</created>
+            <modified>1473600559</modified>
+            <mailed>1</mailed>
+            <subject>Re: Exercício 7</subject>
+            <message>&lt;p&gt;Poste seus resultados aqui que eu consigo ajudar melhor!!&lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+      <discussion id="63">
+        <name>exercício teórico 22</name>
+        <firstpost>66</firstpost>
+        <userid>78</userid>
+        <groupid>2</groupid>
+        <assessed>0</assessed>
+        <timemodified>1474888274</timemodified>
+        <usermodified>2</usermodified>
+        <timestart>0</timestart>
+        <timeend>0</timeend>
+        <pinned>0</pinned>
+        <posts>
+          <post id="66">
+            <parent>0</parent>
+            <userid>78</userid>
+            <created>1474681184</created>
+            <modified>1474681184</modified>
+            <mailed>1</mailed>
+            <subject>exercício teórico 22</subject>
+            <message>&lt;p&gt;professor, queria saber se ainda tem como eu resolver o exercício teórico 22, porque eu pensei que todos os exercícios terminavam no dia 23/set as 23:55, e perdi o horário do exercício, caso tenha o senhor me avisa por e-mail  (felipesilva.15s@hotmail.com) lhe agradeço muito, se não tiver como muito obrigado mesmo assim pela compreensão. Tentarei não perder os próximos &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>0</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+          <post id="68">
+            <parent>66</parent>
+            <userid>2</userid>
+            <created>1474888274</created>
+            <modified>1474888274</modified>
+            <mailed>1</mailed>
+            <subject>Re: exercício teórico 22</subject>
+            <message>&lt;p&gt;Filipe,&lt;/p&gt;
+&lt;p&gt;O Exercício 22 ainda será liberado para a turma de materiais, na quarta feira. Apenas as turmas de Civil que puderam fazer na sexta feira dia 23.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</message>
+            <messageformat>1</messageformat>
+            <messagetrust>0</messagetrust>
+            <attachment></attachment>
+            <totalscore>0</totalscore>
+            <mailnow>1</mailnow>
+            <ratings>
+            </ratings>
+          </post>
+        </posts>
+        <discussion_subs>
+        </discussion_subs>
+      </discussion>
+    </discussions>
+    <subscriptions>
+    </subscriptions>
+    <digests>
+    </digests>
+    <readposts>
+    </readposts>
+    <trackedprefs>
+    </trackedprefs>
+  </forum>
+</activity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="10" moduleid="79" modulename="url" contextid="1281">
+  <url id="10">
+    <name>Apostila de Python</name>
+    <intro>&lt;p&gt;Apostila de Python (UFF)&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>http://www.telecom.uff.br/pet/petws/downloads/apostilas/PYTHON.pdf</externalurl>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1474287757</timemodified>
+  </url>
+</activity>

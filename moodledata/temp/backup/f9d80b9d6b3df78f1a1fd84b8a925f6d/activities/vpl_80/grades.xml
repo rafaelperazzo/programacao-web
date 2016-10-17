@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity_gradebook>
+  <grade_items>
+    <grade_item id="35">
+      <categoryid>6</categoryid>
+      <itemname>Exercício 14</itemname>
+      <itemtype>mod</itemtype>
+      <itemmodule>vpl</itemmodule>
+      <iteminstance>11</iteminstance>
+      <itemnumber>0</itemnumber>
+      <iteminfo>$@NULL@$</iteminfo>
+      <idnumber></idnumber>
+      <calculation>$@NULL@$</calculation>
+      <gradetype>1</gradetype>
+      <grademax>5.00000</grademax>
+      <grademin>0.00000</grademin>
+      <scaleid>$@NULL@$</scaleid>
+      <outcomeid>$@NULL@$</outcomeid>
+      <gradepass>0.00000</gradepass>
+      <multfactor>1.00000</multfactor>
+      <plusfactor>0.00000</plusfactor>
+      <aggregationcoef>0.00000</aggregationcoef>
+      <aggregationcoef2>0.01689</aggregationcoef2>
+      <weightoverride>0</weightoverride>
+      <sortorder>25</sortorder>
+      <display>0</display>
+      <decimals>$@NULL@$</decimals>
+      <hidden>0</hidden>
+      <locked>0</locked>
+      <locktime>0</locktime>
+      <needsupdate>0</needsupdate>
+      <timecreated>1474302242</timecreated>
+      <timemodified>1476738183</timemodified>
+      <grade_grades>
+        <grade_grade id="1624">
+          <userid>2</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1625">
+          <userid>61</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>61</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308658</timecreated>
+          <timemodified>1474308685</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1626">
+          <userid>62</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>62</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474562250</timecreated>
+          <timemodified>1474562283</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1627">
+          <userid>63</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>63</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474419003</timecreated>
+          <timemodified>1474419030</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1628">
+          <userid>64</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>64</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474464590</timecreated>
+          <timemodified>1474464634</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1629">
+          <userid>65</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>65</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474414291</timecreated>
+          <timemodified>1474414294</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1630">
+          <userid>66</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>66</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474592007</timecreated>
+          <timemodified>1474592030</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1631">
+          <userid>67</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>67</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474645734</timecreated>
+          <timemodified>1474645736</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1632">
+          <userid>68</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>68</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474326180</timecreated>
+          <timemodified>1474326217</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1633">
+          <userid>69</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>69</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307641</timecreated>
+          <timemodified>1474307651</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1634">
+          <userid>70</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1635">
+          <userid>71</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>71</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308145</timecreated>
+          <timemodified>1474308204</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1636">
+          <userid>72</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>72</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474551682</timecreated>
+          <timemodified>1474551685</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1637">
+          <userid>73</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>73</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308482</timecreated>
+          <timemodified>1474308520</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1638">
+          <userid>74</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>74</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474314641</timecreated>
+          <timemodified>1474314653</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1639">
+          <userid>75</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>75</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474414575</timecreated>
+          <timemodified>1474414673</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1640">
+          <userid>76</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>76</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474603871</timecreated>
+          <timemodified>1474603876</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1641">
+          <userid>77</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>77</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474629150</timecreated>
+          <timemodified>1474629243</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1642">
+          <userid>78</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>78</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474548458</timecreated>
+          <timemodified>1474548499</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1643">
+          <userid>79</userid>
+          <rawgrade>2.50000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>79</usermodified>
+          <finalgrade>2.50000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Test 1: Teste 1 &lt;/b&gt;&lt;br /&gt;Incorrect program result
+&lt;br /&gt; --- Input ---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt; 10
+5
+18
+11
+1
+18
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt; --- Program output ---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt; --- Expected output (text)---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt;&amp;#039;C&amp;#039;
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474683933</timecreated>
+          <timemodified>1474683935</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1644">
+          <userid>80</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>80</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474314986</timecreated>
+          <timemodified>1474314997</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1645">
+          <userid>81</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>81</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474472602</timecreated>
+          <timemodified>1474472627</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1646">
+          <userid>82</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>82</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474678067</timecreated>
+          <timemodified>1474678214</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1647">
+          <userid>83</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>83</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315136</timecreated>
+          <timemodified>1474315187</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1648">
+          <userid>84</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>84</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474462887</timecreated>
+          <timemodified>1474462894</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1649">
+          <userid>85</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>85</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307290</timecreated>
+          <timemodified>1474307292</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1650">
+          <userid>86</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>86</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308843</timecreated>
+          <timemodified>1474308845</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1651">
+          <userid>87</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>87</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474330464</timecreated>
+          <timemodified>1474330466</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1652">
+          <userid>88</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>88</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474573569</timecreated>
+          <timemodified>1474573572</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1653">
+          <userid>89</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>89</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474458870</timecreated>
+          <timemodified>1474458923</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1654">
+          <userid>90</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>90</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474658084</timecreated>
+          <timemodified>1474658087</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1655">
+          <userid>91</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>91</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474331075</timecreated>
+          <timemodified>1474331096</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1656">
+          <userid>92</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>92</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315266</timecreated>
+          <timemodified>1474315269</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1657">
+          <userid>93</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>93</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307725</timecreated>
+          <timemodified>1474307729</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1658">
+          <userid>94</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>94</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474328038</timecreated>
+          <timemodified>1474328065</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1659">
+          <userid>95</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>95</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474327609</timecreated>
+          <timemodified>1474327741</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1660">
+          <userid>96</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>96</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474568510</timecreated>
+          <timemodified>1474568517</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1661">
+          <userid>97</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>97</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474597243</timecreated>
+          <timemodified>1474597433</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1662">
+          <userid>98</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>98</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307454</timecreated>
+          <timemodified>1474307466</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1663">
+          <userid>99</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>99</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474482028</timecreated>
+          <timemodified>1474482054</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1664">
+          <userid>100</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>100</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474417006</timecreated>
+          <timemodified>1474417522</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1665">
+          <userid>101</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>101</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474597106</timecreated>
+          <timemodified>1474597254</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1666">
+          <userid>102</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>102</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474460571</timecreated>
+          <timemodified>1474460581</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1667">
+          <userid>103</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>2</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474313602</timecreated>
+          <timemodified>1474313604</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1668">
+          <userid>104</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>104</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308046</timecreated>
+          <timemodified>1474308048</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1669">
+          <userid>105</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1670">
+          <userid>106</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>106</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307549</timecreated>
+          <timemodified>1474307569</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1671">
+          <userid>107</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>107</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308343</timecreated>
+          <timemodified>1474308345</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1672">
+          <userid>108</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>108</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474313943</timecreated>
+          <timemodified>1474313945</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1673">
+          <userid>109</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>2</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308712</timecreated>
+          <timemodified>1474311209</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1674">
+          <userid>110</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>110</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307468</timecreated>
+          <timemodified>1474307473</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1675">
+          <userid>111</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>111</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308613</timecreated>
+          <timemodified>1474308615</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1676">
+          <userid>112</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>112</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308260</timecreated>
+          <timemodified>1474308266</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1677">
+          <userid>114</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>114</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474459733</timecreated>
+          <timemodified>1474459762</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1678">
+          <userid>115</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>115</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315770</timecreated>
+          <timemodified>1474315784</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1679">
+          <userid>116</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>116</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308262</timecreated>
+          <timemodified>1474308265</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1680">
+          <userid>117</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>117</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474640111</timecreated>
+          <timemodified>1474640197</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1681">
+          <userid>118</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>118</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308561</timecreated>
+          <timemodified>1474308563</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1682">
+          <userid>120</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>120</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474415417</timecreated>
+          <timemodified>1474415467</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1683">
+          <userid>122</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1684">
+          <userid>123</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>123</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308178</timecreated>
+          <timemodified>1474308223</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1685">
+          <userid>124</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>124</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307831</timecreated>
+          <timemodified>1474307853</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1686">
+          <userid>125</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1687">
+          <userid>126</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1688">
+          <userid>128</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>128</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474391941</timecreated>
+          <timemodified>1474391954</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1689">
+          <userid>129</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>129</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474306624</timecreated>
+          <timemodified>1474306629</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1690">
+          <userid>130</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>130</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307902</timecreated>
+          <timemodified>1474307904</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1691">
+          <userid>131</userid>
+          <rawgrade>2.50000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>131</usermodified>
+          <finalgrade>2.50000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Test 1: Teste 1 &lt;/b&gt;&lt;br /&gt;Incorrect program result
+&lt;br /&gt; --- Input ---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt; 10
+5
+18
+11
+1
+18
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt; --- Program output ---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt; --- Expected output (text)---
+&lt;br /&gt;&lt;pre&gt;&lt;i&gt;&amp;#039;C&amp;#039;
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474684263</timecreated>
+          <timemodified>1474684266</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1692">
+          <userid>132</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>132</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474307008</timecreated>
+          <timemodified>1474307009</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1693">
+          <userid>133</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>133</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308481</timecreated>
+          <timemodified>1474308487</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1694">
+          <userid>134</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>134</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308765</timecreated>
+          <timemodified>1474308768</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1695">
+          <userid>135</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>135</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474601410</timecreated>
+          <timemodified>1474601435</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1696">
+          <userid>136</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>136</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474457577</timecreated>
+          <timemodified>1474457591</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1697">
+          <userid>137</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>137</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474678810</timecreated>
+          <timemodified>1474678815</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1698">
+          <userid>138</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>138</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315127</timecreated>
+          <timemodified>1474315137</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1699">
+          <userid>139</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1700">
+          <userid>140</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1701">
+          <userid>141</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>141</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474308913</timecreated>
+          <timemodified>1474308915</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1702">
+          <userid>142</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>142</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474309764</timecreated>
+          <timemodified>1474309766</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1703">
+          <userid>143</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>143</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315880</timecreated>
+          <timemodified>1474315987</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1704">
+          <userid>144</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1705">
+          <userid>145</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1706">
+          <userid>146</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>146</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474392618</timecreated>
+          <timemodified>1474392621</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="1707">
+          <userid>148</userid>
+          <rawgrade>5.00000</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>148</usermodified>
+          <finalgrade>5.00000</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>&lt;b&gt;Summary of tests&lt;/b&gt;&lt;br /&gt;&lt;pre&gt;&lt;i&gt;+------------------------------+
+|  2 tests run/ 2 tests passed |
++------------------------------+
+&lt;/i&gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;br /&gt;</feedback>
+          <feedbackformat>1</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>1474315531</timecreated>
+          <timemodified>1474315577</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="2249">
+          <userid>149</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="4227">
+          <userid>6</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+        <grade_grade id="4279">
+          <userid>150</userid>
+          <rawgrade>$@NULL@$</rawgrade>
+          <rawgrademax>5.00000</rawgrademax>
+          <rawgrademin>0.00000</rawgrademin>
+          <rawscaleid>$@NULL@$</rawscaleid>
+          <usermodified>$@NULL@$</usermodified>
+          <finalgrade>$@NULL@$</finalgrade>
+          <hidden>0</hidden>
+          <locked>0</locked>
+          <locktime>0</locktime>
+          <exported>0</exported>
+          <overridden>0</overridden>
+          <excluded>0</excluded>
+          <feedback>$@NULL@$</feedback>
+          <feedbackformat>0</feedbackformat>
+          <information>$@NULL@$</information>
+          <informationformat>0</informationformat>
+          <timecreated>$@NULL@$</timecreated>
+          <timemodified>$@NULL@$</timemodified>
+          <aggregationstatus>used</aggregationstatus>
+          <aggregationweight>0.01689</aggregationweight>
+        </grade_grade>
+      </grade_grades>
+    </grade_item>
+  </grade_items>
+  <grade_letters>
+  </grade_letters>
+</activity_gradebook>

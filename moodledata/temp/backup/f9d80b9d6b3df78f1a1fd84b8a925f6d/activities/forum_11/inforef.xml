@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inforef>
+  <userref>
+    <user>
+      <id>2</id>
+    </user>
+    <user>
+      <id>64</id>
+    </user>
+    <user>
+      <id>78</id>
+    </user>
+  </userref>
+  <groupref>
+    <group>
+      <id>2</id>
+    </group>
+  </groupref>
+</inforef>

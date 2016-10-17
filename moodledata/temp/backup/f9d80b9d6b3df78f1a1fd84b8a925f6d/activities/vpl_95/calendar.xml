@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="53">
+    <name>Atividade Prática - Modelo (SEM AVALIAÇÃO)</name>
+    <description>MODELO</description>
+    <format>2</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>vpl</modulename>
+    <instance>20</instance>
+    <eventtype>duedate</eventtype>
+    <timestart>1475539200</timestart>
+    <timeduration>0</timeduration>
+    <visible>0</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1475081649</timemodified>
+  </event>
+</events>

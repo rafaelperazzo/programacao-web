@@ -1,0 +1,19 @@
+-Test 5: Teste 5 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>3
+>3
+>3
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Digite d:
+
+ --- Expected output (text)---
+> 'F'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,53 @@
+Testing 1/6 : Teste 1
+Testing 2/6 : Teste 2
+Testing 3/6 : Teste 3
+Testing 4/6 : Teste 4
+Testing 5/6 : Teste 5
+Testing 6/6 : Teste 6
+
+<|--
+-Failed tests
+Test 5: Teste 5
+Test 6: Teste 6
+--|>
+
+<|--
+-Test 5: Teste 5 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>3
+>3
+>3
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:V
+
+ --- Expected output (text)---
+> 'F'
+
+-Test 6: Teste 6 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>3
+>3
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:V
+
+ --- Expected output (text)---
+> 'F'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>20

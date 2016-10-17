@@ -1,0 +1,19 @@
+-Test 6: Teste 6 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>3
+>3
+
+ --- Program output ---
+>cor 1: cor 2: cor 3: cor 4: V
+
+ --- Expected output (text)---
+> 'F'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 5 tests passed |
+>+------------------------------+
+

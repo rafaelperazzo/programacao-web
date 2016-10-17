@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="16">
+    <name>Exercício 1 (O questionário inicia)</name>
+    <description>&lt;div class="no-overflow"&gt;&lt;p&gt;Responda as questões a seguir.&lt;/p&gt;&lt;/div&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>quiz</modulename>
+    <instance>7</instance>
+    <eventtype>open</eventtype>
+    <timestart>1471453200</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1472131544</timemodified>
+  </event>
+  <event id="24">
+    <name>Exercício 1 (O questionário se encerra)</name>
+    <description>&lt;div class="no-overflow"&gt;&lt;p&gt;Responda as questões a seguir.&lt;/p&gt;&lt;/div&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>quiz</modulename>
+    <instance>7</instance>
+    <eventtype>close</eventtype>
+    <timestart>1472180340</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1472131544</timemodified>
+  </event>
+</events>

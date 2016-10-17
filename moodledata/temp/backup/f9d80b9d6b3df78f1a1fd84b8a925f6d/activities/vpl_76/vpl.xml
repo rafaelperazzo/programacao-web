@@ -1,0 +1,5663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="8" moduleid="76" modulename="vpl" contextid="1278">
+  <vpl id="8">
+    <name>Exercício 12</name>
+    <shortdescription>Exercício 12</shortdescription>
+    <intro>&lt;p&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Escreva um programa em Python que dados o peso(em kilos) e a altura(em metros) de um individuo, calcular o IMC e mostrar a situação do mesmo de acordo com as definições abaixo:&lt;/p&gt;
+&lt;p&gt;$$imc=\frac{peso}{altura^2}$$&lt;/p&gt;
+&lt;p&gt;IMC&amp;lt;20 - ABAIXO&lt;/p&gt;
+&lt;p&gt;20&amp;lt;=IMC&amp;lt;=25 - NORMAL&lt;/p&gt;
+&lt;p&gt;25&amp;lt;IMC&amp;lt;=30 - SOBREPESO&lt;/p&gt;
+&lt;p&gt;30&amp;lt;IMC&amp;lt;=40 - OBESIDADE&lt;/p&gt;
+&lt;p&gt;IMC&amp;gt;40 - OBESIDADE GRAVE&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1474290000</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>5</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>1</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>imc.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/imc.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 78
+1.80
+output='NORMAL'
+
+case = Teste 2
+input = 90
+1.80
+output='SOBREPESO'
+
+case = Teste 3
+input = 110
+1.80
+output='OBESIDADE'
+
+case = Teste 4
+input = 180
+1.80
+output='OBESIDADE GRAVE'
+</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="5100">
+        <vpl>8</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474459065</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input('Digite o peso : ')
+altura = input('Digite a altura: ')
+
+imc = peso/(altura**2)
+
+if imc&lt;20:
+    print('ABAIXO')
+elif 20&lt;=imc&lt;=25:
+    print('NORMAL')
+elif 25&lt;=imc&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4423">
+        <vpl>8</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474308964</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308968</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P=input('Digite o peso em kilos: ')
+A=input('Digite a altura em metros: ')
+IMC=(P/(A*A))
+if IMC&lt;20:
+    print ('ABAIXO')
+if 20&lt;=IMC&lt;=25:
+    print ('NORMAL')
+if 25&lt;IMC&lt;=30:
+    print ('SOBREPESO')
+if 30&lt;IMC&lt;=40:
+    print ('OBESIDADE')
+if IMC&gt;40:
+    print ('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5356">
+        <vpl>8</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474560999</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474561039</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+peso=input("Digite seu peso: ")
+altura=input("Digite sua altura: ")
+
+#PROCESSAMENTO
+
+imc=peso/(altura**2)
+
+#SAIDA
+
+if imc&lt;20:
+    print("ABAIXO")
+else:
+    if 20&lt;=imc&lt;=25:
+        print("NORMAL")
+    else:
+        if 25&lt;=imc&lt;=30:
+            print("SOBREPESO")
+        else:
+            if 30&lt;=imc&lt;=40:
+                print("OBESIDADE")
+            else:
+                print("OBESIDADE GRAVE")
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3797">
+        <vpl>8</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474291979</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292120</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite o peso:')
+altura=input('Digite a altura:')
+
+imc=(peso/(altura**2))
+
+if imc&lt;20:
+    print('abaixo')
+elif 20&lt;=imc&lt;=25:
+    print('normal')
+elif 25&lt;=imc&lt;=30:
+    print('sobrepeso')
+elif 30&lt;=imc&lt;=40:
+    print('obesidade')
+elif imc&gt;40:
+    print('obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3876">
+        <vpl>8</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474292705</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292750</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#Entrada
+
+peso = input('Digite o peso: ')
+altura = input('Digite a altura: ')
+
+#PROCESSAMENTO
+
+imc = peso / (altura**2)
+
+#SAÍDA
+
+if imc &lt; 20:
+    print "ABAIXO"
+    
+if (imc&gt;=20) and (imc&lt;=25):
+    print "NORMAL"
+
+if (imc&gt;25) and (imc&lt;=30):
+    print "SOBREPESO"
+    
+if (imc&gt;30) and (imc&lt;=40):
+    print "OBESIDADE"
+    
+if imc&gt;40:
+    print "OBESIDADE GRAVE"
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3734">
+        <vpl>8</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474291559</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291569</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso=input('Digite o seu peso:')
+altura=input('Digite o seu altura:')
+
+imc=(peso/float(altura**2))
+
+if (imc&lt;20):
+    print('ABAIXO')
+
+elif (20&lt;=imc&lt;=25):
+    print('NORMAL')
+
+elif (25&lt;=imc&lt;=30):
+    print('SOBREPESO')
+    
+elif (30&lt;=imc&lt;=40):
+    print('OBESIDADE')
+    
+elif (imc&gt;40):
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5142">
+        <vpl>8</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474460883</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460890</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input("digite o peso: ")
+h=input("digite a altura: ")
+
+IMC=(p/(h**2))
+
+if (IMC&lt;20):
+    print("ABAIXO")
+if (20&lt;=IMC&lt;=25):
+    print("NORMAL")
+if (25&lt;IMC&lt;=30):
+    print("SOBREPESO")
+if (30&lt;IMC&lt;=40):
+    print("OBESIDADE")
+if (IMC&gt;40):
+    print("OBESIDADE GRAVE")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3766">
+        <vpl>8</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474291821</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291822</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input("Digite seu peso(sem mentiras):")
+h=input("Digite sua altura:")
+
+imc=p/(h**2)
+if imc&lt;20:
+    print("ABAIXO")
+elif 20&lt;=imc&lt;=25:
+    print("NORMAL")
+elif 25&lt;imc&lt;=30:
+    print("SOBREPESO")
+elif 30&lt;imc&lt;=35:
+    print("OBESIDADE")
+elif imc&gt;40:
+    print("OBESIDADE GRAVE")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3732">
+        <vpl>8</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474291554</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291570</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA:
+
+p= input ('Digite o peso em quilos:')
+a= input ('Digite a altura em metros:')
+
+#PROCESSAMENTO:
+IMC = p/(a**2)
+
+if IMC&lt;20: 
+   print ('ABAIXO')
+if 20&lt;= IMC &lt;=25:
+    print ('NORMAL')
+if 25&lt; IMC &lt;=30:
+    print ('SOBREPESO')
+if 30&lt; IMC &lt;= 40:
+    print ('OBESIDADE')
+if IMC&gt;40:
+    print ('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4157">
+        <vpl>8</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474306150</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306165</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('informe o seu peso em quilos:')
+a=input('informe a sua altura em metro:')
+imc=p/(a**2)
+if imc&lt;20:
+    print('ABAIXO')
+if 20&lt;=imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+if imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4237">
+        <vpl>8</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474306697</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306768</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input("Insira o Peso: ")
+h=input("Insira a Altura: ")
+
+imc=(p/(h**2))
+
+if imc&lt;20:
+    print("ABAIXO")
+elif imc&gt;=20 and imc&lt;=25:
+    print("NORMAL")
+elif imc&gt;25 and imc&lt;=30:
+    print("SOBREPESO")
+elif imc&gt;30 and imc&lt;=40:
+    print("OBESIDADE")
+elif imc&gt;40:
+    print("OBESIDADE GRAVE")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3807">
+        <vpl>8</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474292033</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292064</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input ('insira o peso em kilos:')
+h=input ('insira a altura em metros:')
+
+#PROCESSAMENTO
+imc=(p)/(h**2)
+
+#SAIDA
+if imc&lt;=20:
+    print ('abaixo')
+if 20&lt;=imc&lt;=25:
+    print ('normal')
+if 25&lt;=imc&lt;=30:
+    print ('sobrepeso')
+if 30&lt;=imc&lt;=40:
+    print ('obesidade')
+if imc&gt;=40:
+    print ('obesidade grave')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4232">
+        <vpl>8</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474306677</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306680</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input ('digite o seu peso em quilogramas:')
+a = input ('digite a seu altura em metros:')
+
+imc = p/(a*a)
+
+if imc&lt;20:
+    print ('ABAIXO')
+if 20&lt;=imc&lt;=25:
+    print ( 'NORMAL')
+if 25&lt;=imc&lt;=30:
+    print ('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print ('OBESIDADE')
+if imc&gt;40:
+    print ('OBESIDADE GRAVE')
+   
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4509">
+        <vpl>8</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474313613</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313616</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+kg = input('')
+h = input('')
+
+imc = kg/h**2
+
+if imc&lt;20:
+    print('ABAIXO')
+elif imc&gt;=20 and imc&lt;=25:
+    print('NORMAL')
+elif imc&gt;25 and imc&lt;=30:
+    print('SOBREPESO')
+elif imc&gt;30 and imc&lt;=40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3827">
+        <vpl>8</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474292225</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292227</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada 
+
+p= input ('Digite o valor de seu peso:')
+h= input ('Digite o valor da sua altura:')
+
+#Processamento e Saida
+
+imc=p/(h**2)
+
+if (imc&lt;20):
+    print ('Abaixo')
+if (20&lt;=imc&lt;=25):
+    print ('Normal')
+if (25&lt;imc&lt;30):
+    print ('Sobrepeso')
+if (30&lt;imc&lt;40):
+    print  ('Obesidade')
+if (imc&gt;40):
+    print('Obesidade Grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3879">
+        <vpl>8</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474292721</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292725</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input('Digite o peso:')
+altura = input('Digite a altura:')
+
+imc = peso/(altura**2)
+
+if imc&lt;20:
+    print('ABAIXO')
+if 20&lt;=imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+if imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3821">
+        <vpl>8</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474292160</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292162</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite o valor de seu peso em quilogramas:')
+altura=input('Digite o valor da sua altura em metros:')
+
+
+imc=(peso/(altura**2))
+
+if imc&lt;20:
+    print('ABAIXO')
+elif 20&lt;=imc&lt;=25:
+    print('NORMAL')
+elif 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3840">
+        <vpl>8</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474292441</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292577</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso=input('digite seu peso em kilos:')
+altura=input('digite sua altura em metros:')
+
+imc=peso/(altura**2)
+
+if imc&lt;20:
+    print('abaixo')
+if 20&lt;=imc&lt;=25:
+    print('normal')
+if 25&lt;imc&lt;=30:
+    print('sobrepeso')
+if 30&lt;imc&lt;=40:
+    print('obesidade')
+if imc&gt;40:
+    print('obesidade grave')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3946">
+        <vpl>8</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474293281</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293283</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada 
+
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura: '))
+
+#Processamento
+
+IMC = peso / (altura)**2
+
+#Saída
+ 
+if IMC &lt; 20:
+    print('Abaixo')
+    
+if 20 &lt;= IMC &lt;= 25:
+    print('Normal')
+    
+if 25 &lt; IMC &lt;= 30:
+    print('Sobrepeso')
+    
+if 30 &lt; IMC &lt;= 40:
+    print('Obesidade')
+    
+if IMC &gt; 40:
+    print('Obesidade Grave')
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4501">
+        <vpl>8</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474313518</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313595</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+M=input('digite o peso:')
+H=input('digite a altura:')
+IMC=(M)/(H**2)
+if IMC&lt;20:
+    print('ABAIXO')
+elif IMC&gt;=20 and IMC&lt;=25:
+    print('NORMAL')
+elif IMC&gt;25 and IMC&lt;=30:
+    print('SOBREPESO')
+elif IMC&gt;30 and IMC&lt;=40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3841">
+        <vpl>8</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474292444</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292484</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+Peso=input('Digite seu peso em quilos:')
+Altura=input('Digite sua altura em metros:')
+
+IMC= (Peso)/((Altura)**2)
+
+if IMC&lt;20:
+    print('ABAIXO')
+
+elif 20&lt;=IMC&lt;=25:
+    print('NORMAL')
+    
+elif 25&lt;IMC&lt;=30:
+    print('SOBREPESO')
+    
+elif 30&lt;IMC&lt;=40:
+    print('OBESIDADE')
+    
+elif IMC&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5634">
+        <vpl>8</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474659014</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474659084</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+peso = input ('Digite o peso em kg:')
+altura = input ('Digite a altura em metros:')
+
+#PROCESSAMENTO E SAIDA
+IMC=peso//altura**2
+
+if IMC&lt;20:
+    print ('ABAIXO')
+else:
+    if 20&lt;=IMC&lt;=25:
+        print ('NORMAL')
+    else:
+        if 25&lt;IMC&lt;=30:
+            print ('SOBREPESO')
+        else:
+            if 30&lt;IMC&lt;=40:
+                print ('OBESIDADE')
+            else:
+                if IMC&gt;40:
+                    print ('OBESIDADE GRAVE')
+                
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4494">
+        <vpl>8</vpl>
+        <userid>83</userid>
+        <datesubmitted>1474313420</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313448</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite o peso em quilos: ')
+altura=input('Digite a altura em metros: ')
+
+imc=(peso/(altura)**2)
+if imc&lt;20:
+    print ('Abaixo do peso')
+elif 20&lt;=imc&lt;=25:
+    print ('Peso Normal')
+elif 25&lt;imc&lt;=30:
+    print ('Sobrepeso')
+elif 30&lt;imc&lt;=40:
+    print ('Obesidade')
+elif imc&gt;40:
+    print ('Obesidade grave')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3785">
+        <vpl>8</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474291932</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292179</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('digite seu peso em kilos:')
+a=input('digite sua altura em metros:')
+
+imc=p/(a)**2
+
+if (imc&lt;20):
+    print('abaixo')
+    
+if(20&lt;=imc&lt;=25):
+    print('normal')
+    
+if(25&lt;imc&lt;=30):
+    print('sobrepeso')
+    
+if(30&lt;imc&lt;=40):
+    print('obesidade')
+    
+if(imc&gt;40):
+    print('obesidade grave')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4151">
+        <vpl>8</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474306100</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306102</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input('Digite seu peso: ')
+h= input('Digite sua altua: ')
+
+imc= p/(h**2)
+
+if imc&lt;20:
+    print('Abaixo do peso')
+elif imc&gt;=20 and imc&lt;=25:
+    print('Normal')
+elif imc&gt;25 and imc&lt;=30:
+    print('Sobrepeso')
+elif imc&gt;30 and imc&lt;=40:
+    print('Obesidade')
+else:
+    print('Obesidade Grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4113">
+        <vpl>8</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474305924</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305927</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+p = input('digite o valor do peso em kilos:')
+a = input('digite o valor da altura em metros:')
+
+imc = p/(a**2)
+
+if imc&lt;20:
+    print('ABAIXO')
+elif 20&lt;=imc&lt;=25:
+    print('NORMAL')
+elif 25&lt;=imc&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;=imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;=40:
+    print('OBESIDADE GRAVE')
+
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3696">
+        <vpl>8</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474291237</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291240</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input("Digite o valor do peso:")
+h=input("digite o valor da altura:")
+
+imc=p/(h**2)
+
+if imc&lt;20:
+    print("abaixo")
+if 20&lt;=imc&lt;=25:
+    print("normal")
+if 25&lt;imc&lt;=30:
+    print("sobrepeso")
+if 30&lt;imc&lt;=40:
+    print("obesidade")
+if imc&gt;40:
+    print("obesidade grave")
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3801">
+        <vpl>8</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474291992</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292004</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso= input('informe seu peso em kilos: ')
+alt= input('informe sua altura em metros: ')
+
+IMC=(peso)/(alt)**2
+
+if IMC&lt;20:
+   print ('ABAIXO')
+if 20&lt;=IMC&lt;=25:
+    print ('NORMAL')
+if 25&lt;IMC&lt;=30:
+    print ('SOBREPESO')
+if 30&lt;IMC&lt;=40:
+    print ('OBESIDADE')
+if IMC&gt;40:
+    print ('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3788">
+        <vpl>8</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474291941</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291944</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+p=input('digite o valor do peso p:')
+h=input('digite o valor da altura h:')
+#processamento
+IMC=p/(h**2)
+#saida 
+if IMC&lt;20:
+    print('abaixo')
+elif 20&lt;=IMC&lt;=25:
+    print('normal')
+elif 25&lt;IMC&lt;=30:
+    print('sobrepeso')
+elif 30&lt;IMC&lt;=40:
+    print('obesidade')
+else :
+    print('obesidade grave')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3786">
+        <vpl>8</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474291939</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292040</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite aqui o peso do individuo:')
+a=input('Digite aqui a altura do individuo:')
+
+imc=(p/(a**2))
+
+if(imc&lt;20):
+    print('ABAIXO')
+
+if(20&lt;=imc&lt;=25):
+    print('NORMAL')
+    
+if(25&lt;imc&lt;=30):
+    print('SOBREPESO')
+
+if(30&lt;imc&lt;=40):
+    print('OBESIDADE')
+    
+if(imc&gt;40):
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4580">
+        <vpl>8</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474330216</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474330238</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+--|&gt;
+
+&lt;|--
+-Test 1: Teste 1 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 78
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosnormal
+
+ --- Expected output (text)---
+&gt;'NORMAL'
+
+-Test 2: Teste 2 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 90
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrossobrepeso
+
+ --- Expected output (text)---
+&gt;'SOBREPESO'
+
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 110
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosobesidade
+
+ --- Expected output (text)---
+&gt;'OBESIDADE'
+
+-Test 4: Teste 4 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 180
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosobesidade grave
+
+ --- Expected output (text)---
+&gt;'OBESIDADE GRAVE'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 1: Teste 1 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 78
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosnormal
+
+ --- Expected output (text)---
+&gt;'NORMAL'
+
+-Test 2: Teste 2 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 90
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrossobrepeso
+
+ --- Expected output (text)---
+&gt;'SOBREPESO'
+
+-Test 3: Teste 3 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 110
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosobesidade
+
+ --- Expected output (text)---
+&gt;'OBESIDADE'
+
+-Test 4: Teste 4 (-1.250)
+Incorrect program result
+ --- Input ---
+&gt; 180
+&gt;1.80
+
+ --- Program output ---
+&gt;Digite seu peso:Digite sua altura em metrosobesidade grave
+
+ --- Expected output (text)---
+&gt;'OBESIDADE GRAVE'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite seu peso:')
+altura=input('Digite sua altura em metros')
+
+imc=(peso)/((altura)**2)
+
+if imc&lt;20:
+    print('abaixo')
+if 20&lt;=imc&lt;=25:
+    print('normal')
+if 25&lt;imc&lt;=30:
+    print('sobrepeso')
+if 30&lt;imc&lt;=40:
+    print('obesidade')
+if imc&gt;40:
+    print('obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4505">
+        <vpl>8</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474313583</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313586</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input('Digite o valor do peso: ')
+h= input('Digite o valor da altura: ')
+
+imc= p/((h)**(2))
+
+if imc &lt; 20:
+    print('ABAIXO')
+
+if 20&lt;=imc and imc&lt;=25:
+    print('NORMAL')
+
+if 25&lt;imc and imc&lt;=30:
+    print('SOBREPESO')
+
+if 30&lt;imc and imc&lt;=40:
+    print('OBESIDADE')
+
+if imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4240">
+        <vpl>8</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474306722</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306726</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('peso em kg:')
+a=input('altura em metros:')
+i= p/a**2
+if i&lt;20:
+    print('ABAIXO')
+elif 20&lt;=i&lt;=25:
+    print('NORMAL')
+elif 25&lt;i&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;i&lt;=40:
+    print('OBESIDADE')
+elif 40&lt;i:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4563">
+        <vpl>8</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474325971</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474325986</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('digite seu peso:')
+altura=input('digite sua altura em metros:')
+
+IMC=(peso)/((altura)**2)
+
+if IMC&lt;20:
+
+    print('abaixo')
+
+elif 20&lt;=IMC&lt;=25:
+
+    print('normal')
+ 
+elif 25&lt;IMC&lt;=30:
+    
+    print('sobrepeso')
+
+elif 30&lt;IMC&lt;=40:
+
+    print('obesidade')
+
+elif IMC&gt;40:
+
+    print('obesidade grave')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4574">
+        <vpl>8</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474328321</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474328327</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite seu peso:')
+altura=input('Digite sua altura:')
+
+imc=peso/altura**2
+
+if imc&lt;20:
+    print('ABAIXO')
+elif 20&lt;=imc&lt;=25:
+    print('NORMAL')
+elif 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5362">
+        <vpl>8</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474563272</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474563281</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+Peso = input('Dgite o peso:')
+Altura = input('Digite a altura:')
+
+IMC = Peso/(Altura**2)
+if IMC &lt; 20:
+    print('ABAIXO')
+elif 20 &lt;= IMC &lt;= 25:
+    print('NORMAL')
+elif 25 &lt; IMC &lt;= 30:
+    print('SOBREPESO')
+elif 30 &lt; IMC &lt;= 40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3862">
+        <vpl>8</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474292634</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292684</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o peso em quilos:')
+h=input('Digite a altura em metros:')
+
+imc=(p)/(h**2)
+
+if imc&lt;20:
+    print('abaixo do peso')
+elif 20&lt;=imc&lt;=25:
+    print('peso normal')
+elif 25&lt;imc&lt;=30:
+    print('sobrepeso')
+elif 30&lt;imc&lt;=40:
+    print('obesidade')
+elif imc&gt;40:
+    print('obesidade grave')
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4108">
+        <vpl>8</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474305906</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306031</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o seu peso: ')
+b=input('Digite sua altura: ')
+
+imc=a/(b**2)
+
+if imc&lt;20:
+    print('ABAIXO')
+if 20&lt;=imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+if 40&lt;imc:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5259">
+        <vpl>8</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474479957</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474480012</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite o seu peso em kilos:')
+altura=input('Digite sua altura em metros:')
+
+imc=(peso)/(altura**2)
+
+if (imc&lt;20):
+    print('ABAIXO')
+    
+if (20&lt;=imc&lt;=25):
+    print('NORMAL')
+    
+if (25&lt;imc&lt;=30):
+    print('SOBREPESO')
+    
+if (30&lt;imc&lt;=40):
+    print('OBESIDADE')
+    
+if (imc&gt;40):
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5206">
+        <vpl>8</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474469519</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474469523</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('peso em kg:')
+al = input ('altura:')
+imc = a /(al*al)
+if imc &lt; 20:
+    print 'abaixo'
+elif 20&lt; imc &lt;=25:
+    print 'normal'
+elif 25&lt; imc &lt;= 30:
+    print 'sobrepeso'
+elif 30&lt; imc&lt;= 40:
+    print 'obesidade'
+else:
+    print 'obesidade grave'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3781">
+        <vpl>8</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474291907</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291909</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input (' digite o peso em kg: ')
+altura = input (' digite a altura em m: ')
+
+imc = peso/(altura)**2
+
+if imc &lt; 20:
+    print ('BAIXO')
+if 20 &lt;= imc &lt;= 25:
+    print ('NORMAL')
+if 25 &lt; imc &lt;= 30:
+    print ('SOBREPESO')
+if 30 &lt; imc &lt;= 40:
+    print ('OBESIDADE')
+if imc &gt; 40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3814">
+        <vpl>8</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474292061</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292076</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso=input('valor do peso em kg:')
+altura=input('valor da altura em metros:')
+
+imc=(peso/(altura**2))
+
+if imc&lt;20:
+    print('abaixo')
+    
+elif 20&lt;=imc&lt;=25:
+    print('normal')
+    
+elif 25&lt;imc&lt;=30:
+    print('sobrepeso')
+    
+elif 30&lt;imc&lt;=40:
+    print('obesidade')
+    
+elif imc&gt;40:
+    print('obesidade grave')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4419">
+        <vpl>8</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474308887</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308889</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Insira a altura em metros:')
+h=input('Insira o peso:')
+Imc=p/(h**2)
+if Imc&lt;20:
+    print('ABAIXO')
+if 20&lt;=Imc&lt;=25:
+    print('NORMAL')
+if 25&lt;Imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;Imc&lt;=40:
+    print('OBESIDADE')
+if Imc&gt;40:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4277">
+        <vpl>8</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474307051</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307054</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input('Digite o valor do seu peso:')
+h=input('Digite o valor da sua altura:')
+#PROCESSAMENTO
+imc=(p)/(h**2)
+#SAÍDA
+if imc&lt;20.00:
+    print('ABAIXO')
+elif imc&lt;=25.00 and imc&gt;=20.00:
+    print('NORMAL')
+elif imc&gt;25.00 and imc&lt;=30.00:
+    print('SOBREPESO')
+elif imc&gt;30.00 and imc&lt;=40.00:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4109">
+        <vpl>8</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474305911</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305930</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+p = input ('Digite o peso (em kg):')
+h = input ('Digite a altura (em metros):')
+
+#processamento:
+IMC = p/(h**2)
+
+if IMC &lt;= 20:
+    print ('Abaixo')
+elif IMC&gt;20 and IMC&lt;=25:
+    print ('Normal')
+elif IMC&gt;25 and IMC&lt;=30:
+    print ('Sobrepeso')
+elif IMC&gt;30 and IMC&lt;=40:
+    print ('Obesidade')
+elif IMC&gt;40:
+    print ('Obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4213">
+        <vpl>8</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474306534</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306540</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso=input('digite o seu peso:')
+altura=input('digite sua altura:')
+imc=peso/(altura**2)
+if imc&lt;20:
+    print('BAIXO')
+elif 20&lt;=imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+elif 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+if imc&gt;40:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4472">
+        <vpl>8</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474312924</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474312927</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p = input ('Digite o valor do seu peso (em quilogramas):')
+h = input ('Digite o valor da sua altura (em metros):')
+
+IMC = p/(h**2)
+
+if (IMC&lt;20):
+    print ('Abaixo')
+elif ((IMC&gt;=20) and (IMC&lt;=25)):
+    print ('Normal')
+elif ((IMC&gt;25) and (IMC&lt;=30)):
+    print ('Sobrepeso')
+elif ((IMC&gt;30) and (IMC&lt;=40)):
+    print ('Obesidade')
+else:
+    print ('Obesidade Grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4299">
+        <vpl>8</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474307265</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307275</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o peso em kilogramas:')
+a=input('Digite a altura em metros:')
+
+imc=(p/(a**2))
+
+if imc&lt;20:
+    print('ABAIXO')
+if imc&gt;=20 and imc&lt;=25:
+    print('NORMAL')
+if imc&gt;25 and imc&lt;=30:
+    print('SOBREPESO')
+if imc&gt;30 and imc&lt;=40:
+    print('OBESIDADE')
+if imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4035">
+        <vpl>8</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474305508</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305549</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o seu peso: ')
+h=input('Digite a sua altura: ')
+imc=p/(h**2)
+if imc&lt;20 :
+    print('Abaixo do peso')
+if 20&lt;=imc&lt;=25:
+    print('Peso normal')
+if 25&lt;imc&lt;=30:
+    print(' Sobrepeso ')
+elif 30&lt;imc&lt;=40 :
+    print('Obesidade')
+if imc&gt;40 :
+    print('Obesidade grave')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4257">
+        <vpl>8</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474306824</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306838</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o seu peso: ')
+b=input('Digite a sua altura: ')
+
+imc=((a)/(b**2))
+
+if imc&lt;20:
+    print 'ABAIXO'
+if 20&lt;=imc&lt;=25:
+    print 'NORMAL'
+if 25&lt;imc&lt;=30:
+    print 'SOBREPESO'
+if 30&lt;imc&lt;=40:
+    print 'OBESIDADE'
+if imc&gt;40:
+    print 'OBESIDADE GRAVE'
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4180">
+        <vpl>8</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474306370</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306372</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite o valor do peso:')
+altura=input('Digite o valor da altura:')
+imc=peso/(altura)**2
+
+if imc&lt;20:
+    print('baixo')
+if 20&lt;=imc&lt;=25:
+    print('normal')
+if 25&lt;=imc&lt;=30:
+    print('sobrepeso')
+if 30&lt;=imc&lt;=40:
+    print('obesidade')
+if imc&gt;40:
+    print('obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3792">
+        <vpl>8</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474291961</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292042</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o peso em quilos: ')
+h=input('Digite a altura: ')
+
+imc=p / (h**2)
+
+if imc&lt;20:
+    print ('ABAIXO')
+if 20&lt;=imc&lt;=25:    
+    print ('NORMAL')
+if 25&lt;imc&lt;=30:
+    print ('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print ('OBESIDADE')
+if imc&gt;40:
+    print ('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4503">
+        <vpl>8</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474313558</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313581</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o seu valor:')
+a=input('digite o seu valor:')
+imc=(p/(a)**2)
+
+if imc&lt;20:
+    print ('abaixo')
+elif 20&lt;=imc&lt;=25:
+    print ('normal')
+elif 25&lt;imc&lt;=30:
+    print ('sobrepeso')
+elif 30&lt;imc&lt;=40:
+    print ('obesidade')
+elif imc&gt;40:
+    print ('obesidade grave')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4222">
+        <vpl>8</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474306594</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306612</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p = input ('insira o seu peso:')
+h = input ('isira sua altura:') 
+
+imc=p/(h**2)
+
+if imc&lt;20 :
+    print ('ABAIXO')
+elif imc&gt;=20 and imc&lt;=25: 
+    print ('NORMAL') 
+elif imc&gt;25 and imc&lt;=30:
+    print ('SOBREPESO') 
+elif imc&gt;30 and imc&lt;=40:
+    print ('OBESIDADE') 
+elif imc&gt;40:
+    print ('OBESIDADE GRAVE') </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3803">
+        <vpl>8</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474291997</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292047</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso=input('Digite seu peso:')
+alt=input('digite sua altura:')
+
+imc=(peso)/(alt)**2
+
+if imc&lt;20:
+    print('ABAIXO')
+    
+if 20&lt;=imc&lt;=25:
+    print('NORMAL')
+    
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+    
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+    
+if imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4196">
+        <vpl>8</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474306463</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306471</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#1
+p = input('Digite o valor do peso em kg :')
+h = input('Digite o valor da altura em metros :')
+#2
+IMC = p/(h**2)
+
+#3
+if IMC&lt;20 :
+    print('ABAIXO')
+if 20&lt;=IMC&lt;=25:
+    print('NORMAL')
+if 25&lt;IMC&lt;=30:
+    print('SOBREPESO')
+if 30&lt;IMC&lt;=40:
+    print('OBESIDADE')
+if IMC&gt;40:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3822">
+        <vpl>8</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474292168</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292199</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input('insira o peso em kilos:')
+a=input('insira a altura em metros:')
+#PROCESSAMENTO
+imc=p/a**2
+#SAIDA
+if imc&lt;20:
+    print('ABAIXO')
+if 20&lt;imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+if imc&gt;40:
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4191">
+        <vpl>8</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474306439</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306513</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso= input('Insira o peso em kg:')
+alt= input('Insira a altura em metros:')
+
+imc= peso/(alt**2)
+
+if imc&lt;20:
+    print('ABAIXO')
+elif imc&gt;=20 and imc&lt;=25:
+    print('NORMAL')
+elif imc&gt;25 and imc&lt;=30:
+    print('SOBREPESO')
+elif imc&gt;30 and imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4217">
+        <vpl>8</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474306566</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306568</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input('Digite o peso: ')
+h = input('Digite a altura: ')
+IMC = (p)/(h*h)
+if IMC &lt; 20:
+    print('ABAIXO')
+if 20 &lt;= IMC &lt;= 25:
+    print('NORMAL')
+if 25 &lt;= IMC &lt;= 30:
+    print('SOBREPESO')
+if 30 &lt;= IMC &lt;= 40:
+     print('OBESIDADE')
+if IMC &gt; 40:
+     print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3931">
+        <vpl>8</vpl>
+        <userid>125</userid>
+        <datesubmitted>1474293131</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293172</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o peso:')
+b=input('Digite a altura:')
+imc=a/b**2
+
+if imc&lt;20:
+    print "ABAIXO"
+
+if 20&lt;imc&lt;=25:
+    print "NORMAL"
+
+if 25&lt;imc&lt;=30:
+    print "SOBREPESO"
+    
+if 30&lt;imc&lt;=40:
+    print "OBESIDADE"
+
+if imc&gt;40:
+    print "OBESIDADE GRAVE"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4836">
+        <vpl>8</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474392918</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474392944</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Peso em kg: ')
+h=input('Altura em m: ')
+
+imc= p/(h**2)
+
+if imc &lt; 20:
+    print ('Abaixo')
+
+elif imc &gt;= 20 and imc &lt;= 25:
+    print ('Normal')
+
+elif imc &gt; 25 and imc &lt;= 30:
+    print ('Sobrepeso')
+
+elif imc &gt; 30 and imc &lt;= 40:
+    print ('Obesidade')
+
+elif imc &gt; 40:
+    print ('Obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4025">
+        <vpl>8</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474305411</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305439</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+P= input('Digite o seu peso em kilos: ')
+A= input('Digite a sua altura em metros: ')
+IMC= P/(A**2)
+if IMC&lt;20:
+    print ('ABAIXO')
+elif 20&lt;=IMC&lt;=25:
+    print ('NORMAL')
+elif 25&lt;IMC&lt;=30:
+    print ('SOBREPESO')
+elif 30&lt;IMC&lt;=40:
+    print ('OBESIDADE')
+else :
+    print ('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4178">
+        <vpl>8</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474306353</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306551</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+Peso=input('Digite o valor do Peso:')
+Altura=input('Digita o valor da Altura:')
+
+IMC= Peso/(Altura**2)
+if IMC&lt;20:
+    print('Baixo')
+elif 20&lt;=IMC&lt;=25:
+    print('Normal')
+elif 25&lt;IMC&lt;=30:
+    print('Sobrepeso')
+elif 30&lt;IMC&lt;=40:
+    print('Obesidade')
+else:
+    print('Obesidade Grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3794">
+        <vpl>8</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474291966</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291992</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p = input('digite seu peso: ')
+a = input('digite sua altura: ')
+
+imc = (p/(a**2))
+
+if imc &lt; 20:
+    print('ABAIXO')
+    
+if (20&lt;=imc&lt;=25):
+    print('NORMAL')
+    
+if (25&lt;imc&lt;=30):
+    print('SOBREPESO')
+    
+if (30&lt;imc&lt;=40):
+    print('OBESIDADE')
+    
+if (imc&gt;40):
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4088">
+        <vpl>8</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474305789</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305795</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input(' digite seu peso em kg:')
+b= input(' digite sua altura em metros:')
+imc=(a/(b**2))
+if imc&lt;20:
+    print('abaixo')
+if 20&lt;=imc&lt;=25:
+    print(' normal')
+if 25&lt;imc&lt;=30:
+    print('sobrepeso')
+if 30&lt;imc&lt;=40:
+    print('obesidade')
+if imc&gt;40:
+    print(' obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4216">
+        <vpl>8</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474306538</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306548</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+print('Programa para calcular o imc de um individuo.')
+print('O cálculo do imc é dado por: imc=peso/altura²')
+peso=input('Digite o valor do peso do individuo:')
+altura=input('Digite o valor da altura do individou:')
+imc=peso/(altura*altura)
+if (imc&lt;20):
+    print('Abaixo')
+elif(20&lt;=imc&lt;=25):
+    print('Normal')
+elif(25&lt;imc&lt;=30):
+    print('Sobrepeso')
+elif(30&lt;imc&lt;=40):
+    print('Obesidade')
+else:
+    print('Obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4227">
+        <vpl>8</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474306642</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306645</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input('Digite o peso em quilos:')
+altura = input('Digite a altura em metros:')
+imc = peso/(altura**2)
+if imc&lt;20:
+    print('ABAIXO')
+if 20&lt;=imc&lt;=25:
+    print('NORMAL')
+if 25&lt;imc&lt;=30:
+    print('SOBREPESO')
+if 30&lt;imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;40:
+    print('OBESIDADE GRAVE')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3869">
+        <vpl>8</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474292653</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292655</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input ('digite o peso:')
+a= input('digite a altura:')
+
+IMC= (p/(a**2))
+
+if IMC&lt;20:
+    print 'ABAIXO'
+if 20&lt;=IMC&lt;=25:
+    print 'NORMAL'
+if 25&lt;IMC&lt;=30:
+    print 'SOBREPESO'
+if 30&lt;IMC&lt;=40:
+    print 'OBESIDADE'
+if IMC&gt;40:
+    print 'OBESIDADE GRAVE'
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3708">
+        <vpl>8</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474291344</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291348</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input("Digite o seu peso:")
+altura = input("Digite sua altura:")
+
+imc = int(peso/altura**2)
+
+if imc&lt;20:
+    print("ABAIXO")
+if 20&lt;=imc&lt;=25:
+    print("NORMAL")
+if 25&lt;imc&lt;=30:
+    print("SOBREPESO")
+if 30&lt;imc&lt;=40:
+    print("OBESIDADE")
+if imc&gt;40:
+    print("OBESIDADE GRAVE")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5743">
+        <vpl>8</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678728</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678730</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+M=input('digite o peso:')
+H=input('digite a altura:')
+IMC=(M)/(H**2)
+if IMC&lt;20:
+    print('ABAIXO')
+elif IMC&gt;=20 and IMC&lt;=25:
+    print('NORMAL')
+elif IMC&gt;25 and IMC&lt;=30:
+    print('SOBREPESO')
+elif IMC&gt;30 and IMC&lt;=40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4522">
+        <vpl>8</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474314057</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314059</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite seu peso:')
+a=input('digite sua altura:')
+imc=p/(a**2)
+if imc&lt;20:
+    print('ABAIXO')
+elif imc&gt;=20 and imc&lt;=25:
+    print('NORMAL')
+elif imc&gt;25 and imc&lt;=30:
+    print('SOBREPESO')
+elif imc&gt;30 and imc&lt;=40:
+    print('OBESIDADE')
+else:
+    print('OBESIDADE GRAVE')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3902">
+        <vpl>8</vpl>
+        <userid>139</userid>
+        <datesubmitted>1474292874</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293138</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso=input('digite um numero:')
+altura=input('digite um numero:')
+imc= peso/(altura**2)
+if imc&lt;20:
+    print"abaixo"
+if 20&lt;=imc&lt;=25:
+    print "normal"
+if 25&lt;imc&lt;=30:
+    print "sobrepeso"
+if 30&lt;imc&lt;=40:
+    print "obesidade"
+if imc&gt;40:
+    print "obesidade grave"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4226">
+        <vpl>8</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474306635</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306638</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+K=input('informe seu peso K:')
+A=input('informe sua altura A:')
+imc=(K)/(A**2)
+if imc&lt;20:
+    print('abaixo')
+if 20&lt;=imc&lt;=25:
+    print('normal')
+if 25&lt;imc&lt;=30:
+    print('sobrepeso')
+if 30&lt;imc&lt;=40:
+    print('obesidade')
+if imc&gt;40:
+    print('obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4320">
+        <vpl>8</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474307511</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307513</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o peso em quilos:')
+a=input('Digite a altura em metros:')
+
+imc = (p/(a**2))
+
+if imc&lt;20:
+    print('ABAIXO')
+elif imc&gt;=20 and imc&lt;=25:
+    print('NORMAL')
+elif imc&gt;25 and imc&lt;=30:
+    print('SOBREPESO')
+elif imc&gt;30 and imc&lt;=40:
+    print('OBESIDADE')
+elif imc&gt;40:
+    print('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4526">
+        <vpl>8</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474314107</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314278</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+peso = input(' Informe seu peso em quilogramas: ')
+altura = input(' Informe sua altura em metros: ')
+
+imc =  peso/(altura*altura)
+
+if imc&lt;20:
+    print( 'Abaixo ')
+elif imc&gt;=20 and imc&lt;=25:
+    print( ' Normal ')
+elif imc&gt;25 and imc&lt;=30:
+    print( ' Sobrepeso ')
+elif imc&gt;30 and imc&lt;=40:
+    print( ' Obesidade ')
+else:
+    print( ' Obesidade grave ')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3860">
+        <vpl>8</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474292621</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292623</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+P=input('digite o valor do peso:')
+A=input('digite o valor da altura:')
+
+#processamento
+imc=P/(A**2)
+
+if imc &lt;20:
+    print('abaixo do peso')
+
+if 20&lt;=imc&lt;=25:
+    print('normal')
+    
+if 25&lt;imc&lt;=30:
+    print('sobrepeso')
+    
+if 30&lt;imc&lt;=40:
+    print('obesidade')
+    
+if imc&gt;40:
+    print('obesidade grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4664">
+        <vpl>8</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474385178</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385203</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+peso = input('digite seu peso: ')
+altura = input('digite sua altura: ')
+
+imc = peso/altura**2
+if 20&lt;=imc&lt;=25:
+    print ('NORMAL')
+
+elif 25&lt;imc&lt;=30:
+        print ('SOBREPESO')
+
+elif 30&lt;imc&lt;=40:
+        print ('OBESIDADE')
+
+else:
+    print ('OBESIDADE GRAVE')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4506">
+        <vpl>8</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474313585</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313672</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>imc.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  4 tests run/ 4 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/imc.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p = input('Digite seu peso em kg:')
+h = input('Digite sua altura em metros:')
+#PROCESSAMENTO
+imc = ((p)/((h)**2))
+if imc&lt;20:
+    print('Baixo')
+elif imc&gt;=20 and imc&lt;=25:
+    print('Normal')
+elif imc&gt;25 and imc&lt;=30:
+    print('Sobrepeso')
+elif imc&gt;30 and imc&lt;=40:
+    print('Obesidade')
+elif imc&gt;40:
+    print('Obesidade Grave')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11" moduleid="84" modulename="url" contextid="1293">
+  <url id="11">
+    <name>CONSULTA DE NOTAS</name>
+    <intro>&lt;p&gt;Notas do curso&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>http://programacao.ufca.edu.br/moodle/grade/report/index.php?id=2</externalurl>
+    <display>5</display>
+    <displayoptions>a:0:{}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1474379596</timemodified>
+  </url>
+</activity>

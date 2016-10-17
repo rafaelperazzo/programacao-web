@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="48" modulename="resource" contextid="830">
+  <resource id="3">
+    <name>Apresentação da disciplina - SLIDES</name>
+    <intro>&lt;p&gt;Slides sobre a apresentação da disciplina. 1o dia de aula.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1471278223</timemodified>
+  </resource>
+</activity>

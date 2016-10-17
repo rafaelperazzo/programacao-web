@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="33">
+    <name>Exercício 8 - Prático</name>
+    <description>Atividade Prática</description>
+    <format>2</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>vpl</modulename>
+    <instance>5</instance>
+    <eventtype>duedate</eventtype>
+    <timestart>1474685700</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1474309711</timemodified>
+  </event>
+</events>

@@ -1,0 +1,4456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="12" moduleid="81" modulename="vpl" contextid="1290">
+  <vpl id="12">
+    <name>Exercício 15</name>
+    <shortdescription>Impedimento</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="font-size: xx-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;A regra do impedimento no futebol pode parecer estranha, mas sem ela, se a gente pensar bem, o jogo ficaria muito chato! Ela funciona dadas as posições de três jogadores: L o jogador atacante que lança a bola; R o jogador atacante que recebe a bola; e D o último jogador defensor. E a regra vale somente se o jogador R está no seu campo de ataque; se o jogador R está no seu campo de defesa ou na linha divisória do meio campo, ele não está em impedimento. Neste problema o campo tem 100 metros de  comprimento. Dadas as posições desses três jogadores, no momento exato do lançamento, haverá impedimento se e somente se a seguinte condição for verdadeira:&lt;br /&gt;&lt;br /&gt;R&amp;gt;50 e L&amp;lt;R e R&amp;gt;D&lt;/p&gt;
+&lt;p&gt;A regra parece estranha, não é mesmo? Mas a gente nem precisa entender a lógica dela. O seu programa deve apenas determinar, dadas as três posições L; R e D , se há ou não impedimento, implementando exatamente a condição acima. A figura abaixo mostra um exemplo onde não há impedimento:&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/imp.jpg" alt="Impedimento" width="390" height="233" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Entrada&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;A entrada é composta de 3 variáveis, contendo os três inteiros L; R e D. &lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Saída&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;Seu programa deve produzir uma única linha, contendo um único caractere, que deve ser “S” caso haja impedimento, ou “N” caso contrário.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1475463300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>impedimento.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/impedimento.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 35
+60
+75
+output='N'
+
+case = Teste 2
+input = 55
+68
+67
+output = 'S'
+
+</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="4657">
+        <vpl>12</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474378873</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474378881</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=input('Digite a distância de l: ')
+R=input('Digite a distância de r: ')
+D=input('Digite a distância de d: ')
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print ('S')
+else:
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5651">
+        <vpl>12</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474666169</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474666171</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+#ENTRADA
+
+L=int(input("Digite o valor de L: "))
+R=int(input("Digite o valor de R: "))
+D=int(input("Digite o valor de D: "))
+
+#PROCESSAMENTO/SAIDA
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print("S")
+else:
+    print("N")
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5066">
+        <vpl>12</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474454573</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474454584</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('Digite o valor de L:')
+R=input('Digite o valor de R:')
+D=input('Digite o valor de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5409">
+        <vpl>12</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474581947</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474581991</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI 
+
+L = input('Digite o valor de L: ')
+R = input('Digite o valor de R: ')
+D = input('Digite o valor de D: ')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('"S"')
+else:
+    print ('"N"')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4929">
+        <vpl>12</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474415913</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415919</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Digite a posição do jogador L: ')
+R=input('Digite a posição do jogador R: ')
+D=input('Digite a posição do jogador D: ')
+
+if (R&gt;50 and L&lt;R and R&gt;D):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5445">
+        <vpl>12</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474587608</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474587613</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=int(input("digite L:"))
+R=int(input("digite r:"))
+D=int(input(" digite d:"))
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print ("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5605">
+        <vpl>12</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474646455</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474646457</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO 
+L=int(input("Digite o valor de L:"))
+R=int(input("Digite o valor de R:"))
+D=int(input("Digite o valor de D:"))
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4919">
+        <vpl>12</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474415344</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415369</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L= input('Digite a posição de L:')
+R= input('Digite a posição de R:')
+D= input('Digite a posição de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('"S"')
+else:
+    print ('"N"')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5053">
+        <vpl>12</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474424422</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474424447</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L= int(input('Digite a posição do jogador L:'))
+R= int(input('Digite a posição do jogador R:'))
+D= int(input('Digite a posição do jogador D:'))
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+    
+else: 
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5304">
+        <vpl>12</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474516086</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474516170</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L = input("L: ")
+R = input("R: ")
+D = input("D: ")
+
+if L&gt;50 and L&lt;R and R&gt;D:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5334">
+        <vpl>12</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474552351</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474552417</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+l=input ('digite a posição do jogador l:')
+r=input ('digite a posição do jogador r:')
+d=input ('digite a posição do jogador d:')
+
+#SAIDA
+if r&gt;50 and l&lt;r and r&gt;d:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4838">
+        <vpl>12</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474393003</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474393051</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+l = input ('digite o valor de L:')
+r = input ('digite o valor de R:')
+d = input ('digite o valor de D:')
+
+if r&gt;50 and l&lt;r and r&gt;d:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5450">
+        <vpl>12</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474590174</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474590192</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+l = input('')
+r = input('')
+d = input('')
+
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4923">
+        <vpl>12</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474415555</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415596</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada 
+L= input ('Digite a posição do atacante que lança a bola:')
+R= input ('Digite a podição do atacante que recebe a bola:')
+D= input ('Digite a posição do defensor:')
+
+#Processamento e Saida
+
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print ('S')
+else:
+    print ('N') </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5514">
+        <vpl>12</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474604328</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474604341</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L = input('Digite o valor de L:')
+R = input('Digite o valor de R:')
+D = input('Digite o valor de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+if R&gt;50 and L&lt;R and R&lt;D:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5536">
+        <vpl>12</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474630388</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474630402</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+l=input('Digite o valor da posição do jogador atacante L em metros:')
+r=input('Digite o valor da posição do jogador atacante R em metros:')
+d=input('Digite o valor da posição do jogador da defesa D em metros:')
+
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5327">
+        <vpl>12</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474549293</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474549609</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('digite a posição de L:')
+R=input('digite a posição de R:')
+D=input('digite a posição de D:')
+
+if (R&gt;50)and(L&lt;R)and(R&gt;D):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5784">
+        <vpl>12</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474681549</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474681555</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada
+
+L = float(input('Digite a posiçao de "L", de 0 a 100: '))
+R = float(input('Digite a posiçao de "R", de 0 a 100: '))
+D = float(input('Digite a posiçao de "D", de 0 a 100: '))
+
+#Processamento e Saída
+
+if (R &gt; 50) and (L &lt; R) and (R &gt; D):
+    print('S')
+    
+else:
+    print('N')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4817">
+        <vpl>12</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474391090</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474391127</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('digite a posição do lançador:')
+R=input('digite a posição do receptor:')
+D=input('digite a posição do último defensor:')
+if R&lt;=50:
+    print('N')
+elif L&gt;=R:
+    print('N')
+elif D&gt;=R:
+    print('N')
+else:
+    print('S')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5222">
+        <vpl>12</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474472831</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474472851</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Digite L:')
+R=input('Digite R:')
+D=input('Digite D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5756">
+        <vpl>12</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474679466</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474679496</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA 
+L = input ('Digite o valor de L:')
+R = input ('Digite o valor de R:')
+D = input ('Digite o valor de D:')
+
+#PROCESSAMENTO E SAIDA
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5179">
+        <vpl>12</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474464468</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464525</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('posição do lançador:')
+R=input('posição do recebedor:')
+D=input('posição do defensor:')
+
+if(R&gt;50) and (L&lt;R) and (R&gt;D):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4673">
+        <vpl>12</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474385936</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385948</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+l= int(input('Digite o valor de l: '))
+r= int(input('Digite o valor de r: '))
+d= int(input('Digite o valor de d: '))
+
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5315">
+        <vpl>12</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474546737</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474546740</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#entrada
+L = int(input('digite o valor em metros do lançador:'))
+R = int(input('digite o valor em metros do receptor:'))
+D = int(input('digite o valor em metros do defensor:'))
+#processamento e saida
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5003">
+        <vpl>12</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474419265</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474419268</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L = input(" Lançador:")
+R = input("Recebedor:")
+D = input("Defensor:")
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5686">
+        <vpl>12</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474674884</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474674966</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L= input('dê o valor de L: ')
+R= input('dê o valor de R: ')
+D= input('dê o valor de D: ')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5121">
+        <vpl>12</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474459724</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474459739</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+
+L=input('digite o valor de L:')
+R=input('digite o valor de R:')
+D=input('digite o valor de D:')
+
+#processamento e saida
+
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print("S")
+else:
+    print("N")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5611">
+        <vpl>12</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474657094</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474657124</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+#ENTRADA
+L=int(input('Digite aqui o valor de L:'))
+R=int(input('Digite aqui o valor de R:'))
+D=int(input('Digite aqui o valor de D:'))
+
+#PROCESSAMENTO E SAIDA
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4948">
+        <vpl>12</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474417314</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417373</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L=input('indique a posição de L:')
+R=input('indique a posição de R:')
+D=input('indique a posição de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('s')
+else: print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5309">
+        <vpl>12</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474545039</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474545050</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L= input( )
+R= input( )
+D= input( )
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5733">
+        <vpl>12</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474678386</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678444</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+l=input('l')
+r=input('r')
+d=input('d')
+if r&gt;50 and l&lt;r and r&gt;d:
+    print("'S'")
+else:
+    print("'N'")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4956">
+        <vpl>12</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474417557</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417569</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('indique a posiçao de L:')
+R=input('indique a posiçao de R:')
+D=input('indique a posiçao de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4938">
+        <vpl>12</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474416798</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474416801</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=input('Digite o valor de L:')
+R=input('Digite o valor de R:')
+D=input('Digite o valor de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5365">
+        <vpl>12</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474569955</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474569959</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L = input('Digite a posição do lançador:')
+R = input('Digite a posição do receptor:')
+D = input('Digite a posição do defensor:')
+
+if R &gt; 50 and L &lt; R and R &gt; D:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5517">
+        <vpl>12</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474604546</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474604557</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=input('Digite a posição de L:')
+R=input('Digite a posição de R:')
+D=input('Digite a posição de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+if R&gt;50 and L&lt;R and R&lt;D:
+    print('N')
+
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4899">
+        <vpl>12</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474413624</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474413659</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=int(input('Digite o valor de L: '))
+R=int(input('Digite o valor de R: '))
+D=int(input('Digite o valor de D: '))
+
+if R&gt;50 and L&lt;R and R&lt;D:
+    print('N')
+else:
+    print('S')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5266">
+        <vpl>12</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474482618</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474482635</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Digite a posição do jogador L:')
+R=input('Digite a posição do jogador R:')
+D=input('Digite a posição do jogador D:')
+
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4966">
+        <vpl>12</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474417843</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417871</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+l = input ('digite l:')
+r = input ('digite r:')
+d = input ('digite d:')
+if r&gt;50 and l&lt;r and r&gt;d:
+    print 'S'
+else:
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5483">
+        <vpl>12</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474597767</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474597838</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L = input(' digite a distância em que L se encontra: ')
+R = input(' digite a distância em que R se encontra: ')
+D = input(' digite a distância em que D se encontra: ')
+
+if R &gt; 50 and L &lt; R and R &gt; D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5144">
+        <vpl>12</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474460964</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460968</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('digitebi vaor de L:')
+R=input('digite o valor de R:')
+D=input('digite o valor de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+    
+else:
+    print('N')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5701">
+        <vpl>12</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474676514</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474676525</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#entrada
+L = input('digite o valor de L:')
+R = input('digite o valor de R:')
+D = input('digite o valor de D:')
+
+#processamento e saída
+if R&gt;50 and R&gt;L and R&gt;D:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5679">
+        <vpl>12</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474673959</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474673997</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+L=input('Digite o valor de L:')
+R=input('Digite o valor de R:')
+D=input('Digite o valor de D:')
+#PROCESSAMENTO
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5428">
+        <vpl>12</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474584173</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474584225</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L = input ('Diga qual a posição do jogagor L:')
+R = input ('Diga qual a posição do jogador R:')
+D = input ('Diga qual a posição do jogador D:')
+
+#processamento
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4679">
+        <vpl>12</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474386161</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474386162</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=int(input('digite o nome do lancador:'))
+R=int(input('digite o nome do atacante:'))
+D=int(input('digite o nome do jogador d:'))
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4665">
+        <vpl>12</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474385185</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385212</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L = input ('Digite a posição do jogador atacante que lança a bola:')
+R = input ('Digite a posição do jogador atacante que recebe a bola:')
+D = input ('Digite a posição do jogador defensor:')
+
+if ((R&gt;20) and (L&lt;R) and (R&gt;D)):
+    print ('S')
+else:
+    print ('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4709">
+        <vpl>12</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474386956</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474386958</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Digite a posição do atacante que lança a bola:')
+R=input('Digite a posição do jogador atacante que recebe a bola:')
+D=input('Digite a posição do último jogador defensor:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('s')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5434">
+        <vpl>12</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474586383</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474586390</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+l=input('Digite a distância de L: ')
+r=input('Digite a distância de R: ')
+d= input('Digite a distância de D: ')
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5659">
+        <vpl>12</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474670313</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474670377</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+a=input('Digite L: ')
+b=input('Digite R: ')
+c=input('Digite D: ')
+
+if b&gt;50 and a&lt;b and b&gt;c:
+    print 'S'
+else:
+    print 'N'
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5371">
+        <vpl>12</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474571372</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474571425</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L=input('Digite a posição em metros de L:')
+R=input('Digite a posição em metros de R:')
+D=input('Digite a posição em metros de D:')
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else: 
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5136">
+        <vpl>12</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474460463</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460480</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Valor de l: ')
+R=input('Valor de r: ')
+D=input('Valor de d: ')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7456">
+        <vpl>12</vpl>
+        <userid>115</userid>
+        <datesubmitted>1475092602</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L=int(input('Digitar o valor do jogador que lança a bola:'))
+R=int(input('Digitar o valor do jogador que recebe a bola:'))
+D=int(input('Digitar o valor do último jogador do time adversário:'))
+if(R&gt;50 and R&gt;L and R&gt;D):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5592">
+        <vpl>12</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474644679</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474644685</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L = input ('insira a posição de L:')
+R = input ('insira a posição de R:') 
+D = input ('insira a posição de D:') 
+
+if R&gt;50 and L&lt;R and R&gt;D: 
+    print ('S')
+else: 
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5585">
+        <vpl>12</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474642319</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474642328</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L=input('Digite a posição do jogador L:')
+R=input('Digite a posição do jogador R:')
+D=input('Digite a posição do jogador D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4885">
+        <vpl>12</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474410779</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474410781</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#1
+L = input('Digite o valor da posição de L(entre 0 e 100 m) =')
+R = input('Digite o valor da posição de R(entre 0 e 100 m) =')
+D = input('Digite o valor da posição de D(entre 0 e 100 m) =')
+
+#2
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else :
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4928">
+        <vpl>12</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474415889</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415923</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+l=input('insira a posição do jogador l:')
+r=input('insira a posição do jogador r:')
+d=input('insira a posição do jogador d:')
+#SAIDA
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('s')
+else:
+    print('n')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5391">
+        <vpl>12</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474572717</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572731</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L= int(input('Insira o valor de L:'))
+R= int(input('Insira o valor de R:'))
+D= int(input('Insira o valor de D:'))
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4666">
+        <vpl>12</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474385470</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385473</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L = input('Digite a posição do lançador: ')
+R = input('Digite a posição do receptor: ')
+D = input('Digite a posição do defensor: ')
+if (R&gt;50) and (L&lt;R) and (R&gt;D):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4818">
+        <vpl>12</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474391250</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474391281</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+l=input('Posição do jogadro L: ')
+r=input('Posição do jogador R: ')
+d=input('Posição do jogador D: ')
+
+if r&gt;50 and l&lt;r and r&gt;d:
+    print ('S')
+
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5287">
+        <vpl>12</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474503229</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474503231</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L= input('Digite o valor de L: ')
+R= input('Digite o valor de R: ')
+D= input('Digite o valor de D: ')
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else :
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5163">
+        <vpl>12</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474463632</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474463637</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+L=input('Digite o valor de L:')
+R=input('Digite o valor de R:')
+D=input('Digite o valor de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5804">
+        <vpl>12</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474684322</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684324</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada
+
+L = float(input('Digite a posiçao de "L", de 0 a 100: '))
+R = float(input('Digite a posiçao de "R", de 0 a 100: '))
+D = float(input('Digite a posiçao de "D", de 0 a 100: '))
+
+#Processamento e Saída
+
+if (R &gt; 50) and (L &lt; R) and (R &gt; D):
+    print('S')
+    
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4930">
+        <vpl>12</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474415959</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474416003</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+l= input(' digite o valor de l:')
+r= input(' digite o valor de r:')
+d= input(' digite o valor de d:')
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('s')
+else:
+    print('n')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5370">
+        <vpl>12</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474571313</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474571332</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEUCÓDIGO AQUI
+L=int(input('Digite o valor do jogador que lança a bola:'))
+R=int(input('Digite o valor do jogador que recebe a bola:'))
+D=int(input('Difite o valor do último jogador do time adversário:'))
+if(R&gt;50 and R&gt;L and R&gt;D):
+    print('S')
+else:
+    print('N')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5702">
+        <vpl>12</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474676533</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474676536</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L = input('Digite a posição de L:')
+R = input('Digite a posição de R:')
+D = input('Digite a posição de D:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5509">
+        <vpl>12</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474601933</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474601937</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L= input ('digite a posição:')
+R= input ('digite a posição:')
+D= input ('digite a posição:')
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print 'S'
+else:
+    print 'N'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5083">
+        <vpl>12</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474458112</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474458114</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+L = input("Digite o valor de L:")
+R = input("Digite o valor de R:")
+D = input("Digite o valor de D:")
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print("S")
+else:
+    print("N")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5746">
+        <vpl>12</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678859</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678861</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('digite a posição do lançador:')
+R=input('digite a posição do receptor:')
+D=input('digite a posição do último defensor:')
+if R&lt;=50:
+    print('N')
+elif L&gt;=R:
+    print('N')
+elif D&gt;=R:
+    print('N')
+else:
+    print('S')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5732">
+        <vpl>12</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474678377</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678392</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+L=input('digite a posição do lançador:')
+R=input('digite a posição do receptor:')
+D=input('digite a posição do último defensor:')
+if R&lt;=50:
+    print('N')
+elif L&gt;=R:
+    print('N')
+elif D&gt;=R:
+    print('N')
+else:
+    print('S')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5379">
+        <vpl>12</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474572046</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572048</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+l=int( input('digite o valor de l:'))
+r=int( input('digite o valor de r:'))
+d=int( input('digite o valor de d:'))
+if (r&gt;50 and l&lt;r and r&gt;d):
+    print('S')
+else:
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5276">
+        <vpl>12</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474489953</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474489975</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CÓDIGO AQUI
+
+L = int(input ('Digite o valor de L:'))
+R = int(input ('Digite o valor de R:'))
+D = int(input ('Digite o valor de D:'))
+
+if R&gt;50 and L&lt;R and R&gt;D:
+    print ('S')
+else:
+    print ('N')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7624">
+        <vpl>12</vpl>
+        <userid>146</userid>
+        <datesubmitted>1475192390</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+l = input('DIGITE O VALOR DE L: ')
+r = input('DIGITE O VALOR DE R: ')
+d = input('DIGITE O VALOR DE D: ')
+
+if r&lt;50 or r&lt;d or r&lt;l:
+    print 'N'
+
+elif r&gt;d&gt;50:
+    print 'S'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7355">
+        <vpl>12</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474989669</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>impedimento.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/impedimento.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+l= int(input('Digite o valor de l:'))
+r= int(input('Digite o valor de r:'))
+d= int(input('Digite o valor de d:'))
+#PROCESSAMENTO
+if r&gt;50 and l&lt;r and r&gt;d:
+    print('S')
+else: 
+    print('N')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

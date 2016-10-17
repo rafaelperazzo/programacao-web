@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="9" moduleid="70" modulename="url" contextid="1264">
+  <url id="9">
+    <name>Aula 14/09/2016 - (VÍDEO ao vivo - 10:15)</name>
+    <intro>&lt;p&gt;Início a partir das 10:15&lt;/p&gt;
+&lt;p&gt;Para apenas assistir, clique no link abaixo:&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>https://www.youtube.com/watch?v=GUvh8906r-Q</externalurl>
+    <display>1</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1473863589</timemodified>
+  </url>
+</activity>

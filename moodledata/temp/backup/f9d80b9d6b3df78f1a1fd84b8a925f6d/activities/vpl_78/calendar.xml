@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="40">
+    <name>Ambiente virtual de programação</name>
+    <description>Programação</description>
+    <format>2</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>vpl</modulename>
+    <instance>10</instance>
+    <eventtype>duedate</eventtype>
+    <timestart>1482285300</timestart>
+    <timeduration>0</timeduration>
+    <visible>0</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1474286560</timemodified>
+  </event>
+</events>

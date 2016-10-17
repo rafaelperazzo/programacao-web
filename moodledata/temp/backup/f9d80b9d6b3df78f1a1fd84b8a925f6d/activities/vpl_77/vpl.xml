@@ -1,0 +1,5265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="9" moduleid="77" modulename="vpl" contextid="1279">
+  <vpl id="9">
+    <name>Exercício 13</name>
+    <shortdescription>Exercício 13</shortdescription>
+    <intro>&lt;p&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/p&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;Joãozinho acaba de mudar de escola e a primeira coisa que percebeu na nova escola é que a gangorra do parquinho não é simétrica, uma das extremidades é mais longa que a outra. Após brincar algumasvezes com um amigo de mesmo peso, ele percebeu que quando está em uma extremidade, a gangorra se desequilibra para o lado dele (ou seja, ele fica na parte de baixo, e o amigo na parte de cima), mas quando eles trocam de lado, a gangorra se desequilibra para o lado do amigo. Sem  entender a situação, Joãozinho pediu ajuda a outro amigo de outra série, que explicou que o comprimento do lado interfere no equilíbrio da gangorra, pois a gangorra estará equilibrada quando&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;$$P_1*C_1=P_2*C_2$$&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;onde $$P_1~e~P_2$$ são os pesos da criança do lado esquerdo e direito, respectivamente, e $$C_1~e~C_2$$ são os comprimentos da gangorra do lado esquerdo e direito, respectivamente.&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;Com a equação, Joãozinho consegue dizer se a gangorra está equilibrada ou não, mas, além disso, ele quer saber para qual lado a gangorra descerá caso esteja desequilibrada.&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;strong&gt;ENTRADA&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;Os valores de $$P_1,C_1,P_2,C_2$$ (nesta ordem).&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;strong&gt;SAÍDA&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;Se a gangorra estiver equilibrada, imprima '0'. Caso a criança esquerda esteja na parte de baixo, imprima '-1'. Caso a criança direita esteja na parte de baixo, imprima '1'.&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;A saída deve ser mostrada como um texto ('0' e não 0, por exemplo) e não como um número.&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;Escreva um programa em Python que realize o que foi pedido.&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;
+&lt;div style="text-align: left;" data-canvas-width="654.1241814666668"&gt;&lt;/div&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1474290000</startdate>
+    <duedate>1475463300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>5</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>crianca.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/crianca.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input=30
+100
+60
+50
+output='0'
+
+case = Teste 2
+input=40
+40
+38
+60
+output = '1'
+
+case = Teste 3
+input = 35
+80
+35
+75
+output='-1'
+
+</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="3629">
+        <vpl>9</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474286021</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474459084</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input('Digite P1: ')
+c1 = input('Digite C1: ')
+p2 = input('Digite P2: ')
+c2 = input('Digite C2: ')
+
+if (p1*c1==p2*c2):
+    print('0')
+elif (p1*c1&gt;p2*c2):
+    print('-1')
+else:
+    print('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4348">
+        <vpl>9</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474307823</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307851</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1=input('Digite o peso da criança 1: ')
+C1=input('Digite o comprimento do lado esquerdo: ')
+P2=input('Digite o peso da criança 2: ')
+C2=input('Digite o comprimento do lado direito: ')
+if (P1*C1)==(P2*C2):
+    print ('0')
+if (P1*C1)&gt;(P2*C2):
+    print ('-1')
+if (P1*C1)&lt;(P2*C2):
+    print ('1')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5358">
+        <vpl>9</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474561514</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474561553</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+
+p1=input("Digite o valor de P1: ")
+c1=input("Digite o valor de C1: ")
+p2=input("Digite o valor de P2: ")
+c2=input("Digite o valor de C2: ")
+
+#PROCESSAMENTO/SAIDA
+
+if p1*c1==p2*c2:
+    print("0")
+elif p1*c1&gt;p2*c2:
+    print("-1")
+else:
+    print("1")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3880">
+        <vpl>9</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474292736</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292779</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o valor de p1:')
+c1=input('Digite o valor de c1:')
+p2=input('Digite o valor de p2:')
+c2=input('digite o valor de c2:')
+
+if p1*c1==p2*c2:
+    print('0')
+elif p1*c1&gt;p2*c2:
+    print('-1')
+elif p1*c1&lt;p2*c2:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3951">
+        <vpl>9</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474293398</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293407</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input('Digite o peso 1: ')
+c1 = input('Digite o peso 1: ')
+p2 = input('Digite o peso 2: ')
+c2 = input('Digite o peso 2: ')
+
+if p1*c1 == p2*c2:
+    print "'0'"
+if p1*c1 &lt; p2*c2:
+    print "'-1'"
+if p1*c1 &gt; p2*c2:
+    print "'1'"
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3834">
+        <vpl>9</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474292314</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292316</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o peso da criança no lado esquerdo: ')
+C1=input('Digite o comprimento da gangorra no lado esquerdo: ')
+P2=input('Digite o peso da criança no lado direito: ')
+C2=input('Digite o comprimento da gangorra no lado direito: ')
+
+if (P1*C1==P2*C2):
+    print('0')
+    
+elif (P1*C1&lt;P2*C2):
+    print('-1')
+    
+elif (P1*C1&gt;P2*C2):
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5159">
+        <vpl>9</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474462126</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474462130</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input("digite p1")
+C1=input("digite c1")
+P2=input("digite p2")
+C2=input("digite c2")
+
+if(P1*C1)==(P2*C2):
+    print("'0'")
+if(P1*C1)&gt;(P2*C2):
+    print("'-1'")
+if(P1*C1)&lt;(P2*C2):
+    print("'1'")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3830">
+        <vpl>9</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474292266</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292268</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input("Digite o peso 1:")
+c1=input("Digite o comprimento 1:")
+p2=input("Digite o peso 2:")
+c2=input("Digite o comprimento 2:")
+
+if p1*c1==p2*c2:
+    print(" '0'")
+elif p2*c2&gt;p1*c1:
+    print(" '-1'")
+elif p1*c1&gt;p2*c2:
+    print(" '1'")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3850">
+        <vpl>9</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474292506</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292559</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA:
+p1= input('Digite o peso da criança do lado esquerdo:')
+c1= input('Digite o comprimento da gangorra do lado esquerdo:')
+p2= input('Digite o peso da criança do lado direito:')
+c2= input('Digite o comprimento da gangorra do lado direito:')
+
+if (p1*c1==p2*c2):
+    print ('0')
+elif (p1*c1&gt;= p2*c2):
+    print ('-1')
+else: 
+    (p1*c1&lt;= p2*c2)
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4234">
+        <vpl>9</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474306680</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306728</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('digite o peso da criança da direita:')
+c1=input('digite o comprimento do lado direito da gangorra:')
+p2=input('digite o peso da criança da esquerda:')
+c2=input('digite o comprimento do lado esquerdo da gangorra:')
+if (p1*c1)==(p2*c2):
+    print('0')
+elif (p1*c1)&lt;(p2*c2):
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4303">
+        <vpl>9</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474307311</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307380</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input("Insira o peso esquerdo: ")
+c1=input("Insira o comprimento esquerdo: ")
+p2=input("Insira o peso direito: ")
+c2=input("Insira o comprimento direito: ")
+
+if p1*c1==p2*c2:
+    print("0")
+elif p1*c1&lt;=p2*c2:
+    print("1")
+elif p1*c1&gt;=p2*c2:
+    print("-1")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3948">
+        <vpl>9</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474293300</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293312</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p1=input ('digite o peso da criança do lado esquerdo:')
+c1=input ('digite o comprimento do lado esquerdo da gangorra:')
+p2=input ('digite o peso da criança do lado direito:')
+c2=input ('digite o comprimento do lado direito da gangorra:')
+
+#SAIDA
+if (p1*c1)==(p2*c2):
+    print ('0')
+if (p1*c1)&lt;(p2*c2):
+    print ('-1')
+if (p1*c1)&gt;(p2*c2):
+    print ('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4290">
+        <vpl>9</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474307194</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307227</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input ('digite o valor de p1:')
+c1 = input ('digite o valor de c1:')
+p2 = input ('digite o valor de p2:')
+c2 = input ('digite o valor de c2:')
+
+if p1*c1==p2*c2:
+    print ('0')
+if p1*c1&gt;p2*c2:
+    print ('-1')
+if p1*c1&lt;p2*c2:
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4524">
+        <vpl>9</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474314059</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314061</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input('')
+c1 = input('')
+p2 = input('')
+c2 = input('')
+
+if (p1*c1) == (p2*c2):
+    print('0')
+elif (p1*c1) &gt; (p2*c2):
+    print('-1')
+elif (p2*c2) &gt; (p1*c1):
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3947">
+        <vpl>9</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474293300</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293302</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+
+p1= input ('Digite o peso da criança do lado esquerdo:')
+c1= input ('Digite o valor do comprimento do lado esquerdo da gangorra:')
+p2= input ('Digite o peso da criança do lado direito:')
+c2= input ('Digite o valor do comprimentp do lado direito da gangorra:')
+
+#Processameno e Saida
+
+e1=p1*c1
+e2=p2*c2
+
+if (e1==e2):
+    print ('0')
+elif (c2&gt;c1):
+    print ('-1')
+else:
+    print ('1')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3952">
+        <vpl>9</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474293421</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293423</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1 = input('Digite o valor de P1:')
+C1 = input('Digite o valor de C1:')
+P2 = input('Digite o valor de P2:')
+C2 = input('Digite o valor de C2:')
+
+if P1*C1 == P2*C2:
+    print("'0'")
+if P1*C1 &gt; P2*C2:
+    print("'-1'")
+if P1*C1 &lt; P2*C2:
+    print("'1'")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3907">
+        <vpl>9</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474292908</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292910</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o valor do peso 1:')
+c1=input('Digite o valor do comprimento 1:')
+p2=input('Digite o valor do peso 2:')
+c2=input('Digite o valor do comprimento 2:')
+
+if (p1*c1==p2*c2):
+    print('0')
+elif(p1*c1&gt;p2*c2):
+    print('-1')
+elif(p1*c1&lt;p2*c2):
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3949">
+        <vpl>9</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474293315</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293341</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('digite o peso do lado esquerdo:')
+c1=input('digite o comprimento do lado esquerdo:')
+p2=input('digite o peso do lado direito:')
+c2=input('digite o comprimento do lado direito:')
+
+p1*c1==p2*c2
+
+if p1*c1==p2*c2:
+    print('0')
+if p1*c1&lt;p2*c2:
+    print('-1')
+if p1*c1&gt;p2*c2:
+    print('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5190">
+        <vpl>9</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474464633</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464642</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+ 
+#Entrada
+
+P1 = float(input('Digite o peso da criança do lado esquerdo: '))
+C1 = float(input('Digite o comprimento do lado esquerdo: '))
+P2 = float(input('Digite o peso da criança do lado direito: '))
+C2 = float(input('Digite o comprimento do lado direito: '))
+
+#Processamento e Saída
+
+if P1*C1 == P2*C2:
+    print('0')
+    
+if P1*C1 &gt; P2*C2:
+    print('-1')
+    
+if P1*C1 &lt; P2*C2:
+    print('1')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4527">
+        <vpl>9</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474314122</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314137</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('digite o peso da criança 1:')
+C1=input('digite o comprimento 1:')
+P2=input('digite o peso da criança 2:')
+C2=input('digite o comprimento 2:')
+if P1*C1==P2*C2:
+    print('0')
+elif (P1*C1)&gt;(P2*C2):
+    print('-1')
+else:
+    print('+1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3929">
+        <vpl>9</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474293115</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293154</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o peso da criança do lado esquerdo:')
+c1=input('Digite o comprimento da gangorra do lado esquerdo:')
+p2=input('Digite o peso da criança do lado direito:')
+c2=input('Digite o comprimento da gangorra do lado direito:')
+
+if (p1*c1)==(p2*c2):
+    print('0')
+    
+elif (p1*c1)&gt;(p2*c2):
+    print('-1')
+    
+elif (p1*c1)&lt;(p2*c2):
+    print('1')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5768">
+        <vpl>9</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474679960</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474681866</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+P1 = input ('Digite o valor de P1:')
+C1 = input ('Digite o valor de C1:')
+P2 = input ('Digite o valor de P2:')
+C2 = input ('Digite o valor de C2:')
+
+#PROCESSAMNETO E SAIDA
+
+if P1*C1==P2*C2:
+    print ('0')
+else:
+    if P1*C1&gt;=P2*C2:
+        print ('-1')
+    else:
+        if P1*C1&lt;=P2*C2:
+            print ('1')
+            
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4516">
+        <vpl>9</vpl>
+        <userid>83</userid>
+        <datesubmitted>1474313993</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314226</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Peso da criança a esquerda: ')
+c1=input('Comprimento da parte esquerda da gangorra: ')
+p2=input('Peso da criança a direita: ')
+c2=input('Comprimento da parte direita da gangorra: ')
+
+if p1*c1==p2*c2 :
+    print ('0')
+elif p1*c1&gt;p2*c2 :
+    print ('-1')
+elif p1*c1&lt;p2*c2 :
+    print ('1')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3926">
+        <vpl>9</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474293095</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293099</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('digite o peso da criança no lado esquerdo:')
+c1=input('digite o comprimento no lado esquerdo:')
+p2=input('digite o peso da criança no lado direito:')
+c2=input('digite o comprimento no lado direito:')
+
+x1=p1*c1
+x2=p2*c2
+
+
+if(x1==x2):
+    print('0')
+    
+if (x1&lt;x2):
+    print('-1')
+        
+if(x1&gt;x2):
+    print('1')
+        
+
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4179">
+        <vpl>9</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474306364</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306366</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1= input('Digite o valor de p1: ')
+c1= input('Digite o valor de c1: ')
+p2= input('Digite o valor de p2: ')
+c2= input('Digite o valor de c2: ')
+
+a= (p1)*(c1)
+b= (p2)*(c2)
+
+if a==b:
+    print('0')
+elif a&gt;b:
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4247">
+        <vpl>9</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474306753</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306755</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+P1 = input('digite o valor do peso da criança do lado esquerdo:')
+C1 =  input('digite o valor do comprimento da gangorra do lado esquerdo:')
+P2 = input('digite o valor do peso da criança do lado direito:')
+C2 = input('digite o valor do comprimento da gangorra do lado direito:')
+
+#processamento e saida
+if P1*C1==P2*C2:
+    print('0')
+elif P1*C1&gt;P2*C2:
+    print('-1')
+elif P1*C1&lt;P2*C2:
+    print('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3761">
+        <vpl>9</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474291792</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291794</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input("Digite valor de p1:")
+c1 = input("Digite valor de c1:")
+p2 = input("Digite valor de p2:")
+c2 = input("Digite valor de c2:")
+
+if p1*c1==p2*c2:
+    print("0")
+if p1*c1&gt;p2*c2:
+    print("-1")
+if p1*c1&lt;p2*c2:
+    print("1")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3897">
+        <vpl>9</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474292845</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292847</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1= input('peso da criança lado esquerdo: ')
+C1= input('comprimento da gangorra LD: ')
+P2= input('peso da criança lado direito: ')
+C2= input('comprimento da gangorra LE: ')
+
+if (P1*C1)==(P2*C2):
+    print('0')
+if (P1*C1)&lt;(P2*C2):
+    print('1')
+if (P1*C1)&gt;(P2*C2):
+    print('-1')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3940">
+        <vpl>9</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474293207</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293210</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+p1=input('digite o valor do peso no lado esquerdo p1:')
+c1=input('digite o valor do comprimento da gangorra lado esquerdo c1:')
+p2=input('digite o valor do peso no lado direto p2:')
+c2=input('digite o valor do comprimento da gangorra lado direito c2:')
+#processamento e saida
+if (p1*c1)==(p2*c2):
+    print('0')
+elif (p1*c1)&lt;(p2*c2):
+    print('-1')
+else:
+    print('1')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3891">
+        <vpl>9</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474292807</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292828</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite aqui o peso 1:')
+c1=input('Digite aqui o comprimento 1:')
+p2=input('Digite aqui o peso 2:')
+c2=input('Digite aqui o comprimento 2:')
+
+if(p1*c1==p2*c2):
+    print('0')
+
+if(p1*c1&gt;p2*c2):
+    print('-1')
+    
+if(p1*c1&lt;p2*c2):
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4584">
+        <vpl>9</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474330616</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474330641</dategraded>
+        <grade>3.33000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+&gt;30
+&gt;100
+&gt;60
+&gt;50
+
+ --- Program output ---
+&gt;Digite o peso da criança do lado esquerdo:Digite o peso da criança do lado direito:Digite o comprimento da gangorra do lado esquerdo:Digite o comprimento da gangorra do lado direito:1
+
+ --- Expected output (text)---
+&gt;'0'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 3.33
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-1.667)
+Incorrect program result
+ --- Input ---
+&gt;30
+&gt;100
+&gt;60
+&gt;50
+
+ --- Program output ---
+&gt;Digite o peso da criança do lado esquerdo:Digite o peso da criança do lado direito:Digite o comprimento da gangorra do lado esquerdo:Digite o comprimento da gangorra do lado direito:1
+
+ --- Expected output (text)---
+&gt;'0'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o peso da criança do lado esquerdo:')
+p2=input('Digite o peso da criança do lado direito:')
+c1=input('Digite o comprimento da gangorra do lado esquerdo:')
+c2=input('Digite o comprimento da gangorra do lado direito:')
+
+if p1*c1==p2*c2:
+    print('0')
+elif p1*c1&gt;p2*c2:
+    print('-1')
+elif p1*c1&lt;p2*c2:
+    print('1')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4533">
+        <vpl>9</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474314372</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314375</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1= input('Digite o peso da criança no lado esquerdo: ')
+c1= input('Digite o comprimento do lado esquerdo da balança: ')
+p2= input('Digite o peso da criança no lado direito: ')
+c2= input('Digite o comprimento do lado direito da balança: ')
+
+if c1*p1&gt;c2*p2:
+    print('-1')
+
+elif c1*p1&lt;c2*p2:
+    print('1')
+
+else:
+    print('0')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4220">
+        <vpl>9</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474306587</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306605</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('peso da criança do lado esquerdo:')
+c1=input('comprimentos da gangorra do lado esquerdo:')
+p2=input('peso da criança do lado direito:')
+c2=input('comprimentos da gangorra do lado direito:')
+if p1*c1==p2*c2:
+    print('0')
+elif p1*c1&gt;p2*c2:
+    print('-1')
+elif p1*c1&lt;p2*c2:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4569">
+        <vpl>9</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474326466</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474326492</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('digite o valordo peso da criança do lado esquerdo:')
+c1=input('digite o comprimento do lado esquerdo da gangorra:')
+p2=input('digite o valor do peso da criança do lado direito:')
+c2=input('digite o comprimento do lado direito da gangorra:')
+
+if (p1*c1)==(p2*c2):
+    print('0')
+elif (p1*c1)&lt;(p2*c2):
+    print('-1')
+elif (p1*c1)&gt;(p2*c2):
+    print('1')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4575">
+        <vpl>9</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474328523</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474328537</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Peso da criança da esquerda:')
+c1=input('Comprimento do lado esquerdo:')
+p2=input('Peso da criança da direita:')
+c2=input('Comprimento do lado direito:')
+
+if (p1*c1)==(p2*c2):
+    print('0')
+elif (p1*c1)&gt;(p2*c2):
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5363">
+        <vpl>9</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474564796</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474564802</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1 = input('Digite P1:')
+C1 = input('Digite C1:')
+P2 = input('Digite P2:')
+C2 = input('Digite C2:')
+
+if P1*C1 &gt; P2*C2:
+    print('-1')
+elif P1*C1 &lt; P2*C2:
+    print('1')
+else:
+    print('0')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3955">
+        <vpl>9</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474293496</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293708</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o peso da criança da esquerda:')
+C1=input('Digite o comprimento 1:')
+P2=input('Digite o peso da criança da direita:')
+C2=input('Digite o comprimento 2:')
+
+if P1*C1==P2*C2:
+    print('0')
+elif P1*C1&gt;P2*C2:
+    print('-1')
+elif P1*C1&lt;P2*C2:
+    print('1')
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4212">
+        <vpl>9</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474306532</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306565</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o peso da criança da esquerda: ')
+c1=input('Digite o comprimento do lado esquerdo da gangorra: ')
+p2=input('Digite o peso da criança da direita: ')
+c2=input('Digite o comprimento do lado direito da gangorra: ')
+
+if (p1*c1)==(p2*c2):
+    print ('0')
+elif (p1*c1)&gt;(p2*c2):
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5261">
+        <vpl>9</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474480968</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474480998</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+P1=input('Digite o peso da criança que está do lado esquerdo:')
+C1=input('Digite o comprimento da gangorra do lado esquerdo:')
+P2=input('Digite o peso da criança que está do lado direito:')
+C2=input('Digite o comprimento da gangorra do lado direito:')
+
+if (P1*C1==P2*C2):
+    print ('0')
+    
+if (P1*C1&lt;P2*C2):
+    print ('-1')
+    
+if (P1*C1&gt;P2*C2):
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4926">
+        <vpl>9</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474415695</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415761</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1 = input ('digite o peso 1:')
+c1 = input ('comprimento 1:')
+p2 = input ('digite o peso 2:')
+c2 = input ('comprimento 2:')
+if p1*c1 == p2*c2:
+    print '0'
+elif p1*c1&gt; p2*c2:
+        print '-1'
+else:
+        print '1'
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3904">
+        <vpl>9</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474292886</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292888</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input (' digite o peso do pessoa: ')
+c1 = input (' digite o comprimento do lado esquerdo da gangorra: ')
+p2 = input (' digite o peso da pessoa: ')
+c2 = input (' digite o comprimento do lado direito da gangorra: ')
+
+if p1*c1 == p2*c2:
+    print ('0')
+if p1*c1 &lt; p2*c2:
+    print ('-1')
+if p1*c1 &gt; p2*c2:
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3911">
+        <vpl>9</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474292968</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292970</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('peso da criança p1:')
+c1=input('comprimento da gangorra do lado direito c1:')
+p2=input('peso da criança p2:')
+c2=input('comprimento da gangorra do lado esquerdoc2:')
+
+if p1*c1==p2*c2:
+    print('0')
+    
+elif p1*c1&gt;p2*c2:
+    print('-1')
+    
+elif p1*c1&lt;p2*c2:
+    print('1')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4429">
+        <vpl>9</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474309381</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474309395</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('Insira P1:')
+c1=input('Insira C1:')
+p2=input('Insira P2:')
+c2=input('Insira C2:')
+if p1*c1==p2*c2:
+    print('0')
+if p1*c1&gt;p2*c2:
+    print('-1')
+if p1*c1&lt;p2*c2:
+    print('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4312">
+        <vpl>9</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474307416</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307421</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+x=input('Digite o valor do primeiro peso:')
+y=input('Digite o valor do comprimento até o primeiro assento:')
+z=input('Digite o valor do segundo peso:')
+w=input('Digite o valor do comprimento até o segundo assento:')
+#PROCESSAMENTO
+a=(x*y)
+b=(z*w)
+#SAÍDA
+if a&gt;b:
+    print('-1')
+elif a&lt;b:
+    print('1')
+else:
+    print('0')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4243">
+        <vpl>9</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474306734</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306738</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada 
+p1 = input ('Digite o peso da criança 1:')
+c1 = input ('Digite o comprimento da gangorra do lado esquerdo:')
+p2 = input ('Digite o peso da criança 2:')
+c2 = input ('Digite o comprimento da gangorra do lado direito:')
+
+#processamento:
+if p1*c1==p2*c2:
+    print ('0')
+elif p1*c1&gt;p2*c2:
+    print ('-1')
+elif p1*c1&lt;p2*c2:
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4283">
+        <vpl>9</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474307099</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307102</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('digite o valor de p1:')
+c1=input('digite o valor de c1:')
+p2=input('digite o valor de p2:')
+c2=input('digite o valor de c2:')
+if ((c1*p1)==(c2*p2)):
+    print(0)
+if ((c1*p1)&lt;(c2*p2)):
+    print(-1)
+if ((c1*p1)&gt;(c2*p2)):
+    print(1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4529">
+        <vpl>9</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474314229</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314266</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input ('Digite o peso da criança da esquerda:')
+c1 = input ('Digite o valor do comprimento esquerdo:')
+p2 = input ('Digite o peso da criança da direita:')
+c2 = input ('Digite o valor do comprimento direito:')
+
+if ((p1*c1)==(p2*c2)):
+    print ('0')
+elif ((p1*c1)&gt;(p2*c2)):
+    print ('-1')
+else:
+    print ('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4346">
+        <vpl>9</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474307809</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307816</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o peso da criança do lado esquerdo:')
+C1=input('Digite o comprimento do lado esquerdo da gangorra:')
+P2=input('Digite o peso da criança do lado direito:')
+C2=input('Digite o comprimento do lado direito da gangorra:')
+
+if (P1*C1)==(P2*C2):
+    print('0')
+if (P1*C1)&gt;(P2*C2):
+    print('-1')
+if (P1*C1)&lt;(P2*C2):
+    print('1')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4150">
+        <vpl>9</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474306097</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306118</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('Digite peso 1: ')
+c1=input('Digite o comprimento 1: ')
+p2=input('Digite peso 2: ')
+c2=input('Digite o comprimento 2: ')
+if p1*c1==p2*c2 :
+    print('0')
+if (p1*c1)&lt;(p2*c2) :
+    print('1')
+elif (p1*c1)&gt;(p2*c2):
+    print('-1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4314">
+        <vpl>9</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474307422</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307437</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de p1: ')
+b=input('Digite o valor de c1: ')
+c=input('Digite o valor de p2: ')
+d=input('Digite o valor de c2: ')
+
+if a*b&gt;c*d:
+    print '-1'
+if c*d&gt;a*b:
+    print '1'
+if a*b==c*d:
+    print '0'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4316">
+        <vpl>9</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474307439</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307450</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o peso da criança 1:')
+C1=input('Digite o comprimeto do lado esquerdo da gangorra:')
+P2=input('Digite o peso da criança 2:')
+C2=input('Digite o comprimento do lado direito da gangorra:')
+
+if (P1*C1)==(P2*C2):
+    print('0')
+if (P1*C1)&gt;(P2*C2):
+    print('-1')
+if (P2*C2)&gt;(P1*C1):
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3890">
+        <vpl>9</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474292803</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292830</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Valor do peso da criança do lado esquerdo: ')
+c1=input('Valor do comprimento do lado esquerdo: ')
+p2=input('Valor do peso da criança do lado direito: ')
+c2=input('Valor do comprimento do lado direito: ')
+
+if (p1*c1)==(p2*c2):
+    print ('0')
+if (p1*c1)&gt;(p2*c2):
+    print ('-1')
+if (p1*c1)&lt;(p2*c2):
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4523">
+        <vpl>9</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474314059</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314165</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1=input('digite o valor de P1:')
+C1=input('digite o valor de C1:')
+P2=input('digite o valor de P2:')
+C2=input('digite o valor de C2:')
+if P1*C1==P2*C2:
+    print ('0')
+elif P1*C1&gt;P2*C2:
+    print ('-1')
+elif P1*C1&lt;P2*C2:
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4287">
+        <vpl>9</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474307148</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307151</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1 = input ('insira P1:')
+C1 = input ('insira C1:') 
+P2 = input ('insira P2:')
+C2 = input ('insira C2:')
+
+if P1*C1==P2*C2 :
+    print ('0')
+else: 
+    if P1*C1&gt;P2*C2:
+        print ('-1')
+    if P1*C1&lt;P2*C2:
+        print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3895">
+        <vpl>9</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474292829</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292833</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o peso da criança do lado esquerdo:')
+C1=input('Digite o comprimento da gangorra do lado esquerdo:')
+P2=input('Digite o peso da criança do lado direito:')
+C2=input('Digite o comprimento da gangorra do lado direito:')
+
+if (P1*C1==P2*C2):
+    print('0')
+    
+elif (P1*C1&gt;P2*C2):
+    print('-1')
+    
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4267">
+        <vpl>9</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474306925</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307005</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#1
+P1 = input('Digite o valor do peso 1:')
+C1 = input('Digite o valor do comprimento 1:')
+P2 = input('Digite o valor do peso 2:')
+C2 = input('Digite o valor do comprimento 2:')
+
+
+#2
+if P1*C1 == P2*C2 :
+    print('0')
+if P1*C1 &gt; P2*C2 :
+    print('-1')
+if P1*C1 &lt; P2*C2 :
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3939">
+        <vpl>9</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474293206</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293210</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p1=input('digite o peso da criança do lado esquerdo:')
+c1=input('digite o comprimento do lado esquerdo da gangorra:')
+p2=input('digite o peso da criança do lado direito:')
+c2=input('digite o comprimento do lado direito da gangorra:')
+
+#SAIDA
+if (p1*c1)==(p2*c2):
+    print('0')
+if (p1*c1)&lt;(p2*c2):
+    print('-1')
+if (p1*c1)&gt;(p2*c2):
+    print('1')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7524">
+        <vpl>9</vpl>
+        <userid>122</userid>
+        <datesubmitted>1475110552</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+
+pa=input ('Digite o valor de pa:')
+pb=input ('Digite o valor de pb:')
+ca=input ('Digite o valor de ca:')
+cb=input ('Digite o valor de cb:')
+
+#PROCESSAMENTO
+
+if (pa*ca==pb*cb):
+    print('0')
+elif (pa*ca)&gt;(pb*cb):
+        print('-1')
+elif (pa*ca)&lt;(pb*cb):
+        print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4286">
+        <vpl>9</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474307122</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307167</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1= input('Insira o valor de P1:')
+C1= input('Insira o valor de C1:')
+P2= input('Insira o valor de P2:')
+C2= input('Insira o valor de C2:')
+
+if (P1*C1)==(P2*C2):
+    print ('0')
+elif (P1*C1)&gt;(P2*C2):
+    print('-1')
+elif (P1*C1)&lt;(P2*C2):
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4328">
+        <vpl>9</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474307591</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307593</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1 = input('Digite o peso da criança da esquerda: ')
+C1 = input('Digite o comprimento do lado esquerdo: ')
+P2 = input('Digite o peso da criança da direita: ')
+C2 = input('Digite o comprimento do lado direito: ')
+if P1*C1 == P2*C2:
+    print('0')
+elif P1*C1 &gt; P2*C2:
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3967">
+        <vpl>9</vpl>
+        <userid>125</userid>
+        <datesubmitted>1474294235</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474294296</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1=input('Digite o peso da criança do lado esquerdo:')
+C1=input('Digite o comprimento da gangorra do lado esquerdo:')
+P2=input('Digite o peso da criança do lado direito:')
+C2=input('Digite o comprimento da gangorra do lado direito:')
+
+if P1*C1==P2*C2:
+    print "0"
+    
+if P1*C1&lt;P2*C2:
+    print "-1"
+
+if P1*C1&gt;P2*C2:
+    print "1"
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4834">
+        <vpl>9</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474392525</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474392555</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Peso da criança da esquerda: ')
+c1=input('Comprimento esquerdo: ')
+p2=input('Peso da criança da direita: ')
+c2=input('Comprimento direito: ')
+
+if (p1*c1) &gt; (p2*c2):
+    print ('-1')
+
+elif (p1*c1) &lt; (p2*c2):
+    print ('1')
+    
+else:
+    print ('0')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4155">
+        <vpl>9</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474306144</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306149</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1=input('Digite o valor de P1: ')
+C1=input('Digite o valor de C1: ')
+P2=input('Digite o valor de P2: ')
+C2=input('Digite o valor de C2: ')
+A=P1*C1
+B=P2*C2
+if A==B:
+    print ('0')
+elif A&gt;B:
+    print ('-1')
+else :
+    print ('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4282">
+        <vpl>9</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474307096</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307120</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('Digite o valor de P1:')
+C1=input('Digite o valor de C1:')
+P2=input('Digite o valor de P2:')
+C2=input('Digite o valor de C2:')
+if P1*C1==P2*C2 :
+    print('0')
+elif P1*C1&gt;P2*C2:
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3868">
+        <vpl>9</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474292649</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292667</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1 = input('digite o valor de p1: ')
+c1 = input('digite o valor de c1: ')
+p2 = input('digite o valor de p2: ')
+c2 = input('digite o valor de c2: ')
+
+if p1*c1==p2*c2:
+    print('0')
+    
+if p1*c1&gt;p2*c2:
+    print('-1')
+    
+if p1*c1&lt;p2*c2:
+    print('1')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4177">
+        <vpl>9</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474306349</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306359</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input(' digite o valor do peso do lado esquerdo:')
+b=input(' digite o valor do comprimento da gangorra do lado esquerdo:')
+c=input(' digite o valor do peso do lado direito:')
+d=input(' digite o valor do comprimento da gangorra do lado direito:')
+if a*b==c*d:
+    print('0')
+if a*b&gt;c*d:
+    print('-1')
+if a*b&lt;c*d:
+    print('1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4337">
+        <vpl>9</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474307673</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474650751</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+print('Programa para verificar se uma gangorra está ou não em equilíbrio')
+print('Se a gangorra está em equilíbro o torque resultante é nulo, caso contrário a gangorra esta desequilibrada. Assim, P1*C1=P2*C2')
+p1=input('Digite o valor de p1:')
+c1=input('Digite o valor de c1:')
+p2=input('Digite o valor de p2:')
+c2=input('Digite o valor de c2:')
+if(p1*c1==p2*c2):
+    print('0')
+elif(p1*c1&gt;p2*c2):
+    print('-1')
+else:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4336">
+        <vpl>9</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474307668</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307671</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input('Digite o peso da criança da esquerda:')
+c1 = input('Digite o comprimento do lado esquerdo da gangorra:')
+p2 = input('Digite o peso da criança da direita:')
+c2 = input('Digite o comprimento do lado direito da gangorra:')
+
+if p1*c1==p2*c2:
+    print('0')
+if (p1*c1)&gt;(p2*c2):
+    print('-1')
+elif (p2*c2)&gt;(p1*c1):
+    print('1')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3933">
+        <vpl>9</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474293139</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293142</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1 =input ('digite o valor:')
+C1 =input ('digite o valor:')
+P2 =input ('digite o valor:')
+C2 =input ('digite o valor:')
+
+if P1*C1==P2*C2:
+    print '0'
+if P1*C1&lt;P2*C2:
+    print '-1'
+if P1*C1&gt;P2*C2:
+    print '1'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3800">
+        <vpl>9</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474291987</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474291989</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1 = input("Digite P1:")
+c1 = input("Digite C1:")
+p2 = input("Digite P2:")
+c2 = input("Digite C2:")
+
+if p1*c1==p2*c2:
+    print("0")
+if p1*c1&gt;p2*c2:
+    print("-1")
+if p1*c1&lt;p2*c2:
+    print("1")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5744">
+        <vpl>9</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678768</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678770</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P1=input('digite o peso da criança 1:')
+C1=input('digite o comprimento 1:')
+P2=input('digite o peso da criança 2:')
+C2=input('digite o comprimento 2:')
+if P1*C1==P2*C2:
+    print('0')
+elif (P1*C1)&gt;(P2*C2):
+    print('-1')
+else:
+    print('+1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4540">
+        <vpl>9</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474314632</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314634</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('digite p1:')
+c1=input('digite c1:')
+p2=input('digite p2:')
+c2=input('digite c2:')
+if (p1*c1)==(p2*c2):
+    print('0')
+elif (p1*c1)&gt;(p2*c2):
+    print('-1')
+else:
+    print('+1')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3963">
+        <vpl>9</vpl>
+        <userid>139</userid>
+        <datesubmitted>1474294023</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474294025</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1=input('digite um numerp:')
+c1=input('digite um numero:')
+p2=input('digite um numero:')
+c2=input('digite um numero:')
+if p1*c1==p2*c2:
+    print '0'
+if p1*c1&lt;p2*c2:
+    print '-1'
+if p1*c1&gt;p2*c2:
+    print '1'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4358">
+        <vpl>9</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474307996</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307998</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P1=input('informe o valor do peso P1:')
+C1=input('informe o valor do peso C1:')
+P2=input('informe o valor do comprimento P2:')
+C2=input('informe o valor do comprimento C2:')
+if ((P1*C1)&gt;(P2*C2)):
+    print('1')
+if ((P1*C1)==(P2*C2)):
+    print('0')
+if ((P1*C1)&lt;(P2*C2)):
+    print('-1')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4402">
+        <vpl>9</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474308487</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308489</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p1=input('Digite o valor do peso 1:')
+c1=input('Digite o valor do comprimento 1:')
+p2=input('Digite o valor do peso 2:')
+c2=input('Digite o valor do comprimento 2:')
+
+if (p1*c1)==(p2*c2):
+    print ('0')
+elif (p1*c1)&lt;(p2*c2):
+    print ('-1')
+else:
+    print ('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4546">
+        <vpl>9</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474314884</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314909</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p1 = input(' Peso da Criança 1: ')
+c1 = input(' Comprimento da parte esquerda da gangorra: ')
+p2 = input(' Peso da Criança 2: ')
+c2 = input(' Comprimento da parte direita da gangorra: ')
+
+torque = p1*c1-p2*c2
+if torque&lt;0 :
+    print(' 1 ')
+elif torque&gt;0 :
+    print(' -1 ')
+else:
+    print(' 0 ')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3941">
+        <vpl>9</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474293225</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293275</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+P1=input('digite valor de P1:')
+C1=input('digite valor de C1:')
+P2=input('digite valor de P2:')
+C2=input('digite valor de C2:')
+#processamento
+P1*C1==P2*C2
+
+if P1*C1==P2*C2:
+    print ('0')
+    
+if P1*C1&lt;P2*C2:
+    print('-1')
+    
+if P1*C1&gt;P2*C2:
+    print('1')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4819">
+        <vpl>9</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474391400</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474391403</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('DIGITE O  VALOR DE P1: ')
+b = input('DIGITE O  VALOR DE C1: ')
+c = input('DIGITE O  VALOR DE P2: ')
+d = input('DIGITE O  VALOR DE C2: ')
+
+if a*b==c*d:
+    print '0'
+
+elif a*b&gt;c*d:
+    print '-1'
+
+else:
+    print '1'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4531">
+        <vpl>9</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474314324</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314375</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>crianca.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/crianca.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p1 =input('Qual o peso da criança do lado esquerdo?')
+c1 =input('Qual o comprimento da gangorra do lado esquerdo?')
+p2 =input('Qual o peso da criança do lado direito?')
+c2 =input('Qual o comprimento da gangorra do lado direito?')
+
+#PROCESSAMENTO
+lDireito = p2*c2
+lEsquerdo = p1*c1
+if lDireito==lEsquerdo:
+    print('0')
+elif lDireito&gt;lEsquerdo:
+    print('1')
+elif lEsquerdo&gt;lDireito:
+    print('-1')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

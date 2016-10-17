@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="74" modulename="chat" contextid="1269">
+  <chat id="2">
+    <name>Chat online - 14/09/2016</name>
+    <intro>&lt;p&gt;Chat online para a aula do dia 14/09/2016&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <keepdays>0</keepdays>
+    <studentlogs>1</studentlogs>
+    <chattime>1473858000</chattime>
+    <schedule>0</schedule>
+    <timemodified>1473858019</timemodified>
+    <messages>
+      <message id="136">
+        <userid>102</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473765649</timestamp>
+      </message>
+      <message id="137">
+        <userid>102</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>professor meu exercicio  nao da dando certo. Você poderia da uma olhada</message_text>
+        <timestamp>1473765691</timestamp>
+      </message>
+      <message id="138">
+        <userid>102</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>exercicio 8</message_text>
+        <timestamp>1473765708</timestamp>
+      </message>
+      <message id="139">
+        <userid>102</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473768001</timestamp>
+      </message>
+      <message id="144">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473856395</timestamp>
+      </message>
+      <message id="145">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>Para participar ao vivo da transmissão: https://hangouts.google.com/call/qmdjoh6d4zcp5pl3poycu7l73ie</message_text>
+        <timestamp>1473856411</timestamp>
+      </message>
+      <message id="146">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>Para apenas assistir: </message_text>
+        <timestamp>1473856419</timestamp>
+      </message>
+      <message id="147">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>https://www.youtube.com/watch?v=GUvh8906r-Q</message_text>
+        <timestamp>1473856440</timestamp>
+      </message>
+      <message id="148">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>https://hangouts.google.com/call/qmdjoh6d4zcp5pl3poycu7l73ie</message_text>
+        <timestamp>1473856813</timestamp>
+      </message>
+      <message id="149">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>Nesse link do hangouts tb tem um chat que eu consigo ver imediatamente.</message_text>
+        <timestamp>1473856848</timestamp>
+      </message>
+      <message id="150">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>Fiquem a vontade</message_text>
+        <timestamp>1473856850</timestamp>
+      </message>
+      <message id="151">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858357</timestamp>
+      </message>
+      <message id="152">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858379</timestamp>
+      </message>
+      <message id="153">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>pessoal, começo em alguns minutos</message_text>
+        <timestamp>1473858406</timestamp>
+      </message>
+      <message id="154">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858440</timestamp>
+      </message>
+      <message id="155">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858450</timestamp>
+      </message>
+      <message id="156">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 68</message_text>
+        <timestamp>1473858479</timestamp>
+      </message>
+      <message id="157">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>bom dia a todos</message_text>
+        <timestamp>1473858480</timestamp>
+      </message>
+      <message id="158">
+        <userid>136</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858480</timestamp>
+      </message>
+      <message id="159">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>beep 66</message_text>
+        <timestamp>1473858500</timestamp>
+      </message>
+      <message id="160">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>bomm</message_text>
+        <timestamp>1473858521</timestamp>
+      </message>
+      <message id="161">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beeb 64</message_text>
+        <timestamp>1473858524</timestamp>
+      </message>
+      <message id="162">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 62</message_text>
+        <timestamp>1473858529</timestamp>
+      </message>
+      <message id="163">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>vou começar</message_text>
+        <timestamp>1473858534</timestamp>
+      </message>
+      <message id="164">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 60</message_text>
+        <timestamp>1473858544</timestamp>
+      </message>
+      <message id="165">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858589</timestamp>
+      </message>
+      <message id="166">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473858625</timestamp>
+      </message>
+      <message id="167">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858648</timestamp>
+      </message>
+      <message id="168">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>que horas os sr vai começar a aula?</message_text>
+        <timestamp>1473858684</timestamp>
+      </message>
+      <message id="169">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>ja começou</message_text>
+        <timestamp>1473858705</timestamp>
+      </message>
+      <message id="170">
+        <userid>136</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>ja começou https://www.youtube.com/watch?v=GUvh8906r-Q</message_text>
+        <timestamp>1473858708</timestamp>
+      </message>
+      <message id="171">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>já comecei</message_text>
+        <timestamp>1473858721</timestamp>
+      </message>
+      <message id="172">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>a internet da ufca está péssima</message_text>
+        <timestamp>1473858738</timestamp>
+      </message>
+      <message id="173">
+        <userid>114</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473858775</timestamp>
+      </message>
+      <message id="174">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>a saída é o hospital mais perto</message_text>
+        <timestamp>1473858792</timestamp>
+      </message>
+      <message id="175">
+        <userid>72</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473859299</timestamp>
+      </message>
+      <message id="176">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473859322</timestamp>
+      </message>
+      <message id="177">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>dúvidas neste primeiro exercício ?</message_text>
+        <timestamp>1473859355</timestamp>
+      </message>
+      <message id="178">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473859364</timestamp>
+      </message>
+      <message id="179">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Não professor</message_text>
+        <timestamp>1473859371</timestamp>
+      </message>
+      <message id="180">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>n</message_text>
+        <timestamp>1473859374</timestamp>
+      </message>
+      <message id="181">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>nop</message_text>
+        <timestamp>1473859382</timestamp>
+      </message>
+      <message id="182">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>podemos ir para o próximo exercício ?</message_text>
+        <timestamp>1473859398</timestamp>
+      </message>
+      <message id="183">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>sim</message_text>
+        <timestamp>1473859406</timestamp>
+      </message>
+      <message id="184">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>yep</message_text>
+        <timestamp>1473859410</timestamp>
+      </message>
+      <message id="185">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>sim</message_text>
+        <timestamp>1473859411</timestamp>
+      </message>
+      <message id="186">
+        <userid>136</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o resultado é um numero? uma cordenada?</message_text>
+        <timestamp>1473859415</timestamp>
+      </message>
+      <message id="187">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Sim</message_text>
+        <timestamp>1473859416</timestamp>
+      </message>
+      <message id="188">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>não tá dando pra assistir,a internet não pega </message_text>
+        <timestamp>1473859436</timestamp>
+      </message>
+      <message id="189">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>um numero</message_text>
+        <timestamp>1473859438</timestamp>
+      </message>
+      <message id="190">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>fica travando</message_text>
+        <timestamp>1473859441</timestamp>
+      </message>
+      <message id="191">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>pois aqui ta dando certo taynara</message_text>
+        <timestamp>1473859460</timestamp>
+      </message>
+      <message id="192">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>estamos na sala 33</message_text>
+        <timestamp>1473859467</timestamp>
+      </message>
+      <message id="193">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>venha para a sala 33</message_text>
+        <timestamp>1473859468</timestamp>
+      </message>
+      <message id="194">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>aq na biblioteca a net ta boa</message_text>
+        <timestamp>1473859477</timestamp>
+      </message>
+      <message id="195">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>ok</message_text>
+        <timestamp>1473859500</timestamp>
+      </message>
+      <message id="196">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Não, sem duvidas por enquanto</message_text>
+        <timestamp>1473859601</timestamp>
+      </message>
+      <message id="197">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>n%10 =0</message_text>
+        <timestamp>1473859684</timestamp>
+      </message>
+      <message id="198">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>==</message_text>
+        <timestamp>1473859744</timestamp>
+      </message>
+      <message id="199">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473859751</timestamp>
+      </message>
+      <message id="200">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>isso mesmo</message_text>
+        <timestamp>1473859853</timestamp>
+      </message>
+      <message id="201">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>==</message_text>
+        <timestamp>1473859855</timestamp>
+      </message>
+      <message id="202">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>alguma dúvida neste segundo ?</message_text>
+        <timestamp>1473859890</timestamp>
+      </message>
+      <message id="203">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Também não</message_text>
+        <timestamp>1473859910</timestamp>
+      </message>
+      <message id="204">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>nop</message_text>
+        <timestamp>1473859914</timestamp>
+      </message>
+      <message id="205">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Nao, obg professor</message_text>
+        <timestamp>1473859915</timestamp>
+      </message>
+      <message id="206">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 72</message_text>
+        <timestamp>1473859954</timestamp>
+      </message>
+      <message id="207">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>vamos pro terceiro então</message_text>
+        <timestamp>1473859961</timestamp>
+      </message>
+      <message id="208">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 68</message_text>
+        <timestamp>1473860049</timestamp>
+      </message>
+      <message id="209">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Professor o senhor vai usar o "while"?</message_text>
+        <timestamp>1473860093</timestamp>
+      </message>
+      <message id="210">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>while é estrutura de repetição</message_text>
+        <timestamp>1473860141</timestamp>
+      </message>
+      <message id="211">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>vamos ver apenas quando começarmos estruturas de repetição</message_text>
+        <timestamp>1473860153</timestamp>
+      </message>
+      <message id="212">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Mas aquele exercicio das cedulas, ele nao vai precisar nao?</message_text>
+        <timestamp>1473860176</timestamp>
+      </message>
+      <message id="213">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>precisa não</message_text>
+        <timestamp>1473860217</timestamp>
+      </message>
+      <message id="214">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>mas dava pra resolve-lo usando o While né?</message_text>
+        <timestamp>1473860253</timestamp>
+      </message>
+      <message id="215">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>dá sim</message_text>
+        <timestamp>1473860268</timestamp>
+      </message>
+      <message id="216">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>fica mais generalizado</message_text>
+        <timestamp>1473860274</timestamp>
+      </message>
+      <message id="217">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>mas não é necessário</message_text>
+        <timestamp>1473860279</timestamp>
+      </message>
+      <message id="218">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>pq não vimos ainda estrutura de repetição</message_text>
+        <timestamp>1473860286</timestamp>
+      </message>
+      <message id="219">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>n,pq o denominador n pode zera</message_text>
+        <timestamp>1473860293</timestamp>
+      </message>
+      <message id="220">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x precisa ser maior ou igual a 4</message_text>
+        <timestamp>1473860304</timestamp>
+      </message>
+      <message id="221">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x &amp;gt; 0</message_text>
+        <timestamp>1473860313</timestamp>
+      </message>
+      <message id="222">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>4**</message_text>
+        <timestamp>1473860315</timestamp>
+      </message>
+      <message id="223">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>nao pode ser 4</message_text>
+        <timestamp>1473860316</timestamp>
+      </message>
+      <message id="224">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>maior*</message_text>
+        <timestamp>1473860318</timestamp>
+      </message>
+      <message id="225">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x&amp;gt;4</message_text>
+        <timestamp>1473860327</timestamp>
+      </message>
+      <message id="226">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x não pode estar no intervalo de - 4 a  4</message_text>
+        <timestamp>1473860330</timestamp>
+      </message>
+      <message id="227">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x&amp;lt;4 n da certo</message_text>
+        <timestamp>1473860360</timestamp>
+      </message>
+      <message id="228">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>pq zera </message_text>
+        <timestamp>1473860365</timestamp>
+      </message>
+      <message id="229">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Dá sim</message_text>
+        <timestamp>1473860367</timestamp>
+      </message>
+      <message id="230">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Fica 25 , por exemplo, com o -5</message_text>
+        <timestamp>1473860389</timestamp>
+      </message>
+      <message id="231">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>x&amp;lt;-4 tbm pode. disse maria</message_text>
+        <timestamp>1473860395</timestamp>
+      </message>
+      <message id="232">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>porque é ao quadrado</message_text>
+        <timestamp>1473860396</timestamp>
+      </message>
+      <message id="233">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>foi maria</message_text>
+        <timestamp>1473860452</timestamp>
+      </message>
+      <message id="234">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>x não pode estar no intervalo de [-4,4]</message_text>
+        <timestamp>1473860460</timestamp>
+      </message>
+      <message id="235">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>fatinha</message_text>
+        <timestamp>1473860462</timestamp>
+      </message>
+      <message id="236">
+        <userid>114</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473860631</timestamp>
+      </message>
+      <message id="237">
+        <userid>136</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>vai ter chamada?</message_text>
+        <timestamp>1473860669</timestamp>
+      </message>
+      <message id="238">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>não</message_text>
+        <timestamp>1473860730</timestamp>
+      </message>
+      <message id="239">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>não</message_text>
+        <timestamp>1473860733</timestamp>
+      </message>
+      <message id="240">
+        <userid>114</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473860762</timestamp>
+      </message>
+      <message id="241">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>n</message_text>
+        <timestamp>1473860763</timestamp>
+      </message>
+      <message id="242">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Sem dúvidas </message_text>
+        <timestamp>1473860778</timestamp>
+      </message>
+      <message id="243">
+        <userid>136</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473860814</timestamp>
+      </message>
+      <message id="244">
+        <userid>79</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473860840</timestamp>
+      </message>
+      <message id="245">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>dúvidas neste terceiro exercício ?</message_text>
+        <timestamp>1473860840</timestamp>
+      </message>
+      <message id="246">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 68</message_text>
+        <timestamp>1473860846</timestamp>
+      </message>
+      <message id="247">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>n</message_text>
+        <timestamp>1473860854</timestamp>
+      </message>
+      <message id="248">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 68</message_text>
+        <timestamp>1473860876</timestamp>
+      </message>
+      <message id="249">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o 7</message_text>
+        <timestamp>1473860966</timestamp>
+      </message>
+      <message id="250">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o que é esse beep, Susana?</message_text>
+        <timestamp>1473860984</timestamp>
+      </message>
+      <message id="251">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 117</message_text>
+        <timestamp>1473860987</timestamp>
+      </message>
+      <message id="252">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>não sei</message_text>
+        <timestamp>1473861001</timestamp>
+      </message>
+      <message id="253">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>qual a dúvida no 7 ?</message_text>
+        <timestamp>1473861002</timestamp>
+      </message>
+      <message id="254">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>O 8 professor</message_text>
+        <timestamp>1473861022</timestamp>
+      </message>
+      <message id="255">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o processo</message_text>
+        <timestamp>1473861034</timestamp>
+      </message>
+      <message id="256">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>explica o 8 e o 9</message_text>
+        <timestamp>1473861041</timestamp>
+      </message>
+      <message id="257">
+        <userid>94</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473861055</timestamp>
+      </message>
+      <message id="258">
+        <userid>95</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473861058</timestamp>
+      </message>
+      <message id="259">
+        <userid>81</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473861100</timestamp>
+      </message>
+      <message id="260">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>professor meu exercício 8 n tá dando certo</message_text>
+        <timestamp>1473861166</timestamp>
+      </message>
+      <message id="261">
+        <userid>91</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473861176</timestamp>
+      </message>
+      <message id="262">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>ele ta explicando agora o 8</message_text>
+        <timestamp>1473861202</timestamp>
+      </message>
+      <message id="263">
+        <userid>91</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861238</timestamp>
+      </message>
+      <message id="264">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>a ta, to atrasada kkkkk</message_text>
+        <timestamp>1473861240</timestamp>
+      </message>
+      <message id="265">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o print do 8 é tipo assim print('%d'%n1)</message_text>
+        <timestamp>1473861289</timestamp>
+      </message>
+      <message id="266">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>pra ficar igual com que ele disse</message_text>
+        <timestamp>1473861299</timestamp>
+      </message>
+      <message id="267">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>no meu não tava dando certo tbm</message_text>
+        <timestamp>1473861315</timestamp>
+      </message>
+      <message id="268">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>divide por 20 e o resultado vai ser o número de cédulas, pega o resto e vai dividindo pelas outras cédulas</message_text>
+        <timestamp>1473861330</timestamp>
+      </message>
+      <message id="269">
+        <userid>81</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861345</timestamp>
+      </message>
+      <message id="270">
+        <userid>81</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473861360</timestamp>
+      </message>
+      <message id="271">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>exatamente</message_text>
+        <timestamp>1473861464</timestamp>
+      </message>
+      <message id="272">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>a saída são apenas os números</message_text>
+        <timestamp>1473861474</timestamp>
+      </message>
+      <message id="273">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>print('%d' %n20)</message_text>
+        <timestamp>1473861499</timestamp>
+      </message>
+      <message id="274">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>imprime as 4 variáveis restantes</message_text>
+        <timestamp>1473861513</timestamp>
+      </message>
+      <message id="275">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>é por isso que o meu tava dando errado, saia i</message_text>
+        <timestamp>1473861561</timestamp>
+      </message>
+      <message id="276">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>=e o valor da nota</message_text>
+        <timestamp>1473861575</timestamp>
+      </message>
+      <message id="277">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>aaaaa, vou ver aqui se dá certo</message_text>
+        <timestamp>1473861601</timestamp>
+      </message>
+      <message id="278">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>professor, olha se meu 9 tá certo,por favor</message_text>
+        <timestamp>1473861689</timestamp>
+      </message>
+      <message id="279">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>está certo sim</message_text>
+        <timestamp>1473861762</timestamp>
+      </message>
+      <message id="280">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Professor, o meu 8 n tá permitindo nem executar</message_text>
+        <timestamp>1473861819</timestamp>
+      </message>
+      <message id="281">
+        <userid>95</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>beep 94</message_text>
+        <timestamp>1473861822</timestamp>
+      </message>
+      <message id="282">
+        <userid>63</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861863</timestamp>
+      </message>
+      <message id="283">
+        <userid>95</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861864</timestamp>
+      </message>
+      <message id="284">
+        <userid>88</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861900</timestamp>
+      </message>
+      <message id="285">
+        <userid>81</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861917</timestamp>
+      </message>
+      <message id="286">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>o programa em si fica errado se por ex: eu pensei que nem todo usuário saberia converter de percentagem pra deciamal, dai criei uma fórmula que convertia diretamente da % pra decimal.. </message_text>
+        <timestamp>1473861930</timestamp>
+      </message>
+      <message id="287">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>uhun</message_text>
+        <timestamp>1473861983</timestamp>
+      </message>
+      <message id="288">
+        <userid>94</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473861985</timestamp>
+      </message>
+      <message id="289">
+        <userid>91</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1473862014</timestamp>
+      </message>
+      <message id="290">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>mais alguma dúvida ou pergunta ?</message_text>
+        <timestamp>1473862098</timestamp>
+      </message>
+      <message id="291">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Não</message_text>
+        <timestamp>1473862115</timestamp>
+      </message>
+      <message id="292">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>segunda feira voltamos normalmente com as aulas em sala</message_text>
+        <timestamp>1473862127</timestamp>
+      </message>
+      <message id="293">
+        <userid>120</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Obrigada Perazzo</message_text>
+        <timestamp>1473862165</timestamp>
+      </message>
+      <message id="294">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Obrigada </message_text>
+        <timestamp>1473862170</timestamp>
+      </message>
+      <message id="295">
+        <userid>114</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473862177</timestamp>
+      </message>
+      <message id="296">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>0</system>
+        <message_text>Txs</message_text>
+        <timestamp>1473862177</timestamp>
+      </message>
+      <message id="297">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>disponha</message_text>
+        <timestamp>1473862178</timestamp>
+      </message>
+      <message id="298">
+        <userid>66</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473862211</timestamp>
+      </message>
+      <message id="299">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>qq coisa me mandem mensagem, email ,etc...</message_text>
+        <timestamp>1473862211</timestamp>
+      </message>
+      <message id="300">
+        <userid>68</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473862247</timestamp>
+      </message>
+      <message id="301">
+        <userid>117</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473862247</timestamp>
+      </message>
+      <message id="302">
+        <userid>72</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473862247</timestamp>
+      </message>
+      <message id="303">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>0</system>
+        <message_text>saindo...</message_text>
+        <timestamp>1473862247</timestamp>
+      </message>
+      <message id="304">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473863401</timestamp>
+      </message>
+      <message id="305">
+        <userid>101</userid>
+        <groupid>2</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1473863401</timestamp>
+      </message>
+      <message id="306">
+        <userid>80</userid>
+        <groupid>1</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1474029716</timestamp>
+      </message>
+      <message id="307">
+        <userid>80</userid>
+        <groupid>1</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1474030801</timestamp>
+      </message>
+      <message id="310">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>1</system>
+        <message_text>enter</message_text>
+        <timestamp>1476564999</timestamp>
+      </message>
+      <message id="311">
+        <userid>2</userid>
+        <groupid>0</groupid>
+        <system>1</system>
+        <message_text>exit</message_text>
+        <timestamp>1476565201</timestamp>
+      </message>
+    </messages>
+  </chat>
+</activity>

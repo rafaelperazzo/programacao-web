@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="115" version="2016052300">
+  <modulename>choice</modulename>
+  <sectionid>1</sectionid>
+  <sectionnumber>0</sectionnumber>
+  <idnumber></idnumber>
+  <added>1475608099</added>
+  <score>0</score>
+  <indent>0</indent>
+  <visible>0</visible>
+  <visibleold>0</visibleold>
+  <groupmode>0</groupmode>
+  <groupingid>0</groupingid>
+  <completion>0</completion>
+  <completiongradeitemnumber>$@NULL@$</completiongradeitemnumber>
+  <completionview>0</completionview>
+  <completionexpected>0</completionexpected>
+  <availability>{"op":"&amp;","c":[{"type":"group","id":2}],"showc":[true]}</availability>
+  <showdescription>0</showdescription>
+  <tags>
+  </tags>
+</module>

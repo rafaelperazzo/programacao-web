@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enrolments>
+  <enrols>
+    <enrol id="1">
+      <enrol>manual</enrol>
+      <status>0</status>
+      <name>$@NULL@$</name>
+      <enrolperiod>0</enrolperiod>
+      <enrolstartdate>0</enrolstartdate>
+      <enrolenddate>0</enrolenddate>
+      <expirynotify>0</expirynotify>
+      <expirythreshold>86400</expirythreshold>
+      <notifyall>0</notifyall>
+      <password>$@NULL@$</password>
+      <cost>$@NULL@$</cost>
+      <currency>$@NULL@$</currency>
+      <roleid>5</roleid>
+      <customint1>$@NULL@$</customint1>
+      <customint2>$@NULL@$</customint2>
+      <customint3>$@NULL@$</customint3>
+      <customint4>$@NULL@$</customint4>
+      <customint5>$@NULL@$</customint5>
+      <customint6>$@NULL@$</customint6>
+      <customint7>$@NULL@$</customint7>
+      <customint8>$@NULL@$</customint8>
+      <customchar1>$@NULL@$</customchar1>
+      <customchar2>$@NULL@$</customchar2>
+      <customchar3>$@NULL@$</customchar3>
+      <customdec1>$@NULL@$</customdec1>
+      <customdec2>$@NULL@$</customdec2>
+      <customtext1>$@NULL@$</customtext1>
+      <customtext2>$@NULL@$</customtext2>
+      <customtext3>$@NULL@$</customtext3>
+      <customtext4>$@NULL@$</customtext4>
+      <timecreated>1466086556</timecreated>
+      <timemodified>1466086556</timemodified>
+      <user_enrolments>
+        <enrolment id="134">
+          <status>0</status>
+          <userid>2</userid>
+          <timestart>1471972099</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471972124</timemodified>
+        </enrolment>
+        <enrolment id="122">
+          <status>0</status>
+          <userid>6</userid>
+          <timestart>1471882499</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471882500</timemodified>
+        </enrolment>
+        <enrolment id="101">
+          <status>0</status>
+          <userid>59</userid>
+          <timestart>1471351399</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471351408</timemodified>
+        </enrolment>
+        <enrolment id="100">
+          <status>0</status>
+          <userid>105</userid>
+          <timestart>1471347499</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471347514</timemodified>
+        </enrolment>
+        <enrolment id="118">
+          <status>0</status>
+          <userid>125</userid>
+          <timestart>1471875299</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471875328</timemodified>
+        </enrolment>
+        <enrolment id="117">
+          <status>0</status>
+          <userid>131</userid>
+          <timestart>1471875299</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1471875307</timemodified>
+        </enrolment>
+        <enrolment id="143">
+          <status>0</status>
+          <userid>149</userid>
+          <timestart>1474292399</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1474292409</timemodified>
+        </enrolment>
+        <enrolment id="144">
+          <status>0</status>
+          <userid>150</userid>
+          <timestart>1476105699</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1476105775</timemodified>
+        </enrolment>
+      </user_enrolments>
+    </enrol>
+    <enrol id="2">
+      <enrol>guest</enrol>
+      <status>1</status>
+      <name>$@NULL@$</name>
+      <enrolperiod>0</enrolperiod>
+      <enrolstartdate>0</enrolstartdate>
+      <enrolenddate>0</enrolenddate>
+      <expirynotify>0</expirynotify>
+      <expirythreshold>0</expirythreshold>
+      <notifyall>0</notifyall>
+      <password></password>
+      <cost>$@NULL@$</cost>
+      <currency>$@NULL@$</currency>
+      <roleid>0</roleid>
+      <customint1>$@NULL@$</customint1>
+      <customint2>$@NULL@$</customint2>
+      <customint3>$@NULL@$</customint3>
+      <customint4>$@NULL@$</customint4>
+      <customint5>$@NULL@$</customint5>
+      <customint6>$@NULL@$</customint6>
+      <customint7>$@NULL@$</customint7>
+      <customint8>$@NULL@$</customint8>
+      <customchar1>$@NULL@$</customchar1>
+      <customchar2>$@NULL@$</customchar2>
+      <customchar3>$@NULL@$</customchar3>
+      <customdec1>$@NULL@$</customdec1>
+      <customdec2>$@NULL@$</customdec2>
+      <customtext1>$@NULL@$</customtext1>
+      <customtext2>$@NULL@$</customtext2>
+      <customtext3>$@NULL@$</customtext3>
+      <customtext4>$@NULL@$</customtext4>
+      <timecreated>1466086556</timecreated>
+      <timemodified>1466086556</timemodified>
+      <user_enrolments>
+      </user_enrolments>
+    </enrol>
+    <enrol id="3">
+      <enrol>self</enrol>
+      <status>0</status>
+      <name>Auto Inscrição</name>
+      <enrolperiod>12960000</enrolperiod>
+      <enrolstartdate>0</enrolstartdate>
+      <enrolenddate>1472698500</enrolenddate>
+      <expirynotify>0</expirynotify>
+      <expirythreshold>0</expirythreshold>
+      <notifyall>0</notifyall>
+      <password>programacao</password>
+      <cost>$@NULL@$</cost>
+      <currency>$@NULL@$</currency>
+      <roleid>5</roleid>
+      <customint1>1</customint1>
+      <customint2>0</customint2>
+      <customint3>100</customint3>
+      <customint4>1</customint4>
+      <customint5>0</customint5>
+      <customint6>1</customint6>
+      <customint7>$@NULL@$</customint7>
+      <customint8>$@NULL@$</customint8>
+      <customchar1>$@NULL@$</customchar1>
+      <customchar2>$@NULL@$</customchar2>
+      <customchar3>$@NULL@$</customchar3>
+      <customdec1>$@NULL@$</customdec1>
+      <customdec2>$@NULL@$</customdec2>
+      <customtext1>Bem vindo(a) ao ambiente virtual de Programação Computacional para Engenharia - ECI0007/EM0006. Como primeira atividade, edite seu perfil, coloque uma foto se possível e preencha corretamente todas suas informações. O correto preenchimento de seu perfil visa evitar quaisquer erros durante o acompanhamento da disciplina. 
+Bom semestre pra você!!</customtext1>
+      <customtext2>$@NULL@$</customtext2>
+      <customtext3>$@NULL@$</customtext3>
+      <customtext4>$@NULL@$</customtext4>
+      <timecreated>1466086556</timecreated>
+      <timemodified>1471875946</timemodified>
+      <user_enrolments>
+        <enrolment id="56">
+          <status>0</status>
+          <userid>67</userid>
+          <timestart>1470923695</timestart>
+          <timeend>1483883695</timeend>
+          <modifierid>67</modifierid>
+          <timemodified>1470923695</timemodified>
+        </enrolment>
+        <enrolment id="57">
+          <status>0</status>
+          <userid>65</userid>
+          <timestart>1470923713</timestart>
+          <timeend>1483883713</timeend>
+          <modifierid>65</modifierid>
+          <timemodified>1470923713</timemodified>
+        </enrolment>
+        <enrolment id="58">
+          <status>0</status>
+          <userid>68</userid>
+          <timestart>1470923757</timestart>
+          <timeend>1483883757</timeend>
+          <modifierid>68</modifierid>
+          <timemodified>1470923757</timemodified>
+        </enrolment>
+        <enrolment id="59">
+          <status>0</status>
+          <userid>69</userid>
+          <timestart>1470924694</timestart>
+          <timeend>1483884694</timeend>
+          <modifierid>69</modifierid>
+          <timemodified>1470924694</timemodified>
+        </enrolment>
+        <enrolment id="60">
+          <status>0</status>
+          <userid>72</userid>
+          <timestart>1470925939</timestart>
+          <timeend>1483885939</timeend>
+          <modifierid>72</modifierid>
+          <timemodified>1470925939</timemodified>
+        </enrolment>
+        <enrolment id="61">
+          <status>0</status>
+          <userid>66</userid>
+          <timestart>1470926152</timestart>
+          <timeend>1483886152</timeend>
+          <modifierid>66</modifierid>
+          <timemodified>1470926152</timemodified>
+        </enrolment>
+        <enrolment id="62">
+          <status>0</status>
+          <userid>75</userid>
+          <timestart>1470926433</timestart>
+          <timeend>1483886433</timeend>
+          <modifierid>75</modifierid>
+          <timemodified>1470926433</timemodified>
+        </enrolment>
+        <enrolment id="63">
+          <status>0</status>
+          <userid>74</userid>
+          <timestart>1470926441</timestart>
+          <timeend>1483886441</timeend>
+          <modifierid>74</modifierid>
+          <timemodified>1470926441</timemodified>
+        </enrolment>
+        <enrolment id="64">
+          <status>0</status>
+          <userid>62</userid>
+          <timestart>1470926735</timestart>
+          <timeend>1483886735</timeend>
+          <modifierid>62</modifierid>
+          <timemodified>1470926735</timemodified>
+        </enrolment>
+        <enrolment id="65">
+          <status>0</status>
+          <userid>76</userid>
+          <timestart>1470926857</timestart>
+          <timeend>1483886857</timeend>
+          <modifierid>76</modifierid>
+          <timemodified>1470926857</timemodified>
+        </enrolment>
+        <enrolment id="66">
+          <status>0</status>
+          <userid>78</userid>
+          <timestart>1470927536</timestart>
+          <timeend>1483887536</timeend>
+          <modifierid>78</modifierid>
+          <timemodified>1470927536</timemodified>
+        </enrolment>
+        <enrolment id="67">
+          <status>0</status>
+          <userid>77</userid>
+          <timestart>1470928230</timestart>
+          <timeend>1483888230</timeend>
+          <modifierid>77</modifierid>
+          <timemodified>1470928230</timemodified>
+        </enrolment>
+        <enrolment id="68">
+          <status>0</status>
+          <userid>82</userid>
+          <timestart>1470932958</timestart>
+          <timeend>1483892958</timeend>
+          <modifierid>82</modifierid>
+          <timemodified>1470932958</timemodified>
+        </enrolment>
+        <enrolment id="69">
+          <status>0</status>
+          <userid>83</userid>
+          <timestart>1470933873</timestart>
+          <timeend>1483893873</timeend>
+          <modifierid>83</modifierid>
+          <timemodified>1470933873</timemodified>
+        </enrolment>
+        <enrolment id="70">
+          <status>0</status>
+          <userid>84</userid>
+          <timestart>1470937377</timestart>
+          <timeend>1483897377</timeend>
+          <modifierid>84</modifierid>
+          <timemodified>1470937377</timemodified>
+        </enrolment>
+        <enrolment id="71">
+          <status>0</status>
+          <userid>85</userid>
+          <timestart>1470937793</timestart>
+          <timeend>1483897793</timeend>
+          <modifierid>85</modifierid>
+          <timemodified>1470937793</timemodified>
+        </enrolment>
+        <enrolment id="72">
+          <status>0</status>
+          <userid>86</userid>
+          <timestart>1470939508</timestart>
+          <timeend>1483899508</timeend>
+          <modifierid>86</modifierid>
+          <timemodified>1470939508</timemodified>
+        </enrolment>
+        <enrolment id="73">
+          <status>0</status>
+          <userid>87</userid>
+          <timestart>1470943560</timestart>
+          <timeend>1483903560</timeend>
+          <modifierid>87</modifierid>
+          <timemodified>1470943560</timemodified>
+        </enrolment>
+        <enrolment id="74">
+          <status>0</status>
+          <userid>61</userid>
+          <timestart>1470945415</timestart>
+          <timeend>1483905415</timeend>
+          <modifierid>61</modifierid>
+          <timemodified>1470945415</timemodified>
+        </enrolment>
+        <enrolment id="75">
+          <status>0</status>
+          <userid>88</userid>
+          <timestart>1470946980</timestart>
+          <timeend>1483906980</timeend>
+          <modifierid>88</modifierid>
+          <timemodified>1470946980</timemodified>
+        </enrolment>
+        <enrolment id="76">
+          <status>0</status>
+          <userid>89</userid>
+          <timestart>1470947745</timestart>
+          <timeend>1483907745</timeend>
+          <modifierid>89</modifierid>
+          <timemodified>1470947745</timemodified>
+        </enrolment>
+        <enrolment id="77">
+          <status>0</status>
+          <userid>90</userid>
+          <timestart>1470948483</timestart>
+          <timeend>1483908483</timeend>
+          <modifierid>90</modifierid>
+          <timemodified>1470948483</timemodified>
+        </enrolment>
+        <enrolment id="78">
+          <status>0</status>
+          <userid>91</userid>
+          <timestart>1470955131</timestart>
+          <timeend>1483915131</timeend>
+          <modifierid>91</modifierid>
+          <timemodified>1470955131</timemodified>
+        </enrolment>
+        <enrolment id="79">
+          <status>0</status>
+          <userid>92</userid>
+          <timestart>1470955635</timestart>
+          <timeend>1483915635</timeend>
+          <modifierid>92</modifierid>
+          <timemodified>1470955635</timemodified>
+        </enrolment>
+        <enrolment id="80">
+          <status>0</status>
+          <userid>94</userid>
+          <timestart>1470961426</timestart>
+          <timeend>1483921426</timeend>
+          <modifierid>94</modifierid>
+          <timemodified>1470961426</timemodified>
+        </enrolment>
+        <enrolment id="81">
+          <status>0</status>
+          <userid>95</userid>
+          <timestart>1470962083</timestart>
+          <timeend>1483922083</timeend>
+          <modifierid>95</modifierid>
+          <timemodified>1470962083</timemodified>
+        </enrolment>
+        <enrolment id="82">
+          <status>0</status>
+          <userid>63</userid>
+          <timestart>1470967397</timestart>
+          <timeend>1483927397</timeend>
+          <modifierid>63</modifierid>
+          <timemodified>1470967397</timemodified>
+        </enrolment>
+        <enrolment id="83">
+          <status>0</status>
+          <userid>97</userid>
+          <timestart>1470969744</timestart>
+          <timeend>1483929744</timeend>
+          <modifierid>97</modifierid>
+          <timemodified>1470969744</timemodified>
+        </enrolment>
+        <enrolment id="84">
+          <status>0</status>
+          <userid>81</userid>
+          <timestart>1471018571</timestart>
+          <timeend>1483978571</timeend>
+          <modifierid>81</modifierid>
+          <timemodified>1471018571</timemodified>
+        </enrolment>
+        <enrolment id="85">
+          <status>0</status>
+          <userid>98</userid>
+          <timestart>1471023413</timestart>
+          <timeend>1483983413</timeend>
+          <modifierid>98</modifierid>
+          <timemodified>1471023413</timemodified>
+        </enrolment>
+        <enrolment id="86">
+          <status>0</status>
+          <userid>100</userid>
+          <timestart>1471032056</timestart>
+          <timeend>1483992056</timeend>
+          <modifierid>100</modifierid>
+          <timemodified>1471032056</timemodified>
+        </enrolment>
+        <enrolment id="87">
+          <status>0</status>
+          <userid>102</userid>
+          <timestart>1471043320</timestart>
+          <timeend>1484003320</timeend>
+          <modifierid>102</modifierid>
+          <timemodified>1471043320</timemodified>
+        </enrolment>
+        <enrolment id="88">
+          <status>0</status>
+          <userid>103</userid>
+          <timestart>1471052897</timestart>
+          <timeend>1484012897</timeend>
+          <modifierid>103</modifierid>
+          <timemodified>1471052897</timemodified>
+        </enrolment>
+        <enrolment id="89">
+          <status>0</status>
+          <userid>106</userid>
+          <timestart>1471094550</timestart>
+          <timeend>1484054550</timeend>
+          <modifierid>106</modifierid>
+          <timemodified>1471094550</timemodified>
+        </enrolment>
+        <enrolment id="90">
+          <status>0</status>
+          <userid>108</userid>
+          <timestart>1471128129</timestart>
+          <timeend>1484088129</timeend>
+          <modifierid>108</modifierid>
+          <timemodified>1471128129</timemodified>
+        </enrolment>
+        <enrolment id="91">
+          <status>0</status>
+          <userid>110</userid>
+          <timestart>1471136335</timestart>
+          <timeend>1484096335</timeend>
+          <modifierid>110</modifierid>
+          <timemodified>1471136335</timemodified>
+        </enrolment>
+        <enrolment id="92">
+          <status>0</status>
+          <userid>80</userid>
+          <timestart>1471184723</timestart>
+          <timeend>1484144723</timeend>
+          <modifierid>80</modifierid>
+          <timemodified>1471184723</timemodified>
+        </enrolment>
+        <enrolment id="93">
+          <status>0</status>
+          <userid>109</userid>
+          <timestart>1471196089</timestart>
+          <timeend>1484156089</timeend>
+          <modifierid>109</modifierid>
+          <timemodified>1471196089</timemodified>
+        </enrolment>
+        <enrolment id="94">
+          <status>0</status>
+          <userid>114</userid>
+          <timestart>1471220562</timestart>
+          <timeend>1484180562</timeend>
+          <modifierid>114</modifierid>
+          <timemodified>1471220562</timemodified>
+        </enrolment>
+        <enrolment id="95">
+          <status>0</status>
+          <userid>116</userid>
+          <timestart>1471238147</timestart>
+          <timeend>1484198147</timeend>
+          <modifierid>116</modifierid>
+          <timemodified>1471238147</timemodified>
+        </enrolment>
+        <enrolment id="96">
+          <status>0</status>
+          <userid>71</userid>
+          <timestart>1471261669</timestart>
+          <timeend>1484221669</timeend>
+          <modifierid>71</modifierid>
+          <timemodified>1471261669</timemodified>
+        </enrolment>
+        <enrolment id="97">
+          <status>0</status>
+          <userid>117</userid>
+          <timestart>1471261955</timestart>
+          <timeend>1484221955</timeend>
+          <modifierid>117</modifierid>
+          <timemodified>1471261955</timemodified>
+        </enrolment>
+        <enrolment id="98">
+          <status>0</status>
+          <userid>118</userid>
+          <timestart>1471263625</timestart>
+          <timeend>1484223625</timeend>
+          <modifierid>118</modifierid>
+          <timemodified>1471263625</timemodified>
+        </enrolment>
+        <enrolment id="99">
+          <status>0</status>
+          <userid>120</userid>
+          <timestart>1471263952</timestart>
+          <timeend>1484223952</timeend>
+          <modifierid>120</modifierid>
+          <timemodified>1471263952</timemodified>
+        </enrolment>
+        <enrolment id="102">
+          <status>0</status>
+          <userid>123</userid>
+          <timestart>1471393209</timestart>
+          <timeend>1484353209</timeend>
+          <modifierid>123</modifierid>
+          <timemodified>1471393209</timemodified>
+        </enrolment>
+        <enrolment id="103">
+          <status>0</status>
+          <userid>64</userid>
+          <timestart>1471428679</timestart>
+          <timeend>1484388679</timeend>
+          <modifierid>64</modifierid>
+          <timemodified>1471428679</timemodified>
+        </enrolment>
+        <enrolment id="104">
+          <status>0</status>
+          <userid>124</userid>
+          <timestart>1471453580</timestart>
+          <timeend>1484413580</timeend>
+          <modifierid>124</modifierid>
+          <timemodified>1471453580</timemodified>
+        </enrolment>
+        <enrolment id="105">
+          <status>0</status>
+          <userid>128</userid>
+          <timestart>1471457816</timestart>
+          <timeend>1484417816</timeend>
+          <modifierid>128</modifierid>
+          <timemodified>1471457816</timemodified>
+        </enrolment>
+        <enrolment id="106">
+          <status>0</status>
+          <userid>107</userid>
+          <timestart>1471459009</timestart>
+          <timeend>1484419009</timeend>
+          <modifierid>107</modifierid>
+          <timemodified>1471459009</timemodified>
+        </enrolment>
+        <enrolment id="107">
+          <status>0</status>
+          <userid>132</userid>
+          <timestart>1471517913</timestart>
+          <timeend>1484477913</timeend>
+          <modifierid>132</modifierid>
+          <timemodified>1471517913</timemodified>
+        </enrolment>
+        <enrolment id="108">
+          <status>0</status>
+          <userid>133</userid>
+          <timestart>1471522490</timestart>
+          <timeend>1484482490</timeend>
+          <modifierid>133</modifierid>
+          <timemodified>1471522490</timemodified>
+        </enrolment>
+        <enrolment id="109">
+          <status>0</status>
+          <userid>129</userid>
+          <timestart>1471523100</timestart>
+          <timeend>1484483100</timeend>
+          <modifierid>129</modifierid>
+          <timemodified>1471523100</timemodified>
+        </enrolment>
+        <enrolment id="110">
+          <status>0</status>
+          <userid>73</userid>
+          <timestart>1471523315</timestart>
+          <timeend>1484483315</timeend>
+          <modifierid>73</modifierid>
+          <timemodified>1471523315</timemodified>
+        </enrolment>
+        <enrolment id="111">
+          <status>0</status>
+          <userid>93</userid>
+          <timestart>1471523624</timestart>
+          <timeend>1484483624</timeend>
+          <modifierid>93</modifierid>
+          <timemodified>1471523624</timemodified>
+        </enrolment>
+        <enrolment id="112">
+          <status>0</status>
+          <userid>101</userid>
+          <timestart>1471543992</timestart>
+          <timeend>1484503992</timeend>
+          <modifierid>101</modifierid>
+          <timemodified>1471543992</timemodified>
+        </enrolment>
+        <enrolment id="113">
+          <status>0</status>
+          <userid>112</userid>
+          <timestart>1471653278</timestart>
+          <timeend>1484613278</timeend>
+          <modifierid>112</modifierid>
+          <timemodified>1471653278</timemodified>
+        </enrolment>
+        <enrolment id="114">
+          <status>0</status>
+          <userid>136</userid>
+          <timestart>1471733692</timestart>
+          <timeend>1484693692</timeend>
+          <modifierid>136</modifierid>
+          <timemodified>1471733692</timemodified>
+        </enrolment>
+        <enrolment id="115">
+          <status>0</status>
+          <userid>135</userid>
+          <timestart>1471824725</timestart>
+          <timeend>1484784725</timeend>
+          <modifierid>135</modifierid>
+          <timemodified>1471824725</timemodified>
+        </enrolment>
+        <enrolment id="116">
+          <status>0</status>
+          <userid>104</userid>
+          <timestart>1471831773</timestart>
+          <timeend>1484791773</timeend>
+          <modifierid>104</modifierid>
+          <timemodified>1471831773</timemodified>
+        </enrolment>
+        <enrolment id="119">
+          <status>0</status>
+          <userid>139</userid>
+          <timestart>1471875593</timestart>
+          <timeend>1484835593</timeend>
+          <modifierid>139</modifierid>
+          <timemodified>1471875593</timemodified>
+        </enrolment>
+        <enrolment id="120">
+          <status>0</status>
+          <userid>140</userid>
+          <timestart>1471875981</timestart>
+          <timeend>1484835981</timeend>
+          <modifierid>140</modifierid>
+          <timemodified>1471875981</timemodified>
+        </enrolment>
+        <enrolment id="121">
+          <status>0</status>
+          <userid>79</userid>
+          <timestart>1471876067</timestart>
+          <timeend>1484836067</timeend>
+          <modifierid>79</modifierid>
+          <timemodified>1471876067</timemodified>
+        </enrolment>
+        <enrolment id="123">
+          <status>0</status>
+          <userid>141</userid>
+          <timestart>1471891301</timestart>
+          <timeend>1484851301</timeend>
+          <modifierid>141</modifierid>
+          <timemodified>1471891301</timemodified>
+        </enrolment>
+        <enrolment id="124">
+          <status>0</status>
+          <userid>142</userid>
+          <timestart>1471891714</timestart>
+          <timeend>1484851714</timeend>
+          <modifierid>142</modifierid>
+          <timemodified>1471891714</timemodified>
+        </enrolment>
+        <enrolment id="125">
+          <status>0</status>
+          <userid>143</userid>
+          <timestart>1471891851</timestart>
+          <timeend>1484851851</timeend>
+          <modifierid>143</modifierid>
+          <timemodified>1471891851</timemodified>
+        </enrolment>
+        <enrolment id="126">
+          <status>0</status>
+          <userid>137</userid>
+          <timestart>1471893009</timestart>
+          <timeend>1484853009</timeend>
+          <modifierid>137</modifierid>
+          <timemodified>1471893009</timemodified>
+        </enrolment>
+        <enrolment id="127">
+          <status>0</status>
+          <userid>138</userid>
+          <timestart>1471893031</timestart>
+          <timeend>1484853031</timeend>
+          <modifierid>138</modifierid>
+          <timemodified>1471893031</timemodified>
+        </enrolment>
+        <enrolment id="128">
+          <status>0</status>
+          <userid>134</userid>
+          <timestart>1471893088</timestart>
+          <timeend>1484853088</timeend>
+          <modifierid>134</modifierid>
+          <timemodified>1471893088</timemodified>
+        </enrolment>
+        <enrolment id="129">
+          <status>0</status>
+          <userid>96</userid>
+          <timestart>1471896460</timestart>
+          <timeend>1484856460</timeend>
+          <modifierid>96</modifierid>
+          <timemodified>1471896460</timemodified>
+        </enrolment>
+        <enrolment id="130">
+          <status>0</status>
+          <userid>99</userid>
+          <timestart>1471910450</timestart>
+          <timeend>1484870450</timeend>
+          <modifierid>99</modifierid>
+          <timemodified>1471910450</timemodified>
+        </enrolment>
+        <enrolment id="131">
+          <status>0</status>
+          <userid>126</userid>
+          <timestart>1471922366</timestart>
+          <timeend>1484882366</timeend>
+          <modifierid>126</modifierid>
+          <timemodified>1471922366</timemodified>
+        </enrolment>
+        <enrolment id="132">
+          <status>0</status>
+          <userid>144</userid>
+          <timestart>1471959655</timestart>
+          <timeend>1484919655</timeend>
+          <modifierid>144</modifierid>
+          <timemodified>1471959655</timemodified>
+        </enrolment>
+        <enrolment id="133">
+          <status>0</status>
+          <userid>122</userid>
+          <timestart>1471968028</timestart>
+          <timeend>1484928028</timeend>
+          <modifierid>122</modifierid>
+          <timemodified>1471968028</timemodified>
+        </enrolment>
+        <enrolment id="135">
+          <status>0</status>
+          <userid>111</userid>
+          <timestart>1471989936</timestart>
+          <timeend>1484949936</timeend>
+          <modifierid>111</modifierid>
+          <timemodified>1471989936</timemodified>
+        </enrolment>
+        <enrolment id="136">
+          <status>0</status>
+          <userid>115</userid>
+          <timestart>1472005240</timestart>
+          <timeend>1484965240</timeend>
+          <modifierid>115</modifierid>
+          <timemodified>1472005240</timemodified>
+        </enrolment>
+        <enrolment id="137">
+          <status>0</status>
+          <userid>146</userid>
+          <timestart>1472044965</timestart>
+          <timeend>1485004965</timeend>
+          <modifierid>146</modifierid>
+          <timemodified>1472044965</timemodified>
+        </enrolment>
+        <enrolment id="138">
+          <status>0</status>
+          <userid>130</userid>
+          <timestart>1472064243</timestart>
+          <timeend>1485024243</timeend>
+          <modifierid>130</modifierid>
+          <timemodified>1472064243</timemodified>
+        </enrolment>
+        <enrolment id="140">
+          <status>0</status>
+          <userid>148</userid>
+          <timestart>1472064694</timestart>
+          <timeend>1485024694</timeend>
+          <modifierid>148</modifierid>
+          <timemodified>1472064694</timemodified>
+        </enrolment>
+        <enrolment id="141">
+          <status>0</status>
+          <userid>145</userid>
+          <timestart>1472649046</timestart>
+          <timeend>1485609046</timeend>
+          <modifierid>145</modifierid>
+          <timemodified>1472649046</timemodified>
+        </enrolment>
+        <enrolment id="142">
+          <status>0</status>
+          <userid>70</userid>
+          <timestart>1472649091</timestart>
+          <timeend>1485609091</timeend>
+          <modifierid>70</modifierid>
+          <timemodified>1472649091</timemodified>
+        </enrolment>
+      </user_enrolments>
+    </enrol>
+  </enrols>
+</enrolments>

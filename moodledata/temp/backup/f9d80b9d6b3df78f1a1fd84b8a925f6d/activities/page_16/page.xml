@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="16" modulename="page" contextid="456">
+  <page id="2">
+    <name>Guia prático para resolver problemas de programação</name>
+    <intro>&lt;p&gt;Fonte: &lt;a target="_blank" href="http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/"&gt;http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/&lt;/a&gt;&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;&lt;h3&gt;&lt;strong&gt;Guia prático para resolução de problemas de programação&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;1) Entender o problema&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Esteja certo de que tenha entendido o problema;&lt;/li&gt;
+&lt;li&gt;O que é a entrada?&lt;/li&gt;
+&lt;li&gt;O que é a saída?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2) Resolver o problema à mão&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Resolva pequenas instâncias do problema à mão;&lt;/li&gt;
+&lt;li&gt;O que acontece?&lt;/li&gt;
+&lt;li&gt;Pense em casos variados;&lt;/li&gt;
+&lt;li&gt;Pense em como (qual algoritmo) você utilizou para resolver o problema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;3) Definir o algoritmo&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Defina precisamente o algoritmo a ser utilizado&lt;/li&gt;
+&lt;li&gt;Rascunhe as etapas do programa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;4) Programar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Como escrever o algoritmo na linguagem utilizada?&lt;/li&gt;
+&lt;li&gt;Que estrutura de dado utilizar?&lt;sup&gt;1&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Divida o programa em partes menores (modularizar);&lt;/li&gt;
+&lt;li&gt;Escreva um programa de fácil leitura;&lt;/li&gt;
+&lt;li&gt;Pense nos casos patológicos.&lt;sup&gt;2&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;4) Depurar&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Explique o programa para si mesmo;&lt;/li&gt;
+&lt;li&gt;Por que funciona?&lt;/li&gt;
+&lt;li&gt;A leitura de dados está sendo feita corretamente?&lt;/li&gt;
+&lt;li&gt;Variáveis inicializadas?&lt;/li&gt;
+&lt;li&gt;Verificar casos patológicos;&lt;/li&gt;
+&lt;li&gt;Localizar o erro restringindo os blocos de códigos (cercando o erro)&lt;/li&gt;
+&lt;li&gt;Comandos e &lt;em&gt;loops&lt;/em&gt; aninhados corretamente?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Observações:&lt;/h4&gt;
+&lt;p&gt;1) Que estrutura utilizar?&lt;/p&gt;
+&lt;p&gt;Qual a melhor forma de representar as variáveis do problema. 
+Variáveis simples? Vetores? Matrizes? Registros? Alguns vetores? Vetores
+ de registro? Registros de vetores? São muitas as estruturas 
+utilizáveis. Deve-se escolher uma que seja conveniente e que não venha 
+trazer complicações mais adiante.&lt;/p&gt;
+&lt;p&gt;2) Pense nos casos patológicos&lt;/p&gt;
+&lt;p&gt;Os casos patológicos ocorrem quando a propriedade que seu programa 
+utiliza não vale para alguns valores. Normalmente são o zero, um, 
+valores iniciais ou finais. Por exemplo, em uma função que calcula a 
+potência de um número &lt;span style="text-decoration: underline;"&gt;n&lt;/span&gt; pelo expoente &lt;span style="text-decoration: underline;"&gt;e&lt;/span&gt;. Para isso pode-se multiplicar o número &lt;span style="text-decoration: underline;"&gt;n&lt;/span&gt; &lt;span style="text-decoration: underline;"&gt;e&lt;/span&gt; vezes. Nesse caso pode-se ter problemas quando o valor de &lt;span style="text-decoration: underline;"&gt;e&lt;/span&gt;
+ for zero, caso que deve ser tratado especialmente (considerando a 
+resposta padrão como 1, por exemplo). Para ilustrar melhor, imagine o 
+caso em que deseja-se verificar se um vetor está ordenado em ordem 
+não-decrescente. Para isso basta verificar se v[n]&amp;lt;=v[n+1] para todos
+ os elementos, exceto o último, pois para ele essa propriedade não tem 
+sentido. Os casos patológicos são causa de grande parte dos problemas, 
+especialmente quando se trabalha com ponteiros.&lt;/p&gt;Fonte: &lt;a target="_blank" href="http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/"&gt;http://www.olimpiadascientificas.com/olimpiadas/informatica/obi/&lt;/a&gt;&lt;br&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>1</revision>
+    <timemodified>1468416604</timemodified>
+  </page>
+</activity>

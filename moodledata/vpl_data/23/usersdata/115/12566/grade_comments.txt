@@ -1,0 +1,20 @@
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 6
+>3
+>4
+>2
+>6
+
+ --- Program output ---
+>digite o valor de n:digite o valor de x1:digite o valor de y1:digite o valor de x2:digite o valor de y2:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

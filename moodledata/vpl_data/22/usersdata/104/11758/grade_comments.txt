@@ -1,0 +1,36 @@
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 5
+>3
+>9
+>3
+
+ --- Program output ---
+>Digite o código:F
+
+ --- Expected output (text)---
+> 'V'
+
+-Test 3: Teste 3 (-5.000)
+Incorrect program result
+ --- Input ---
+> 6
+>2
+>6
+>8
+
+ --- Program output ---
+>Digite o código:F
+
+ --- Expected output (text)---
+> 'V'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+

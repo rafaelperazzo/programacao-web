@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="25">
+    <name>Exercício 2 - Fundamentos (O questionário inicia)</name>
+    <description></description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>quiz</modulename>
+    <instance>8</instance>
+    <eventtype>open</eventtype>
+    <timestart>1472065200</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471960760</timemodified>
+  </event>
+  <event id="26">
+    <name>Exercício 2 - Fundamentos (O questionário se encerra)</name>
+    <description></description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>quiz</modulename>
+    <instance>8</instance>
+    <eventtype>close</eventtype>
+    <timestart>1472612340</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471960760</timemodified>
+  </event>
+</events>

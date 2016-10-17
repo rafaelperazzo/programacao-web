@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="35" modulename="choice" contextid="499">
+  <choice id="2">
+    <name>Possui computador e internet disponível ?</name>
+    <intro>&lt;p&gt;Sobre seu acesso a computadores e internet para acompanhamento do curso.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <publish>0</publish>
+    <showresults>2</showresults>
+    <display>0</display>
+    <allowupdate>0</allowupdate>
+    <showunanswered>0</showunanswered>
+    <limitanswers>0</limitanswers>
+    <timeopen>1471230000</timeopen>
+    <timeclose>1472698500</timeclose>
+    <timemodified>1468957521</timemodified>
+    <completionsubmit>0</completionsubmit>
+    <showpreview>0</showpreview>
+    <includeinactive>0</includeinactive>
+    <options>
+      <option id="6">
+        <text>Possui computador e internet em casa</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957521</timemodified>
+      </option>
+      <option id="7">
+        <text>Possuo apenas computador em casa. Uso internet na UFCA</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957521</timemodified>
+      </option>
+      <option id="8">
+        <text>Possuo apenas internet no celular em casa. Uso computador na UFCA</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957521</timemodified>
+      </option>
+      <option id="9">
+        <text>Não possui nem computador nem internet em casa. Dependo da UFCA</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957521</timemodified>
+      </option>
+    </options>
+    <answers>
+      <answer id="2">
+        <userid>108</userid>
+        <optionid>6</optionid>
+        <timemodified>1471288112</timemodified>
+      </answer>
+      <answer id="3">
+        <userid>100</userid>
+        <optionid>6</optionid>
+        <timemodified>1471425193</timemodified>
+      </answer>
+      <answer id="5">
+        <userid>89</userid>
+        <optionid>9</optionid>
+        <timemodified>1471448518</timemodified>
+      </answer>
+      <answer id="6">
+        <userid>118</userid>
+        <optionid>6</optionid>
+        <timemodified>1471474761</timemodified>
+      </answer>
+      <answer id="8">
+        <userid>128</userid>
+        <optionid>6</optionid>
+        <timemodified>1471475739</timemodified>
+      </answer>
+      <answer id="11">
+        <userid>132</userid>
+        <optionid>6</optionid>
+        <timemodified>1471518714</timemodified>
+      </answer>
+      <answer id="14">
+        <userid>129</userid>
+        <optionid>6</optionid>
+        <timemodified>1471523326</timemodified>
+      </answer>
+      <answer id="16">
+        <userid>124</userid>
+        <optionid>6</optionid>
+        <timemodified>1471523489</timemodified>
+      </answer>
+      <answer id="17">
+        <userid>73</userid>
+        <optionid>6</optionid>
+        <timemodified>1471564099</timemodified>
+      </answer>
+      <answer id="18">
+        <userid>109</userid>
+        <optionid>6</optionid>
+        <timemodified>1471647362</timemodified>
+      </answer>
+      <answer id="20">
+        <userid>120</userid>
+        <optionid>6</optionid>
+        <timemodified>1471685847</timemodified>
+      </answer>
+      <answer id="22">
+        <userid>114</userid>
+        <optionid>6</optionid>
+        <timemodified>1471701915</timemodified>
+      </answer>
+      <answer id="24">
+        <userid>98</userid>
+        <optionid>6</optionid>
+        <timemodified>1471711627</timemodified>
+      </answer>
+      <answer id="25">
+        <userid>64</userid>
+        <optionid>6</optionid>
+        <timemodified>1471716783</timemodified>
+      </answer>
+      <answer id="27">
+        <userid>71</userid>
+        <optionid>6</optionid>
+        <timemodified>1471804789</timemodified>
+      </answer>
+      <answer id="29">
+        <userid>135</userid>
+        <optionid>6</optionid>
+        <timemodified>1471824867</timemodified>
+      </answer>
+      <answer id="32">
+        <userid>104</userid>
+        <optionid>6</optionid>
+        <timemodified>1471924021</timemodified>
+      </answer>
+    </answers>
+  </choice>
+</activity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="36" modulename="label" contextid="500">
+  <label id="3">
+    <name>Responda as pesquisas abaixo, caso ainda não tenha...</name>
+    <intro>&lt;p&gt;Responda as pesquisas abaixo, caso ainda não tenha respondido.&lt;/p&gt;
+&lt;p&gt;_________&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1468957640</timemodified>
+  </label>
+</activity>

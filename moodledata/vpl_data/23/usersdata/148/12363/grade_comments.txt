@@ -1,0 +1,20 @@
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 6
+>3
+>4
+>2
+>6
+
+ --- Program output ---
+>Digite a quantidade n de linhas e colunas:Qual a coordenada x1:Qual a coordenada x2:Qual a coordenada y1:Qual a coordenada y2:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,4653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="24" modulename="vpl" contextid="466">
+  <vpl id="1">
+    <name>Exercício 3 - Prático</name>
+    <shortdescription>Introdução</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="text-decoration: underline; font-size: x-large;"&gt;&lt;strong&gt;ENUNCIADO DA QUESTÃO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Escreva um programa em Python que dados P, i e n (nesta ordem), calcule e mostre v (com duas casas decimais) através da fórmula abaixo:&lt;/p&gt;
+&lt;p&gt;$$v = p \times \frac{((1+i)^n)-1}{i}$$&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;A saíde deve mostrar apenas o valor de v com duas casas decimais.&lt;/p&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;p&gt;6.78&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1472644800</startdate>
+    <duedate>1473216900</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>1</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>formula.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/formula.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 500
+0.03
+48
+output = 52204.19</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="962">
+        <vpl>1</vpl>
+        <userid>2</userid>
+        <datesubmitted>1473163705</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473163708</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite p:')
+i = input('Digite i:')
+n = input('Digite n: ')
+
+v =p*((((i+1)**n)-1)/i)
+print('%.2f' % v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1034">
+        <vpl>1</vpl>
+        <userid>61</userid>
+        <datesubmitted>1473190104</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253712</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o valor de p: ')
+i=input('Digite o valor de i: ')
+n=input('Digite o valor de n: ')
+a=((1+i)**n)
+v=(p*((a-1)/i))
+print ('%.2f' %v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="208">
+        <vpl>1</vpl>
+        <userid>62</userid>
+        <datesubmitted>1473096217</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473096218</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+P=input("digite o valor de P")
+i=input("digite o valor de i")
+n=input("digite o valor de n")
+#PROCESSAMENTO
+v=P*(((1+i)**n)-1)/i
+#SAIDA
+print(v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="136">
+        <vpl>1</vpl>
+        <userid>63</userid>
+        <datesubmitted>1473081813</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473081815</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input(' valor de p:')
+i=input('valor de i:')
+n=input('valor de n:')
+
+v=(p*((1+i)**n-1)/i)
+print('resultado de v: %.2f'% v)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="89">
+        <vpl>1</vpl>
+        <userid>64</userid>
+        <datesubmitted>1473039189</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473172021</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+
+p = input('Digite o valor de P: ')
+i = input('Digite o valor de I: ')
+n = input('Digite o valor de N: ')
+
+#PROCESSAMENTO
+
+v = float(p* ((((1 + i)**n) - 1) / i))
+
+#SAÍDA
+
+print('O valor de v é: %.2f' % v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="79">
+        <vpl>1</vpl>
+        <userid>65</userid>
+        <datesubmitted>1473006889</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253980</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+"""
+
+Created on Mon Aug 29 20:05:07 2016
+
+@author: Jonathan Moreira
+"""
+
+from __future__ import division
+#ENTRADA
+
+P=input('Digite o valor de P:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+
+#PROCESSAMENTO
+
+v=(P*(((1.00+i)**n)-1)/float(i))
+
+#SAIDA
+
+print('O valor de v é %.2f' % v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="188">
+        <vpl>1</vpl>
+        <userid>66</userid>
+        <datesubmitted>1473095233</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473095240</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P=input('digite P:')
+i=input('digite i:')
+n=input('digite n:')
+v=(P*(((1+i)**n)-1)/i) 
+print ( "o valor de eh: %.2f" %v)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="974">
+        <vpl>1</vpl>
+        <userid>67</userid>
+        <datesubmitted>1473166733</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473166735</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input("Digite o valor de p:")
+i=input("Digite o valor de i:")
+n=input("Digite o valor de n:")
+v= float (p*(((1+i)**n)-1)/i)
+print("%2.f"%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="130">
+        <vpl>1</vpl>
+        <userid>68</userid>
+        <datesubmitted>1473080994</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473080997</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA:
+P = input ('Digite P:')
+i = input ('Digite i:')
+n = input ('Digite n:')
+
+#PROCESSAMENTO:
+v = P * (((1+i)**n)-1)/i
+
+#SAIDA:
+print ('O valor de v é:%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="156">
+        <vpl>1</vpl>
+        <userid>69</userid>
+        <datesubmitted>1473084402</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473084428</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P=input('Digite o valor de P:') 
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+v=P*((((1+i)**n)-1)/i)
+print('O valor de v é: %.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="996">
+        <vpl>1</vpl>
+        <userid>70</userid>
+        <datesubmitted>1473172185</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1473172187</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#Entrada
+
+P = input('Determine o valr de P: ')
+i = input('Determine o valor de i: ')
+n = input('Determine o valor de n: ')
+
+#Processamento
+
+v = P * (((((1+i)**n)-1))/i)
+
+#Saida 
+
+print('O valor de v é: %.2f' % v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="91">
+        <vpl>1</vpl>
+        <userid>71</userid>
+        <datesubmitted>1473073866</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473073916</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P = input("Insira um valor para P: ")
+i = input("Insira um valor para i: ")
+n = input("Insira um valor para n: ")
+
+v = P*(((1+i)**n-1)/i)
+
+print("%.2f" %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="181">
+        <vpl>1</vpl>
+        <userid>72</userid>
+        <datesubmitted>1473094902</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473094913</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input('digite o valor de p:')
+i=input('digite o valor de i:')
+n=input('digite o valor de n:')
+#PROCESSAMENTO
+v=p*(((1+i)**n)-1)/i
+#SAIDA
+print  ('%.2f' % v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="62">
+        <vpl>1</vpl>
+        <userid>73</userid>
+        <datesubmitted>1472932466</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472932470</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>p = input ('digite o valor de p:')
+i = input ('digite o valor de i:')
+n = input ('digite o valor de n:')
+
+v = p*(((1+i)**n-1)/i)
+
+print ('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="175">
+        <vpl>1</vpl>
+        <userid>74</userid>
+        <datesubmitted>1473094034</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473094037</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p = input('Digite o primeiro valor')
+i = input('Digite o segundo valor')
+n = input('Digite o terceiro valor')
+
+a = ((1+i)**n)-1
+b = a/i
+v = p*b
+
+print('O valor v e: %.2f'% v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="190">
+        <vpl>1</vpl>
+        <userid>75</userid>
+        <datesubmitted>1473095478</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473095481</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+p=input('Digite o valor de p:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:') 
+
+#Processamento  
+v=p*(((1+i)**n)-1)/i
+
+#Saida
+print ('O valor de v é:%.2f'%(v)) </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="948">
+        <vpl>1</vpl>
+        <userid>76</userid>
+        <datesubmitted>1473162915</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473162917</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = float(input('Digite p:'))
+i = float(input('Digite i:'))
+n = float(input('Digite n:'))
+v = p*(((1+i)**n)-1)/i
+print ('%.2f' % v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="937">
+        <vpl>1</vpl>
+        <userid>77</userid>
+        <datesubmitted>1473159681</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473159702</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o valor de p:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+
+v=p*(((1+i)**n)-1)/i
+
+print('O seu valor de v é:%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="141">
+        <vpl>1</vpl>
+        <userid>78</userid>
+        <datesubmitted>1473081989</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473082011</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o valor de p')
+i=input('digite o valor de i')
+n=input('digite o valor de n')
+
+v=p*(((1+i)**n)-1)/i
+
+print('resultado de v:%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="13">
+        <vpl>1</vpl>
+        <userid>79</userid>
+        <datesubmitted>1472692050</datesubmitted>
+        <comments>Exercicio Pratico de programçao</comments>
+        <grader>0</grader>
+        <dategraded>1472823631</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>Exercicio Pratico.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;python: can't open file 'Exercicio': [Errno 2] No such file or directory
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;python: can't open file 'Exercicio': [Errno 2] No such file or directory
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/Exercicio Pratico.py</name>
+            <content># -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 31 10:32:57 2016
+
+@author: arist_000
+"""
+
+i=input('Digite um numero para i: ')
+P=input('Digite um numero para P: ')
+n=input('Digite um numero para n: ')
+
+V= P*(((1+i)**n)/i)
+print "Valor de 'V': " +str(V)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="26">
+        <vpl>1</vpl>
+        <userid>81</userid>
+        <datesubmitted>1472832702</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472833490</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;  File "formula.py", line 4
+&gt;    v=p*((1+i)**n))/i
+&gt;                  ^
+&gt;SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;  File "formula.py", line 4
+&gt;    v=p*((1+i)**n))/i
+&gt;                  ^
+&gt;SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>p=input('Digite o valor de p:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+v=p*((1+i)**n))/i
+print('O valor de v:%.2f'%v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1178">
+        <vpl>1</vpl>
+        <userid>82</userid>
+        <datesubmitted>1473215493</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253607</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P = input ('digite um número:')
+i = input ('digite um número:')
+n = input ('digite um número:')
+V = P*(((1+i)**n)-1)/(i)
+print ('resultado: %.2f' %V)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="110">
+        <vpl>1</vpl>
+        <userid>84</userid>
+        <datesubmitted>1473078472</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473078677</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input('digite p:')
+i=input('digite i:')
+n=input('digite n:')
+
+#processamento
+v=(p*(((1+i)**n)-1)/i)
+
+#saida
+print ('seu valor é%.2f:' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="908">
+        <vpl>1</vpl>
+        <userid>85</userid>
+        <datesubmitted>1473119928</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473119966</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input('Digite um valor para p: ')
+i= input('Digite um valor para i: ')
+n= input('Digite um valor para n: ')
+
+v= (p)*((((1+i)**n)-1)/i)
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="715">
+        <vpl>1</vpl>
+        <userid>86</userid>
+        <datesubmitted>1473102330</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473102372</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P = input('digite um valor para P')
+i = input('digite um valor para i')
+n = input('digite um valor para n')
+
+v = P*(((1+i)**n)-1)/i
+print ('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="907">
+        <vpl>1</vpl>
+        <userid>87</userid>
+        <datesubmitted>1473119619</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473119625</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite p:')
+i=input('Digite i:')
+n=input('Digite n:')
+
+v=p*((1+i)**n-1)/i
+
+print('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="187">
+        <vpl>1</vpl>
+        <userid>89</userid>
+        <datesubmitted>1473095217</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473095222</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+P=input('Digite o valor de P:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+#processamento
+v=P*(((1+i)**n)-1)/i
+#saida
+print(v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1113">
+        <vpl>1</vpl>
+        <userid>90</userid>
+        <datesubmitted>1473207610</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253828</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#Entrada
+p=input('Digite aqui o valor de p:')
+i=input('Digite aqui o valor de i:')
+n=input('Digite aqui o valor de n:')
+
+#Processamento
+v=p*(((1+i)**n)-1)/i
+
+#Saida
+print('O resultado foi:%.2f' %v) </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="57">
+        <vpl>1</vpl>
+        <userid>91</userid>
+        <datesubmitted>1472900657</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472900738</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>p= input('Digite o valor de p:')
+i= input('Digite o valor de i:')
+n= input('Digite o valor de n:')
+
+v= (p*((1+i)**n-1)/i)
+
+print ('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1181">
+        <vpl>1</vpl>
+        <userid>92</userid>
+        <datesubmitted>1473216322</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253852</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input('Digite o valor de p: ')
+i= input('Digite o valor de i: ')
+n= input('Digite o valor de n: ')
+
+v= p*((((1+i)**(n))-1)/i)
+
+print ('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="986">
+        <vpl>1</vpl>
+        <userid>93</userid>
+        <datesubmitted>1473170788</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473170794</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P=float(input('digite P'))
+i=float(input('digite i'))
+n=float(input('digite n'))
+v=P*(((1+i)**n) - 1)/i
+print('%.2f'%v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="165">
+        <vpl>1</vpl>
+        <userid>94</userid>
+        <datesubmitted>1473089890</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473172324</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;digite o valor de p: digite o valor de i: digite o valor de n: v68837.53
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;digite o valor de p: digite o valor de i: digite o valor de n: v68837.53
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o valor de p: ')
+i=input('digite o valor de i: ')
+n=input('digite o valor de n: ')
+
+v=(p*(1+i)**n-1)/i
+
+print('v%.2f'%v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="36">
+        <vpl>1</vpl>
+        <userid>95</userid>
+        <datesubmitted>1472852858</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472852867</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>P = float(input('Digite o valor de P:'))
+i = float(input('Digite o valor de i:'))
+n = float(input('Digite o valor de n:'))
+v = (P*((1+i)**n-1))/i
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1110">
+        <vpl>1</vpl>
+        <userid>96</userid>
+        <datesubmitted>1473207291</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253882</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o valor de p: ')
+i=input('Digite o valor de i: ')
+n=input('Digite o valor de n: ')
+a=((1+i)**n)
+v=(p*((a-1)/i))
+print ('%.2f' %v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="964">
+        <vpl>1</vpl>
+        <userid>97</userid>
+        <datesubmitted>1473164494</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473164496</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite p:')
+i=input('digite i:')
+n=input('digite n:')
+v=p*(((1+i)**n)-1)/i
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="710">
+        <vpl>1</vpl>
+        <userid>98</userid>
+        <datesubmitted>1473101375</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101428</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Informe o valor de p: ')
+i=input('Informe o valor de i: ')
+n=input('Informe o valor de n: ')
+
+v=(p*(((1+i)**n)-1)/i)
+
+print('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="342">
+        <vpl>1</vpl>
+        <userid>99</userid>
+        <datesubmitted>1473097841</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473097844</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+P=input('Digite o valor de P:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+
+#Processamento
+v=P*(((1+i)**n)-1)/i
+
+#Saida
+print (v) </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="60">
+        <vpl>1</vpl>
+        <userid>100</userid>
+        <datesubmitted>1472927617</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472927624</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>from __future__ import division
+p = input ('Digite p:')
+i= input ('Digite i:')
+n = input ('Digite n:')
+v=p*(((1+i)**n-1)/i)
+print ('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="893">
+        <vpl>1</vpl>
+        <userid>101</userid>
+        <datesubmitted>1473115130</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473115133</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>p = input(' digite um valor para p: ')
+i = input(' digite um valor para i: ')
+n = input(' digite um valor para n: ')
+
+v = p*((((1+i)**n)-1)/i)
+
+print('o valor de v eh %.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="147">
+        <vpl>1</vpl>
+        <userid>102</userid>
+        <datesubmitted>1473082501</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473082502</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('valor de p:')
+i=input('valor de i:')
+n=input('valor de n:')
+
+v=(p*((1+i)**n-1)/i)
+print('resultado de v: %.2f'% v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="926">
+        <vpl>1</vpl>
+        <userid>104</userid>
+        <datesubmitted>1473125846</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473125848</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+P=input('Digite o valor de P:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+#PROCESSAMENTO
+V=(P)*(((1+i)**n)-1)/(i)
+#SAÍDA
+print('%.2f'%(V))
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="20">
+        <vpl>1</vpl>
+        <userid>105</userid>
+        <datesubmitted>1472824095</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472824096</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;0.5
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;0.5
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>from __future__ import division
+print (1/2)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="717">
+        <vpl>1</vpl>
+        <userid>106</userid>
+        <datesubmitted>1473103125</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473103127</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+p = input ('Digite um valor para p:')
+i = input ('Digite um valor para i:')
+n = input ('Digite um valor para n:')
+
+#processamento:
+V = p* ((((1+i)**n)-1)/i)
+
+#saída
+print ('%.2f' %V)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="599">
+        <vpl>1</vpl>
+        <userid>107</userid>
+        <datesubmitted>1473100478</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100479</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o valor de p:')
+i=input('digite o valor de i:')
+n=input('digite o valor de n:')
+
+v=(p*(((i+1)**n)-1))/i
+print v</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="76">
+        <vpl>1</vpl>
+        <userid>108</userid>
+        <datesubmitted>1473005835</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1473005838</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>from __future__ import division
+P = input('Digite o valor de P:')
+i = input('Digite o valor de i:')
+n = input('Digite o valor de n:')
+
+v = P*(((1+i)**n-1)/i)
+
+print('O valor de v e %.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1086">
+        <vpl>1</vpl>
+        <userid>109</userid>
+        <datesubmitted>1473205087</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253570</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#Entrada
+P = input('Digite o valor de P:')
+i = input('Digite o valor de i:')
+n = input('Digite o valor de n:')
+
+#Processamento
+v = P*(((1+i)**n)-1)/(i)
+
+#Saída
+print('%.2f'%v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="923">
+        <vpl>1</vpl>
+        <userid>110</userid>
+        <datesubmitted>1473125632</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473125683</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite p: ')
+i=input('Digite i: ')
+n=input('Digite n: ')
+v=p*(((1+i)**n)-1)/i
+print('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="966">
+        <vpl>1</vpl>
+        <userid>111</userid>
+        <datesubmitted>1473164620</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473164643</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite o valor de P: ')
+i=input('Digite o valor de i: ')
+n=input('Digite o valor de n: ')
+v= p * (((1+i)**n) - 1)/(i)
+print ('O valor de v é %.2f ' %v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="527">
+        <vpl>1</vpl>
+        <userid>112</userid>
+        <datesubmitted>1473099688</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100017</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o valor de P')
+i=input('Digite o valor de i')
+n=input('Digite o valor de n')
+V=p*(((1+i)**n)-1)/i
+print('Resultado: %.2f'%V) </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="949">
+        <vpl>1</vpl>
+        <userid>114</userid>
+        <datesubmitted>1473163127</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473171983</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;digite o valor de p: digite o valor de i: digite o valor de n: -14600.54
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;digite o valor de p: digite o valor de i: digite o valor de n: -14600.54
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('digite o valor de p: ')
+i=input('digite o valor de i: ')
+n=input('digite o valor de n: ')
+
+v=p*(((1+i)**n)-1/i)
+
+print ('%.2f' % v) </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1170">
+        <vpl>1</vpl>
+        <userid>115</userid>
+        <datesubmitted>1473214600</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253914</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p= input('Digite um valor para p: ')
+i= input('Digite um valor para i: ')
+n= input('Digite um valor para n: ')
+
+v= (p)*((((1+i)**n)-1)/i)
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="970">
+        <vpl>1</vpl>
+        <userid>116</userid>
+        <datesubmitted>1473166327</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473166373</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input ('insira o valor de p:')
+i = input ('insira o valor de i:')
+n = input ('insira o valor de n:')
+
+v = p*(((1+i)**n)-1)/i
+
+print ('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="897">
+        <vpl>1</vpl>
+        <userid>117</userid>
+        <datesubmitted>1473117001</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473117427</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+P=input('Digite o valor de P:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+#processamento
+v=P*(((1+i)**n)-1)/i
+#saida
+print('v: %.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="904">
+        <vpl>1</vpl>
+        <userid>118</userid>
+        <datesubmitted>1473118776</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473118779</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#1
+p = input('digite o valor de p:')
+i = input('digite o valor de i:')
+n = input('digite o valor de n:')
+
+#2
+v = (((((1+i)**n)-1) / i)*p)
+
+#3
+print('o valor de v é = %.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="171">
+        <vpl>1</vpl>
+        <userid>120</userid>
+        <datesubmitted>1473093197</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473093206</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p=input('insira o valor de p:')
+i=input('insira o valor de i:')
+n=input('insira o valor de n:')
+#PROCESSAMENTO
+v=p*(((1+i)**n)-1)/i
+#SAIDA
+print ('%.2f' % v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="714">
+        <vpl>1</vpl>
+        <userid>123</userid>
+        <datesubmitted>1473101752</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101761</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p= input('Digite um valor para p:')
+i= input('Digite um valor para i:')
+n= input('Digite um valor para n:')
+
+v= p * ((((1+i)**n)-1)/i)
+
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1148">
+        <vpl>1</vpl>
+        <userid>124</userid>
+        <datesubmitted>1473211995</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253946</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input('Insira o valor de p: ')
+i = input('Insira o valor de i: ')
+n = input('Insira o valor de n: ')
+v = p*(((1+i)**n)-1)/i
+print('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="977">
+        <vpl>1</vpl>
+        <userid>125</userid>
+        <datesubmitted>1473166955</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473166999</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('Digite um valor:')
+i=input('Digite um valor:')
+n=input('Digite um valor:')
+
+va=p*((1+i)**n-1)/i
+
+print('%.2f' % va)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="159">
+        <vpl>1</vpl>
+        <userid>128</userid>
+        <datesubmitted>1473085461</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473085466</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o valor de P: ')
+i=input('Digite o valor de i: ')
+n=input('Digite o valor de n: ')
+
+v = p * (( (1+i) ** n ) -1) /i
+
+print ('%.2f' % v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="162">
+        <vpl>1</vpl>
+        <userid>129</userid>
+        <datesubmitted>1473087225</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473087240</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P= input('Digite o valor de P: ')
+i= input('Digite o valor de i: ')
+n= input('Digite o valor de n: ')
+V= (P)*(((1+i)**n)-1)/(i)
+print ('%.2f'%V)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="681">
+        <vpl>1</vpl>
+        <userid>130</userid>
+        <datesubmitted>1473101041</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101043</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P=input('digite o valor de P: ')
+i=input('digite o valor de i: ')
+n=input('digite o valor de n: ')
+v=(P*(((1+i)**n)-1))/i
+print (v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="942">
+        <vpl>1</vpl>
+        <userid>131</userid>
+        <datesubmitted>1473161728</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473161749</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input ('digite o valor de p:  ')
+i=input ('digite o valor de i:  ')
+n=input ('digite o valor de n:  ')
+v=(p)*((((1+i)**n)-1)/i)
+print (' %.2f' % v )
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="56">
+        <vpl>1</vpl>
+        <userid>132</userid>
+        <datesubmitted>1472865320</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1472865324</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>from __future__ import division
+p= input(' digite o valor de p: ')
+i= input(' digite o valor de i: ')
+n= input(' digite o valor de n: ')
+v= p* ((((1+i)**n)-1)/i)
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1083">
+        <vpl>1</vpl>
+        <userid>133</userid>
+        <datesubmitted>1473204594</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253958</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('Digite o valor de p:')
+i=input('Digite o valor de i:')
+n=input('Digite o valor de n:')
+v=(p*(((i+1)**n)-1))/i
+print('%.2f' %v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="84">
+        <vpl>1</vpl>
+        <userid>135</userid>
+        <datesubmitted>1473017525</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473017528</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content>p= input('digite o valor de p:')
+i= input ('digite o valor de i:')
+n= input ('digite o valor de n:')
+
+v= p*((((1+i)**n)-1)/i)
+
+print ('o valor do resultado de v eh %.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="900">
+        <vpl>1</vpl>
+        <userid>136</userid>
+        <datesubmitted>1473117751</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473172250</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;Digite o valor de i:Digite o valor de P:Digite o valor de n:O valor de v para as informações é: 234618412563199302282159602165932649822892031821778231704728557245002582475279343488334745612634417226972682846134130589040640.00
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 500
+&gt;0.03
+&gt;48
+
+ --- Program output ---
+&gt;Digite o valor de i:Digite o valor de P:Digite o valor de n:O valor de v para as informações é: 234618412563199302282159602165932649822892031821778231704728557245002582475279343488334745612634417226972682846134130589040640.00
+
+ --- Expected output (numbers)---
+&gt;52204.19
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+i = input("Digite o valor de i:")
+p = input("Digite o valor de P:")
+n = input("Digite o valor de n:")
+#PROCESSAMENTO
+v = p*((1+i)**n)/i
+#SAIDA
+print("O valor de v para as informações é: %.2f" %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1048">
+        <vpl>1</vpl>
+        <userid>137</userid>
+        <datesubmitted>1473190461</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473254016</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p= input ('Digite o valor de p:')
+i= input ('Digite o valor de i:')
+n= input ('Digite o valor de n:')
+a=((1+i)**n)
+v=(p*((a-1)/i))
+print ('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1130">
+        <vpl>1</vpl>
+        <userid>138</userid>
+        <datesubmitted>1473209294</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473254033</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input('digite o valor de p:')
+i = input('digite o valor de i:')
+n = input('digite o valor de n:')
+a = ((1+i)**n)
+v = (p*((a-1)/i))
+print('%.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1074">
+        <vpl>1</vpl>
+        <userid>139</userid>
+        <datesubmitted>1473202085</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473254051</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o valor de p:')
+i=input('digite o valor de i:')
+n=input('digite o valor de n:')
+va=p*((1+i)**n-1)/i
+print ('%.2f' % va)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1051">
+        <vpl>1</vpl>
+        <userid>140</userid>
+        <datesubmitted>1473190497</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473253623</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+&gt; 500
+&gt;0.03
+&gt;48
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+&gt;  File "formula.py", line 8
+&gt;    v=p*((1+i)n-1)/i
+&gt;              ^
+&gt;SyntaxError: invalid syntax
+
+ --- Saida esperada (numbers)---
+&gt;52204.19
+
+--|&gt;
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 0 testes corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+(***ERRO***)
+Resultado incorreto
+(***ERRO***)
+ --- Entrada ---
+&gt; 500
+&gt;0.03
+&gt;48
+Voce deve corrigir seu codigo!
+
+ --- Saida do programa ---
+&gt;  File "formula.py", line 8
+&gt;    v=p*((1+i)n-1)/i
+&gt;              ^
+&gt;SyntaxError: invalid syntax
+
+ --- Saida esperada (numbers)---
+&gt;52204.19
+
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 0 testes corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p=input('digitar o valoe de p:')
+i=input('digitar o valor de i:')
+n=input('digitar o valor de n:')
+
+v=p*((1+i)n-1)/i
+
+print(v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="935">
+        <vpl>1</vpl>
+        <userid>141</userid>
+        <datesubmitted>1473130592</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473130626</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p=input('digite o valor de p:')
+i=input('digite o valor de i:')
+n=input('digite o valor de n:')
+v=(p)*(((1+i)**n)-1)/(i)
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="868">
+        <vpl>1</vpl>
+        <userid>142</userid>
+        <datesubmitted>1473110922</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473110924</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+P = input('Insira o valor de "P":')
+i = input('Insira o valor de "i":')
+n = input('Insira o valor de "n":')
+
+v = P * ((((1+i)**n)-1)/i)
+
+print v
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="864">
+        <vpl>1</vpl>
+        <userid>143</userid>
+        <datesubmitted>1473107398</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473107401</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+p = input ('Valor de P')
+i = input('Valor de i')
+n = input('Valor de n')
+
+v = p*(((1+i)**n)-1)/(i)
+
+print('%.2f'%v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1117">
+        <vpl>1</vpl>
+        <userid>144</userid>
+        <datesubmitted>1473208174</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473253645</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+P = input('Digite o valor de P: ')
+i = input('Digite o valor de i: ')
+n = input('Digite o valor de n: ')
+
+v = P * ((((1 + i)**n) -1) / i)
+
+print('O valor de v é: %.2f' % (v))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1099">
+        <vpl>1</vpl>
+        <userid>146</userid>
+        <datesubmitted>1473206474</datesubmitted>
+        <comments></comments>
+        <grader>2</grader>
+        <dategraded>1473254071</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+--|&gt;
+
+Nota :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Resumo dos Testes
+&gt;+------------------------------+
+&gt;|  1  teste realizados/ 1  teste corretos |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+p = input ('Digite o valor de P: ')
+i = input ('Digite o valor de i: ')
+n = input ('Digite o valor de n: ')
+
+v = p*(((1+i)**n)-1)/i
+
+print ('O resultado é: %.2f' %v)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="865">
+        <vpl>1</vpl>
+        <userid>148</userid>
+        <datesubmitted>1473107768</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473107801</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>formula.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/formula.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+p = input('Digite um valor para p:')
+i = input('Digite um valor para i:')
+n = input('Digite um valor para n:')
+#PROCESSAMENTO
+v = p*((((1+i)**n)-1)/i)
+#SAIDA
+print ('%.2f' %v)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="3" modulename="url" contextid="36">
+  <url id="1">
+    <name>Caderno de Exercícios</name>
+    <intro>&lt;p&gt;Exercícios sobre matrizes. &lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>http://www.ime.usp.br/~macmulti/exercicios/matrizes/index.html</externalurl>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1466365355</timemodified>
+  </url>
+</activity>

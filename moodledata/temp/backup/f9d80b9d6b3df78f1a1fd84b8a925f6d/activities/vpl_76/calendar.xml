@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="38">
+    <name>Exercício 12</name>
+    <description>Exercício 12</description>
+    <format>2</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>vpl</modulename>
+    <instance>8</instance>
+    <eventtype>duedate</eventtype>
+    <timestart>1474685700</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1474313905</timemodified>
+  </event>
+</events>

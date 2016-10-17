@@ -1,0 +1,5886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="65" modulename="vpl" contextid="1259">
+  <vpl id="3">
+    <name>Exercício 6 - Prático</name>
+    <shortdescription>Exercícios Condicionais</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="text-decoration: underline; font-size: x-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Escreva um programa em Python que encontre e mostre as raízes reais de uma equação do 2o grau da forma $$ax^2+bx+c$$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENTRADA:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;coeficientes a,b,c&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Saída:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Se Delta&amp;gt;=0, mostrar x1 e x2&lt;/p&gt;
+&lt;p&gt;Caso contrário, mostrar a mensagem: "SRR" (sem raízes reais)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplo 1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suponha a=1, b=0 e c=-4&lt;/p&gt;
+&lt;p&gt;A saída deve ser:&lt;/p&gt;
+&lt;p&gt;x1=2.00&lt;/p&gt;
+&lt;p&gt;x2=-2.00&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplo 2:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suponha a=1, b=1 e c=1&lt;/p&gt;
+&lt;p&gt;Saída:&lt;/p&gt;
+&lt;p&gt;SRR&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;O exercício deve ser resolvido &lt;strong&gt;EXATAMENTE&lt;/strong&gt; como pede o enunciado.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1473095400</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>32</maxexetime>
+    <restrictededitor>1</restrictededitor>
+    <example>0</example>
+    <maxexememory>0</maxexememory>
+    <maxexefilesize>0</maxexefilesize>
+    <maxexeprocesses>0</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>ex1.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/ex1.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Test 1
+input = 1
+0
+-4
+output = 'x1=2.00'
+'x2=-2.00'
+case = Test 2
+input = 1
+1
+1
+output = 'SRR'</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="944">
+        <vpl>3</vpl>
+        <userid>2</userid>
+        <datesubmitted>1473162646</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473338849</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta = b**b - 4*a*c
+
+if delta&gt;=0:
+    x1 = (-b+(delta**0.5))/(2*a)
+    x2 = (-b-(delta**0.5))/(2*a)
+    print('x1=%.2f' % x1)
+    print('x2=%.2f' % x2)
+else:
+    print('SRR')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="609">
+        <vpl>3</vpl>
+        <userid>61</userid>
+        <datesubmitted>1473100588</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100600</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite um valor: ')
+b=input('digite um valor: ')
+c=input('digite um valor: ')
+
+if a&gt;b and a&gt;c:
+    print('%.2f' %a)
+if b&gt;a and b&gt;c:
+    print('%.2f' %b)
+if c&gt;a and c&gt;b:
+    print('%.2f' %c)
+    
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite um valor: ')
+x=a**2
+y=a**0.5
+
+if a&gt;=0:
+    print('%.2f' %y)
+else a&lt;0:
+    print('%.2f' %x)
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2029">
+        <vpl>3</vpl>
+        <userid>62</userid>
+        <datesubmitted>1473691431</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473691441</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+#PROCESSAMENTO
+r=(b**2)-(4*a*c)
+#SAIDA
+if r&gt;=0:
+    x1=(-b+(r**0.5))/(2*a)
+    x2=(-b-(r**0.5))/(2*a)
+    print("x1=%.2f"%x1)
+    print("x2=%.2f"%x2)
+else:
+    
+    print("SRR")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2322">
+        <vpl>3</vpl>
+        <userid>63</userid>
+        <datesubmitted>1473777762</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473777802</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta=(b**2)-(4*a*c)
+
+
+
+if delta&gt;=0: 
+    x1=((-b)+((delta)**(1/2.0)))/(2.0*a)
+    x2=((-b)-((delta)**(1/2.0)))/(2.0*a)
+    print('x1 =%.2f:' %x1)
+    print('x2 =%.2f:' %x2)
+    
+elif delta&lt;0:
+    print('SRR')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3064">
+        <vpl>3</vpl>
+        <userid>64</userid>
+        <datesubmitted>1473976955</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473976959</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#ENTRADA
+
+
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+
+#PROCESSAMENTO/SAÍDA
+
+delta = float(b**2) - (4*a*c)
+
+if delta&gt;=0:
+    x1 = (-b + (delta**(1/2.0)))/(2*a)
+    x2 = (-b - (delta**(1/2.0)))/(2*a)
+    
+    print ('x1=%.2f' %(x1))
+    print ('x2=%.2f' %(x2))
+    
+else:
+    print "SRR"</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2609">
+        <vpl>3</vpl>
+        <userid>65</userid>
+        <datesubmitted>1473857211</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473857217</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+#COMECE A PARTIR DAQUI!
+
+delta=((b**2)-4*a*c)
+
+if (delta&gt;=0):
+    x1=(((-b)+(delta**0.5))/(2*a))
+    x2=(((-b)-(delta**0.5))/(2*a))
+    print('x1=%.2f' %x1)
+    print('x2=%.2f' %x2)
+    
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2204">
+        <vpl>3</vpl>
+        <userid>66</userid>
+        <datesubmitted>1473766059</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473766184</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+d=(b**2)-(4*a*c)
+if d&gt;=0:
+    x1=(-b+(d**0.5))/(2*a)
+    x2=(-b-(d**0.5))/(2*a)
+    print("x1=%.2f"%x1)
+    print ("x2= %.2f"%x2)
+else:
+    print("SRR")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2641">
+        <vpl>3</vpl>
+        <userid>67</userid>
+        <datesubmitted>1473859010</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473859024</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+z=(b**2)-(4*a*c)
+
+if z &gt;= 0:
+    
+    y=(((-b)-(z**(1/2.0)))/(2*a)) 
+    x=(-b)+(z**0.5)/(2*a) 
+    print('x1= %.2f' %(x))
+    print('x2= %.2f' %(y))
+ 
+else:
+ print ("SRR")
+ 
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2162">
+        <vpl>3</vpl>
+        <userid>68</userid>
+        <datesubmitted>1473723776</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473723785</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a:')
+b = input('Digite b:')
+c = input('Digite c:')
+
+Delta = (b**2) - (4*a*c)
+if Delta&lt;0:
+    print ('SRR')
+
+else :
+    x1=((-b) + (Delta**0.5))/(2*a)
+    x2= ((-b) - (Delta**0.5))/(2*a)
+    print ('x1=%.2f'%x1)
+    print ('x2=%.2f'%x2)
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="630">
+        <vpl>3</vpl>
+        <userid>69</userid>
+        <datesubmitted>1473100691</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100707</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a=')
+b=input('Digite o valor de b=')
+c=input('Digite o valor de c=')
+if a&gt;b and a&gt;c:
+    print(a)
+elif b&gt;a and b&gt;c:
+    print(b)
+else:
+    print(c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a=')
+if a&lt;0:
+    c=(a**2)
+    print('%.2f'%c)
+else:
+    d=(a**0.5)
+    print('%.2f'%d)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="608">
+        <vpl>3</vpl>
+        <userid>71</userid>
+        <datesubmitted>1473100575</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100766</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input("Insira um Valor de a: ")
+b = input("Insira um Valor de b: ")
+c = input("Insira um Valor de c: ")
+
+if a&gt;b and a&gt;c:
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+elif c&gt;a and c&gt;b:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input("Insira um Valor para a: ")
+
+if a&lt;0:
+    ap = a**2
+    print("%.2f" %ap)
+else:
+    ar = a**0.5
+    print("%.2f" %ar)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2790">
+        <vpl>3</vpl>
+        <userid>72</userid>
+        <datesubmitted>1473868349</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473868368</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#PROCESSAMENTO
+delta=(b**2)-4*a*c
+#SAIDA
+if delta&gt;=0:
+    x1=((-b)+(delta**0.5))/(2*a)
+    x2=((-b)-(delta**0.5))/(2*a)
+    print ('x1=%.2f' %x1)
+    print ('x2=%.2f' %x2)
+else : 
+    print ('SRR')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2564">
+        <vpl>3</vpl>
+        <userid>73</userid>
+        <datesubmitted>1473854200</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473854230</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input ('digite o valor de a:')
+b= input ('digite o valor de b:')
+c= input ('digite o valor de c:')
+d=b**2-(4*a*c)
+if d&gt;=0:
+    x1=(-b+(b*b-(4*a*c))**0.5)/(2*a)
+    print ('x1=%.2f' %x1)
+    x2=(-b-(b*b-(4*a*c))**0.5)/(2*a)
+    print ('x2=%.2f' %x2)
+else:
+    print('SRR')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3228">
+        <vpl>3</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474036622</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474036625</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a:')
+b = input('Digite b:')
+c = input('Digite c:')
+
+delta = (b**2)-4*a*c
+
+if delta&gt;=0 :
+    x1 = (-b+(delta**0.5))/2*a
+    x2 = (-b-(delta**0.5))/2*a
+    print('x1 = %.2f'% x1)
+    print('x2 = %.2f'% x2)
+else :
+    print('SRR')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2670">
+        <vpl>3</vpl>
+        <userid>75</userid>
+        <datesubmitted>1473860280</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473860303</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#Processamento 
+
+delta=((b**2)-(4*a*c))
+if (delta&gt;=0):
+    x1=((-b+((delta)**0.5))/2*a)
+    x2=((-b-((delta)**0.5))/2*a)
+    print ('x1=%.2f'%(x1))
+    print ('x2=%.2f'%(x2))
+else:
+    print ('SRR')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2676">
+        <vpl>3</vpl>
+        <userid>76</userid>
+        <datesubmitted>1473860442</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473860445</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+Delta = (b**2) - (4*a*c)
+
+if Delta &gt;= 0:
+    x1 = ( - b + ((Delta)**0.5))/(2*a)
+    x2 = ( - b - ((Delta)**0.5))/(2*a)
+    
+    print('x1=%.2f' %x1)
+    print('x2=%.2f' %x2)
+
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2361">
+        <vpl>3</vpl>
+        <userid>77</userid>
+        <datesubmitted>1473780634</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473780636</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta=(b**2)-(4*a*c)
+
+if delta&gt;=0:
+    x1=(-b+((delta)**(1/2.0))/(2.0*a))
+    x2=(-b-((delta)**(1/2.0))/(2.0*a))
+    print('x1=%.2f:' %x1)
+    print('x2=%.2f:' %x2)
+
+elif delta&lt;0:
+    print('SRR')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2833">
+        <vpl>3</vpl>
+        <userid>78</userid>
+        <datesubmitted>1473870063</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473870066</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+Delta=(b**2)-(4*a*c)
+
+if Delta&lt;0:
+    print('SRR')
+
+else:
+    x1=((-b)+(Delta**0.5))/(2*a)
+    x2=((-b)-(Delta**0.5))/(2*a)
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1994">
+        <vpl>3</vpl>
+        <userid>79</userid>
+        <datesubmitted>1473688314</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473688353</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: Valor de x1: 2.0
+&gt;Valor de x2: -2.0
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: Valor de x1: 2.0
+&gt;Valor de x2: -2.0
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+delta = float(b**2) - (4*a*c)
+
+if delta &gt;= 0:
+    x1 = ((-b) + (delta**0.5))/(2*a)
+    x2 = ((-b) - (delta**0.5))/(2*a)
+    
+    print('Valor de x1: ') +str(x1)
+    print('Valor de x2: ') +str(x2)
+    
+else: 
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="679">
+        <vpl>3</vpl>
+        <userid>80</userid>
+        <datesubmitted>1473101035</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101036</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+if a&gt;b and a&gt;c:
+    x=a
+    print('o maior valor é: %.1f' %x)
+elif b&gt;a and b&gt;c:
+    y=b
+    print('o maior valor é: %.1f' %y)
+else:
+    z=c
+    print('o maior valor é: %.1f' %z)
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2259">
+        <vpl>3</vpl>
+        <userid>81</userid>
+        <datesubmitted>1473771382</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473771459</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+Delta = (b**2) - (4*a*c)
+if Delta&lt;0:
+    print('SRR')
+    
+else:
+    x1=((-b) + (Delta**0.5))/(2*a)
+    x2=((-b) - (Delta**0.5))/(2*a)
+    print ('x1=%.2f'%x1)
+    print ('x2=%.2f'%x2)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3408">
+        <vpl>3</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474063487</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474063517</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta = (b**2)-(4*a*c)
+
+if delta&gt;=0:
+    x1= (-b+((delta)**0.5))/(2*a)
+    x2= (-b-((delta)**0.5))/(2*a)
+    
+    print ('x1 = %.2f:' %x1)
+    print ('x2 = %.2f:' %x2)
+    
+else:
+    print ('SRR')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="856">
+        <vpl>3</vpl>
+        <userid>83</userid>
+        <datesubmitted>1473107006</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473107026</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input ('Digite o valor de a: ')
+
+if a&lt;0:
+    but=(a)**2
+else:
+    but=(a)**0.5
+
+print ('%.2f' %but)
+
+    
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input ('Digite o primeiro valor: ')
+b = input ('Digite o segundo valor: ')
+c = input ('Digite o terceiro valor: ')
+
+if a&gt;=b and a&gt;=c:
+    print ('%.2f' %a)
+elif b&gt;=a and b&gt;=c:
+    print ('%.2f' %b)
+else:
+    print ('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2640">
+        <vpl>3</vpl>
+        <userid>84</userid>
+        <datesubmitted>1473858934</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858980</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+delta=(b**2)-(4*a*c)
+if(delta&gt;=0):
+    x1=(-b+(delta)**0.5)/2*a
+    x2=(-b-(delta)**0.5)/2*a
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+    
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="683">
+        <vpl>3</vpl>
+        <userid>85</userid>
+        <datesubmitted>1473101054</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101063</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite um valor para a: ')
+b= input('Digite um valor para b: ')
+c= input('Digite um valor para c: ')
+
+if a&gt;b and a&gt;c:
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite um valor para a: ')
+b= input('Digite um valor para b: ')
+c= input('Digite um valor para c: ')
+
+if a&gt;b and a&gt;c:
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite o valor de a: ')
+
+if a&gt;=0:
+    b= (a**0.5)
+    print('%.2f'%b)
+else:
+    b= (a**2)
+    print('%.2f'%b)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="656">
+        <vpl>3</vpl>
+        <userid>86</userid>
+        <datesubmitted>1473100866</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100871</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('digite o valor de a:')
+b = input('digite o valor de b:')
+c = input('digite o valor de c:')
+
+if c&gt;a and c&gt;b:
+   print('%.2f'%c)
+if b&gt;a and b&gt;c:
+    print('%.2f'%b)
+if a&gt;b and a&gt;c:
+    print('%.2f'%a)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4986">
+        <vpl>3</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474418406</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418409</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE A PARTIR DAQUI!
+
+a = input("Digite a:")
+b = input("Digite b:")
+c = input("Digite c:")
+
+Delta = (b**2)-4*a*c
+
+if Delta&gt;=0:
+    x1 = (-b + (Delta)**0.5)/2*a
+    x2 = (-b - (Delta)**0.5)/2*a
+    print("x1=%.2f" %x1)
+    print("x2=%.2f" %x2)
+else:
+    print("SRR")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2173">
+        <vpl>3</vpl>
+        <userid>88</userid>
+        <datesubmitted>1473725533</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473725553</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+Delta= (b**2)-(4*a*c) 
+if Delta&lt;0:
+    print ('SRR')
+else:
+    x1=(-(b)+((Delta)**0.5))/(2*a)
+    x2=(-(b)-((Delta)**0.5))/(2*a)
+    print ('x1=%.2f' %x1)
+    print ('x2=%.2f' %x2)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2611">
+        <vpl>3</vpl>
+        <userid>89</userid>
+        <datesubmitted>1473857294</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473857339</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+d=(-b**2)-(4*a*c)
+if d&gt;=0:
+    x1=-b+(d**0.5)/2*a
+    x2=-b-(d**0.5)/2*a
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2836">
+        <vpl>3</vpl>
+        <userid>90</userid>
+        <datesubmitted>1473870271</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473870295</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+#Processamento
+delta=(b**2)-(4*a*c)
+
+#Saida
+if delta&gt;=0:
+    x1=-b+(delta**0.5)/2*a
+    x2=-b-(delta**0.5)/2*a
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5216">
+        <vpl>3</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474472072</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474472142</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 2.00
+&gt;-2.00
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 2.00
+&gt;-2.00
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta=((b**2)-(4*a*c))
+
+if delta&gt;=0:
+    x1=(-b+(delta**(0.5)))/2*a
+    x2=(-b-(delta**(0.5)))/2*a
+    
+    print('%.2f'%x1)
+    print('%.2f'%x2)
+else:
+    print('SRR')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="854">
+        <vpl>3</vpl>
+        <userid>92</userid>
+        <datesubmitted>1473107001</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473107305</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite um valor: ')
+
+if a&lt;0:
+    a= (a)**(2)
+    print('%.2f'%a)
+
+else:
+    a= (a)**(1/2)
+    print('%.2f'%a)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite um valor: ')
+
+if a&lt;0:
+    a= (a)**(2)
+    print('%.2f'%a)
+
+else:
+    a= (a)**(1/2)
+    print('%.2f'%a)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4380">
+        <vpl>3</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474308221</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308240</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+delta=(b**2) - (4*a*c)
+if delta&gt;=0:
+    raizDelta=(delta)**(0.5)
+    x1=(-b+raizDelta)/2
+    x2=(-b-raizDelta)/2
+    print('x1==%.2f'%x1)
+    print('x2==%.2f'%x2)
+if delta&lt;0:
+    print('SRR')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2174">
+        <vpl>3</vpl>
+        <userid>94</userid>
+        <datesubmitted>1473725982</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473726052</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta=(b**2)-(4*a*c)
+if delta&lt;0:
+    print('srr')
+else:
+    x1=((-b)+(delta**0.5))/(2*a)
+    x2=((-b)+(delta**0.5))/(2*a)
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+    
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2172">
+        <vpl>3</vpl>
+        <userid>95</userid>
+        <datesubmitted>1473725355</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473725360</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+D=(b**2)-(4*a*c)
+if D&gt;=0:
+    x1=((-b)+(D**(1/2)))/2*a
+    x2=((-b)-(D**(1/2)))/2*a
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+else:
+    print('SRR')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5351">
+        <vpl>3</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474558034</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474558090</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite o valor de a:')
+b = input('Digite o valor de b:')
+c = input('Digite o valor de c:')
+
+Delta = (b**2 - (4*a*c))
+if Delta &gt;= 0:
+    x1 = (- b + Delta**(1/2))/(2*a)
+    x2 = (- b - Delta**(1/2))/(2*a)
+    print('x1: %.2f' %x1)
+    print('x2: %.2f' %x2)
+else:
+    print('SRR')
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3334">
+        <vpl>3</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474056397</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474056482</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+d=(b**2)-(4*a*c)
+
+if d&gt;=0:
+    x1=(-b+((d)**0.5))/(2*a)
+    x2=(-b-((d)**0.5))/(2*a)
+    
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="631">
+        <vpl>3</vpl>
+        <userid>98</userid>
+        <datesubmitted>1473100696</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100768</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Insira um valor para a: ')
+b=input('Insira um valor para b: ')
+c=input('Insira um valor para c: ')
+
+if a&gt;b and a&gt;c:
+    print(a)
+    
+elif b&gt;a and b&gt;c:
+    print(b)
+    
+else:
+    print(c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a: ')
+
+if a&lt;0:
+    c=a**2
+    print('%.2f' %c)
+    
+else:
+    d=a**0.5
+    print('%.2f' %d)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3504">
+        <vpl>3</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474080508</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE A PARTIR DAQUI!
+a = input('Digite o valor de a:')
+b = input('Digite o valor de b:')
+c = input('Digite o valor de c:')
+
+delta=((b**2)-(4*a*c))
+
+if (delta&gt;=0):
+    x1=(-b+(delta**1/2))/2*a
+    x2=(-b-(delta**1/2))/2*a
+    print ('x1=%.2f'%x1)
+    print ('x2=%.2f'%x2)
+else:
+    print ('SRR')
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="667">
+        <vpl>3</vpl>
+        <userid>100</userid>
+        <datesubmitted>1473100931</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100937</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input ('digite a:')
+b = input ('dgite b:')
+c = input ('digite c:')
+if a&gt;b and a&gt;c:
+    print ('A é o maior!')
+if b&gt;c:
+    print ('B é o maior!')
+else:
+    print ('C é maior!')</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input ('digite a:')
+b = input ('dgite b:')
+c = input ('digite c:')
+if a&gt;b and a&gt;c:
+    print a
+if b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input ('digite a:')
+b = input ('dgite b:')
+c = input ('digite c:')
+if a&gt;b and a&gt;c:
+    print ('A é o maior!')
+if b&gt;c:
+    print ('B é o maior!')
+else:
+    print ('C é maior!')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1900">
+        <vpl>3</vpl>
+        <userid>101</userid>
+        <datesubmitted>1473609989</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473688034</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+Delta = (b**2) - (4*a*c)
+
+if Delta &gt;= 0:
+    x1 = (- b + ((Delta)**0.5))/(2*a)
+    x2 = (- b - ((Delta)**0.5))/(2*a)
+
+    print (' x1=%.2f' %x1) 
+    print (' x2=%.2f' %x2)
+    
+else:
+    print ( 'SRR' )
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2338">
+        <vpl>3</vpl>
+        <userid>102</userid>
+        <datesubmitted>1473778965</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778968</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta=(b**2)-(4*a*c)
+
+if delta&gt;=0:
+    
+    x1=(-b+((delta)**(1/2))/(2*a))
+    x2=(-b-((delta)**(1/2))/(2*a))
+    print('x1=%.2f:'%x1)
+    print('x2=%.2f:'%x2)
+
+elif delta&lt;0:
+    print('SRR')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="676">
+        <vpl>3</vpl>
+        <userid>103</userid>
+        <datesubmitted>1473101006</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101020</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('digite a:')
+b=input('digite b:')
+c=input('digite c:')
+if a&gt;b and a&gt;c:
+    print('%.2f'%a)
+if b&gt;a and b&gt;c:
+    print('%.2f'%b)
+if c&gt;a and c&gt;b:
+    print('%.2f'%c)
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Seguindo a fórmula AX²+BX+C, insira o valor de A:')
+b=input('Seguindo a fórmula AX²+BX+C, insira o valor de B:')
+c=input('Seguindo a fórmula AX²+BX+C, insira o valor de C:')
+d=(b**2)-(4*a*c)
+if d&gt;0:
+    x1=(-b+(d**0.5))/(2*a)
+    x2=(-b-(d**0.5))/(2*a)
+    print('%.2f %.2f'%(x1,x2))
+if d==0:
+    x=-b/(2*a)
+    print('%.2f'%x)
+if (b**2)-(4*a*c)&lt;0:
+    print('A equação não possui raizes reais')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="636">
+        <vpl>3</vpl>
+        <userid>104</userid>
+        <datesubmitted>1473100727</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100746</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o primeiro número:')
+b=input('Digite o segundo número:')
+c=input('Digite o terceiro número:')
+
+if a&gt;b and a&gt;c:
+    print a
+elif b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a:')
+if a&lt;0:
+    x=(a**2)
+    print('%.2f'%(x))
+else:
+    x=(a**0.5)
+    print('%.2f'%(x))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="705">
+        <vpl>3</vpl>
+        <userid>106</userid>
+        <datesubmitted>1473101262</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101268</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#entrada
+a = input ('Digite um valor para a: ')
+b = input ('Digite um valor para b: ')
+c = input ('Digite um valor para c: ')
+#processamento e saída:
+if a&gt;b and a&gt;c:
+    print ('%.2f' %a)
+if b&gt;c and b&gt;a:
+    print ('%.2f' %b)
+if c&gt;a and c&gt;b:
+    print ('%.2f' %c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#entrada
+a = input ('Digite um valor para a:')
+
+#processamento
+if a&gt;=0:
+    b = a**0.5
+    print ('%.2f' %b)
+if a&lt;0:
+    b = a**2
+    print ('%.2f' %b)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="709">
+        <vpl>3</vpl>
+        <userid>107</userid>
+        <datesubmitted>1473101362</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101369</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content>
+    
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+if a&gt;b and a&gt;c:
+    print (a)
+elif b&gt;a and b&gt;c:
+    print (b)
+else:
+    print (c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2057">
+        <vpl>3</vpl>
+        <userid>108</userid>
+        <datesubmitted>1473696848</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473696851</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta = ((b**2)-(4*a*c))
+
+if (delta&gt;=0):
+    x1 = (-b+(delta**0.5))/(2*a)
+    print ('x1 = %.2f' %x1)
+    
+    x2 = (-b-(delta**0.5))/(2*a)
+    print ('x2 = %.2f' %x2)
+
+else:
+    print ('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="688">
+        <vpl>3</vpl>
+        <userid>109</userid>
+        <datesubmitted>1473101089</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101101</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content>
+    </content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a')
+b=input('Digite o valor de b')
+c=input('Digite o valor de c')
+
+if a&gt;b and a&gt;c:
+    print a
+if b&gt;a and b&gt;c:
+   print b
+if c&gt;b and b&gt;a:
+   print c
+if a==b and b==c:
+   print a 
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content> 
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="698">
+        <vpl>3</vpl>
+        <userid>110</userid>
+        <datesubmitted>1473101149</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101208</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite a: ')
+b=input(' Digite b: ')
+c=input( ' Digite c: ')
+if a&lt;=b and b&lt;=c:
+    print('%.2f'%c)
+elif a&lt;=c and c&lt;=b :
+    print('%.2f'%b)
+else:
+    print('%.2f'%a)
+ 
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite a: ')
+if a&lt;0 :
+    q= a**2
+    print(%.2f % q)
+else:
+    r=a**0.5
+    print(%.2f % r)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="647">
+        <vpl>3</vpl>
+        <userid>111</userid>
+        <datesubmitted>1473100794</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101134</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a: ')
+b=input('Digite o valor de b: ')
+c=input('Digite o valor de c: ')
+
+if a&gt;b and a&gt;c:
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de a: ')
+if a&lt;0:
+b=(a**2)
+    print ('%.2f' %b)
+if a&lt;0:
+    print ('%.2f' %b)
+else 
+    c=(b**0.5)
+    print ('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="682">
+        <vpl>3</vpl>
+        <userid>112</userid>
+        <datesubmitted>1473101051</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101152</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content>
+    # -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite um valor para a:')
+b=input('digite um valor para b:')
+c=input('digite um valor para c:')
+
+if a&gt;b and a&gt;c:
+    print('%.2f' %a)
+if b&gt;a and b&gt;c:
+    print('%.2f' %b)
+if c&gt;b and c&gt;a:
+    print('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3292">
+        <vpl>3</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474051955</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474051968</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+Delta=(b**2)-(4*a*c)
+
+if Delta&gt;=0:
+   x1=(-b+(Delta**0.5))/(2*a)
+   x2=(-b-(Delta**0.5))/(2*a)
+   print ('x1=%.2F' % x1) 
+   print ('x2=%.2f' % x2)
+
+else:
+   print ('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3495">
+        <vpl>3</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474080300</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474080320</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+--|&gt;
+
+&lt;|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 1.00
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;1
+&gt;1
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 1.00
+
+ --- Expected output (text)---
+&gt; 'SRR'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 1.00
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;1
+&gt;1
+
+ --- Program output ---
+&gt;Digite a: Digite b: Digite c: 1.00
+
+ --- Expected output (text)---
+&gt; 'SRR'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+if a&gt;b and a&gt;c:
+    print ('%.2f' %a)
+elif b&gt;a and b&gt;c:
+    print ('%.2f' %b)
+else:
+    print ('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="624">
+        <vpl>3</vpl>
+        <userid>116</userid>
+        <datesubmitted>1473100654</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101109</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('insira o valor de a:')
+
+if a&lt;0:
+    a1=(a**2)
+    print (a1)
+else:
+    a2=(a**(1/2))
+    print ('%.2f' %a2)
+    </content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('insira um valor para a:')
+b = input ('insira um valor para b:')
+c = input ('insira um valor para c:')
+
+if a&gt;=b and a&gt;=c:
+    print (a)
+if b&gt;a and b&gt;c:
+    print (b)
+if c&gt;a and c&gt;=b:
+    print (c)
+    </content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('insira o valor de a:')
+b = input ('insira o valor de b:')
+c = input ('insira o valor de c:')
+
+delta = (b**2)-4*a*c
+
+if delta&lt;0:
+    print ('Não existem raízes reais para a equação')
+else :
+    x1= (-b+(delta**(1/2)))/2*a
+    x2= (-b-(delta**(1/2)))/2*a
+    print (x1)
+    print (x2)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3180">
+        <vpl>3</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474027667</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474027724</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+Delta=(b**2)-(4*a*c)
+
+if Delta&gt;=0:
+    x1=(-b+(Delta**0.5)/(2*a))
+    x2=(-b-(Delta**0.5)/(2*a))
+    print ('x1:%.2f'%x1)
+    print ('x2:%.2f'%x2)
+    
+else:
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="644">
+        <vpl>3</vpl>
+        <userid>118</userid>
+        <datesubmitted>1473100779</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100823</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#1
+a = input('digite o valor de a = ')
+b = input('digite o valor de b = ')
+c = input('digite o valor de c = ')
+
+#2
+if a&gt;b and a&gt;c :
+    print(a)
+elif b&gt;c and b&gt;a :
+    print(b)
+else :
+    print(c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+#1
+a = input('digite o valor de a = ')
+b = input('digite o valor de b = ')
+c = input('digite o valor de c = ')
+
+#2
+if a&gt;b and a&gt;c :
+    print('%.2f' %a)
+elif b&gt;c and b&gt;a :
+    print('%.2f' %b)
+else :
+    print('%.2f' %c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+#1
+a = input('digite o valor de a = ')
+
+#2
+if a&lt;0 :
+    a = a**2
+    print(' %.2f' %a)
+else :
+    a = a**0.5
+    print(' %2f' %a)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2207">
+        <vpl>3</vpl>
+        <userid>120</userid>
+        <datesubmitted>1473766355</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473766367</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de a:')
+b = input('Digite o valor de b:')
+c = input('Digite 0 valor de c:')
+#PROCESSAMENTO
+delta=(b**2)-4*a*c
+#SAIDA
+if delta&gt;=0:
+    
+    x1=((-b)+(delta**0.5))/(2*a)
+    x2=((-b)-(delta**0.5))/(2*a)
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+    
+else:
+    print('SRR')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="692">
+        <vpl>3</vpl>
+        <userid>123</userid>
+        <datesubmitted>1473101104</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101153</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input('Insira um valor para a:')
+b= input('Insira um valor para b:')
+c= input('Insira um valor para c:')
+
+if a&gt;=b and a&gt;=c:
+    print (a)
+
+if b&gt;a and b&gt;c:
+    print (b)
+
+if c&gt;a and c&gt;=b:
+    print (c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="601">
+        <vpl>3</vpl>
+        <userid>124</userid>
+        <datesubmitted>1473100529</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100549</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de a: ')
+b = input('Digite o valor de b: ')
+c = input('Digite o valor de c: ')
+
+if a&gt;b and a&gt;c:
+    print('%.2f' %a)
+if b&gt;a and b&gt;c:
+    print('%.2f' %b)
+if c&gt;a and c&gt;b:
+    print('%.2f' %c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de a: ')
+b = a**2
+c = a**0.5
+
+if a&lt;0:
+    print('%.2f' %b)
+else:
+    print('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3974">
+        <vpl>3</vpl>
+        <userid>125</userid>
+        <datesubmitted>1474295047</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474295081</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+delta=(b**2)-4*a*c
+
+
+
+if delta &gt;=0:
+   x=math.sqrt(delta)
+   x1=(-b+x)/(2*a)
+   x2=(-b-x)/(2*a)
+  
+   print ('x1=%.2f' % x1) 
+   print ('x2=%.2f' % x2)
+
+else:  
+   print 'SRR'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="846">
+        <vpl>3</vpl>
+        <userid>128</userid>
+        <datesubmitted>1473106741</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473106743</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a: ')
+if a&lt;0:
+    a=(a**2)
+    print ('%.2f'% a)
+
+else: 
+    a=(a**0.5)
+    print ('%.2f'% a)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a: ')
+b=input('Digite o valor de b: ')
+c=input('Digite o valor de c: ')
+
+if a&gt;=b and a&gt;=c:
+    print ('%.2f' %a)
+
+elif b&gt;=a and b&gt;=c:
+    print ('%.2f' %b)
+
+else:
+    print ('%.2f' %c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="618">
+        <vpl>3</vpl>
+        <userid>129</userid>
+        <datesubmitted>1473100636</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100678</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input('Digite o valor de a: ')
+b= input('Digite o valor de b: ')
+c= input('Digite o valor de c: ')
+if a&gt;b and a&gt;c :
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input('Digite o valor de a')
+b= input('Digite o valor de b')
+c= input('Digite o valor de c')
+if a&gt;b and a&gt;c :
+    print a
+elif b&gt;a and b&gt;c:
+    print b
+else:
+    print c</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1497">
+        <vpl>3</vpl>
+        <userid>130</userid>
+        <datesubmitted>1473446886</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473797728</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;digite a: digite b: digite c: 2.0
+&gt;-2.0
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+&gt; 1
+&gt;0
+&gt;-4
+
+ --- Program output ---
+&gt;digite a: digite b: digite c: 2.0
+&gt;-2.0
+
+ --- Expected output (text)---
+&gt; 'x1=2.00'
+&gt;'x2=-2.00'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('digite a: ')
+b = input('digite b: ')
+c = input('digite c: ')
+Delta = (b*b)-(4*a*c)
+if Delta&gt;=0:
+    x1= ((-b)+(Delta**0.5))/2*a
+    x2= ((-b)-(Delta**0.5))/2*a
+    print (x1)
+    print (x2)
+else :
+    print('SRR')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3418">
+        <vpl>3</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474064693</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474064705</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('digite b: ')
+c = input('digite c: ')
+#COMECE A PARTIR DAQUI!
+
+Delta = (b**2)-(4*a*c)
+
+if Delta &gt;= 0:
+    x1=(-b)+(Delta**(1/2.0))/(2*a)
+    x2=(-b)-(Delta**(1/2.0))/(2*a)
+    print('as raizes são: ')
+    print('x1 = %.2f ' % x1)
+    print('x2 = %.2f ' % x2)
+    
+else:
+    print("SRR")
+    
+    
+
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="603">
+        <vpl>3</vpl>
+        <userid>132</userid>
+        <datesubmitted>1473100532</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100619</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input(' digite o valor a:')
+b=input(' digite o valor de b: ')
+c=input(' digite o valor de c: ') 
+if a&gt;b and b&gt;c:
+    print(a)
+elif b&gt;a and a&gt;c:
+    print(b)
+else:
+    print(c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input(' digite o valor a')
+if a&lt;0:
+    x=(a**2)
+    print('%.2f'%x)
+else:
+    y=(a**0.5)
+    print('%.2f'%y)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="687">
+        <vpl>3</vpl>
+        <userid>133</userid>
+        <datesubmitted>1473101077</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101102</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('DIgite o valor de c:')
+if a&gt;b and a&gt;c:
+    print ('%f' %a)
+elif b&gt;a and b&gt;c:
+    print ('%f' %b)
+else: 
+     print ('%f' %c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a:')
+b=input('Digite o valor de b:')
+c=input('DIgite o valor de c:')
+if a&gt;b and a&gt;c:
+    print ('%.2f' %a)
+elif b&gt;a and b&gt;c:
+    print ('%.2f' %b)
+else: 
+     print ('%.2f' %c)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('Digite o valor de a: ')
+if a&gt;=0:
+    x1=a**0.5
+    print('%.2f' %x1)
+else:
+    x2=a**2
+    print('%.2f' %x2)
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="852">
+        <vpl>3</vpl>
+        <userid>134</userid>
+        <datesubmitted>1473106891</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473106893</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de a:')
+if a&lt;0:
+   a = a**2
+else:
+   a = a**(1/2)
+print('%.2f'%a)
+    </content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2626">
+        <vpl>3</vpl>
+        <userid>135</userid>
+        <datesubmitted>1473858311</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473873167</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a= input('Digite a: ')
+b= input('Digite b: ')
+c= input('Digite c: ')
+
+Delta=(b**2)-4*a*c
+if Delta&lt;0:
+    print 'SRR'
+    
+if Delta&gt;=0:
+    raiz=float(Delta**(1/2))
+    
+    x1=(-b+raiz)/(2*a)
+    x2=(-b-raiz)/(2*a)
+    print 'x1=%.2f'%x1
+    print 'x2=%.2f'%x2
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2397">
+        <vpl>3</vpl>
+        <userid>136</userid>
+        <datesubmitted>1473790293</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473790295</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+
+Delta = (b**2)-4*a*c
+if Delta&gt;=0:
+    x1 = (-b + (Delta)**0.5)/2*a
+    x2 = (-b - (Delta)**0.5)/2*a
+    print('x1 = %.2f'%x1)
+    print('x2 = %.2f'%x2)
+
+else:
+    print('SRR')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="842">
+        <vpl>3</vpl>
+        <userid>137</userid>
+        <datesubmitted>1473106701</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473106710</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input ('Digite o valor de a:')
+if a&gt;=0:
+    a=a**(1/2)
+else:
+    a=a**2
+print ('%.2f' %a)</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="859">
+        <vpl>3</vpl>
+        <userid>138</userid>
+        <datesubmitted>1473107076</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473107079</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('digite o valor de a:')
+if a&lt;0 : 
+    a = a**2
+else : 
+    a = a**(1/2)
+print('%.2f' %a)
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('digite o valor de a:') 
+b = input('digite o valor de b:')
+c = input('digite o valor de c:')
+if a&gt;=b and a&gt;=c :
+    print('%.2f' %a)
+elif b&gt;=a and b&gt;=c :
+    print('%.2f' %b)
+else : 
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3982">
+        <vpl>3</vpl>
+        <userid>139</userid>
+        <datesubmitted>1474295580</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474295583</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+#COMECE A PARTIR DAQUI!
+delta=b**2-4*a*c
+if delta &gt;=0:
+    x1=(-b+delta**0.5)/(2*a)
+    x2=(-b-delta**0.5)/(2*a)
+    print ('x1=%.2f'% x1)
+    print('x2=%.2f'% x2)
+else:
+    print 'SRR'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="614">
+        <vpl>3</vpl>
+        <userid>141</userid>
+        <datesubmitted>1473100622</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473100624</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a=input('digite o valor de a:')
+b=input('digite o valor de b:')
+c=input('digite o valor de c:')
+if a&gt;b and a&gt;c:
+    print(a)
+elif b&gt;a and b&gt;c:
+    print(b)
+else:
+    print(c)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="700">
+        <vpl>3</vpl>
+        <userid>142</userid>
+        <datesubmitted>1473101170</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473101206</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Test 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite o valor de um número "a":')
+b = input('Digite o valor de um número "b":')
+c = input('Digite o valor de um número "c":')
+
+if a&gt;b and a&gt;c:
+    print ('O maior número é %d' % a)
+elif b&gt;a and b&gt;c:
+    print ('O maior núemro é %d' % b)
+elif c&gt;a and c&gt;b:
+    print ('O maior número é %d' % c)
+elif a==b or a==c or b==c:
+    print ('Digite números diferentes!')</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+#teste 2
+
+from __future__ import division
+a = input('Digite o valor de um número "a":')
+b = input('Digite o valor de um número "b" diferente de "a":')
+c = input('Digite o valor de um número "c" diferente de "a" e "b":')
+
+if a&gt;b and a&gt;c:
+    print ('O maior número é %d' % a)
+elif b&gt;a and b&gt;c:
+    print ('O maior núemro é %d' % b)
+elif c&gt;a and c&gt;b:
+    print ('O maior número é %d' % c)
+elif a==b or a==c or b==c:
+    print ('Digite números diferentes!')</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input('Digite um número "a":')
+
+if a&lt;0:
+    QuadradoDeA = (a**2)
+    print ('o quadrado de "a" é %.2f' % QuadradoDeA)
+else:
+    RaizDeA = a**0.5
+    print ('A raiz de "a" é igual a %.2f' % RaizDeA)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="838">
+        <vpl>3</vpl>
+        <userid>143</userid>
+        <datesubmitted>1473106611</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473106737</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('valor de a')
+
+if a&lt;0:
+    r = a**2
+    
+else:
+    r = a**0.5
+    
+print (r)
+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex2.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('valor de a')
+b = input('valor de b')
+c = input('valor de c')
+
+if a&gt;=b and b&gt;=c:
+    print ('%.2f' %a)
+elif b&gt;=c and b&gt;=a:
+    print ('%.2f' %b)
+else:
+    print ('%.2f' %c)
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3466">
+        <vpl>3</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474071661</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474071664</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a = input('Digite a:')
+b = input('Digite b:')
+c = input('Digite c:')
+#COMECE A PARTIR DAQUI!
+delta=(b**2)-(4*a*c)
+if(delta&gt;=0):
+    x1=(-b+(delta)**0.5)/2*a
+    x2=(-b-(delta)**0.5)/2*a
+    print('x1=%.2f'%x1)
+    print('x2=%.2f'%x2)
+    
+else:
+    print('SRR')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3968">
+        <vpl>3</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474294447</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474294450</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+a = input('Digite a: ')
+b = input('Digite b: ')
+c = input('Digite c: ')
+
+delta = (b**2)-(4*a*c)
+
+if delta&gt;=0:
+    x1=(-b+(delta)**0.5)/(2*a)
+    x2=(-b-(delta)**0.5)/(2*a)
+    print ('x1=%.2f' % x1)
+    print ('x2=%.2f' % x2)
+
+else:
+     print ("SRR")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="843">
+        <vpl>3</vpl>
+        <userid>148</userid>
+        <datesubmitted>1473106703</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473106709</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>ex1.py
+ex2.py
+ex3.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex3.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/ex1.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+a= input('Digite um valor:')
+#PROCESSAMENTO
+if a&lt;0 :
+    a = (a**2)
+    print('%.2f' %a)
+elif a&gt;=0 :
+    a = (a**(1/2))
+    print('%.2f' %a)
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

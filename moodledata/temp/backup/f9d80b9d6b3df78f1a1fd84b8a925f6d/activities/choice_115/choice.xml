@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="115" modulename="choice" contextid="1324">
+  <choice id="3">
+    <name>Prova AV1 - Notebook ou Computador do Laboratório</name>
+    <intro>&lt;p&gt;Informe se você vai utilizar seu notebook ou o computador do laboratório no dia da prova AV1.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <publish>0</publish>
+    <showresults>0</showresults>
+    <display>0</display>
+    <allowupdate>1</allowupdate>
+    <showunanswered>0</showunanswered>
+    <limitanswers>0</limitanswers>
+    <timeopen>1475607600</timeopen>
+    <timeclose>1476644700</timeclose>
+    <timemodified>1475608099</timemodified>
+    <completionsubmit>0</completionsubmit>
+    <showpreview>0</showpreview>
+    <includeinactive>0</includeinactive>
+    <options>
+      <option id="10">
+        <text>Meu notebook próprio</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1475608099</timemodified>
+      </option>
+      <option id="11">
+        <text>Computador do Laboratório</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1475608099</timemodified>
+      </option>
+    </options>
+    <answers>
+      <answer id="33">
+        <userid>63</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104823</timemodified>
+      </answer>
+      <answer id="34">
+        <userid>76</userid>
+        <optionid>10</optionid>
+        <timemodified>1475609889</timemodified>
+      </answer>
+      <answer id="35">
+        <userid>99</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104841</timemodified>
+      </answer>
+      <answer id="36">
+        <userid>65</userid>
+        <optionid>11</optionid>
+        <timemodified>1475610898</timemodified>
+      </answer>
+      <answer id="37">
+        <userid>149</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104867</timemodified>
+      </answer>
+      <answer id="38">
+        <userid>135</userid>
+        <optionid>10</optionid>
+        <timemodified>1476105351</timemodified>
+      </answer>
+      <answer id="39">
+        <userid>95</userid>
+        <optionid>11</optionid>
+        <timemodified>1475612320</timemodified>
+      </answer>
+      <answer id="40">
+        <userid>101</userid>
+        <optionid>11</optionid>
+        <timemodified>1476122512</timemodified>
+      </answer>
+      <answer id="41">
+        <userid>78</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104972</timemodified>
+      </answer>
+      <answer id="42">
+        <userid>66</userid>
+        <optionid>10</optionid>
+        <timemodified>1475626563</timemodified>
+      </answer>
+      <answer id="43">
+        <userid>94</userid>
+        <optionid>10</optionid>
+        <timemodified>1475635238</timemodified>
+      </answer>
+      <answer id="44">
+        <userid>75</userid>
+        <optionid>10</optionid>
+        <timemodified>1475669633</timemodified>
+      </answer>
+      <answer id="45">
+        <userid>146</userid>
+        <optionid>10</optionid>
+        <timemodified>1475672378</timemodified>
+      </answer>
+      <answer id="46">
+        <userid>62</userid>
+        <optionid>10</optionid>
+        <timemodified>1475673221</timemodified>
+      </answer>
+      <answer id="47">
+        <userid>136</userid>
+        <optionid>10</optionid>
+        <timemodified>1476104851</timemodified>
+      </answer>
+      <answer id="48">
+        <userid>87</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105150</timemodified>
+      </answer>
+      <answer id="68">
+        <userid>88</userid>
+        <optionid>10</optionid>
+        <timemodified>1476104857</timemodified>
+      </answer>
+      <answer id="69">
+        <userid>131</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104865</timemodified>
+      </answer>
+      <answer id="70">
+        <userid>84</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104874</timemodified>
+      </answer>
+      <answer id="71">
+        <userid>102</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104879</timemodified>
+      </answer>
+      <answer id="72">
+        <userid>90</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104880</timemodified>
+      </answer>
+      <answer id="73">
+        <userid>117</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104888</timemodified>
+      </answer>
+      <answer id="75">
+        <userid>64</userid>
+        <optionid>10</optionid>
+        <timemodified>1476104899</timemodified>
+      </answer>
+      <answer id="76">
+        <userid>77</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104972</timemodified>
+      </answer>
+      <answer id="78">
+        <userid>91</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105088</timemodified>
+      </answer>
+      <answer id="80">
+        <userid>89</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104932</timemodified>
+      </answer>
+      <answer id="84">
+        <userid>97</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104952</timemodified>
+      </answer>
+      <answer id="85">
+        <userid>67</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104957</timemodified>
+      </answer>
+      <answer id="87">
+        <userid>81</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104969</timemodified>
+      </answer>
+      <answer id="88">
+        <userid>140</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104984</timemodified>
+      </answer>
+      <answer id="89">
+        <userid>122</userid>
+        <optionid>11</optionid>
+        <timemodified>1476104994</timemodified>
+      </answer>
+      <answer id="90">
+        <userid>70</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105030</timemodified>
+      </answer>
+      <answer id="98">
+        <userid>68</userid>
+        <optionid>10</optionid>
+        <timemodified>1476105048</timemodified>
+      </answer>
+      <answer id="99">
+        <userid>72</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105078</timemodified>
+      </answer>
+      <answer id="101">
+        <userid>120</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105085</timemodified>
+      </answer>
+      <answer id="109">
+        <userid>79</userid>
+        <optionid>10</optionid>
+        <timemodified>1476105538</timemodified>
+      </answer>
+      <answer id="110">
+        <userid>139</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105527</timemodified>
+      </answer>
+      <answer id="112">
+        <userid>150</userid>
+        <optionid>11</optionid>
+        <timemodified>1476105854</timemodified>
+      </answer>
+      <answer id="114">
+        <userid>114</userid>
+        <optionid>11</optionid>
+        <timemodified>1476110051</timemodified>
+      </answer>
+      <answer id="115">
+        <userid>144</userid>
+        <optionid>11</optionid>
+        <timemodified>1476111264</timemodified>
+      </answer>
+      <answer id="117">
+        <userid>145</userid>
+        <optionid>11</optionid>
+        <timemodified>1476208092</timemodified>
+      </answer>
+    </answers>
+  </choice>
+</activity>

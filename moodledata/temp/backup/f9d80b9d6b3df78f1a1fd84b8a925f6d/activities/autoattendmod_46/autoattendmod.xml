@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2" moduleid="46" modulename="autoattendmod" contextid="756">
+  <autoattendmod id="2">
+    <name>Frequência</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <namepattern>fullname</namepattern>
+    <emailenable>0</emailenable>
+    <allreports>0</allreports>
+    <emailkey>0</emailkey>
+    <emailuser>0</emailuser>
+    <homeroom>1</homeroom>
+    <feedback>1</feedback>
+    <backupblock>1</backupblock>
+    <dbversion>2</dbversion>
+    <timemodified>1470950248</timemodified>
+  </autoattendmod>
+</activity>

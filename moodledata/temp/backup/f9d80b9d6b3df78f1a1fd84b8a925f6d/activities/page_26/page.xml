@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="5" moduleid="26" modulename="page" contextid="471">
+  <page id="5">
+    <name>Atendimento ao aluno</name>
+    <intro>&lt;p&gt;Informações sobre os horários de atendimento aos alunos.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Atendimento presencial&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Preferencialmente nas &lt;span style="text-decoration: underline; color: #008000;"&gt;terças e quintas&lt;/span&gt;:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #800000;"&gt;&lt;strong&gt;9:00 as 11:30&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #800000;"&gt;&lt;strong&gt;14:00 as 16:30&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Local: &lt;span style="color: #003366;"&gt;Sala 12, Bloco I, piso superior&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Atendimento online&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;&lt;strong&gt;Através do fórum de dúvidas: 24hs&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="color: #000000;"&gt;&lt;strong&gt;Monitoria&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;&lt;strong&gt;Segundas e sextas, das 13 as 14, no laboratório de informática 03, bloco I, piso superior. &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #ffffff;"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;&lt;strong&gt;______&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;&lt;strong&gt;Horário das aulas&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="color: #000000;"&gt;&lt;span style="text-decoration: underline;"&gt;ECI0007:&lt;/span&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;Segundas: 14-16 (turma 1), 16-18 (turma 2) - LABORATÓRIO DE INFORMÁTICA 03&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;Quartas: 14-16 - SALA 20&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;Sextas: 14-16 - SALA 20&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="color: #000000;"&gt;EM0006&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;Segundas: 10-12 -Laboratório de Informática 03&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000;"&gt;Quartas: 10-12 - SALA 33&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>7</revision>
+    <timemodified>1471977450</timemodified>
+  </page>
+</activity>

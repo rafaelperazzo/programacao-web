@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="44">
+    <name>Exercício 16</name>
+    <description>Flipper</description>
+    <format>2</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>vpl</modulename>
+    <instance>13</instance>
+    <eventtype>duedate</eventtype>
+    <timestart>1475463300</timestart>
+    <timeduration>0</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1474973747</timemodified>
+  </event>
+</events>

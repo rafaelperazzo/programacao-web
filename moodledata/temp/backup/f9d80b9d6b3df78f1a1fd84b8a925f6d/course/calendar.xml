@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event id="18">
+    <name>Início da Disciplina</name>
+    <description>&lt;p&gt;Primeiro dia de aula. Apresentação da disciplina. &lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>1</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471453200</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471866348</timemodified>
+  </event>
+  <event id="19">
+    <name>Início da Disciplina</name>
+    <description>&lt;p&gt;Primeiro dia de Aula da Disciplina. Apresentação da disciplina. &lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>2</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471438800</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471866338</timemodified>
+  </event>
+  <event id="20">
+    <name>Aula 2: NÃO HAVERÁ AULA</name>
+    <description>&lt;p&gt;Não haverá aula devido a solicitação da turma. &lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>1</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471626000</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471624630</timemodified>
+  </event>
+  <event id="21">
+    <name>Aula 2</name>
+    <description>&lt;p&gt;Turma 1 - Laboratório&lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>1</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471885200</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471866304</timemodified>
+  </event>
+  <event id="22">
+    <name>Aula 2</name>
+    <description>&lt;p&gt;Turma 2 - Laboratório&lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>1</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471892400</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471866312</timemodified>
+  </event>
+  <event id="23">
+    <name>Aula 2: Introdução</name>
+    <description>&lt;p&gt;Introdução ao conteúdo.&lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>2</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>group</eventtype>
+    <timestart>1471870800</timestart>
+    <timeduration>7200</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1471278054</timemodified>
+  </event>
+  <event id="27">
+    <name>Não haverá aula</name>
+    <description>&lt;p&gt;Pessoal, não haverá aula de programação na semana de 12 a 16 de Setembro de 2016. Uma atividade será disponibilizada na página da disciplina.&lt;/p&gt;</description>
+    <format>1</format>
+    <courseid>2</courseid>
+    <groupid>0</groupid>
+    <userid>2</userid>
+    <repeatid>0</repeatid>
+    <modulename>0</modulename>
+    <instance>0</instance>
+    <eventtype>course</eventtype>
+    <timestart>1473678000</timestart>
+    <timeduration>381600</timeduration>
+    <visible>1</visible>
+    <uuid></uuid>
+    <sequence>1</sequence>
+    <timemodified>1472566338</timemodified>
+  </event>
+</events>

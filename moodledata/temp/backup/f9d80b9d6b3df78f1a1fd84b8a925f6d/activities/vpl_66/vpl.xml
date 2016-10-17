@@ -1,0 +1,5513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="4" moduleid="66" modulename="vpl" contextid="1260">
+  <vpl id="4">
+    <name>Exercício 7 - Prático</name>
+    <shortdescription>Fórmulas</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;&lt;span style="font-size: large;"&gt;ENUNCIADO&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Calcular o valor de k, considerando que $$f,L,Q,\Delta H,\vartheta$$ são dados de entrada e $$g=9.81$$ (gravidade) e $$\varepsilon=0.000002$$.&lt;/p&gt;
+&lt;p&gt;$$D = \sqrt[5]{\dfrac{8fLQ^2}{\pi^2 g \Delta H}}$$&lt;/p&gt;
+&lt;p&gt;$$Rey = \dfrac{4Q}{\pi D \vartheta}$$&lt;/p&gt;
+&lt;p&gt;$$k=\dfrac{0.25}{[log10(\frac{\varepsilon}{3.7D}+\frac{5.74}{Rey^{0.9}})]^2}$$&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;ENTRADA&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: small;"&gt;A entrada $$f,L,Q,\Delta H,\vartheta$$ deve ser solicitada nesta ordem. Lembrando que $$g=9.81$$ e $$\varepsilon=0.000002$$  e $$\pi$$ são constantes e &lt;strong&gt;NÃO&lt;/strong&gt; devem ser pedidos como entradas.O valor de $$\pi$$ deve ser utilizado como: math.pi (escreva assim mesmo, math.pi)&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;SAÍDA&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A saída deve apresentar o valor de D, Rey e k (com 4 casas decimais).&lt;/p&gt;
+&lt;p&gt;Exemplo:&lt;/p&gt;
+&lt;p&gt;Para a entrada:&lt;/p&gt;
+&lt;p&gt;f = 0.2&lt;/p&gt;
+&lt;p&gt;L = 50000&lt;/p&gt;
+&lt;p&gt;Q = 0.65&lt;/p&gt;
+&lt;p&gt;DeltaH = 22&lt;/p&gt;
+&lt;p&gt;v = 0.000001&lt;/p&gt;
+&lt;p&gt;A saída deve mostrar EXATAMENTE a saída abaixo (nesta ordem):&lt;/p&gt;
+&lt;p&gt;D=5.6098&lt;/p&gt;
+&lt;p&gt;Rey=12.8932&lt;/p&gt;
+&lt;p&gt;k=123.9012&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline; font-size: large;"&gt;&lt;strong&gt;DICA:&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O logaritmo na base 10 pode ser calculado com o comando:&lt;/p&gt;
+&lt;p&gt;math.log10(expressao)&lt;/p&gt;
+&lt;p&gt;Ex:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;math.log10(a*b)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;calcula o logaritmo na base 10 da expressão a*b.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1473181200</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>120</maxexetime>
+    <restrictededitor>1</restrictededitor>
+    <example>0</example>
+    <maxexememory>536870912</maxexememory>
+    <maxexefilesize>0</maxexefilesize>
+    <maxexeprocesses>0</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>swamee.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/swamee.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_debug.sh</name>
+        <content></content>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.sh</name>
+        <content>
+</content>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_run.sh</name>
+        <content></content>
+      </execution_file>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 0.2
+50000
+0.65
+22
+0.000001
+output = 'D=1.7382'
+'Rey=476122.1893'
+k='0.0132'</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="1234">
+        <vpl>4</vpl>
+        <userid>2</userid>
+        <datesubmitted>1473353071</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473355304</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input('Digite f: ')
+L = input('Digite L: ')
+Q = input('Digite Q: ')
+deltaH = input('Digite Delta H: ')
+v = input('Digite v:')
+
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*Q*Q)/(math.pi*math.pi*g*deltaH))**(0.2)
+Rey = (4*Q)/(math.pi*D*v)
+
+formula1 = e/(3.7*D)
+formula2 = 5.74/(Rey**0.9)
+formula3 = math.log10(formula1+formula2)
+
+f = 0.25/(formula3**2)
+
+print('D=%.4f' % D)
+print('Rey=%.4f' % Rey)
+print('k=%.4f' % f)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7122">
+        <vpl>4</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474916470</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474916473</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;  File "swamee.py", line 13
+&gt;    print('D:%.4f' %D)
+&gt;        ^
+&gt;SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;  File "swamee.py", line 13
+&gt;    print('D:%.4f' %D)
+&gt;        ^
+&gt;SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+dH=input('Digite o valor de dH:')
+v=input('Digite o valor de v:')
+D=((8*f*L*(Q**2))/(((math.pi)**2)*9.81*dH))**0.2
+Rey= (4*Q)/((math.pi)*D*v)
+k=(0.25)/(math.log10(((0.000002)/(3.7*D))+((5.74)/(Rey**0.9)))**2
+print('D:%.4f' %D)
+print('Rey:%.4f' %Rey)
+print('k:%.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2902">
+        <vpl>4</vpl>
+        <userid>62</userid>
+        <datesubmitted>1473877128</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473877149</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+#ENTRADA
+
+f=input("valor de f: ")
+L=input("valor de L: ")
+Q=input("valor de Q: ")
+DeltaH=input("valor de DeltaH: ")
+v=input("valor de v: ")
+
+#PROCESSAMENTO
+g=9.81
+e=0.000002
+D=(8*f*L*(Q**2)/((math.pi**2)*g*DeltaH))**0.2
+Rey=4*Q/(math.pi*D*v)
+k=0.25/(math.log10(e/(3.7*D)+(5.74/Rey**0.9)))**2
+
+#SAIDA
+
+print("D=%.4f"%D)
+print('rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1256">
+        <vpl>4</vpl>
+        <userid>63</userid>
+        <datesubmitted>1473358839</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473358841</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor de f:')
+l=input('Digite o valor de l:')
+q=input('Digite o valor de q:')
+deltah=input('Digite o valor de deltah:')
+v=input('Digite o valor de v:')
+
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+rey=(4*q)/(math.pi*d*v)
+k=(0.25)/(math.log10((0.000002/(3.7*d))+(5.74/(rey**0.9)))**2)
+
+print('D=%.4f'%d)
+print('Rey=%.4f' % rey)
+print('K=%.4f'%k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3259">
+        <vpl>4</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474047836</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474047838</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+
+f = input('Digite o valor de f: ')
+L = input('Digite o valor de L: ')
+Q = input('Digite o valor de Q: ')
+DH = input('Digite o valor de DeltaH: ')
+V = input('Digite o valor de V: ')
+g = 9.81
+E = 0.000002
+
+#PROCESSAMENTO
+
+D = ((8*f*L*(Q**2.0))/((math.pi**2.0)*g*DH))**(1/5.0)
+Rey = (4*Q)/((math.pi)*D*V)
+k = 0.25 / ((math.log10((E/(3.7*D))+(5.74/Rey**(0.9))))**2)
+
+
+#SAÍDA
+
+print('D=%.4f' %(D))
+print('Rey=%.4f' %(Rey))
+print('k=%.4f' %(k))
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1838">
+        <vpl>4</vpl>
+        <userid>65</userid>
+        <datesubmitted>1473532715</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473532718</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+#ENTRADA
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de DeltaH:')
+v=input('Digite o valor de v:')
+
+#PROCESSAMENTO
+g=(9.81)
+e=(0.000002)
+
+D=(((8.0*f*L*((Q)**2.0))/float(((math.pi)**2.0)*g*DeltaH))**(0.2))
+
+Rey=((4.0*Q)/float((math.pi)*D*v))
+
+k=((0.25)/float((math.log10((e/float(3.7*D))+(5.74/float(Rey**0.9))))**2))
+
+#SAIDA
+print('D=%.4f' %D)
+print('Rey=%.4f' %Rey)
+print('k=%.4f' %k)
+
+
+
+
+
+
+
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2863">
+        <vpl>4</vpl>
+        <userid>66</userid>
+        <datesubmitted>1473872365</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473872381</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input("digite f:")
+L=input("digite o valor de L:")
+Q=input("digite o valor de Q:")
+DeltaH=input("digite o valor de DELTAH:")
+v=input("digite o valor de v:")
+D=((8*f*L*(Q**2))/((math.pi**2)*9.81*DeltaH))**0.2
+Rey=(4*Q)/(math.pi*D*v)
+x=0.000002/(3.7*D)
+y=5.74/(Rey)**0.9
+k=0.25/(math.log10(x+y))**2
+print("D=%.4f" %D)
+print("Rey=%.4f" %Rey)
+print("k=%.4f" %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3275">
+        <vpl>4</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474050262</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474050264</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input("Digite o valor de f:")
+L=input("Digite o valor de L:")
+Q=input("Digite o valor de Q:")
+DH=input("Digite o valor de DH:")
+v=input("Digite o valor de v:")
+g=9.81
+e=0.000002
+D1=(8*f*L*(Q**2))
+D2=(math.pi**2)*g*DH
+D=(D1/D2)**0.2
+Rey=((4*Q)/((math.pi)*D*v))
+k1=e/(3.7*D)
+k2=5.74/(Rey)**0.9
+k=(0.25)/(math.log10((k1)+(k2)))**2
+print("D= %.4f" %(D))
+print("Rey= %.4f" %(Rey))
+print("k= %.4f" %(k))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2006">
+        <vpl>4</vpl>
+        <userid>68</userid>
+        <datesubmitted>1473689970</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473689973</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA:
+f = input('Digite o valor de f:')
+L = input ('DIgite o valor de L:')
+Q = input ('Digite o valor de Q:')
+DeltaH = input ('Digite o valor de DeltaH:')
+O = input ('Digite o valor de O:')
+g = 9.81
+e = 0.000002
+
+#PROCESSAMENTO:
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**0.2
+Rey = (4*Q)/(math.pi*D*O)
+k = 0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+#SAIDA:
+print ('D=%.4f'%D)
+print ('Rey=%.4f'%Rey)
+print ('k=%.4f'%k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1500">
+        <vpl>4</vpl>
+        <userid>69</userid>
+        <datesubmitted>1473447543</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1473447545</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+f=input('informe o valor de f:')
+L=input('informe o valor de L:')
+Q=input('informe o valor de Q:')
+DeltaH=input('informe o valor de DeltaH:')
+v=input('informe o valor de v:')
+D=((8*f*L*Q*Q)/(math.pi*math.pi*9.81*DeltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=0.25/(math.log10((0.000002/(3.7*D))+(5.74/Rey**0.9)))**2
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3355">
+        <vpl>4</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474060327</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474060374</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Insira f: Insira L: Insira Q: Insira dH: Insira v: D=3.1736
+&gt;Rey= 260776.3563
+&gt;k=0.0148
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Insira f: Insira L: Insira Q: Insira dH: Insira v: D=3.1736
+&gt;Rey= 260776.3563
+&gt;k=0.0148
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f = input("Insira f: ")
+L = input("Insira L: ")
+Q = input("Insira Q: ")
+dH = input("Insira dH: ")
+v = input("Insira v: ")
+
+pi = math.pi
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*Q*Q)/(math.pi*math.pi*g*dH))*(0.2)
+
+Rey = (4*Q)/(math.pi*D*v)
+
+k = 0.25/(math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2
+
+print("D=%.4f" %D)
+print("Rey= %.4f" %Rey)
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2760">
+        <vpl>4</vpl>
+        <userid>72</userid>
+        <datesubmitted>1473867149</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473867214</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+f=input ('digite o valor de f:')
+l=input ('digite o valor de l:')
+q=input ('digite o valor de q:')
+deltah=input ('digite o valor de deltah:')
+v=input ('digite o valor de v:')
+
+#PROCESSAMENTO
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+rey=(4*q)/(math.pi*d*v)
+k=(0.25)/(math.log10((0.000002/(3.7*d)) + (5.74/(rey**0.9)))**2)
+
+#SAIDA
+print ('d=%.4f' %d)
+print ('rey=%.4f' %rey)
+print ('k=%.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2586">
+        <vpl>4</vpl>
+        <userid>73</userid>
+        <datesubmitted>1473855390</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473855395</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+f = input ('digite f:')
+L = input ('digite l:')
+Q = input ('digite q:')
+dH = input ('digite dH:')
+v = input ('digite v:')
+g = 9.81
+e = 0.000002
+d =(((8*f*L*(Q**2)))/((math.pi**2)*g*dH))**(0.2)
+rey = ((4*Q)/(math.pi*d*v))
+k = 0.25 /(math.log10((e/(3.7*d)+(5.74/(rey**0.9)))))**2
+print 'D= %.4f'%d
+print ' Rey = %.4f'%rey
+print 'k= %.4f'%k</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5648">
+        <vpl>4</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474663746</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474663748</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input('')
+l = input('')
+q = input('')
+dH = input('')
+v = input('')
+
+d = (8*f*l*q*q)**0.2/(math.pi*math.pi*9.81*dH)**0.2
+rey = (4*q)/(math.pi*d*v)
+
+a = 0.000002/(3.7*d)
+b = 5.74/(rey**0.9)
+
+k = 0.25/math.log10(a+b)**2
+
+print('D=%.4f'% d)
+print('Rey=%.4f'% rey)
+print('k=%.4f'% k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2887">
+        <vpl>4</vpl>
+        <userid>75</userid>
+        <datesubmitted>1473875518</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473875521</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+deltaH=input('Digite o valor de deltaH:')
+V=input('Digite o valor de V:')
+g=9.81
+e=0.000002
+
+D=(8*f*L*(Q**2)/((math.pi**2)*g*deltaH))**0.2
+Rey=(4*Q)/(math.pi*D*V)
+k=0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+print ('D=%.4f'%D)
+print ('Rey=%.4f'%Rey)
+print ('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3189">
+        <vpl>4</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474030126</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474030128</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f = 0.2
+L = 50000
+Q = 0.65
+DeltaH = 22
+v = 0.000001
+g = 9.81
+e = 0.000002
+
+D1 = (8*f*L*(Q**2))
+D2 = (math.pi**2)*g*DeltaH
+
+D = (D1/D2)**0.2
+Rey = ((4*Q)/((math.pi)*D*v))
+
+k1 = e/(3.7*D)
+k2 = 5.74/(Rey)**0.9
+
+k = (0.25)/(math.log10((k1)+(k2)))**2
+
+print('D = %.4f' %D)
+print('Rey = %.4f' %Rey)
+print('k = %.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1243">
+        <vpl>4</vpl>
+        <userid>77</userid>
+        <datesubmitted>1473355457</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473355459</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor de f:')
+l=input('Digite o valor de l:')
+q=input('Digite o valor de q:')
+deltah=input('Digite o valor de deltah:')
+v=input('Digite o valor de v:')
+
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+
+rey=(4*q)/(math.pi*d*v)
+
+k=(0.25)/(math.log10((0.000002/(3.7*d)) + (5.74/(rey**0.9)))**2)
+
+print('D=%.4f'%d)
+print('Rey=%.4f' % rey)
+print('k=%.4f'%k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2735">
+        <vpl>4</vpl>
+        <userid>78</userid>
+        <datesubmitted>1473866024</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473866032</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+DeltaH=input('digite o valor de DeltaH:')
+v=input('digite o valor de v:')
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**0.2
+Rey=(4*Q)/(math.pi*D*v)
+K=0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+print ('D=%.4f'%D)
+print ('Rey=%.4f'%Rey)
+print ('K=%.4f'%K)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3501">
+        <vpl>4</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474080426</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474080470</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Digite o valor de f: Digite o valor de L: Digite o valor de q: Digite o valor de DeltaH: Digite o valor de V: 33800.0
+&gt;2130.05802184
+&gt;D = 1.73822124362
+&gt;Rey = 476122.189344
+&gt;K = 0.0132606798572
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Digite o valor de f: Digite o valor de L: Digite o valor de q: Digite o valor de DeltaH: Digite o valor de V: 33800.0
+&gt;2130.05802184
+&gt;D = 1.73822124362
+&gt;Rey = 476122.189344
+&gt;K = 0.0132606798572
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada
+
+f = float(input('Digite o valor de f: '))
+L= int(input('Digite o valor de L: '))
+Q = float(input('Digite o valor de q: '))
+DeltaH = int(input('Digite o valor de DeltaH: '))
+v = float(input('Digite o valor de V: '))
+
+#Processamento
+Dp1 = 8.0000 * f * L * (Q**2)
+print(Dp1)
+Dp2 = (math.pi**2) * (9.81) * (DeltaH)
+print(Dp2)
+D = (Dp1/Dp2)**(0.2)
+
+Rey = (4*Q)/(math.pi*D*v)
+
+K = (0.25)/(math.log10((0.000002/3.7*D) + (5.74/Rey**0.9)))**2
+
+#Saida
+
+print('D = ') +str(D)
+
+print('Rey = ') +str(Rey)
+
+print('K = ') +str(K)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1225">
+        <vpl>4</vpl>
+        <userid>80</userid>
+        <datesubmitted>1473342230</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572551</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+dH=input('digite o valor de dH:')
+v=input('digite o valor de v:')
+
+pi=3.14159265359
+D=(((8*f*L*(Q**2))/((pi**2)*9.81*dH))**0.2)
+Rey=(4*Q)/(pi*D*v)
+k=(0.25)/(math.log10(((0.000002)/(3.7*D))+((5.74)/(Rey**0.9)))**2)
+
+print('D: %.4f' %D)
+print('Rey: %.4f' %Rey)
+print('k: %.4f' %k)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2281">
+        <vpl>4</vpl>
+        <userid>81</userid>
+        <datesubmitted>1473772720</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473772823</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+ 
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de DeltaH:')
+v=input('Digite o valor de v:')
+g=9.81
+e=0.000002
+ 
+D=((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=(0.25)/(math.log10(((e/(3.7*D))+(5.74/(Rey**0.9)))))**2
+ 
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3286">
+        <vpl>4</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474051290</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474051515</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input ('digite o valor de f:')
+l = input ('digite o valor de l:')
+q = input ('digite o valor de q:')
+deltah = input ('digite o valor de deltah:')
+v = input ('digite o valor de v:')
+
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+rey=(4*q)/(math.pi*d*v)
+k=(0.25)/((math.log10)((0.000002/(3.7*d))+(5.74/(rey**0.9)))**2)
+
+print('D= %.4f' %d)
+print('Rey= %.4f' %rey)
+print('K= %.4f' %k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2878">
+        <vpl>4</vpl>
+        <userid>84</userid>
+        <datesubmitted>1473874351</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473874358</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+
+from __future__ import division
+import math
+ 
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+deltaH=input('digite o valor de deltaH:')
+V=input('digite o valor de V:') 
+g=9.81
+e=0.000002
+
+D=(8*f*L*(Q**2)/((math.pi**2)*g*deltaH))**0.2
+Rey=(4*Q)/(math.pi*D*V)
+k=0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2622">
+        <vpl>4</vpl>
+        <userid>85</userid>
+        <datesubmitted>1473857800</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473857802</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f= input('Digite o valor de f: ')
+l= input('Digite o valor de L: ')
+q= input('Digite o valor de Q: ')
+dh= input('Digite o valor de DH: ')
+v= input('Digite o valor de v: ')
+
+g= 9.81
+e= 0.000002
+
+d= (((8*f*l*(q**2))/(((math.pi)**2)*g*dh))**0.2)
+rey= (4*q)/(math.pi*d*v)
+k= 0.25/((math.log10((e/(3.7*d))+(5.74/(rey**0.9))))**2)
+
+print('d=%.4f'%d)
+print('rey=%.4f'%rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3250">
+        <vpl>4</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474047029</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474047113</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+f = input('digite um valor para f:')
+L = input('digite um valor para L:')
+Q = input('digite um valor para Q:')
+dH = input('digite um valor para dH:')
+v = input('digite um valor para v:')
+#processamento
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*dH))**0.2
+Rey = (4*Q)/(math.pi*D*v)
+k = (0.25/((math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2))
+#saida
+print('D=%.4f' %D)
+print('Rey=%.4f' %Rey)
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3515">
+        <vpl>4</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474122751</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474122754</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input("Digite o valor de f:")
+L = input("Digte o valor de L:")
+Q = input("Digite o valor de Q:")
+DeltaH = input("Digite o valor de DeltaH:")
+v = input("Digite o valor de v:")
+
+D = ((8*f*L*Q**2)/(((math.pi)**2)*9.81*DeltaH))**0.2
+Rey = (4*Q)/((math.pi)*D*v)
+k = (0.25)/(math.log10(((0.000002)/(3.7*D)) + ((5.74)/(Rey**0.9))))**2
+
+print("D = %.4f" %D)
+print("Rey = %.4f" %Rey)
+print("k = %.4f" %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2168">
+        <vpl>4</vpl>
+        <userid>88</userid>
+        <datesubmitted>1473724839</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473724843</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input ('digite o valor de f: ')
+L=input ('digite o valor de L: ')
+Q=input ('digite o valor de Q: ')
+deltaH=input ('digite o valor de deltaH: ')
+v=input ('digite o valor de v: ')
+g=9.81
+e=0.000002
+D=(((8*f*L)*(Q**2))/((math.pi**2)*g*deltaH))**0.2
+Rey=(4*Q)/((math.pi)*D*v)
+k=(0.25)/(math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2
+print ('D=%.4f' %D)
+print ('Rey=%.4f' %Rey)
+print ('k=%.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2871">
+        <vpl>4</vpl>
+        <userid>89</userid>
+        <datesubmitted>1473873697</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473873772</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#entrada
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+deltaH=input('Digite o valor de deltaH:')
+v=input('Digite o valor de v:')
+#processamento
+g=(9.81)
+e=(0.000002)
+D=((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**0.2
+Rey=((4*Q)/(math.pi*D*v))
+k=0.25/(math.log10((e/(3.7*D))+(5.74/(Rey**(0.9)))))**2
+#saida
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2890">
+        <vpl>4</vpl>
+        <userid>90</userid>
+        <datesubmitted>1473875718</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473875722</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+deltaH=input('digite o valor de deltaH:')
+V=input('digite o valor de V:')
+g=9.81
+e=0.000002
+
+D=(8*f*L*(Q**2)/((math.pi**2)*g*deltaH))**0.2
+Rey=(4*Q)/(math.pi*D*V)
+k=0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2188">
+        <vpl>4</vpl>
+        <userid>91</userid>
+        <datesubmitted>1473731795</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473731800</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de DeltaH:')
+v=input('Digite o valor de v:')
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=(0.25)/((math.log10(((e/(3.7*D))+(5.74/(Rey**0.9)))))**2)
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5056">
+        <vpl>4</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474424637</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474424650</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f= input( )
+L= input( )
+Q= input( )
+DeltaH= input( )
+v= input ( )
+g=9.81
+e= 0.000002
+
+D= (((8)*(f)*(L)*((Q)**(2)))/(((math.pi)**(2))*(g)*(DeltaH)))**(1/5)
+
+Rey= ((4)*(Q))/((math.pi)*(D)*(v))
+
+k= (0.25)/((math.log10(((e)/((3.7)*(D)))+((5.74)/((Rey)**(0.9)))))**(2)) 
+
+print ('D=%.4f' %D)
+print ('Rey=%.4f' %Rey)
+print ('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4436">
+        <vpl>4</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474309835</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474309837</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+F=input('F')
+L=input('L')
+Q=input('Q')
+DeltaH=input('DeltaH')
+V=input('V')
+d=((8*F*L*Q**2)/((math.pi**2)*9.81*DeltaH))**0.2
+rey=4*Q/(math.pi*d*V)
+k=0.25/(math.log10((0.000002/(3.7*d)) + (5.74/rey**0.9))**2)
+print("'D=%.4f'"%d)
+print("'Rey=%.4f'"%rey)
+print("'k=%.4f'"%k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2176">
+        <vpl>4</vpl>
+        <userid>94</userid>
+        <datesubmitted>1473727144</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473727174</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+deltaH=input('digite o valor de deltaH:')
+v=input('digite o valor de v:')
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**(0.2)
+Rey=(4*Q)/(math.pi*D*v)
+k=(0.25)/((math.log10(((e/(3.7*D))+(5.74/(Rey**0.9)))))**2)
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k-%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2031">
+        <vpl>4</vpl>
+        <userid>95</userid>
+        <datesubmitted>1473691505</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473691509</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de DeltaH:')
+v=input('Digite o valor de v:')
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=(0.25)/((math.log10(((e/(3.7*D))+(5.74/(Rey**0.9)))))**2)
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5568">
+        <vpl>4</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474633824</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474633826</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input('Digite o valor de f:')
+L = input('Digite o valor de L:')
+Q = input('Digite o valor de Q:')
+dH = input('Digite o valor de dH')
+v = input('Digite o valor de v:')
+
+D = (((8 * f * L * (Q**2))/(((math.pi) ** 2) * 9.81 * dH)) ** 0.2)
+Rey = (4 * Q)/((math.pi) * D * v)
+k = (0.25)/(math.log10(((0.000002)/(3.7 * D)) + ((5.74)/(Rey **0.9))) ** 2)
+
+print('D: %.4f' %D)
+print('Rey: %.4f' %Rey)
+print('k: %.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3350">
+        <vpl>4</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474059774</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474059825</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+deltaH=input('Digite o valor de deltaH:')
+v=input('Digite o valor de v:')
+
+D=((8*f*L*(Q**2))/((math.pi**2)*9.81*deltaH))**0.2
+Rey=((4*Q)/(math.pi*D*v))
+k=(0.25)/(math.log10(((0.000002)/(3.7*D))+((5.74)/(Rey**0.9))))**2
+
+print('D=:%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)
+
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2558">
+        <vpl>4</vpl>
+        <userid>98</userid>
+        <datesubmitted>1473823856</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473823902</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('f: ')
+L=input('L: ')
+Q=input('Q: ')
+DeltaH=input('DeltaH: ')
+v=input('v: ')
+
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+
+rey=((4*Q)/(math.pi*D*v))
+
+k=(0.25)/((math.log10((e/(3.7*D))+((5.74)/rey**0.9))))**2
+
+print('D=%.4f' %D)
+print('rey=%.4f' %rey)
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5273">
+        <vpl>4</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474484513</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474484515</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+deltaH=input('Digite o valor de deltaH:')
+v=input('Digite o valor de v:')
+
+#Processamento
+
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=0.25/((math.log10 (e/(3.7*D)+ (5.74/Rey**0.9)))**2)
+
+#Saída
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1187">
+        <vpl>4</vpl>
+        <userid>100</userid>
+        <datesubmitted>1473254616</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473254621</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input ('digite f:')
+l = input ('digite L:')
+q = input ('digite Q:')
+deltah=input ('digite delta H:')
+v= input ('digite v:')
+g=9.81
+e=0.000002
+d=(((8*f*l*(q**2)))/((math.pi**2)*g*deltah))**(0.2)
+rey=((4*q)/(math.pi*d*v))
+k=0.25/(math.log10((e/(3.7*d)+(5.74/(rey**0.9)))))**2
+print ('D= %.4f'%d)
+print ('Rey= %.4f'%rey)
+print ('K= %.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1886">
+        <vpl>4</vpl>
+        <userid>101</userid>
+        <datesubmitted>1473602364</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473602372</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f = input ('digite o valor de f: ')
+L = input (' digite o valor de L: ')
+Q = input (' digite o valor de Q: ')
+dH = input (' digite o valor de DeltaH: ')
+v = input (' digite o valor de v: ')
+
+E = 0.000002
+
+D = ((8*f*L*Q**2)/((math.pi**2)*9.81*dH))**0.2
+
+Rey = 4*Q/(math.pi*D*v)
+
+k = 0.25/(math.log10(E/(3.7*D)+5.74/(Rey**0.9))**2)
+
+print ('D = %.4f' %D)
+print ('Rey = %.4f' %Rey)
+print ('k = %.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1261">
+        <vpl>4</vpl>
+        <userid>102</userid>
+        <datesubmitted>1473359993</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473359996</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('digite o valor de f:')
+l=input('digite o valor de l:')
+q=input('digite o valor de q:')
+deltah=input('digite o valor de deltah:')
+v=input('digite o valor de v:')
+
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+rey=(4*q)/(math.pi*d*v)
+k=(0.25)/(math.log10((0.000002/(3.7*d)) + (5.74/(rey**0.9)))**2)
+
+print('D=%.4f'%d)
+print('Rey=%.4f'%rey)
+print('K=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3061">
+        <vpl>4</vpl>
+        <userid>103</userid>
+        <datesubmitted>1473969137</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473969159</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+F=input('Insira F:')
+L=input('Insira L:')
+Q=input('Insira Q:')
+dH=input('Insira dH:')
+T=input('Insita teta:')
+G=9.81
+E=0.000002
+Pi=math.pi
+D1=(Pi**2)*G*dH
+if D1!=0:
+    D2=(8*F*L*(Q**2))/D1
+    if D2&gt;=0:
+        D=(D2**(1/5))
+        if (Pi*D*T)!=0:
+            Rey=(4*Q)/(Pi*D*T)
+            R1=math.log10((E/(3.7*D))+5.74/(Rey**0.9))
+            if R1!=0:
+                K= (0.25)/(R1**2)
+                print('D=%.4f'%D)
+                print('Rey=%.4f'%Rey)
+                print('K=%.4f'%K)
+            else:
+                print('D=%.4f'%D)
+                print('Rey=%.4f'%Rey)
+                print('K não possui valor real')
+        else:
+            print('D=%.4f'%D)
+            print('Rey não possui valor real')
+            print('K não possui valor real')
+    else:
+        print('Dnão possui valor real')
+        print('Rey não possui valor real')
+        print('K não possui valor real')
+else:
+    print('D não possui valor real')
+    print('Rey não possui valor real')
+    print('K não possui valor real')            </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1173">
+        <vpl>4</vpl>
+        <userid>104</userid>
+        <datesubmitted>1473214722</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473254985</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de DeltaH')
+V=input('Digite o valor de V:')
+
+#PROCESSAMENTO
+g=9.81
+E=0.000002
+
+D=((8*f*L*(Q**2))/((3.14159265359**2)*g*DeltaH))**0.2
+Rey=(4*Q)/(3.14159265359*D*V)
+K=(0.25)/(math.log10((E/(3.7*D))+(5.74/(Rey**0.9))))**2
+
+#SAÍDA
+print('D=%.4f'%(D))
+print('Rey=%.4f'%(Rey))
+print('k=%.4f'%(K))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3467">
+        <vpl>4</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474071920</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474071991</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+#entrada
+f = input ('Digite um valor para f: ')
+L = input ('Digite um valor para L: ')
+Q = input ('Digite um valor para Q: ')
+deltaH = input ('Digite um valor para o deltaH: ')
+v= input ('Digite um valor para v: ')
+
+#processamento
+g = 9.81
+E = 0.000002
+
+D= ((8*f*L*(Q**2)) / ((math.pi**2)*g*deltaH))**0.2
+Rey = (4*Q) /(math.pi*D*v)
+x = (E/(3.7*D)) + (5.74/(Rey**0.9))
+K = 0.25 / ((math.log10(x))**2)
+
+#saída
+print ('D= %.4f' %D)
+print ('Rey= %.4f' %Rey)
+print ('k= %.4f' %K)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2582">
+        <vpl>4</vpl>
+        <userid>107</userid>
+        <datesubmitted>1473855228</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473855262</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+dH=input('digite o valor de dH:')
+v=input('digite o valor de v:')
+D=((8*f*L*(Q**2))/((math.pi**2)*9.81*dH))**0.2
+Rey=(4*Q)/(math.pi*D*v)
+k=0.25/(math.log10((0.000002/(3.7*D))+(5.74/Rey**0.9)))**2
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2101">
+        <vpl>4</vpl>
+        <userid>108</userid>
+        <datesubmitted>1473707565</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473707568</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input ('Digite f:')
+L = input ('Digite L:')
+Q = input ('Digite Q:')
+deltaH = input ('Digite delta H:')
+v = input ('Digite de teta:')
+
+g = 9.81
+e = 0.000002
+
+
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**(1/5)
+Rey = ((4*Q)/(math.pi*D*v))
+k = 0.25/((math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2)
+
+print ('D = %.4f' %D)
+print ('Rey = %.4f' %Rey)
+print ('k = %.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1664">
+        <vpl>4</vpl>
+        <userid>109</userid>
+        <datesubmitted>1473462314</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473462348</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+f = input('Digite o valor de f:')
+L = input('Digite o valor de L:')
+Q = input('Digite o valor de Q:')
+H = input('Digite o valor de H:')
+V = input('Digite o valor de v:')
+
+#Processamento
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*(Q**2))/(math.pi**2*g*H))**0.2
+Rey = (4*Q)/(math.pi*D*V)
+K = (0.25)/(math.log10(e/(3.7*D)+5.74/(Rey**0.9))**2)
+
+#Saída
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('K=%.4f'%K)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2120">
+        <vpl>4</vpl>
+        <userid>110</userid>
+        <datesubmitted>1473711192</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473711204</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('f= ')
+l=input('L= ')
+q=input('Q= ')
+dh=input('DeltaH= ')
+v=input('V= ')
+g=9.81
+e=0.000002
+d=((8*f*l*q*q)/(math.pi*math.pi*g*dh))**0.2
+rey=(4*q)/(math.pi*d*v)
+k=(0.25)/((math.log10(e/(3.7*d)+5.74/(rey**0.9)))**2)
+print('D=%.4f' %d)
+print('Rey=%.4f'%rey)
+print('K=%.4f'%k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1630">
+        <vpl>4</vpl>
+        <userid>111</userid>
+        <datesubmitted>1473459585</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473459588</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f=input('Digite o valor de f: ')
+l=input('Digite o valor de L: ')
+q=input('Digite o valor de Q: ')
+h=input('Digite o valor de delta H: ')
+v=input('Digite o valor de v: ')
+
+g=9.81
+e=0.000002
+
+numeradorded=(8*f*l*(q**2))
+denominadorded=(((math.pi)**2)*g*h)
+
+
+D=((numeradorded)**0.2)/((denominadorded)**0.2)
+
+rey=(4*q)/(math.pi*D*v)
+
+x=((e)/(3.7*D)) + ((5.74)/(rey**0.9))
+
+k=(0.25)/(math.log10(x)**2)
+
+print('D=%.4f ' %D)
+
+print('Rey=%.4f ' %rey)
+
+print('k=%.4f ' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1830">
+        <vpl>4</vpl>
+        <userid>112</userid>
+        <datesubmitted>1473528913</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473528935</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f= input('Digite o valor de f:')
+L= input('Digite o valor de L:')
+Q= input('Digite o valor de Q:')
+DeltaH= input('Digite o valor de Delta H:')
+v= input('Digite o valor de v:')
+
+
+D=((8*f*L*Q*Q)/(math.pi*math.pi*9.81*DeltaH))**(1/5)
+Rey=((4*Q)/(math.pi*D*v))
+K=(0.25)/(math.log10((0.000002/(3.7*D))+(5.74/Rey**0.9)))**2
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('K=%.4f'%K)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3571">
+        <vpl>4</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474206520</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474290271</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f=input('Digite o valor de f: ')
+l=input('Digite o valor de l: ')
+q=input('Digite o valor de q: ')
+deltah=input('Digite o valor de deltah: ')
+v=input('Digite o valor de v: ')
+
+D=((8*f*l*(q**2))**(1/5)) / (((math.pi**2)*9.81*deltah)**(1/5))
+
+Rey=(4*q)/(math.pi*D*v)
+
+K=0.25/((math.log10((0.000002/(3.7*D)) + (5.74/(Rey**0.9))))**2)
+
+print ('D=%.4f' % D)
+print ('Rey=%.4f' % Rey)
+print ('K=%.4f' % K)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4637">
+        <vpl>4</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474337542</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474337772</dategraded>
+        <grade>0.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Digite o valor de f:Digite o valor de l:Digite o valor de q:Digite o valor de dh:Digite o valor de v:D=0.1997
+&gt;Rey=4144884.4013
+&gt;k=0.0098
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 0
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+&gt; 0.2
+&gt;50000
+&gt;0.65
+&gt;22
+&gt;0.000001
+
+ --- Program output ---
+&gt;Digite o valor de f:Digite o valor de l:Digite o valor de q:Digite o valor de dh:Digite o valor de v:D=0.1997
+&gt;Rey=4144884.4013
+&gt;k=0.0098
+
+ --- Expected output (text)---
+&gt; 'D=1.7382'
+&gt;'Rey=476122.1893'
+&gt;k='0.0132'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 0 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input ('Digite o valor de f:')
+l=input ('Digite o valor de l:')
+q=input ('Digite o valor de q:')
+dh=input ('Digite o valor de dh:')
+v=input ('Digite o valor de v:')
+
+g=9.81
+e=0.000002
+
+D = ((8*f*1*(q*q))/(((math.pi)**2)*g*dh))**0.2
+Rey = (4*q)/((math.pi)*D*v)
+k = (0.25)/((math.log10(((e)/(3.7*D)) + ((5.74)/((Rey)**0.9))))**2)
+print ('D=%.4f' %D)
+print ('Rey=%.4f' %Rey)
+print ('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2054">
+        <vpl>4</vpl>
+        <userid>116</userid>
+        <datesubmitted>1473694976</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473695039</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input ('insira o valor de f:')
+L = input ('insira o valor de L:') 
+Q = input ('insira o valor de Q:')
+DeltaH = input ('insira o valor de DeltaH:') 
+v = input ('insira o valor de v:') 
+
+g = 9.81
+E = 0.000002
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+Rey = (4*Q)/(math.pi*D*v)
+k = 0.25/((math.log10((E/(3.7*D))+(5.74/(Rey**0.9))))**2)
+
+print ('D = %.4f' % D)
+print ('Rey = %.4f' % Rey)
+print ('k = %.4f' % k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3219">
+        <vpl>4</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474033938</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474034543</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+DeltaH=input('Digite o valor de Delta H:')
+v=input('Digite o valor de v:')
+
+D=((8*f*L*(Q**2))/((math.pi**2)*9.81*DeltaH))**0.2
+Rey=(4*Q)/(math.pi*D*v)
+k=(0.25)/(math.log10((0.000002/(3.7*D))+(5.74/(Rey**0.9)))**2)
+
+print('D:%.4f'%D)
+print('Rey:%.4f'%Rey)
+print('k:%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2989">
+        <vpl>4</vpl>
+        <userid>118</userid>
+        <datesubmitted>1473951011</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473951016</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#1
+f = input('digite o valor de f =')
+L = input('digite o valor de L =')
+Q = input('digite o valor de Q =')
+dH = input('digite o valor de Delta H =')
+v = input('digite o valor de v =')
+
+#2
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*dH))**(0.2)
+
+Rey = (4*Q)/(math.pi*D*v)
+
+k = (0.25/((math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2))
+
+#3
+print('D=%.4f' %D)
+
+print('Rey=%.4f' %Rey)
+
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2193">
+        <vpl>4</vpl>
+        <userid>120</userid>
+        <datesubmitted>1473765685</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473765716</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+f=input('Digite o valor de f:')
+l=input('Digite o valor de l:')
+q=input('Digite o valor de q:')
+deltah=input('Digite o valor de deltah:')
+v=input('Digite o valor de v:')
+
+#PROCESSAMENTO
+d=((8*f*l*(q**2))/((math.pi**2)*9.81*deltah))**0.2
+
+rey=(4*q)/(math.pi*d*v)
+
+k=(0.25)/(math.log10((0.000002/(3.7*d))+(5.74/(rey**0.9)))**2)
+
+#SAIDA
+print('d=%.4f'%d)
+print('rey=%.4f'%rey)
+print('k=%.4f'%k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4623">
+        <vpl>4</vpl>
+        <userid>122</userid>
+        <datesubmitted>1474335540</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+
+f=input('Digite o valor de f:')
+L=input('Digite o valor de L:')
+Q=input('Digite o valor de Q:')
+H=input('Digite o valor de H:')
+
+
+#PROCESSAMENTO
+
+D=((8*f*L*(Q**2))/((math.pi**2)*9.81*H))**(1/5)
+
+#SAÍDA
+
+print(D)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1897">
+        <vpl>4</vpl>
+        <userid>123</userid>
+        <datesubmitted>1473606163</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473606191</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f= input('Digite um valor para f:')
+L= input('Digite um valor para L:')
+Q= input('Digite um valor para Q:')
+DeltaH= input('Digite um valor para Delta H:')
+v= input('Digite um valor para v:')
+
+g= 9.81
+e=0.000002
+
+D= ((8*f*L*(Q**2))/((math.pi **2)*g*DeltaH))**(1/5)
+Rey= (4*Q)/( math.pi *D*v)
+k= 0.25/ ((math.log10((e/(3.7*D)) + (5.74/(Rey**0.9))))**2)
+
+print ('D=%.4f' %D)
+print ('Rey=%.4f' %Rey)
+print ('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3530">
+        <vpl>4</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474149696</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474149716</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input('')
+L = input('')
+Q = input('')
+DH = input('')
+V = input('')
+g = 9.81
+E = 0.000002
+D=((8*f*L*((Q)**2))/(((math.pi)**2)*g*DH))**(1/5)
+Rey=(4*Q)/(math.pi*D*V)
+C = (E/(3.7*D)) + (5.74/(Rey**0.9))
+k=(0.25/(math.log10(C))**2)
+print('D=%.4f'%D)
+print('Rey=%.4f' %Rey)
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1237">
+        <vpl>4</vpl>
+        <userid>128</userid>
+        <datesubmitted>1473354639</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473354641</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('Digite o valor de f: ')
+L=input('Digite o valor de L: ')
+Q=input('Digite o valor de Q: ')
+deltaH=input('Digite o valor da variação de H: ')
+v=input('Digite o valor de v: ')
+
+g=9.81
+e=0.000002
+
+D=((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**(1/5)
+
+Rey=(4*Q)/(math.pi*D*v)
+
+k=(0.25)/((math.log10(((e/(3.7*D))+(5.74/(Rey**0.9)))))**2)
+
+print ('D=%.4f' %D)
+print ('Rey=%.4f' %Rey)
+print ('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1163">
+        <vpl>4</vpl>
+        <userid>129</userid>
+        <datesubmitted>1473212995</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473254957</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f= input('Digite o valor de f: ')
+L= input('Digite o valor de L: ')
+Q= input('Digite o valor de Q: ')
+DeltaH= input('Digite o valor de DeltaH: ')
+V= input('Digite o vaor de V: ')
+g= 9.81
+e= 0.000002
+D= ((8*f*L*(Q**2))/((math.pi**2)*g*DeltaH))**(1/5)
+Rey= (4*Q)/(math.pi*D*V)
+k= (0.25)/(math.log10(((e)/(3.7*D))+(5.74)/(Rey**0.9)))**2
+print ('D=%.4f'%D)
+print ('Rey=%.4f'%Rey)
+print ('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2619">
+        <vpl>4</vpl>
+        <userid>130</userid>
+        <datesubmitted>1473857611</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473857614</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('Digite o valor f:')
+L=input('Digite o valor L:')
+Q=input('Digite o valor Q:')
+DeltaH=input('Digite o valor DeltaH:')
+v=input('Digite o valor v:')
+D=((8*f*L*Q*Q)/(math.pi*math.pi*9.81*DeltaH))**0.2
+Rey=(4*Q)/(math.pi*D*v)
+k=0.25/(math.log10((0.000002/(3.7*D))+(5.74/Rey**0.9)))**2
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3472">
+        <vpl>4</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474073625</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474073628</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+f = input('digite o valor de f: ')
+
+l = input('digite o valor de l: ')
+
+q = input('digite o valor de q: ')
+
+dh = input('digite o valor de dh: ')
+
+v = input('digite o valor de v: ')
+
+e=0.000002
+
+g=9.81
+
+D = ((8*f*l*(q**2.0))/((math.pi**2.0)*g*dh))**(1/5.0)
+
+rey = (4*q)/((math.pi)*D*v)
+
+k = 0.25/((math.log10((e/(3.7*D))+(5.74/rey**(0.9))))**2)
+
+print('D=%.4f' %(D))
+print('rey=%.4f' %(rey))
+print('k=%.4f' %(k))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2519">
+        <vpl>4</vpl>
+        <userid>132</userid>
+        <datesubmitted>1473814557</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473814560</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+f=input(' digite o valor de f: ')
+L=input(' digite o valor de l: ')
+Q=input(' digite o valor de q: ')
+h=input(' digite o valor de  delta h: ')
+v=input(' difite o valor de v: ')
+g=9.81
+e=0.000002
+D=(((8*f*L*(Q**2)))/((math.pi**2)*g*h))**(0.2)
+Rey=((4*Q)/(math.pi*D*v))
+k= 0.25/(math.log10((e/(3.7*D)+(5.74/(Rey**0.9)))))**2
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2986">
+        <vpl>4</vpl>
+        <userid>133</userid>
+        <datesubmitted>1473948964</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473949084</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f=input('Digite o valor de F:')
+l=input('Digite o valor de L:')
+q=input('Digite o valor de Q:')
+dh=input('Digite o valor de deltaH:')
+v=input('Digite o valor de V:')
+
+g=9.81
+e=0.000002
+
+D = ((8*f*l*(q*q))/(((math.pi)**2)*g*dh))**0.2
+Rey = (4*q)/((math.pi)*D*v)
+k = (0.25)/((math.log10(((e)/(3.7*D)) + ((5.74)/((Rey)**0.9))))**2)
+print('D=%.4f' %D)
+print('Rey=%.4f' %Rey)
+print('k=%.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3047">
+        <vpl>4</vpl>
+        <userid>134</userid>
+        <datesubmitted>1473963185</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473963191</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input('Digite o valor de f:')
+L = input('Digite o valor de L:')
+Q = input('Digite o valor de Q:')
+deltaH = input('Digite o valor de deltaH:')
+v = input('Digite o valor de v:')
+
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*deltaH))**(1/5)
+Rey = (4*Q)/(math.pi*D*v)
+k = 0.25/(math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2
+
+print ('D = %.4f' %D)
+print ('Rey = %.4f' %Rey)
+print ('k = %.4f' %k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1258">
+        <vpl>4</vpl>
+        <userid>135</userid>
+        <datesubmitted>1473358941</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473358943</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+dh=input('digite o valor de dh:')
+v=input('digite o valor de v:')
+
+
+E=0.000002
+
+D=((8*f*L*Q**2)/(dh*9.81*math.pi**2))**(1.0/5)
+Rey= 4*Q/(math.pi*D*v)
+
+k=0.25/(math.log10(E/(3.7*D)+5.74/(Rey**0.9))**2)
+
+print 'D=%.4f'%D
+print 'Rey=%.4f'%Rey
+print 'k=%.4f'%k
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2379">
+        <vpl>4</vpl>
+        <userid>136</userid>
+        <datesubmitted>1473787377</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473787397</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+#ENTRADA
+f = input("Digite o valor de f:")
+L = input("Digite o valor de L:")
+Q = input("Digite o valor de Q:")
+DeltaH = input("Digite o valor de DeltaH:")
+v = input("Digite o valor de v:")
+#PROCESSAMENTO
+D = ((8*f*L*Q**2)/(((math.pi)**2)*9.81*DeltaH))**0.2
+Rey = (4*Q)/((math.pi)*D*v)
+k = (0.25)/(math.log10(((0.000002)/(3.7*D)) + ((5.74)/(Rey**0.9))))**2
+#SAIDA
+print("D = %.4f" %D)
+print("Rey = %.4f" %Rey)
+print("k = %.4f" %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1547">
+        <vpl>4</vpl>
+        <userid>137</userid>
+        <datesubmitted>1473455291</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473455312</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f= input('f:')
+l= input('L:')
+Q= input('Q:')
+h= input ('H:')
+v= input('v:')
+g=9.81
+e=0.000002
+pi=math.pi
+a=(8*f*l*(Q**2))
+b=((pi**2)*g*h)
+D=(a/b)**(0.2)
+Rey=(4*Q)/(pi*D*v)
+x=e/(3.7*D)
+y=5.74/(Rey**(0.9))
+k=(0.25)/(math.log10(x+y)**2)
+print('D: %.4f' %D)
+print('Rey: %.4f' %Rey)
+print('k: %.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1434">
+        <vpl>4</vpl>
+        <userid>138</userid>
+        <datesubmitted>1473437455</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473437461</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input('digite o valor de f:')
+l = input('digite o valor de l:')
+q = input('digite o valor de q:')
+h = input('digite o valor de h:')
+v = input('digite o valor de v:')
+g = 9.81
+e = 0.000002
+pi = 3.14159265359
+D=(((8*f*l*(q**2))/((pi**2)*g*h)))**(0.2)
+rey=(4*q)/(pi*D*v)
+k=(0.25)/((math.log10((e/(3.7*D))+(5.74/(rey**(0.9)))))**2)
+print('D: %.4f' %D)
+print('rey: %.4f' %rey)
+print('k: %.4f'%k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2718">
+        <vpl>4</vpl>
+        <userid>141</userid>
+        <datesubmitted>1473862311</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473862313</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+DeltaH=input('digite o valor de DeltaH:')
+v=input('digite o valor de v:')
+D=((8*f*L*Q*Q)/(math.pi*math.pi*9.81*DeltaH))**(1/5)
+Rey=(4*Q)/(math.pi*D*v)
+k=0.25/(math.log10((0.000002/(3.7*D))+(5.74/Rey**0.9)))**2
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3033">
+        <vpl>4</vpl>
+        <userid>142</userid>
+        <datesubmitted>1473962008</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473962011</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+f = input('digite o valor de f:')
+L = input('digite o valor de L:')
+Q = input('digite o valor de Q:')
+dH = input('digite o valor de delta H:')
+v =  input('digite o valor de v:')
+
+g = 9.81
+e = 0.000002
+
+D = ((8*f*L*(Q**2))/((math.pi**2)*g*dH))**0.2
+
+Rey = (4*Q)/(math.pi*D*v)
+
+k = (0.25/((math.log10((e/(3.7*D))+(5.74/(Rey**0.9))))**2))
+
+print('D = %.4f' %D)
+print('Rey=%.4f' %Rey)
+print('k=%.4f' %k)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5584">
+        <vpl>4</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474642000</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input(' Valor de f ')
+l = input(' Valor de L ')
+q = input(' Valor de Q ')
+h = input(' Valor de Delta H ')
+v = input(' Valor de v ')
+
+g = 9.81
+s = 0.000002
+
+D = ((8*f*l*q*q)/(math.pi*math.pi*g*h))*1/5</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3462">
+        <vpl>4</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474071141</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474071144</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f=input('digite o valor de f:')
+L=input('digite o valor de L:')
+Q=input('digite o valor de Q:')
+deltaH=input('digite o valor de deltaH:')
+V=input('digite o valor de V:')
+g=9.81
+e=0.000002
+
+D=(8*f*L*(Q**2)/((math.pi**2)*g*deltaH))**0.2
+Rey=(4*Q)/(math.pi*D*V)
+k=0.25/(math.log10((e/(3.7*D))+(5.74/Rey**0.9)))**2
+
+print('D=%.4f'%D)
+print('Rey=%.4f'%Rey)
+print('k=%.4f'%k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3959">
+        <vpl>4</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474293878</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474293881</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+f = input ('Digite o valor de f: ')
+L = input ('Digite o valor de L: ')
+Q = input ('Digite o valor de Q: ')
+dh = input ('Digite o valor de delta H: ')
+v = input ('Digite o valor de v: ')
+E = 0.000002
+
+D = ((8*f*L*(Q**2))/(math.pi**2*9.81*dh))**0.2
+
+Rey = 4*Q/(math.pi*D*v)
+
+k = 0.25/(math.log10(E/(3.7*D)+5.74/(Rey**0.9))**2)
+
+
+print ('D = %.4f' %D) 
+print ('Rey = %.4f' %Rey)
+print ('K = %.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1726">
+        <vpl>4</vpl>
+        <userid>148</userid>
+        <datesubmitted>1473471851</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473471870</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>swamee.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/swamee.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+f =input('Digite o valor de f:')
+l =input('Digite o valor de l:')
+q =input('Digite o valor de q:')
+deltaH =input('Digite o valor da variacao de H:')
+v =input('Digite o valor de v:')
+g = 9.81
+e = 0.000002
+
+#PROCESSAMENTO
+superiorD =(8*f*l*(q**2))
+inferiorD =(((math.pi)**2)*g*deltaH)
+divD = superiorD/inferiorD
+d = ((divD)**(1/5))
+
+rey =((4*q)/((math.pi)*d*v))
+
+funLog =((e/(3.7*d))+(5.74/((rey)**(0.9))))
+funLogQuadrado =((math.log10(funLog))**2)
+k =(0.25/funLogQuadrado)
+
+#SAIDA
+print('D= %.4f' %d)
+print('Rey= %.4f' %rey)
+print('k= %.4f' %k)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

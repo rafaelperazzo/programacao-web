@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="34" modulename="choice" contextid="498">
+  <choice id="1">
+    <name>Opinião sobre esta plataforma</name>
+    <intro>&lt;p&gt;Qual sua primeira impressão (grau de dificuldade de utilização) sobre esta plataforma online para acompanhamento da disciplina ?&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <publish>0</publish>
+    <showresults>2</showresults>
+    <display>0</display>
+    <allowupdate>0</allowupdate>
+    <showunanswered>0</showunanswered>
+    <limitanswers>0</limitanswers>
+    <timeopen>1471230000</timeopen>
+    <timeclose>1472698500</timeclose>
+    <timemodified>1468957568</timemodified>
+    <completionsubmit>0</completionsubmit>
+    <showpreview>0</showpreview>
+    <includeinactive>0</includeinactive>
+    <options>
+      <option id="1">
+        <text>Muito fácil</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957568</timemodified>
+      </option>
+      <option id="2">
+        <text>Razoavel</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957568</timemodified>
+      </option>
+      <option id="3">
+        <text>Um pouco complicado</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957568</timemodified>
+      </option>
+      <option id="4">
+        <text>Estou com dificuldades</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957568</timemodified>
+      </option>
+      <option id="5">
+        <text>Estou perdido. Não consigo entender as funcionalidades</text>
+        <maxanswers>0</maxanswers>
+        <timemodified>1468957568</timemodified>
+      </option>
+    </options>
+    <answers>
+      <answer id="1">
+        <userid>108</userid>
+        <optionid>2</optionid>
+        <timemodified>1471288087</timemodified>
+      </answer>
+      <answer id="4">
+        <userid>100</userid>
+        <optionid>1</optionid>
+        <timemodified>1471425237</timemodified>
+      </answer>
+      <answer id="7">
+        <userid>118</userid>
+        <optionid>2</optionid>
+        <timemodified>1471474805</timemodified>
+      </answer>
+      <answer id="9">
+        <userid>128</userid>
+        <optionid>2</optionid>
+        <timemodified>1471475761</timemodified>
+      </answer>
+      <answer id="10">
+        <userid>94</userid>
+        <optionid>1</optionid>
+        <timemodified>1471476690</timemodified>
+      </answer>
+      <answer id="12">
+        <userid>132</userid>
+        <optionid>2</optionid>
+        <timemodified>1471518763</timemodified>
+      </answer>
+      <answer id="13">
+        <userid>129</userid>
+        <optionid>2</optionid>
+        <timemodified>1471523289</timemodified>
+      </answer>
+      <answer id="15">
+        <userid>124</userid>
+        <optionid>2</optionid>
+        <timemodified>1471523447</timemodified>
+      </answer>
+      <answer id="19">
+        <userid>120</userid>
+        <optionid>2</optionid>
+        <timemodified>1471685828</timemodified>
+      </answer>
+      <answer id="21">
+        <userid>114</userid>
+        <optionid>3</optionid>
+        <timemodified>1471701879</timemodified>
+      </answer>
+      <answer id="23">
+        <userid>98</userid>
+        <optionid>2</optionid>
+        <timemodified>1471711597</timemodified>
+      </answer>
+      <answer id="26">
+        <userid>64</userid>
+        <optionid>1</optionid>
+        <timemodified>1471716800</timemodified>
+      </answer>
+      <answer id="28">
+        <userid>71</userid>
+        <optionid>2</optionid>
+        <timemodified>1471804890</timemodified>
+      </answer>
+      <answer id="30">
+        <userid>135</userid>
+        <optionid>1</optionid>
+        <timemodified>1471825016</timemodified>
+      </answer>
+      <answer id="31">
+        <userid>104</userid>
+        <optionid>1</optionid>
+        <timemodified>1471924003</timemodified>
+      </answer>
+    </answers>
+  </choice>
+</activity>

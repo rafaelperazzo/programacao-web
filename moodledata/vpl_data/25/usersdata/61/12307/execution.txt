@@ -1,0 +1,32 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-30.000)
+Incorrect program result
+ --- Input ---
+> 23732
+>152
+
+ --- Program output ---
+>Digite um número real: Digite um número real: 2
+>2
+>2
+>2
+
+ --- Expected output (text)---
+> '5'
+>'4'
+>
+>case Teste 2
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

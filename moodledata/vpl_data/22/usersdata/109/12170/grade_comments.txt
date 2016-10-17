@@ -1,0 +1,36 @@
+-Failed tests
+Test 1: Teste 1
+Test 6: Teste 6
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 5
+>3
+>9
+>3
+
+ --- Program output ---
+>Digite a primeira cor:Digite a segunda cor:Digite a terceira cor:Digite a quarta cor:F
+
+ --- Expected output (text)---
+> 'V'
+
+-Test 6: Teste 6 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>3
+>3
+
+ --- Program output ---
+>Digite a primeira cor:Digite a segunda cor:Digite a terceira cor:Digite a quarta cor:V
+
+ --- Expected output (text)---
+> 'F'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="6" moduleid="53" modulename="url" contextid="1232">
+  <url id="6">
+    <name>Python no navegador</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <externalurl>https://trinket.io/</externalurl>
+    <display>1</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1472474822</timemodified>
+  </url>
+</activity>

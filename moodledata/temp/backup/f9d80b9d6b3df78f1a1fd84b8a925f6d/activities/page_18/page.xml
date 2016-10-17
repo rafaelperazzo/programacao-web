@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="18" modulename="page" contextid="460">
+  <page id="3">
+    <name>Programando em Python (o que você precisa)</name>
+    <intro>Software necessário para programação em Python.&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;p&gt;Para que você possa escrever os programas que vamos exercitar ao longo 
+do semestre, é necessário baixar o software Anaconda. Este pacote contém
+ tudo o que precisaremos ao longo da disciplina. &lt;br&gt;&lt;br&gt;Vamos utilizar a versão 2.7 do Python. Você deve baixar uma das duas versões abaixo (32 ou 64 bits). &lt;br&gt;&lt;br&gt;&lt;a target="_blank" href="http://repo.continuum.io/archive/Anaconda2-4.1.1-Windows-x86_64.exe"&gt;Anaconda (64 bits)&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a target="_blank" href="http://repo.continuum.io/archive/Anaconda2-4.1.1-Windows-x86.exe"&gt;Anaconda (32 bits)&lt;/a&gt;&lt;br&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Após a instalação, procurar pela aplicação Spyder que é o ambiente de desenvolvimento integrado que iremos utilizar. &lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>2</revision>
+    <timemodified>1468846178</timemodified>
+  </page>
+</activity>

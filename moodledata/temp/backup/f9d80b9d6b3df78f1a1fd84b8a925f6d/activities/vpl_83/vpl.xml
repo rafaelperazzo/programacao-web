@@ -1,0 +1,4727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="14" moduleid="83" modulename="vpl" contextid="1292">
+  <vpl id="14">
+    <name>Exercício 17</name>
+    <shortdescription>Tomadas</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="font-size: xx-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;A Olimpíada Internacional de Informática (IOI, no original em inglês) é a mais prestigiada competição de programação para alunos de ensino médio; seus aproximadamente 300 competidores se reúnem em um país diferente todo ano para os dois dias de prova da competição. Naturalmente, os competidores usamo o tempo livre para acessar a Internet, programar e jogar em seus notebooks, mas eles se depararam com um problema: o saguão do hotel só tem uma tomada. Felizmente, os quatro competidores da equipe brasileira da IOI trouxeram cada um uma régua de tomadas, permitindo assim ligar vários notebooks em uma tomada só; eles também podem ligar uma régua em outra para aumentar ainda mais o número de tomadas disponíveis.  No entanto, como as réguas têm muitas tomadas, eles pediram para você escrever um programa que, dado o número de tomadas em cada régua, determina quantas tomadas podem ser disponibilizadas no saguão do hotel. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;span style="font-size: large;"&gt;Entrada&lt;/span&gt; &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;A entrada consiste de uma linha com quatro inteiros positivos T1,T2,T3,T4, indicando o número de tomadas de cada uma das quatro réguas. &lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Saída&lt;/strong&gt; &lt;/span&gt;&lt;br /&gt;&lt;br /&gt;Seu programa deve imprimir uma única linha contendo um único número inteiro, indicando o número máximo de notebooks que podem ser conectados num mesmo instante.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para a entrada: 2,4,3,2 a saída deve ser 8&lt;/p&gt;
+&lt;p&gt;Para a entrada 6,6,6,6 a saída deve ser 21&lt;/p&gt;
+&lt;p&gt;Para a entrada 2,2,2,2 a saída deve ser 5&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1475463300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>tomadas.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/tomadas.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 2
+4
+3
+2
+output = '8'
+
+case = Teste 2
+input = 6
+6
+6
+6
+output = '21'
+
+case = Teste 3
+input = 2
+2
+2
+2
+output = '5'</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="5103">
+        <vpl>14</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474459195</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474459197</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+t1=int(input('Digite a quantidade de tomadas de t1: '))
+t2=int(input('Digite a quantidade de tomadas de t2: '))
+t3=int(input('Digite a quantidade de tomadas de t3: '))
+t4=int(input('Digite a quantidade de tomadas de t4: '))
+
+r=(t1+t2+t3+t4)-3
+
+print (r)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5812">
+        <vpl>14</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474685168</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474685174</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input('T1:')
+T2=input('T2:')
+T3=input('T3:')
+T4=input('T4:')
+NumerodeTomadas=(T1-1)+(T2-1)+(T3-1)+T4
+print(NumerodeTomadas)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5653">
+        <vpl>14</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474666702</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474666705</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+#ENTERADA
+
+T1=input("Digite o valor de T1: ")
+T2=input("Digite o valor de T2: ")
+T3=input("Digite o valor de T3: ")
+T4=input("Digite o valor de T4: ")
+
+#PROCESSAMENTO
+
+nt=(T1+T2+T3+T4)-3
+
+#SAIDA
+
+print nt</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5200">
+        <vpl>14</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474465950</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474465976</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input('Digite o valor de T1:')
+T2=input('Digite o valor de T2:')
+T3=input('Digite o valor de T3:')
+T4=input('Digite o valor de T4:')
+
+n=((T1+T2+T3+T4)-3)
+
+print('resultado de n=%d' %n)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5422">
+        <vpl>14</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474583018</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474583046</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1 = int(input('Digite o valor de T1: '))
+T2 = int(input('Digite o valor de T2: '))
+T3 = int(input('Digite o valor de T3: '))
+T4 = int(input('Digite o valor de T4: '))
+
+t = (T1 + T2 + T3 + T4) - 3
+
+print t
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4997">
+        <vpl>14</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474418919</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418923</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=input('Digite a quantidade de tomadas na primeira régua: ')
+T2=input('Digite a quantidade de tomadas na segunda régua: ')
+T3=input('Digite a quantidade de tomadas na teiceira régua: ')
+T4=input('Digite a quantidade de tomadas na quarta régua: ')
+
+Total=(T1+T2+T3+T4-3)
+
+print('%.0d' %Total)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5451">
+        <vpl>14</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474590272</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474590316</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=int(input("o numerode t1 he:"))
+T2=int(input("o numero de t2 eh:"))
+T3=int(input("o numero de t3 eh:"))
+T4=int(input("o numero de t4 eh:"))
+TT=T1+(T2-1)+(T3-1)+(T4-1)
+print("%d"%TT)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5608">
+        <vpl>14</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474647312</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474647313</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=input("Digite o número de tomadas da regua 1:")
+T2=input("Digite o número de tomadas da regua 2:")
+T3=input("Digite o número de tomadas da regua 3:")
+T4=input("Digite o número de tomadas da regua 4:")
+
+TT=(T1+T2+T3+T4)-3
+print(TT)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5077">
+        <vpl>14</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474457676</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474457679</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= input ('Digite a quantidade de tomadas da primeira régua:')
+T2= input ('Digite a quantidade de tomadas da segunda régua:')
+T3= input ('Digite a quantidade de tomadas da terceira régua:')
+T4= input ('Digite a quantidade de tomadas da quarta régua:')
+
+T= (T1-1)+(T2-1)+(T3-1)+(T4)
+
+print ('%d' %T)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5063">
+        <vpl>14</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474425116</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474425149</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input('Digite o número de tomadas:')
+T2=input('Digite o número de tomadas:')
+T3=input('Digite o número de tomadas:')
+T4=input('Digite o número de tomadas:')
+T=(T1+T2+T3+T4)-3
+print ('%d' %T)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5308">
+        <vpl>14</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474516688</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474516725</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input("T1: ")
+T2=input("T2: ")
+T3=input("T3: ")
+T4=input("T4: ")
+
+a = T1-1
+b = T2-1
+c = T3-1
+d = a+b+c+T4
+
+print d</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5728">
+        <vpl>14</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474678230</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678237</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= input('Numero de tomadas: ')
+T2= input('Numero de tomadas: ')
+T3= input('Numero de tomadas: ')
+T4= input('Numero de tomadas: ')
+
+T=(T1-1)+(T2-1)+(T3-1)+(T4)
+
+print('O numero de tomadas é: %d' %T) 
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4848">
+        <vpl>14</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474394950</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474909257</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = input ('digite o valor de T1:')
+T2 = input ('digite o valor de T2:')
+T3 = input ('digite o valor de T3:')
+T4 = input ('digite o valor de T4:')
+
+nt = (T1-1) + (T2-1) + (T3-1) + T4
+
+print nt
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5454">
+        <vpl>14</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474591176</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474591178</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+t1 = input('')
+t2 = input('')
+t3 = input('')
+t4 = input('')
+
+n = (t1-1)+(t2-1)+(t3-1)+t4
+
+print('%d'% (n))
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5020">
+        <vpl>14</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474420539</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474420544</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada 
+
+T1= input ('Digite o número de entradas da primeira régua de tomadas:')
+T2= input ('Digite o número de entradas da segunda régua de tomadas:')
+T3= input ('Digite o número de entradas da terceira régua de tomadas:')
+T4= input ('Digite o número de entradas da quarta régua de tomadas:')
+
+#Processamento 
+
+t=((T1+T2+T3+T4)-3)
+
+#Saida
+
+print (t)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5519">
+        <vpl>14</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474605057</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474605071</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1 = int(input('Digite T1:'))
+T2 = int(input('Digite T2:'))
+T3 = int(input('Digite T3:'))
+T4 = int(input('Digite T4:'))
+
+Nm = (T1-1)+(T2-1)+(T3-1)+(T4)
+
+print('%d' %Nm)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5565">
+        <vpl>14</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474633442</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474633444</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+t1=input('Digite o valor de T1:')
+t2=input('Digite o valor de T2:')
+t3=input('Digite o valor de T3:')
+t4=input('Digite o valor de T4:')
+
+n=((t1+t2+t3+t4)-3)
+
+print('REsultado de n=%d:' %n)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5769">
+        <vpl>14</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474680054</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474680080</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input('digite a quantidade de T1:')
+T2=input('digite a quantidade de T2:')
+T3=input('digite a quantidade de T3:')
+T4=input('digite a quantidade de T4:')
+
+T1=T1-1
+T2=T2-1
+T3=T3-1
+T4=T4
+Tt=T1+T2+T3+T4
+
+print('%.0f' %Tt)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5796">
+        <vpl>14</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474683058</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474683061</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+
+T1 = int(input('Digite o numero de tomadas: '))
+T2 = int(input('Digite o numero de tomadas: '))
+T3 = int(input('Digite o numero de tomadas: '))
+T4 = int(input('Digite o numero de tomadas: '))
+
+#Processamento 
+
+A = (T1 - 1) + (T2 - 1) + (T3 - 1) + (T4)
+
+#Saída
+
+print(A)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4831">
+        <vpl>14</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474392189</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474392198</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input(''))
+b=int(input(''))
+c=int(input(''))
+d=int(input(''))
+x=(a+b+c+d)-3
+print('%d'%x)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5228">
+        <vpl>14</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474473394</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474473416</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1=input('Digite T1:')
+T2=input('Digite T2:')
+T3=input('Digite T3:')
+T4=input('Digite T4:')
+
+Total= (T1+T2+T3+T4)-3
+
+print (Total)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5798">
+        <vpl>14</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474683125</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474683196</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+T1 = input ('Digite o valor de T1:')
+T2 = input ('Digite o valor de T2:')
+T3 = input ('Digite o valor de T3:')
+T4 = input ('Digite o valor de T4:')
+
+#PROCESSAMENTO 
+TOTAL= ((T1)-1)+((T2)-1)+((T3)-1)+T4
+
+#SAIDA
+print ('%d' %TOTAL)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5203">
+        <vpl>14</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474466887</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474466920</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1=input('quantas tomadas tem na regua 1:')
+T2=input('quantas tomadas tem na regua 2:')
+T3=input('quantas tomadas tem na regua 3:')
+T4=input('quantas tomadas tem na regua 4:')
+
+T=(T1-1)+(T2-1)+(T3-1)+(T4)
+
+print('T=%d:'%T)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4803">
+        <vpl>14</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474389215</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474389217</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= int(input('T: '))
+T2= int(input('T: '))                         
+T3= int(input('T: '))  
+T4= int(input('T: '))
+
+t= (T1+T2+T3)-3+T4
+
+print t</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5322">
+        <vpl>14</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474548053</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474548055</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+T1 = int(input('digite o número de tomadas:'))
+T2 = int(input('digite o número de tomadas:'))
+T3 = int(input('digite o número de tomadas:'))
+T4 = int(input('digite o número de tomadas:'))
+#processamento e saída
+n = (T1-1)+(T2-1)+(T3-1)+T4
+print(n)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5043">
+        <vpl>14</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474422012</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474422014</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1 = input("Primeira regua")
+T2 = input("Segunda regua")
+T3 = input("Terceira regua")
+T4 = input("Quarta regua")
+
+T=T1-1
+P=T2-1+T
+F=T3-1+P
+G=T4+F
+
+print(G)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5717">
+        <vpl>14</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474677479</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474677509</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= input('digite o numero de tomadas: ')
+T2= input('digite o numero de tomadas: ')
+T3= input('digite o numero de tomadas: ')
+T4= input('digite o numero de tomadas: ')
+
+T=(T1-1)+(T2-1)+(T3-1)+(T4)
+
+print('O numero de tomadas disponiveis são: %d' %T)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5147">
+        <vpl>14</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474461156</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474461159</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#entrada
+T1=input('digite o valor de T1:')
+T2=input('digite o valor de T2:')
+T3=input('digite o valor de T3:')
+T4=input('digite o valor de T4:')
+#processamento
+n=(T1+T2+T3+T4)-3
+#saida
+print(n)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5617">
+        <vpl>14</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474657712</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474657714</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+T1=input('Digite aqui T1:')
+T2=input('Digite aqui T2:')
+T3=input('Digite aqui T3:')
+T4=input('Digite aqui T4:')
+
+#Processamento e Saída
+n=(T1+T2+T3+T4)-3
+
+print ('n=%d'%n)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5211">
+        <vpl>14</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474471603</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474471632</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=input('digite o número de tomadas de T1:')
+T2=input('digite o número de tomadas de T2:')
+T3=input('digite o número de tomadas de T3:')
+T4=input('digite o número de tomadas de T4:')
+
+Total=((T1-1)+(T2-1)+(T3-1)+T4)
+
+print(Total)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5312">
+        <vpl>14</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474546148</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474546150</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= int(input( ))
+T2= int(input( ))
+T3= int(input( ))
+T4= int(input( ))
+
+if T1&gt;0 and T2&gt;0 and T3&gt;0:
+    S= (T1-1)+(T2-1)+(T3-1)+(T4)
+    print('%.f' %S)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5767">
+        <vpl>14</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474679954</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474680239</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+t1=input('t1')
+t2=input('t2')
+t3=input('t3')
+t4=input('t4')
+a= t1+t2+t3+t4-3
+print("'%d'" %a)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4896">
+        <vpl>14</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474413443</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474413472</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+t1=input('digite a quantidade de tomadas da primeira extensao')
+t2=input('digite a quantidade de tomadas da segunda extensao')
+t3=input('digite a quantidade de tomadas da terceira extensao')
+t4=input('digite a quantidade de tomadas da quarta extensao')
+
+x=((t1-1)+(t2-1)+(t3-1)+t4)
+
+print(x)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4952">
+        <vpl>14</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474417403</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417414</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+t1=input('Digite o valor:')
+t2=input('Digite o valor:')
+t3=input('Digite o valor:')
+t4=input('Digite o valor:')
+
+R=(t1+t2+t3+t4)-3
+
+print('%d'%R)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5378">
+        <vpl>14</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474572000</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572005</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = input('T1:')
+T2 = input('T2:')
+T3 = input('T3:')
+T4 = input('T4:')
+
+NumerodeTomadas = (T1 - 1) + (T2 - 1) + (T3 - 1) +T4
+
+print(NumerodeTomadas)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5507">
+        <vpl>14</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474600375</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474600482</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=int(input('digite o número de tomadas da primeira régua:'))
+T2=int(input('digite o número de tomadas da segunda régua:'))
+T3=int(input('digite o número de tomadas da terceira régua:'))
+T4=int(input('digite o número de tomadas da quarta régua:'))
+
+n=(T1+T2+T3+T4)-3
+
+print('n=:%d'%n)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4918">
+        <vpl>14</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474415208</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415218</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=int(input('Digite o número de tomadas da primeira régua: '))
+T2=int(input('Digite o número de tomadas da segunda régua: '))
+T3=int(input('Digite o número de tomadas da terceira régua: '))
+T4=int(input('Digite o número de tomadas da quarta régua: '))
+
+Total=(T1-1)+(T2-1)+(T3-1)+T4
+
+print(Total)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5275">
+        <vpl>14</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474487437</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474487794</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=input('Digite o número de tomadas da primeira régua:')
+T2=input('Digite o número de tomadas da segunda régua:')
+T3=input('Digite o número de tomadas da terceira régua:')
+T4=input('Digite o número de tomadas da quarta régua:')
+
+T=(T1+(T2-1)+(T3-1)+(T4-1))
+
+print (T)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5204">
+        <vpl>14</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474469217</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474469230</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+t1 = input ('primeira t:')
+t2 = input ('segunda t:')
+t3 = input ('terceira t:')
+t4 = input ('quarta t:')
+total = (t1-1)+(t2-1)+(t3-1)+t4
+print  total
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5503">
+        <vpl>14</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474598907</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474598910</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1 = input ('digite o valor de tomadas na primeira régua: ')
+T2 = input ('digite o valor de tomadas na segunda régua: ')
+T3 = input ('digite o valor de tomadas na terceira régua: ')
+T4 = input ('digite o valor de tomadas na quarta régua: ')
+
+conecta = (T1 + T2 + T3 + T4) - 3
+
+print (conecta)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5199">
+        <vpl>14</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474465944</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474465948</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+t1=input('valor de t1')
+t2=input('valor de t2')
+t3=input('valor de t3')
+t4=input('valor de t4')
+
+n=((t1+t2+t3+t4)-3)
+
+print('resultado de n=%d'%n)
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5715">
+        <vpl>14</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474677362</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474677364</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+T1 = int(input('digite a quantidade de tomadas:'))
+T2 = int(input('digite a quantidade de tomadas:'))
+T3 = int(input('digite a quantidade de tomadas:'))
+T4 = int(input('digite a quantidade de tomadas:'))
+
+#processamento e saida
+n = (T1-1)+(T2-1)+(T3-1)+T4
+print(n)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5692">
+        <vpl>14</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474675119</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474675121</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+t1=int(input('Digite o número de tomadas da primeira régua:'))
+t2=int(input('Digite o número de tomadas da segunda régua:'))
+t3=int(input('Digite o número de tomadas da terceira régua:'))
+t4=int(input('Digite o número de tomadas da quarta régua:'))
+#PROCESSAMENTO
+tomadas=((((((t1-1)+t2)-1)+t3)-1)+t4)
+#SAÍDA
+print('%.i'%(tomadas))
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5432">
+        <vpl>14</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474585373</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474585413</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1 = input ('Digite o número de tomadas da primeira régua:')
+T2 = input ('Digite o número de tomadas da segunda régua:')
+T3 = input ('Digite o número de tomadas da terceira régua:')
+T4 = input ('Digite o número de tomadas da quarta régua:')
+
+Total = T1 + T2 + T3 + T4 - 3
+
+print (Total)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4863">
+        <vpl>14</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474398733</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474398736</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a=input('digite o primeiro numero:')
+b=input('digite o segunda numero:')
+c=input('digite o terceiro numero:')
+d=input('digite o quarto numero:')
+e=(a+b+c+d)-3
+print(e)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4728">
+        <vpl>14</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474387222</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474388034</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = input ('Quantidade de tomadas da primeira régua:')
+T2 = input ('Quantidade de tomadas da segunda régua:')
+T3 = input ('Quantidade de tomadas da terceira régua:')
+T4 = input ('Quantidade de tomadas da quarta régua:')
+
+TT = (T1+T2+T3+T4)-3
+
+print (TT)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4802">
+        <vpl>14</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474389185</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474389187</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1=input('número de tomadas da régua: ')
+T2=input('número de tomadas da régua : ')
+T3=input('número de tomadas da régua : ')
+T4=input('número de tomadas da régua : ')
+
+r=T1+T2+T3+T4-3
+
+print ('%d'%r)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5590">
+        <vpl>14</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474643825</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474643834</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+ta=input('Digite tomadas da primeira régua: ')
+tb=input('Digite tomadas de seunda régua: ')
+tc=input('Digite tomadas da terceira régua: ')
+td=input('Digite tomada da quarta régua: ')
+total=ta+tb+tc+td-3
+print(total)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5662">
+        <vpl>14</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474671448</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474671512</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+a=input('Digite a tomada 1: ')
+b=input('Digite a tomada 2: ')
+c=input('Digite a tomada 3: ')
+d=input('Digite a tomada 4: ')
+
+e= ((a-1) + (b-1) + (c-1) + (d))
+print e</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5383">
+        <vpl>14</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474572299</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572330</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+Ta=input('Digite a quantidade de tomadas:')
+Tb=input('Digite a quantidade de tomadas:')
+Tc=input('Digite a quantidade de tomadas:')
+Td=input('Digite a quantidade de tomadas:')
+
+T1=Ta-Ta%1
+T2=Tb-Tb%1
+T3=Tc-Tc%1
+T4=Td-Td%1
+
+QT=(T1+T2+T3+T4)-3
+print('%.d'%QT)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5150">
+        <vpl>14</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474461381</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474461397</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1=input('Valor de T1: ')
+T2=input('Valor de T2: ')
+T3=input('Valor de T3: ')
+T4=input('Valor de T4: ')
+
+total=(T1-1)+(T2-1)+(T3-1)+T4
+
+print total
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7458">
+        <vpl>14</vpl>
+        <userid>115</userid>
+        <datesubmitted>1475092816</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1=int(input('Valor da primeira tomada:'))
+T2=int(input('Valor da segunda tomada:'))
+T3=int(input('Valor da terceira tomada:'))
+T4=int(input('Valor da quarta tomada:'))
+a=(T1+T2+T3+T4)-3
+print(a)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5603">
+        <vpl>14</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474645894</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474645897</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = int(input ('insira o valor T1:'))
+T2 = int(input ('insira o valor T2:'))
+T3 = int(input ('insira o valor T3:'))
+T4 = int(input ('insira o valor T4:')) 
+
+M = T1+T2+T3+T4-3
+
+print ('%.d' %M)
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5583">
+        <vpl>14</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474641991</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474642036</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+T1=input('Digite o número de entradas em T1:')
+T2=input('Digite o número de entradas em T2:')
+T3=input('Digite o número de entradas em T3:')
+T4=input('Digite o número de entradas em T4:')
+
+T=T1+T2+T3+T4-3
+
+print('%d'%T)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4906">
+        <vpl>14</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474414122</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474414124</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#1
+T1 = int(input('Digite o número de tomadas existentes na primeira regua ='))
+T2 = int(input('Digite o número de tomadas existentes na segunda regua ='))
+T3 = int(input('Digite o número de tomadas existentes na terceira regua ='))
+T4 = int(input('Digite o número de tomadas existentes na quarta regua ='))
+
+#2
+T = (T1-1)+(T2-1)+(T3-1)+T4
+
+#3
+print(T)  
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4985">
+        <vpl>14</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474418313</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418344</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+t1=input('infoeme o numero de tomadas na primeira regua:')
+t2=input('informe o numero de tomadas na segunda regua:')
+t3=input('informe o numero de tomadas na terceira regua:')
+t4=input('informe o numero de tomadas na quarta regua:')
+#PROCESSAMENTO
+m=t1-1+t2-1+t3-1+t4
+#SAIDA
+print m
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5393">
+        <vpl>14</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474573136</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474573138</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1= int(input('Insira a quantidade de tomadas da primeira régua:'))
+T2= int(input('Insira a quantidade de tomadas da segunda régua:'))
+T3= int(input('Insira a quantidade de tomadas da terceira régua:'))
+T4= int(input('Insira a quantidade de tomadas da quarta régua:'))
+
+T=(T1+T2+T3+T4)-3
+
+print(T)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4735">
+        <vpl>14</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474387410</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474399084</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = int(input(''))
+T2 = int(input(''))
+T3 = int(input(''))
+T4 = int(input(''))
+
+a = (T1-3)+T2+T3+T4
+b = (T2-3)+T1+T3+T4
+c = (T3-3)+T2+T1+T4
+d = (T4-3)+T2+T3+T1
+
+if T1 &gt;= T2 and T1 &gt;= T3 and T1 &gt;= T4:
+    print('%d' %a)
+elif T2 &gt;= T1 and T2 &gt;= T3 and T2 &gt;= T4:
+    print('%d' %b)
+elif T3 &gt;= T2 and T3 &gt;= T1 and T3 &gt;= T4:
+    print('%d' %c)
+elif T4 &gt;= T2 and T4 &gt;= T3 and T4 &gt;= T1:
+    print('%d' %d)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4810">
+        <vpl>14</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474389512</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474389522</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+t1=input('Número de tomadas da primeira régua: ')
+t2=input('Número de tomadas da segunda régua: ')
+t3=input('Número de tomadas da terceira régua: ')
+t4=input('Número de tomadas da quarta régua: ')
+
+tt=(t1-1)+(t2-1)+(t3-1)+t4
+
+print tt</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5293">
+        <vpl>14</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474503676</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474503678</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1= input ('Digite o valor : ')
+T2= input ('Digite o valor : ')
+T3= input ('Digite o valor : ')
+T4= input ('Digite o valor : ')
+A=(T1-1)+(T2-1)+(T3-1)+T4
+print A</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5195">
+        <vpl>14</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474464873</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464875</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+T1=input('Digite o valor de T1:')
+T2=input('Digite o valor de T2:')
+T3=input('Digite o valor de T3:')
+T4=input('Digite o valor de T4:')
+
+a=a=(T1-1)+(T2-1)+(T3-1)+T4
+print('%.d'%a)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5806">
+        <vpl>14</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474684408</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684411</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+
+T1 = int(input('Digite o numero de tomadas: '))
+T2 = int(input('Digite o numero de tomadas: '))
+T3 = int(input('Digite o numero de tomadas: '))
+T4 = int(input('Digite o numero de tomadas: '))
+
+#Processamento 
+
+A = (T1 - 1) + (T2 - 1) + (T3 - 1) + (T4)
+
+#Saída
+
+print(A)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5252">
+        <vpl>14</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474476178</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474476180</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+T1= input('digite a quantidade de tomadas da regua :') 
+T2= input('digite a quantidade de tomadas da regua :')
+T3= input('digite a quantidade de tomadas da regua :')
+T4= input('digite a quantidade de tomadas da regua :')
+R=(T1-1)+(T2-1)+(T3-1)+T4
+print(R)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5384">
+        <vpl>14</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474572330</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572333</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1=int(input('Valor da primeira tomada:'))
+T2=int(input('Valor da segunda tomada:'))
+T3=int(input('Valor da terceira tomada:'))
+T4=int(input('Valor da quarta tomada:'))
+a=(T1+T2+T3+T4)-3
+print(a)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5726">
+        <vpl>14</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474678031</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678035</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+T1 = input('Tomadas da primeira régua:')
+T2 = input('Tomadas da segunda régua:')
+T3 = input('Tomadas da terceira régua:')
+T4 = input('Tomadas da quarta régua:')
+
+N = T1+(T2-1)+(T3-1)+(T4-1)
+print ('%d' %N)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5610">
+        <vpl>14</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474647323</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474647328</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+T1= input ('digite o numero:')
+T2= input ('digite o numero:')
+T3= input ('digite o numero:')
+T4= input ('digite o numero:')
+
+N= (T1+T2+T3+T4)-3
+print N
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5094">
+        <vpl>14</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474458925</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474458927</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1 = input("Digite o número de tomadas da primeira régua:")
+T2 = input("Digite o número de tomadas da segunda régua:")
+T3 = input("Digite o número de tomadas da terceira régua:")
+T4 = input("Digite o número de tomadas da quarta régua:")
+
+n = T1+T2+T3+T4-3
+
+print(n)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5748">
+        <vpl>14</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678922</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678925</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input(''))
+b=int(input(''))
+c=int(input(''))
+d=int(input(''))
+x=(a+b+c+d)-3
+print('%d'%x)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5735">
+        <vpl>14</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474678467</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678469</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=int(input(''))
+b=int(input(''))
+c=int(input(''))
+d=int(input(''))
+x=(a+b+c+d)-3
+print('%d'%x)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5396">
+        <vpl>14</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474573193</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474573196</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+t1=int(input('informe o número de tomadas em t1:'))
+t2=int(input('informe o número de tomadas em t2:'))
+t3=int(input('informe o número de tomadas em t3:'))
+t4=int(input('informe o número de tomadas em t4:'))
+nt=(t1 - 1) + (t2 - 1) + (t3 - 1) + t4
+print(nt)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5325">
+        <vpl>14</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474548864</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474548867</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+T1 = int(input('Digite o número 1:'))
+T2 = int(input('Digite o número 2:'))
+T3 = int(input('Digite o número 3:'))
+T4 = int(input('Digite o número 4:')) 
+
+
+N = (T1+T2+T3+T4)-3
+
+print N</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4904">
+        <vpl>14</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474413990</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474414012</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  3 tests run/ 3 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+
+t1 = input('DIGITE O VALOR DE T: ')
+t2 = input('DIGITE O VALOR DE T: ')
+t3 = input('DIGITE O VALOR DE T: ')
+t4 = input('DIGITE O VALOR DE T: ')
+
+x = (((t1-1)+t2-1)+t3-1)+t4
+ 
+print x</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7359">
+        <vpl>14</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474990344</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>tomadas.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/tomadas.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+t1= input('numero de tomadas t1:')
+t2= input('numero de tomadas t2:')
+t3= input('numero de tomadas t3:')
+t4= input('numero de tomadas t4:')
+#PROCESSAMENTO
+totalUm= t1-1
+totalDois= t2-1
+totalTres= t3-1
+nTotal= totalUm + totalDois + totalTres + t4
+#SAIDA
+print('%d' %nTotal)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

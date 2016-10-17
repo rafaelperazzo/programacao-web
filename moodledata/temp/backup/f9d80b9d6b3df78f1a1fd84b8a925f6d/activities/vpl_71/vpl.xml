@@ -1,0 +1,5343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="5" moduleid="71" modulename="vpl" contextid="1265">
+  <vpl id="5">
+    <name>Exercício 8 - Prático</name>
+    <shortdescription>Atividade Prática</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="text-decoration: underline; font-size: x-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;/p&gt;
+&lt;p&gt;Suponha que você precise programar uma máquina de autoatendimento (ATM). O usuário entrará com um valor inteiro (qualquer inteiro) correspondente ao valor que deseja sacar, e a ATM precisa decidir como distribuir as cédulas para o usuário. O programa deve sempre priorizar as cédulas de maior valor. Considere que as únicas cédulas disponíveis são as de 20, 10, 5, 2 e 1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENTRADA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Valor a ser sacado. Tem que ser inteiro. Utilize a função int(input('...')) para converter o valor para inteiro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SAÍDA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quantidade de cédulas de 20, 10,5,2,1.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EXEMPLO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Suponha que um cliente queira sacar 123 reais. A ATM deve fornecer 6 cédulas de 20, 0 de 10, 0 de 5, 1 de 2 e 1 de 1. A saída do seu programa deve ser:&lt;/p&gt;
+&lt;p&gt;6&lt;/p&gt;
+&lt;p&gt;0&lt;/p&gt;
+&lt;p&gt;0&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Apenas as quantidades devem ser mostradas, conforme mostrado acima.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DICA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Teste com vários valores manualmente antes de tentar escrever o código.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>1473332400</startdate>
+    <duedate>1474685700</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>1</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>1</automaticgrading>
+    <maxexetime>0</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>0</maxexememory>
+    <maxexefilesize>0</maxexefilesize>
+    <maxexeprocesses>0</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>atm.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/atm.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 123.56
+output = 6
+0
+0
+1
+1</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="4809">
+        <vpl>5</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474389304</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474389306</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+total = int(input('Digite o valor total: '))
+
+t20 = total // 20
+total = total % 20
+
+t10 = total // 10
+total = total % 10
+
+t5 = total // 5
+total = total % 5
+
+t2 = total // 2
+total = total % 2
+
+t1 = total // 1
+total = total % 1
+
+print t20
+print t10
+print t5
+print t2
+print t1</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4656">
+        <vpl>5</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474378570</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474378589</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+V=int(input('Digite um valor a ser sacado: '))
+cedula20=int(V/20)
+resto1=(V-(cedula20*20))
+cedula10=int(resto1/10)
+resto2=(resto1-(cedula10*10))
+cedula5=int(resto2/5)
+resto3=(resto2-(cedula5*5))
+cedula2=int(resto3/2)
+resto4=(resto3-(cedula2*2))
+cedula1=int(resto4/1)
+resto5=(resto4-(cedula1*2))
+print cedula20
+print cedula10
+print cedula5
+print cedula2
+print cedula1
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1986">
+        <vpl>5</vpl>
+        <userid>62</userid>
+        <datesubmitted>1473683861</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473684243</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#ENTRADA
+a=int(input("valor a ser sacado: "))
+#PROCESSAMENTO
+nota20=a//20
+q=a-(nota20*20)
+nota10=q//10
+w=q-(nota10*10)
+nota5=w//5
+e=w-(nota5*5)
+nota2=e//2
+r=e-(nota2*2)
+nota1=r
+#SAIDA
+print(nota20)
+print(nota10)
+print(nota5)
+print(nota2)
+print(nota1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2337">
+        <vpl>5</vpl>
+        <userid>63</userid>
+        <datesubmitted>1473778951</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778970</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input('digite o valor a ser sacado:'))
+
+n1=(n//20)
+n2=(n%20)//10
+n3=((n%20)%10)//5
+n4=(((n%20)%10)%5)//2
+n5=(((n%20)%10)%5)%2//1
+
+print('%d'%n1)
+print('%d'%n2)
+print('%d'%n3)
+print('%d'%n4)
+print('%d'%n5)
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1997">
+        <vpl>5</vpl>
+        <userid>64</userid>
+        <datesubmitted>1473688535</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473688548</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+
+v = int(input('Digite a quantidade a ser sacada: '))
+d20 = 0
+d10 = 0
+d5 = 0
+d2 = 0
+d1 = 0
+
+#PROCESSAMENTO]
+
+while v &gt;=20:
+    d20 = d20 + 1
+    
+    v = v - 20
+    
+while v &gt;= 10 &lt; 20:
+    d10 = d10 + 1
+        
+    v = v - 10
+        
+while v &gt;= 5 &lt; 10:
+    d5 = d5 + 1
+            
+    v = v - 5
+            
+while v &gt;= 2 &lt; 5:
+    d2 = d2 + 1
+                
+    v = v -2
+                
+while v &gt;=1 &lt;2:
+    d1 = d1 + 1
+                    
+    v = v - 1
+                    
+#SAÍDA
+
+print str(d20)
+print str(d10)
+print str(d5)
+print str(d2)
+print str(d1)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2524">
+        <vpl>5</vpl>
+        <userid>65</userid>
+        <datesubmitted>1473816049</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473816051</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+valor=input('Digite o valor a ser sacado:')
+
+notas20=int(valor/20)
+notas10=int((valor-notas20*20)/10)
+notas5=int((valor-notas20*20-notas10*10)/5)
+notas2=int((valor-notas20*20-notas10*10-notas5*5)/2)
+notas1=int((valor-notas20*20-notas10*10-notas5*5-notas2*2)/1)
+
+print(notas20)
+print(notas10)
+print(notas5)
+print(notas2)
+print(notas1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2312">
+        <vpl>5</vpl>
+        <userid>66</userid>
+        <datesubmitted>1473774303</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473774356</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a=int(input("digite o valor a ser sacado:"))
+n20=int(a//20)
+n10=int((a%20)/10)
+n5=int(((a%20)%10)/5)
+n2=int((((a%20)%10)%5)/2)
+n1=int(((((a%20)%10)%5)%2)/1)
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2932">
+        <vpl>5</vpl>
+        <userid>67</userid>
+        <datesubmitted>1473882005</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473882008</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a=input("Digite o valor:")
+c20=a/20
+c10=a%20/10
+c5=(a%20%10)/5
+c2=(a%20%10%5)/2
+c1=(a%20%10%5%2)
+
+
+
+b=int(c20)
+c=int(c10)
+d=int(c5)
+e=int(c2)
+f=int(c1)
+
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2809">
+        <vpl>5</vpl>
+        <userid>68</userid>
+        <datesubmitted>1473869313</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473869354</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA:
+n=int(input('Digite o valor que será sacado:'))
+
+#PROCESSAMENTO:
+n1=(n//20)
+n2=(n%20)//10
+n3=((n%20)%10)//5
+n4=(((n%20)%10)%5)//2
+n5=((((n%20)%10)%5)%2)//1
+
+#SAIDA:
+print ('%d'%n1)
+print ('%d'%n2)
+print ('%d'%n3)
+print ('%d'%n4)
+print ('%d'%n5)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1811">
+        <vpl>5</vpl>
+        <userid>69</userid>
+        <datesubmitted>1473527152</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473527163</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+v=int(input('Informe o valor a ser sacado:'))
+a=(v/20)
+b=((v%20)/10)
+c=((v%20%10)/5)
+d=((v%20%10%5)/2)
+e=((v%20%15%5%2)/1)
+print('%i'%a)
+print('%i'%b)
+print('%i'%c)
+print('%i'%d)
+print('%i'%e)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3371">
+        <vpl>5</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474062140</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474062533</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+Q = int(input())
+
+vinte = Q//20
+dez = (Q-(vinte*20))//10
+cinco = (Q-(vinte*20)-(dez*10))//5
+dois = (Q-(vinte*20)-(dez*10)-(cinco*5))//2
+um = (Q-(vinte*20)-(dez*10)-(cinco*5)-(dois*2))
+
+print vinte
+print dez
+print cinco
+print dois
+print um</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2779">
+        <vpl>5</vpl>
+        <userid>72</userid>
+        <datesubmitted>1473867779</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473867792</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+v=int(input('informe o valor a ser sacado:'))
+
+#PROCESSAMENTO
+n20=(v//20)
+a=(v-(n20*20))
+n10=(a//10)
+b=(a-(n10*10))
+n5=(b//5)
+c=(b-(n5*5))
+n2=(c//2)
+d=(c-(n2*2))
+n1=d
+
+#SAIDA
+print ('%d'%n20)
+print ('%d'%n10)
+print ('%d'%n5)
+print ('%d'%n2)
+print ('%d'%n1)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2588">
+        <vpl>5</vpl>
+        <userid>73</userid>
+        <datesubmitted>1473855612</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473855630</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = int(input('digite o valor a ser sacado:'))
+
+b=a//20
+c=(a%20)//10
+d=((a%20)%10)//5
+e=(((a%20)%10)%5)//2
+f=((((a%20)%10)%5)%2)//1
+print b
+print c
+print d
+print e
+print f</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3244">
+        <vpl>5</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474043477</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474043558</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('Digite o valor a ser sacado:')
+
+b = a//20
+c = a-b*20
+d = c//10
+e = c-d*10
+f = e//5
+g = e-f*5
+h = g//2
+i = g-h*2
+j = i//1
+
+print('%d'% b)
+print('%d'% d)
+print('%d'% f)
+print('%d'% h)
+print('%d'% j)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2686">
+        <vpl>5</vpl>
+        <userid>75</userid>
+        <datesubmitted>1473860915</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473861122</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada 
+
+valor= int(input('Digite o valor a ser sacado:'))
+
+#Processamento 
+
+nota20=valor//20
+nota10=(valor-nota20*20)//10
+nota5=(valor-nota20*20-nota10*10)//5
+nota2=((valor-nota20*20-nota10*10-nota5*5)//2)
+nota1=(valor-nota20*20-nota10*10-nota5*5-nota2*2)
+
+#Saida
+
+print (nota20)
+print (nota10)
+print (nota5)
+print (nota2)
+print (nota1)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3134">
+        <vpl>5</vpl>
+        <userid>76</userid>
+        <datesubmitted>1473992049</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473992051</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+n=int(input('Digite o valor a ser sacado:'))
+
+n1 = (n//20)
+n2 = (n%20)//10
+n3 = ((n%20)%10)//5
+n4 = (((n%20)%10)%5)//2
+n5 = ((((n%20)%10)%5)%2)//1
+
+print('%d' %n1)
+print('%d' %n2)
+print('%d' %n3)
+print('%d' %n4)
+print('%d' %n5)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2327">
+        <vpl>5</vpl>
+        <userid>77</userid>
+        <datesubmitted>1473778114</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778116</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input(''))
+
+n1=(n//20.0)
+n2=(n%20)//10.0
+n3=((n%20)%10.0)//5.0
+n4=(((n%20)%10.0)%5.0)//2.0
+n5=((((n%20)%10.0)%5.0)%2.0)//1.0
+
+print('%d'%n1)
+print('%d'%n2)
+print('%d'%n3)
+print('%d'%n4)
+print('%d'%n5)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2801">
+        <vpl>5</vpl>
+        <userid>78</userid>
+        <datesubmitted>1473868992</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473869267</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input('digite o valor a ser sacado:'))
+
+n1=(n//20)
+n2=(n%20)//10
+n3=((n%20)%10)//5
+n4=(((n%20)%10)%5)//2
+n5=(((n%20)%10)%5)%2//1
+
+print ('%d'%n1)
+print ('%d'%n2)
+print ('%d'%n3)
+print ('%d'%n4)
+print ('%d'%n5)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3820">
+        <vpl>5</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474292146</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474292148</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+#Entrada
+
+v = int(input('Digite a quantidade a ser sacada: '))
+D20 = 0
+D10 = 0
+D5 = 0
+D2 = 0
+D1 = 0
+
+#Processamento
+
+while v &gt;= 20:
+    D20 = D20 +1
+    
+    v = v - 20
+    
+while v &gt;= 10 &lt; 20:
+    D10 = D10 + 1
+    
+    v = v - 10
+    
+while v &gt;= 5 &lt; 10:
+    D5 = D5 + 1
+    
+    v = v - 5
+while v &gt;= 2 &lt; 5:
+    D2 = D2 + 1
+    
+    v = v - 2
+
+while v &gt;= 1 &lt; 2:
+    D1 = D1 + 1
+    
+    v = v - 1
+    
+#Saida
+
+print str(D20)
+print (D10)
+print (D5)
+print (D2)
+print (D1)
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1299">
+        <vpl>5</vpl>
+        <userid>80</userid>
+        <datesubmitted>1473365235</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473365237</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+x=int(input('digite o valor:'))
+a=x//20
+b=(x-(20*a))//10
+c=(x-((20*a)+(10*b)))//5
+d=(x-((20*a)+(10*b)+(5*c)))//2
+e=(x-((20*a)+(10*b)+(5*c)+(2*d)))//1
+print a
+print b
+print c 
+print d
+print e
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2415">
+        <vpl>5</vpl>
+        <userid>81</userid>
+        <datesubmitted>1473795380</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473795412</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+vs=int(input('Digite o valor:'))
+a=(vs//20)
+b=(vs%20)//10
+c=((vs%20)%10)//5
+d=(((vs%20)%10)%5)//2
+e=((((vs%20)%10)%5)%2)//1
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3603">
+        <vpl>5</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474214062</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474214083</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+valor = int(input('Digite o valor:'))
+
+#PROCESSAMENTO
+v1 = valor//20 
+v2 = (valor%20)//10
+v3 = ((valor%20)%10)//5
+v4 = (((valor%20)%10)%5)//2
+v5 = ((((valor%20)%10)%5)%2)//1
+
+#SAIDA
+print ('%d' %v1)
+print ('%d' %v2)
+print ('%d' %v3)
+print ('%d' %v4)
+print ('%d' %v5)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2688">
+        <vpl>5</vpl>
+        <userid>84</userid>
+        <datesubmitted>1473861077</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473861096</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+v=int(input('valor a ser sacado:'))
+
+nota20=(v//20)
+nota10=(v-nota20*20)//10
+nota5=(v-nota20*20-nota10*10)//5
+nota2=(v-nota20*20-nota10*10-nota5*5)//2
+nota1=(v-nota20*20-nota10*10-nota5*5-nota2*2)
+
+print(nota20)
+print(nota10)
+print(nota5)
+print(nota2)
+print(nota1)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1910">
+        <vpl>5</vpl>
+        <userid>85</userid>
+        <datesubmitted>1473622873</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473622876</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n= int(input('Digite um valor para n: '))
+
+q1= n//20
+q2= (n%20)//10
+q3= ((n%20)%10)//5
+q4= (((n%20)%10)%5)//2
+q5= ((((n%20)%10)%5)%2)//1
+
+print q1
+print q2
+print q3
+print q4
+print q5</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3125">
+        <vpl>5</vpl>
+        <userid>86</userid>
+        <datesubmitted>1473990504</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473990532</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+v = int(input('digite o valor em reais:'))
+#processamento
+n20 = v//20
+n10 = (v%20)//10
+n5 = ((v%20)%10)//5
+n2 = (((v%20)%10)%5)//2
+n1 = ((((v%20)%10)%5)%2)//1
+
+#saida
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2628">
+        <vpl>5</vpl>
+        <userid>87</userid>
+        <datesubmitted>1473858388</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858417</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#COMECE SEU CODIGO AQUI
+
+a=int(input('digite o valor do saque:'))
+b=int(a/20)
+c=int((a%20)/10)
+d=int(((a%20)%10)/5)
+e=int((((a%20)%10)%5)/2)
+f=int(((((a%20)%10)%5)%2)/1)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2776">
+        <vpl>5</vpl>
+        <userid>88</userid>
+        <datesubmitted>1473867606</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473867608</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input('digite o valor a sacar: '))
+
+n1=(n//20)
+n2=(n%20)//10
+n3=((n%20)%10)//5
+n4=(((n%20)%10)%5)//2
+n5=((((n%20)%10)%5)%2)//1
+
+print ('%d' %n1)
+print ('%d' %n2)
+print ('%d' %n3)
+print ('%d' %n4)
+print ('%d' %n5)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2646">
+        <vpl>5</vpl>
+        <userid>89</userid>
+        <datesubmitted>1473859253</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473859295</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#entrada
+valorSacado=int(input('digite o valor a ser sacado:'))
+#processamento
+n20=valorSacado//20
+a=valorSacado-(n20*20)
+n10=a//10
+b=a-(n10*10)
+n5=b//5
+c=b-(n5*5)
+n2=c//2
+d=c-(n2*2)
+n1=d
+#saida
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2847">
+        <vpl>5</vpl>
+        <userid>90</userid>
+        <datesubmitted>1473870880</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473870882</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#Entrada
+a=int(input('Valor a ser sacado:'))
+
+#Processamento
+nota20=a//20
+b=a-(nota20*20)
+nota10=b//10
+c=b-(nota10*10)
+nota5=c//5
+d=c-(nota5*5)
+nota2=d//2
+e=d-(nota2*2)
+nota1=e
+
+#Saida
+print(nota20)
+print(nota10)
+print(nota5)
+print(nota2)
+print(nota1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2447">
+        <vpl>5</vpl>
+        <userid>91</userid>
+        <datesubmitted>1473801851</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473801856</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+vs=int(input('Digite o valor:'))
+a=(vs//20)
+b=(vs%20)//10
+c=((vs%20)%10)//5
+d=(((vs%20)%10)%5)//2
+e=((((vs%20)%10)%5)%2)//1
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5062">
+        <vpl>5</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474425083</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474425085</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+
+from __future__ import division
+
+n= input( )
+
+vinte= int((n//20))
+dez= int((n%20)//10)
+cinco= int(((n%20)%10)//5)
+dois= int((((n%20)%10)%5)//2)
+um= int((((n%20)%10)%5)%2)
+
+print(vinte)
+print(dez)
+print(cinco)
+print(dois)
+print(um)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1855">
+        <vpl>5</vpl>
+        <userid>93</userid>
+        <datesubmitted>1473561146</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473561208</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a=int(input('valor a ser sacado: '))
+b=a//20
+c=(a%20)//10
+d=((a%20)%10)//5
+e=(((a%20)%10)%5)//2
+f=(((a%20)%10)%5)%2
+print(b)
+print(c)
+print (d)
+print(e)
+print(f)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2467">
+        <vpl>5</vpl>
+        <userid>94</userid>
+        <datesubmitted>1473807309</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473807333</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+vs=int(input('digite o valor:'))
+
+a = (vs//20)
+b = (vs%20)//10
+c = ((vs%20)%10)//5
+d = (((vs%20)%10)%5)//2
+e = ((((vs%20)%10)%5)%2)//1
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1749">
+        <vpl>5</vpl>
+        <userid>95</userid>
+        <datesubmitted>1473517000</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473517025</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+vs=int(input('Digite o valor:'))
+a = (vs//20)
+b = (vs%20)//10
+c = ((vs%20)%10)//5
+d = (((vs%20)%10)%5)//2
+e = ((((vs%20)%10)%5)%2)//1
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5345">
+        <vpl>5</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474555970</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474555989</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Valor = int(input('Digite o valor a ser sacado:'))
+
+Cedula20 = int(Valor/20)
+RestodaCedula20 = (Valor - (Cedula20 * 20))
+Cedula10 = int(RestodaCedula20/10)
+RestodaCedula10 = (RestodaCedula20 - (Cedula10 *10))
+Cedula5 = int(RestodaCedula10/5)
+RestodaCedula5 = (RestodaCedula10 - (Cedula5 *5))
+Cedula2 = int(RestodaCedula5/2)
+RestodaCedula2 = (RestodaCedula5 - (Cedula2 * 2))
+Cedula1 = int(RestodaCedula2/1)
+RestodaCedula1 = (RestodaCedula2 - (Cedula1 * 1))
+
+print Cedula20
+print Cedula10
+print Cedula5
+print Cedula2
+print Cedula1</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3360">
+        <vpl>5</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474060894</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474060914</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+n=int(input('Digite o valor para sacar:'))
+
+a1=(n//20)
+a2=(n%20)//10
+a3=((n%20)%10)//5
+a4=(((n%20)%10)%5)//2
+a5=((((n%20)%10)%5)%2)//1
+
+print('%d'%a1)
+print('%d'%a2)
+print('%d'%a3)
+print('%d'%a4)
+print('%d'%a5)
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2719">
+        <vpl>5</vpl>
+        <userid>98</userid>
+        <datesubmitted>1473862461</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473862493</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+valor=int(input('Digite o valor: '))
+
+n20=valor//20
+n10=(valor%20)//10
+n5=((valor%20)%10)//5
+n2=(((valor%20)%10)%5)//2
+n1=((((valor%20)%10)%5)%2)//1
+
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2860">
+        <vpl>5</vpl>
+        <userid>99</userid>
+        <datesubmitted>1473871808</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473871810</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+valor=input('Valor: ')
+
+notas20=(valor//20)
+notas10=((valor -  notas20*20)//10)
+notas5=((valor -  notas20*20 - notas10*10)//5)
+notas2=((valor -  notas20*20 - notas10*10 - notas5*5)//2)
+notas1=((valor -  notas20*20 - notas10*10 - notas5*5 - notas2*2)//1)
+
+print('%.0f'%notas20)
+print('%.0f'%notas10)
+print('%.0f'%notas5)
+print('%.0f'%notas2)
+print('%.0f'%notas1)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1966">
+        <vpl>5</vpl>
+        <userid>100</userid>
+        <datesubmitted>1473642199</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473642219</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a= int(input('Valor do saque: '))
+b= (a//20)
+c= (a%20)//10
+d= ((a%20)%10)//5
+e= (((a%20)%10)%5)//2
+f= ((((a%20)%10)%5)%2)//1
+print b
+print c
+print d
+print e
+print f
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2723">
+        <vpl>5</vpl>
+        <userid>101</userid>
+        <datesubmitted>1473863874</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473863877</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+c = int(input('Digite o valor a ser sacado: '))
+
+c1 = (c//20)
+c2 = (c%20)//10
+c3 = ((c%20)%10)//5
+c4 = (((c%20)%10)%5)//2
+c5 = ((((c%20)%10)%5)%2)//1
+
+print ('%d' %c1)
+print ('%d' %c2)
+print ('%d' %c3)
+print ('%d' %c4)
+print ('%d' %c5)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2335">
+        <vpl>5</vpl>
+        <userid>102</userid>
+        <datesubmitted>1473778579</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473778581</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input('n'))
+
+n1=(n//20.0)
+n2=(n%20)//10.0
+n3=((n%20)%10)//5.0
+n4=(((n%20)%10)%5)//2.0
+n5=((((n%20)%10)%5)%2)//1.0
+
+print('%d:' %n1)
+print('%d:' %n2)
+print('%d:' %n3)
+print('%d:' %n4)
+print('%d:' %n5)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4643">
+        <vpl>5</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474339018</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474339030</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+v=input('Informe o valor a ser sacado em reais:')
+N1=v//20
+N2=(v%20)//10
+N3=((v%20)%10)//5
+N4=(((v%20)%10)%5)//2
+N5=((((v%20)%10)%5)%2)//1
+print('%.f'%N1)
+print('%.f'%N2)
+print('%.f'%N3)
+print('%.f'%N4)
+print('%.f'%N5)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4630">
+        <vpl>5</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474336276</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474336278</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+valor=int(input('Digite o valor a ser sacado:'))
+#PROCESSAMENTO
+cedula20=(valor)//(20)
+cedula10=((valor%20)//10)
+cedula5=((valor%20)%10)//(5)
+cedula2=(((valor%20)%10)%5)//(2)
+cedula1=((((valor%20)%10)%5)%2)//(1)
+#SAÍDA
+print('%.f'%(cedula20))
+print('%.f'%(cedula10))
+print('%.f'%(cedula5))
+print('%.f'%(cedula2))
+print('%.f'%(cedula1))</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2081">
+        <vpl>5</vpl>
+        <userid>106</userid>
+        <datesubmitted>1473701392</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473701445</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#entrada
+v = int( input('Digite o valor que deseja sacar: '))
+
+#processamento:
+notasde20 = v//20
+notasde10 = (v%20)//10
+notasde5 = ((v%20)%10)//5
+notasde2 = (((v%20)%10)%5)//2
+notasde1 = (((v%20)%10)%5)%2
+
+#saída:
+print (notasde20)
+print (notasde10)
+print (notasde5)
+print (notasde2)
+print (notasde1)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2597">
+        <vpl>5</vpl>
+        <userid>107</userid>
+        <datesubmitted>1473855868</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473856055</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+v=input('digite o valor a ser sacado:')
+a=v/20
+b=((v%20)/10)
+c=((v%20%10)/5)
+d=((v%20%10%5)/2)
+e=((v%20%10%5%2)/1)
+print('%i'%a)
+print('%i'%b)
+print('%i'%c)
+print('%i'%d)
+print('%i'%e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1963">
+        <vpl>5</vpl>
+        <userid>108</userid>
+        <datesubmitted>1473636890</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473636893</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+v = int(input(' Digite o valor:'))
+
+contador1 = v//20
+contador2 = (v%20)//10
+contador3 = ((v%20)%10)//5
+contador4 = (((v%20)%10)%5)//2
+contador5 = (((v%20)%10)%5)%2
+
+print ('%d' %contador1)
+print ('%d' %contador2)
+print ('%d' %contador3)
+print ('%d' %contador4)
+print ('%d' %contador5)
+    
+
+ 
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1699">
+        <vpl>5</vpl>
+        <userid>109</userid>
+        <datesubmitted>1473467346</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473467349</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+#Entrada
+c = int(input('Digite o valor que você quer sacar:'))
+
+#Processamento
+a20 = c//20
+a10 = (c-(a20*20))//10
+a5 = (c-(a20*20)-(a10*10))//5
+a2 = (c-(a20*20)-(a10*10)-(a5*5))//2
+a1 = c-(a20*20)-(a10*10)-(a5*5)-(a2*2)
+
+#Saída
+print a20
+print a10
+print a5
+print a2
+print a1
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2133">
+        <vpl>5</vpl>
+        <userid>110</userid>
+        <datesubmitted>1473713195</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473713227</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+v=int(input('Digite a quantia em dinheiro: '))
+x20=v//20
+r20=v%20
+
+x10=r20//10
+r10=r20%10
+
+x5=r10//5
+r5=r10%5
+
+x2=r5//2
+r2=r5%2
+
+x1=r2//1
+
+print(x20)
+print(x10)
+print(x5)
+print(x2)
+print(x1)
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4561">
+        <vpl>5</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474319204</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474319246</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+a=int(input('digite um numero: '))
+b=20
+c=10
+d=5
+e=2
+f=1
+
+g=(a//20)
+h=((a%20)//10)
+i=(((a%20)%10)//5)
+j=((((a%20)%10)%5)//2)
+l=(((((a%20)%10)%5)%2)//1)
+
+print g
+print h
+print i
+print j
+print l
+
+
+    
+
+
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1845">
+        <vpl>5</vpl>
+        <userid>112</userid>
+        <datesubmitted>1473535332</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473535334</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+valor=input('digite a quantia que você deseja sacar:')
+v= (valor)-(valor%1)
+a=(v/20)-(v/20)%1
+b=((v%20)/10)-((v%20)/10)%1
+c=(((v%20)%10)/5)-(((v%20)%10)/5)%1
+d=(((((v%20)%10)%5)/2))-((((v%20)%10)%5)/2)%1
+e=(valor)-((a*20)+(b*10)+(c*5)+(d*2))
+print('%i'%a)
+print('%i'%b)
+print('%i'%c)
+print('%i'%d)
+print('%i'%e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3581">
+        <vpl>5</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474208669</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474208696</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+n=int(input('Digite o valor a ser sacado: '))
+
+x1=n//20
+
+x2=n%20//10
+
+x3=((n%20)%10)//5
+
+x4=(((n%20)%10)%5)//2
+
+x5=((((n%20)%10)%5)%2)//1
+
+
+print x1
+print x2
+print x3
+print x4 
+print x5</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3478">
+        <vpl>5</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474077502</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474077940</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+n=int(input('digite o valor que deseja sacar:'))
+a=math.floor(n/20)
+b=n-20*a
+b1=math.floor(b/10)
+c=b-10*b1
+c1=math.floor(c/5)
+d=c-5*c1
+d1=math.floor(d/2)
+e=d-2*d1
+print('%d' %a)
+print('%d' %b1)
+print('%d' %c1)
+print('%d' %d1)
+print('%d' %e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2508">
+        <vpl>5</vpl>
+        <userid>116</userid>
+        <datesubmitted>1473812556</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473812574</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+x = int(input ('insira o valor a ser sacado:'))
+
+m1 = x-(x%100)
+c1 = m1/20
+
+m2 = (x%100)-((x%100)%10)
+c21 = math.floor(m2/20)
+c22 = math.floor((m2%20)/10)
+
+m3 = (x%100)%10
+c31 = math.floor(m3/5) 
+c32 = math.floor(((m3%5))/2)
+c33 = math.floor((m3-(m3/5)-(((m3%5))%2))/1)
+
+A = c1+c21
+B = c22
+C = c31
+D = c32
+E = c33
+
+print ('%d'%A)
+print ('%d'%B)
+print ('%d'%C)
+print ('%d'%D)
+print ('%d'%E)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2780">
+        <vpl>5</vpl>
+        <userid>117</userid>
+        <datesubmitted>1473867822</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473867849</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n=int(input('Digite o valor a ser sacado:'))
+
+n1=(n//20)
+n2=(n%20)//10
+n3=((n%20)%10)//5
+n4=(((n%20)%10)%5)//2
+n5=((((n%20)%10)%5)%2)//1
+
+print('%d'%n1)
+print('%d'%n2)
+print('%d'%n3)
+print('%d'%n4)
+print('%d'%n5)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2486">
+        <vpl>5</vpl>
+        <userid>118</userid>
+        <datesubmitted>1473811377</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473811397</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#1
+a = int(input('a:'))
+
+#2
+c = a//20
+d = (a%20)//10
+e = (a%20%10)//5
+f = (a%20%10%5)//2
+g = (a%20%10%5%2)//1
+
+#3
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2715">
+        <vpl>5</vpl>
+        <userid>120</userid>
+        <datesubmitted>1473862212</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473862226</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+v=int(input('informe o valor a ser sacado:'))
+#PROCESSAMENTO
+n20=(v//20)
+a=(v-(n20*20))
+n10=(a//10)
+b=(a-(n10*10))
+n5=(b//5)
+c=(b-(n5*5))
+n2=(c//2)
+d=(c-(n2*2))
+n1=d
+#SAIDA
+print('%d'%n20)
+print('%d'%n10)
+print('%d'%n5)
+print('%d'%n2)
+print('%d'%n1)
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3558">
+        <vpl>5</vpl>
+        <userid>122</userid>
+        <datesubmitted>1474164784</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474165089</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+
+vs=int(input('digite o valor a ser sacado:'))
+
+#PROCESSAMENTO
+
+ceduladevinte=int(vs/20)
+ceduladedez=int((vs%20)/10)
+ceduladecinco=int(((vs%20)%10)/5)
+ceduladedois=int((((vs%20)%10)%5)/2)
+ceduladeum=int(((((vs%20)%10)%5)/2)/1)
+
+#SAÍDA
+
+print(ceduladevinte)
+print(ceduladedez)
+print(ceduladecinco)
+print(ceduladedois)
+print(ceduladeum)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1901">
+        <vpl>5</vpl>
+        <userid>123</userid>
+        <datesubmitted>1473612985</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473613049</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+n= int(input('Digite o valor a ser sacado:'))
+
+V= n//20
+a= n%20
+D=a//10
+b=a%10
+C=b//5
+f=b%5
+Do=f//2
+g=f%2
+U=g//1
+
+print V
+print D
+print C
+print Do
+print U</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1854">
+        <vpl>5</vpl>
+        <userid>124</userid>
+        <datesubmitted>1473555911</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473555915</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a = int(input('Digite o valor em reais: '))
+b = a//20
+c = (a - (b*20))//10
+d = (a - ((c*10)+(b*20)))//5
+e = (a - ((d*5)+(c*10)+(b*20)))//2
+f = (a - ((e*2)+(d*5)+(c*10)+(b*20)))
+print('%d' %b)
+print('%d' %c)
+print('%d' %d)
+print('%d' %e)
+print('%d' %f)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1685">
+        <vpl>5</vpl>
+        <userid>128</userid>
+        <datesubmitted>1473466080</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473466086</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+
+valor=int(input('Digite o valor a ser sacado: '))
+
+n20=valor//20
+print n20
+
+n10=(valor-(n20*20))//10
+print n10
+
+n5=(valor-((n20*20)+(n10*10)))//5
+print n5
+
+n2=(valor-((n20*20)+(n10*10)+(n5*5)))//2
+print n2
+
+n1=(valor-((n20*20)+(n10*10)+(n5*5)+(n2*2)))
+print n1</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1275">
+        <vpl>5</vpl>
+        <userid>129</userid>
+        <datesubmitted>1473362901</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473362949</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+A= int(input('Digite o valor a ser sacado: '))
+B= (A//20)
+C= (A%20)//10
+D= ((A%20)%10)//5
+E= (((A%20)%10)%5)//2
+F= ((((A%20)%10)%5)%2)//1
+print B
+print C
+print D
+print E
+print F
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2627">
+        <vpl>5</vpl>
+        <userid>130</userid>
+        <datesubmitted>1473858324</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473858359</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+D=int(input('Digite o valor de D:'))
+
+a= D//20
+b= D%20
+c= b//10
+d= b%10
+e=d//5
+f=d%5
+g=f//2
+h=f%2
+i=h//1
+print(a)
+print(c)
+print(e)
+print(g)
+print(i)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3934">
+        <vpl>5</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474293140</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474293148</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+     
+#COMECE SEU CODIGO AQUI
+a = int(input('digite o valor: '))
+
+n20 = int(a/20)
+n10 = int((a%20)/10)
+n5 = int(((a%20)%10)/5)
+n2 = int((((a%20)%10)%5)/2)
+n1 = int(((((a%20)%10)%5)%2)/1)
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2812">
+        <vpl>5</vpl>
+        <userid>132</userid>
+        <datesubmitted>1473869337</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473869338</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=  int(input('digite a quantia a ser sacada:'))
+x=a//20
+y=(a%20)//10
+z=(a%20)%10//5
+t=(a%20)%10%5//2
+w=(a%20)%10%5%2//1
+math.floor(x)
+math.floor(t)
+math.floor(w)
+print('%.d'%x)
+print(y)
+print(z)
+print('%.d'%t)
+print('%.d'%w)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2981">
+        <vpl>5</vpl>
+        <userid>133</userid>
+        <datesubmitted>1473947051</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473947068</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+n=int(input('Digite o valor que deseja sacar:'))
+a=math.floor(n/20)
+b=n-20*a
+b1=math.floor(b/10)
+c=b-10*b1
+c1=math.floor(c/5)
+d=c-5*c1
+d1=math.floor(d/2)
+e=d-2*d1
+print('%d' %a)
+print('%d' %b1)
+print('%d' %c1)
+print('%d' %d1)
+print('%d' %e)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5696">
+        <vpl>5</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474675932</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474675935</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+valor = int(input('Digite o valor:'))
+
+a = valor/20
+aa = (valor%20)
+b = aa/10
+bb = (aa%10)
+c = bb/6
+cc = (bb%6)
+d = cc/2
+dd = cc%2
+e = dd/1
+
+print ('%d' %a)
+print ('%d' %b)
+print ('%d' %c)
+print ('%d' %d)
+print ('%d' %e)
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2867">
+        <vpl>5</vpl>
+        <userid>135</userid>
+        <datesubmitted>1473873115</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473873117</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+n=int(input('digite um valor:'))
+
+if (n&gt;=20) :
+    qtde20= int(n/20)
+    n= n-(qtde20*20)
+elif n&lt;20:
+    qtde20=0
+    
+    
+if n&gt;=10 :
+    qtdeDEZ = int(n/10)
+    n= n-(qtdeDEZ *10)
+elif n&lt;10:
+    qtdeDEZ=0
+    
+if n&gt;=5 :
+    qtde5= int(n/5)
+    n= n-(qtde5*5)
+elif n&lt;5:
+    qtde5=0
+    
+if n&gt;=2 :
+    qtde2= int(n/2)
+    n= n-(qtde2*2)
+elif n&lt;2:
+    qtde2=0
+    
+if n&gt;=1 :
+    qtde1= int(n/1)
+    n= n-(qtde1*1)
+elif n&lt;1:
+    qtde1=0
+    
+print qtde20
+print qtdeDEZ
+print qtde5
+print qtde2
+print qtde1</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2386">
+        <vpl>5</vpl>
+        <userid>136</userid>
+        <datesubmitted>1473788326</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473788334</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a = int(input('Valor do saque:'))
+n20 = int(a/20)
+n10 = int((a%20)/10)
+n5 = int(((a%20)%10)/5)
+n2 = int((((a%20)%10)%5)/2)
+n1 = int(((((a%20)%10)%5)%2)/1)
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1617">
+        <vpl>5</vpl>
+        <userid>137</userid>
+        <datesubmitted>1473459239</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473459261</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+valor=int(input(' Digite o valor: '))
+a=20
+b=10
+c=5
+d=2
+e=1
+
+test1=(valor//a)
+a=test1
+Stest1=(valor-(test1*20))
+test2=(Stest1//b)
+b=test2
+Stest2=(Stest1-(test2*10))
+test3=(Stest2//c)
+c=test3
+Stest3=(Stest2-(test3*5))
+test4=(Stest3//d)
+d=test4
+Stest4=(Stest3-(test4*2))
+test5=int(Stest4//e)
+e=test5
+print a 
+print b
+print c
+print d
+print e
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="1429">
+        <vpl>5</vpl>
+        <userid>138</userid>
+        <datesubmitted>1473436237</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473436257</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+x=int(input('digite o valor a ser sacado:'))
+a=x//20
+b=(x%20)//10
+c=((x%20)%10)//5
+d=(((x%20)%10)%5)//2
+e=(((x%20)%10)%5)%2
+print a
+print b
+print c 
+print d
+print e</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4051">
+        <vpl>5</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474305633</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474305649</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('informe o valor de a:')
+a=int(a)
+b=a//20
+print(b)
+c=a%20
+d=c//10
+print(d)
+e=c%10
+f=e//5
+print(f)
+g=e%5
+h=g//2
+print(h)
+i=g%2
+j=i//1
+print(j)
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3524">
+        <vpl>5</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474147319</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474147346</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+V = int(input('Digite o valor a ser sacado:'))
+
+C20 = V//20
+C10 = (V%20)//10
+C5 = ((V%20)%10)//5
+C2 = (((V%20)%10)%5)//2
+C1 = ((((V%20)%10)%5)%2)//1
+
+print (C20)
+print (C10)
+print (C5)
+print (C2)
+print (C1)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5576">
+        <vpl>5</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474636985</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+v = int(input('valor a ser sacado '))
+
+q20 = v//20
+q10 = (v-(q20*20))//10
+q5 = (v-(q20*20)-(q10*10))//5
+q2 = (v-(q20*20)-(q10*10)-(q5*5)//2
+q1 = (v-(q20*20)-(q10*10)-(q5*5)-(q2*2)
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="3305">
+        <vpl>5</vpl>
+        <userid>145</userid>
+        <datesubmitted>1474053915</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474053918</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+valorSacado=int(input('digite o valor a ser sacado:'))
+
+
+n20=valorSacado//20
+a=valorSacado-(n20*20)
+n10=a//10
+b=a-(n10*10)
+n5=b//5
+c=b-(n5*5)
+n2=c//2
+d=c-(n2*2)
+n1=d
+
+
+print(n20)
+print(n10)
+print(n5)
+print(n2)
+print(n1)
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4662">
+        <vpl>5</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474383429</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474383450</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+valor = int(input('digite o valor: '))
+
+a = valor//20
+b = (valor%20)//10
+c = (valor%10)//5
+d = (valor%5)//2
+e = (valor%2)//1
+
+print a
+print b
+print c
+print d
+print e</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="2137">
+        <vpl>5</vpl>
+        <userid>148</userid>
+        <datesubmitted>1473718803</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1473718835</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>atm.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/1 : Teste 1
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  1  test run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/atm.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+valor = int(input('Digite o valor do saque:'))
+#PROCESSAMENTO
+restoVinte = valor%20
+restoDez = restoVinte%10
+restoCinco = restoDez%5
+restoDois = restoCinco%2
+restoUm = restoDois%1
+
+qtdVinte = valor-restoVinte
+qtdTotalVinte = qtdVinte/20
+
+qtdDez = restoVinte-restoDez
+qtdTotalDez = qtdDez/10
+
+qtdCinco = restoDez-restoCinco
+qtdTotalCinco = qtdCinco/5
+
+qtdDois = restoCinco-restoDois
+qtdTotalDois = qtdDois/2
+
+qtdUm = restoDois-restoUm
+qtdTotalUm = qtdUm/1
+
+#SAIDA
+print ('%d' %qtdTotalVinte)
+print ('%d' %qtdTotalDez)
+print ('%d' %qtdTotalCinco)
+print ('%d' %qtdTotalDois)
+print ('%d' %qtdTotalUm)</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

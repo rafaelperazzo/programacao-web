@@ -1,0 +1,5583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="11" moduleid="80" modulename="vpl" contextid="1289">
+  <vpl id="11">
+    <name>Exercício 14</name>
+    <shortdescription>Exercício 14</shortdescription>
+    <intro>&lt;p&gt;Dois times, Cormengo e Flaminthians, participam de um campeonato de futebol, juntamente com outros times. Cada vitória conta três pontos, cada empate um ponto. Fica melhor classificado no campeonato um time que tenha mais pontos. Em caso de empate no número de pontos, fica melhor classificado o time que tiver maior saldo de gols. Se o número de pontos e o saldo de gols forem os mesmos para os dois times então os dois times estão empatados no campeonato. Dados os números de vitórias e empates, e os saldos de gols dos dois times, sua tarefa é determinar qual dos dois está melhor classificado, ou se eles estão empatados no campeonato.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ENTRADA&lt;/strong&gt;&lt;/p&gt;
+&lt;div data-canvas-width="348.51997536666664"&gt;A entrada: $$C_v,C_e,C_s,F_v,F_e,F_s $$ que são, respectivamente, o número de vitórias do Cormengo, o número de empates do Cormengo, o saldo de gols do Cormengo, o número de vitórias do Flaminthians, o número de empates do Flaminthians e o saldo de gols do Flaminthians.&lt;/div&gt;
+&lt;div data-canvas-width="348.51997536666664"&gt;&lt;/div&gt;
+&lt;div data-canvas-width="348.51997536666664"&gt;&lt;strong&gt;SAÍDA&lt;/strong&gt;&lt;/div&gt;
+&lt;div data-canvas-width="348.51997536666664"&gt;&lt;/div&gt;
+&lt;div data-canvas-width="348.51997536666664"&gt;
+&lt;div&gt;Seu programa deve imprimir uma única linha. Se Cormengo é melhor classificado que Flaminthians, a linhadeve conter apenas a letra ‘C’; se Flaminthians é melhor classificado que Cormengo, a linha deve conter apenas a letra ‘F’ ; e se os dois times estão empatados a linha deve conter apenas o caractere ‘='&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt;&lt;/div&gt;
+&lt;div&gt;Para a entrada 10,5,18,11,1,18&lt;/div&gt;
+&lt;div&gt;A saída deve ser: 'C'&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Para a entrada 10,5,18,11,2,18&lt;/div&gt;
+&lt;div&gt;A saída deve ser: '='&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div style="left: 749.707px; top: 705.215px; font-size: 16.6043px; font-family: monospace;"&gt;&lt;/div&gt;
+&lt;/div&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1475463300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>917504</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>5</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>jogo.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/jogo.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 10
+5
+18
+11
+1
+18
+output='C'
+
+case = Teste 2
+input = 10
+5
+18
+11
+2
+18
+output='='
+</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="3984">
+        <vpl>11</vpl>
+        <userid>2</userid>
+        <datesubmitted>1474302362</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4410">
+        <vpl>11</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474308658</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308685</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Digite o número de vitórias de Cormengo: ')
+Ce=input('Digite o número de empates de Cormengo: ')
+Cs=input('Digite o número de saldo de gols do Cormengo: ')
+Fv=input('Digite o número de vitórias de Flaminthians: ')
+Fe=input('Digite o número de empates de Flaminthians: ')
+Fs=input('Digite o número de saldo de gols do Flaminthians: ')
+Pc=(Cv*3)+(Ce*1)
+Pf=(Fv*3)+(Fe*1)
+if Pc&gt;Pf:
+    print ('C')
+elif Pc&lt;Pf:
+    print ('F')
+else:
+    if Cs&gt;Fs:
+        print ('C')
+    if Cs&lt;Fs:
+        print ('F')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5361">
+        <vpl>11</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474562250</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474562283</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+
+cv=input("Numero de vitorias do Cormengo: ")
+ce=input("Numero de empates do Cormengo: ")
+cs=input("Saldo de gols do Cormengo: ")
+fv=input("Numero de vitorias do Flaminthians: ")
+fe=input("Numero de empates do Flaminthians: ")
+fs=input("Slado de gols do Flaminthians: ")
+
+#PROCESSAMENTO
+
+pontosC=cv*3+ce
+pontosF=fv*3+fe
+
+#SAIDA
+
+if pontosC&gt;pontosF:
+    print("C")
+else:
+    if pontosF&gt;pontosC:
+        print("F")
+    else:
+        if cs&gt;fs:
+            print("C")
+        else:
+            if fs&gt;cs:
+                print("F")
+            else:
+                print("=")
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5002">
+        <vpl>11</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474419003</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474419030</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Digite o valor de Cv:')
+Ce=input('Digite o valor de Ce:')
+Cs=input('Digite o valor de Cs:')
+Fv=input('Digite o valor de Fv:')
+Fe=input('Digite o valor de Fe:')
+Fs=input('Digite o valor de Fs:')
+
+P1=(Cv*3+Ce*1)
+P2=(Fv*3+Fe*1)
+
+if P1&gt;P2:
+    print ('C')
+elif P1&lt;P2:
+    print ('F')
+elif P1==P2:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5186">
+        <vpl>11</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474464590</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464634</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input('Digite o número de vitótias do Cormengo: ')
+Ce = input('Digite o número de empates do Cormengo: ')
+Cs = input('Digite o saldo de gols: ')
+Fv = input('Digite o número de vitótias do Flaminthians: ')
+Fe = input('Digite o número de empates do Flaminthians: ')
+Fs = input('Digite o saldo de gols: ')
+
+C = (Cv * 3) + Ce
+F = (Fv * 3) + Fe
+
+
+if C &gt; F:
+    print "'C'"
+elif C &lt; F:
+    print "'F'"
+elif C == F:
+    if Cs &gt; Fs:
+        print "'C'"
+    elif Cs &lt; Fs:
+        print "'F'"
+    elif Cs == Fs:
+        if Ce &gt; Fe:
+            print "'C'"
+        elif Ce &lt; Fe:
+            print "'V'"
+        
+else: 
+    print "'='"
+    
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4911">
+        <vpl>11</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474414291</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474414294</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o número de vitórias do Cormengo: ')
+Ce=input('Digite o número de empates do Cormengo: ')
+Cg=input('Digite o saldo de gols do Cormengo: ')
+
+Fv=input('Digite o número de vitórias do Flaminthias: ')
+Fe=input('Digite o número de empates do Flaminthias: ')
+Fg=input('Digite o saldo de gols do Flaminthias: ')
+
+VCormengo=(Cv*3+Ce*1)
+VFlaminthias=(Fv*3+Fe*1)
+
+if (VCormengo&gt;VFlaminthias):
+    print('C')
+    
+if (VCormengo&lt;VFlaminthias):
+    print('F')
+    
+if (VCormengo==VFlaminthias):
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5462">
+        <vpl>11</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474592007</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474592030</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=int(input("digite as vitorias:"))
+Ce=int(input("digite os empates:"))
+Cs=int(input(" digite o saldo:"))
+Fv=int(input("digite as vitorias:"))
+Fe=int(input("digite os empates:"))
+Fs=int(input("digite o saldo:"))
+Pc=(Cv*3)+(1*Ce)
+Pf=(Fv*3)+(1*Fe)
+if Pc&gt;Pf:
+    print("C")
+if Pf&gt;Pc:
+    prnit("F")
+if (Pc==Pf) and (Cs&gt;Fs):
+    print("C")
+if (Pc==Pf) and (Fs&gt;Cs):
+    print("F")
+if (Pc==Pf) and (Cs==Fs):
+    print("=")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5602">
+        <vpl>11</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474645734</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474645736</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input("Digite o número de vitorias do Cormengo:")
+ce=input("Digite o número de empates do Cormengo:")
+cs=input("Digite o saldo de gols do Cormengo:")
+
+fv=input("Digite o número de vitorias do Flaminthians:")
+fe=input("Digite o número de empates do Faminthians:")
+fs=input("Digite o saldo de gols do Forminthians:")
+
+tpc=(cv*3)+ce
+tpf=(fv*3)+fe
+if tpc&gt;tpf:
+    print("'C'")
+else:
+    print("'F'")
+        
+if tpc==tpf:
+    print("'='")
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4567">
+        <vpl>11</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474326180</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474326217</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA:
+Cv= input ('Digite o número de vitórias do Cormengo:')
+Ce= input ('Digite o número de empates do Cormengo:')
+Cs= input ('Digite o saldo de gols do Cormengo:')
+
+Fv= input ('Digite o número de vitórias do Flaminthians:')
+Fe= input ('Digite o número de empates do Flaminthians:')
+Fs= input ('Digite o número de gols do Flaminthians:')
+
+if ((Cv*3)+Ce+Cs)&gt;((Fv*3)+Fe+Fs):
+    print ('C')
+elif ((Fv*3)+Fe+Fs)&gt;((Cv*3)+Ce+Cs):
+    print ('F')
+else:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4334">
+        <vpl>11</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474307641</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307651</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Digite o número de vitórias do Cormengo:')
+Ce=input('Digite o número de empates do Cormengo:')
+Cs=input('DIgite o saldo de gols do Cormengo:')
+Fv=input('Digite o número de vitórias do Flaminthians:')
+Fe=input('Digite o número de empates do Flaminthians:')
+Fs=input('DIgite o saldo de gols do Flaminthians:')
+Pc=((Cv*3)+Ce)
+Pf=((Fv*3)+Fe)
+if Pc&gt;Pf:
+    print('C')
+if Pf&gt;Pc:
+    print('F')
+if Cs&gt;Fs:
+    print('C')
+if Fs&gt;Cs:
+    print('F')
+else:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4370">
+        <vpl>11</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474308145</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308204</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv = input("Nº de Vitórias do Cormengo: ")
+ce = input("Nº de Empate do Cormengo: ")
+cs = input("Saldo de Gol do Cormengo: ")
+fv = input("Nº de Vitórias do Flaminthians: ")
+fe = input("Nº de Empate do Flaminthians: ")
+fs = input("Saldo de Gol do Flaminthians: ")
+
+pc = (cv*3+ce)
+pf = (fv*3+fe)
+
+if pc&gt;pf:
+    print("C")
+elif pf&gt;pc:
+    print("F")
+else:
+    if cs&gt;fs:
+        print("C")
+    elif fs&gt;cs:
+        print("F")
+    elif cs==fs:
+        print("=")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5333">
+        <vpl>11</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474551682</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474551685</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+cv=input ('digite a quantidade de vitorias do cormengo:')
+ce=input ('digite a quantidade de empates do cormengo:')
+cs=input ('diigite a quantidade do saldo de gols do cormengo:')
+fv=input ('digite a quantidade de vitorias do flaminthians:')
+fe=input ('digite a quantidade de empates do flaminthians:')
+fs=input ('digite a quantidade do saldo de gols do flaminthians:')
+
+#PROCESSAMENTO
+pc=(cv*3)+ce
+pf=(fv*3)+fe
+
+#SAIDA
+if pc&gt;pf or cs&gt;fs:
+    print ('C')
+if pc&lt;pf or cs&lt;fs:
+    print ('F')
+else:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4401">
+        <vpl>11</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474308482</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308520</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv = input ('digite cv:')
+ce = input ('digite ce:')
+cs = input ('digite cs:')
+fv = input ('digite fv:')
+fe = input ('digite fe:')
+fs = input ('digite fs:')
+
+if ((3*cv)+ce)&gt;((3*fv)+fe):
+    print ('C')
+if ((3*cv)+ce)&lt;((3*fv)+fe):
+    print ('F')
+if ((3*cv)+ce)==((3*fv)+fe):
+    if cs&gt;fs:
+        print ('C')
+    if fs&gt;cs:
+        print ('F')
+    if cs==fs:
+        print ('=')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4541">
+        <vpl>11</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474314641</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314653</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv = input('')
+ce = input('')
+cs = input('')
+fv = input('')
+fe = input('')
+fs = input('')
+
+pc = (cv*3)+ce
+pf = (fv*3)+fe
+
+if pc&gt;pf:
+    print('C')
+elif pf&gt;pc:
+    print('F')
+elif cs&gt;fs:
+    print('C')
+elif fs&gt;cs:
+    print('F')
+else:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4915">
+        <vpl>11</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474414575</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474414673</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+cv= input ('Digite o número de vitórias do Cormengo:')
+ce= input ('Digite o número de empates do Cormengo:')
+cs= input ('Digite o saldo de gols do Cormengo:')
+fv= input ('Digite o número de vitórias do Flamithians:')
+fe= input ('Digite o número de empates do Flamithians:')
+fs= input ('Digite o saldo de gols do Flamithians:')
+
+#Processamento e Saida:
+
+vc=((cv*3)+ce+cs)
+vf=((fv*3)+fe+fs)
+
+if (vc&gt;vf):
+    print ('C')
+elif (vc&lt;vf):
+    print ('F')
+else:
+    print ('=') 
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5513">
+        <vpl>11</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474603871</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474603876</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input('Digite o valor de Cv:')
+Ce = input('Digite o valor de Ce:')
+Cs = input('Digite o valor de Cs:')
+Fv = input('Digite o valor de Fv:')
+Fe = input('Digite o valor de Fe:')
+Fs = input('Digite o valor de Fs:')
+
+if Cv*3 + Ce*1 &gt; Fv*3 + Fe*1:
+    print('C')
+if Cv*3 + Ce*1 &lt; Fv*3 + Fe*1:
+    print('F')
+if Cv*3 + Ce*1 == Fv*3 + Fe*1:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5527">
+        <vpl>11</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474629150</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474629243</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('Digite o número de vitórias do Cormengo:')
+ce=input('Digite o número de empates do Cormengo:')
+cs=input('Digite o número do saldo de gols do Cormengo:')
+fv=input('Digite o número de vitórias do Flaminthians:')
+fe=input('Digite o número de empates do Flaminthians:')
+fs=input('Digite o número do saldo de gols do Flaminthians:')
+
+npc=(cv*3)+(ce*1)
+npf=(fv*3)+(fe*1)
+
+if npc&gt;npf:
+    print('C')
+elif npc&lt;npf:
+    print('F')
+if npc==npf:
+    print('=')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5323">
+        <vpl>11</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474548458</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474548499</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('digite o número de vitórias:')
+ce=input('digite o número de empates:')
+cg=input('digite o número de gols:')
+fv=input('digite o número de vitórias:')
+fe=input('digite o número de empates:')
+fg=input('digite o número de gols:')
+
+cv=cv*3
+fv=fv*3
+tc=cv+ce+cg
+tf=fv+fe+fg
+
+if tc&lt;tf:
+    print('F')
+else:
+    print('C')
+if tc==tf:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5801">
+        <vpl>11</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474683933</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474683935</dategraded>
+        <grade>2.50000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;5
+&gt;18
+&gt;11
+&gt;1
+&gt;18
+
+ --- Program output ---
+&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+
+ --- Expected output (text)---
+&gt;'C'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 2.50
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;5
+&gt;18
+&gt;11
+&gt;1
+&gt;18
+
+ --- Program output ---
+&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+
+ --- Expected output (text)---
+&gt;'C'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+Cv = float(input('Numero de vitorias para o C: '))
+Ce = float(input('Numero de empates para o C: '))
+Cs = float(input('Saldo de gols para o C: '))
+Fv = float(input('Numero de vitorias para o F: '))
+Fe = float(input('Numero de empates para o F: '))
+Fs = float(input('Saldo de gols para o F: '))
+
+#Processamento e Saída
+
+if Cv &gt; Fv:
+    print('C')
+
+if (Cv == Fv) and (Ce &gt; Fe):
+    print('C')
+
+if (Cv == Fv) and (Ce == Fe) and (Cs &gt; Fs):
+    print('C')
+    
+if Fv &gt; Cv:
+    print ('F')
+    
+if (Fv == Cv) and (Fe &gt; Ce):
+    print('F')
+    
+if (Fv == Cv) and (Fe == Ce) and (Fs &gt; Cs):
+    print('F')
+    
+if (Fv == Cv) and (Fe == Ce) and (Fs == Cs):
+    print('=')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4548">
+        <vpl>11</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474314986</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474314997</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+CV=int(input('digite o numero de vitorias do Cormengo:'))
+CE=int(input('digite o numero de empates do Cormengo:'))
+CS=int(input('digite o saldo de gols do Cormengo:'))
+FV=int(input('digite o numero de vitorias do Flaminthians:'))
+FE=int(input('digite o numero de empates do Flaminthians:'))
+FS=int(input('digite o saldo de gols do Flaminthians:'))
+CP=(3*CV)+CE
+FP=(3*FV)+FE
+if CP&gt;FP:
+    print('C')
+elif CP==FP and CS&gt;FS:
+    print('C')
+elif CP==FP and CS&lt;FS:
+    print('F')
+elif CP&lt;FP:
+    print('F')
+else:
+    print('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5220">
+        <vpl>11</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474472602</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474472627</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o número de vitórias do Cormengo:')
+Ce=input('Digite o número de empates do Cormengo:')
+Cs=input('Digite o saldo de gols do Cormengo:')
+Fv=input('Digite o número de vitórias do flaminthians:')
+Fe=input('Digite o número de empates do flaminthians:')
+Fs=input('Digite o saldo de gols do flaminthians:')
+
+P1= (Cv*3)+(Ce*1)
+P2= (Fv*3)+(Fe*1)
+
+if P1&gt;P2 :
+    print('C')
+elif P1&lt;P2:
+    print('F')
+else:
+    print('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5727">
+        <vpl>11</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474678067</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678214</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+Cv = input ('Digite Cv:')
+Ce = input ('Digite Ce:')
+Cs = input ('Digite Cs:')
+Fv = input ('Digite Fv:')
+Fe = input ('Digite Fe:')
+Fs = input ('Digite Fs:')
+
+#PROCESSAMENTO E SAIDA
+if (Cv+Ce+Cs)&gt;(Fv+Fe+Fs):
+    print ('C')
+if (Cv+Ce+Cs)&lt;(Fv+Fe+Fs):
+    print ('F')
+else:
+    print ('=')
+       
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4551">
+        <vpl>11</vpl>
+        <userid>83</userid>
+        <datesubmitted>1474315136</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315187</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('Digite o numero de vitorias do Cormengo: ')
+ce=input('Digite o numero de empates do Cormengo: ')
+cs=input('Digite o saldo de gols do Cormengo: ')
+fv=input('Digite o numero de vitórias do flaminthians: ')
+fe=input('Digite o numero de empates do flaminthians: ')
+fs=input('Digite o saldo de gols do flaminthians: ')
+
+pontuacaoc=(3*cv)+(1*ce)
+pontuacaof=(3*fv)+(1*fe)
+
+if pontuacaoc&gt;pontuacaof:
+    print ('C')
+elif pontuacaoc&lt;pontuacaof:
+    print ('F')
+else:
+    if cs&gt;fs:
+        print ('C')
+    elif cs&lt;fs:
+        print ('F')
+    else:
+        print ('=')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5160">
+        <vpl>11</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474462887</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474462894</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('numero de vitorias do cormengo:')
+Ce=input('numero de empates do cormengo:')
+Cs=input('saldo de gols do cormengo:')
+Fv=input('numero de vitorias do flaminthians:')
+Fe=input('numero de empates do flaminthians:')
+Fs=input('saldo de gols do flaminthians:')
+
+t1=(Cv*3)+(Ce*1)+Cs
+t2=(Fv*3)+(Fe*1)+Fs
+
+if(t1&gt;t2):
+    print('C')
+    
+if(t2&gt;t1):
+    print('F')
+    
+if(t2==t1):
+    print('=')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4301">
+        <vpl>11</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474307290</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307292</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv= input('Vitória time c: ')
+ce= input('Empate time c: ')
+cs= input('Saldo time c: ')
+fv= input('Vitória time f: ')
+fe= input('Empate time f: ')
+fs= input('Saldo time f: ')
+
+pc= (cv*3)+(ce*1)
+pf= (fv*3)+(fe*1)
+
+if pc&gt;pf:
+    print('C')
+elif pc&lt;pf:
+    print('F')
+else:
+    if cs&gt;fs:
+        print ('C')
+    elif cs&lt;fs:
+        print ('F')
+    else:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4415">
+        <vpl>11</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474308843</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308845</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv = input('digite o número de vitórias do cormengo:')
+ce = input('digite o número de empates do cormengo:')
+cs = input('digite o saldo de gols do cormengo:')
+fv = input('digite o número de vitórias do flaminthians:')
+fe = input('digite o número de empates do flaminthians:')
+fs = input('digite o saldo de gols do flaminthians:')
+
+pv1 = 3*cv
+pv2 = 3*fv
+pe1 = 1*ce
+pe2 = 1*fe
+
+if (pv1+pe1)&gt;(pv2+pe2):
+    print('C')
+elif (pv1+pe1)&lt;(pv2+pe2):
+    print('F')
+elif (pv1+pe1)==(pv2+pe2):
+    if cs&gt;fs:
+        print('C')
+    elif fs&gt;cs:
+        print('F')
+    elif cs==fs:
+        print('=')
+        
+
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4583">
+        <vpl>11</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474330464</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474330466</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv = input("NUmero de vitorias do cormengo:")
+ce = input("Numero de empates do cormengo:")
+cg = input("NUmero de gols do cormengo:")
+fv = input("NUmero de vitorias do flaminthians:")
+fe = input("NUmero de empates do flaminthians:")
+fg = input("NUmero de gols do flaminthians:")
+
+c = cv*3 + ce
+f = fv*3 + fe
+
+if c&gt;f:
+    print("C")
+if f&gt;c:
+    print("F")
+if f==c:
+    print("=")
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5398">
+        <vpl>11</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474573569</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474573572</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+C1= input('numero de vitorias do Cormengo: ')
+C2= input('numero de empates do Cormengo: ')
+C3= input('saldo de gols do Cormengo: ')
+F1= input('numero de vitorias do Flaminthians: ')
+F2= input('numero de epates do Flaminthians: ')
+F3= input('saldo de gols do Flaminthians: ')
+
+C=(C1*3)+(C2)
+F=(F1*3)+(F2)
+
+if C&gt;F or C==F and C3&gt;F3:
+    print('C')
+elif C==F and C3==F3:
+    print('=')
+else:
+    print('F')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5093">
+        <vpl>11</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474458870</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474458923</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+cV=input('digite o numero de vitorias:')
+cE=input('digite o numero de empates:')
+cS=input('digite o saldo de gols:')
+fV=input('digite o numero de vitorias:')
+fE=input('digite o numero de empates:')
+fS=input('digite o saldo de gols:')
+#processamento
+x=(cV*3)+(cE*1)+cS
+y=(fV*3)+(fE*1)+cS
+#saida
+if x&gt;y :
+    print('C')
+if x==y:
+    print('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5623">
+        <vpl>11</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474658084</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474658087</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+cv=input('Digite o numero de vitorias de cormengo:')
+ce=input('Digite o numero de empate de cormengo:')
+cs=input('Digite o numero de saldo de gols:')
+fv=input('Digite o numero de vitorias de flaminthias:')
+fe=input('Digite o numero de empate de flaminthias:')
+fs=input('Digite o numero de saldo de gols:')
+
+#Processamento e Saída
+pc=(cv*3+ce)
+pf=(fv*3+fe)
+
+if pc&gt;pf or cs&gt;fs or cv&gt;fv:
+    print ('c')
+elif pc&lt;pf or cs&lt;fs or cv&lt;fv:
+    print ('f')
+elif pc==pf and cs==fs and cv==fv:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4586">
+        <vpl>11</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474331075</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474331096</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('digite o valor de cv:')
+ce=input('digite o valor de ce:')
+cs=input('digite o valor de cs:')
+fv=input('digite o valor de fv:')
+fe=input('digite o valor de fe:')
+fs=input('digite o valor de fs:')
+
+if ((cv*3)+(ce*1)+(cs))&gt;((fv*3)+(fe*1)+(fs)):
+    print('c')
+    
+elif ((cv*3)+(ce*1)+(cs))==((fv*3)+(fe*1)+(fs)):
+    print('=')
+    
+elif ((cv*3)+(ce*1)+(cs))&lt;((fv*3)+(fe*1)+(fs)):
+    print('f')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4553">
+        <vpl>11</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474315266</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315269</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv= input('Digite o numero de vitorias do C: ')
+ce= input('Digite o numero de empates do C: ')
+cs= input('Digite o numero do saldo de gols do C: ')
+fv= input('Digite o numero de vitorias do F: ')
+fe= input('Digite o numero de empates do F: ')
+fs= input('igite o numero do saldo de gols do F: ')
+
+cv= cv*3
+fv= fv*3
+
+if (cv+ce)&lt;(fv+fe):
+    print('F')
+elif (cv+ce)&gt;(fv+fe):
+    print('C')
+elif (cv+ce)==(fv+fe):
+    if cs&lt;fs:
+        print('F')
+    elif cs&gt;fs:
+        print('C')
+    else:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4343">
+        <vpl>11</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474307725</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307729</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('numero de vitorias do Cormengo:')
+ce=input('numero de empates do Cormengo:')
+cs=input('saldo de gols do Cormengo:')
+fv=input('numero de vitorias do flainthians:')
+fe=input('numero de empates do flainthians:')
+fs=input('saldo de gols do flainthians:')
+if 3*cv+ce&gt;3*fv+fe:
+    print('C')
+elif 3*cv+ce&lt;3*fv+fe:
+    print('F')
+elif 3*cv+ce==3*fv+fe:
+    if cs&gt;fs:
+        print('C')
+    elif cs&lt;fs:
+        print ('F')
+    else:
+        print('=')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4573">
+        <vpl>11</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474328038</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474328065</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('digite o valor de Cv:')
+Ce=input('digite o valor de Ce:')
+Cs=input('digite o valor de Cs:')
+Fv=input('digite o valor de Fv:')
+Fe=input('digite o valor de Fe:')
+Fs=input('digite o valor de Fs:')
+
+if ((Cv*3)+(Ce*1)+(Cs))&gt;((Fv*3)+(Fe*1)+(Fs)):
+    print('C')
+    
+elif ((Cv*3)+(Ce*1)+(Cs))&lt;((Fv*3)+(Fe*1)+(Fs)):
+    print('F')
+    
+else:
+    print('=')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4570">
+        <vpl>11</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474327609</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474327741</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('Número de vitórias do Cormengo:')
+ce=input('Empates:')
+cs=input('Saldo de gols:')
+fv=input('Número de vitórias do Flaminthians')
+fe=input('Empates:')
+fs=input('Saldo de gols:')
+
+if (cv*3+ce+cs)&gt;(fv*3+fe+cs):
+    print('C')
+elif (cv*3+ce+cs)&lt;(fv*3+fe+cs):
+    print('F')
+else:
+    print('=')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5364">
+        <vpl>11</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474568510</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474568517</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input('Digite o número de vitórias do Cormengo:')
+Ce = input('Digite o número de empates do Cormengo:')
+Cs = input('Digite o saldo de gols do Cormengo:')
+Fv = input('Digite o número de vitórias do Flaminthians:')
+Fe = input('Digite o número de empates do Flaminthians:')
+Fs = input('Digite o saldo de gols do Flaminthians:')
+
+PontosCormengo = (3 * Cv) + (1 * Ce)
+PontosFlaminthians = (3 * Fv) + (1 * Fe)
+if PontosCormengo &gt; PontosFlaminthians:
+    print('C')
+elif PontosFlaminthians &gt; PontosCormengo:
+    print('F')
+elif PontosCormengo == PontosFlaminthians and Cs&gt;Fs:
+    print('C')
+elif PontosCormengo == PontosFlaminthians and Fs&gt;Cs:
+    print('F')
+else:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5479">
+        <vpl>11</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474597243</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474597433</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o número de vitórias do cormengo:')
+Ce=input('Digite o número de empates do cormengo:')
+Cs=input('Digite o saldo de gols do cormengo:')
+Fv=input('Digite o número de vitórias do flaminthias:')
+Fe=input('Digite o número de empates do flaminthias:')
+Fs=input('Digite o saldo de gols do flaminthias:')
+
+Pc=(Cv*3)+(Ce*1)
+Pf=(Fv*3)+(Fe*1)
+
+if Pc&gt;Pf or Cv&gt;Fv or Cs&gt;Fs:
+    print('C')
+elif Pc&lt;Pf or Cv&lt;Fv or Cs&lt;Fs:
+        print('F')
+elif Pc==Pf and Cv==Fv and Cs==Fs:
+        print('=')
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4317">
+        <vpl>11</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474307454</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307466</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('Digite o número de vitórias do cormengo: ')
+ce=input('Digite o número de empates do cormengo: ')
+cs=input('Digite o saldo de gols do cormengo: ')
+fv=input('Digite o número de vitórias do flaminthians: ')
+fe=input('Digite o número de empates do flaminthians: ')
+fs=input('Digite o saldo de gols do flaminthians: ')
+
+pc=(cv*3)+ce
+pf=(fv*3)+fe
+
+if pc&gt;pf:
+    print('C')
+if pf&gt;pc:
+    print('F')
+if cs&gt;fs:
+    print('C')
+if fs&gt;cs:
+    print('F')
+else:
+    print('=')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5264">
+        <vpl>11</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474482028</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474482054</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o número de vitórias do Cormengo:')
+Ce=input('Digite o número de empates do Cormego:')
+Cs=input('Digite o saldo de gols do Cormengo:') 
+Fv=input('Digite o número de vitórias do Flaminthians:')
+Fe=input('Digite o número de empates do Flaminthians:')
+Fs=input('Digite o saldo de gols do Flaminthians:')
+
+Cs=((Cv*3)+Ce)
+Fs=((Fv*3)+Fe)
+
+if (Cs&gt;Fs):
+    print('C')
+    
+elif (Cs&lt;Fs):
+    print('F')
+    
+else:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4943">
+        <vpl>11</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474417006</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417522</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv = input ('vitorias C:')
+ce = input ('empates C:')
+cs = input ('saldo C :')
+fv = input ('vitorias f:')
+fe = input ('empates f:')
+fs = input ('saldo f :')
+pc = (3*cv) + ce
+pf = (3*fv) + fe
+if pc &gt; pf:
+    print 'C'
+elif pf &gt;pc:
+    print 'F'
+else:
+    print'='</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5478">
+        <vpl>11</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474597106</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474597254</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+vitoriaC = input (' digite o número de vitórias do Cormengo: ')
+empateC = input (' digite o número de empates do Cormengo: ')
+saldoDeGolC = input (' digite o saldo de gols do Cormengo: ')
+
+vitoriaF = input (' digite o número de vitórias do Flarinthians: ')
+empateF = input (' digite o número de empates do Flarinthians: ')
+saldoDeGolF = input (' digite o saldo de gols do Flarinthians: ')
+
+totalVitoriaC = vitoriaC * 3
+totalEmpateC = empateC * 1
+
+totalVitoriaF = vitoriaF * 3
+totalEmpateF = empateF * 1
+
+saldoTotalC = saldoDeGolC
+saldoTotalF = saldoDeGolF
+
+totalC = totalVitoriaC + totalEmpateC + saldoTotalC
+totalF = totalVitoriaF + totalEmpateF + saldoTotalF
+
+if totalC &gt; totalF:
+    print ('C')
+    
+elif totalC &lt; totalF:
+    print ('F')
+
+elif totalC == totalF and saldoTotalC &gt; saldoTotalF:
+    print ('C')
+    
+elif totalC == totalF and saldoTotalC &lt; saldoTotalF:
+    print ('F')
+    
+elif totalC == totalF and saldoTotalC == saldoTotalF:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5139">
+        <vpl>11</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474460571</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460581</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('valor de cv:')
+ce=input('valor de ce:')
+cs=input('valor de cs:')
+fv=input('valor de fv:')
+fe=input('valor de fe:')
+fs=input('valor de fs:')
+
+cv*3
+fv*3
+ce*1
+fe*1
+
+if cv+ce&gt;fv+fe:
+    print('c')
+elif cv+ce&lt;fv+fe:
+    print('f')
+elif cv+ce==fv+fe and cs==fs:
+    print('=')
+    
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4508">
+        <vpl>11</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474313602</datesubmitted>
+        <comments>Enviado por Rafael Perazzo
+</comments>
+        <grader>0</grader>
+        <dategraded>1474313604</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Insira o número de vitórias do Cormengo:')
+Ce=input('Insira o número de empates do cormengo:')
+Cs=input('Insira o saldo de gols do cormengo:')
+Fv=input('Insira o número de vitórias do Cormengo:')
+Fe=input('Insira o número de empates do cormengo:')
+Fs=input('Insira o saldo de gols do cormengo:')
+pc=(3*Cv)+Ce
+pf=(3*Fv)+Fe
+if pc&gt;pf:
+    print('C')
+if pc&lt;pf:
+    print('F')
+if pc==pf:
+    if Cs&gt;Fs:
+        print('C')
+    if Cs&lt;Fs:
+        print('F')
+    if Cs==Fs:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4363">
+        <vpl>11</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474308046</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308048</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+cv=input('Digite o número de vitórias do Cormengo:')
+ce=input('Digite o número de empates do Cormengo:')
+cs=input('Digite o saldo de gols do Cormengo:')
+fv=input('Digite o número de vitórias do Flaminthians:')
+fe=input('Digite o número de empates do Flaminthians:')
+fs=input('Digite o saldo de gols do Flaminthians:')
+#PROCESSAMENTO
+pc=(cv*3)+(ce*1)
+pf=(fv*3)+(fe*1)
+#SAÍDA
+if pc&gt;pf:
+    print('C')
+elif pc&lt;pf:
+    print('F')
+else:
+    if cs==fs:
+        print('=')
+    elif cs&gt;fs:
+        print('C')
+    else:
+        print('F')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4323">
+        <vpl>11</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474307549</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307569</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+Cv= input ('Digite o número de vitórias do Cormengo:')
+Ce = input ('Digite o número de empates do Cormengo:')
+Cs = input ('Digite o saldo de gols do Cormengo:')
+Fv= input ('Digite o número de vitórias do Flaminthians:')
+Fe = input ('Digite o número de empates do Flaminthians:')
+Fs = input ('Digite o saldo de gols do Flaminthians:')
+
+#processamento:
+if (Cv*3)+Ce &gt; (Fv*3)+Fe:
+    print ('C')
+elif (Cv*3)+Ce == (Fv*3)+Fe:
+    if Cs&gt;Fs:
+        print ('C')
+    if Cs&lt;Fs:
+        print ('F')
+    if Cs ==Fs:
+        print ('=')
+else:
+    print ('F')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4390">
+        <vpl>11</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474308343</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308345</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('digite o valor de cv:')
+ce=input('digite o valor de ce:')
+cs=input('digite o valor de cs:')
+fv=input('digite o valor de fv:')
+fe=input('digite o valor de fe:')
+fs=input('digite o valor de fs:')
+pc=(cv*3)+(ce*1)
+pf=(fv*3)+(fe*1)
+if pc&gt;pf:
+    print('C')
+if pf&gt;pc:
+    print('F')
+if pf==pc:
+    if cs&gt;fs:
+        print('C')
+    if fs&gt;cs:
+        print('F')
+    if fs==cs:
+        print('=')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4513">
+        <vpl>11</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474313943</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474313945</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input ('Digite o número de vitórias do Cormengo:')
+Ce = input ('Digite o número de empates do Cormengo:')
+Cs = input ('Digite o saldo de gols do Cormengo:')
+Fv = input ('Digite o número de vitórias do Flaminthians:')
+Fe = input ('Digite o número de empates do Flaminthians:')
+Fs = input ('Digite o saldo de gols do Flaminthians:')
+
+if ((Cv*3+Ce)&gt;(Fv*3+Fe)):
+    print ('C')
+elif ((Cv*3+Ce)&lt;(Fv*3+Fe)):
+    print ('F')
+else: 
+    print ('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4412">
+        <vpl>11</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474308712</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474311209</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+CV=input('Número de vitórias co Cormengo:')
+CE=input('Número de empates do Cormengo:')
+CS=input('Número de saldo de gols do Cormengo:')
+FV=input('Número de vitórias co Flaminthias:')
+FE=input('Número de empates do Flaminthias:')
+FS=input('Número de saldo de gols do Flaminthias:')
+
+NPC=((CV*3)+(CE*1))
+NPF=((FV*3)+(FE*1))
+
+if NPC&gt;NPF:
+    print('C')
+if NPF&gt;NPC:
+    print('F')
+if NPC==NPF:
+    if CS&gt;FS:
+        print('C')
+    elif FS&gt;CS:
+        print('F')
+    else:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4319">
+        <vpl>11</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474307468</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307473</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('Vitórias de C: ')
+ce=input('Empates de C: ')
+cs=input('Saldos de gol de C: ')
+fv=input('Vitórias de F: ')
+fe=input('Empates de F: ')
+fs=input('Saldos de gol de F: ')
+if (cv*3)+ce&gt;(fv*3+fe):
+    print('C')
+elif (cv*3)+ce&lt;(fv*3+fe):
+    print('F')
+if (cv*3)+ce==(fv*3+fe) and cs&gt;fs:
+    print('C')
+elif  (cv*3)+ce==(fv*3+fe) and cs&lt;fs: 
+    print('F')
+else: 
+    print('=')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4408">
+        <vpl>11</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474308613</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308615</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a=input('Digite o numero de vitorias de C: ')
+b=input('Digite o numero de empates de C: ')
+c=input('Digite o saldo de gols de C: ')
+d=input('Digite o numero de vitorias de D: ')
+e=input('Digite o numero de empates de D: ')
+f=input('Digite o saldo de gols de D: ')
+
+g=((a*3) + (1*b)) 
+h=((d*3) + (1*e)) 
+
+if g&gt;h:
+    print 'C'
+if h&gt;g:
+    print 'F'
+if g==h and c&gt;f:
+    print 'C'
+if g==h and f&gt;c:
+    print 'F'
+if g==h and c==f:
+    print '='
+    
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4384">
+        <vpl>11</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474308260</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308266</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Número de vitórias do Cormengo:')
+Ce=input('Número de empartes do Cormengo:')
+Cs=input('Saldo de gols do Cormengo:')
+Fv=input('Número do vitórias do Flaminthians:')
+Fe=input('Número de empates do Flaminthians:')
+Fs=input('Saldo de gols do Flaminthians:')
+NVC=Cv*3
+NEC=Ce*1
+NVF=Fv*3
+NEF=Fe*1
+if (NVC+NEC)&gt;(NVF+NEF):
+    print('C')
+if (NVF+NEF)&gt;(NVC+NEC):
+    print('F')
+if (NVC+NEC)==(NVF+NEF) and Fs&gt;Cs:
+    print('F')
+if (NVC+NEC)==(NVF+NEF) and Cs&gt;Fs:
+    print('C')
+if (NVC+NEC)==(NVF+NEF) and Cs==Fs:
+    print('=')
+
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5122">
+        <vpl>11</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474459733</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474459762</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Número de vitórias: ')
+Ce=input('Número de empates: ')
+Cs=input('Saldo de gols: ')
+Fv=input('Número de vitórias: ')
+Fe=input('Número de empates: ')
+Fs=input('Saldo de gols: ')
+
+if (3*Cv)+Ce&gt;(3*Fv)+Fe:
+    print ('C')
+if (3*Cv)+Ce&lt;(3*Fv)+Fe:
+    print ('F')
+if (3*Cv)+Ce==(3*Fv)+Fe and Cs&gt;Fs:
+    print ('C')
+if (3*Cv)+Ce==(3*Fv)+Fe and Cs&lt;Fs:
+    print ('F')
+if (3*Cv)+Ce+Cs==(3*Fv)+Fe+Fs:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4558">
+        <vpl>11</vpl>
+        <userid>115</userid>
+        <datesubmitted>1474315770</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315784</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('digite o número de vitórias do cormengo:')
+Ce=input('digite o número de empates do cormengo:')
+Cs=input('digite o saldo de gols do cormengo:')
+Fv=input('digite o número de vitórias do flaminthians:')
+Fe=input('digite o número de empates do flaminthians:')
+Fs=input('digite o saldo de gols do flaminthians:')
+
+pontuacaoC=(3*Cv)+(1*Ce)
+pontuacaoF=(3*Fv)+(1*Fe)
+
+if pontuacaoC&gt;pontuacaoF:
+    print ('C')
+elif pontuacaoC&lt;pontuacaoF:
+    print ('F')
+else:
+    if Cs&gt;Fs:
+        print ('C')
+    elif Cs&lt;Fs:
+        print ('F')
+    else:
+        print ('=')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4385">
+        <vpl>11</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474308262</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308265</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input ('insira a quantidade de vitórias do Cormengo:') 
+Ce = input ('insira a quantidade de empates do Cormengo:') 
+Cs = input ('insira o saldo de gols do Cormengo:') 
+Fv = input ('insira a quantidade de vitórias do Flaminthians:') 
+Fe = input ('insira a quantidade de empates do Flaminthians:') 
+Fs = input ('insira o saldo de gols do Flaminthians:')
+
+CpF = (Fv*3)+Fe
+CpC = (Cv*3)+Ce
+if CpC&lt;CpF:
+    print ('F')
+if CpC&gt;CpF:
+    print ('C') 
+if CpC==CpF:
+    if Ce&lt;Fe:
+        print ('F') 
+    if Ce&gt;Fe:
+        print ('C')
+    if Ce==Fe: 
+        if Cs&lt;Fs:
+            print ('F')
+        if Cs&gt;Fs:
+            print ('C') 
+        if Cs==Fs:
+            print ('=')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5577">
+        <vpl>11</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474640111</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474640197</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o número de vitórias do Cormengo:')
+Ce=input('Digite o número de empates do Cormengo:')
+Cs=input('Digite o saldo de gols do Cormengo:')
+Fv=input('Digite o número de vitórias do Flaminthias:')
+Fe=input('Digite o número de empates do Flaminthias:')
+Fs=input('Digite o saldo de gols do Flaminthias:')
+
+C=(Cv*3)+(Ce*1)
+F=(Fv*3)+(Fe*1)
+
+if C&gt;F:
+    print('C')
+if C&lt;F:
+    print('F')
+if C==F:
+    if Cs&gt;Fs:
+        print('C')
+    if Cs&lt;Fs:
+        print('F')
+    if Cs==Fs:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4404">
+        <vpl>11</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474308561</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308563</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#1
+Cv = input('Digite o número de vitórias do Cormengo :')
+Ce = input('Digite o número de empates do Cormengo :')
+Cs = input('Digite o número de saldo de gols do Cormengo :')
+Fv = input('Digite o número de vitórias do Flaminthias :')
+Fe = input('Digite o número de empates do Flaminthias :')
+Fs = input('Digite o número de saldo de gols do Flaminthias :')
+
+#2
+C = Cv*3 + Ce*1
+F = Fv*3 + Fe*1
+
+#3
+if C&gt;F:
+    print('C')
+if F&gt;C:
+    print('F')
+if C==F and Cs&gt;Fs:
+    print('C')
+if C==F and Fs&gt;Cs:
+    print('F')
+if C==F and Cs==Fs:
+    print('=')
+    
+    
+    
+   
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4920">
+        <vpl>11</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474415417</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474415467</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+cv=input('insira o numero de vitorias do cormengo:')
+ce=input('insira o numero de empates do cormengo:')
+cs=input('insira o saldo de gols do cormengo:')
+fv=input('insira o numero de vitorias do flaminthias:')
+fe=input('insira o numero de empates do flaminthias:')
+fs=input('insira o saldo de gols do flamninthias:')
+#PROCESSAMENTO
+pc=(cv*3)+ce
+pf=(fv*3)+fe
+#SAIDA
+if pc&gt;pf or cs&gt;fs:
+    print('c')
+if pc&lt;pf or cs&lt;fs:
+   print('f')
+else:
+    print('=')
+    
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4376">
+        <vpl>11</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474308178</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308223</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv= input('Insira a quantidade de vitórias do Cormengo:')
+Ce= input('Insira a quantidade de empates do Cormengo:')
+Cs= input('Insira o saldo de gols do Cormengo:')
+Fv= input('Insira a quantidade de vitórias do Flaminthians:')
+Fe= input('Insira a quantidade de empates do Flaminthians:')
+Fs= input('Insira o slado de gols do Flaminthians:')
+
+Cpv= Cv*3
+Fpv= Fv*3
+
+if (Cpv+Ce)&gt;(Fpv+Fe):
+    print('C')
+elif (Cpv+Ce)&lt;(Fpv+Fe):
+    print('F')
+elif (Cpv+Ce)==(Fpv+Fe):
+    if Cs==Fs:
+        print ('=')
+    elif Cs&gt;Fs:
+        print('C')
+    elif Cs&lt;Fs:
+        print('F')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4349">
+        <vpl>11</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474307831</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307853</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv = input('Digite o número de vitórias do Cormengo: ')
+Ce = input('Digite o número de empates do Cormengo: ')
+Cs = input('Digite o saldo de gols do Cormengo: ')
+Fv = input('Digite o número de vitórias do Flaminthias: ')
+Fe = input('Digite o número de empates do Flaminthias: ')
+Fs = input('Digite o saldo de gols do Flaminthias: ')
+if (Cv*3)+(Ce*1) &gt; (Fv*3)+(Fe*1):
+    print('C')
+elif (Cv*3)+(Ce*1) &lt; (Fv*3)+(Fe*1):
+    print('F')
+elif (Cv*3)+(Ce*1) == (Fv*3)+(Fe*1):
+    if Cs &gt; Fs:
+        print('C')
+    elif Fs &gt; Cs:
+        print('F')
+    else:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4825">
+        <vpl>11</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474391941</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474391954</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('Número de vitórias do Cormengo: ')
+ce=input('Número de empates do Cormengo: ')
+cs=input('Saldo de gols do Cormengo: ')
+
+fv=input('Número de vitórias do Flaminthians: ')
+fe=input('Número de empates do Flaminthians: ')
+fs=input('Saldo de gols do Flaminthians: ')
+
+pontosC= (cv*3)+ce
+pontosF= (fv*3)+fe
+
+if pontosC &gt; pontosF:
+    print ('C')
+
+elif pontosF &gt; pontosC:
+    print ('F')
+
+else:
+    if cs&gt;fs:
+        print ('C')
+    elif fs&gt;cs:
+        print ('F')
+    else:
+        print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4223">
+        <vpl>11</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474306624</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474306629</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+CV=input('Digite o valor de CV: ')
+CE=input('Digite o valor de CE: ')
+CS=input('Digite o valor de CS: ')
+FV=input('Digite o valor de FV: ')
+FE=input('Digite o valor de FE: ')
+FS=input('Digite o valor de FS: ')
+if (CV*3)+(CE)&gt;(FV*3)+(FE):
+    print ('C')
+elif (CV*3)+(CE)&lt;(FV*3)+(FE):
+    print ('F')
+else:
+    if CS&gt;FS:
+        print ('C')
+    elif CS&lt;FS:
+        print ('F')
+    else :
+        print ('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4352">
+        <vpl>11</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474307902</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307904</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv=input('Digite o valor de Cv:')
+Ce=input('Digite o valor de Ce:')
+Cs=input('Digite o valor de Cs:')
+Fv=input('Digite o valor de Fv:')
+Fe=input('Digite o valor de Fe:')
+Fs=input('digite o valor de Fs:')
+
+Pc=(Cv*3)+(Ce*1)
+Pf=(Fv*3)+(Fe*1)
+if Pc&gt;Pf:
+    print('C')
+elif Pf&gt;Pc:
+    print('F')
+else:
+     if Cs&gt;Fs:
+         print('C')
+     elif Fs&gt;Cs :
+         print('F')
+     else:
+         print('=')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5802">
+        <vpl>11</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474684263</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684266</dategraded>
+        <grade>2.50000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;5
+&gt;18
+&gt;11
+&gt;1
+&gt;18
+
+ --- Program output ---
+&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+
+ --- Expected output (text)---
+&gt;'C'
+
+--|&gt;
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 2.50
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+&gt; 10
+&gt;5
+&gt;18
+&gt;11
+&gt;1
+&gt;18
+
+ --- Program output ---
+&gt;Numero de vitorias para o C: Numero de empates para o C: Saldo de gols para o C: Numero de vitorias para o F: Numero de empates para o F: Saldo de gols para o F: F
+
+ --- Expected output (text)---
+&gt;'C'
+
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 1  test passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+Cv = float(input('Numero de vitorias para o C: '))
+Ce = float(input('Numero de empates para o C: '))
+Cs = float(input('Saldo de gols para o C: '))
+Fv = float(input('Numero de vitorias para o F: '))
+Fe = float(input('Numero de empates para o F: '))
+Fs = float(input('Saldo de gols para o F: '))
+
+#Processamento e Saída
+
+if Cv &gt; Fv:
+    print('C')
+
+if (Cv == Fv) and (Ce &gt; Fe):
+    print('C')
+
+if (Cv == Fv) and (Ce == Fe) and (Cs &gt; Fs):
+    print('C')
+    
+if Fv &gt; Cv:
+    print ('F')
+    
+if (Fv == Cv) and (Fe &gt; Ce):
+    print('F')
+    
+if (Fv == Cv) and (Fe == Ce) and (Fs &gt; Cs):
+    print('F')
+    
+if (Fv == Cv) and (Fe == Ce) and (Fs == Cs):
+    print('=')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4273">
+        <vpl>11</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474307008</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474307009</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=input(' digite o numero de vitórias do cormengo:')
+b=input('digite o numero de empates do cormengo:')
+c= input('digite o numero do saldo de gols do cormengo:')
+d=input(' digite o numero de vitorias do flaminthias:')
+e=input(' digite o numero de empates do flaminthias:')
+f=input(' digite o numero do saldo de gols flaminthias:')
+x= (a*3)+(b*1)
+y= (d*3)+(e*1)
+if x&gt;y:
+    print('c')
+if x&lt;y:
+    print('f')
+if x==y and c==f:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4400">
+        <vpl>11</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474308481</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308487</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv=input('Digite o número de vitórias do Cormengo:')
+Ce=input('Digite o número de empates do Cormengo:')
+Cs=input('Digite o saldo de gols do cormengo:')
+Fv=input('Digite o número de vitórias do Flaminthians:')
+Fe=input('Digite o número de empates do Flaminthians:')
+Fs=input('Digite o saldo de gols do Flaminthians:')
+a=3*Cv+Ce
+b=3*Fv+Fe
+if(a&gt;b):
+    print('C')
+elif(a&lt;b):
+    print('F')
+else:
+    if (Cs&gt;Fs):
+        print('C')
+    elif (Cs&lt;Fs):
+        print('F')
+    else:
+        print('=')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4413">
+        <vpl>11</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474308765</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308768</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv = input('Número de vitórias de C:')
+Ce = input('Número de empates de C:')
+Cs = input('Saldo de gols de C:')
+Fv = input('Número de vitórias de F:')
+Fe = input('Número de empates de F:')
+Fs = input('Saldo de gols de F:')
+
+Pc = (Cv*3)+(Ce*1)
+Pf = (Fv*3)+(Fe*1)
+if Pc&gt;Pf:
+    print('C')
+elif Pf&gt;Pc:
+    print('F')
+elif Pc==Pf:
+    if Cs&gt;Fs:
+        print('C')
+    elif Fs&gt;Cs:
+        print('F')
+elif Pc==Pf and Cs==Fs:
+    print('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5508">
+        <vpl>11</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474601410</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474601435</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+Cv= input('digite o numero de vitorias:')
+Ce= input('digite o numero de empate:')
+Cs= input('digite o saldo de gols:')
+Fv= input('digite o numero de vitorias:')
+Fe= input('digite o numero de empatess:')
+Fs= input('digite o saldo de gols:')
+
+N1= Cv+Ce+Cs
+N2= Fv+Fe+Fs
+
+if N1&gt;N2:
+    print 'C'
+if N2&gt; N1:
+    print 'F'
+if N1==N2:
+    print '='</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5075">
+        <vpl>11</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474457577</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474457591</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+Cv = input("Digite o número de Cv:")
+Ce = input("Digite o número de Ce:")
+Cs = input("Digite o número de Cs:")
+Fv = input("Digite o número de Fv:")
+Fe = input("Digite o número de Fe:")
+Fs = input("Digite o número de Fs:")
+
+if Cv+Ce&gt;Fv+Fe:
+    print("C")
+else:
+    print("F")
+if Cv+Ce==Fv+Fe and Cs&gt;Fs:
+    print("C")
+if Cv+Ce==Fv+Fe and Cs&lt;Fs:
+    print("F")
+if Cv+Ce==Fv+Fe and Cs==Fs:
+    print("=")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5745">
+        <vpl>11</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678810</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678815</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+CV=int(input('digite o numero de vitorias do Cormengo:'))
+CE=int(input('digite o numero de empates do Cormengo:'))
+CS=int(input('digite o saldo de gols do Cormengo:'))
+FV=int(input('digite o numero de vitorias do Flaminthians:'))
+FE=int(input('digite o numero de empates do Flaminthians:'))
+FS=int(input('digite o saldo de gols do Flaminthians:'))
+CP=(3*CV)+CE
+FP=(3*FV)+FE
+if CP&gt;FP:
+    print('C')
+elif CP==FP and CS&gt;FS:
+    print('C')
+elif CP==FP and CS&lt;FS:
+    print('F')
+elif CP&lt;FP:
+    print('F')
+else:
+    print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4550">
+        <vpl>11</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474315127</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315137</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('digite cv:')
+ce=input('digite ce:')
+cs=input('digite cs:')
+fv=input('digite fv:')
+fe=input('digite fe:')
+fs=input('digite fs:')
+if (cv+ce)&gt;(fv+fe):
+    print('C')
+elif (cv+ce)&lt;(fv+fe):
+    print('F')
+else:
+    print('=')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4421">
+        <vpl>11</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474308913</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474308915</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv=input('informe o valor de cv:')
+ce=input('informe o valor de ce:')
+cs=input('informe o valor de cs:')
+fv=input('informe o valor de fv:')
+fe=input('informe o valor de fe:')
+fs=input('informe o valor de fs:')
+pc=(cv*3)+(ce*1)
+pf=(fv*3)+(fe*1)
+if pc&gt;pf:
+    print('C')
+if pc&lt;pf:
+    print('F')
+if pc==pf:
+    if cs&gt;fs:
+        print('C')
+    if cs&lt;fs:
+        print('F')
+    if cs==fs:
+        print('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4435">
+        <vpl>11</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474309764</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474309766</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+cv=input('Digite o número de vitórias do cormengo:')
+ce=input('Digite o número de empates do cormengo:')
+cs=input('Digite o saldo de gols do cormengo:')
+fv=input('Digite o número de vitórias do flaminthias:')
+fe=input('Difite o número de empates do flaminthias:')
+fs=input('Digite o saldo de gols do flaminthias:')
+
+pc=((cv*3)+(ce*1))
+pf=((fv*3)+(fe*1))
+
+if pc&gt;pf:
+    print ('C')
+    if pc==pf and cs&gt;fs:
+        print ('C')
+elif pf&gt;pc:
+    print ('F')
+    if pf==pc and fs&gt;cs:
+        print ('F')
+elif pf==pc and fs==cf:
+    print ('=')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4559">
+        <vpl>11</vpl>
+        <userid>143</userid>
+        <datesubmitted>1474315880</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315987</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+cv = input(' Numero de vitórias do Cormengo: ')
+ce = input(' Numero de empates do Cormengo: ')
+cs = input(' Saldo de gols do Cormengo: ')
+fv = input(' Numero de vitórias do Flaminthians: ')
+fe = input(' Numero de empates do Flaminthians: ')
+fs = input(' Saldo de gols do Flaminthians: ')
+
+pc = 3*cv+ce
+pf = 3*fv+fe
+
+if pc&gt;pf:
+    print(' C ')
+elif pc&lt;pf:
+    print(' F ')
+else:
+    if cs&gt;fs:
+        print(' C ')
+    elif cs&lt;fs:
+        print(' F ')
+    else:
+        print(' = ')
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4835">
+        <vpl>11</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474392618</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474392621</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+a = input('DIGITE O  VALOR DE Cv: ')
+b = input('DIGITE O  VALOR DE Ce: ')
+c = input('DIGITE O  VALOR DE Cs: ')
+d = input('DIGITE O  VALOR DE Fv: ')
+e = input('DIGITE O  VALOR DE Fe: ')
+f = input('DIGITE O  VALOR DE Fs: ')
+
+if a+b&gt;d+e:
+    print 'C'
+
+elif a+b&lt;d+e:
+    print 'F'
+
+elif c&gt;f:
+    print 'C'
+
+elif c&lt;f:
+    print 'F'
+
+else:
+    print '='</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4554">
+        <vpl>11</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474315531</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474315577</dategraded>
+        <grade>5.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>jogo.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt; 5
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/jogo.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+cV = input('N vitorias do Cormengo:')
+cE = input('N de empates do cormengo ')
+cS = input('Saldo de Gols do Cormengo ')
+fV = input('N vitorias do Flaminthias:')
+fE = input('N de empates do Flaminthias ')
+fS = input('Saldo de Gols do Flaminthias ')
+#PROCESSAMENTO
+pontosVitoriasC = cV*3
+pontosEmpateC = cE*1
+pontosTotaisC = pontosVitoriasC + pontosEmpateC
+pontosVitoriasF = fV*3
+pontosEmpateF = fE*1
+pontosTotaisF = pontosVitoriasF + pontosEmpateF
+
+if pontosTotaisC&gt;pontosTotaisF:
+    print('C')
+elif pontosTotaisF&gt;pontosTotaisC:
+    print('F')
+elif cS&gt;fS:
+    print('C')
+elif fS&gt;cS:
+    print('F')
+elif cS==fS:
+    print('=')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

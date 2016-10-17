@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="4" moduleid="19" modulename="page" contextid="461">
+  <page id="4">
+    <name>Informações Gerais da disciplina</name>
+    <intro>&lt;p&gt;Informações&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <content>&lt;h2&gt;Segundo Semestre de 2016&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Bem-vindo à &lt;b&gt;ECI0007/EM0006 Programação Computacional para Engenharia&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;A disciplina ECI0007/EM0006 é de responsabilidade do prof. &lt;a href="http://www.ime.usp.br/%7Eperazzo"&gt;Rafael Perazzo&lt;/a&gt; e é obrigatória para todos os cursos de engenharia da &lt;a href="http://www.ufca.edu.br"&gt;&lt;span style="text-decoration: underline;"&gt;UFCA&lt;/span&gt;.&lt;/a&gt; Esta disciplina é oferecida semestralmente aos mais de 80 alunos do segundo semestre das Engenharias. Em 2016, ECI0007/EM0006 terá a participação de cerca de 2 monitores.&lt;/p&gt;
+&lt;p&gt;A seguir está uma descrição de alguns dos ingredientes principais de ECI0007/EM0006.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2&gt;Página da disciplina&lt;/h2&gt;
+&lt;p&gt;A página de ECI0007/EM0006 pode ser acessada através do sistema Moodle, que é o portal a serviço da disciplina na UFCA. O endereço do Moodle é &lt;a href="http://programacao.ufca.edu.br/moodle"&gt;http://programacao.ufca.edu.br/moodle&lt;/a&gt;. A página de ECI0007/EM0006 deverá ser consultada regularmente. Nela você encontra boa parte do material visto nas aulas, fóruns de discussão, informações e avisos indispensáveis para o acompanhamento de ECI0007/EM0006.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Pré-requisitos&lt;/h2&gt;
+&lt;p&gt;Esta disciplina não possui pré-requisitos. Em particular, não é esperado que você tenha qualquer experiência prévia em programação.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="objetivos"&gt;Objetivos&lt;/h2&gt;
+&lt;p&gt;O objetivo principal de ECI0007/EM0006 é desenvolver um &lt;a href="http://en.wikipedia.org/wiki/Computational_thinking"&gt; raciocínio aplicado na formulação e resolução de problemas computacionais&lt;/a&gt;, ensinar como abordar e resolver problemas computacionais.&lt;/p&gt;
+&lt;p&gt;Em ECI0007/EM0006 você aprenderá a escrever programas de computador. O ato de programar é uma ferramenta útil para trabalhar o raciocínio mencionado acima, bem como tornar mais concretos outros conceitos comuns em ciência da computação.&lt;/p&gt;
+&lt;p&gt;Ao longo dos anos, ECI0007/EM0006 utilizou as linguagens de programação, &lt;a href="http://en.wikipedia.org/wiki/C_%28programming_language%29"&gt;C&lt;/a&gt; e C++. A partir de 2016, será utilizada exclusivamente a linguagem &lt;a href="http://en.wikipedia.org/wiki/Python_programming_language"&gt;Python&lt;/a&gt;. O ensino de uma linguagem de programação é uma ferramenta didática, e um bônus concreto de aprendizagem, subordinado ao objetivo principal.&lt;/p&gt;
+&lt;p&gt;Em geral, uma vez adquirida familiaridade com uma linguagem de programação, não é difícil utilizar outra. Muitas vezes, basta apenas ler o manual. Desta forma, gostaríamos que no futuro você não se lembrasse de ECI0007/EM0006 como um "Curso de Python". Em ECI0007/EM0006, de fato, você aprenderá um pouco de alguma linguagem (Python) e será cobrado pela aplicação apropriada dos conceitos vistos nas aulas (assim como seus colegas de anos anteriores aprenderam C/C++). No entanto, o verdadeiro aprendizado será a familiaridade com os conceitos e princípios envolvidos em programar.&lt;/p&gt;
+&lt;p&gt;Ferramentas tais como funções nativas e módulos existentes no Python evitam que reinvetemos soluções disponíveis e façamos tarefas presumidamente desnecessárias. O domínio dessas ferramentas é fundamental para um programador efetivo. Apesar disso, esta disciplina utiliza um subconjunto &lt;i&gt;bem limitado&lt;/i&gt; dos recursos de Python. Não por esses recursos não serem importantes, mas simplesmente porque eles não são o foco em uma disciplina cujo objetivo é devenvolver um &lt;a href="http://en.wikipedia.org/wiki/Computational_thinking"&gt;raciocínio aplicado na formulação e resolução de problemas computacionais &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O andamento da disciplina é orientado pelos problemas propostos. Cada problema introduz novos desafios que, para serem transpostos, nos levam a novas ideias e práticas de programação.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="python-c"&gt;Python no seu computador&lt;/h2&gt;
+&lt;p&gt;Em ECI0007/EM0006 evitamos o uso de &lt;a href="http://en.wikipedia.org/wiki/Proprietary_software"&gt;linguagens e sistemas proprietários&lt;/a&gt;. Preferimos os sistemas abertos e livres (&lt;a href="http://en.wikipedia.org/wiki/Free_and_open_source_software"&gt;&lt;i&gt;Free and open source software&lt;/i&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As informações sobre a instalação necessária para o uso da linguagem de programação Python em seu computador está divulgado abaixo:&lt;/p&gt;
+&lt;p&gt;- Pacote &lt;a href="http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86_64.exe"&gt;Anaconda 64 bits&lt;/a&gt; (Versão para Python 2.7)&lt;a href="https://www.continuum.io/downloads"&gt;&lt;br /&gt; &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ou&lt;/p&gt;
+&lt;p&gt;- Pacote &lt;a href="http://repo.continuum.io/archive/Anaconda2-4.0.0-Windows-x86.exe"&gt;Anaconda 32 bits&lt;/a&gt; (Versão para Python 2.7)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt; Verifique se seu sistema operacional é de 64 ou 32bits antes de baixar e instalar o pacote Anaconda. Em caso de dúvida baixe e instale a versão de 32 bits. Apenas um dos pacotes (32 ou 64) deve ser instalada em sua máquina.&lt;/p&gt;
+&lt;h2 id="monitores"&gt;Plantão de monitores&lt;/h2&gt;
+&lt;p&gt;Para auxiliá-lo, ECI0007/EM0006 conta com o trabalho fundamental de cerca de 2 monitores. Os monitores darão plantão de dúvidas em locais e horários divulgados abaixo:&lt;span style="text-decoration: underline;"&gt; &lt;br /&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;José Jair&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Juan&lt;br /&gt; &lt;/span&gt;&lt;a href="http://www.ime.usp.br/%7Emac2166/plantoes.html"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; Local de atendimento: Laboratório de informática 03 - Bloco I, piso superior.&lt;/p&gt;
+&lt;p&gt;Horários: Segundas e sextas das 13 as 14.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2&gt;Exercícios-programa (EPs - Trabalho)&lt;/h2&gt;
+&lt;p&gt;Em ECI0007/EM0006, os projetos que envolvem programação recebem o nome de exercícios-programa (EPs). Esta edição de ECI0007/EM0006 terá 1 EP. A data de entrega e o enunciado do EP será divulgado ao longo do semestre na seção "Exercícios-programa" da &lt;a href="http://programacao.ufca.edu.br/moodle"&gt;página de ECI0007/EM0006&lt;/a&gt;. O enunciado de cada EP deverá ser &lt;b&gt;rigorosamente&lt;/b&gt; observado. A entrega dos EPs é feita eletronicamente. O depósito (&lt;i&gt;upload&lt;/i&gt;) dos seus EPs será feito através da página de ECI0007/EM0006, conforme descrito em &lt;a href="http://www.ime.usp.br/%7Emac2166/infoepsPy/"&gt;Instruções para entrega de EPs em Python&lt;/a&gt;. Não são aceitos EPs fora do prazo de entrega. A correção dos EPs e suas notas também serão disponibilizadas na página de ECI0007/EM0006.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Provas&lt;/h2&gt;
+&lt;p&gt;As datas e horários das provas estão divulgados na seção "Provas e Trabalhos". As provas serão realizadas no laboratório de informática 03, através desta plataforma, com duração máxima de 2 horas. As mesmas são individuais, com resolução em computador do laboratório ou computador pessoal próprio. A entrega é online, através desta plataforma, não sendo aceito &lt;strong&gt;&lt;span style="color: #ff0000;"&gt;em hipótese nenhuma&lt;/span&gt;&lt;/strong&gt; a entrega por e-mail ou qualquer outra forma.&lt;/p&gt;
+&lt;p&gt;PS. &lt;span style="color: #ff0000;"&gt;Caso a conduta ética da turma não seja satisfatória, poderá ser modificado a forma de aplicação das provas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="etica"&gt;Conduta ética&lt;/h2&gt;
+&lt;p&gt;As provas e os EPs de ECI0007/EM0006 devem ser feitos &lt;b&gt;individualmente&lt;/b&gt; ou em grupo, de acordo com o enunciado do EP. Você tem responsabilidade sobre cópias feitas de questões de suas provas e de trechos de seus EPs. Quando autores e copiadores combinam, estão ludibriando o sistema de avaliação. Dependendo da área do aluno, a nota será parte da classificação usada para entrada em sub-áreas; quem falsifica as notas está enganando o sistema e seus colegas. Provas e EPs considerados plagiados, tanto o original como a cópia, receberão nota zero e os nomes dos alunos envolvidos serão encaminhados à Coordenação do curso.&lt;/p&gt;
+&lt;p&gt;O trabalho em grupo e a cooperação entre colegas é em geral benéfico e útil ao aprendizado. Para ajudar um colega você pode lhe explicar como resolveu um ou outro problema. Por exemplo, pode explicar que para fazer um determinado trecho de programa é possível usar dois "loops" ou que para representar os dados basta usar algumas variáveis etc... O que você não deve fazer é mostrar o seu programa! Você pode achar que &lt;a href="http://pt.wikipedia.org/wiki/Jeitinho#O_Homem_Cordial"&gt;a amizade é mais importante do que as considerações éticas acima&lt;/a&gt;, mas mostrar o seu programa pode prejudicar o aprendizado do seu colega:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;depois de o seu colega ter visto o seu programa, será muito mais difícil para ele imaginar uma solução original;&lt;/li&gt;
+&lt;li&gt;o seu colega não entenderá realmente o problema: a compreensão passa pela feitura dos programas e não pela imitação/cópia;&lt;/li&gt;
+&lt;li&gt;vocês passarão por outras avaliações, na forma de provas; é impressionante como são diferentes as provas escritas por alunos que fizeram EPs e pelos que não fizeram, e as notas baixas desses últimos são inevitáveis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Além disso, o seu colega pode eventualmente divulgar a sua solução para outros colegas, colocando-o numa situação muito complicada.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Esses problemas ocorrem em muitos lugares, e as políticas e recomendações não variam muito. Algumas recomendações da &lt;a href="http://www.di.fc.ul.pt/"&gt;Universidade de Lisboa&lt;/a&gt; valem também aqui e foram reproduzidas no parágrafo anterior.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2&gt;Médias&lt;/h2&gt;
+&lt;p&gt;A média final (MF) em ECI0007/EM0006 é baseada na seguinte fórmula:&lt;/p&gt;
+&lt;blockquote&gt;MF = (0.3(AV1) + 0.35(AV2) +  0.15(T1)+0.2(EX1)),&lt;/blockquote&gt;
+&lt;p&gt;onde AV1 e AV2 são as notas da primeira e segunda prova e T1 a nota do Exercício-Programa (EP1).&lt;/p&gt;
+&lt;p&gt;EX1 corresponde ao somatório das notas dos exercícios.&lt;/p&gt;
+&lt;p&gt;  Se MF ≥ 7, você estará aprovado por média; se 4 ≤ MF &amp;lt; 7, você estará de &lt;span style="color: #ffcc00; font-weight: bold;"&gt;AVALIAÇÃO FINAL&lt;/span&gt;, e se MF &amp;lt; 4, você estará reprovado.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;h2&gt;Prova Final&lt;/h2&gt;
+&lt;p&gt;Os alunos em avaliação final deverão fazer uma prova final, em data definida em calendário. Esperamos que você não fique de avaliação final, mas se isso acontecer, a média final será calculada da seguinte forma:&lt;/p&gt;
+&lt;blockquote&gt;Mrec = (MF  + AVF) / 2,&lt;/blockquote&gt;
+&lt;p&gt;onde AVF é a nota obtida na prova de final. Se Mrec ≥ 5, você estará aprovado; caso contrário, estará reprovado.&lt;/p&gt;</content>
+    <contentformat>1</contentformat>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>5</display>
+    <displayoptions>a:2:{s:12:"printheading";s:1:"1";s:10:"printintro";s:1:"0";}</displayoptions>
+    <revision>5</revision>
+    <timemodified>1474380113</timemodified>
+  </page>
+</activity>

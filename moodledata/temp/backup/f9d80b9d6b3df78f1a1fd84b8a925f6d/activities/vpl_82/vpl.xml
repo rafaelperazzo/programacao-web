@@ -1,0 +1,4623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13" moduleid="82" modulename="vpl" contextid="1291">
+  <vpl id="13">
+    <name>Exercício 16</name>
+    <shortdescription>Flipper</shortdescription>
+    <intro>&lt;p&gt;&lt;span style="font-size: xx-large;"&gt;&lt;strong&gt;ENUNCIADO&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Flíper é um tipo de jogo onde uma bolinha de metal cai por um labirinto de caminhos até chegar na parte de baixo do labirinto. A quantidade de pontos que o jogador ganha depende do caminho que a bolinha seguir. O jogador pode controlar o percurso da bolinha mudando a posição de algumas portinhas do labirinto. Cada portinha pode estar na posição 0, que significa virada para a esquerda, ou na posição 1 que quer dizer virada para a direita. Considere o flíper da figura abaixo, que tem duas portinhas. A portinha P está na posição 1 e a portinha R , na posição 0. Desse jeito, a bolinha vai cair pelo caminho B.&lt;br /&gt;&lt;br /&gt;&lt;img src="@@PLUGINFILE@@/flipper.jpg" alt="flipper" width="425" height="285" /&gt;&lt;br /&gt;&lt;br /&gt;Você deve escrever um programa que, dadas as posições das portinhas P e R , neste flíper da figura, diga por qual dos três caminhos, A , B ou C , a bolinha vai cair! &lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Entrada&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;A entrada é composta por apenas uma linha contendo dois números P e R, indicando as posições das duas portinhas do flíper da figura. &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;span style="font-size: large;"&gt;Saída&lt;/span&gt; &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;A saída do seu programa deve ser também apenas uma linha, contendo uma letra maiúscula que indica o caminho por onde a bolinha vai cair: ‘A’, ‘B’ ou ‘C’.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <startdate>0</startdate>
+    <duedate>1475463300</duedate>
+    <maxfiles>1</maxfiles>
+    <maxfilesize>0</maxfilesize>
+    <requirednet></requirednet>
+    <password></password>
+    <grade>10</grade>
+    <visiblegrade>1</visiblegrade>
+    <usevariations>0</usevariations>
+    <variationtitle>$@NULL@$</variationtitle>
+    <basedon>0</basedon>
+    <run>1</run>
+    <debug>0</debug>
+    <evaluate>0</evaluate>
+    <evaluateonsubmission>0</evaluateonsubmission>
+    <automaticgrading>0</automaticgrading>
+    <maxexetime>$@NULL@$</maxexetime>
+    <restrictededitor>0</restrictededitor>
+    <example>0</example>
+    <maxexememory>$@NULL@$</maxexememory>
+    <maxexefilesize>$@NULL@$</maxexefilesize>
+    <maxexeprocesses>$@NULL@$</maxexeprocesses>
+    <jailservers>$@NULL@$</jailservers>
+    <emailteachers>0</emailteachers>
+    <worktype>0</worktype>
+    <required_files>
+      <required_file id="">
+        <name>required_files.lst</name>
+        <content>flipper.py</content>
+      </required_file>
+      <required_file id="">
+        <name>required_files/flipper.py</name>
+        <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI</content>
+      </required_file>
+    </required_files>
+    <execution_files>
+      <execution_file id="">
+        <name>execution_files/vpl_evaluate.cases</name>
+        <content>case = Teste 1
+input = 1
+0
+output = 'B'
+
+case = Teste 2
+input = 0
+0
+output = 'C'
+
+</content>
+      </execution_file>
+    </execution_files>
+    <variations>
+    </variations>
+    <submissions>
+      <submission id="5809">
+        <vpl>13</vpl>
+        <userid>61</userid>
+        <datesubmitted>1474684912</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684917</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('A posição da porta P:')
+R=input('A poisção da porta R:')
+if P==0:
+    print('C')
+elif P==1 and R==0:
+    print('B')
+else:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5652">
+        <vpl>13</vpl>
+        <userid>62</userid>
+        <datesubmitted>1474666462</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474666466</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+#ENTRADA
+
+P=input("Digite o valor de P: ")
+R=input("Digite o valor de R: ")
+
+#PROCESSAMENTO/SAIDA
+
+if P==0:
+    print("C")
+elif P==1 and R==0:
+    print("B")
+elif P==1 and R==1:
+    print("A")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5169">
+        <vpl>13</vpl>
+        <userid>63</userid>
+        <datesubmitted>1474464194</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464197</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p=input('Digite o valor de p:')
+r=input('Digite o valor de r:')
+
+if p==1 and r==0:
+    print ('B')
+elif p==0:
+    print ('C')
+elif p==1 and r==1:
+    print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5417">
+        <vpl>13</vpl>
+        <userid>64</userid>
+        <datesubmitted>1474582687</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474582709</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P = input('Digite o valor de P sendo 1 ou 0: ')
+R = input('Digite o valor de R sendo 1 ou 0: ')
+
+if P == 0:
+    print "C"
+    
+elif P == 1 and R == 0:
+    print "B"
+    
+elif P == 1 and R == 1:
+    print "A"
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4968">
+        <vpl>13</vpl>
+        <userid>65</userid>
+        <datesubmitted>1474417916</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417918</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite P:')
+R=input('Digite R:')
+
+if (P==1 and R==1):
+    print('A')
+
+if (P==1 and R==0):
+    print('B')
+    
+if (P==0):
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5446">
+        <vpl>13</vpl>
+        <userid>66</userid>
+        <datesubmitted>1474587693</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474587696</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input("digie p:")
+R=input("digite r:")
+
+if (P==1) and (R==1):
+    print ("A")
+if (P==1) and (R==0):
+    print("B")
+if P==0:
+    print("C")
+        
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5606">
+        <vpl>13</vpl>
+        <userid>67</userid>
+        <datesubmitted>1474646952</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474646954</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input("Digite o valor de P:")
+R=input("Digite o valor de R:")
+
+if P==0:
+    print("C")
+if P==1 and R==0:
+    print("B")
+if P==1 and R==1:
+    print("A")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5068">
+        <vpl>13</vpl>
+        <userid>68</userid>
+        <datesubmitted>1474457012</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474457028</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P= input('Digite a posição de P:')
+R= input('Digite a posição de R:')
+
+if P==0:
+    print ('C')
+elif P==1 and R==0:
+    print ('B')
+else:
+    P==1 and R==1
+    print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5060">
+        <vpl>13</vpl>
+        <userid>69</userid>
+        <datesubmitted>1474424834</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474424844</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+P=input('Digite o valor de P(0 ou 1):')
+R=input('Digite o valor de R(0 ou 1):')
+if P==0:
+    print ('C')
+if P==1:
+    if R==0:
+        print('B')
+    if R==1:
+        print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5306">
+        <vpl>13</vpl>
+        <userid>71</userid>
+        <datesubmitted>1474516356</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474516395</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P = input("P: ")
+R = input("R: ")
+
+if P==0:
+    print("C")
+elif R==0:
+    print("B")
+else: 
+    print("A")
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5725">
+        <vpl>13</vpl>
+        <userid>72</userid>
+        <datesubmitted>1474677971</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474677975</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P= input('digite o numero zero ou um: ')
+R= input('digite o numero zero ou um: ')
+
+if P==1 and R==1:
+    print('A')
+if P==1 and R==0:
+    print('B')
+if P==0:
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4845">
+        <vpl>13</vpl>
+        <userid>73</userid>
+        <datesubmitted>1474393652</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474393656</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p = input ('digite a posição de P:')
+r = input ('digite a posição de R:')
+
+if p==0 and r==0:
+    print ('C')
+if p==0 and r==1:
+    print ('C')
+if p==1 and r==0:
+    print ('B')
+if p==1 and r==1:
+    print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5452">
+        <vpl>13</vpl>
+        <userid>74</userid>
+        <datesubmitted>1474590876</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474590877</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p = input('')
+r = input('')
+
+if p == 0 :
+    print('C')
+elif p==1 and r==1 :
+    print('A')
+else :
+    print('B')
+    
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4939">
+        <vpl>13</vpl>
+        <userid>75</userid>
+        <datesubmitted>1474416910</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474417191</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#Entrada
+
+P= input ('Digite a posição de P:')
+R= input ('Digite a posição de R:')
+
+#Processamento e Saida:
+
+if (P==R) and (R==1):
+    print ('A')
+if (P&gt;R):
+    print ('B')
+if (P&lt;R) or ((P==R) and (R==0)):
+    print ('C') 
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5523">
+        <vpl>13</vpl>
+        <userid>76</userid>
+        <datesubmitted>1474605394</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474605402</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P = input('Digite P:')
+R = input('Digite R:')
+
+if (P==1) and (R==1):
+    print('A')
+if P == 1 and R == 0:
+    print('B')
+if P == 0:
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5563">
+        <vpl>13</vpl>
+        <userid>77</userid>
+        <datesubmitted>1474633168</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474633170</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p=input('Digite o valor de p:')
+r=input('Digite o valor de r:')
+
+if p==0 :
+    print('C')
+elif p==1 and r==1:
+    print('A')
+elif p==1and r==0:
+    print('B')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5742">
+        <vpl>13</vpl>
+        <userid>78</userid>
+        <datesubmitted>1474678724</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678748</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('digite a posição de P:')
+R=input('digite a posição de R:')
+
+if P==0:
+    print('C')
+if (P==1)and(R==0):
+    print('B')
+if (P==1)and(R==1):
+    print('A')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5774">
+        <vpl>13</vpl>
+        <userid>79</userid>
+        <datesubmitted>1474680888</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474680920</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada 
+
+P = float(input('Digite "0" para a esquerda ou "1" para a direita: '))
+R = float(input('Digite "0" para a esquerda ou "1" para a direita: '))
+
+#Processamento e Saída
+
+if P == 0:
+    print('C')
+    
+if (P == 1) and (R == 1):
+    print('A')
+    
+if (P == 1) and (R == 0):
+    print('B')
+    
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4821">
+        <vpl>13</vpl>
+        <userid>80</userid>
+        <datesubmitted>1474391536</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474391552</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('digite a posição da porta P:')
+R=input('digite a posição da porta R:')
+if P==0:
+    print('C')
+elif P==1 and R==0:
+    print('B')
+else:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5225">
+        <vpl>13</vpl>
+        <userid>81</userid>
+        <datesubmitted>1474473069</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474473087</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input('Digite P:')
+R=input('Digite R:')
+
+if P==0:
+    print ('C')
+elif P==1 and R==0:
+    print ('B')
+elif P==1 and R==1:
+    print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5790">
+        <vpl>13</vpl>
+        <userid>82</userid>
+        <datesubmitted>1474682420</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474682433</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+P= input ('Digite o valor de P:') 
+R= input ('Digite o valor de R:') 
+
+#PROCESSAMENTO E SAIDA
+if P==0 and R==1:
+    print ('C')
+else:
+    if P==0 and R==0:
+        print ('C')
+    else:
+        if P==1 and R==0:
+            print ('B')
+        else:
+            if P==1 and R==1:
+                print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5198">
+        <vpl>13</vpl>
+        <userid>84</userid>
+        <datesubmitted>1474465918</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474465936</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input('qual a posição da porta P:')
+R=input('qual a posição da porta R:')
+
+if(P==0):
+    print('C')
+    
+if(P==1) and (R==0): 
+    print('B')
+        
+if(P==1) and (R==1):
+    print('A')
+        </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4688">
+        <vpl>13</vpl>
+        <userid>85</userid>
+        <datesubmitted>1474386462</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474386465</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p= int(input('Digite o valor de p (1 ou 0): '))
+r= int(input('Digite o valor de r (1 ou 0): '))
+
+if p==0:
+    print('C')
+if p==1:
+    if r==0:
+        print('B')
+    if r==1:
+        print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5321">
+        <vpl>13</vpl>
+        <userid>86</userid>
+        <datesubmitted>1474547409</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474547423</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+P = input()
+R = input()
+
+if P == 1:
+    print('A')
+    if R == 1:
+        print('A')
+    elif R == 0:
+        print('B')
+elif P == 0:
+    print('C')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5025">
+        <vpl>13</vpl>
+        <userid>87</userid>
+        <datesubmitted>1474420669</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474420671</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P = input("P:")
+R = input("R:")
+
+if P==0:
+    print("C")
+if P==1 and R==0:
+    print("B")
+if P==1 and R==1:
+    print("A")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5703">
+        <vpl>13</vpl>
+        <userid>88</userid>
+        <datesubmitted>1474676633</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474676658</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P= input('digite o numero um ou zero: ')
+R= input('digite o numero um ou zero: ')
+
+if P==1 and R==1:
+    print('A')
+if P==1 and R==0:
+    print('B')
+if P==0:
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5137">
+        <vpl>13</vpl>
+        <userid>89</userid>
+        <datesubmitted>1474460479</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460482</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+#entrada
+P=input('digite o valor de P:')
+R=input('digite o valor de R:')
+#processamento e saida 
+if R==P  and R==1:
+    print('A')
+if R&lt;P and R==0:
+    print('B')
+if P==0 and R==0:
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5614">
+        <vpl>13</vpl>
+        <userid>90</userid>
+        <datesubmitted>1474657446</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474657448</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada
+P=input('Digite aqui o valor de P:')
+R=input('Digite aqui o valor de R:')
+
+#Processamento e Saida
+if P==1 and R==1:
+    print ('A')
+
+elif P==1 and R==0:
+        print ('B')
+
+elif P==0:
+        print ('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5210">
+        <vpl>13</vpl>
+        <userid>91</userid>
+        <datesubmitted>1474471551</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474471564</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p=input('Digite p:')
+r=input('Digite r:')
+
+if p==0:
+    print('c')
+if p==1 and r==0:
+    print('b')
+if p==1 and r==1:
+    print('a')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5310">
+        <vpl>13</vpl>
+        <userid>92</userid>
+        <datesubmitted>1474545470</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474545472</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P= input( )
+R= input( )
+
+if P==0:
+    print('C')
+
+elif P==1 and R==1:
+    print('A')
+
+else:
+    print('B')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5753">
+        <vpl>13</vpl>
+        <userid>93</userid>
+        <datesubmitted>1474679301</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474679311</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+p=input('p')
+r=input('r')
+if p==0:
+    print("'C'")
+else:
+    if r==0:
+        print("'B'")
+    else:
+        print("'A'")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4987">
+        <vpl>13</vpl>
+        <userid>94</userid>
+        <datesubmitted>1474418443</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418458</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input('digite o valor de P,se ele e 0 ou 1:')
+R=input('digite o valor de R,se ele e 0 ou 1:')
+
+if P==0:
+    print('C')
+    
+elif P==1 and R==0:
+    print('B')
+
+elif P==1 and R==1:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4973">
+        <vpl>13</vpl>
+        <userid>95</userid>
+        <datesubmitted>1474417993</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418014</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+p=input('Posição de p:')
+r=input('Posição de r:')
+
+if p==0:
+    print('C')
+elif p==1 and r==0:
+    print('B')
+elif p==1 and r==1:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5368">
+        <vpl>13</vpl>
+        <userid>96</userid>
+        <datesubmitted>1474571199</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474571206</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P = input('A posição da portinha P:')
+R = input('A posição da portinha R:')
+
+if P == 0:
+    print('C')
+elif P == 1 and R == 0:
+    print('B')
+else:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5525">
+        <vpl>13</vpl>
+        <userid>97</userid>
+        <datesubmitted>1474605841</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474605872</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite P:')
+R=input('Digite R:')
+
+if P==1 and R==1:
+    print('A')
+elif P==1 and R==0:
+    print('B')
+elif P==0:
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4913">
+        <vpl>13</vpl>
+        <userid>98</userid>
+        <datesubmitted>1474414383</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474414386</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite o valor de P: ')
+R=input('Digite o valor de R: ')
+
+
+if P==0:
+    print('C')
+if P==1 and R==0:
+    print('B')
+if P==1 and R==1:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5268">
+        <vpl>13</vpl>
+        <userid>99</userid>
+        <datesubmitted>1474483559</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474483579</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite a posição da portinha P:')
+R=input('Digite a posição da portinha R:')
+
+if (P==1) and (R==1):
+    print ('A')
+    
+elif (P==1) and (R==0):
+    print ('B')
+    
+else:
+    print ('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4995">
+        <vpl>13</vpl>
+        <userid>100</userid>
+        <datesubmitted>1474418659</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474418673</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+p = input ('valor p:')
+r = input ('valor r:')
+if p ==0 :
+    print 'C'
+if p==1 and r==0:
+    print 'B'
+if p==1 and r==1:
+    print 'A'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5490">
+        <vpl>13</vpl>
+        <userid>101</userid>
+        <datesubmitted>1474598293</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474598296</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P = input(' digite a direção da portinha P (0 para esquerda e 1 para direita): ')
+R = input(' digite a direção da portinha R (0 para esquerda e 1 para direita): ')
+
+if P == 1 and R == 1:
+    print ('A')
+if P == 0 and R == 0:
+    print ('C')
+if P == 1 and R == 0:
+    print ('B')
+if P == 0 and R == 1:
+    print ('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5182">
+        <vpl>13</vpl>
+        <userid>102</userid>
+        <datesubmitted>1474464503</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464514</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p=input('dgite o valor de p:')
+r=input('digite o valor de r:')
+
+if p==1 and r==0:
+    print('B')
+elif p==0 and r==0:
+    print('C')
+elif p==1 and r==1:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5708">
+        <vpl>13</vpl>
+        <userid>103</userid>
+        <datesubmitted>1474676834</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474676836</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#entrada
+P = input('digite 0 ou 1:')
+R = input('digite 0 ou 1:')
+#processamento e saída
+
+if P==1:
+    if R==1:
+        print('A')
+    elif R==0:
+        print('B')
+elif P==0:
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5684">
+        <vpl>13</vpl>
+        <userid>104</userid>
+        <datesubmitted>1474674506</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474674511</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+p=input('Determine a posição de p:')
+r=input('Determine a posição de r:')
+#PROCESSAMENTO
+if p==0:
+    print('C')
+else:
+    if r==0:
+        print('B')
+    else:
+        print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5431">
+        <vpl>13</vpl>
+        <userid>106</userid>
+        <datesubmitted>1474585017</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474585034</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P = input ('Escolha entre 0 ou 1, a direção para a primeira porta:')
+Q = input ('Escolha entre 0 ou 1, a direção para a segunda porta:')
+
+if P==0:
+    print ('C')
+else:
+    if Q==0:
+        print ('B')
+    else:
+        print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4694">
+        <vpl>13</vpl>
+        <userid>107</userid>
+        <datesubmitted>1474386550</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474386551</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('digite o valor de P:')
+R=input('digite o valor de R:')
+if P==0:
+    print('C')
+if P==1:
+    if R==0:
+        print ('B')
+    if R==1:
+        print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4667">
+        <vpl>13</vpl>
+        <userid>108</userid>
+        <datesubmitted>1474385583</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385586</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P = input ('Posição da porta P:')
+R = input ('Posição da porta R:')
+
+if (P==0):
+    print ('C')
+else:
+    if (R==0):
+        print ('B')
+    else:
+        print ('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4753">
+        <vpl>13</vpl>
+        <userid>109</userid>
+        <datesubmitted>1474387661</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474387673</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input('Digite a posição de P:')
+R=input('Digite a posição de R:')
+
+if P==1 and R==0:
+    print('B')
+if P==1 and R==1:
+    print('A')
+if P==0 and R==0:
+    print('C')
+if P==0 and R==1:
+    print('c')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5587">
+        <vpl>13</vpl>
+        <userid>110</userid>
+        <datesubmitted>1474643294</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474643307</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+p=input('Digite posição de P: ')
+r=input('Digite posição de R: ')
+if p==0:
+    print('C')
+elif p==1 and r==0 :
+    print('B')
+elif p==1 and r==1:
+    print('A')
+
+ 
+
+
+
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5661">
+        <vpl>13</vpl>
+        <userid>111</userid>
+        <datesubmitted>1474670913</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474670943</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+a=input('Digite a posição da porta P: ')
+b=input('Digite a posição da porta R: ')
+
+if a==0:
+    print 'C'
+if a==1 and b==1:
+    print 'A'
+if a==1 and b==0:
+    print 'B'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5376">
+        <vpl>13</vpl>
+        <userid>112</userid>
+        <datesubmitted>1474571767</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474571773</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite 1 ou 0 para a posição da portinha:')
+R=input('Digite 1 ou 0 para a posição da portinha:')
+
+
+if P==0:
+    print('C')
+if P==1 and R==0:
+    print('B')
+if P==1 and R==1:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5143">
+        <vpl>13</vpl>
+        <userid>114</userid>
+        <datesubmitted>1474460894</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474460906</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+P=input('Escolha 0 ou 1 para ser o valor de P: ')
+R=input('Escolha 0 ou 1 para ser o valor de R: ')
+
+if P==1 and R==1:
+    print ('A')
+if P==1 and R==0:
+    print ('B')
+if P==0:
+    print ('C')    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7457">
+        <vpl>13</vpl>
+        <userid>115</userid>
+        <datesubmitted>1475092673</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('Digite o valor da posição P:')
+R=input('Digite o valor da posição R:')
+if(P==0):
+    print('C')
+if(P==1 and R==0):
+    print('B')
+if(P==1 and R==1):
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5596">
+        <vpl>13</vpl>
+        <userid>116</userid>
+        <datesubmitted>1474645271</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474645274</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P = input ('insira a posição de P:') 
+R = input ('insira a posição de R:')
+
+if P == 0: 
+    print ('C') 
+elif P == 1 and R == 0: 
+    print ('B') 
+else: 
+    print ('A') </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5582">
+        <vpl>13</vpl>
+        <userid>117</userid>
+        <datesubmitted>1474641456</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474641476</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('digite o em qual direção está a porta P:')
+R=input('digite o em qual direção está a porta R:')
+
+if P==1 and R==1:
+    print('A')
+if P==0:
+    print('C')
+if P==1 and R==0:
+    print('B')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4886">
+        <vpl>13</vpl>
+        <userid>118</userid>
+        <datesubmitted>1474411575</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474411607</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#1
+P = input('Digite a posição de P (0 ou 1) =')
+R = input('Digite a posição de R (0 ou 1) =')
+
+#2
+if P==1 and R==1:
+    print('A')
+if P==1 and R==0:
+    print('B')
+if P==0:
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5001">
+        <vpl>13</vpl>
+        <userid>120</userid>
+        <datesubmitted>1474418995</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474419006</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+#ENTRADA
+p=input('digite a posição da portinha p:')
+r=input('digite a posição da portinha r:')
+if p==1 and r==0:
+    print('B')
+if p==1 and r==1:
+    print('A')
+if p==0:
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5392">
+        <vpl>13</vpl>
+        <userid>123</userid>
+        <datesubmitted>1474572967</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572970</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P= input('Insira a posição de P:')
+R= input('Insira a posição de R:')
+
+if P==0:
+    print('C')
+if P==1:
+    if R==0:
+        print('B')
+    if R==1:
+        print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4671">
+        <vpl>13</vpl>
+        <userid>124</userid>
+        <datesubmitted>1474385735</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474385738</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P = input('Digite a posição da porta P: ')
+R = input('Digite a posição da porta R: ')
+if (P == 1) and (R == 1):
+    print('A')
+if (P == 1) and (R == 0):
+    print('B')
+if (P == 0):
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4813">
+        <vpl>13</vpl>
+        <userid>128</userid>
+        <datesubmitted>1474390736</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474390751</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+p=input('Posição de P: ')
+r=input('Posição de R: ')
+
+if p==0:
+    print ('C')
+    
+elif p==1:
+    if r==0:
+        print ('B')
+    elif r==1:
+        print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5290">
+        <vpl>13</vpl>
+        <userid>129</userid>
+        <datesubmitted>1474503489</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474503491</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P= input('Digite o valor de P: ')
+R= input('Digite o valor de R: ')
+if P==0:
+    print ('C')
+elif P==1 and R==0:
+    print ('B')
+else :
+    print ('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5166">
+        <vpl>13</vpl>
+        <userid>130</userid>
+        <datesubmitted>1474464074</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474464077</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+P=input('Digite o valor de P:')
+R=input('Digite o valor de R:')
+if P==0:
+    print('C')
+else:
+    if R==0:
+        print('B')
+    else:
+        print('A')
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5805">
+        <vpl>13</vpl>
+        <userid>131</userid>
+        <datesubmitted>1474684358</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474684361</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+
+#Entrada 
+
+P = float(input('Digite "0" para a esquerda ou "1" para a direita: '))
+R = float(input('Digite "0" para a esquerda ou "1" para a direita: '))
+
+#Processamento e Saída
+
+if P == 0:
+    print('C')
+    
+if (P == 1) and (R == 1):
+    print('A')
+    
+if (P == 1) and (R == 0):
+    print('B')
+    
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4933">
+        <vpl>13</vpl>
+        <userid>132</userid>
+        <datesubmitted>1474416421</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474416433</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+p= input('digite 1 ou 0 para sua porta p:')
+r= input(' digite 1 ou 0 para sua porta r:')
+if p==1 and r==1:
+    print('A')
+if p==1 and r==0:
+    print('B')
+if p==0:
+    print('C')
+    
+    </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5375">
+        <vpl>13</vpl>
+        <userid>133</userid>
+        <datesubmitted>1474571760</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474571763</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite o valor da posição P:')
+R=input('Digite o valor da posição R:')
+if(P==0):
+    print('C')
+if(P==1 and R==0):
+    print('B')
+if(P==1 and R==1):
+    print('A')
+
+      </content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5720">
+        <vpl>13</vpl>
+        <userid>134</userid>
+        <datesubmitted>1474677561</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474677566</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P = input('Digite a posição de P:')
+R = input('Digite a posição de R:')
+
+if P==0:
+    print ('C')
+elif R==P==1:
+    print ('A')
+elif R==0 and P==1:
+    print ('B')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5512">
+        <vpl>13</vpl>
+        <userid>135</userid>
+        <datesubmitted>1474603070</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474603075</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+
+P= input ('digite a posição da bolinha:')
+R= input ('digite a posição da bolinha:')
+
+if P==1 and R==1:
+    print 'A'
+if P==1 and R==0:
+    print 'B'
+if P==0 and R==0:
+    print 'C'
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5086">
+        <vpl>13</vpl>
+        <userid>136</userid>
+        <datesubmitted>1474458447</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474458449</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P = input("Digite o valor da porta P:")
+R = input("Digite o valor da porta R:")
+
+if P==0:
+    print("C")
+if P==1 and R==0:
+    print("B")
+if P==1 and R==1:
+    print("A")</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5747">
+        <vpl>13</vpl>
+        <userid>137</userid>
+        <datesubmitted>1474678887</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678890</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('digite a posição da porta P:')
+R=input('digite a posição da porta R:')
+if P==0:
+    print('C')
+elif P==1 and R==0:
+    print('B')
+else:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5734">
+        <vpl>13</vpl>
+        <userid>138</userid>
+        <datesubmitted>1474678427</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474678429</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+P=input('digite a posição da porta P:')
+R=input('digite a posição da porta R:')
+if P==0:
+    print('C')
+elif P==1 and R==0:
+    print('B')
+else:
+    print('A')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5390">
+        <vpl>13</vpl>
+        <userid>141</userid>
+        <datesubmitted>1474572540</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474572542</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+p=int(input('digite o valor de p:'))
+r=int(input('digite o valor de r:'))
+if (p==0 and r==1):
+    print('A')
+if (p==1 and r==0):
+    print('B')
+else:
+    print('C')
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="5324">
+        <vpl>13</vpl>
+        <userid>142</userid>
+        <datesubmitted>1474548678</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474548681</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CÓDIGO AQUI
+P=input('Digite um número 0 ou 1:')
+R=input('Digite um número 0 ou 1:')
+
+if P==1 and R==1:
+    print ('A')
+elif P==1 and R==0:
+    print ('B')
+elif P==0:
+    print ('C')
+
+</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="4858">
+        <vpl>13</vpl>
+        <userid>146</userid>
+        <datesubmitted>1474397998</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>1474398027</dategraded>
+        <grade>10.00000</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>compilation.txt</name>
+            <content></content>
+          </submission_file>
+          <submission_file id="">
+            <name>execution.txt</name>
+            <content>Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+&lt;|--
+-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+--|&gt;
+
+Grade :=&gt;&gt;10
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>grade_comments.txt</name>
+            <content>-Summary of tests
+&gt;+------------------------------+
+&gt;|  2 tests run/ 2 tests passed |
+&gt;+------------------------------+
+
+</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+p = input("DIGITE O VALOR DE P: ")
+r = input("DIGITE O VALOR DE R: ")
+ 
+if p==0:
+    print 'C'
+
+elif p!=r:
+    print 'B'
+
+else:
+    print 'A'</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+      <submission id="7356">
+        <vpl>13</vpl>
+        <userid>148</userid>
+        <datesubmitted>1474989850</datesubmitted>
+        <comments></comments>
+        <grader>0</grader>
+        <dategraded>0</dategraded>
+        <grade>$@NULL@$</grade>
+        <mailed>0</mailed>
+        <highlight>0</highlight>
+        <submission_files>
+          <submission_file id="">
+            <name>submittedfiles.lst</name>
+            <content>flipper.py</content>
+          </submission_file>
+          <submission_file id="">
+            <name>submittedfiles/flipper.py</name>
+            <content># -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#ENTRADA
+p= input('Digite o valor de p:')
+r= input('Digite o valor de r:')
+#PROCESSAMENTO
+if p==1 and r==1 :
+    print('A')
+elif p==1 and r==0 :
+    print('B')
+elif p==0:
+    print('C')</content>
+          </submission_file>
+        </submission_files>
+      </submission>
+    </submissions>
+  </vpl>
+</activity>

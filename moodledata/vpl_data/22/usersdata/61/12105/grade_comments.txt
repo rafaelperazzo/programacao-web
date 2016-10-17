@@ -1,0 +1,36 @@
+-Failed tests
+Test 5: Teste 5
+Test 6: Teste 6
+-Test 5: Teste 5 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>3
+>3
+>3
+
+ --- Program output ---
+>Digite um valor de 0 a 9: Digite um valor de 0 a 9: Digite um valor de 0 a 9: Digite um valor de 0 a 9: V
+
+ --- Expected output (text)---
+> 'F'
+
+-Test 6: Teste 6 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>3
+>3
+
+ --- Program output ---
+>Digite um valor de 0 a 9: Digite um valor de 0 a 9: Digite um valor de 0 a 9: Digite um valor de 0 a 9: V
+
+ --- Expected output (text)---
+> 'F'
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 4 tests passed |
+>+------------------------------+
+

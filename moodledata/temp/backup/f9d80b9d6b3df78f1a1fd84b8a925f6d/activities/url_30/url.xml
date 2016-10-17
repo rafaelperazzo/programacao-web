@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="30" modulename="url" contextid="494">
+  <url id="3">
+    <name>Currículo Lattes</name>
+    <intro>&lt;p&gt;Currículo lattes&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4264014J4</externalurl>
+    <display>1</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1468936699</timemodified>
+  </url>
+</activity>

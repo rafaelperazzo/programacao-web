@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="8" moduleid="69" modulename="url" contextid="1263">
+  <url id="8">
+    <name>Aula 12/09/2016 - (VÍDEO)</name>
+    <intro>&lt;p&gt;Aula de 12/09/2016&lt;/p&gt;
+&lt;p&gt;Transmitida ao vivo a partir das 10:15.&lt;/p&gt;
+&lt;p&gt;Pode ser assistida após o horário, pois a mesma fica gravada.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <externalurl>https://www.youtube.com/watch?v=VqteheuP7ZE</externalurl>
+    <display>1</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <parameters>a:0:{}</parameters>
+    <timemodified>1473863571</timemodified>
+  </url>
+</activity>
