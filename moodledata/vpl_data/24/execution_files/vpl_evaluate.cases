@@ -1,16 +1,16 @@
 case = Teste 1
 input = 10
-output = '3.141407'
+output = /[[:print:]]*\b3.14[0-9]+\b[[:print:]]*/i
 
 case = Teste 2
 input = 1
-output = '3.166667'
+output = /[[:print:]]*\b3.16[0-9]+\b[[:print:]]*/i
 
 case = Teste 3
 input = 100
-output = '3.141592'
+output = /[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*/i
 
 case = Teste 4
 input = 1000
-output = '3.141593'
+output = /[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*/i
 

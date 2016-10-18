@@ -1,0 +1,75 @@
+s:2062:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br />Test 6: Teste 6
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 20
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:55.5525328
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '55.55253'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:1.0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1.00000'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:2.5
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '2.50000'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '0.00000'
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5.87
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:Traceback (most recent call last):
+  File "atividade.py", line 8, in &lt;module&gt;
+    for a in range (0,n,1):
+TypeError: range() integer end argument expected, got float.
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  6 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

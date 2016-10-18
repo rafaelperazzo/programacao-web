@@ -26,8 +26,8 @@ Incorrect program result
 >9.22232212232
 >10.2235125985
 
- --- Expected output (text)---
-> '3.141407'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14[0-9]+\b[[:print:]]*
 
 -Test 2: Teste 2 (-7.500)
 Incorrect program result
@@ -37,8 +37,8 @@ Incorrect program result
  --- Program output ---
 >quantidade de termos:
 
- --- Expected output (text)---
-> '3.166667'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.16[0-9]+\b[[:print:]]*
 
 -Test 3: Teste 3 (-7.500)
 Incorrect program result
@@ -144,8 +144,8 @@ Incorrect program result
 >99.2273847078
 >100.227385247
 
- --- Expected output (text)---
-> '3.141592'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
 
 -Test 4: Teste 4 (-7.500)
 Incorrect program result
@@ -891,8 +891,8 @@ Incorrect program result
 >739.227410817
 >740.227410819
 
- --- Expected output (text)---
-> '3.141593'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
 
 --|>
 

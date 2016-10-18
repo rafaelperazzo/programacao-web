@@ -69,7 +69,7 @@ Incorrect program result
  --- Expected output (text)---
 > 'azar'
 
--Test 4: Teste 4 (-30.000)
+-Test 4: Teste 4 (-7.500)
 Incorrect program result
  --- Input ---
 > 1

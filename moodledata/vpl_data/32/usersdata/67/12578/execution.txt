@@ -1,0 +1,39 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 1: Teste 1 (-7.500)
+Incorrect program result
+ --- Input ---
+> 34
+>55
+>77
+>12
+>23
+>99
+>5
+>3
+>77
+>55
+>42
+>34
+
+ --- Program output ---
+>Digite o primeiro numero de sua escolha:Digite o segundo numero de sua escolha:Digite o terceiro numero de sua escolha:Digite o quarto numero de sua escolha:Digite o quinto numero de sua escolha:Digite o sexto numero de sua escolha:Digite o primeiro numero sorteado:Digite o segundo numero sorteado:Digite o terceiro numero sorteado:Digite o quarto numero sorteado:Digite o quinto numero sorteado:Digite o sexto numero sorteado:quadra
+
+ --- Expected output (text)---
+>'terno'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>22.50

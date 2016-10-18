@@ -1,0 +1,16 @@
+-Test 2: Teste 2 (-7.500)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>Digite o valor de m: 3.000000
+
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.16[0-9]+\b[[:print:]]*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

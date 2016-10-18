@@ -1,4 +1,23 @@
--Test 1: Teste 1 (-30.000)
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 1320
+>25
+
+ --- Program output ---
+>  File "av1_3.py", line 15
+>    if a%i==0 and b%i>==0:
+>                       ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '5'
+>'4'
+
+-Test 2: Teste 2 (-15.000)
 Incorrect program result
  --- Input ---
 > 23732
@@ -11,13 +30,12 @@ Incorrect program result
 >SyntaxError: invalid syntax
 
  --- Expected output (text)---
-> '5'
->'4'
+> '4'
+>'5'
 >
->case Teste 2
 
 -Summary of tests
 >+------------------------------+
->|  1  test run/ 0 tests passed |
+>|  2 tests run/ 0 tests passed |
 >+------------------------------+
 

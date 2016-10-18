@@ -56,7 +56,7 @@ Incorrect program result
  --- Expected output (text)---
 > 'sena'
 
--Test 4: Teste 4 (-30.000)
+-Test 4: Teste 4 (-7.500)
 Incorrect program result
  --- Input ---
 > 1
@@ -91,4 +91,4 @@ Incorrect program result
 
 --|>
 
-Grade :=>> 0
+Grade :=>> 7.50

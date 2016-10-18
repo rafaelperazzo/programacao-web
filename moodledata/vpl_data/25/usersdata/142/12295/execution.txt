@@ -1,7 +1,30 @@
-Testing 1/1 : Teste 1
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
 
 <|--
--Test 1: Teste 1 (-30.000)
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 1320
+>25
+
+ --- Program output ---
+>Digite o número 1:Digite o número 2:Traceback (most recent call last):
+>  File "av1_3.py", line 21, in <module>
+>    r = (x1%b)
+>NameError: name 'b' is not defined
+
+ --- Expected output (text)---
+> '5'
+>'4'
+
+-Test 2: Teste 2 (-15.000)
 Incorrect program result
  --- Input ---
 > 23732
@@ -14,17 +37,16 @@ Incorrect program result
 >NameError: name 'b' is not defined
 
  --- Expected output (text)---
-> '5'
->'4'
+> '4'
+>'5'
 >
->case Teste 2
 
 --|>
 
 <|--
 -Summary of tests
 >+------------------------------+
->|  1  test run/ 0 tests passed |
+>|  2 tests run/ 0 tests passed |
 >+------------------------------+
 
 --|>

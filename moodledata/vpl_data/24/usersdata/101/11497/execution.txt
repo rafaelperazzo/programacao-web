@@ -19,8 +19,8 @@ Incorrect program result
  --- Program output ---
 >digite o valor de m: 2.999567
 
- --- Expected output (text)---
-> '3.141407'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14[0-9]+\b[[:print:]]*
 
 -Test 3: Teste 3 (-7.500)
 Incorrect program result
@@ -30,8 +30,8 @@ Incorrect program result
  --- Program output ---
 >digite o valor de m: 3.000000
 
- --- Expected output (text)---
-> '3.141592'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
 
 -Test 4: Teste 4 (-7.500)
 Incorrect program result
@@ -41,8 +41,8 @@ Incorrect program result
  --- Program output ---
 >digite o valor de m: 3.000000
 
- --- Expected output (text)---
-> '3.141593'
+ --- Expected output (regular expression)---
+>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
 
 --|>
 
