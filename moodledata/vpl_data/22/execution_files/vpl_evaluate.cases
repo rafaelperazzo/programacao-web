@@ -18,25 +18,3 @@ input = 6
 6
 8
 output = 'V'
-
-case = Teste 4
-input = 3
-3
-9
-3
-output = 'F'
-
-case = Teste 5
-input = 3
-3
-3
-3
-output = 'F'
-
-case = Teste 6
-input = 3
-5
-3
-3
-output = 'F'
-

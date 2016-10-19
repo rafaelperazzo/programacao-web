@@ -4,8 +4,8 @@ input = 2
 3
 0.5
 0.2
-output = /[[:print:]]+\bNAO\b
-[[:print:]]+\bSIM\b/i
+output = /[[:print:]]*[N]([A]|[Ã])[O]
+[[:print:]]*\bSIM\b/i
 
 case = Teste 2
 input = 3
@@ -15,6 +15,6 @@ input = 3
 1.5
 -0.87
 1.2
-output = /[[:print:]]+\bNAO\b
-[[:print:]]+\bNAO\b
-[[:print:]]+\bNAO\b/i
+output = /[[:print:]]*\bNAO\b
+[[:print:]]*\bNAO\b
+[[:print:]]*\bNAO\b/i

@@ -1,0 +1,38 @@
+s:1047:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1320
+25
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a: Digite b: Traceback (most recent call last):
+  File "av1_3.py", line 17, in &lt;module&gt;
+    d=(d%c)
+ZeroDivisionError: integer division or modulo by zero
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '5'
+'4'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 23732
+152
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a: Digite b: Traceback (most recent call last):
+  File "av1_3.py", line 17, in &lt;module&gt;
+    d=(d%c)
+ZeroDivisionError: integer division or modulo by zero
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '4'
+'5'
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

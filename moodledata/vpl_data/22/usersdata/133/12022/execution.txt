@@ -1,34 +1,13 @@
-Testing 1/6 : Teste 1
-Testing 2/6 : Teste 2
-Testing 3/6 : Teste 3
-Testing 4/6 : Teste 4
-Testing 5/6 : Teste 5
-Testing 6/6 : Teste 6
-
-<|--
--Test 6: Teste 6 (-5.000)
-Incorrect program result
- --- Input ---
-> 3
->5
->3
->3
-
- --- Program output ---
->Para verificar a cobra, especifique valores entre 1 e 9 para representar cada cor observada
->Digite o valor para a primeira cor:Digite o valor para a segunda cor:Digite o valor para a terceira cor:Digite o valor para a quarta cor:V
-
- --- Expected output (text)---
-> 'F'
-
---|>
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
 
 <|--
 -Summary of tests
 >+------------------------------+
->|  6 tests run/ 5 tests passed |
+>|  3 tests run/ 3 tests passed |
 >+------------------------------+
 
 --|>
 
-Grade :=>>25
+Grade :=>>30

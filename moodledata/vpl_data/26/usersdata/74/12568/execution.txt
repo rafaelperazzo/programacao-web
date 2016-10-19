@@ -1,50 +1,12 @@
-Testing 1/3 : Teste 1
-Testing 2/3 : Teste 2
-Testing 3/3 : Teste 3
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
 
 <|--
--Failed tests
-Test 1: Teste 1
-Test 2: Teste 2
-Test 3: Teste 3
---|>
-
-<|--
--Test 1: Teste 1 (-10.000)
-Program timeout
+-Test 1: Teste 1 (-15.000)
 Incorrect program result
  --- Input ---
-> 12345678
->1.98342
-
- --- Program output ---
-
- --- Expected output (text)---
-> '8'
->'5'
-
--Test 2: Teste 2 (-10.000)
-Incorrect program result
- --- Input ---
-> 201
->0.8
-
- --- Program output ---
->Digite o valor inteiro: Digite o valor real: 3
->Traceback (most recent call last):
->  File "av1_3.py", line 22, in <module>
->    x = l*r
->OverflowError: long int too large to convert to float
-
- --- Expected output (text)---
-> '3'
->'1'
-
--Test 3: Teste 3 (-10.000)
-Incorrect program result
- --- Input ---
-> 10981
->0.123456789
+> 12345
+>0.998743
 
  --- Program output ---
 >Digite o valor inteiro: Digite o valor real: 5
@@ -53,18 +15,18 @@ Incorrect program result
 >    x = l*r
 >OverflowError: long int too large to convert to float
 
- --- Expected output (text)---
-> '5'
->'9'
+ --- Expected output (regular expression)---
+>5
+>6
 
 --|>
 
 <|--
 -Summary of tests
 >+------------------------------+
->|  3 tests run/ 0 tests passed |
+>|  2 tests run/ 1  test passed |
 >+------------------------------+
 
 --|>
 
-Grade :=>> 0
+Grade :=>>15

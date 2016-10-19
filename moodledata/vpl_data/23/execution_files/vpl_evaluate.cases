@@ -4,7 +4,7 @@ input = 4
 2
 4
 2
-output = 'S'
+output = /^s$|^sim$/i
 
 case = Teste 2
 input = 6
@@ -12,4 +12,4 @@ input = 6
 4
 2
 6
-output= 'N'
+output= /^n$|^nao$|^não$|/i
