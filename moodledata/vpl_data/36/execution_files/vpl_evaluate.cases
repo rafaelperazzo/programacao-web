@@ -1,0 +1,42 @@
+case = Teste 1
+input = 5
+3
+9
+3
+output = 'V'
+
+case = Teste 2
+input = 7
+1
+4
+7
+output = 'F'
+
+case = Teste 3
+input = 6
+2
+6
+8
+output = 'V'
+
+case = Teste 4
+input = 5
+5
+9
+5
+output = 'N'
+
+case = Teste 5
+input = 5
+5
+5
+5
+output = 'N'
+
+case = Teste 6
+input = 5
+3
+4
+4
+output = 'N'
+

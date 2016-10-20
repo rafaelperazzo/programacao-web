@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'wiziq', language 'pt_br', branch 'MOODLE_29_STABLE'
+ * Strings for component 'wiziq', language 'pt_br', branch 'MOODLE_30_STABLE'
  *
  * @package   wiziq
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
@@ -70,11 +70,9 @@ $string['manage'] = 'Gerenciar Aula';
 $string['manage_classes'] = 'Gerenciar Aulas';
 $string['manage_classes_file'] = 'Lista de aulas para o curso';
 $string['manage_content'] = 'Gerenciar conteúdo';
-$string['modulename'] = 'WiZiQ aula ao vivo';
 $string['modulenameplural'] = 'Aulas WiZiQ';
 $string['name'] = 'Título da aula';
 $string['nameheading'] = 'Nome';
-$string['namerequired'] = 'Título da aula é necessário';
 $string['new_attendee'] = '<b>Você está vendo a aula pela primeira vez</b>';
 $string['no_delete_xml'] = 'Nenhum xml retornado na exclusão de conteúdo';
 $string['no_download_recording'] = '<b>Criando-Gravação</b>';
