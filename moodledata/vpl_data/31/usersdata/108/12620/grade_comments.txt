@@ -1,0 +1,26 @@
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>1
+>1.5
+>1.5
+>-0.87
+>1.2
+
+ --- Program output ---
+>Digite n:x:y:NAO
+>x:y:NAO
+>x:y:SIM
+
+ --- Expected output (regular expression)---
+>.*NAO.*
+>.*NAO.*
+>.*NAO.*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
