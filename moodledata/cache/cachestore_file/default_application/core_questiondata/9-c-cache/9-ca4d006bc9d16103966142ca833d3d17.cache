@@ -1,0 +1,33 @@
+O:8:"stdClass":22:{s:2:"id";s:1:"9";s:8:"category";s:1:"5";s:6:"parent";s:1:"0";s:4:"name";s:27:"Estradas - Entrada e Saída";s:12:"questiontext";s:1462:"<p><p>Considere <i>n</i> cidades numeradas de 0 a <i>n</i>-1 que estão
+interligadas por uma série de estradas de mão única.
+As ligações entre as cidades são representadas pelos
+elementos de uma matriz quadrada&nbsp; <i>L<sub>nxn</sub></i>, cujos elementos
+<i>l<sub>ij</sub></i>
+assumem o valor 1 ou 0, conforme exista ou não estrada direta que
+saia da cidade <i>i</i> e chegue à cidade <i>j</i>. Assim, os elementos
+da linha <i>i</i> indicam as estradas que saem da cidade
+<i>i</i>, e os
+elementos da coluna <i>j</i> indicam as estradas que chegam à cidade
+<i>j</i>.
+</p><p>Por convenção <i>l<sub>ii</sub></i> = 1. A figura mostra
+um exemplo para <i>n</i> = 4.
+<br>&nbsp;
+</p><blockquote>&nbsp;
+<br>&nbsp;
+<table cols="2" nosave="" width="100%">
+<tbody><tr nosave="">
+<td nosave=""><img src="http://www.ime.usp.br/%7Emacmulti/figuras/Image615d.gif" nosave="" height="96" width="118"></td>
+
+<td><img src="http://www.ime.usp.br/%7Emacmulti/figuras/Image615e.gif" nosave="" height="119" width="271"></td>
+</tr>
+</tbody></table>
+</blockquote>
+
+<p><br>(a) Dado <i>k</i>, determinar quantas estradas saem e quantas chegam
+à cidade <i>k</i>.
+</p><p>(b) A qual das cidades chega o maior número de estradas?
+</p><p>(c) Dado <i>k</i>, verificar se todas as ligações diretas
+entre a cidade <i>k</i> e outras são de mão dupla.
+</p><p>(d) Relacionar as cidades que possuem saídas diretas para a cidade
+<i>k</i>.
+</p><br></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0;s:5:"qtype";s:5:"essay";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+160624120020+ApqAJp";s:7:"version";s:43:"programacao.ufca.edu.br+160701114432+Zl5GKk";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1466769620";s:12:"timemodified";s:10:"1467373472";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:2:"29";s:7:"options";O:8:"stdClass":12:{s:2:"id";s:1:"9";s:10:"questionid";s:1:"9";s:14:"responseformat";s:6:"editor";s:16:"responserequired";s:1:"1";s:18:"responsefieldlines";s:2:"40";s:11:"attachments";s:1:"1";s:19:"attachmentsrequired";s:1:"1";s:10:"graderinfo";s:0:"";s:16:"graderinfoformat";s:1:"1";s:16:"responsetemplate";s:0:"";s:22:"responsetemplateformat";s:1:"1";s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}
