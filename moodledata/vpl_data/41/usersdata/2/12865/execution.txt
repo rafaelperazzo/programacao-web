@@ -1,0 +1,33 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-100.000)
+Incorrect program result
+ --- Input ---
+> 1 2 3 4
+>5 6 7 8
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Traceback (most recent call last):
+>  File "gravitacional.py", line 7, in <module>
+>    dimensao = input('Digite a dimensao das matrizes: ')
+>  File "<string>", line 1
+>    1 2 3 4
+>      ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>.*0\.0000.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0
