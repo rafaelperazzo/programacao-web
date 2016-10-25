@@ -1,0 +1,24 @@
+case = Teste 1
+input = 5
+1
+2
+3
+4
+5
+output = '1.00'
+'5.00'
+'3.00'
+
+case = Teste 2
+grade reduction = 100%
+input = 6
+1
+1
+1
+1
+1
+1
+output = '1.00'
+'1.00'
+'1.00'
+
