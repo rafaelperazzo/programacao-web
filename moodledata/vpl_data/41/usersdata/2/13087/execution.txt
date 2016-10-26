@@ -1,0 +1,58 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 2: Teste 2 (-90.000)
+Incorrect program result
+ --- Input ---
+> 4
+>0 10 15 20 13 0 23 14 31 43 0 11 19 32 18 0
+>0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Digite a Matriz T como uma única linha: Digite a Matriz D como uma única linha: Digite o valor de alfa: [[  0.          18.86559803  18.64364982   7.49075216]
+> [ 22.85921626   0.          16.25544267  10.88534107]
+> [ 35.58139535  24.00332226   0.          25.41528239]
+> [ 27.86538462  22.55769231  18.57692308   0.        ]]
+>241.9032
+
+ --- Expected output (regular expression)---
+>.*249\.[0-9]{4}.*
+
+-Test 3: Teste 3 (-90.000)
+Incorrect program result
+ --- Input ---
+> 4
+>0 10 15 20 19 0 23 14 40 43 0 11 19 38 18 0
+>0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Digite a Matriz T como uma única linha: Digite a Matriz D como uma única linha: Digite o valor de alfa: [[  0.          19.61676647  18.10778443   7.2754491 ]
+> [ 28.58638743   0.          16.41884817  10.9947644 ]
+> [ 43.51335312  25.38278932   0.          25.10385757]
+> [ 33.50515464  23.45360825  18.04123711   0.        ]]
+>241.9032
+
+ --- Expected output (regular expression)---
+>.*270\.[0-9]{4}.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

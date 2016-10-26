@@ -41,3 +41,11 @@ input = 2
 4
 33
 output = 'N'
+
+case = Teste 7
+input = 2
+3
+33
+output = /15
+1|0
+11/i

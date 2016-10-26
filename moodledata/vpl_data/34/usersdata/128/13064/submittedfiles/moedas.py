@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+a=input('Digite o valor de uma moeda: ')
+b=input('Digite o valor de outra moeda: ')
+c=input('Digite o valor da cédula: ')
+
+a2=0
+b2=0
+contA=0
+contB=0
+
+while True:
+    a2=a2+a
+    contA=contA+1
+    
+    if (c-a2)%b==0:
+        print contA
+        print (c-a2)/b
+        break
