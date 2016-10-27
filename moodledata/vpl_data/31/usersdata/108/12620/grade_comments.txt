@@ -15,9 +15,9 @@ Incorrect program result
 >x:y:SIM
 
  --- Expected output (regular expression)---
->.*NAO.*
->.*NAO.*
->.*NAO.*
+>.*(NAO|N).*
+>.*(NAO|N).*
+>.*(NAO|N).*
 
 -Summary of tests
 >+------------------------------+

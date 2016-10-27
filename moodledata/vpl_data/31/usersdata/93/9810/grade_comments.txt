@@ -12,8 +12,8 @@ Incorrect program result
 >x: y: NAO
 
  --- Expected output (regular expression)---
->[[:print:]]+\bNAO\b
->[[:print:]]+\bSIM\b
+>.*(NAO|N).*
+>.*(SIM|s).*
 
 -Summary of tests
 >+------------------------------+

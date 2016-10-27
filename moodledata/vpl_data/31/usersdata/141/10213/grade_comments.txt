@@ -14,8 +14,8 @@ Incorrect program result
 >digite o valor de n:digite a coordenada x:digite a coordenada y:N
 
  --- Expected output (regular expression)---
->[[:print:]]+\bNAO\b
->[[:print:]]+\bSIM\b
+>.*(NAO|N).*
+>.*(SIM|s).*
 
 -Test 2: Teste 2 (-5.000)
 Incorrect program result
@@ -32,9 +32,9 @@ Incorrect program result
 >digite o valor de n:digite a coordenada x:digite a coordenada y:N
 
  --- Expected output (regular expression)---
->[[:print:]]+\bNAO\b
->[[:print:]]+\bNAO\b
->[[:print:]]+\bNAO\b
+>.*(NAO|N).*
+>.*(NAO|N).*
+>.*(NAO|N).*
 
 -Summary of tests
 >+------------------------------+
