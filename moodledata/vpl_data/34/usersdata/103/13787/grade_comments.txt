@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>4
+>34
+
+ --- Program output ---
+>digite A:digite B:digite C:15
+>1
+
+ --- Expected output (regular expression)---
+>17
+>0|1
+>8
+
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 6 tests passed |
+>+------------------------------+
+

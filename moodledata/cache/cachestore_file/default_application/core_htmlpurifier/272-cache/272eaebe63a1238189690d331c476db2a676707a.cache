@@ -1,0 +1,30 @@
+s:879:"<b>Failed tests</b><br />Test 4: Teste 4
+<br />Test 6: Teste 6
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de n:Traceback (most recent call last):
+  File "atividade.py", line 11, in &lt;module&gt;
+    soma=soma+((1+i)/(n-i))
+ZeroDivisionError: division by zero
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '0.00000'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Program timeout
+<br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5.87
+</i></pre>
+<br /> --- Program output ---
+<br /><br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  6 tests run/ 4 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

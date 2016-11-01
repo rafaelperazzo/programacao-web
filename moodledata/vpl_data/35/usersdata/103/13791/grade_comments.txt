@@ -1,0 +1,17 @@
+-Test 3: Teste 3 (-30.000)
+Incorrect program result
+ --- Input ---
+> 17
+>171717
+
+ --- Program output ---
+>digite p:digite q:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

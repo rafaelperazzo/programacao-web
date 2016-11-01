@@ -1,0 +1,19 @@
+s:504:"<b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+3
+4
+2
+6
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n:digite o valor de x1:digite o valor de y1:digite o valor de x2:digite o valor de y2:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

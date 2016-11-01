@@ -1,0 +1,36 @@
+Testing 1/7 : Teste 1
+Testing 2/7 : Teste 2
+Testing 3/7 : Teste 3
+Testing 4/7 : Teste 4
+Testing 5/7 : Teste 5
+Testing 6/7 : Teste 6
+Testing 7/7 : Teste 7
+
+<|--
+-Test 7: Teste 7 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>3
+>33
+
+ --- Program output ---
+>digite o valor da moeda:digite o valor da moeda:digite o valor da cédula:11
+>0
+
+ --- Expected output (regular expression)---
+>15
+>1|0
+>11
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 6 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 8.57

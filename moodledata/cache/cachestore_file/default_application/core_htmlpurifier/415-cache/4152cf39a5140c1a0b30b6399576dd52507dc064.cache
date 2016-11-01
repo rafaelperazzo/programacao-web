@@ -1,0 +1,69 @@
+s:1607:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+4
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da moeda:Digite o valor da moeda:Digite o valor da cédula:1
+8
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>17
+0|8
+1
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+2
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da moeda:Digite o valor da moeda:Digite o valor da cédula:0
+17
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>17
+0|8
+1
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+5
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da moeda:Digite o valor da moeda:Digite o valor da cédula:3
+19
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>48
+1|19
+3
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+2
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da moeda:Digite o valor da moeda:Digite o valor da cédula:1
+48
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>48
+1|19
+3
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  7 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,77 @@
+s:1996:"<b>Failed tests</b><br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br />Test 6: Teste 6
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+2
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da primeira moeda:Digite o valor da segunda moeda:Digite o valor em cedulas:0
+17
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>17
+0|8
+1
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+5
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da primeira moeda:Digite o valor da segunda moeda:Digite o valor em cedulas:
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>48
+1|19
+3
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+2
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da primeira moeda:Digite o valor da segunda moeda:Digite o valor em cedulas:
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>48
+1|19
+3
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+2
+33
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da primeira moeda:Digite o valor da segunda moeda:Digite o valor em cedulas:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+4
+33
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor da primeira moeda:Digite o valor da segunda moeda:Digite o valor em cedulas:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  7 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

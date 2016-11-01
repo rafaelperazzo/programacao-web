@@ -1,0 +1,20 @@
+s:517:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+2
+3
+5
+6
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro valor:Digite o segundo valor:Digite o terceiro valor:Digite o quarto valor:Digite o quinto valor:C
+N
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'C'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

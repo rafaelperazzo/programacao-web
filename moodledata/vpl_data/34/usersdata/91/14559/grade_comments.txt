@@ -1,0 +1,21 @@
+-Test 7: Teste 7 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>3
+>33
+
+ --- Program output ---
+>digite o valor da moeda:digite o valor da moeda:digite o valor da cédula:11
+>0
+
+ --- Expected output (regular expression)---
+>15
+>1|0
+>11
+
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 6 tests passed |
+>+------------------------------+
+

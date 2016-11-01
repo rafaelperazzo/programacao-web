@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+#ENTRADA
+n=input("Digite o valor de n: ")
+l=[]
+i=0
+while i<n:
+    l.append(input("Digite um elemento da lista: "))
+    i=i+1
+while i<n:
+    
+    
+
+print (l[0])
+print (l[len(l)-1])
+print (l)

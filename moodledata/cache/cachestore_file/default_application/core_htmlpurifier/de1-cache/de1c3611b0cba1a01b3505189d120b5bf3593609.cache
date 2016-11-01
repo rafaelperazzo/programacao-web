@@ -1,0 +1,35 @@
+s:870:"<b>Failed tests</b><br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+5
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de a: Digite o valor de b: Digite o valor de c: N
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>48
+1|3
+19
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+2
+101
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de a: Digite o valor de b: Digite o valor de c: N
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>1
+48|19
+3
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  7 tests run/ 5 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

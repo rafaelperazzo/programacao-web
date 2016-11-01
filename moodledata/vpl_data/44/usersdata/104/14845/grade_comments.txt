@@ -1,0 +1,27 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite o valor de n:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Traceback (most recent call last):
+>  File "desvpad.py", line 17, in <module>
+>    variancia=((1/n-1)*(somat))**0.5
+>ValueError: negative number cannot be raised to a fractional power
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'1.58'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

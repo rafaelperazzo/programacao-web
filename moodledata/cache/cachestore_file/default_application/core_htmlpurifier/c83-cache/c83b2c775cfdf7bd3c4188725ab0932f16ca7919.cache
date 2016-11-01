@@ -1,0 +1,18 @@
+s:478:"<b>Test 9: Teste 9 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+1
+0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de A:Digite o valor de B:Digite o valor de C:Digite o valor de D:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  9 tests run/ 8 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

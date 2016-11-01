@@ -1,0 +1,47 @@
+s:1076:"<b>Failed tests</b><br />Test 5: Teste 5
+<br />Test 6: Teste 6
+<br />Test 7: Teste 7
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+1
+2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a:Digite b:Digite c:Digite d:N
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+7
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a:Digite b:Digite c:Digite d:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 7: Teste 7 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a:Digite b:Digite c:Digite d:N
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  9 tests run/ 6 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

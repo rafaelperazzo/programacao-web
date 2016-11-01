@@ -1,0 +1,28 @@
+s:742:"<b>Failed tests</b><br />Test 5: Teste 5
+<br />Test 6: Teste 6
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite n:0.00000
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5.87
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite n:0.00000
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  6 tests run/ 4 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

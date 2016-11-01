@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['downloadas'] = 'Baixar dados da tabela como {$a->formatsmenu} {$a->downloadbutton}';
+$string['downloadas'] = 'Baixar dados da tabela como';
 $string['downloadcsv'] = 'Arquivo texto com valores separados por vírgulas';
 $string['downloadexcel'] = 'Planilha do Microsoft Excel';
 $string['downloadods'] = 'Planilha OpenDocument (ODS)';

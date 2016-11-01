@@ -21,8 +21,8 @@ Incorrect program result
 >    b = input(':')
 >EOFError: EOF when reading a line
 
- --- Expected output (text)---
-> '0.64563'
+ --- Expected output (regular expression)---
+>0.64563[0-9]*
 
 -Test 2: Teste 2 (-6.667)
 Incorrect program result
@@ -35,8 +35,8 @@ Incorrect program result
 >    b = input(':')
 >EOFError: EOF when reading a line
 
- --- Expected output (text)---
-> '0.68080'
+ --- Expected output (regular expression)---
+>0.68080[0-9]*
 
 -Test 3: Teste 3 (-6.667)
 Incorrect program result
@@ -49,8 +49,8 @@ Incorrect program result
 >    b = input(':')
 >EOFError: EOF when reading a line
 
- --- Expected output (text)---
-> '0.78333'
+ --- Expected output (regular expression)---
+>0.78333[0-9]*
 
 --|>
 

@@ -1,0 +1,53 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite a quantidade de valores da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:1.000000
+>5.000000
+>3.000000
+>[1, 2, 3, 4, 5]
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'[1, 2, 3, 4, 5]'
+
+-Test 2: Teste 2 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>1
+>1
+>1
+>1
+>1
+
+ --- Program output ---
+>digite a quantidade de valores da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:digite o elemento da lista:1.000000
+>1.000000
+>1.000000
+>[1, 1, 1, 1, 1, 1]
+
+ --- Expected output (text)---
+> '1.00'
+>'1.00'
+>'1.00'
+>'[1, 1, 1, 1, 1, 1]'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

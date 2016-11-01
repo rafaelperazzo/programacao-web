@@ -1,0 +1,55 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de valores:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:1.00
+>5.00
+>3.00
+>[1, 2, 3, 4, 5]
+>1.58
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'1.58'
+
+-Test 2: Teste 2 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>1
+>1
+>1
+>1
+>1
+
+ --- Program output ---
+>Digite a quantidade de valores:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:1.00
+>1.00
+>1.00
+>[1, 1, 1, 1, 1, 1]
+>0.00
+
+ --- Expected output (text)---
+> '1.00'
+>'1.00'
+>'1.00'
+>'0.00'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

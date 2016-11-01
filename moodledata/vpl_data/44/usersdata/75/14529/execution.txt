@@ -1,0 +1,12 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>30
