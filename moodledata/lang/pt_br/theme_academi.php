@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_academi', language 'pt_br', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_academi', language 'pt_br', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_academi
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

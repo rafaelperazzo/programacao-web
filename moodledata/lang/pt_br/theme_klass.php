@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'theme_klass', language 'pt_br', branch 'MOODLE_30_STABLE'
+ * Strings for component 'theme_klass', language 'pt_br', branch 'MOODLE_31_STABLE'
  *
  * @package   theme_klass
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

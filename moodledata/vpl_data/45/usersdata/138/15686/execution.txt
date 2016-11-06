@@ -1,0 +1,39 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 2: Teste 2 (-20.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite a quantidade de números da lista:99
+>216
+>3
+>7
+>[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]
+
+ --- Expected output (text)---
+> '9'
+>'6'
+>'3'
+>'2'
+>'[1, 2, 3, 4, 5]'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>20

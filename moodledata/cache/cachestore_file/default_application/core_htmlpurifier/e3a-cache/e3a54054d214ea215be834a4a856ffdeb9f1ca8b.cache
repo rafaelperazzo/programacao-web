@@ -1,0 +1,15 @@
+s:484:"<b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>valor de m: o valor de pi é igual a 3.000000
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.16[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

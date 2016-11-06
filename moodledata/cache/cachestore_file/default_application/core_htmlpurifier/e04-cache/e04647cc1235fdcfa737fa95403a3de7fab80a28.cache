@@ -1,0 +1,38 @@
+s:1273:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de termos:O valor de pi eh 30.141407
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 100
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de termos:O valor de pi eh 300.141592
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de termos:O valor de pi eh 3000.141593
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

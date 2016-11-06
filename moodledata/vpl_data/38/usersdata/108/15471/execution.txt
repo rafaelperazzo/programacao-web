@@ -1,0 +1,46 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 11110
+
+ --- Program output ---
+>Digite o valor de n:Traceback (most recent call last):
+>  File "decimal2bin.py", line 16, in <module>
+>    a = a+((j*2)**contador)
+>ZeroDivisionError: 0.0 cannot be raised to a negative power
+
+ --- Expected output (regular expression)---
+>.*(30).*
+
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 1000011
+
+ --- Program output ---
+>Digite o valor de n:64.0
+
+ --- Expected output (regular expression)---
+>.*(67).*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,16 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 11110
+
+ --- Program output ---
+>Digite o numero binario: 37
+
+ --- Expected output (regular expression)---
+>.*(30).*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

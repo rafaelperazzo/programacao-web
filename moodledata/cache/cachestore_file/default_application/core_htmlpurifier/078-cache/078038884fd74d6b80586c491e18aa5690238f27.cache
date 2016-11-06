@@ -1,0 +1,18 @@
+s:498:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12345
+0.998743
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Numero inteiro maior ou igual a 1:Numero real menor do que 1 e maior do que 0:5
+0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>5
+6
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";
