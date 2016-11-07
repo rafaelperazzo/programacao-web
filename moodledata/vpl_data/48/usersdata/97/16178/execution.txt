@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite o número de elementos:digite um elemento de x:digite um elemento de x:digite um elemento de x:digite um elemento de x:digite um elemento de x:digite um elemento de y:digite um elemento de y:digite um elemento de y:digite um elemento de y:digite um elemento de y:Traceback (most recent call last):
+>  File "estatistica.py", line 29, in <module>
+>    desviopadrao_x=desviopadrao(x)
+>  File "estatistica.py", line 16, in desviopadrao
+>    desvio=((desvio)*(1/(n-1)))**(0.5)
+>ValueError: negative number cannot be raised to a fractional power
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

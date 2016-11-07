@@ -1,0 +1,32 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite o valor de n:Digite um valor para a:Digite um valor para a:Digite um valor para a:Digite um valor para a:Digite um valor para a:Digite um valor para b:Digite um valor para b:Digite um valor para b:Digite um valor para b:Digite um valor para b:Traceback (most recent call last):
+>  File "estatistica.py", line 30, in <module>
+>    print ('%'%(media(a)))
+>ValueError: incomplete format
+
+ --- Expected output (regular expression)---
+>30\.00[0-9]*
+>15\.81[0-9]*
+>3\.00[0-9]*
+>1\.58[0-9]*$
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,41 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite o valor de elemetos: digite o valor de a: digite o valor de a: digite o valor de a: digite o valor de a: digite o valor de a: digite o valor de b: digite o valor de b: digite o valor de b: digite o valor de b: digite o valor de b: 30.00
+>10.00
+>3.00
+>1.00
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,49 @@
+s:990:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 34
+55
+77
+12
+23
+99
+5
+3
+77
+55
+42
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n1:digite o valor n2:dgite o valor n3:digite o valor n4:digite o valor n5:digite o valor n6:sena
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'terno'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 25
+51
+53
+17
+19
+87
+23
+33
+1
+2
+81
+92
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n1:digite o valor n2:dgite o valor n3:digite o valor n4:digite o valor n5:digite o valor n6:sena
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'azar'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

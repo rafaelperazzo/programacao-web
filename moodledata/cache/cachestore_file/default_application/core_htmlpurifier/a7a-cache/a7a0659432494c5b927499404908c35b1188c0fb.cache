@@ -1,0 +1,33 @@
+s:990:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+10
+20
+30
+40
+50
+1
+2
+3
+4
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Traceback (most recent call last):
+  File "estatistica.py", line 33, in &lt;module&gt;
+    desvio_a = desvio(a)
+  File "estatistica.py", line 16, in desvio
+    soma = soma + ((lista(l)-media(lista))**2)
+NameError: global name 'l' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '30.00'
+'15.81'
+'3.00'
+'1.58'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

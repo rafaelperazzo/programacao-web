@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>n:termos de a:termos de a:termos de a:termos de a:termos de a:termos de b:termos de b:termos de b:termos de b:termos de b:Traceback (most recent call last):
+>  File "estatistica.py", line 25, in <module>
+>    dp_a=dp(a)
+>  File "estatistica.py", line 13, in dp
+>    soma=soma+(lista[i]-media)**2
+>TypeError: unsupported operand type(s) for -: 'int' and 'function'
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

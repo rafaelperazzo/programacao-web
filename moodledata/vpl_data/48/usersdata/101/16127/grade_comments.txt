@@ -1,0 +1,34 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de elementos: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Digit o elemento da lista: Traceback (most recent call last):
+>  File "estatistica.py", line 33, in <module>
+>    desvio_a = desvio(a)
+>  File "estatistica.py", line 16, in desvio
+>    soma = soma + ((lista(l)-media(lista))**2)
+>NameError: global name 'l' is not defined
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

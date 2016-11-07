@@ -1,0 +1,32 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite n:Digite um elemento de a:Digite um elemento de a:Digite um elemento de a:Digite um elemento de a:Digite um elemento de a:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:30.00
+>68.92
+>3.00
+>6.89
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

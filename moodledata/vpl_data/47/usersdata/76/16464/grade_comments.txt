@@ -1,0 +1,36 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite n: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Digite um elemento de b:Traceback (most recent call last):
+>  File "lecker.py", line 40, in <module>
+>    if lecker(a):
+>  File "lecker.py", line 18, in lecker
+>    cont = cont + 1
+>UnboundLocalError: local variable 'cont' referenced before assignment
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

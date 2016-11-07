@@ -1,0 +1,36 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>digite o valor de n:digite o valor de a:digite o valor de a:digite o valor de a:digite o valor de a:digite o valor de a:digite o valor de a:digite o valor de a:digite o valor de b:digite o valor de b:digite o valor de b:digite o valor de b:digite o valor de b:digite o valor de b:digite o valor de b:Traceback (most recent call last):
+>  File "lecker.py", line 26, in <module>
+>    if lecker(a)==True:
+>  File "lecker.py", line 15, in lecker
+>    if con==1:
+>NameError: global name 'con' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,32 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de elementos das listas:Digite os elementos da lista A:Digite os elementos da lista A:Digite os elementos da lista A:Digite os elementos da lista A:Digite os elementos da lista A:Digite os elementos da lista B:Digite os elementos da lista B:Digite os elementos da lista B:Digite os elementos da lista B:Digite os elementos da lista B:30.00
+><function dp at 0x7f6764dc57d0>
+>3.00
+><function dp at 0x7f6764dc57d0>
+
+ --- Expected output (regular expression)---
+>30\.00[0-9]*
+>15\.81[0-9]*
+>3\.00[0-9]*
+>1\.58[0-9]*$
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

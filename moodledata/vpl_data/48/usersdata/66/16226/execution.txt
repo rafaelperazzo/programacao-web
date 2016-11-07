@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite a quantidade de elementodigite os elementosdigite os elementosdigite os elementosdigite os elementosdigite os elementosdigite a quantidade de elementos de x digite os elementos de yTraceback (most recent call last):
+>  File "estatistica.py", line 30, in <module>
+>    desvioparao_x=desviopadrao (x)
+>  File "estatistica.py", line 15, in desviopadrao
+>    desvio=((lista[i] - media)**2)
+>TypeError: unsupported operand type(s) for -: 'int' and 'function'
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

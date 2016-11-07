@@ -1,0 +1,36 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite o total de valores de ambas as lista:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a hannibal:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Acrescente o número de vítimas a freddy:Traceback (most recent call last):
+>  File "lecker.py", line 33, in <module>
+>    if lecker(hannibal):
+>  File "lecker.py", line 6, in lecker
+>    for i in range:
+>TypeError: 'builtin_function_or_method' object is not iterable
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

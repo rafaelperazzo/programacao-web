@@ -1,0 +1,34 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite a quantidade de elementos da lista:digite os valores da lista a:digite os valores da lista a:digite os valores da lista a:digite os valores da lista a:digite os valores da lista a:digite os valores da lista b:digite os valores da lista b:digite os valores da lista b:digite os valores da lista b:digite os valores da lista b:Traceback (most recent call last):
+>  File "estatistica.py", line 28, in <module>
+>    media_b=media(b)
+>  File "estatistica.py", line 8, in media
+>    resultado = soma/len(lista)
+>ZeroDivisionError: division by zero
+
+ --- Expected output (text)---
+> '30.00'
+>'15.81'
+>'3.00'
+>'1.58'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

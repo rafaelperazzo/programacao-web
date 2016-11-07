@@ -1,0 +1,20 @@
+s:445:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+4
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite A:digite B:digite C:15
+1
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>17
+0|1
+8
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  7 tests run/ 6 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

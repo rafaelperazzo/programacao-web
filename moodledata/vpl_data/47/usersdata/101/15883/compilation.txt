@@ -1,0 +1,6 @@
+g++: internal compiler error: Limite de tamanho de ficheiro excedido (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+Error compiling evaluation program
+chmod: impossível aceder a «vpl_execution»: Ficheiro ou directoria inexistente
