@@ -1,0 +1,50 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite o valor de n:Digite o valor de a:Digite o valor de a:Digite o valor de a:Digite o valor de a:Digite o valor de a:Digite o valor de a:Digite o valor de b:Digite o valor de b:Digite o valor de b:Digite o valor de b:Digite o valor de b:Digite o valor de b:Digite o valor de c:Digite o valor de c:Digite o valor de c:Digite o valor de c:Digite o valor de c:Digite o valor de c:S
+>S
+>N
+>N
+>S
+>N
+>N
+>S
+>N
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

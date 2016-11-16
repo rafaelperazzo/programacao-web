@@ -1,0 +1,7 @@
+s:245:"<p>Obs. N pegou essa parte no qual enviei.. <br /><br />
+def crescente (lista):<br />
+    for i in range (0,len(lista),1):<br />
+        if lista[i]
+            return True<br />
+        else:<br />
+            return False<br /><br /></p>";

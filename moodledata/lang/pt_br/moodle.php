@@ -74,6 +74,7 @@ $string['addresource'] = 'Acrescentar recurso...';
 $string['addresourceoractivity'] = 'Adicionar uma atividade ou recurso';
 $string['addresourcetosection'] = 'Adicionar recurso ao tópico \'{$a}\'';
 $string['address'] = 'Endereço';
+$string['addressedto'] = 'a';
 $string['addstudent'] = 'Acrescentar participante';
 $string['addsubcategory'] = 'Acrescentar sub-categoria';
 $string['addteacher'] = 'Acrescentar professor';
@@ -697,16 +698,16 @@ $string['emailpasswordsent'] = '<p>Um Email com a sua nova senha foi enviada ao 
 <p>A nova senha foi criada automaticamente. Se você quiser, é possível <a href={$a->link}>mudar a senha</a>.</p>';
 $string['emailresetconfirmation'] = 'Oi {$a->firstname},
 
-uma redefinição de senha foi solicitada para a sua conta \'{$a->username}\' em {$a->sitename}.
+Um pedido de redefinição de senha foi solicitada para a sua conta \'{$a->username}\' no site {$a->sitename}.
 
-Para confirmar este pedido e definir uma nova senha para sua conta, por favor, vá para o seguinte endereço web:
+Para confirmar este pedido e definir uma nova senha para sua conta, por favor, acesse o seguinte link:
 
 {$a->link}
 (Este link é válido por {$a->resetminutes} minutos a partir do momento que esta redefinição foi solicitada)
 
-Se esta redefinição de senha não foi solicitada por você, nenhuma ação é necessária.
+Se esta redefinição de senha não foi solicitada por você, ignore este e-mail.
 
-Se precisar de ajuda, entre em contato com o administrador do site,
+Se precisar de ajuda, entre em contato com o administrador,
 {$a->admin}';
 $string['emailresetconfirmationsubject'] = '{$a}: pedido de redefinição de senha';
 $string['emailresetconfirmsent'] = 'Uma mensagem foi enviada para o email de <b>{$a}.</b> <br /> Ele contém instruções fáceis para confirmar e completar esta alteração de senha. Se você continuar a ter dificuldades, contate o administrador do site.';

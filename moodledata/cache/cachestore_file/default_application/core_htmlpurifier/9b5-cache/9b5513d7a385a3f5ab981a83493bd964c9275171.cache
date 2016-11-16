@@ -1,0 +1,70 @@
+s:2025:"Aqui ta o código.. <br /><br />
+# -*- coding: utf-8 -*-<br />
+from __future__ import division<br /><br />
+def crescente (lista):<br />
+    for i in range (0,len(lista),1):<br />
+        if lista[i]
+            return True<br />
+        else:<br />
+            return False<br /><br />
+def decrescente (lista):<br />
+    for i in range (0,len(lista),1):<br />
+        if lista[i]&gt;lista[i+1]:<br />
+            return True<br />
+        else:<br />
+            return False<br /><br />
+def consecutivos (lista):<br />
+    cont=0<br />
+    for i in range (0,len(lista),1):<br />
+        if lista[i]==lista[i+1]:<br />
+            cont=cont+1<br /><br />
+        if cont!=0:<br />
+            return True<br />
+        else:<br />
+            return False<br /><br /><br />
+n=int(input('Digite o número de termos das listas:'))<br /><br />
+a=[]<br />
+b=[]<br />
+c=[]<br /><br />
+for i in range (0,n,1):<br />
+    a.append(input('Digite os valores da lista a:'))<br /><br />
+for i in range (0,n,1):<br />
+    b.append(input('Digite os valores da lista b:'))<br /><br />
+for i in range (0,n,1):<br />
+    c.append(input('Digite os valores da lista c:'))<br /><br />
+if crescente(a):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if decrescente(a):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if consecutivos(a):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br /><br />
+if crescente(b):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if decrescente(b):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if consecutivos(b):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br /><br />
+if crescente(c):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if decrescente(c):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />
+if consecutivos(c):<br />
+    print ('S')<br />
+else:<br />
+    print ('N')<br /><br />";

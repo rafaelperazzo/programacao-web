@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+def pico(lista):
+    posiçao = 0
+    for i in range(0,len(lista)-1,1):
+        if lista[i] > lista[i+1]:
+            posiçao = i
+            break
+    
+    cont = 0
+    for i in range(posiçao,len(lista)-1,1):
+        if lista[i] <= lista [i+1]
+        cont = cont +1
+    
+    if cont == 0 and posiçao != 0:
+        return True
+    else:
+        return False
+    
+n = input('Digite a quantidade de elementos da lista: ')
+L = []
+
+for i in range(0,n,1):
+    L.append(input('Digite um valor para a lista:'))
+
+if pico(L):
+    print('S')
+else:
+    print('N')

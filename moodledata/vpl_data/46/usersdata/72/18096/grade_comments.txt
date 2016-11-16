@@ -1,0 +1,50 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite o valor de n:digite o elemento de a:digite o elemento de a:digite o elemento de a:digite o elemento de a:digite o elemento de a:digite o elemento de a:digite o elemento de b:digite o elemento de b:digite o elemento de b:digite o elemento de b:digite o elemento de b:digite o elemento de b:digite o elemento de c:digite o elemento de c:digite o elemento de c:digite o elemento de c:digite o elemento de c:digite o elemento de c:N
+>N
+>N
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 79, in <module>
+>    if decrescente(a):
+>  File "funcoes1.py", line 25, in decrescente
+>    if a[len(a)-1]<a[len9a0-2]:
+>NameError: global name 'len9a0' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,44 @@
+s:1200:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+1
+2
+3
+4
+5
+6
+7
+6
+5
+4
+3
+2
+9
+8
+8
+8
+9
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite a quantidade de elementos de a:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite a quantidade de elementos de b:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite a quantidade de elementos de c:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:digite o valor do elemento:Traceback (most recent call last):
+  File "funcoes1.py", line 53, in &lt;module&gt;
+    c.append(input('digite o valor do elemento:'))
+EOFError: EOF when reading a line
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'N'
+'N'
+'N'
+'S'
+'N'
+'N'
+'N'
+'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

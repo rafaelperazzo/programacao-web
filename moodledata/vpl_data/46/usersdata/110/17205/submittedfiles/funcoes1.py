@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+def crescente (lista):
+    for i in range(0,len(lista),1):
+        if lista[i]<lista[i+1]:
+            return True
+        else:
+            return False
+def descrescente(lista):
+    for i in range(0,len(lista),1):
+        if lista[i]>lista[i+1]:
+            return True
+        else:
+            return false
+def iguais(lista):
+    cont=0
+    for i in range(0,len(lista),1):
+        if lista[i]==lista[i+1]:
+            cont=cont+1
+    if cont==0:
+        return False
+    else:
+        return True
+n=input(Digite n: ')
+a=[]
+b=[]
+c=[]
+for i in range(0,n,1):
+    a.append(input('Digite um valor: '))
+for i in range(0,n,1):
+    b.append(input('Digite um valor: '))
+for i in range(0,n,1):
+    c.append(input('Digite um valor: '))
+if crescente
+
+
+#escreva as demais funções
+
+
+
+
+
+#escreva o programa principal

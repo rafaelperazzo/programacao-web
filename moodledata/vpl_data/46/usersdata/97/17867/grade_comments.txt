@@ -1,0 +1,47 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite o número de elementos:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:Traceback (most recent call last):
+>  File "funcoes1.py", line 40, in <module>
+>    if crescente(a):
+>  File "funcoes1.py", line 5, in crescente
+>    if i==0:
+>UnboundLocalError: local variable 'i' referenced before assignment
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

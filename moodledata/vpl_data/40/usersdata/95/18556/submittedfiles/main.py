@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import funcoes
+
+#COMECE AQUI
+
+
+m=int(input('Digite o número m de termos da fórmula pi:'))
+e=input('Digite o valor do epsilon:')
+
+p=pi(m)
+print('%.15f'%p)

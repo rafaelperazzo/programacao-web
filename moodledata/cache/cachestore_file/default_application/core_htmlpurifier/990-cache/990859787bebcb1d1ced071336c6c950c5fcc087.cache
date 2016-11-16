@@ -1,0 +1,1 @@
+s:242:"<p>Eu resolveria assim: Encontrar a posição do último elemento crescente e depois verificar se o restante da lista é descrescente. É mais ou menos como você pensou sim. Mas a regra geral é: Começa crescendo e termina decrescendo. </p>";

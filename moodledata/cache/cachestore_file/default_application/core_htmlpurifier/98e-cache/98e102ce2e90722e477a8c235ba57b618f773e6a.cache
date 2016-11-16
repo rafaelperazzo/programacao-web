@@ -1,0 +1,38 @@
+s:825:"<b>Failed tests</b><br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+1
+2
+1
+2
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos da lista: a:a:a:a:a:a:a:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+10
+9
+7
+4
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos da lista: a:a:a:a:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

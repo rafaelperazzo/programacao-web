@@ -1,0 +1,30 @@
+s:1152:"<b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+5
+22
+11
+10
+8
+12
+76
+50
+5
+9
+76
+20
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>insira a quantidade de elementos da primeira lista:insira a quantidade de elementos da segunda lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a primeira lista:insira um valor para a segunda lista:insira um valor para a segunda lista:insira um valor para a segunda lista:insira um valor para a segunda lista:insira um valor para a segunda lista:Traceback (most recent call last):
+  File "contido.py", line 22, in &lt;module&gt;
+    b.append(input('insira um valor para a segunda lista:'))
+EOFError: EOF when reading a line
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

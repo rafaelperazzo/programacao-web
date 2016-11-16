@@ -1,0 +1,49 @@
+s:514:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+1
+2
+3
+4
+5
+6
+7
+6
+5
+4
+3
+2
+9
+8
+8
+8
+9
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>n:a:a:a:a:a:a:b:b:b:b:b:b:c:c:c:c:c:c:S
+N
+N
+N
+S
+S
+N
+N
+S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'N'
+'N'
+'N'
+'S'
+'N'
+'N'
+'N'
+'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";
