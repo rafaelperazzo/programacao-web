@@ -1,0 +1,47 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>número de termos:valores a lista de a:valores a lista de a:valores a lista de a:valores a lista de a:valores a lista de a:valores a lista de a:valores à lista de b:valores à lista de b:valores à lista de b:valores à lista de b:valores à lista de b:valores à lista de b:valores à lista de c:valores à lista de c:valores à lista de c:valores à lista de c:valores à lista de c:valores à lista de c:Traceback (most recent call last):
+>  File "funcoes1.py", line 70, in <module>
+>    if crescente (a):
+>  File "funcoes1.py", line 18, in crescente
+>    return true
+>NameError: global name 'true' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
