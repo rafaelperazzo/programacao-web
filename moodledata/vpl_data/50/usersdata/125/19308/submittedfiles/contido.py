@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+def contido (a,b):
+    cont=0    
+    for i in range(0,len(a),1): 
+        if a[i] in b:
+            cont=cont+1
+        return cont
+
+n=('Digite a quantidade de elementos de a:')
+m=('Digite a quantidade de elementos de a:')
+
+a=[]
+b=[]
+
+for i in range(0,n,1):
+    a.append(input('Digite um valor a:'))
+
+for i in range(0,m,1):
+    a.append(input('Digite um valor b:'))
+
+
+print contido(a,b)

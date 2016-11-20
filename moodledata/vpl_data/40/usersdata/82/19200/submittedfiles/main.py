@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import funcoes
+
+def pi(a,b):
+    cont=3
+    soma=0
+    den=2
+for i in range (0,len(pi),1):
+    if i<=

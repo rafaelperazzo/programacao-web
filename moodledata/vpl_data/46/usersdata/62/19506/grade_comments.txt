@@ -1,0 +1,50 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos na lista: Digite os valore de a: Digite os valore de a: Digite os valore de a: Digite os valore de a: Digite os valore de a: Digite os valore de a: Digite os valore de b: Digite os valore de b: Digite os valore de b: Digite os valore de b: Digite os valore de b: Digite os valore de b: Digite os valore de c: Digite os valore de c: Digite os valore de c: Digite os valore de c: Digite os valore de c: Digite os valore de c: S
+>N
+>N
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 73, in <module>
+>    if decrescente (a):
+>  File "funcoes1.py", line 19, in decrescente
+>    cont=o
+>NameError: global name 'o' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

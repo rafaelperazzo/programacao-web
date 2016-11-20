@@ -1,0 +1,49 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite uma quantidade de termos:Digite um valor de a:Digite um valor de a:Digite um valor de a:Digite um valor de a:Digite um valor de a:Digite um valor de a:Digite um valor de b:Digite um valor de b:Digite um valor de b:Digite um valor de b:Digite um valor de b:Digite um valor de b:Digite um valor de c:Digite um valor de c:Digite um valor de c:Digite um valor de c:Digite um valor de c:Digite um valor de c:N
+>S
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 58, in <module>
+>    if consecutivos(a):
+>  File "funcoes1.py", line 28, in consecutivos
+>    for i in range(0,(lista)-1,1):
+>TypeError: unsupported operand type(s) for -: 'list' and 'int'
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

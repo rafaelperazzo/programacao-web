@@ -1,0 +1,49 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite o número de termos das listas:Digite os valores da lista a:Digite os valores da lista a:Digite os valores da lista a:Digite os valores da lista a:Digite os valores da lista a:Digite os valores da lista a:Digite os valores da lista b:Digite os valores da lista b:Digite os valores da lista b:Digite os valores da lista b:Digite os valores da lista b:Digite os valores da lista b:Digite os valores da lista c:Digite os valores da lista c:Digite os valores da lista c:Digite os valores da lista c:Digite os valores da lista c:Digite os valores da lista c:S
+>S
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 63, in <module>
+>    if consecutivos(a):
+>  File "funcoes1.py", line 27, in consecutivos
+>    cont-0
+>UnboundLocalError: local variable 'cont' referenced before assignment
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

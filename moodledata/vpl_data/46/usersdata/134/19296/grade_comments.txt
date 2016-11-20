@@ -1,0 +1,49 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos:Digite o elemento de a:Digite o elemento de a:Digite o elemento de a:Digite o elemento de a:Digite o elemento de a:Digite o elemento de a:[1, 2, 3, 4, 5, 6]
+>Digite o elemento de b:Digite o elemento de b:Digite o elemento de b:Digite o elemento de b:Digite o elemento de b:Digite o elemento de b:[7, 6, 5, 4, 3, 2]
+>Digite o elemento de c:Digite o elemento de c:Digite o elemento de c:Digite o elemento de c:Digite o elemento de c:Digite o elemento de c:[9, 8, 8, 8, 9, 1]
+>S
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 47, in <module>
+>    if decrescente(a,b,c):
+>TypeError: decrescente() takes exactly 1 argument (3 given)
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
