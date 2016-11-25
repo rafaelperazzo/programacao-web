@@ -1,0 +1,95 @@
+s:3082:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 34
+55
+77
+12
+23
+99
+5
+3
+77
+55
+42
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite aqui o 1 numero apostado por Yoko:Digite aqui o 2 numero apostado por Yoko:Digite aqui o 3 numero apostado por Yoko:Digite aqui o 4 numero apostado por Yoko:Digite aqui o 5 numero apostado por Yoko:Digite aqui o 6 numero apostado por Yoko:Digite aqui o 1 numero sorteado:Digite aqui o 2 numero sorteado:Digite aqui o 3 numero sorteado:Digite aqui o 4 numero sorteado:Digite aqui o 5 numero sorteado:Digite aqui o 6 numero sorteado:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'terno'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 22
+41
+9
+71
+88
+4
+41
+9
+88
+71
+4
+22
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite aqui o 1 numero apostado por Yoko:Digite aqui o 2 numero apostado por Yoko:Digite aqui o 3 numero apostado por Yoko:Digite aqui o 4 numero apostado por Yoko:Digite aqui o 5 numero apostado por Yoko:Digite aqui o 6 numero apostado por Yoko:Digite aqui o 1 numero sorteado:Digite aqui o 2 numero sorteado:Digite aqui o 3 numero sorteado:Digite aqui o 4 numero sorteado:Digite aqui o 5 numero sorteado:Digite aqui o 6 numero sorteado:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'sena'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 25
+51
+53
+17
+19
+87
+23
+33
+1
+2
+81
+92
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite aqui o 1 numero apostado por Yoko:Digite aqui o 2 numero apostado por Yoko:Digite aqui o 3 numero apostado por Yoko:Digite aqui o 4 numero apostado por Yoko:Digite aqui o 5 numero apostado por Yoko:Digite aqui o 6 numero apostado por Yoko:Digite aqui o 1 numero sorteado:Digite aqui o 2 numero sorteado:Digite aqui o 3 numero sorteado:Digite aqui o 4 numero sorteado:Digite aqui o 5 numero sorteado:Digite aqui o 6 numero sorteado:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'azar'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+2
+3
+4
+5
+6
+1
+2
+3
+4
+5
+6
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite aqui o 1 numero apostado por Yoko:Digite aqui o 2 numero apostado por Yoko:Digite aqui o 3 numero apostado por Yoko:Digite aqui o 4 numero apostado por Yoko:Digite aqui o 5 numero apostado por Yoko:Digite aqui o 6 numero apostado por Yoko:Digite aqui o 1 numero sorteado:Digite aqui o 2 numero sorteado:Digite aqui o 3 numero sorteado:Digite aqui o 4 numero sorteado:Digite aqui o 5 numero sorteado:Digite aqui o 6 numero sorteado:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'sena'
+
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

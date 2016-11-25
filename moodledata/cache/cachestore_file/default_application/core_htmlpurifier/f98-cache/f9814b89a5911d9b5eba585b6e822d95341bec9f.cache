@@ -1,0 +1,36 @@
+s:980:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+4
+0
+0
+0
+1
+0
+0
+1
+1
+0
+0
+0
+0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de linhas:Digite a quantidade de colunas:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Digite o elemento:Traceback (most recent call last):
+  File "matriz1.py", line 39, in &lt;module&gt;
+    print (a[linhaE(a):linhaD(a)+1,colunaE(a):colunaD(a)+1])
+  File "matriz1.py", line 36, in linhaD
+    if 1 in a[i,:]:
+IndexError: index 3 is out of bounds for axis 0 with size 3
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '[[ 0.  1.]
+ [ 1.  1.]]'
+
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

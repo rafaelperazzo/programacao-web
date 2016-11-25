@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+import numpy as np
+
+#ESCREVER UM PROGRAMA EM PYTHON QUE FAÇA A SOMA DE 2 MATRIZES. MOSTRAR A MATRIZ C = A + B
+
+#PASSO 1: PREPARAR E CRIAR AS MATRIZES. As matrizes possuem a mesma dimensão. 
+
+linhas = input('Digite a quantidade de linhas: ')
+colunas = input('Digite a quantidade de colunas: ')
+
+a = np.zeros( (linhas,colunas) )
+b = np.zeros( (linhas,colunas) )
+
+
+
+
+

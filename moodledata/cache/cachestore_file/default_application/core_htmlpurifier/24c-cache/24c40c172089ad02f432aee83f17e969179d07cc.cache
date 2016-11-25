@@ -1,0 +1,8 @@
+s:519:"<p>Olá Larissa!!<br />
+1) Pra somar uma coluna:<br />
+for j in range ...<br />
+    soma = 0<br />
+    for i in range ...<br />
+        soma = soma + a[i,j]<br />
+    lista.append(soma)<br /><br />
+Observe que inverti o i com o j. Utilize uma lista para armazenar o somatorio das colunas e das linhas. O mesmo raciocínio aplica-se a soma das linhas. Se todos os elementos da lista forem iguais ao somatorio de cada diagonal, então a matriz é um quadrado mágico. Qualquer dúvida é só entrar em contato!</p>";

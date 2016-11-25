@@ -1,0 +1,82 @@
+s:1555:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "pico.py", line 5
+    posiçao=0
+        ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+1
+2
+1
+2
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "pico.py", line 5
+    posiçao=0
+        ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+10
+9
+7
+4
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "pico.py", line 5
+    posiçao=0
+        ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+2
+5
+10
+46
+25
+12
+7
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "pico.py", line 5
+    posiçao=0
+        ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

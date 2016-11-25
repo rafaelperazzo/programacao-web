@@ -1,0 +1,49 @@
+s:1523:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de m:18.825597
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de m:-4.600000
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.16[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 100
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de m:-70.917157
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de m:-970.882497
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,20 @@
+s:437:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+9
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite a:digite b:digite c:s
+Ac
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'Ac'
+'Es'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

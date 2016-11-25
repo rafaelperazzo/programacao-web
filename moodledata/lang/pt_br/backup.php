@@ -117,6 +117,7 @@ $string['currentstage4'] = 'Confirmação e revisão';
 $string['currentstage8'] = 'Executar o backup';
 $string['enterasearch'] = 'Digite um termo a pesquisar';
 $string['error_block_for_module_not_found'] = 'Instância órfã de bloco (id: {$a->bid}) para o módulo do curso (id:{$a->mid}) encontrada. Não será realizado backup para este bloco.';
+$string['errorcopyingbackupfile'] = 'Falha ao copiar o arquivo de backup para a pasta temporária antes de restaurar.';
 $string['error_course_module_not_found'] = 'Módulo de curso órfão (id: {$a}) encontrado. Não será realizado backup para este módulo.';
 $string['errorfilenamemustbezip'] = 'O nome digitado deve ser um arquivo ZIP e ter a extensão .mbz';
 $string['errorfilenamerequired'] = 'Você precisa informar um nome válido para este backup';

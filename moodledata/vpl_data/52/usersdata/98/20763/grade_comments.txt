@@ -1,0 +1,39 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite a quantidade de linhas: Digite a quantidade de colunas: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Digite um valor para a matriz a: Traceback (most recent call last):
+>  File "matriz1.py", line 53, in <module>
+>    print(recorte(a))
+>  File "matriz1.py", line 38, in recorte
+>    b=a[linhaSuperior(a):linhaInferior(a)+1,colunaEsqueda(a):colunaDireita(a)+1]
+>  File "matriz1.py", line 31, in linhaInferior
+>    if 1 in a[i,:]:
+>IndexError: index 3 is out of bounds for axis 0 with size 3
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

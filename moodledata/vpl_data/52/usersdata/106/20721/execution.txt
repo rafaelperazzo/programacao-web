@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite a quantidade de linhas:Digite a quantidade de colunas:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Digite um número:Traceback (most recent call last):
+>  File "matriz1.py", line 47, in <module>
+>    print (a[linhaCima(a):(linhaBaixo(a)+1),colunaEsquerda(a):(colunaDireita(a)+1)])
+>  File "matriz1.py", line 16, in colunaDireita
+>    Direita = a.shape -1
+>TypeError: unsupported operand type(s) for -: 'tuple' and 'int'
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

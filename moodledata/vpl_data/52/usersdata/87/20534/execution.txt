@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>digite numero de linhas:digite numero de colunas:Traceback (most recent call last):
+>  File "matriz1.py", line 41, in <module>
+>    print (a[menorlinha(a):maiorlinha(a)+1,menorcoluna(a):maiorcoluna(a)+1])
+>  File "matriz1.py", line 26, in menorlinha
+>    return lc
+>UnboundLocalError: local variable 'lc' referenced before assignment
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

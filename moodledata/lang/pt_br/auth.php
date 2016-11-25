@@ -166,3 +166,5 @@ $string['update_onlogin'] = 'Em cada login';
 $string['update_onupdate'] = 'Quando for atualizado';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate () não suporta o tipo de usuário (usertype) selecionado: {$a}';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() não suporta o tipo de usuário (usertype) selecionado (.. até o momento)';
+$string['username'] = 'Identificação de usuário';
+$string['username_help'] = 'Lembre-se de que alguns plugins de autenticação não permitirão que você altere o nome de usuário.';

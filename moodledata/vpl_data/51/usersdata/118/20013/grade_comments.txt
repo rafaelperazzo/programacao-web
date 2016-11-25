@@ -1,0 +1,22 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>-10
+>-5
+>2
+>4
+>9
+
+ --- Program output ---
+>Digite o número de termos maior que dois:Digite um valor:Digite um valor:Digite um valor:Digite um valor:Digite um valor:7
+
+ --- Expected output (text)---
+> '15'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+
