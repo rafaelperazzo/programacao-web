@@ -1,0 +1,72 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 3
+>8
+>0
+>7
+>4
+>5
+>6
+>3
+>10
+>2
+
+ --- Program output ---
+>Digite o numero de linhas:  Digite o numero de colunas:  Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Digite um valor da matriz: Traceback (most recent call last):
+>  File "matriz2.py", line 50, in <module>
+>    x[i,j]= input('Digite um valor da matriz: ')
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>1
+>1
+>1
+
+ --- Program output ---
+>Digite o numero de linhas:  Digite o numero de colunas:  Digite um valor da matriz: Digite um valor da matriz: Traceback (most recent call last):
+>  File "matriz2.py", line 52, in <module>
+>    if magico(x):
+>  File "matriz2.py", line 10, in magico
+>    a.append(x[0,i])
+>IndexError: index 1 is out of bounds for axis 1 with size 1
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>2
+>5
+>8
+
+ --- Program output ---
+>Digite o numero de linhas:  Digite o numero de colunas:  Digite um valor da matriz: Digite um valor da matriz: Traceback (most recent call last):
+>  File "matriz2.py", line 52, in <module>
+>    if magico(x):
+>  File "matriz2.py", line 10, in magico
+>    a.append(x[0,i])
+>IndexError: index 1 is out of bounds for axis 1 with size 1
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
