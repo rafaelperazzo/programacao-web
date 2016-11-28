@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>linhas:colunas:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Digite um elemento:Traceback (most recent call last):
+>  File "matriz1.py", line 45, in <module>
+>    lb=linhaBaixo(a)
+>  File "matriz1.py", line 29, in linhaBaixo
+>    j=a.shape[i]-1
+>IndexError: tuple index out of range
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

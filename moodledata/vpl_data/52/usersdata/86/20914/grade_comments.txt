@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>linhas:colunas:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:digite valor a:Traceback (most recent call last):
+>  File "matriz1.py", line 44, in <module>
+>    print (mdm(a))
+>  File "matriz1.py", line 35, in mdm
+>    b[i,j]=x[direita-j,baixo-i]
+>IndexError: index 3 is out of bounds for axis 0 with size 3
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

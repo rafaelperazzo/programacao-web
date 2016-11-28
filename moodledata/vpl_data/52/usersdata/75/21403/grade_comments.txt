@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite o número de linhas da matriz:Digite o número de colunas da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Digite um elemento da matriz:Traceback (most recent call last):
+>  File "matriz1.py", line 50, in <module>
+>    print corteRetangular(a)
+>  File "matriz1.py", line 37, in corteRetangular
+>    lb=maiorLina(a)
+>NameError: global name 'maiorLina' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite a quantidade de linhas:Digite a quantidade de colunas:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Digite um elemento da matriz a:Traceback (most recent call last):
+>  File "matriz1.py", line 42, in <module>
+>    lc=menorLinha(a)
+>  File "matriz1.py", line 22, in menorLinha
+>    return lc
+>NameError: global name 'lc' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
