@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['braceerror'] = 'Não foi possível encontrar {...} ao redor das repostas';
+$string['braceerror'] = 'Não foi possível encontrar {...} ao redor das respostas';
 $string['giftleftbraceerror'] = 'Não pôde encontrar uma {';
 $string['giftmatchingformat'] = 'Respostas das questões associativas estão formatadas incorretamente';
 $string['giftnonumericalanswers'] = 'Não foi encontrada resposta para questão numérica';

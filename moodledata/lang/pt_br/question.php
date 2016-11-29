@@ -84,7 +84,7 @@ $string['changeoptions'] = 'Alterar opções';
 $string['changepublishstatuscat'] = '<a href="{$a->caturl}">A categoria "{$a->name}"</a> no curso "{$a->coursename}" terá seu status de compartilhamento trocado de <strong>{$a->changefrom} para {$a->changeto}</strong>.';
 $string['check'] = 'Verificar';
 $string['chooseqtypetoadd'] = 'Escolha um tipo de questão para adicionar';
-$string['clearwrongparts'] = 'Limpar repostas incorretas';
+$string['clearwrongparts'] = 'Limpar respostas incorretas';
 $string['clickflag'] = 'Marcar questão';
 $string['clicktoflag'] = 'Marcar questão para referência futura';
 $string['clicktounflag'] = 'Remover marcação';

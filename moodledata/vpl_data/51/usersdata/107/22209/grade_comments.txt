@@ -1,0 +1,69 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 7
+>4
+>0
+>-1
+>2
+>2
+>3
+>8
+
+ --- Program output ---
+>digite o numero de linhas da matriz:digite o numero de colunas da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:Traceback (most recent call last):
+>  File "listas.py", line 46, in <module>
+>    a[i,j]= input('digite o elemento da matriz:')
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> '5'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite o numero de linhas da matriz:digite o numero de colunas da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:digite o elemento da matriz:Traceback (most recent call last):
+>  File "listas.py", line 46, in <module>
+>    a[i,j]= input('digite o elemento da matriz:')
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> '1'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>-10
+>-5
+>2
+>4
+>9
+
+ --- Program output ---
+>digite o numero de linhas da matriz:digite o numero de colunas da matriz:Traceback (most recent call last):
+>  File "listas.py", line 43, in <module>
+>    a= np.zeros((n,m))
+>ValueError: negative dimensions are not allowed
+
+ --- Expected output (text)---
+> '7'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

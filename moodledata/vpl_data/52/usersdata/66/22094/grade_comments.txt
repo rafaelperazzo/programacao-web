@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>digite o numero de linhas:digite o numero de colunas:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:digite os elementos da matriz:Traceback (most recent call last):
+>  File "matriz1.py", line 33, in <module>
+>    print matriz[MenorL(matriz):MaiorL(matriz)+1,MenorC(matriz):MaiorC(matriz)+1]
+>  File "matriz1.py", line 5, in MenorC
+>    for j in rang(0,x.shape [1],1):
+>NameError: global name 'rang' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

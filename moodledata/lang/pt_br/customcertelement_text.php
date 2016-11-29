@@ -27,3 +27,4 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Texto';
 $string['text'] = 'Texto';
+$string['text_help'] = 'Este é o texto que será mostrdo no PDF.';

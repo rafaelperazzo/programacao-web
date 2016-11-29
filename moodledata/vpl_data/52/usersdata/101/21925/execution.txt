@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite a quantidade de linhas: Digite a quantidade de colunas: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Digite qualquer elemento: Traceback (most recent call last):
+>  File "matriz1.py", line 47, in <module>
+>    print (a[menor_linha(a):maior_linha(a)+1, menor_coluna(a):maior_coluna(a)+1])
+>  File "matriz1.py", line 16, in maior_coluna
+>    for i in range (0, shape[0], 1):
+>NameError: global name 'shape' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0
