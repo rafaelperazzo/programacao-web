@@ -12,8 +12,9 @@ Incorrect program result
 >Número de linhas: Número de colunas:
 
  --- Expected output (regular expression)---
->.*3\.1415924[0-9]{8}
->.*1\.6180328[0-9]{8}
+>(.*3\.1415924[0-9]{8}
+>.*1\.6180328[0-9]{8})|(.*3\.1415924[0-9]{8}
+>.*1\.6180340[0-9]{8})
 
 -Test 2: Teste 2 (-33.333)
 Incorrect program result

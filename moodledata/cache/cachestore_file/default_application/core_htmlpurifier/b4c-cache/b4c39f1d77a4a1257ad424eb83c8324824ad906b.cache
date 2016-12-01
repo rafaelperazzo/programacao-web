@@ -1,0 +1,98 @@
+s:2305:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+3
+3
+4
+1
+3
+8
+4
+5
+9
+2
+8
+9
+2
+7
+5
+5
+4
+3
+2
+5
+8
+2
+9
+1
+9
+8
+7
+1
+3
+2
+1
+2
+5
+1
+2
+9
+3
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a ordem da matriz: Digite o índice i: Digite o índice j: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: 67.0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '67'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+0
+0
+4
+2
+9
+1
+5
+5
+2
+2
+7
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a ordem da matriz: Digite o índice i: Digite o índice j: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: 14.0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '14'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+2
+0
+5
+1
+1
+5
+2
+1
+8
+5
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a ordem da matriz: Digite o índice i: Digite o índice j: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: Digite um número: 20.0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '20'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

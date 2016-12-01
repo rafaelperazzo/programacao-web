@@ -3,28 +3,11 @@ Testing 2/3 : Teste 2
 Testing 3/3 : Teste 3
 
 <|--
--Test 1: Teste 1 (-33.333)
-Incorrect program result
- --- Input ---
-> 100
->0.000001
-
- --- Program output ---
->Digite o número m de termos da fórmula pi:Digite o epsilon para calcular a razao aurea:O valor aproximado de pi:3.141592410971981
->O valor aproximado da razao aurea:1.618034051062236
-
- --- Expected output (regular expression)---
->.*3\.1415924[0-9]{8}
->.*1\.6180328[0-9]{8}
-
---|>
-
-<|--
 -Summary of tests
 >+------------------------------+
->|  3 tests run/ 2 tests passed |
+>|  3 tests run/ 3 tests passed |
 >+------------------------------+
 
 --|>
 
-Grade :=>>66.67
+Grade :=>>100

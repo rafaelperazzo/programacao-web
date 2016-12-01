@@ -1,0 +1,26 @@
+s:744:"<b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+2
+0
+5
+1
+1
+5
+2
+1
+8
+5
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a dimensão:Digite o indice da linha:Digite o indice da coluna:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:23.0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>20.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

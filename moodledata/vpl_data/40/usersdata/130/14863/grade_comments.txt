@@ -13,8 +13,9 @@ Incorrect program result
 >o valor aproximado da razao aurea 1.605215884932930 é:
 
  --- Expected output (regular expression)---
->.*3\.1415924[0-9]{8}
->.*1\.6180328[0-9]{8}
+>(.*3\.1415924[0-9]{8}
+>.*1\.6180328[0-9]{8})|(.*3\.1415924[0-9]{8}
+>.*1\.6180340[0-9]{8})
 
 -Test 2: Teste 2 (-33.333)
 Incorrect program result
