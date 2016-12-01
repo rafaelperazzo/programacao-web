@@ -38,7 +38,7 @@ input = 6
 9
 3
 8
-output = '67'
+output = /67.*/i
 
 case = Teste 2
 input = 3
@@ -53,7 +53,7 @@ input = 3
 2
 2
 7
-output = '14'
+output = /14.*/i
 
 case = Teste 3
 input = 3
@@ -68,4 +68,4 @@ input = 3
 8
 5
 5
-output = '20'
+output = /20.*/i

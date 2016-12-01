@@ -1,0 +1,68 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 7
+>-2
+>5
+>-1
+>8
+>-11
+>7
+>3
+>1
+>3
+
+ --- Program output ---
+>Digite a quantidade de salas:digite a porta escolhida para a entrada:digite a porta escolhida para a saida:porta 1
+>quantidade de vidas:porta 2
+>quantidade de vidas:porta 3
+>quantidade de vidas:porta 4
+>quantidade de vidas:porta 5
+>quantidade de vidas:porta 6
+>quantidade de vidas:porta 7
+>quantidade de vidas:A quantidade de vidas obtidas é:11
+
+ --- Expected output (text)---
+> '12'
+
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 10
+>50
+>42
+>-35
+>2
+>-60
+>5
+>30
+>-1
+>40
+>31
+>5
+>9
+
+ --- Program output ---
+>Digite a quantidade de salas:digite a porta escolhida para a entrada:digite a porta escolhida para a saida:porta 1
+>quantidade de vidas:porta 2
+>quantidade de vidas:porta 3
+>quantidade de vidas:porta 4
+>quantidade de vidas:porta 5
+>quantidade de vidas:porta 6
+>quantidade de vidas:porta 7
+>quantidade de vidas:porta 8
+>quantidade de vidas:porta 9
+>quantidade de vidas:porta 10
+>quantidade de vidas:A quantidade de vidas obtidas é:0
+
+ --- Expected output (text)---
+> '105'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

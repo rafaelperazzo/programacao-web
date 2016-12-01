@@ -1,0 +1,68 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 4
+>50
+>45
+>45
+>55
+>55
+
+ --- Program output ---
+>digiet n:digite m:digite a listadigite a listadigite a listadigite a listaTraceback (most recent call last):
+>  File "av1_p2_civil.py", line 29, in <module>
+>    print("%.1d"%(altura(lista,m)))
+>  File "av1_p2_civil.py", line 22, in altura
+>    soma=absoluto(maior(l)-altura)+absoluto(menor(l)-altura)
+>  File "av1_p2_civil.py", line 11, in maior
+>    for i in rang(0,len(l),1):
+>NameError: global name 'rang' is not defined
+
+ --- Expected output (text)---
+> '10'
+
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 5
+>84
+>84
+>39
+>17
+>72
+>94
+
+ --- Program output ---
+>digiet n:digite m:digite a listadigite a listadigite a listadigite a listadigite a listaTraceback (most recent call last):
+>  File "av1_p2_civil.py", line 29, in <module>
+>    print("%.1d"%(altura(lista,m)))
+>  File "av1_p2_civil.py", line 22, in altura
+>    soma=absoluto(maior(l)-altura)+absoluto(menor(l)-altura)
+>  File "av1_p2_civil.py", line 11, in maior
+>    for i in rang(0,len(l),1):
+>NameError: global name 'rang' is not defined
+
+ --- Expected output (text)---
+> '77'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,51 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-33.333)
+Incorrect program result
+ --- Input ---
+> 100
+>0.000001
+
+ --- Program output ---
+>Digite o numero m de termos da formula de pi:Digite o epsilon para o calculo da razao aurea:O valor aproximado de pi 3.141592410971982 é:
+>o valor aproximado da razao aurea 1.605215884932930 é:
+
+ --- Expected output (regular expression)---
+>.*3\.1415924[0-9]{8}
+>.*1\.6180328[0-9]{8}
+
+-Test 2: Teste 2 (-33.333)
+Incorrect program result
+ --- Input ---
+> 33
+>0.000000001
+
+ --- Program output ---
+>Digite o numero m de termos da formula de pi:Digite o epsilon para o calculo da razao aurea:O valor aproximado de pi 3.141599007405717 é:
+>o valor aproximado da razao aurea 1.605214227066697 é:
+
+ --- Expected output (regular expression)---
+>.*3\.1415990[0-9]{8}
+>.*1\.6180324[0-9]{8}
+
+-Test 3: Teste 3 (-33.333)
+Incorrect program result
+ --- Input ---
+> 1203
+>0.000000000001
+
+ --- Program output ---
+>Digite o numero m de termos da formula de pi:Digite o epsilon para o calculo da razao aurea:O valor aproximado de pi 3.141592653733032 é:
+>o valor aproximado da razao aurea 1.605215823920426 é:
+
+ --- Expected output (regular expression)---
+>.*3\.1415926[0-9]{8}
+>.*1\.6180339[0-9]{8}
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

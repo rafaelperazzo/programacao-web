@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+import numpy as np 
+a=np.zeros((3,3))
+
+a[1,1]=20
+print a

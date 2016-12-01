@@ -1,0 +1,20 @@
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>2
+>5
+>8
+
+ --- Program output ---
+>Digite as linhas:Digite um elemento a:Digite um elemento a:Digite um elemento a:Digite um elemento a:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

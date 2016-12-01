@@ -1,0 +1,60 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 4
+>50
+>45
+>45
+>55
+>55
+
+ --- Program output ---
+>digiet n:digite m:Traceback (most recent call last):
+>  File "av1_p2_civil.py", line 28, in <module>
+>    lista.appende(input("digite a lista"))
+>AttributeError: 'list' object has no attribute 'appende'
+
+ --- Expected output (text)---
+> '10'
+
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 5
+>84
+>84
+>39
+>17
+>72
+>94
+
+ --- Program output ---
+>digiet n:digite m:Traceback (most recent call last):
+>  File "av1_p2_civil.py", line 28, in <module>
+>    lista.appende(input("digite a lista"))
+>AttributeError: 'list' object has no attribute 'appende'
+
+ --- Expected output (text)---
+> '77'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,81 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 7
+>-2
+>5
+>-1
+>8
+>-11
+>7
+>3
+>1
+>3
+
+ --- Program output ---
+>Digite a quantidade de salas percorridas:   Digite a quantidade de portas de entrada:   Digite a quantidade de portas de saída:   Porta(s) 1
+>Qual é o numero vidas: Porta(s) 2
+>Qual é o numero vidas: Porta(s) 3
+>Qual é o numero vidas: Porta(s) 4
+>Qual é o numero vidas: Porta(s) 5
+>Qual é o numero vidas: Porta(s) 6
+>Qual é o numero vidas: Porta(s) 7
+>Qual é o numero vidas: O número de vidas obtidas no jogo é: 11
+
+ --- Expected output (text)---
+> '12'
+
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 10
+>50
+>42
+>-35
+>2
+>-60
+>5
+>30
+>-1
+>40
+>31
+>5
+>9
+
+ --- Program output ---
+>Digite a quantidade de salas percorridas:   Digite a quantidade de portas de entrada:   Digite a quantidade de portas de saída:   Porta(s) 1
+>Qual é o numero vidas: Porta(s) 2
+>Qual é o numero vidas: Porta(s) 3
+>Qual é o numero vidas: Porta(s) 4
+>Qual é o numero vidas: Porta(s) 5
+>Qual é o numero vidas: Porta(s) 6
+>Qual é o numero vidas: Porta(s) 7
+>Qual é o numero vidas: Porta(s) 8
+>Qual é o numero vidas: Porta(s) 9
+>Qual é o numero vidas: Porta(s) 10
+>Qual é o numero vidas: O número de vidas obtidas no jogo é: 0
+
+ --- Expected output (text)---
+> '105'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

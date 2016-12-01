@@ -1,0 +1,27 @@
+-Test 3: Teste 3 (-8.333)
+Incorrect program result
+ --- Input ---
+> 3
+>2
+>0
+>5
+>1
+>1
+>5
+>2
+>1
+>8
+>5
+>5
+
+ --- Program output ---
+>Digite a dimensão:Digite o indice da linha:Digite o indice da coluna:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:Digite um valor pra matriz:23.0
+
+ --- Expected output (regular expression)---
+>20.*
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+
