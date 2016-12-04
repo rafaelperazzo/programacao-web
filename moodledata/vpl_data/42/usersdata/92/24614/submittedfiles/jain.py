@@ -1,0 +1,50 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import funcoes
+
+'''
+ENTRADA TESTE
+f = 0.2
+dH = 5
+L = 3250
+Q = 0.005
+g = 9.81
+v = 0.000001
+e = 0.00006
+k = 10
+A saida para esta entrada é aproximadamente: 0.1247 (D) e 0.0224 (f)
+'''
+
+f = 0.2
+dH = input('Digite a perda de carga: ')
+L = input('Digite o comprimento da tubulação: ')
+Q = input('Digite a vazão: ')
+g = input('Digite a gravidade: ')
+v = input('Digite a viscosidade cinemática: ')
+e = input('Digite a rugosidade absoluta: ')
+k = 10
+
+def D(f,L,Q,g,dH):
+    D=((8*f*L*(Q**2))/(((math.pi)**2)g*dH))**0.2
+    return D
+    
+def Rey(Q,D,v):
+    Rey=(4*Q)/(math.pi*D(f,L,Q,g,dH)*v)
+
+def Fn(Rey,e,D):
+    fn= ((((((math.log((e/(3.7*D(f,L,Q,g,dH)))+5.74/((Rey(Q,D,v)**0.9))))-((2500/Rey(Q,D,v))**(6)))**(-16))*9.5)+((64/Rey(Q,D,v))**8))**(0.125))
+
+Fn= Fn(Rey,e,D)
+D= D(f,L,Q,g,dH)
+while f!=fn:
+    f= Fn
+    D= D(f,L,Q,g,dH)
+    Fn= Fn(Rey,e,D)
+
+print ('%.10f' %D)
+print ('%.10f' %f)
+
+
+
+
+

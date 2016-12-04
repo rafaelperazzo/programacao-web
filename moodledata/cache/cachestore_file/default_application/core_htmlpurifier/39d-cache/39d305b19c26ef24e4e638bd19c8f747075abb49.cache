@@ -1,0 +1,60 @@
+s:2549:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 100
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero m de termos da formula de pi :digite o epsilon para o calculo da razao aurea:Traceback (most recent call last):
+  File "main.py", line 9, in &lt;module&gt;
+    print('o valor aproximado da razao_aurea e:%.15f'%funcoes.calcula_razao_aurea(m,epsilon))
+  File "/home/p15410/funcoes.py", line 59, in calcula_razao_aurea
+    calcula_razao_aurea=2*(calcula_cos_seno(calcula_pi(m)/5.0,epsilon))
+NameError: global name 'calcula_pi' is not defined
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>(.*3\.1415924[0-9]{8}
+.*1\.6180328[0-9]{8})|(.*3\.1415924[0-9]{8}
+.*1\.6180340[0-9]{8})
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 33
+0.000000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero m de termos da formula de pi :digite o epsilon para o calculo da razao aurea:Traceback (most recent call last):
+  File "main.py", line 9, in &lt;module&gt;
+    print('o valor aproximado da razao_aurea e:%.15f'%funcoes.calcula_razao_aurea(m,epsilon))
+  File "/home/p15410/funcoes.py", line 59, in calcula_razao_aurea
+    calcula_razao_aurea=2*(calcula_cos_seno(calcula_pi(m)/5.0,epsilon))
+NameError: global name 'calcula_pi' is not defined
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*3\.1415990[0-9]{8}
+.*1\.6180324[0-9]{8}
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1203
+0.000000000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero m de termos da formula de pi :digite o epsilon para o calculo da razao aurea:Traceback (most recent call last):
+  File "main.py", line 9, in &lt;module&gt;
+    print('o valor aproximado da razao_aurea e:%.15f'%funcoes.calcula_razao_aurea(m,epsilon))
+  File "/home/p15410/funcoes.py", line 59, in calcula_razao_aurea
+    calcula_razao_aurea=2*(calcula_cos_seno(calcula_pi(m)/5.0,epsilon))
+NameError: global name 'calcula_pi' is not defined
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*3\.1415926[0-9]{8}
+.*1\.6180339[0-9]{8}
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

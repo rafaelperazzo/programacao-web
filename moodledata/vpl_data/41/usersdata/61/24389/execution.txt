@@ -22,7 +22,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "gravitacional.py", line 4, in <module>
 >    import funcoes
->  File "/home/p14016/funcoes.py", line 46
+>  File "/home/p18366/funcoes.py", line 46
 >    k=k+1
 >    ^
 >IndentationError: unexpected indent
@@ -42,7 +42,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "gravitacional.py", line 4, in <module>
 >    import funcoes
->  File "/home/p14016/funcoes.py", line 46
+>  File "/home/p18366/funcoes.py", line 46
 >    k=k+1
 >    ^
 >IndentationError: unexpected indent
@@ -62,7 +62,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "gravitacional.py", line 4, in <module>
 >    import funcoes
->  File "/home/p14016/funcoes.py", line 46
+>  File "/home/p18366/funcoes.py", line 46
 >    k=k+1
 >    ^
 >IndentationError: unexpected indent

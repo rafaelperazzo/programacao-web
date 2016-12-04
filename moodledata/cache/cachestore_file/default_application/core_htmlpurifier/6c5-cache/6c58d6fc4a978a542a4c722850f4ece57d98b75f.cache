@@ -1,0 +1,52 @@
+s:1543:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+50
+45
+45
+55
+55
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digiet n:digite m:digite a listadigite a listadigite a listadigite a listaTraceback (most recent call last):
+  File "av1_p2_civil.py", line 29, in &lt;module&gt;
+    print("%.1d"%(altura(lista,m)))
+  File "av1_p2_civil.py", line 22, in altura
+    soma=absoluto(maior(l)-altura)+absoluto(menor(l)-altura)
+  File "av1_p2_civil.py", line 6, in absoluto
+    x=x(-1)
+TypeError: 'int' object is not callable
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '10'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+84
+84
+39
+17
+72
+94
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digiet n:digite m:digite a listadigite a listadigite a listadigite a listadigite a listaTraceback (most recent call last):
+  File "av1_p2_civil.py", line 29, in &lt;module&gt;
+    print("%.1d"%(altura(lista,m)))
+  File "av1_p2_civil.py", line 22, in altura
+    soma=absoluto(maior(l)-altura)+absoluto(menor(l)-altura)
+  File "av1_p2_civil.py", line 6, in absoluto
+    x=x(-1)
+TypeError: 'int' object is not callable
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '77'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";
