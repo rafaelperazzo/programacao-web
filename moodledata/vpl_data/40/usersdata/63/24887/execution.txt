@@ -20,7 +20,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "main.py", line 3, in <module>
 >    import funcoes
->  File "/home/p16960/funcoes.py", line 1
+>  File "/home/p19236/funcoes.py", line 1
 >    from __future __import division
 >                         ^
 >SyntaxError: invalid syntax
@@ -40,7 +40,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "main.py", line 3, in <module>
 >    import funcoes
->  File "/home/p16960/funcoes.py", line 1
+>  File "/home/p19236/funcoes.py", line 1
 >    from __future __import division
 >                         ^
 >SyntaxError: invalid syntax
@@ -59,7 +59,7 @@ Incorrect program result
 >Traceback (most recent call last):
 >  File "main.py", line 3, in <module>
 >    import funcoes
->  File "/home/p16960/funcoes.py", line 1
+>  File "/home/p19236/funcoes.py", line 1
 >    from __future __import division
 >                         ^
 >SyntaxError: invalid syntax

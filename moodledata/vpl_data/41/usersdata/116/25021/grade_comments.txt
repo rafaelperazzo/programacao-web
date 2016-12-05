@@ -1,0 +1,11 @@
+A função abaixo está errada!!
+
+def sum(T): #Esta funcao está errada!!
+    cont=0
+    for i in range (0,T.shape[0],1):
+        for j in range(0,T.shape[1],1):
+            cont=cont+T[i,j]
+    
+    return cont
+    
+    

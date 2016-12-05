@@ -1,0 +1,65 @@
+s:2167:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+0 10 15 12 13 0 23 14 31 43 0 11 19 32 18 0
+0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a dimensão das matrizes:Digite um valor de A:Traceback (most recent call last):
+  File "gravitacional.py", line 50, in &lt;module&gt;
+    A[i,j] = input('Digite um valor de A:')
+  File "&lt;string&gt;", line 1
+    0 10 15 12 13 0 23 14 31 43 0 11 19 32 18 0
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*241\.[0-9]{4}.*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+0 10 15 20 13 0 23 14 31 43 0 11 19 32 18 0
+0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a dimensão das matrizes:Digite um valor de A:Traceback (most recent call last):
+  File "gravitacional.py", line 50, in &lt;module&gt;
+    A[i,j] = input('Digite um valor de A:')
+  File "&lt;string&gt;", line 1
+    0 10 15 20 13 0 23 14 31 43 0 11 19 32 18 0
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*249\.[0-9]{4}.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+0 10 15 20 19 0 23 14 40 43 0 11 19 38 18 0
+0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a dimensão das matrizes:Digite um valor de A:Traceback (most recent call last):
+  File "gravitacional.py", line 50, in &lt;module&gt;
+    A[i,j] = input('Digite um valor de A:')
+  File "&lt;string&gt;", line 1
+    0 10 15 20 19 0 23 14 40 43 0 11 19 38 18 0
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*270\.[0-9]{4}.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";
