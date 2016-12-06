@@ -1,0 +1,10 @@
+case = Teste 1
+input = 1
+0
+output = 'B'
+
+case = Teste 2
+input = 0
+0
+output = 'C'
+

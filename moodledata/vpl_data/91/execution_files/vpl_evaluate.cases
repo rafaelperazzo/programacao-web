@@ -1,0 +1,16 @@
+case = Teste 1
+input = 10000
+output = '5'
+
+case = Teste 2
+input = 1008956
+output = '7'
+
+case = Teste 3
+input = 100.56
+output = '3'
+
+case = Teste 4
+input = 1
+output = '1'
+

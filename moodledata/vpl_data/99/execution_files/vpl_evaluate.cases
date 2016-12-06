@@ -1,0 +1,16 @@
+case = Teste 1
+input = 100
+output = /[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*/i
+
+case = Teste 2
+input = 200
+output = /[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*/i
+
+case = Teste 3
+input = 5
+output = /[[:print:]]*\b3.142[0-9]+\b[[:print:]]*/i
+
+case = Teste 4
+input = 10
+output = /[[:print:]]*\b3.14159[0-9]+\b[[:print:]]*/i
+

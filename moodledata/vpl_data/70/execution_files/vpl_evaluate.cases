@@ -1,0 +1,12 @@
+case = Teste 1
+input = 35
+60
+75
+output='N'
+
+case = Teste 2
+input = 55
+68
+67
+output = 'S'
+
