@@ -103,7 +103,9 @@ $string['batchsetmarkingworkflowstateforusers'] = 'Definir estado de fluxo de av
 $string['blindmarking'] = 'Avaliação anônima';
 $string['blindmarking_help'] = 'Se habilitado, os avaliadores não verão a identidade dos estudantes, mas sim um identificador gerado aleatoriamente. Esta configuração será travada (não poderá ser alterada) assim que um estudante postar seu trabalho ou que seja realizada uma avaliação.
 Uma vez que a avaliação esteja completa, o professor pode reverter o anonimato clicando em "Revelar identidades dos estudantes" no menu de "Administração de tarefas" do bloco de "Administração".';
+$string['changefilters'] = 'Modificar filtros';
 $string['changegradewarning'] = 'Esta atribuição foi classificado inscrições e alterar a nota não será automaticamente re-calcular os graus de submissão existentes. Você deve reavaliar todas as propostas existentes, se você quiser alterar a nota.';
+$string['changeuser'] = 'Modificar usuário';
 $string['choosegradingaction'] = 'Ação de avaliação';
 $string['choosemarker'] = 'Escolha ...';
 $string['chooseoperation'] = 'Escolha operação';

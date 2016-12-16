@@ -1099,6 +1099,7 @@ $string['unsupported'] = 'Não tem suporte';
 $string['unsupporteddbstorageengine'] = 'O mecanismo de armazenamento do banco de dados que está em uso não é mais suportado.';
 $string['unsupporteddbtablerowformat'] = 'Seu banco de dados possui tabelas usando Antelope como formato de arquivo. Recomenda-se converter as tabelas para o formato de arquivo Barracuda. Consulte a documentação <a href="https://docs.moodle.org/en/cli">Administração via linha de comando</a> para detalhes de uma ferramenta para converter tabelas InnoDB para Barracuda.';
 $string['unsupportedphpversion7'] = 'PHP versão 7 não é suportada.';
+$string['unsupportedphpversion71'] = 'A versão 7.1 do PHP não é suportada.';
 $string['unsuspenduser'] = 'Ativar conta de usuário';
 $string['updateaccounts'] = 'Atualizar contas existentes';
 $string['updateautocheck'] = 'Verificar automaticamente novas atualizações';

@@ -35,7 +35,6 @@ $string['coursetimereq_help'] = 'Digite aqui a quantidade mínima de tempo, em m
 $string['createtemplate'] = 'Criar modelo';
 $string['customcert:addinstance'] = 'Adicionar um  novo certificado personalizado';
 $string['customcert:manage'] = 'Gerenciar um certificado personalizado';
-$string['customcertnameexists'] = 'Um certificado já existe com este nome';
 $string['customcertreport'] = 'Relatório de certificado personalizado';
 $string['customcert:view'] = 'Exibir um certificado personalizado';
 $string['deletecertpage'] = 'Remover página do certificado';
