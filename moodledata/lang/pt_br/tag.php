@@ -91,6 +91,7 @@ $string['select'] = 'Selecionar';
 $string['selecttag'] = 'Selecionar marcador {$a}';
 $string['settypedefault'] = 'Remover dos marcadores oficiais';
 $string['settypeofficial'] = 'Tornar oficial';
+$string['standardhide'] = 'Não sugerir';
 $string['tag'] = 'Marcador';
 $string['tagdescription'] = 'Descrição do marcador';
 $string['taggedwith'] = 'marcado com "{$a}"';

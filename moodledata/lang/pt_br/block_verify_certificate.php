@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['certificate'] = 'VERIFICAÇÃO DE CÓDIGO DE CERTIFICADO:';
-$string['check'] = 'Certifique-se de todos os detalhes sobre o certificado combinem os resultados exibidos.';
+$string['check'] = 'Certifique-se que todos os detalhes sobre o certificado combinem com os resultados exibidos.';
 $string['course'] = 'CURSO';
 $string['date'] = 'EM';
 $string['grade'] = 'NOTA';

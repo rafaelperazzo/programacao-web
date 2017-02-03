@@ -25,11 +25,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['competenciestoreview'] = 'Competências para avaliar';
-$string['lp:addinstance'] = 'Adicionar um novo bloco de planos de aprendizagem';
-$string['lp:myaddinstance'] = 'Adicionar um novo plano de aprendizado e bloquear no Dashboard';
-$string['lp:view'] = 'Ver o bloco do Plano de aprendizado';
-$string['planstoreview'] = 'Os planos para revisão';
+$string['competenciestoreview'] = 'Competências para revisão';
+$string['lp:addinstance'] = 'Adicionar um novo bloco planos de aprendizagem';
+$string['lp:myaddinstance'] = 'Adicionar um novo bloco planos de aprendizado ao Dashboard';
+$string['lp:view'] = 'Ver bloco planos de aprendizado';
+$string['myplans'] = 'Meus planos';
+$string['noactiveplans'] = 'Nenhum plano ativo no momento';
+$string['planstoreview'] = 'Planos para revisão';
 $string['pluginname'] = 'Planos de aprendizagem';
-$string['viewmore'] = 'Veja mais...';
-$string['viewotherplans'] = 'Veja outros planos...';
+$string['viewmore'] = 'Ver mais...';
+$string['viewotherplans'] = 'Ver outros planos...';

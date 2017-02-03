@@ -444,6 +444,7 @@ $string['submissionoutofsequencefriendlymessage'] = 'Você enviou dados fora da 
 $string['submit'] = 'Enviar';
 $string['submitandfinish'] = 'Enviar e finalizar';
 $string['submitted'] = 'Enviar: {$a}';
+$string['tagarea_question'] = 'Questões';
 $string['technicalinfo'] = 'Informação técnica';
 $string['technicalinfo_help'] = 'Esta informação técnica só é provavelmente útil para desenvolvedores trabalhando em novos tipos de questão. Isso também pode ser de auxílio enquanto se busca por problemas em questões.';
 $string['technicalinfomaxfraction'] = 'Fração máxima: {$a}';

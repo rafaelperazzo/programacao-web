@@ -1,0 +1,77 @@
+s:2252:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+3250
+0.005
+9.81
+0.000001
+0.00006
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a perda de carga: Digite o comprimento da tubulação: Digite a vazão: Digite a gravidade: Digite a viscosidade cinemática: Digite a rugosidade absoluta: 0.1931
+32966.9830
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>..*0\.1247[0-9]{3}.*
+.*0\.0224[0-9]{3}.*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 22
+50000
+0.65
+9.81
+0.000001
+0.00004
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a perda de carga: Digite o comprimento da tubulação: Digite a vazão: Digite a gravidade: Digite a viscosidade cinemática: Digite a rugosidade absoluta: 1.7382
+476122.1893
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>..*1\.0028[0-9]{5}.*
+.*0\.0127[0-9]{4}.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+3250
+0.005
+10
+0.000001
+0.00006
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a perda de carga: Digite o comprimento da tubulação: Digite a vazão: Digite a gravidade: Digite a viscosidade cinemática: Digite a rugosidade absoluta: 0.1924
+33093.7059
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>..*0\.1242[0-9]{3}.*
+.*0\.0224[0-9]{2}.*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 22
+50000
+0.65
+10
+0.000001
+0.00004
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a perda de carga: Digite o comprimento da tubulação: Digite a vazão: Digite a gravidade: Digite a viscosidade cinemática: Digite a rugosidade absoluta: 1.7316
+477952.3711
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>..*0\.9989[0-9]{4}.*
+.*0\.0127[0-9]{3}.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

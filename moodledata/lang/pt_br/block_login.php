@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['login:addinstance'] = 'Adicionar novo loco de login';
+$string['login:addinstance'] = 'Adicionar novo bloco de login';
 $string['pluginname'] = 'Acesso';

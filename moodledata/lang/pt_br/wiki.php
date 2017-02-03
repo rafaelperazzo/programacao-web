@@ -225,6 +225,7 @@ $string['searchterms'] = 'Buscar termos';
 $string['searchwikis'] = 'Pesquisar wikis';
 $string['special'] = 'Especial';
 $string['tableofcontents'] = 'Índice';
+$string['tagarea_wiki_pages'] = 'Páginas wiki';
 $string['tagsdeleted'] = 'Tags da wiki foram excluídas';
 $string['tagtitle'] = 'Veja a tag "{$a}"';
 $string['teacherrating'] = 'Avaliação do professor';

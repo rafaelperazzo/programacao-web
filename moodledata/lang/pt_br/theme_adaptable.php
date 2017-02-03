@@ -25,8 +25,18 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['alertaccessglobal'] = 'Visível a todos';
+$string['alertaccessadmins'] = 'Visível para administradores';
+$string['alertaccessdesc'] = 'Defina o tipo de restrição de acesso para a visibilidade da caixa de alerta. Nota: se estiver usando "Adicionar restrição de campo de perfil personalizado", será necessário adicionar valores para os campos de perfil abaixo.';
+$string['alertaccessglobal'] = 'Visível para todos';
 $string['alertaccessusers'] = 'Visível para usuários logados';
+$string['alertannounce'] = 'Anúncio';
+$string['alertannouncedesc'] = 'Exibir um anúncio na Caixa de Alerta';
+$string['bcustyle'] = 'Estilo BCU';
+$string['blockbackgroundcolordesc'] = 'Defina a cor de fundo para todos os blocos.';
+$string['blockbordercolor'] = 'Cor da borda do bloco';
+$string['blockbordercolordesc'] = 'Defina a cor da borda do bloco.';
+$string['blockicons'] = 'Ícones dos blocos';
+$string['blocklayoutlayoutcheck'] = 'Verifique seu layout';
 $string['course'] = 'Curso';
 $string['events'] = 'Eventos';
 $string['frnt-footer'] = 'Blocos nesta área só será visível para os usuários administradores.';

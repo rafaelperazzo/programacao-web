@@ -41,6 +41,7 @@ $string['chooseexam'] = 'Escolha questionário final';
 $string['datecreated'] = 'Data de criação';
 $string['description'] = 'Descrição';
 $string['eventcertificatecreated'] = 'Um certificado foi enviado para Accredible';
+$string['groupselect'] = 'Grupo';
 $string['id'] = 'ID';
 $string['indexheader'] = 'Todos os certificados para  {$a}';
 $string['modulename'] = 'Certificado Accredible';
@@ -48,6 +49,7 @@ $string['modulename_help'] = 'O módulo de atividade certificados Accredible lhe
 Adicionar a atividade onde você queira que os alunos vejam o seu certificado.';
 $string['modulenameplural'] = 'Certificados Accredible';
 $string['nocertificates'] = 'Não há certificados';
+$string['overview'] = 'Visão geral';
 $string['passinggrade'] = 'Nota percentual necessário para passar no curso (%)';
 $string['pluginadministration'] = 'Administração de certificados Accredible';
 $string['pluginname'] = 'Certificados Accredible';
