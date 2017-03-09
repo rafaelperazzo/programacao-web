@@ -34,7 +34,6 @@ $string['enabled'] = 'PoodLL online';
 $string['no'] = 'não';
 $string['nosubmission'] = 'Nada foi enviado para esta tarefa';
 $string['onlinepoodll'] = 'PoodLL online';
-$string['placeholderonly'] = 'Nenhum player vídeo';
 $string['replymp3voice'] = 'Gravador de Voz MP3';
 $string['replyvideo'] = 'Gravador de vídeo';
 $string['replyvoice'] = 'Gravador de Voz (Red5)';

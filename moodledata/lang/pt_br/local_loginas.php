@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'local_loginas', language 'pt_br', branch 'MOODLE_29_STABLE'
+ * Strings for component 'local_loginas', language 'pt_br', branch 'MOODLE_31_STABLE'
  *
  * @package   local_loginas
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}

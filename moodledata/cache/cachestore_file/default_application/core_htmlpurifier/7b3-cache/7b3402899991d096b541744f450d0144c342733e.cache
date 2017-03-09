@@ -1,0 +1,13 @@
+s:1521:"<p><span style="font-size:small;">O cálculo numérico corresponde a um conjunto de ferramentas ou métodos usados para se obter a solução de problemas matemáticos de forma aproximada. Esses métodos se aplicam principalmente a problemas que não apresentam uma solução exata (ou são inviáveis de se calcular de forma exata), portanto precisam ser resolvidos numéricamente.</span></p>
+<p></p>
+<p><span style="font-size:small;"><strong>Pré-requisitos desejáveis</strong> </span></p>
+<p><span style="font-size:small;">- Saber <strong>programar</strong> em alguma linguagem de programação (C++/<strong>Python</strong>/Scilab/Java, por exemplo);</span></p>
+<p><span style="font-size:small;">- Utilização de <strong>calculadora</strong> científica;</span></p>
+<p><span style="font-size:small;">- <strong>Noções</strong> básicas de <strong>cálculo fundamental</strong>: Funções, gráficos, polinômios, derivadas, integrais. </span></p>
+<p></p>
+<p><strong><span style="font-size:small;">Por que WEB ?</span></strong></p>
+<p><span style="font-size:small;">A disciplina será ministrada de contando com um percentual de aulas a distância, com utilização de tecnologias da informação e comunicação.  As provas serão ministradas obrigatoriamente de forma presencial em laboratório de computação. </span></p>
+<p></p>
+<p><strong>EMENTA</strong></p>
+<p>Erros;  Zeros de Funções;  Resolução de Sistemas Lineares;  Interpolação; Ajuste de Curvas; Integração Numérica;</p>
+<p></p>";

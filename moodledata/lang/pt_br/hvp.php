@@ -98,7 +98,6 @@ $string['invalidmainjson'] = 'O principal arquivo h5p.json válido não foi enco
 $string['invalidmultiselectoption'] = 'Opção selecionada inválida no multi-select.';
 $string['invalidparameters'] = 'Parâmetros inválidos';
 $string['invalidselectoption'] = 'Opção selecionada inválida no select.';
-$string['invalidsemantics'] = 'A Biblioteca utilizada no conteúdo não está de acordo com a semântica';
 $string['invalidsemanticsjson'] = 'Arquivo semantics.json inválido foi incluído na biblioteca {$a->%name}';
 $string['invalidsemanticstype'] = 'H5P Erro interno: tipo de conteúdo desconhecido "{$a->@type}" na semântica. Remoção de conteúdo!';
 $string['invalidstring'] = 'Cadeia de caracteres fornecida não está de acordo com a semântica solicitada pela expressão regular. (valor: "{$a->%value}", expressão regular: "{$a->%regexp}")';

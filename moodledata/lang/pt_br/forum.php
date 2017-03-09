@@ -344,10 +344,10 @@ $string['mustprovidediscussionorpost'] = 'Você deve propiciar uma identificaç�
 $string['myprofileotherdis'] = 'Discussões do fórum';
 $string['myprofileowndis'] = 'Minhas discussões do fórum';
 $string['myprofileownpost'] = 'Meus posts no fórum';
-$string['namenews'] = 'Fórum de notícias';
-$string['namenews_help'] = '<p>O fórum de notícias é um fórum especial que é automaticamente criado para cada curso e para a página principal do site e é um espaço para anúncios gerais. Só é possível ter um único fórum de notícias por curso.</p>
+$string['namenews'] = 'Avisos';
+$string['namenews_help'] = '<p>O fórum de avisos é um fórum especial que é automaticamente criado para cada curso e para a página principal do site e é um espaço para avisos gerais. Só é possível ter um único fórum de avisos por curso.</p>
 
-<p>O bloco "Últimas Notícias" mostra as discussões mais recentes deste fórum especial (mesmo que se mude o nome dele). Por esta razão o fórum será recriado automaticamente pelo Moodle se o bloco Últimas Notícias está sendo usado.</p>';
+<p>O bloco "Últimos Avisos" mostra os avisos mais recentes deste fórum especial (mesmo que se mude o nome dele). Por esta razão o fórum será recriado automaticamente pelo Moodle se o bloco Últimas Notícias está sendo usado.</p>';
 $string['namesocial'] = 'Fórum social';
 $string['nameteacher'] = 'Fórum dos professores';
 $string['newforumposts'] = 'Novas mensagens no fórum';

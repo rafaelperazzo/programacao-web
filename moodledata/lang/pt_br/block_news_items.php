@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['news_items:addinstance'] = 'Adicionar novo bloco de notícias recentes';
-$string['news_items:myaddinstance'] = 'Adicione um novo bloco de últimas notícias ao Painel';
-$string['pluginname'] = 'Últimas notícias';
+$string['news_items:addinstance'] = 'Adicionar novo bloco de avisos recentes';
+$string['news_items:myaddinstance'] = 'Adicione um novo bloco de últimos avisos ao Painel';
+$string['pluginname'] = 'Últimos avisos';

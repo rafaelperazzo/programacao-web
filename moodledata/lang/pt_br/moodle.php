@@ -1604,12 +1604,11 @@ $string['searchagain'] = 'Buscar novamente';
 $string['searchbyemail'] = 'Buscar pelo endereço de email';
 $string['searchbyusername'] = 'Buscar por identificação de usuário';
 $string['searchcourses'] = 'Buscar cursos';
-$string['searchhelp'] = '<p>Você pode buscar pode múltiplas palavras de uma vez e pode refinar sua busca da seguinte maneira:</p>
+$string['searchhelp'] = '<p>Você pode pesquisar por várias palavras ao mesmo tempo e pode refinar sua busca da seguinte forma:</p>
 <ul>
-<li>palavra - encontra qualquer ocorrência desta palavra no texto.</li>
-<li>+palavra - apenas ocorrências idênticas da palavra serão encontradas.</li>
-<li>-palavra - não incluir resultados contendo esta palavra.</li>
-</ul>';
+<li>palavra - encontra qualquer ocorrência dessa palavra no texto</li>
+<li>+palavra - apenas palavras correspondentes idênticas serão encontradas.</li>
+<li>-palavra - não inclui resultados que contenham essa palavra.</li> </ul>';
 $string['search_help'] = 'Para a busca básica por uma ou mais palavras em qualquer parte do texto, simplesmente digite-as separadas por espaços. Todas as palavras com mais de dois caracteres serão usadas.
 
 Para busca avançada, pressione o botão de busca sem digitar nada na caixa de busca para acessar o formulário de busca avançada.';

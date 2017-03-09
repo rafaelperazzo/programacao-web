@@ -28,6 +28,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['condition'] = 'condição';
 $string['description'] = 'Requer um objeto do esconderijo do usuário para ganhar acesso.';
 $string['exactly'] = 'exatamente';
+$string['lessthan'] = 'menos que';
+$string['morethan'] = 'mais que';
 $string['object'] = 'objeto';
 $string['objectnnotrequiredtogetaccess'] = 'Não existe {$a->condition} {$a->quantity}x \'{$a->object}\' no seu esconderijo.';
 $string['objectnrequiredtogetaccess'] = 'Existe {$a->condition} {$a->quantity}x \'{$a->object}\' no seu esconderijo.';

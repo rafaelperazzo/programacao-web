@@ -25,4 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['currentusers'] = 'Usuários atuais';
+$string['currentusersmatching'] = 'Usuários atuais correspondentes';
+$string['delcohort'] = 'Excluir cohort';
+$string['description'] = 'Descrição';
+$string['name'] = 'Nome';
+$string['nocomponent'] = 'Criado manualmente';
+$string['potusers'] = 'Usuários potenciais';
+$string['search'] = 'Pesquisar';
 $string['status'] = 'Ativo';

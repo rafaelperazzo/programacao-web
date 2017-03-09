@@ -45,7 +45,7 @@ $string['cannotaddthisblocktype'] = 'Você não pode adicionar um bloco {$a} nes
 $string['cannotassignrole'] = 'Impossível designar papéis no curso';
 $string['cannotassignrolehere'] = 'Você não tem permissão para atribuir este papel (id = {$a->roleid}) neste contexto ({$a->context}).';
 $string['cannotassignselfasparent'] = 'Não pode se autodesignar como pai!';
-$string['cannotcallscript'] = 'Este "script" não pode invocado desta forma';
+$string['cannotcallscript'] = 'Você não pode executar esse "script" dessa forma';
 $string['cannotcallusgetselecteduser'] = 'user_selector::get_selected_user não pode ser chamado se multi select for verdadeiro.';
 $string['cannotcreatebackupdir'] = 'Não foi possível criar a pasta backupdata. O admnistrador da plataforma tem que mudar as permissões de arquivos.';
 $string['cannotcreatecategory'] = 'A categoria não foi inserida';
