@@ -62,7 +62,6 @@ $string['mod_form_block_schedule'] = 'Agendar para sessões';
 $string['mod_form_field_duration'] = 'Duração';
 $string['mod_form_field_duration_help'] = 'Definir a duração para uma reunião irá estabelecer o tempo máximo de reunião para finalizar a gravação';
 $string['mod_form_field_name'] = 'Nome de sala de aula virtual';
-$string['mod_form_field_newwindow'] = 'Abrir BigBlueButton em uma nova janela';
 $string['mod_form_field_participant_add'] = 'Adicionar participante';
 $string['mod_form_field_participant_bbb_role_moderator'] = 'Mediador';
 $string['mod_form_field_participant_bbb_role_viewer'] = 'Visualizador';

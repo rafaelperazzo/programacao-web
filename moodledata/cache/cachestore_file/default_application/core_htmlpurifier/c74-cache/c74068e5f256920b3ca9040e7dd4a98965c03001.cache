@@ -1,0 +1,10 @@
+s:2199:"<p>A disciplina “Cálculo Numérico” é destinada aos alunos das Engenharias e tem por objetivo familiarizar o estudante de engenharia com métodos numéricos básicos e aplicações. O programa engloba o cálculo de raı́zes de equações não lineares, solução de sistemas lineares, aproximação e interpolação de funções e métodos de integração numérica. É parte integrante do aprendizado, além das aulas teóricas,<br />a implementação de programas em computador (exercı́cios programa). Através dos exercı́cios programa o aluno terá a oportunidade de se familiarizar com os algorı́tmos, de aprender a analisar resultados numéricos, bem como entrará em contato com algumas aplicações. Nesta disciplina o aluno utilizará métodos e conceitos de Cálculo e Álgebra Linear, além de praticar a programação aprendida em Programação Computacional para Engenharia. Por ainda fornecer ferramentas necessárias a muitas aplicações, esta disciplina oferece a oportunidade de relacionar conceitos aprendidos em matérias diversas (que não formam compartimentos estanques de conhecimento). Faça bom uso das listas de exercı́cios que você receberá e também dos programas computacionais que você irá desenvolver. Este aprendizado lhe será útil independentemente das opções que você venha a seguir nos próximos anos. Aproveite o curso e divirta-se! Quando precisarem, me procurem para tirar as dúvidas!!</p>
+<p></p>
+<p><span style="font-size:small;"><strong>Pré-requisitos desejáveis</strong> </span></p>
+<p><span style="font-size:small;">- Saber <strong>programar</strong> em alguma linguagem de programação (C++/<strong>Python</strong>/Scilab/Java, por exemplo);</span></p>
+<p><span style="font-size:small;">- Utilização de <strong>calculadora</strong> científica;</span></p>
+<p><span style="font-size:small;">- <strong>Noções</strong> básicas de <strong>cálculo fundamental</strong>: Funções, gráficos, polinômios, derivadas, integrais. </span></p>
+<p></p>
+<p><strong>EMENTA</strong></p>
+<p>Erros;  Zeros de Funções;  Resolução de Sistemas Lineares;  Interpolação; Ajuste de Curvas; Integração Numérica;</p>
+<p></p>";

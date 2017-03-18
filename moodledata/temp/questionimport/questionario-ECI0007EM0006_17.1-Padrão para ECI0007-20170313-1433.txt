@@ -1,0 +1,1039 @@
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 285  name: Chamada de Função
+
+
+// question: 288  name: Definição de função
+
+
+// question: 283  name: Execução 1
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/06 - Listas - Teórico
+$CATEGORY: $course$/Padrão para ECI0007/06 - Listas - Teórico
+
+
+// question: 266  name: Lista Básico 5
+
+
+// question: 265  name: Lista Teórico 4
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+$CATEGORY: $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+
+
+// question: 300  name: Matrizes 7
+
+
+// question: 301  name: Matrizes 8
+
+
+// question: 302  name: Matrizes 9
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/05 - Rastreamento - Repetição simples
+$CATEGORY: $course$/Padrão para ECI0007/05 - Rastreamento - Repetição simples
+
+
+// question: 252  name: Rastreamento 4
+
+
+// question: 253  name: Rastreamento 5
+
+
+// question: 256  name: Rastreamento 6
+
+
+// question: 259  name: Rastreamento 8
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 281  name: Retorno 1
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 202  name: Abastecer com álcool ou gasolina.
+::Abastecer com álcool ou gasolina.::[html]<p>Crie um programa que receba o preço da gasolina, do álcool e suas respectivas autonomias para um mesmo carro. Mostre o combustível mais vantajoso, no caso de empate opte por gasolina.</p>\n<p>Ex\:</p>\n<p>Preço gasolina\: 5</p>\n<p>autonomia gasolina\: 8</p>\n<p>preço álcool\: 3</p>\n<p>autonomia álcool\: 5</p>\n<p> </p>\n<p>Abasteça com gasolina.</p>\n<p> </p>{}
+
+
+// question: 203  name: Aviões de papel
+::Aviões de papel::[html]<p>Uma competição de construção de aviões será feita em uma escola.</p>\n<p>Escreva um programa que receba a quantidade de competidores, a quantidade de folhas compradas, a quantidade que cada participante deve receber e mostre se a brincadeira é possível ser feita.</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 175  name: Bingo
+::Bingo::[html]Dada uma matriz A (quadrada), correspondente a uma cartela de bingo, e uma lista b (com n*n+10 elementos) com os números sorteados, escrever uma função em Python que verifique se os números da cartela (matriz A) estão todos presentes na lista de números sorteados b. <br><br><p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 198  name: Boliche
+::Boliche::[html]<p>Crie um programa que leia o diâmetro de uma bola de boliche e as três dimensões de uma caixa. Crie um programa que imprima uma linha, contendo a letra ‘S’ caso a bola de boliche caiba dentro da caixa ou ‘N’ caso contrário.</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Listas
+$CATEGORY: $course$/Padrão para ECI0007/11 - Listas
+
+
+// question: 160  name: Circulos
+::Circulos::[html]<p><p>Faça um programa para resolver o seguinte problema\:\n<br>São dadas as coordenadas reais <i>x</i> e <i>y</i> de um ponto,\num número natural <i>n</i>, e as coordenadas reais de <i>n</i> pontos\n(<i>1 <u>&lt;</u> n <u>&lt;</u> 100</i>).\nDeseja-se calcular e imprimir sem repetição os raios\ndas circunferências centradas no ponto (<i>x</i>,<i>y</i>) que passam\npor pelo menos um dos <i>n</i> pontos dados.\n</p><blockquote>Exemplo \: (<i>x</i>,<i>y</i>) \= (1.0, 1.0) ; <i>n</i> \= 5</blockquote>\n\n<blockquote>pontos \: (-1.0, 1.2) , (1.5, 2.0) , (0.0, -2.0) , (0.0, 0.5)\n, (4.0, 2.0)</blockquote>\n\n<blockquote>Nesse caso há três circunferências de raios\:\n1.12,&nbsp; 2.01 e 3.162.</blockquote>\n\n<dir>\n<blockquote>Observações\:</blockquote>\n</dir>\n\n<ul>\n<ul>\n<blockquote>\n<li>\nDistância entre os pontos (<i>a</i>,<i>b</i>) e (<i>c</i>,<i>d</i>)\né&nbsp;<img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image56.gif" nosave\="" height\="30" width\="130"></li>\n</blockquote>\n\n<blockquote>\n<li>\nDois pontos estão na mesma circunferência se estão\nà mesma distância do centro.</li>\n</blockquote>\n</ul>\n</ul><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 194  name: Cobra coral
+::Cobra coral::[html]<p>Crie um programa que determine se uma cobra coral é verdadeira ou falsa, recebendo 4 números de 1 a 9, sendo que cada número representa uma cor e que você não precisa saber que número representa uma dada cor.</p>\n<p>Informações\:</p>\n<p>A cobra coral verdadeira tem a seguinte configuração de cores\: BVBPBVBPBVBP.</p>\n<p>A cobra coral falsa tem a seguinte configuração\: BVPBVPBVPBVP.</p>\n<p>Sendo, B\= Branco, V\= Vermelho, P\= Preto.</p>\n<p>Exemplo\: Sabemos que uma cobra com a configuração 5193 é com certeza uma coral verdadeira.</p>\n<p> </p>{}
+
+
+// question: 201  name: Competição
+::Competição::[html]<p>Crie um programa que receba o número de competidores de uma certa olimpíada e sua respectiva pontuação mínima, mostre quantos alunos passaram.</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Repetição
+$CATEGORY: $course$/Padrão para ECI0007/11 - Repetição
+
+
+// question: 179  name: Dígitos
+::Dígitos::[html]<p><p>(a) Escreva uma função que recebe um número inteiro <i>n</i>&gt;0 e \n    devolve o número de dígitos de <i>n</i> e o primeiro dígito de <i>n</i>.\n</p><p> (b) Escreva um programa que leia uma seqüência de <i>n</i> inteiros positivos \n    e imprime o número de dígitos e o primeiro dígito de cada um deles. \n</p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 200  name: Dívida
+::Dívida::[html]<p>Escreva um programa que receba uma dívida, os juros e uma quantia que será paga mensalmente. Mostre quanto falta para cessar a dívida.</p>\n<p>Exemplo\:</p>\n<p>Dívida\: 100</p>\n<p>Juros\: 10<br />Valor pago mensalmente\: 30</p>\n<p> </p>\n<p>80.0<br />58.0<br />33.8<br />7.18</p>\n<p>80.0-&gt;Primeiro mês<br />58.0-&gt;Segundo mês<br />33.8-&gt;Terceiro mês<br />(7.18)-&gt;Valor restante</p>{}
+
+
+// question: 196  name: Divisores
+::Divisores::[html]<p>Escreva um programa que mostre quantos divisores tem um certo número (N) inteiro digitado pelo usuário.</p>\n<p>N deve ser menor ou igual a 10.000.</p>\n<p>Exemplo\:</p>\n<p>O número 12 tem 6 divisores\: 1, 2, 3, 4, 6, 12.</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Repetição
+$CATEGORY: $course$/Padrão para ECI0007/11 - Repetição
+
+
+// question: 180  name: Equação 2o Grau
+::Equação 2o Grau::[html]<p>Dados números reais <i>a</i>, <i>b</i> e <i>c</i>, calcular\nas raízes de uma equação do <i>2</i><sup>o </sup>grau\nda forma <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i> \= 0. Imprimir a solução\nem uma das seguintes formas\:\n</p><pre><b><tt>&nbsp;a.DUPLA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.REAIS DISTINTAS&nbsp;&nbsp;&nbsp;&nbsp; c.COMPLEXAS&nbsp;\n\n&nbsp;&nbsp; raiz&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; raiz 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parte real&nbsp;\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; raiz 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; parte imaginária</tt></b></pre><p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 170  name: Estradas - Entrada e Saída
+::Estradas - Entrada e Saída::[html]<p><p>Considere <i>n</i> cidades numeradas de 0 a <i>n</i>-1 que estão\ninterligadas por uma série de estradas de mão única.\nAs ligações entre as cidades são representadas pelos\nelementos de uma matriz quadrada&nbsp; <i>L<sub>nxn</sub></i>, cujos elementos\n<i>l<sub>ij</sub></i>\nassumem o valor 1 ou 0, conforme exista ou não estrada direta que\nsaia da cidade <i>i</i> e chegue à cidade <i>j</i>. Assim, os elementos\nda linha <i>i</i> indicam as estradas que saem da cidade\n<i>i</i>, e os\nelementos da coluna <i>j</i> indicam as estradas que chegam à cidade\n<i>j</i>.\n</p><p>Por convenção <i>l<sub>ii</sub></i> \= 1. A figura mostra\num exemplo para <i>n</i> \= 4.\n<br>&nbsp;\n</p><blockquote>&nbsp;\n<br>&nbsp;\n<table cols\="2" nosave\="" width\="100%">\n<tbody><tr nosave\="">\n<td nosave\=""><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image615d.gif" nosave\="" height\="96" width\="118"></td>\n\n<td><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image615e.gif" nosave\="" height\="119" width\="271"></td>\n</tr>\n</tbody></table>\n</blockquote>\n\n<p><br>(a) Dado <i>k</i>, determinar quantas estradas saem e quantas chegam\nà cidade <i>k</i>.\n</p><p>(b) A qual das cidades chega o maior número de estradas?\n</p><p>(c) Dado <i>k</i>, verificar se todas as ligações diretas\nentre a cidade <i>k</i> e outras são de mão dupla.\n</p><p>(d) Relacionar as cidades que possuem saídas diretas para a cidade\n<i>k</i>.\n</p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 197  name: Garçom
+::Garçom::[html]<p>Um dono de restaurante percebeu que garçons em treinamento deixam cair bandejas somente se elas contêm mais latas do que copos.</p>\n<p>Crie um programa que ajude a contar quantas bandejas o garçom tentou entregar e mostre quantos copos foram quebrados.</p>{}
+
+
+// question: 195  name: Impedimento
+::Impedimento::[html]<p>Crie um programa que determine se existe impedimento em uma jogada no futebol, Admita que o campo tem 100m de comprimento.</p>\n<p>Impedimento\:</p>\n<p>Supondo que existem apenas 3 jogadores, o que lança a bola (L), o que recebe (R) e o penúltimo jogador de defesa (D), uma jogada em impedimento caracteriza-se quando o jogador L passa a bola para R, sendo que R está mais a frente de D.</p>\n<p> Não existe impedimento nessa jogada, dada a condição\:</p>\n<p>(R &gt; 50) e (L &lt; R) e (R &gt; D)</p>\n<p><img src\="@@PLUGINFILE@@/%C3%91%20impedido.png" alt\="" width\="294" height\="171" /></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 176  name: Jogo da velha
+::Jogo da velha::[html]<p>Escreva uma função em Python que receba uma Matriz (n por n), correspondendo a um jogo da velha finalizado, e retorne o resultado do jogo\: 0 ganhou, 1 ganhou ou empate. Lembre-se que a função deve retornar o resultado para qualquer tamanho de matriz. <br></p><p><br></p><p>Exemplo\:</p><p><br></p><p>1 1 1 1 1</p><p>1 0 1 0 1</p><p>0 1 0 1 0</p><p>0 1 0 1 1</p><p>0 0 1 1 0</p><p>O jogador 1 ganhou. <br></p><p><p>1 0 1 1 1</p><p>1 0 1 0 1</p><p>0 0 0 1 0</p><p>0 0 0 1 1</p><p>0 0 1 1 0</p>O jogador zero ganhou!</p><p><br></p><p><p>1 0 1 1 1</p><p>1 0 1 0 1</p><p>0 1 0 1 0</p><p>0 1 0 1 1</p><p>0 0 1 1 0</p>Empate!!</p><p><br></p><p><br></p>{}
+
+
+// question: 174  name: Jogo parecido com bingo
+::Jogo parecido com bingo::[html]Suponha que uma matriz quadrada de ordem n representa uma cartela de um jogo. Agora suponha que uma lista (de tamanho n) representa os números sorteados. Escreva uma função em Python que receba uma matriz correspondente a uma cartela do jogo, e uma lista correspondendo aos números sorteados e retorne se a cartela bateu ou não o jogo. Considera-se uma cartela batida quando a lista de números sorteados aparece em uma linha ou uma coluna da matriz, não importando a ordem dos números sorteados. <br><br>Exemplo\:<br><br>Seja a cartela\: <br><br>1 2 3<br>10 24 18<br>15 20 4<br><p><br></p><p>E o sorteio\: [10 18 24]</p><p><br></p><p>A cartela do jogador venceu, pois os números 10,18 e 24 aparecem na segunda linha da cartela, mesmo que fora da ordem. <br></p><p><br></p><p>Exemplo\:</p><p>Seja a cartela\:</p><p>1 2 3</p><p>10 15 4</p><p>20 18 24</p><p>E o sorteio\: [10,18,24]</p><p>A cartela do jogador não venceu, pois os números sorteados não aparecem em uma linha ou coluna da cartela. <br></p><p><br></p>{}
+
+
+// question: 166  name: Linha e Colunas Nulas
+::Linha e Colunas Nulas::[html]<p><p>Dada uma matriz&nbsp; <i>A<sub>mxn</sub></i>, imprimir o número\nde linhas e o número de colunas nulas da matriz.\n</p><blockquote>Exemplo\: <i>m</i> \= 4 e <i>n</i> \= 4\n<center>\n<p><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image66.gif" nosave\="" height\="96" width\="96"></p></center>\n</blockquote>\n\n<blockquote>tem 2 linhas nulas e 1 coluna nula.</blockquote><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Listas
+$CATEGORY: $course$/Padrão para ECI0007/11 - Listas
+
+
+// question: 162  name: Listas ordenadas
+::Listas ordenadas::[html]<p><p>Dados dois números naturais <i>m</i> e <i>n</i> e duas seqüências\nordenadas com <i>m</i> e <i>n</i> números inteiros, obter uma única\nseqüência ordenada contendo todos os elementos das seqüências\noriginais sem repetição.\n</p><blockquote>Sugestão\: Imagine uma situação real, por\nexemplo, dois fichários de uma biblioteca.</blockquote><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 169  name: Matriz de custos de itinerário
+::Matriz de custos de itinerário::[html]<p><p> (POLI 94) Os elementos <i>a<sub>ij</sub></i> de uma matriz inteira\n<i>A<sub>nxn\n</sub></i>representam\nos custos de transporte da cidade <i>i</i> para a cidade <i>j</i>. Dados\n<i>n</i>\nitinerários, cada um com\n<i>k</i> cidades, calcular o custo total\npara cada itinerário.\n</p><blockquote>Exemplo\:\n<center>\n<p><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image614b.gif" nosave\="" height\="96" width\="161"></p></center>\n</blockquote>\n\n<blockquote>O custo do itinerário 0 3 1 3 3 2 1 0 é</blockquote>\n\n<blockquote align\="CENTER"><i>a</i><sub>03</sub> + <i>a</i><sub>31</sub>\n+ <i>a</i><sub>13</sub> + <i>a</i><sub>33</sub> + <i>a</i><sub>32</sub>\n+ <i>a</i><sub>21</sub> + <i>a</i><sub>10</sub> \= 3 + 1 + 400 + 5 + 2 +\n1 + 5 \= 417</blockquote><br></p>{}
+
+
+// question: 168  name: Matriz de permutação
+::Matriz de permutação::[html]<p><p>Dizemos que uma matriz inteira <i>A<sub>nxn</sub></i>&nbsp; é\numa <i>matriz de permutação</i> se em cada linha e em cada\ncoluna houver <i>n</i>-1 elementos nulos e um único elemento igual\na 1.\n</p><blockquote>Exemplo\:\n<br>A matriz abaixo é de permutação\:</blockquote>\n\n<blockquote>\n<center><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image65b.gif" nosave\="" height\="96" width\="96"></center>\n</blockquote>\n\n<blockquote>Observe que</blockquote>\n\n<blockquote>\n<center><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image65c.gif" nosave\="" height\="74" width\="91"></center>\n</blockquote>\n\n<blockquote>não é de permutação.</blockquote>\nDada uma matriz inteira <i>A<sub>nxn</sub></i>, verificar se <i>A</i> é\nde permutação.<br></p>{}
+
+
+// question: 167  name: Matriz Origem/Destino
+::Matriz Origem/Destino::[html]Dada uma matriz A, quadrada, calcular\:<br><br>- Uma lista "a" formada pelos somatórios das colunas de A;<br>- Uma lista "o" formada pelos somatórios das linhas de A;<br>- Uma matriz T, calculada pela fórmula\:<br><br>$$T_\{i,j\}\=o_i\\times \\dfrac\{a_j \\times \\frac\{1\}\{d_\{i,j\}^\\alpha\}\}\{\\sum\\limits_\{k\=0\}^\{n-1\}a_k\\frac\{1\}\{d_\{i,k\}\}\} $$<br><p><br></p><p>Exemplo\:</p><p>Dada a matriz <br></p><p>A\= <br></p><p>0,10,15,12</p><p>13,0,23,14</p><p>31,43,0,11</p><p>19,32,18,0</p><p>Temos</p><p>a \= [63,85,56,37]</p><p>o\=[37,50,85,69]</p><p>$$\\alpha$$ é um dado de entrada. Considerando $$\\alpha\=1$$, temos a matriz T\:</p><p>0,15.98,15.80,5.22</p><p>23.78,0,16.91,9.31</p><p>37.58,25.35,0,22.07</p><p>27.86,22.56,18.58,0</p><p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Repetição
+$CATEGORY: $course$/Padrão para ECI0007/11 - Repetição
+
+
+// question: 178  name: MDC
+::MDC::[html]<p><p>(a) Escreva uma função que recebe como parâmetros dois números\n<i>a</i> e <i>b</i> e devolve o <i>mdc</i> (máximo divisor comum) \nde <i>a</i> e <i>b</i>, calculado por meio do algoritmo de Euclides.\n</p><p> (b) Escreva um programa que leia um inteiro positivo <i>n</i> e \numa seqüência de <i>n</i> inteiros não-negativos e imprime o <i>mdc</i> \nde todos os pares de números da seqüência. \n</p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 193  name: Móbile
+::Móbile::[html]<p>Crie um programa que verifique se um Móbile (típico brinquedo em berços) está em equilíbrio, satisfazendo as seguintes condições\:</p>\n<p>1° A\=B+C+D</p>\n<p>2° B+C\=D</p>\n<p>3° B\=C</p>\n<p>Caso o programa satisfaça as 3 condições imprima "S", ao contrário imprima "N".</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Repetição
+$CATEGORY: $course$/Padrão para ECI0007/11 - Repetição
+
+
+// question: 182  name: Moedas
+::Moedas::[html]<p>Sejam a,b,c três inteiros, todos maiores do que zero. Suponha que a,b sejam valores de moedas disponíveis e c é o valor de uma cédula. Escreva um programa em Python que verifique se é possível trocar uma cédula de valor c por um punhado de moedas de valores a$ e b. Imprimir uma forma de realizar a troca ou informar que a troca não é possível. Considere a,b,c inteiros. <br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 171  name: n-Triangular inferior
+::n-Triangular inferior::[html]Uma matriz é dita n-triangular inferior se <b>todos</b> os elementos abaixo da diagonal principal são iguais a n. <br>Escreva um programa em Python que receba uma matriz quadrada n por n e informe se a mesma é ou não n-triangular. Utilize funções. <br><p><br></p>{}
+
+
+// question: 172  name: n-triangular superior
+::n-triangular superior::[html]<p>Uma matriz é dita n-triangular superior se <b>todos</b> os elementos acima da diagonal principal são iguais a n. <br>Escreva\n um programa em Python que receba uma matriz quadrada n por n e informe \nse a mesma é ou não n-triangular superior. Utilize funções.<br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Listas
+$CATEGORY: $course$/Padrão para ECI0007/11 - Listas
+
+
+// question: 161  name: Ocorrências em uma lista
+::Ocorrências em uma lista::[html]<p><p>(MAT 88) Dada uma seqüência de <i>n</i> números reais,\ndeterminar os números que compõem a seqüência\ne o número de vezes que cada um deles ocorre na mesma.\n</p><blockquote>Exemplo\: <i>n</i> \= 8</blockquote>\n\n<blockquote>Seqüência\: -1.7,&nbsp; 3.0,&nbsp; 0.0,&nbsp; 1.5,&nbsp;\n0.0, -1.7,&nbsp; 2.3, -1,7</blockquote>\n\n<blockquote>Saída\:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -1.7 ocorre\n3 vezes\n<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n3.0 ocorre 1 vez\n<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n0.0 ocorre 2 vezes\n<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n1.5 ocorre 1 vez\n<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n2.3 ocorre 1 vez</blockquote><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Repetição
+$CATEGORY: $course$/Padrão para ECI0007/11 - Repetição
+
+
+// question: 177  name: Permutação
+::Permutação::[html]<p><p>Um número <i>a</i> é dito <i>permutação</i>\nde um número <i>b</i> se os dígitos de <i>a</i> formam uma\npermutação dos dígitos de <i>b</i>.\n</p><p>Exemplo\:&nbsp;&nbsp; 5412434 é uma permutação de\n4321445, mas não é uma permutação de 4312455.\n</p><p>Obs.\: Considere que o dígito 0 (zero) não aparece nos\nnúmeros.\n</p><p>(a) Faça uma função <i>contadígitos</i>\nque dados um inteiro <i>n</i> e um inteiro <i>d</i>, <i> 0 &lt; d\n<u>&lt;</u> 9</i>, devolve quantas vezes o dígito <i>d</i> aparece em <i>n</i>.\n</p><p>(b) Usando a função do item anterior, faça um programa\nque lê dois inteiros positivos <i>a</i> e <i>b</i> e responda se <i>a</i>\né permutação de <i>b</i>.\n</p><br></p>{}
+
+
+// question: 181  name: População
+::População::[html]<p>Dadas as populações de Uauá (BA) e Nova York\n(PI) <a href\="http\://www.ime.usp.br/%7Emacmulti/exercicios/reais/index.html\#Nota%202">(2)</a> e sabendo que a população\nde Uauá tem um crescimento anual de <i>x</i> e a população\nde Nova York<a href\="http\://www.ime.usp.br/%7Emacmulti/exercicios/reais/index.html\#Nota%203"> (3)</a> tem um crescimento\nanual de <i>y</i> determine\:\n</p><ul>\n<li>\nSe a população da cidade menor ultrapassa a da maior.</li>\n\n<li>\nQuantos anos passarão antes que isso ocorra.</li>\n</ul><p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Listas
+$CATEGORY: $course$/Padrão para ECI0007/11 - Listas
+
+
+// question: 164  name: Primeira e segunda derivadas
+::Primeira e segunda derivadas::[html]Dado o polinômio &nbsp;\n<i>p(x)\=a<sub>0</sub>+a<sub>1</sub>x+...+a<sub>n</sub>x<sup>n</sup></i>,\nisto é, os valores de <i>n</i> e de\n&nbsp;\n<i>a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n</sub></i>\n&nbsp;,\ndetermine os coeficientes reais da primeira e segunda derivada de <i>p</i>(<i>x</i>).<p><br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Matrizes
+$CATEGORY: $course$/Padrão para ECI0007/11 - Matrizes
+
+
+// question: 173  name: Produto Matrizes
+::Produto Matrizes::[html]Dadas duas matrizes quadradas A,B, encontrar a matriz C resultante de A x B. Escreva um programa em Python que realize o produto de duas matrizes.<br><p><br></p>{}
+
+
+// question: 165  name: Quadrado Mágico
+::Quadrado Mágico::[html]<p><p>Dizemos que uma matriz quadrada inteira é um <i>quadrado\nmágico </i><a href\="http\://www.ime.usp.br/%7Emacmulti/exercicios/matrizes/index.html\#nota1">(1)</a> se a soma\ndos elementos de cada linha, a soma dos elementos de cada coluna e a soma\ndos elementos das diagonais principal e secundária são todas\niguais.\n</p><blockquote>Exemplo\: A matriz</blockquote>\n\n<blockquote>\n<center><img src\="http\://www.ime.usp.br/%7Emacmulti/figuras/Image67.gif" nosave\="" height\="74" width\="80"></center>\n</blockquote>\n\n<blockquote>é um quadrado mágico.</blockquote>\nDada uma matriz quadrada <i>A<sub>nxn</sub></i> , verificar se <i>A</i>\né um quadrado mágico.<br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Outros
+$CATEGORY: $course$/Padrão para ECI0007/11 - Outros
+
+
+// question: 183  name: Questao 1
+::Questao 1::[html]<p>Em estatística descritiva, o coeficiente de correlação de Pearson, também chamado de coeficiente de correlação "produto-momento" ou simplesmente de "$$\\rho$$ de Pearson" mede o grau da correlação (e a direção dessa correlação - se positiva ou negativa) entre duas variáveis de escala métrica (intervalar ou de rácio/razão). Este coeficiente, normalmente representado por $$\\rho$$ assume apenas valores entre -1 e 1. Calcula-se o coeficiente de correlação de Pearson $$\\rho$$ segundo a seguinte fórmula\:</p><p><br></p><p>$$\\rho \= \\dfrac\{\\displaystyle\\sum_\{i\=0\}^\{n-1\}(x_i-\\bar\{x\})(y_i-\\bar\{y\})\}\{\\sqrt\{\\displaystyle\\sum_\{i\=0\}^\{n-1\}(x_i-\\bar\{x\})^2 \\displaystyle\\sum_\{i\=0\}^\{n-1\}(y_i-\\bar\{y\})^2\}\}$$</p><p><br></p><p>Dados dois vetores com as notas de um turma, gostaríamos de verificar se há alguma correlação entre as notas de uma Lista de Exercícios e notas de prova. Em estatística, o coeficiente de correlação $$\\rho$$ pode ser utilizado para tal fim. Suponha que o primeiro vetor armazena as notas da Lista de Exercícios e o segundo vetor as notas de Provas. Escreva um programa em Python que leia um conjunto de notas de n alunos (para a prova e para a lista de exercícios) e calcule o coeficiente de pearson. Como saída o programa deve mostrar o resultado baseado nos valores de $$\\rho$$\: <br></p><p><br></p><p>- $$\\geq 0.9$$ indica uma correlação muito forte;</p><p>- $$[0.7,0.9[$$ indica uma correlação forte;<br>- $$[0.5,0.7[$$ indica uma correlação moderada;</p><p>- $$[0.3,0.5[$$ indica uma correlação fraca;</p><p>- $$[0, 0.3[$$ indica uma correlação desprezível.</p><p><br></p>{}
+
+
+// question: 184  name: Questão 2
+::Questão 2::[html]<p>Escreva um programa que leia do teclado um número inteiro $$n &gt; 0$$ e uma sequência de n números reais e imprima uma tabela mostrando os números que compõem a sequência e o número de vezes que cada um deles ocorre na mesma. Dica\: Comece criando uma segunda lista (b) com os elementos sem repetição. Depois para cada elemento desta segunda lista, conte o número de ocorrências na primeira lista, guardando estas ocorrências em uma terceira lista (c). Os pares $$b[i],c[i]$$ representam a solução do problema. <br>&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp; Exemplo para a entrada\:<br>&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp; $$[-1.7,&nbsp;&nbsp;&nbsp; 3.0,&nbsp;&nbsp;&nbsp; 0.0,&nbsp;&nbsp;&nbsp; 1.5,&nbsp;&nbsp;&nbsp; 0.0,&nbsp;&nbsp;&nbsp; -1.7,&nbsp;&nbsp;&nbsp; 2.3,&nbsp;&nbsp;&nbsp; -1.7]$$<br>&nbsp;&nbsp;&nbsp; a saída deve ser\:<br>&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp; -1.7 ocorre 3 vezes <br>&nbsp;&nbsp;&nbsp; 3.0 ocorre 1 vezes <br>&nbsp;&nbsp;&nbsp; 0.0 ocorre 2 vezes <br>&nbsp;&nbsp;&nbsp; 1.5 ocorre 1 vezes <br>&nbsp;&nbsp;&nbsp; 2.3 ocorre 1 vezes<br></p>{}
+
+
+// question: 185  name: Questão 3
+::Questão 3::[html]<p>Dados dois conjuntos com n e m números respectivamente, calcular (guardar em uma terceira lista) e imprimir os elementos que não são comuns a ambos os conjuntos. Posteriormente verificar se existem números consecutivos iguais na terceira lista calculada. <br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - olimpiadas
+$CATEGORY: $course$/Padrão para ECI0007/11 - olimpiadas
+
+
+// question: 199  name: Retângulos
+::Retângulos::[html]<p>Crie um programa que verifique se é possível quatro áreas (A1, A2, A3 e A4) serem divididas por duas retas perpendiculares, de forma que cada uma delas fiquem paralelas a dois lados do retângulo. Mostre S para sim e N para não.</p>\n<p>Exemplos\: 1, 2, 4 e 8 - S</p>\n<p>                  1, 2, 3, 4 - N</p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/11 - Listas
+$CATEGORY: $course$/Padrão para ECI0007/11 - Listas
+
+
+// question: 163  name: Valor de x no polinomio
+::Valor de x no polinomio::[html]<p>Calcule o valor do polinômio &nbsp;\n<i>p(x)\=a<sub>0</sub>+a<sub>1</sub>x+...+a<sub>n</sub>x<sup>n</sup></i>\nem <i>k</i> pontos distintos. São dados os valores de <i>n</i> (grau\ndo polinômio), de &nbsp;\n<i>a<sub>0</sub>, a<sub>1</sub>, ..., a<sub>n</sub></i>\n&nbsp;\n(coeficientes reais do polinômio), de <i>k</i> e dos\npontos&nbsp; <i>x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>k</sub></i>.<br></p>{}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/00 - Lógica
+$CATEGORY: $course$/Padrão para ECI0007/00 - Lógica
+
+
+// question: 186  name: Aniversário - Mesa
+::Aniversário - Mesa::[html]<div data-canvas-width\="639.6914421666668">Para comemorar o aniversário de Cláudio, ele e mais quatro amigos – Alberto, Beto,Dino e Eurico – foram almoçar juntos no restaurante da escola. As mesas são redondas e acomodam exatamente cinco pessoas. Cláudio e Dino sentam-se um ao lado do outro. Alberto e Beto não sentam-se um ao lado do outro. Os dois amigos sentados ao lado de Eurico são\:</div>{
+	=<p>Alberto e beto</p>
+	~<p>Claudio e Dino</p>
+	~<p>Dino e Beto</p>
+	~<p>Claudio e Alberto</p>
+	~<p>Alberto e Dino</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Codigo
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Codigo
+
+
+// question: 221  name: Basico 4
+::Basico 4::[html]<p>Seja o código abaixo\:</p>\n<p>a \= int(input('Digite o valor de a\: '))</p>\n<p>a \= a*10</p>\n<p>print (a)</p>\n<p> </p>\n<p>Supondo que o usuário entra com o valor 5.25 como entrada em a.</p>\n<p>Qual das seguintes opções representa o que será mostrado na tela ?</p>{
+	=<p>50</p>#<p>5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+	~<p>52.5</p>#<p>5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+	~<p>525</p>#<p>5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+	~<p>5</p>#<p>5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+	~<p>50.0</p>#<p>5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+	####<p>A entrada é convertida para inteiro, mesmo que o usuário entre com um valor real, pois o input está dentro da função int. Como o valor de a é inteiro, teremos na linha 2 a multiplicação deste valor por 10. Finalmente o valor inteiro de a multiplicado por 10 é mostrado na tela.</p>\n<p>Ex. Se 5.25 é a entrada, o valor 5 (parte inteira de 5.25) é armazenado em a. Posteriormente este valor 5 é multiplicado por 10 (50) e armazenado em a. Portanto a armazena 50. Finalmente o valor 50 (inteiro) é mostrado na tela.</p>
+}
+
+
+// question: 336  name: Basico 5
+::Basico 5::[html]<p>Seja o código abaixo\:</p>\n<p>a \= float(input('Digite o valor de a\: '))</p>\n<p>a \= a*10</p>\n<p>print (a)</p>\n<p> </p>\n<p>Supondo que o usuário entra com o valor 5.25 como entrada em a.</p>\n<p>Qual das seguintes opções representa o que será mostrado na tela ?</p>{
+	~<p>50</p>#<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+	=<p>52.5</p>#<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+	~<p>525</p>#<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+	~<p>5</p>#<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+	~<p>50.0</p>#<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+	####<p>5.25 é a entrada. Posteriormente este valor 5.25 é multiplicado por 10 (52.5) e armazenado em a. Portanto a armazena 52.5. Finalmente o valor 52.5 (real) é mostrado na tela.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 282  name: Chamada de função 1
+::Chamada de função 1::[html]<p>Sobre o comando abaixo, assinale a alternativa correta.</p>\n<p> </p>\n<p><span style\="font-family\: courier new,courier,monospace;">calcular(a,b)</span></p>\n<p> </p>\n<p>Suponha que a função "calcular" esteja previamente definida.</p>\n<p> </p>{
+	=<p>As variáveis a e b precisam estar previamente definidas antes de serem passadas como parâmetro para a função calcular.</p>#<p>Isso mesmo!!</p>
+	~<p>As variáveis a e b não podem ser passadas como parâmetros em hipótese alguma.</p>#<p>Só podemos passar como parâmetro(s), variáveis que foram previamente definidas, ou seja, variáveis que já existem.</p>
+	~<p>As variáveis a e b podem ser passadas apenas se não forem definidas previamente.</p>#<p>Só podemos passar como parâmetro(s), variáveis que foram previamente definidas, ou seja, variáveis que já existem.</p>
+	~<p>Apenas valores numéricos podem ser passados como parâmetro, nunca variáveis.</p>#<p>Só podemos passar como parâmetro(s), variáveis que foram previamente definidas, ou seja, variáveis que já existem.</p>
+	~<p>Nenhuma das demais alternativas.</p>#<p>Só podemos passar como parâmetro(s), variáveis que foram previamente definidas, ou seja, variáveis que já existem.</p>
+	####<p>Só podemos passar como parâmetro(s), variáveis que foram previamente definidas, ou seja, variáveis que já existem.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Saida
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Saida
+
+
+// question: 218  name: Comando de Saída 1
+::Comando de Saída 1::[html]<p>O que será mostrado na tela após a execução dos comandos abaixo\:</p>\n<p>a \= 5</p>\n<p>print('%.2f' % a)</p>{
+	~<p>5</p>
+	~<p>5.0</p>
+	=<p>5.00</p>
+	~<p>5.000</p>
+	~<p>Nenhum valor, pois o comando está errado.</p>
+	####<p>Será mostrado o valor armazenado na variável a (5) com duas casas decimais.</p>
+}
+
+
+// question: 331  name: Comando de Saída 2
+::Comando de Saída 2::[html]<p>O que será mostrado na tela após a execução dos comandos abaixo\:</p>\n<p>a \= 5.2</p>\n<p>print('%d' % a)</p>{
+	=<p>5</p>
+	~<p>5.0</p>
+	~<p>5.00</p>
+	~<p>5.000</p>
+	~<p>Nenhum valor, pois o comando está errado.</p>
+	####<p>Será mostrado o valor armazenado na variável a (5) como um inteiro, ou seja 5. </p>
+}
+
+
+// question: 340  name: Comando de Saída 3
+::Comando de Saída 3::[html]<p>O que será mostrado na tela após a execução dos comandos abaixo\:</p>\n<p>a \= 5.2</p>\n<p>print('a\=%.5f' % a)</p>{
+	~<p>5</p>
+	~<p>5.0</p>
+	~<p>5.00</p>
+	~<p>5.00000</p>#<p>Faltou o a\=</p>
+	=<p>a\=5.00000</p>
+	####<p>Será mostrado o valor armazenado na variável a (5) como um real com 5 casas decimais, ou seja a\=5.00000.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/00 - Lógica
+$CATEGORY: $course$/Padrão para ECI0007/00 - Lógica
+
+
+// question: 191  name: Desenvolvedores de Jogos
+::Desenvolvedores de Jogos::[html]<div data-canvas-width\="804.0006700000002">Cinco amigos\: Bia, Carla, Dino, Edu e Flora, resolveram desenvolver um novo jogo de computador. As</div>\n<div data-canvas-width\="804.0006700000002">tarefas foram divididas em\: Arte, Programação, Roteiro, Sons e Testes. Cada um vai ser responsável</div>\n<div data-canvas-width\="730.5642451666669">por uma única tarefa, mas algumas condições devem ser obedecidas na divisão das tarefas\:</div>\n<div data-canvas-width\="258.09112416666665">1. Edu não trabalha em Roteiro.</div>\n<div data-canvas-width\="364.25484900000004">2. Bia só trabalha em Programação ou Testes.</div>\n<div data-canvas-width\="781.2733783333333">3. Flora trabalha em qualquer tarefa, mas se Carla trabalhar em Arte, Flora vai trabalhar em</div>\n<div data-canvas-width\="110.92736516666666">Programação.</div>\n<div data-canvas-width\="468.47311766666667">4. Dino trabalha somente em Roteiro ou em Programação.</div>\n<div data-canvas-width\="468.47311766666667"> </div>\n<div data-canvas-width\="468.47311766666667">\n<div data-canvas-width\="473.7458493333332">Qual das opções abaixo é uma atribuição de tarefas válida?</div>\n</div>{
+	~<p>Arte\: Bia, Programação\: Edu, Roteiro\: Flora, Sons\: Dino, Testes\: Carla.</p>#<p>Viola regra 1</p>
+	=<p>Arte\: Flora, Programação\: Bia, Roteiro\: Dino, Sons\: Carla, Testes\: Edu.</p>#<p>Correta!</p>
+	~<p>Arte\: Carla, Programação\: Flora, Roteiro\: Bia, Sons\: Dino, Testes\: Edu</p>#<p>Viola regra 2</p>
+	~<p>Arte\: Carla, Programação\: Flora, Roteiro\: Dino, Sons\: Bia, Testes\: Edu</p>#<p>Viola regra 4</p>
+	~<p>Arte\: Carla, Programação\: Dino, Roteiro\: Bia, Sons\: Edu, Testes\: Flora</p>#<p>Viola regra 3</p>
+}
+
+
+// question: 192  name: Desenvolvedores de Jogos 2
+::Desenvolvedores de Jogos 2::[html]<div data-canvas-width\="804.0006700000002">Cinco amigos\: Bia, Carla, Dino, Edu e Flora, resolveram desenvolver um novo jogo de computador. As</div>\n<div data-canvas-width\="804.0006700000002">tarefas foram divididas em\: Arte, Programação, Roteiro, Sons e Testes. Cada um vai ser responsável</div>\n<div data-canvas-width\="730.5642451666669">por uma única tarefa, mas algumas condições devem ser obedecidas na divisão das tarefas\:</div>\n<div data-canvas-width\="258.09112416666665">1. Edu não trabalha em Roteiro.</div>\n<div data-canvas-width\="364.25484900000004">2. Bia só trabalha em Programação ou Testes.</div>\n<div data-canvas-width\="781.2733783333333">3. Flora trabalha em qualquer tarefa, mas se Carla trabalhar em Arte, Flora vai trabalhar em</div>\n<div data-canvas-width\="110.92736516666666">Programação.</div>\n<div data-canvas-width\="468.47311766666667">4. Dino trabalha somente em Roteiro ou em Programação.</div>\n<div data-canvas-width\="468.47311766666667"> </div>\n<div data-canvas-width\="468.47311766666667">\n<div data-canvas-width\="702.3824035000002">Se Carla trabalhar em Arte, então qual das alternativas abaixo são tarefas que Dino pode</div>\n<div data-canvas-width\="193.12743366666663">escolher para trabalhar?</div>\n</div>{
+	~<p>Programação e testes</p>
+	~<p>Somente programação</p>
+	~<p>Roteiro e sons</p>
+	=<p>Somente roteiro</p>
+	~<p>Programação e sons</p>
+	####<div data-canvas-width\="407.3821576666666">Se Clara trabalha em Arte, Flora trabalha em Programação (regra 3). Então Bia só pode trabalhar em Testes (regra 2), e Dino só pode trabalhar em Roteiro (regra 4).</div>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Entrada
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Entrada
+
+
+// question: 330  name: Entrada
+::Entrada::[html]<p>Você deseja escrever um comando em Python que armazene em uma variável um valor numérico real qualquer fornecido pelo usuário. Qual seria este comando ?</p>{
+	=<p>a \= float(input('Digite o valor\: '))</p>
+	~<p>a \= int(input('Digite o valor\: '))</p>
+	~<p>a \= str(input('Digite o valor\: '))</p>
+	~<p>a \= input('Digite o valor\: ')</p>
+	~<p>float(input('Digite o valor\: '))</p>
+	####<p>a \= float(input('Digite o valor\: '))</p>
+}
+
+
+// question: 337  name: Entrada 2
+::Entrada 2::[html]<p>Você deseja escrever um comando em Python que armazene em uma variável um valor numérico inteiro qualquer fornecido pelo usuário. Qual seria este comando ?</p>{
+	~<p>a \= float(input('Digite o valor\: '))</p>
+	=<p>a \= int(input('Digite o valor\: '))</p>
+	~<p>a \= str(input('Digite o valor\: '))</p>
+	~<p>a \= input('Digite o valor\: ')</p>
+	~<p>float(input('Digite o valor\: '))</p>
+	####<p>a \= int(input('Digite o valor\: '))</p>
+}
+
+
+// question: 338  name: Entrada 3
+::Entrada 3::[html]<p>Você deseja escrever um comando em Python que armazene em uma variável como um texto, um valor numérico inteiro qualquer fornecido pelo usuário. Qual seria este comando ?</p>{
+	~<p>a \= float(input('Digite o valor\: '))</p>
+	=<p>a \= str(int(input('Digite o valor\: ')))</p>
+	~<p>a \= str(input('Digite o valor\: '))</p>
+	~<p>a \= input('Digite o valor\: ')</p>
+	~<p>float(input('Digite o valor\: '))</p>
+	####<p>a \= str(int(input('Digite o valor\: ')))</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/00 - Lógica
+$CATEGORY: $course$/Padrão para ECI0007/00 - Lógica
+
+
+// question: 187  name: Equipe - Meninas
+::Equipe - Meninas::[html]<div data-canvas-width\="804.0006699999996">Uma equipe de meninas está participando de uma gincana preparada pelos professores da escola. Depois de muitas peripécias, elas finalmente encontraram o cofre escondido que contém a última tarefa a ser resolvida. Mas o cofre está protegido com um cadeado digital que é aberto somente se uma senha de quatro letras for digitada. Junto ao cofre elas encontraram também um pedaço de papel com as letras Xkzk. Inicialmente elas pensaram que essa era a senha, mas o cofre não abriu. No entanto, elas tinham certeza de que as quatro letras encontradas eram a chave para o enigma. Depois de pensar um pouco elas perceberam que os nomes das cinco meninas da equipe tinham exatamente quatro letras. Seria essa a ligação com as letras encontradas? Não demorou muito para elas abrirem o cofre, pois a senha era mesmo o nome de uma das meninas. Qual era a senha do cofre?</div>{
+	~<p>Anna</p>
+	~<p>Lisa</p>
+	~<p>Nina</p>
+	~<p>Iris</p>
+	=<p>Nara</p>#<div data-canvas-width\="537.7459026666667">Nara é o único nome em que a segunda e a quarta letra são iguais, e a primeira e a terceira letra são diferentes, como acontece com as quatro letras encontradas no pedaço de papel, Xkzk.</div>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 286  name: Erro - Rastreamento
+::Erro - Rastreamento::[html]<p><span style\="font-size\: large;">Qual o erro do código abaixo ?</span></p>\n<p> </p>\n<pre><span class\="k" style\="font-size\: large;">def f2(z)\:<br />    if z&lt;0\:<br />        return (z*(-1))<br />    else\:<br />        return z<br /><br />print f2(z)<br /></span></pre>{
+	=<p>Na chamada da função f2, o parâmetro z não existe.</p>#<p>Isso mesmo!</p>
+	~<p>Não podemos chamar uma função dentro de um comando print</p>#<p>Podemos sim chamar uma função dentro de um print. Mas o erro é\: Estamos chamando a função f2 com o parâmetro z que não existe. Para passar um parâmetro a uma função devemos sempre utilizar uma variável previamente definida.</p>
+	~<p>É obrigatório armazenar o retorno da função em uma variável antes de chamar o print.</p>#<p>Não é obrigatório!! O erro é\: Estamos chamando a função f2 com o parâmetro z que não existe. Para passar um parâmetro a uma função devemos sempre utilizar uma variável previamente definida.</p>
+	~<p>A função f2 não está definida.</p>#<p>Está sim, no começo do código. O erro é\: Estamos chamando a função f2 com o parâmetro z que não existe. Para passar um parâmetro a uma função devemos sempre utilizar uma variável previamente definida.</p>
+	~<p>Não podemos utilizar a variável z como parâmetro da função e na chamada da função.</p>#<p>Podemos sim! O erro é\: Estamos chamando a função f2 com o parâmetro z que não existe. Para passar um parâmetro a uma função devemos sempre utilizar uma variável previamente definida.</p>
+	####<p>Estamos chamando a função f2 com o parâmetro z que não existe. Para passar um parâmetro a uma função devemos sempre utilizar uma variável previamente definida.</p>
+}
+
+
+// question: 279  name: Escopo
+::Escopo::[html]<p><span style\="font-size\: large;">Sobre o código abaixo, assinale a alternativa correta\:</span></p>\n<p> </p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">def calcularX(a,b)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    cont \= 0</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    for i in range(a,b,1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        if i%2\=\=1\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">            cont \= cont + 1</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    return cont</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;"> </span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">print cont</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;"> </span></p>\n<p> </p>\n<p> </p>{
+	=<p>A variável "cont" não pode ser acessada fora da função calcularX</p>#<p>Isso mesmo!</p>
+	~<p>A variável cont pode ser acessada fora da função calcularX</p>#<p>A variável "cont" só existe dentro da função calcularX, não podendo ser acessada fora dela.</p>
+	~<p>A variável cont pode ser acessada fora da função calcularX, desde que esteja dentro de outra função</p>#<p>A variável "cont" só existe dentro da função calcularX, não podendo ser acessada fora dela.</p>
+	~<p>As variáveis a e b podem ser acessadas fora da função</p>#<p>As variáveis a e b existem apenas dentro da função.</p>
+	~<p>Todas as variáveis podem ser acessadas fora da função</p>#<p>As variáveis a,b e cont não podem ser acessadas fora da função</p>
+	####<p>A variável "cont" só existe dentro da função calcularX, não podendo ser acessada fora dela.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+
+
+// question: 236  name: For 1
+::For 1::[html]<p>O código abaixo\:</p>\n<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,10,1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    print i</span></p>\n<p> </p>{
+	=<p>Mostra os valores de 0 a 9 na tela.</p>#<p>Correto!! A função range(a,b,c) gera os valores [a,b[ de c em c.</p>
+	~<p>Mostra os valores de 0 a 10 na tela.</p>#<p>O intervalo é fechado no final, portanto não chega ao 10.</p>
+	~<p>Mostra os valores de 1 a 9 na tela.</p>#<p>O intervalo é aberto no início. Portanto o 0 é incluido também.</p>
+	~<p>Mostra os valores de -1 a 10 na tela.</p>#<p>O valor inicial é 0.</p>
+	~<p>Mostra os valores de 0 a 11 na tela.</p>#<p>O valor final é 9.</p>
+	####<p>A variável de controle i, assume os valores\: 0,1,2,3,4,5,6,7,8,9. Portanto estes valores serão impressos na tela.</p>\n<p> </p>
+}
+
+
+// question: 239  name: For 4
+::For 4::[html]<p>O código abaixo\:</p>\n<p><span style\="font-family\: courier new,courier,monospace;">b \= 0</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">a \= 100</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,a,1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    if a%(i+1)!\=0\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        b \= b + 1</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">print b</span></p>{
+	=<p>Mostra a quantidade de números, no intervalo [1,100], que não são divisores de a.</p>#<p>Correto!! Como o teste conta apenas quando a%(i+1)!\=0, ou seja, quando i+1 não divide a, então a alternativa está correta, pois i+1 varia de 1 a 100.</p>
+	~<p>Mostra a quantidade de números no intervalo [0,100[, que não são divisores de a.</p>#<p>O i varia no intervalo de [0,100[, mas o teste é feito sobre (i+1) e não sobre i. Assim temos que o intervalo (i+1) varia de [1,100].</p>
+	~<p>Mostra todos os divisores de a no intervalo [1,100].</p>#<p>O laço conta e ao final mostra a quantidade de números que não são divisores de a, no intervalo [1,100].</p>
+	~<p>Mostra todos os divisores de a no intervalo [0,99].</p>#<p>O laço conta e ao final mostra a quantidade de números que não são divisores de a, no intervalo [1,100].</p>
+	~<p>Mostra todos os números que não são divisores de a, no intervalo [0,100[. </p>#<p>O laço conta e ao final mostra a quantidade de números que não são divisores de a, no intervalo [1,100].</p>
+	####<p>A variável de controle i assume os valores\: 0,1,2,...99. O condicionais testa, para cada i, se (i+1) divide a, e conta caso positivo. Portanto, ao final será mostrada a quantidade de números entre 1 e 100, que não são divisores de a.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Identificadores
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Identificadores
+
+
+// question: 205  name: Identificadores 2
+::Identificadores 2::[html]<p>Qual das seguintes opções representa um identificador válido ?</p>{
+	~<p>(x)</p>#<p>Não podemos iniciar com parenteses.</p>
+	~<p>10idade</p>#<p>Não podemos iniciar com um numero</p>
+	~<p>idade*altura</p>#<p>Não podemos utilizar o *</p>
+	=<p>AB10</p>#<p>Correto!! Inicio com uma letra seguida de letras ou números.</p>
+	~<p>o&amp;O</p>#<p>Não podemos utilizar o símbolo &amp;</p>
+}
+
+
+// question: 339  name: Identificadores 3
+::Identificadores 3::[html]<p>Qual das seguintes opções representa um identificador inválido ?</p>{
+	~<p>x</p>
+	~<p>idade10</p>
+	~<p>idadeAltura</p>
+	=<p>&amp;AB10</p>
+	~<p>oO</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/06 - Listas - Teórico
+$CATEGORY: $course$/Padrão para ECI0007/06 - Listas - Teórico
+
+
+// question: 262  name: Lista - Básico 1
+::Lista - Básico 1::[html]<p>Suponha que você precise armazenar 100 valores, que representam a precipitação pluviométrica em Juazeiro do Norte, em 100 dias seguidos. </p>\n<p>Como seria a melhor forma de armazenar estes valores em um programa de computador na linguagem Python ?</p>{
+	=<p>Como uma lista indexada, de 100 valores, com índices variando de [0,99].</p>#<p>Isso mesmo!! Toda lista em Python possui índices que variam de [0,n-1]. Como no exemplo, nosso n\=100, então os índices variam de [0,99].</p>
+	~<p>Como uma lista indexada, de 100 valores, com índices variando de [0,100].</p>#<p>Toda lista em Python possui índices que variam de [0,n-1]. Como no exemplo, nosso n\=100, então os índices variam de [0,99].</p>
+	~<p>Com 100 variáveis não indexadas distintas.</p>#<p>100 variáveis distintas ?? Pode até ser, mas é impraticável!!</p>
+	~<p>Como uma lista indexada, de 100 valores, com índices variando de [1,100].</p>#<p>Toda lista em Python possui índices que variam de [0,n-1]. Como no exemplo, nosso n\=100, então os índices variam de [0,99].</p>
+	~<p>Como uma estrutura de seleção.</p>#<p>??? Valores são armazenados em variáveis (indexadas ou não) e não em estruturas de seleção.</p>
+	####<p>Como temos vários valores que estão relacionados entre si, e representam a mesma informação, observada em diferentes dias, conclui-se que uma lista (vetor) é a melhor forma de armazenar estes valores.</p>
+}
+
+
+// question: 264  name: Lista Básico 3
+::Lista Básico 3::[html]<p>Seja a lista\:</p>\n<p>a \= [10,20,30,40,50]</p>\n<p>Como fazer para imprimir o segundo elemento desta lista ?</p>\n<p> </p>{
+	=<p>print(a[1])</p>#<p>O segundo elemento é identificado pelo índice 1, portanto deve-se usar\:</p>\n<p>print (a[1])</p>\n<p>Pois a[1] é o segundo elemento de a (valor 20).</p>\n<p> </p>\n<p>O segundo elemento é identificado pelo índice 1, portanto deve-se usar\:</p>\n<p>print (a[1])</p>\n<p>Pois a[1] é o segundo elemento de a (valor 20).</p>\n<p> </p>
+	~<p>print (a[2])</p>#<p>print (a[1]), pois a[1] é o segundo elemento da lista. </p>
+	~<p>print (a[3])</p>#<p>print (a[1]), pois a[1] é o segundo elemento da lista.</p>
+	~<p>print (a[0])</p>#<p>print (a[1]), pois a[1] é o segundo elemento da lista.</p>
+	~<p>print (a[n])</p>#<p>print (a[1]), pois a[1] é o segundo elemento da lista.</p>
+	####<p>O segundo elemento é identificado pelo índice 1, portanto deve-se usar\:</p>\n<p>print (a[1])</p>\n<p>Pois a[1] é o segundo elemento de a (valor 20).</p>\n<p> </p>
+}
+
+
+// question: 271  name: Listas  - Teórico 10
+::Listas  - Teórico 10::[html]<p><span style\="font-size\: large;">Seja o código abaixo\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">n \= 20</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">a \= []</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">for i in range(0,n,1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    a.append(input('Digite um valor\: '))</span></p>\n<p> </p>\n<p><span style\="font-size\: large;">O que o código está fazendo ?</span></p>{
+	=<p>Inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>#<p>Correto!</p>
+	~<p>Inserindo 20 elementos com valores de 0 a (n-1) na lista <em>a</em></p>#<p>O código está inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>
+	~<p>Inserindo 10 elementos fornecidos pelo usuário na lista <em>a</em></p>#<p>O código está inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>
+	~<p>Inserindo 19 elementos fornecidos pelo usuário na lista <em>a</em></p>#<p>O código está inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>
+	~<p>Inserindo n elementos de 1 a 20 na lista <em>a</em></p>#<p>O código está inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>
+	####<p>O código está inserindo 20 elementos fornecidos pelo usuário na lista <em>a</em></p>
+}
+
+
+// question: 268  name: Listas - Teórico 6
+::Listas - Teórico 6::[html]<p><span style\="font-size\: large;">Assinale a alternativa que mostra como imprimir o último elemento de uma lista não vazia com nome lista1.</span></p>{
+	=<p>lista1[len(lista1)-1]</p>
+	~<p>lista1[len(lista1)]</p>#<p>A função len(lista1) retorna a quantidade de elementos de lista1. Os índices variam de 0 até a quantidade de elementos menos 1 (pois começa em zero). Portanto, o correto seria\: lista1[len(lista1)<strong>-1</strong>]</p>
+	~<p>len(lista1)</p>#<p>A função len(lista1) retorna a quantidade de elementos de lista1. Os índices variam de 0 até a quantidade de elementos menos 1 (pois começa em zero). Portanto, o correto seria\: lista1[len(lista1)<strong>-1</strong>]</p>
+	~<p>lista1.append(input('Digite um valor\: '))</p>#<p>A função len(lista1) retorna a quantidade de elementos de lista1. Os índices variam de 0 até a quantidade de elementos menos 1 (pois começa em zero). Portanto, o correto seria\: lista1[len(lista1)<strong>-1</strong>]</p>
+	~<p>lista1[len(lista1)+1]</p>#<p>A função len(lista1) retorna a quantidade de elementos de lista1. Os índices variam de 0 até a quantidade de elementos menos 1 (pois começa em zero). Portanto, o correto seria\: lista1[len(lista1)<strong>-1</strong>]</p>
+	####<p><span style\="font-size\: large;">O último elemento de uma lista não vazia SEMPRE pode acessado da seguinte forma\: </span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">nomeDalista[len(nomeDalista)-1]</span></p>\n<p><span style\="font-size\: large;">Exemplo\:</span></p>\n<p><span style\="font-size\: large;">Seja a lista não vazia <strong><em>a\:</em></strong></span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">a[len(a)-1]</span></p>\n<p> </p>
+}
+
+
+// question: 270  name: Listas - Teórico 9
+::Listas - Teórico 9::[html]<p><span style\="font-size\: large;">Assinale a alternativa correta sobre o comando abaixo\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">a \= []</span></p>\n<p> </p>{
+	=<p>Cria uma lista vazia com nome <em>a</em></p>#<p>Correto!</p>
+	~<p>Cria uma lista com 1 elemento.</p>#<p>O comando está dizendo que a variável a é uma lista vazia, ou seja, sem nenhum elemento.</p>
+	~<p>Insere o elemento vazio na lista.</p>#<p>O comando está dizendo que a variável a é uma lista vazia, ou seja, sem nenhum elemento.</p>
+	~<p>Apaga o último elemento da lista</p>
+	~<p>Acessa o primeiro elemento da lista vazia.</p>
+	####<p>O comando está dizendo que a variável a é uma lista vazia, ou seja, sem nenhum elemento.</p>
+}
+
+
+// question: 263  name: Listas Básico 2
+::Listas Básico 2::[html]<p>Qual das seguintes funções é utilizada para inserir um elemento em uma lista ?</p>{
+	=<p>append</p>#<p>A função append insere um elemento em uma lista.</p>
+	~<p>len</p>#<p>A função append insere um elemento em uma lista.</p>
+	~<p>inserir</p>#<p>A função append insere um elemento em uma lista.</p>
+	~<p>adicionar</p>#<p>A função append insere um elemento em uma lista.</p>
+	~<p>input</p>#<p>A função append insere um elemento em uma lista.</p>
+	####<p>A função append insere um elemento em uma lista.</p>
+}
+
+
+// question: 267  name: Listas Básico 6
+::Listas Básico 6::[html]<p><span style\="font-size\: large;"><strong>Suponha que você não sabe quantos elementos existem em uma determinada variável do tipo lista. </strong></span></p>\n<p><span style\="font-size\: large;"><strong>O que você escreveria no lugar da interrogação do código abaixo\: </strong></span></p>\n<p> </p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">for i in range (0,?,1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">    print (a[i]//2)</span></p>\n<p> </p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;"><strong>    </strong></span></p>\n<p> </p>{
+	=<p>len(a)</p>
+	~<p>n</p>#<p>Não temos este valor!</p>
+	~<p>n+1</p>#<p>Não temos este valor!</p>
+	~<p>len(a)+1</p>#<p>O último índice da lista é len(a)-1 e não len(a).</p>
+	~<p>len(n)</p>#<p>Não temos o valor de n, nem n é uma lista.</p>
+	####<p>A função len(a), onde <em>a</em> é uma lista, retorna a quantidade de elementos da lista. Portanto, basta colocar len(a) no lugar da interrogação para que o código funcione sem erros, e independente da quantidade de elementos da lista.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/00 - Lógica
+$CATEGORY: $course$/Padrão para ECI0007/00 - Lógica
+
+
+// question: 190  name: Maratona de Exames
+::Maratona de Exames::[html]<div data-canvas-width\="804.0006700000001">A escola decidiu realizar todas as provas dos exames finais em um único dia. São sete disciplinas,</div>\n<div data-canvas-width\="804.0006699999999">identificadas como A, B, C, D, E, F e G. Cada exame vai durar 50 minutos, de forma que eles podem</div>\n<div data-canvas-width\="804.0006700000002">ser alocados de hora em hora. Devido a problemas dos professores, as seguintes restrições devem ser</div>\n<div data-canvas-width\="94.32735133333334">obedecidas\:</div>\n<div data-canvas-width\="690.8551211666667">1. Os exames serão num sábado, nos horários 6\:00, 7\:00, 8\:00, 9\:00, 10\:00, 11\:00 e 12\:00.</div>\n<div data-canvas-width\="359.1457538333333">2. A disciplina A deve ter seu exame às 6\:00.</div>\n<div data-canvas-width\="781.2733783333331">3. O exame da disciplina E deve ser após o exame da disciplina C e também após o exame da</div>\n<div data-canvas-width\="98.85462783333332">disciplina B.</div>\n<div data-canvas-width\="704.7096781666667">4. O exames das disciplinas D, F e G devem ser em horários consecutivos, nessa ordem.</div>\n<div data-canvas-width\="704.7096781666667"> </div>\n<div data-canvas-width\="704.7096781666667">Se o exame da disciplina G for às 9\:00, o exame da disciplina E deve ser\:</div>{
+	~<p>7\:00</p>
+	~<p>8\:00</p>
+	~<p>10\:00</p>
+	~<p>11\:00</p>
+	=<p>12\:00</p>
+	####<div data-canvas-width\="50.00004166666666">Como G é 9\:00 e A é 6\:00 (regra 2), DF são respectivamente 7\:00 e 8\:00. Então, pela regra 4, E deve ser o último exame.</div>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+$CATEGORY: $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+
+
+// question: 303  name: Matrizes 10
+::Matrizes 10::[html]<p><span style\="font-size\: large;">O que faz a função abaixo, supondo que a matriz abaixo seja passada como parâmetro\:</span></p>\n<p> </p>\n<p><span style\="font-size\: large;">$$\\begin\{equation*\}<br />    d_\{i,j\} \= <br />    \\begin\{pmatrix\}<br />    0 &amp; 3 &amp; 2 &amp; 4 \\\\<br />    4 &amp; 0 &amp; 5 &amp; 6 \\\\<br />    3  &amp; 6  &amp; 0 &amp; 3  \\\\<br />    3 &amp; 5 &amp; 4 &amp; 0 <br />    \\end\{pmatrix\}<br />    \\end\{equation*\}$$</span></p>\n<p> </p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">def misterio(a)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    b \= []</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">            b.append(a[j,i])</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    return b</span></p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>\n<p> </p>{
+	=<p>A função retorna a seguinte lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]</p>#<p>Isso mesmo!!</p>
+	=<p>A função retorna a seguinte lista\: [0,3,2,4,4,0,5,6,3,6,0,3,3,5,4,0]</p>#<p>A função retorna a seguinte lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]. Os elementos são inseridos coluna por coluna (veja que para o append é passado a[j,i], e não a[i,j].</p>
+	=<p>A função retorna o somatório da lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]</p>#<p>A função retorna a seguinte lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]. Os elementos são inseridos coluna por coluna (veja que para o append é passado a[j,i], e não a[i,j].</p>
+	=<p>A função retorna a quantidade de termos da lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]</p>#<p>A função retorna a seguinte lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]. Os elementos são inseridos coluna por coluna (veja que para o append é passado a[j,i], e não a[i,j].</p>
+	=<p>A função retorna a lista [0,3,2,4,3,0,6,5,3,6,0,3,4,6,3,0]</p>#<p>A função retorna a seguinte lista\: [0,4,3,3,3,0,6,5,2,5,0,4,4,6,3,0]. Os elementos são inseridos coluna por coluna (veja que para o append é passado a[j,i], e não a[i,j].</p>
+}
+
+
+// question: 296  name: Matrizes 3
+::Matrizes 3::[html]<p>Qual das estruturas abaixo mostra <strong>todos</strong> os elementos da matriz a, caminhando linha por linha ?</p>{
+	=<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>#<p>Essa opção caminha coluna por coluna!!</p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for i in range(1,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(1,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>#<p>O primeiro elemento da matriz é o 0,0 e não o 1,1.</p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[j,i]</span></p>#<p>Desta forma, caminha-se coluna por coluna!</p>
+}
+
+
+// question: 297  name: Matrizes 4
+::Matrizes 4::[html]<p>Qual das estruturas abaixo mostra <strong>todos</strong> os elementos da matriz a, caminhando coluna por coluna ?</p>{
+	=<p><span style\="font-family\: courier new,courier,monospace;">for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>#<p>Essa opção caminha linha por linha!!</p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for i in range(1,a.shape[0],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(1,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>#<p>O primeiro elemento da matriz é o 0,0 e não o 1,1.</p>
+	~<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">        print a[i,j]</span></p>#<p>Desta forma, caminha-se linha por linha!</p>
+}
+
+
+// question: 298  name: Matrizes 5
+::Matrizes 5::[html]<p><span style\="font-size\: large;">O que faz a função abaixo\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">def misterio(a)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    b\=[]</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">            if a[i,j] &lt;5\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">                b.append(a[i,j])</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    return b</span></p>\n<p>        </p>{
+	=<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+	~<p>Retorna uma lista que contem todos os elementos da matriz a. </p>#<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+	~<p>Retorna a quantidade de elementos de "a" que são menores do que 5. </p>#<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+	~<p>Retorna uma matriz que formada pelos elementos da linha 5. </p>#<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+	~<p>Retorna o somatório dos elementos menores do que 5. </p>#<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+	####<p>Retorna uma lista que contem todos os elementos da matriz a que são menores do que 5.</p>
+}
+
+
+// question: 299  name: Matrizes 6
+::Matrizes 6::[html]<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">O que faz o código abaixo\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">def misterio(a)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    for i in range(0,a.shape[0],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        for j in range(0,a.shape[1],1)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">           if a[i,j]\=\=1\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">               return i</span></p>\n<p> </p>\n<p> </p>{
+	=<p>Retorna o índice da primeira linha da matriz que contém um elemento igual a 1.</p>
+	~<p>Retorna o índice da primeira coluna da matriz que contém um elemento igual a 1.</p>#<p>Retorna o índice da primeira linha da matriz que contém um elemento igual a 1.</p>
+	~<p>Retorna o valor do primeiro elemento da matriz da linha 1. </p>#<p>Retorna o índice da primeira linha da matriz que contém um elemento igual a 1.</p>
+	~<p>Retorna a quantidade de elementos iguais a 1.</p>#<p>Retorna o índice da primeira linha da matriz que contém um elemento igual a 1.</p>
+	~<p>Retorna o somatório das linhas que contém o elemento 1. </p>#<p>Retorna o índice da primeira linha da matriz que contém um elemento igual a 1.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+
+
+// question: 211  name: Operadores lógicos
+::Operadores lógicos::[html]<p>O resultados das operações abaixo são respectivamente\:</p>\n<p>Considere que A \= 5, B\=10 e C\=3</p>\n<p> </p>\n<p>A\=\=B</p>\n<p>A&gt;A</p>\n<p>B&gt;A</p>\n<p>(B%C)\=\=1</p>\n<p>(A%2)!\=0</p>\n<p> </p>{
+	=<p>falso, falso, verdadeiro, verdadeiro, verdadeiro</p>
+	~<p>falso, falso, verdadeiro, verdadeiro, falso</p>
+	~<p>verdadeiro, falso, verdadeiro, verdadeiro, verdadeiro</p>
+	~<p>verdadeiro, verdadeiro, falso, falso, falso</p>
+	~<p>verdadeiro, falso, verdadeiro, falso, verdadeiro</p>
+	####<p>5 é igual a 10 (falso)</p>\n<p>5 é maior do que 5 (falso)</p>\n<p>10 é maior do que 5 (verdadeiro)</p>\n<p>O resto da divisão de 10 por 3 é igual a 1 (verdadeiro)</p>\n<p>O resto da divisão de 5 por dois é diferente de 0 (verdadeiro, é igual a 1, que é diferente de zero)</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+
+
+// question: 231  name: R1
+::R1::[html]<p>Os 3 principais elementos que devemos identificar para montar uma estrutura de repetição são\:</p>{
+	~<p>Variáveis de entrada, saída e comandos de processamento.</p>#<p>Precisamos definir o início do intervalo, o final do intervalor (condição de parada) e como a variável de controle é atualizada a cada passo. As variáveis de saída não são necessárias para montar a repetição. Elas podem até ser calculadas na repetição, mas em geral não definem a repetição. </p>
+	=<p>Valor inicial da variável de controle, condição de parada ou valor final do controle e incremento/decremento da variável de controle.</p>#<p>Exatamente. Precisamos definir o início do intervalo, o final do intervalor (condição de parada) e como a variável de controle é atualizada a cada passo.</p>
+	~<p>A condição de parada, e variáveis de entrada e saída.</p>#<p>A condição de parada sim, porém as variáveis de entrada e saída não necessariamente são necessárias para a montagem da repetição.</p>
+	~<p>Os tipos de dados, variáveis de saída e variável de controle.</p>#<p>Os tipos de dados nada tem a ver com a repetição.</p>
+}
+
+
+// question: 232  name: R2
+::R2::[html]<p>O trecho de código abaixo\:</p>\n<p> </p>\n<p>i \= 0</p>\n<p>while (i&lt;10)\:</p>\n<p>    print(i)</p>\n<p> </p>\n<p>Mostra na tela os valores\:</p>{
+	~<p>de 0 a 10 e termina</p>#<p>Mostra apenas o valor 0 e não termina.</p>
+	~<p>de 0 a 9 e termina</p>#<p>Mostra apenas o valor 0 e não termina.</p>
+	~<p>Nenhum valor e não termina.</p>#<p>Mostra apenas o valor 0 e não termina.</p>
+	~<p>Nenhum valor e termina.</p>#<p>Mostra apenas o valor 0 e não termina.</p>
+	=<p>O valor 0 e não termina.</p>
+	####<p>Ao montar uma repetição devemos ficar atentos para definir\:</p>\n<p>1) O valor inicial da variável de controle. No trecho de código isso foi feito com\: i \= 0</p>\n<p>2) A condição de parada, ou seja, o valor final da variável de controle. Geralmente definido na condição do while\: (i&lt;10)</p>\n<p>3) Atualização da variável de controle, para evitar um laço infinito. No código, faltou exatamente esta definição. Ou seja, como a variável de controle não é atualizada, e a condição de parada permanece para sempre verdadeira, ocasionando um laço (loop) infinito, o que na prática "trava" a aplicação.</p>
+}
+
+
+// question: 233  name: R3
+::R3::[html]<p>O trecho de código abaixo\:</p>\n<p>n \= input('Digite o valor de n\:')</p>\n<p>i \= 1</p>\n<p>cont \= 0</p>\n<p>while i&lt;n\:</p>\n<p>    if i%2\=\=1\:</p>\n<p>        cont \= cont + 1</p>\n<p>    i \= i + 1</p>\n<p>print (cont)</p>\n<p> </p>\n<p>Exibe como saída, supondo que o usuário entra com o valor de n\=101\:</p>\n<p> </p>{
+	=<p>A quantidade de números ímpares entre 1 e 100.</p>#<p>Exato! Como a condição (i&lt;n), temos que a repetição só é executada até o valor de i \= 100, pois 101 não é menor do que 101.</p>
+	~<p>Todos os números ímpares entre 1 e 100.</p>#<p>O código não mostra os números. O código conta os ímpares entre 1 e 100 e no final mostra o valor final da contagem.</p>
+	~<p>A quantidade de números ímpares entre 1 e 101.</p>#<p>Como a condição é i&lt;n, temos que quando i\=101, a repetição para e não conta o 101. Portanto, o código conta os números ímpares entre 1 e 100.</p>
+	~<p>Não mostra nada, pois o laço é infinito.</p>#<p>Com n\=101, o laço não é infinito, pois i é incrementado de 1 em 1, começando em 1 e terminando em 101.</p>
+	~<p>Mostra todos os ímpares entre 1 e 100 e a quantidade de ímpares também neste intervalo.</p>#<p>Não mostra os números, apenas conta e mostra o total no final.</p>
+	####<p>Para cada valor de i, iniciando em 1 e terminando em n, o código testa se i é ímpar. Se for, conta. No final o código imprime a quantidade de números ímpares entre 1 e n. Supondo n\=101, entrão será impresso a quantidade de ímpares entre 1 e 100 pois a repetição só é realizada até o valor de i \= 100.</p>
+}
+
+
+// question: 234  name: R4
+::R4::[html]<p>O trecho de código abaixo\:</p>\n<p>n \= input('Digite o valor de n\:')</p>\n<p>i \= 1</p>\n<p>cont \= 0</p>\n<p>while i&lt;n\:</p>\n<p>    if i%2\=\=1\:</p>\n<p>        cont \= cont + i</p>\n<p>    i \= i + 1</p>\n<p>print (cont)</p>\n<p> </p>\n<p>Mostra como saída (considere que o usuário fornece um n&gt;0)\:</p>{
+	=<p>Somatório dos ímpares no intervalo [1,n[</p>#<p>Exato!!</p>
+	~<p>Somatório dos ímpares no intervalo [1,n]</p>#<p>O intervalo é aberto em n, pois a condição i&lt;n, ou seja, quando i\=n a repetição para.</p>
+	~<p>Quantidade dos ímpares no intervalo [1,n[.</p>#<p>O código soma e não conta. No final o somatório é mostrado.</p>
+	~<p>Quantidade dos ímpares no intervalo [1,n].</p>#<p>O código soma e não conta. No final o somatório é mostrado.</p>
+	~<p>Não mostra nada, pois o laço é infinito.</p>#<p>O laço não é infinito.</p>
+	####<p>Para cada valor de i, no intervalo [1,n[</p>\n<p>o código testa se i é ímpar e joga o valor em um somatório (variável cont). No final teremos como saída o somatório de todos os ímpares no intervalo [1,n[.</p>\n<p> </p>
+}
+
+
+// question: 235  name: R5
+::R5::[html]<p>Sobre o trecho de código abaixo\:</p>\n<p> </p>\n<p>i \= 1</p>\n<p>n \= input('Digite o valor de n\: ')</p>\n<p>while n&lt;\=0\:</p>\n<p>   n \= input('Digite o valor de n\: ')</p>\n<p> </p>\n<p>while i&lt;\=n\:</p>\n<p>    print(i**2)</p>\n<p>    i \= i + 2</p>\n<p> </p>\n<p>Escolha a alternativa correta.</p>{
+	=<p>Mostra os quadrados de todos os números ímpares no intervalo [1,n].</p>#<p>Como i começa em 1 e muda de 2 em 2, ao final todos os ímpares no intervalo [1,n] são mostrados.</p>
+	~<p>Mostra todos os números ímpares no intervalo de [1,n].</p>#<p>Os quadrados dos ímpares no intervalo [1,n] são mostrados.</p>
+	~<p>Mostra todos os quadrados dos ímpares no intervalo [1,n[.</p>#<p>O intervalo é fechado em [1,n].</p>
+	~<p>Mostra todos os quadrados dos pares no intervalo [1,n].</p>#<p>Como i começa em 1 e muda de 2 em 2, apenas oss quadrados dos ímpares são mostrados.</p>
+	~<p>Mostra o valor do quadrado de n.</p>#<p>Como i começa em 1 e muda de 2 em 2, apenas oss quadrados dos ímpares são mostrados.</p>
+	####<p>O código solicita ao usuário um n maior do que 0 e prossegue imprimindo os quadrados dos ímpares no intervalo [1,n].</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 284  name: Rastreamento 1
+::Rastreamento 1::[html]<pre><span class\="k">def</span> <span class\="nf">misterio(x)\:<br />    cont \= 0<br />    for i in range(2,x,1)\:<br />        if x%i\=\=0\:<br />            cont \= cont + 1<br />            break<br />    if cont\=\=0\:<br />        return True<br />    else\:<br />        return False<br /><br />y \= 100<br />for i in range(1,y,1)\:<br />    if misterio(i)\:<br />        print i<br /></span></pre>\n<p> </p>\n<p>O que o código acima está fazendo ?</p>{
+	=<p>Mostrando os primos no intervalo [1,y[</p>#<p>Isso mesmo!!</p>
+	~<p>Mostrando os primos no intervalo [1,y]</p>#<p>Mostrando os primos no intervalo [1,y[</p>
+	~<p>Mostrando os números perfeitos no intervalo [1,y[</p>#<p>Mostrando os primos no intervalo [1,y[</p>
+	~<p>Mostrando os números perfeitos no intervalo [1,y]</p>#<p>Mostrando os primos no intervalo [1,y[</p>
+	~<p>Mostrando todos os números do intervalo [1,y[</p>#<p>Mostrando os primos no intervalo [1,y[</p>
+	####<p>Mostrando os primos no intervalo [1,y[</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/05 - Rastreamento - Repetição simples
+$CATEGORY: $course$/Padrão para ECI0007/05 - Rastreamento - Repetição simples
+
+
+// question: 249  name: Rastreamento 1
+::Rastreamento 1::[html]<p>Seja o código abaixo\:</p>\n<p> </p>\n<p>a \= input('Digite o valor de a\: ')</p>\n<p>b \= input('Digite o valor de b\:')</p>\n<p>c \= 0</p>\n<p>for i in range(0,a,1)\:</p>\n<p>    c \= c + b</p>\n<p>print c</p>\n<p> </p>\n<p>O valor de <em>c</em> que será mostrado na tela corresponde\:</p>\n<p> </p>{
+	=<p>Ao valor de $$a \\times b$$.</p>
+	~<p>Ao valor de $$b \\times b$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>Ao valor de $$a \\times a$$</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>Ao valor de $$a+a$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>Ao valor de $$b + b$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>Ao valor de $$a+b$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>O somatório dos $$n$$ primeiros termos de $$b$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	~<p>O somatório dos $$n$$ primeiros termos de $$a$$.</p>#<p>Como a repetição é executada $$a$$ vezes, e soma-se b a cada repetição, no final teremos o valor de $$b$$ multiplicado por $$a$$.</p>
+	####<p>O valor de <em>c</em> armazena algum tipo de somatório. Observe que seu valor inicial é 0 e dentro da repetição, seu valor é atualizado somando-se o valor atual com o valor de <em>b</em>.</p>\n<p>Como a repetição é executada <em>a</em> vezes, então teremos em <em>c</em> o valor de <em>b</em> somado <em>a</em> vezes, ou seja, teremos $$a \\times b$$.</p>
+}
+
+
+// question: 250  name: Rastreamento 2
+::Rastreamento 2::[html]<p><span style\="font-size\: large;">O código abaixo\: </span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">resultado \= 0</span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">n \= input('Digite o valor de n\:')</span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">for i in range(0,n,1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">    resultado \= resultado + ( (-1)**i )/(2*i+1)</span></p>\n<p><span style\="font-family\: courier new,courier,monospace; font-size\: large;">print resultado</span></p>\n<p> </p>\n<p>Apresenta na tela\:</p>\n<p> </p>{
+	=<p>O valor da série\:</p>\n<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>Para os n primeiros termos.</p>
+	~<p>O valor da série\:</p>\n<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>Para os n-1 primeiros termos.</p>#<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>para os n primeiros termos, já que a repetição é executada $$n$$ vezes.</p>
+	~<p>O valor da série\:</p>\n<p>$$S \= 1+\\frac\{1\}\{3\}+\\frac\{1\}\{5\}+\\frac\{1\}\{7\}+...$$</p>\n<p>Para os n primeiros termos.</p>#<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>para os n primeiros termos, já que a repetição é executada $$n$$ vezes.</p>\n<p>O $$-1^i$$ no numerador faz a alternância de sinais.</p>
+	~<p>O valor da série\:</p>\n<p>$$S \= 1+\\frac\{1\}\{3\}+\\frac\{1\}\{5\}+\\frac\{1\}\{7\}+...$$</p>\n<p>Para os n-1 primeiros termos.</p>#<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>para os n primeiros termos, já que a repetição é executada $$n$$ vezes.</p>\n<p>O $$-1^i$$ no numerador faz a alternância de sinais.</p>
+	~<p>O valor da série\:</p>\n<p>$$S \= 1-\\frac\{1\}\{3\}-\\frac\{1\}\{5\}-\\frac\{1\}\{7\}-...$$</p>\n<p>Para os n primeiros termos.</p>#<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>para os n primeiros termos, já que a repetição é executada $$n$$ vezes.</p>\n<p>O $$-1^i$$ no numerador faz a alternância de sinais.</p>
+	####<p>Como os limites da repetição estão no intervalo [0,n[, ou [0,n-1], temos que o valor de <em>i</em> assume os valores\: 0,1,2,...,n-1, ou seja assume <em>n</em> diferentes valores, iniciando em 0 e terminando em n-1.</p>\n<p>Dessa forma a repetição está calculando um somatório dos termos $$\\frac\{-1^i\}\{2i+1\}$$. Como o primeiro valor de i é 0, temos que o primeiro termo será positivo, assim como todos os termos ímpares. Quando i é ímpar, temos que o termo é negativo, pois $$-1^i$$, quando i é ímpar torna o termo negativo. Portanto, o valor do somatório calculado uma vez soma, e outra diminue, alterando dessa forma até o último termo. O denominador muda inicia em 3 (quando i é 0) e aumenta de 2 em 2. Ou seja,</p>\n<p>$$S \= 1-\\frac\{1\}\{3\}+\\frac\{1\}\{5\}-\\frac\{1\}\{7\}+...$$</p>\n<p>Como i assume n diferentes números, então S é calculada como o somatório acima, dos <em>n</em> primeiros termos.</p>
+}
+
+
+// question: 251  name: Rastreamento 3
+::Rastreamento 3::[html]<p><span style\="font-size\: large;">O código abaixo\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">a \= input('Digite a\: ')</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">b \= input('Digite b\:')</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">q \= input('Digite q\: ')</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">c \= 0</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">i \= 2</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">while i&lt;\=q\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    if a%i\=\=0 and b%i\=\=0\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        c \= c + i</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    i \= i + 1</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">print c</span></p>\n<p> </p>\n<p><span style\="font-size\: large;">Mostra na tela\:</span></p>{
+	=<p>O somatório dos números que são divisores de a e b ao mesmo tempo, no intervalo [2,q]. </p>
+	~<p>O somatório dos números que são divisores de a e b ao mesmo tempo, no intervalo [2,q[. </p>#<p>Como a condição é i&lt;\=q, ou seja, o q é incluido, então o intervalo é fechado em 2 e em q\: [2,q].</p>
+	~<p>A quantidade de números que são divisores de a e b ao mesmo tempo, no intervalo [2,q[. </p>#<p>Ao encontrar um divisor, o código faz\: c \= c + i, ou seja, soma-se ao valor de c o valor do divisor i. Assim ao final teremos um somatório e não uma quantidade. O intervalo percorrido é [2,q[.</p>
+	~<p>A quantidade de números que são divisores de a e b ao mesmo tempo, no intervalo [2,q].</p>#<p>Ao encontrar um divisor, o código faz\: c \= c + i, ou seja, soma-se ao valor de c o valor do divisor i. Assim ao final teremos um somatório e não uma quantidade. O intervalo percorrido é [2,q[.</p>
+	####<p>O valor de i assume os valores de 2 a q, ou seja [2,q]. Para cada valor de i, o código teste se i é divisor de a e b ao mesmo tempo (and). Caso verdadeiro, soma-se o valor de i à variável c. Assim c armazena o somatório dos divisores de a e b ao mesmo tempo, no intervalo [2,q].</p>
+}
+
+
+// question: 258  name: Rastreamento 7
+::Rastreamento 7::[html]<p>O código abaixo resolve qual dos problemas mostrados nas opções ?</p>\n<p> </p>\n<p>while True\:</p>\n<p>    a \= int(input('Digite a\: '))</p>\n<p>    if a&gt;0\:</p>\n<p>        break</p>\n<p>soma \= 0</p>\n<p>while a&gt;\=1\:</p>\n<p>    i \= a//10</p>\n<p>    r \= a%10</p>\n<p>    soma \= soma + r</p>\n<p>    a \= a//10</p>\n<p> </p>\n<p>print soma</p>{
+	=<p>Somatório dos dígitos de um número inteiro qualquer, maior do que 0.</p>
+	~<p>Quantidade de dígitos de um número inteiro qualquer, maior do que 0.</p>#<p>O programa não está contando, está somando.</p>
+	~<p>Somatório dos dígitos de um número inteiro qualquer. </p>#<p>O programa só começa a somar se o valor de a for maior do que 0. Portanto não é um inteiro qualquer, é um inteiro maior do que 0.</p>
+	~<p>Quantidade de dígitos de um número inteiro qualquer. </p>#<p>Somatório dos dígitos de um número inteiro qualquer, maior do que 0.</p>
+	~<p>Calculando se o número é perfeito.</p>#<p>Somatório dos dígitos de um número inteiro qualquer, maior do que 0.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+
+
+// question: 207  name: Resto da divisão
+::Resto da divisão::[html]<p>Qual o resultado da operação abaixo\:</p>\n<p>10%5</p>{
+	=<p>0</p>
+	~<p>1</p>
+	~<p>2</p>
+	~<p>3</p>
+	~<p>4</p>
+	####<p>O símbolo de percentual representa o resto da divisão entre dois números. Assim 10 dividido por cinco resulta em resto 2.</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/00 - Lógica
+$CATEGORY: $course$/Padrão para ECI0007/00 - Lógica
+
+
+// question: 189  name: Show de Talentos 2
+::Show de Talentos 2::[html]<div data-canvas-width\="804.0006700000001">No tradicional Show de Talentos da escola os alunos podem se apresentar para mostrar suas diversas</div>\n<div data-canvas-width\="804.00067">habilidades. Vale tudo\: música, drama, malabarismo,... Este ano, sete alunos (A, B, C, D, E, F e G)</div>\n<div data-canvas-width\="804.0006700000004">estão inscritos. Cada aluno se apresentará uma única vez, em um dos sete turnos do Show, numerados</div>\n<div data-canvas-width\="747.3824410000002">de 1 a 7. As seguintes restrições devem ser obedecidas para decidir a ordem de apresentação\:</div>\n<div data-canvas-width\="396.12760283333324"> </div>\n<div data-canvas-width\="396.12760283333324">1. A deve se apresentar no turno 3 ou no turno 5.</div>\n<div data-canvas-width\="482.4549475">2. F não pode se apresentar nem no turno 4 nem no turno 6.</div>\n<div data-canvas-width\="525.6913471666667">3. Se D se apresentar no turno 1, C deve se apresentar no turno 2.</div>\n<div data-canvas-width\="519.9458878333332">4. Se E se apresentar no turno 4, F deve se apresentar no turno 5.</div>\n<div data-canvas-width\="687.1823908333337">5. B deve se apresentar no turno imediatamente após o turno em que C se apresentar.</div>\n<div data-canvas-width\="687.1823908333337"> </div>\n<div data-canvas-width\="687.1823908333337">\n<div data-canvas-width\="17.163650666666666">Se D apresentar-se no turno 1, qual dos seguintes alunos deve apresentar-ser no turno 4?</div>\n</div>{
+	~<p>A</p>
+	~<p>B</p>
+	~<p>E</p>
+	~<p>F</p>
+	=<p>G</p>
+	####<div data-canvas-width\="766.7642753333336">Se D está no 1, C está no 2 (regra 3). Pela regra 5, B deve vir imediatamente após C, então B está no 3. Como A tem que estar no 3 ou 5 pela regra 1, A tem que apresentar-se no turno 5. Como F não pode estar no 5, E nãopode estar no 4 (regra 4). F não pode se apresentar no 4 (regra 2), resta apenas G para apresentar-se no 4.</div>
+}
+
+
+// question: 188  name: Show de Talentos I
+::Show de Talentos I::[html]<div data-canvas-width\="804.0006700000001">No tradicional Show de Talentos da escola os alunos podem se apresentar para mostrar suas diversas</div>\n<div data-canvas-width\="804.00067">habilidades. Vale tudo\: música, drama, malabarismo,... Este ano, sete alunos (A, B, C, D, E, F e G)</div>\n<div data-canvas-width\="804.0006700000004">estão inscritos. Cada aluno se apresentará uma única vez, em um dos sete turnos do Show, numerados</div>\n<div data-canvas-width\="747.3824410000002">de 1 a 7. As seguintes restrições devem ser obedecidas para decidir a ordem de apresentação\:</div>\n<div data-canvas-width\="396.12760283333324"> </div>\n<div data-canvas-width\="396.12760283333324">1. A deve se apresentar no turno 3 ou no turno 5.</div>\n<div data-canvas-width\="482.4549475">2. F não pode se apresentar nem no turno 4 nem no turno 6.</div>\n<div data-canvas-width\="525.6913471666667">3. Se D se apresentar no turno 1, C deve se apresentar no turno 2.</div>\n<div data-canvas-width\="519.9458878333332">4. Se E se apresentar no turno 4, F deve se apresentar no turno 5.</div>\n<div data-canvas-width\="687.1823908333337">5. B deve se apresentar no turno imediatamente após o turno em que C se apresentar.</div>\n<div data-canvas-width\="687.1823908333337"> </div>\n<div data-canvas-width\="687.1823908333337">Qual das alternativas abaixo é uma ordem válida para as apresentações?</div>{
+	~<p>F,B,C,G,A,D,E</p>#<p>deve ser após C, viola regra 5</p>
+	=<p>F,D,E,G,A,C,B</p>#<p>Correta!!</p>
+	~<p>F,D,A,E,C,B,G</p>#<p>Se E no turno 4, F deve ser turno 5, viola regra 4)</p>
+	~<p>C,B,A,G,E,F,D</p>#<p>(F viola regra 2)</p>
+	~<p>C,B,F,A,G,E,D</p>#<p>(A viola regra 1)</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Variáveis
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Variáveis
+
+
+// question: 208  name: Variáveis
+::Variáveis::[html]<p>Qual será o último valor armazenado na variável "a" após a sequência de operações abaixo ?</p>\n<p>a \= 10</p>\n<p>b \= a**3</p>\n<p>a  \= b / 2.0</p>\n<p> </p>\n<p> </p>{
+	=<p>500.0</p>
+	~<p>250</p>
+	~<p>125.0</p>
+	~<p>10</p>
+	~<p>5</p>
+	~<p>500</p>#<p>Divisões produzem resultados reais (float) e não inteiros.</p>
+	####<p>O valor de 'a' inicia em 10. Depois b recebe o valor de 'a' elevado a 3 (10 elevado a 3 \= 1000). Posteriormente o valor 1000 armazenado em b é dividido por 2.0 (500.0) e armazenado em a. Portanto, o valor final de a é 500.0. 500.0 é um float e 500 um inteiro. Como é o resultado de uma divisão, o valor armazenado é 500.0, ou seja um valor real (float). </p>
+}
+
+
+// question: 210  name: Variáveis - Expressoes 1
+::Variáveis - Expressoes 1::[html]<p>Suponha a existencia das variáveis A e B e C, com valores iguais a 5,10 e -8 respectivamente. Qual o valor da expressão abaixo\:</p>\n<p>(B//A)%3</p>\n<p> </p>{#
+	=%100%2:0#
+	####<p>B//A \= 10//5 \= 2</p>\n<p>2%3 \= 2</p>
+}
+
+
+// question: 333  name: Variáveis - Expressoes 2
+::Variáveis - Expressoes 2::[html]<p>Suponha a existencia das variáveis A e B e C, com valores iguais a 5,10 e -8 respectivamente. Qual o valor da expressão abaixo\:</p>\n<p>(B//A)//3</p>\n<p> </p>{#
+	=%100%0:0#
+	####<p>B//A  \= 10//5 \= 2</p>\n<p>2//3 \= 0</p>\n<p> </p>
+}
+
+
+// question: 209  name: Variáveis 2
+::Variáveis 2::[html]<p>Suponha a existencia das variáveis A e B e C, com valores iguais a 5,10 e -8 respectivamente. Qual o valor da expressão abaixo\:</p>\n<p> </p>\n<p>((2*A)%3)-C</p>\n<p> </p>{#
+	=%100%9:0#
+}
+
+
+// question: 334  name: Variáveis 3
+::Variáveis 3::[html]<p>Suponha a existencia das variáveis A e B e C, com valores iguais a 5,10 e -8 respectivamente. Qual o valor da expressão abaixo\:</p>\n<p> </p>\n<p>((2*A)%3)+C</p>\n<p> </p>{#
+	=%100%-7:0#
+	####<p>((2*A)%3)+C \= ((2*5)%3)+(-8) \= ((10)%3)+(-8) \= 1 + (-8) \= -7</p>
+}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Atribuição
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Atribuição
+
+
+// question: 212  name: Atribuição
+::Atribuição::[html]<p>O comando abaixo solicita ao usuário que entre com um valor que após digitado no teclado será armazenado na variável com identificador "idade".</p>\n<p>idade \= int(input('Digite sua idade'))</p>\n<p> </p>{TRUE####<p>O comando está correto!! O valor passado pelo usuário através do teclado será armazenado na variável idade.</p>}
+
+
+// question: 213  name: Atribuição 2
+::Atribuição 2::[html]<p>Uma atribuição pode ser feita como mostrado abaixo\:</p>\n<p> </p>\n<p>20 \= idade</p>{FALSE####<p>Atribuição\: Variável recebe um valor, e não o contrário.</p>}
+
+
+// question: 332  name: Atribuição 3
+::Atribuição 3::[html]<p>O comando abaixo solicita ao usuário que entre com um valor que após digitado no teclado será armazenado como um número inteiro na variável com identificador "idade".</p>\n<p>idade \= float(input('Digite sua idade'))</p>\n<p> </p>{FALSE####<p>O comando está correto!! O valor passado pelo usuário através do teclado será armazenado na variável idade como um valor real (float).</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 287  name: Básico
+::Básico::[html]<p>Uma função só pode ser chamada se a mesma foi anteriormente definida.</p>{TRUE#<p>Uma função não pode ser chamada se não estiver definida.</p>#<p>Isso mesmo!! Só podemos chamar a função se ela já estiver definida.</p>####<p>Isso mesmo!! Só podemos chamar a função se ela já estiver definida.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Codigo
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Codigo
+
+
+// question: 220  name: Codigo
+::Codigo::[html]<p>O trecho de código abaixo calcula e imprime o valor da média aritmética entre a e b.</p>\n<p>a \= float(input('Digite a\: '))</p>\n<p>b \= float(input('Digite b\: '))</p>\n<p>c \= a+b/2</p>\n<p>print (c)</p>\n<p> </p>{FALSE#<p>A fórmula calcula a soma de a com a metade de b e não a média aritmética entre a e b.</p>\n<p>media \= (a+b)/2</p>\n<p> </p>#<p>Isso mesmo!!</p>\n<p>A fórmula calcula a soma de a com a metade de b e não a média aritmética entre a e b.</p>\n<p>media \= (a+b)/2</p>}
+
+
+// question: 335  name: Codigo 2
+::Codigo 2::[html]<p>O trecho de código abaixo calcula e imprime o valor da média aritmética (como float) entre a e b quaisquer.</p>\n<p>a \= float(input('Digite a\: '))</p>\n<p>b \= float(input('Digite b\: '))</p>\n<p>c \= (a+b)/2</p>\n<p>print (c)</p>\n<p> </p>{TRUE##<p>A fórmula calcula a média aritmética de a e b quaisquer e grava o resultado em c. </p>\n<p>media \= (a+b)/2</p>\n<p> </p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/03 - Condicionais - Teórico
+$CATEGORY: $course$/Padrão para ECI0007/03 - Condicionais - Teórico
+
+
+// question: 223  name: Condicional 1
+::Condicional 1::[html]<p>Após a execução do código abaixo, <strong>apenas</strong> as seguintes mensagens serão mostradas na tela\:</p>\n<p><strong>comando 1</strong></p>\n<p><strong>comando 2</strong></p>\n<p><strong>pronto!</strong></p>\n<p>--------------------- CODIGO ---------------------------</p>\n<p>    a <span class\="sy0">\=</span> <span class\="nu0">3</span><br />    b <span class\="sy0">\=</span> <span class\="nu0">5</span><br />    c <span class\="sy0">\=</span> <span class\="nu0">10</span><br />    <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> b\:<br />        <span class\="kw1">print</span> <span class\="st0">"comando 1"</span><br />    <span class\="kw1">else</span>\:<br />        <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> c\:<br />            <span class\="kw1">print</span> <span class\="st0">"comando 2"</span><br />        <span class\="kw1">else</span>\:<br />            <span class\="kw1">if</span> b <span class\="sy0">&lt;</span> c\:<br />                <span class\="kw1">print</span> <span class\="st0">"comando 3"</span><br />    <span class\="kw1">print</span> <span class\="st0">"pronto!"</span></p>{FALSE####<p>Como a&lt;b (3&lt;5) é verdadeiro, a mensagem "comando 1" será mostrada. Como existe um else para o if, e o comando 1 foi executado, o else não será processado (só seria processado caso a&lt;b fosse falseo). Além disso a mensagem "pronto!" também é mostrada (será sempre mostrada, independente dos valores de a,b,c), pois não faz parte de nenhum if ou else.</p>\n<p> </p>}
+
+
+// question: 224  name: Condicional 2
+::Condicional 2::[html]<p>Após a execução do código abaixo, <strong>apenas</strong> as seguintes mensagens serão mostradas na tela\:</p>\n<p id\="yui_3_17_2_1_1473340322948_124"><strong>comando 3<br /></strong></p>\n<p><strong>pronto!</strong></p>\n<p><strong>--------------CODIGO---------------</strong></p>\n<p>    a <span class\="sy0">\=</span> <span class\="nu0">30</span><br />    b <span class\="sy0">\=</span> <span class\="nu0">5</span><br />    c <span class\="sy0">\=</span> <span class\="nu0">10</span><br />    <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> b\:<br />        <span class\="kw1">print</span> <span class\="st0">"comando 1"</span><br />    <span class\="kw1">else</span>\:<br />        <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> c\:<br />            <span class\="kw1">print</span> <span class\="st0">"comando 2"</span><br />        <span class\="kw1">else</span>\:<br />            <span class\="kw1">if</span> b <span class\="sy0">&lt;</span> c\:<br />                <span class\="kw1">print</span> <span class\="st0">"comando 3"</span><br />    <span class\="kw1">print</span> <span class\="st0">"pronto!"</span></p>{TRUE####<p>Como 30&lt;5 é falso, entra-se o primeiro else. Outro teste é realizado\: 30&lt;10, também falso, entra-se no segundo else. Outro teste é realizado\: 5&lt;10, verdadeiro e a mensagem "comando 3" é mostrada. Como o comando para mostrar "pronto" está fora de quaisquer if ou else, ela é sempre mostrada, independente dos valores de a,b,c.</p>}
+
+
+// question: 225  name: Condicional 3
+::Condicional 3::[html]<p>Após a execução do código abaixo <strong>apenas</strong> as seguintes mensagens serão mostradas na tela\:</p>\n<p>"comando 3"</p>\n<p>"pronto!"</p>\n<p>--------CÓDIGO------------</p>\n<p>    a <span class\="sy0">\=</span> <span class\="nu0">80</span><br />    b <span class\="sy0">\=</span> <span class\="nu0">50</span><br />    c <span class\="sy0">\=</span> <span class\="nu0">10</span><br />    <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> b\:<br />        <span class\="kw1">print</span> <span class\="st0">"comando 1"</span><br />    <span class\="kw1">else</span>\:<br />        <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> c\:<br />            <span class\="kw1">print</span> <span class\="st0">"comando 2"</span><br />        <span class\="kw1">else</span>\:<br />            <span class\="kw1">if</span> b <span class\="sy0">&lt;</span> c\:<br />                <span class\="kw1">print</span> <span class\="st0">"comando 3"</span><br />            <span class\="kw1">print</span> <span class\="st0">"pronto!"</span></p>\n<p> </p>{FALSE####<p>Como 80&lt;50 é falso, 80&lt;10 também é falso e 50&lt;10 também é falso, apenas a mensagem "pronto!" é mostrada na tela, pois ela é mostrada sempre que o último else é chamado.</p>}
+
+
+// question: 226  name: Condicional 4
+::Condicional 4::[html]<p>Após a execução do código abaixo <strong>apenas</strong> as seguintes mensagens são mostradas na tela\:</p>\n<p>"comando 3"</p>\n<p>"pronto!"</p>\n<p>--------CODIGO-----------</p>\n<p>    a <span class\="sy0">\=</span> <span class\="nu0">30</span><br />    b <span class\="sy0">\=</span> <span class\="nu0">5</span><br />    c <span class\="sy0">\=</span> <span class\="nu0">10</span><br />    <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> b <span class\="sy0">&lt;</span> c\:<br />        <span class\="kw1">print</span> <span class\="st0">"comando 1"</span><br />    <span class\="kw1">else</span>\:<br />        <span class\="kw1">if</span> a <span class\="sy0">&lt;</span> c <span class\="sy0">&lt;</span> b\:<br />            <span class\="kw1">print</span> <span class\="st0">"comando 2"</span><br />        <span class\="kw1">else</span>\:<br />            <span class\="kw1">print</span> <span class\="st0">"comando 3"</span><br />        <span class\="kw1">print</span> <span class\="st0">"comando 4"</span><br />    <span class\="kw1">print</span> <span class\="st0">"pronto!"</span></p>{FALSE####<p>Como 30&lt;5&lt;10 é falso, o primeiro else é executado. Como 30&lt;10&lt;5 é falso, o segundo else é executado e a mensagem "comando 3" é mostrada. Como o "comando 4" está dentro do primeiro else que é executado, então "comando 4" também é mostrado. Finalmente o "pronto!" também é mostrado pois está fora de quaisquer if ou else.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/07 - Funções - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/07 - Funções - Teóricas
+
+
+// question: 280  name: Escopo 2
+::Escopo 2::[html]<p><span style\="font-size\: large;">O código abaixo está errado, pois a função avaliar recebe um parametro chamado "z" e a função foi chamada com o parâmetro "a".</span></p>\n<p> </p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">def avaliar(z)\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    resultado \= z</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    if z&lt;0\:</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">        resultado \= resultado*(-1)</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">    return resultado</span></p>\n<p> </p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">a \= -100</span></p>\n<p><span style\="font-size\: large; font-family\: courier new,courier,monospace;">valor \= avaliar(a)</span></p>\n<p> </p>\n<p> </p>{FALSE#<p>Ao chamar a função, podemos passar qualquer variável, independente do nome. Na definição da função que temos que usar a variável z dentro da função.</p>#<p>Ao chamar a função, podemos passar qualquer variável, independente do nome. Na definição da função que temos que usar a variável z dentro da função.</p>####<p>Ao chamar a função, podemos passar qualquer variável, independente do nome. Na definição da função que temos que usar a variável z dentro da função.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+
+
+// question: 219  name: Expressão
+::Expressão::[html]<p>A expressão abaixo está correta e sem erros\:</p>\n<p>an \= a1+(n-1)r</p>{FALSE#<p>Está faltando um  "*" entre o parenteses e a variável r.</p>\n<p><span style\="font-family\: courier new,courier,monospace;">an \= a1+(n-1)<strong><span style\="color\: \#ff0000;">*</span></strong>r</span></p>#<p>Isso mesmo!!!</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+$CATEGORY: $course$/Padrão para ECI0007/04 - Repetição - Teóricas
+
+
+// question: 237  name: For 2
+::For 2::[html]<p>O código abaixo\:</p>\n<p><span style\="font-family\: courier new,courier,monospace;">for i in range(0,n+1,1)\:</span></p>\n<p><span style\="font-family\: courier new,courier,monospace;">    print ('Ola mundo')</span></p>\n<p> </p>\n<p>Imprime a mensagem 'Ola mundo' <em>n</em> vezes na tela.</p>{FALSE####<p>A variável de controle i, assume os valores\: 0,1,2,3..., n. Portanto, n+1 vezes (pois o zero está incluido).</p>\n<p> </p>}
+
+
+// question: 238  name: For 3
+::For 3::[html]<p>O código abaixo\:</p>\n<p>cont \= 0</p>\n<p>for i in range(1,n+1,2)\:</p>\n<p>    cont \= cont + 1</p>\n<p> </p>\n<p>É executado (n+1)//2 vezes.</p>{TRUE####<p>Suponha que n \= 6. A variável i assumirá os valores\: 1,3,5. Portanto 7//2 \= 3.</p>\n<p>Suponha que n \= 7. A variável i assumirá os valores\: 1,3,5,7. Portanto 8//2 \= 4. </p>\n<p>Assim, tem-se que o laço executa<span style\="font-family\: courier new,courier,monospace;"><em> cont \= cont + 1</em></span> (n+1)//2 vezes.</p>\n<p> </p>}
+
+
+// question: 240  name: For 5
+::For 5::[html]<p>O código abaixo\:</p>\n<p>a \= 0</p>\n<p>b \= 0</p>\n<p>for j in range(10,100,1)\:</p>\n<p>    a \= a + 1</p>\n<p>    b \= b + 2</p>\n<p> </p>\n<p>Incrementa o valor de a em 1 unidade e b em 2 unidades, 91 vezes.</p>{FALSE####<p>A variável de controle j, assume os valores 10,11,12,...,99, ou seja, 90 valores diferentes. Portanto os comandos são executados 90 vezes e não 91 vezes. </p>\n<p> </p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Identificadores
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Identificadores
+
+
+// question: 204  name: Identificador I
+::Identificador I::[html]<p>Os identificadores podem ser utilizados para dar nomes as variáveis. Em geral, a regra para escolha de um identificador é\:</p>\n<p>Iniciar com uma letra, seguida por letras e/ou números.</p>{TRUE##<p>Exatamente isso!! Embora também possamos utilizar alguns caracteres como "underline" e travessão, utilizando letras e números possui compatibilidade com praticamente todas as linguagens de programação.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/06 - Listas - Teórico
+$CATEGORY: $course$/Padrão para ECI0007/06 - Listas - Teórico
+
+
+// question: 269  name: Listas - Teórico 8
+::Listas - Teórico 8::[html]<p><span style\="font-size\: large;">O primeiro elemento de uma lista não vazia sempre é o elemento índice 0.</span></p>{TRUE#<p>Sempre o primeiro elemento de uma lista não vazia é o índice 0.</p>#<p>Correto!</p>####<p>Sempre o primeiro elemento de uma lista não vazia é o índice 0.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+$CATEGORY: $course$/Padrão para ECI0007/08 - Matrizes (teóricos)
+
+
+// question: 295  name: Matriz 2
+::Matriz 2::[html]<p>O primeiro elemento de uma matriz não vazia com identificador "a" é o elemento  a[1,1].</p>{FALSE##<p>O primeiro elemento de qualquer matriz bidimensional não vazia é o [0,0].</p>####<p>O primeiro elemento de qualquer matriz bidimensional não vazia é o [0,0].</p>}
+
+
+// question: 294  name: Matrizes 1
+::Matrizes 1::[html]<p>Uma matriz é uma estrutura de dados que armazena vários valores relacionados entre si, dispostos em linhas e colunas, no caso de uma matri bi-dimensional.</p>{TRUE#<p>Uma matriz é exatamente o que a afirmação diz.</p>}
+
+
+// question: 0  name: Switch category to $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+$CATEGORY: $course$/Padrão para ECI0007/02 - Teoria - Fundamentos/Expressões
+
+
+// question: 206  name: Operadores aritméticos
+::Operadores aritméticos::[html]<p>O operador de multiplicação em Python é o símbolo 'x'.</p>{FALSE####<p>O operador de multiplicação na maioria das linguagens é o símbolo '*' (asterisco)</p>}
+
+

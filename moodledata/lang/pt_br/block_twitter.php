@@ -33,6 +33,7 @@ $string['consumerkey'] = 'Consumer Key';
 $string['consumerkeydesc'] = 'Consumer Key de seu aplicativo twitter';
 $string['consumersecret'] = 'Consumer Secret';
 $string['consumersecretdesc'] = 'Consumer Secret de seu aplicativo twitter';
+$string['like'] = 'Curtir';
 $string['pluginname'] = 'Twitter Feed';
 $string['reply'] = 'Responder';
 $string['retweet'] = 'Retuitar';

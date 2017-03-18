@@ -124,3 +124,4 @@ $string['resetallimagecontainersize'] = 'Tamanho da caixa de imagem.';
 $string['resetallimagecontainersize_help'] = 'Redefine os tamanhos das caixas de imagem para o valor padrão para todos os cursos, de modo que seja como um curso colocado pela primeira vez no formato de grade.';
 $string['resetallimagecontainerstyle'] = 'Estilo da caixa de imagem.';
 $string['resetallimagecontainerstyle_help'] = 'Redefine os estilos de caixa de imagem para o valor padrão para todos os cursos para que ele seja como um curso colocado pela primeira vez no formato de grade.';
+$string['sectionname'] = 'Seção';

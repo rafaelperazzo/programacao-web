@@ -50,7 +50,7 @@ $string['aggregateonlygraded_help'] = 'Uma nota vazia é uma nota que não está
 Esta configuração define se as notas vazias devem ou não ser consideradas na agregação de notas (cálculo de média, por exemplo)  ou na hora de descartar as notas mais baixas.';
 $string['aggregateoutcomes'] = 'Incluir resultado da aprendizagem na agregação';
 $string['aggregateoutcomes_help'] = 'Se habilitado, os resultados de aprendizagem são incluídos na agregação de notas. Isto pode resultar num valor inesperado para o total de uma categoria de notas.';
-$string['aggregatesonly'] = 'Somente agregados';
+$string['aggregatesonly'] = 'Alteração apenas para agregados';
 $string['aggregatesubcatsupgradedgrades'] = 'Nota: A definição de agregação "Aggregate incluindo subcategorias" foi removida como parte de uma atualização do site. Desde "agregado incluindo subcategorias" já foi usado neste curso, é recomendável que você reveja esta mudança no livro de notas.';
 $string['aggregatesum'] = 'Natural';
 $string['aggregateweightedmean'] = 'Média ponderada das notas';
@@ -222,7 +222,7 @@ $string['errorupdatinggradecategoryaggregation'] = 'Erro ao atualizar o tipo de 
 $string['errorupdatinggradeitemaggregationcoef'] = 'Erro ao atualizar o coeficiente de agregação (peso ou crédito extra) o item de nota de ID {$a->id}';
 $string['eventgradedeleted'] = 'Nota excluída';
 $string['eventgradeviewed'] = 'Notas foram visualizadas no livro de notas';
-$string['eventusergraded'] = 'Nota do usuário editada no livro de notas';
+$string['eventusergraded'] = 'Usuário recebeu nota';
 $string['excluded'] = 'Excluídos';
 $string['excluded_help'] = '<p>Se -excluído- estiver ativado, esta nota será excluída de qualquer agregação feita por um item ou categoria de nota pai.</p>';
 $string['expand'] = 'Expandir categoria';

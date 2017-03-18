@@ -26,6 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['author'] = 'Autor';
+$string['cachedef_coursefiles'] = 'Todos os dados da cache para dimensionar e listar arquivos de disciplinas';
 $string['component'] = 'Componente';
 $string['coursefiles:addinstance'] = 'Adicionar um novo bloco de arquivos do curso';
 $string['coursefilesusagereport'] = 'Relatório de uso de arquivo no curso';

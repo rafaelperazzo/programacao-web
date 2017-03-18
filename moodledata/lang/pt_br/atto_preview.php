@@ -28,4 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['layout'] = 'Layout da Página';
 $string['layout_desc'] = 'Escolha o layout de página que funciona melhor com o tema e o propósito do site.';
 $string['pluginname'] = 'Alternar visualização';
+$string['printcontent'] = 'Imprimir conteúdo';
 $string['settings'] = 'Configurações de visualização';

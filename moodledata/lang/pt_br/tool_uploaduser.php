@@ -35,6 +35,7 @@ $string['deleteerrors'] = 'Excluir erros';
 $string['encoding'] = 'Codificação';
 $string['errormnetadd'] = 'Não é possível adicionar usuários remotos';
 $string['errors'] = 'Erros';
+$string['invaliduserdata'] = 'Foram detectados dados inválidos para o usuário {$a} que foram apagados automaticamente.';
 $string['nochanges'] = 'Nenhuma mudança';
 $string['pluginname'] = 'Upload de usuário';
 $string['renameerrors'] = 'Renomear erros';

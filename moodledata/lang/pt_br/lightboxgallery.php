@@ -120,6 +120,7 @@ $string['resizeto'] = 'Redimensionar para';
 $string['rsssubscribe'] = 'Feed RSS da galeria';
 $string['saveimage'] = 'Salvar {$a}';
 $string['screen'] = 'Tela';
+$string['search:activity'] = 'Galeria Lightbox - informações da atividade';
 $string['selectflipmode'] = 'Selecione modo de inversão';
 $string['selectrotation'] = 'Selecione ângulo de rotação';
 $string['selectthumbpos'] = 'Deslocamento da miniatura (a partir do centro)';

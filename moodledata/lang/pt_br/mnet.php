@@ -225,7 +225,7 @@ $string['sslverification_help'] = 'Esta opção permite configurar o nível de s
 * Nenhum: nenhum nível de segurança
 * Verifique hospedagem apenas: valida o domínio do certificado SSL
 * Verifique hospedagem e pares (recomendado): valida o domínio e emissor do certificado SSL';
-$string['ssoaccesscontrol'] = 'Controle de acesso SSO';
+$string['ssoaccesscontrol'] = 'Controle de acesso via SSO';
 $string['ssoacldescr'] = 'Use esta página para autorizar ou negar o acesso de usuários específicos de Moodles remotos via MNet. Isto serve quando você oferece serviços SSO. Para controlar a habilidade dos seus usuários locais acessarem Moodles remotos, utilize o sistema de papéis para atribuir a permissão <em>mnetlogintoremote</em> aos usuários em questão.';
 $string['ssoaclneeds'] = 'Para que isto funcione é preciso ligar a opção Redes Moodle e configurar o plugin de autenticação nas redes autorizando a auto-inscrição de usuários.';
 $string['strict'] = 'Restrito';

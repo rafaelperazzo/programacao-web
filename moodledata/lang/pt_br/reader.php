@@ -27,5 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['hidden'] = 'Oculto';
 $string['keepoldquizzes'] = 'Manter questionários antigos';
+$string['sectionname'] = 'Nome da seção';
 $string['sectiontypehidden'] = 'Sessão oculta';
 $string['showhidden'] = 'Mostrar blocos ocultos';

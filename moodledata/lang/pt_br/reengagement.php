@@ -41,3 +41,34 @@ A duração do reengajamento é expressa como tamanho do período (ex. Semanas) 
 $string['emailcontent'] = 'Conteúdo do email (Usuário)';
 $string['emailcontentdefaultvalue'] = 'Este é um lembrete do curso %coursename%.';
 $string['emailcontent_help'] = 'O conteúdo deste campo é utilizado quando um módulo envia um email a um usuário.';
+$string['emailcontentmanager'] = 'Conteúdo do email (Gerente)';
+$string['emailcontentmanagerdefaultvalue'] = 'Este é um lembrete do curso %coursename%, a respeito do usuário %userfirstname% %userlastname%.';
+$string['emailcontentmanager_help'] = 'Quando o módulo envia um email á um gerente de usuário, ele usa o conteúdo deste campo.';
+$string['emaildelay'] = 'Atraso de email';
+$string['emaildelay_help'] = 'Quando o módulo é setado para enviar email para os usuários "após atraso", esta configuração controla quão longo é o atraso.';
+$string['emailrecipient'] = 'Destinatário(s)';
+$string['emailrecipient_help'] = 'Quando um email precisa ser enviado para incitar um usuário a reengajar com o curso, esta configuração controla se o email é enviado ao usuário, seu gerente, ou ambos.';
+$string['emailsubject'] = 'Assunto(Usuário)';
+$string['emailsubject_help'] = 'Quando o módulo envia email á um usuário, ele usa este campo como assunto.';
+$string['emailsubjectmanager'] = 'Assunto (Gerente)';
+$string['emailsubjectmanager_help'] = 'Quando um módulo envia email á um gerente de usuário, ele usa este campo como assunto.';
+$string['emailtime'] = 'Hora do email';
+$string['emailuser'] = 'Usuário do email';
+$string['emailuser_help'] = 'Quando a atividade deve enviar email á usuários: <ul>
+<li>Nunca: Não envie emails.</li>
+<li>Na conclusão do reengajamento: Envie email quando a atividade de reengajamento for concluída.</li>
+<li>Após atraso: Envie email certo tempo após ele ter iniciado o módulo.</li>
+</ul>';
+$string['frequencytoohigh'] = 'O número máximo de lembretes com o período de atraso setado é {$a}.';
+$string['hours'] = 'Horas';
+$string['introdefaultvalue'] = 'Esta é uma atividade de reengajamento. Seu propósito é impor um lapso de tempo entre atividade que precedam ele, e as atividades seguintes.';
+$string['minutes'] = 'Minutos';
+$string['modulename'] = 'Reengajamento';
+$string['modulenameplural'] = 'Reengajamentos';
+$string['never'] = 'Nunca';
+$string['noemailattimex'] = 'A mensagem agendada para {$a} não será enviada porque você não completou a atividade de destino';
+$string['nosuppresstarget'] = 'Nenhuma atividade de destino selecionada';
+$string['oncompletion'] = 'Ao completar o reengajamento';
+$string['periodtoolow'] = 'O intervalo está muito pequeno - ele deve ser ao menos 5 minutos.';
+$string['pluginname'] = 'Reengajamento';
+$string['receiveemailattimex'] = 'A mensagem será enviado ás {$a}.';

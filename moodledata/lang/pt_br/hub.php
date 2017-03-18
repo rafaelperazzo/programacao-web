@@ -116,6 +116,7 @@ $string['language_help'] = 'O idioma principal do curso.';
 $string['lasttimechecked'] = 'Última verificação';
 $string['licence'] = 'Licença';
 $string['licence_help'] = 'Selecione a licença com a qual você deseja distribuir o seu curso.';
+$string['licence_link'] = 'licenças';
 $string['logourl'] = 'Link do logo';
 $string['modulenumberaverage'] = 'Número médio de módulos do curso ({$a})';
 $string['moodleorg'] = 'Moodle';
