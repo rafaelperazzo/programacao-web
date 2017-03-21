@@ -1,0 +1,72 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-33.333)
+Incorrect program result
+ --- Input ---
+> 8
+>-1
+>-1
+>0
+>-1
+>-1
+>-1
+>0
+>-1
+
+ --- Program output ---
+>  File "questao2.py", line 1
+>SyntaxError: Non-ASCII character '\xc3' in file questao2.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (text)---
+> '[2, 1, 0, 1, 2, 1, 0, 1]'
+
+-Test 2: Teste 2 (-33.333)
+Incorrect program result
+ --- Input ---
+> 13
+>-1
+>0
+>-1
+>-1
+>-1
+>-1
+>-1
+>-1
+>-1
+>-1
+>0
+>-1
+>-1
+
+ --- Program output ---
+>  File "questao2.py", line 1
+>SyntaxError: Non-ASCII character '\xc3' in file questao2.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (text)---
+> '[1, 0, 1, 2, 3, 4, 4, 3, 2, 1, 0, 1, 2]'
+
+-Test 3: Teste 3 (-33.333)
+Incorrect program result
+ --- Input ---
+> 6
+>0
+>-1
+>-1
+>-1
+>-1
+>-1
+
+ --- Program output ---
+>  File "questao2.py", line 1
+>SyntaxError: Non-ASCII character '\xc3' in file questao2.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (text)---
+> '[0, 1, 2, 3, 4, 5]'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
