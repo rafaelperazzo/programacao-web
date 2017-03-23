@@ -1,8 +1,49 @@
-O:8:"stdClass":9:{s:7:"modinfo";a:8:{i:443;O:8:"stdClass":11:{s:2:"id";s:2:"85";s:2:"cm";s:3:"443";s:3:"mod";s:5:"label";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"12";s:5:"added";s:10:"1489416063";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:56:"Inscrições abertas até dia 20/03/2017!
+O:8:"stdClass":9:{s:7:"modinfo";a:10:{i:443;O:8:"stdClass":11:{s:2:"id";s:2:"85";s:2:"cm";s:3:"443";s:3:"mod";s:5:"label";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"12";s:5:"added";s:10:"1489416063";s:7:"visible";s:1:"0";s:10:"visibleold";s:1:"0";s:4:"name";s:56:"Inscrições abertas até dia 20/03/2017!
 Prova: 21/...";s:7:"content";s:541:"<div class="no-overflow"><p style="text-align: center;"><span style="font-size: large;"><strong>Inscrições abertas até dia 20/03/2017!<br /></strong></span></p>
 <p style="text-align: center;"><span style="font-size: large;"><strong>Prova: <span style="color: #000080;">21/03/2017</span> (terça-feira) as 8<span style="color: #000080;">:00</span>. Local: Sala i102.</strong></span></p>
-<p style="text-align: center;"><strong><span style="font-size: large; color: #ff0000;">Tragam seus notebooks, se possível!!</span></strong></p></div>";}i:442;O:8:"stdClass":10:{s:2:"id";s:1:"8";s:2:"cm";s:3:"442";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:1:"9";s:5:"added";s:10:"1489415770";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:19:"Fórum de notícias";}i:447;O:8:"stdClass":10:{s:2:"id";s:2:"57";s:2:"cm";s:3:"447";s:3:"mod";s:4:"page";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"15";s:5:"added";s:10:"1489428443";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:20:"Informações gerais";}i:473;O:8:"stdClass":10:{s:2:"id";s:3:"123";s:2:"cm";s:3:"473";s:3:"mod";s:3:"vpl";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"23";s:5:"added";s:10:"1490011363";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:33:"Ambiente Virtual de Programação";}i:448;O:8:"stdClass":11:{s:2:"id";s:2:"86";s:2:"cm";s:3:"448";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"12";s:5:"added";s:10:"1489512882";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:54:"Quaisquer dúvidas no envio, favor me procurar
+<p style="text-align: center;"><strong><span style="font-size: large; color: #ff0000;">Tragam seus notebooks, se possível!!</span></strong></p></div>";}i:442;O:8:"stdClass":10:{s:2:"id";s:1:"8";s:2:"cm";s:3:"442";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:1:"9";s:5:"added";s:10:"1489415770";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:19:"Fórum de notícias";}i:447;O:8:"stdClass":10:{s:2:"id";s:2:"57";s:2:"cm";s:3:"447";s:3:"mod";s:4:"page";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"15";s:5:"added";s:10:"1489428443";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:20:"Informações gerais";}i:473;O:8:"stdClass":10:{s:2:"id";s:3:"123";s:2:"cm";s:3:"473";s:3:"mod";s:3:"vpl";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"23";s:5:"added";s:10:"1490011363";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:33:"Ambiente Virtual de Programação";}i:477;O:8:"stdClass":11:{s:2:"id";s:2:"91";s:2:"cm";s:3:"477";s:3:"mod";s:5:"label";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"12";s:5:"added";s:10:"1490118177";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:56:"RESULTADO FINAL
+
+
+
+Matrícula
+Classificação
+N...";s:7:"content";s:1141:"<div class="no-overflow"><p style="text-align: center;"><span style="text-decoration: underline;"><span style="font-size: large;"><strong>RESULTADO FINAL</strong></span></span></p>
+<table border="1">
+<tbody>
+<tr>
+<td><strong>Matrícula</strong></td>
+<td><strong>Classificação</strong></td>
+<td><strong>Nota Final</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">390729</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr>
+<td style="text-align: center;">381415</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">98</td>
+</tr>
+<tr>
+<td style="text-align: center;">390764</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">97</td>
+</tr>
+<tr>
+<td style="text-align: center;">390762</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">83</td>
+</tr>
+<tr>
+<td style="text-align: center;">381392</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">81</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: large;"> </span></p></div>";}i:476;O:8:"stdClass":10:{s:2:"id";s:2:"62";s:2:"cm";s:3:"476";s:3:"mod";s:4:"page";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"15";s:5:"added";s:10:"1490118155";s:7:"visible";s:1:"0";s:10:"visibleold";s:1:"0";s:4:"name";s:21:"Resultado preeliminar";}i:448;O:8:"stdClass":11:{s:2:"id";s:2:"86";s:2:"cm";s:3:"448";s:3:"mod";s:5:"label";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"12";s:5:"added";s:10:"1489512882";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:54:"Quaisquer dúvidas no envio, favor me procurar
 Sal...";s:7:"content";s:192:"<div class="no-overflow"><p>Quaisquer dúvidas no envio, favor me procurar</p>
 <p>Sala 12, Bloco I, piso superior.</p>
 <p>rafael.mota@ufca.edu.br</p>
-<p>(88) 99685-9555 (whatsapp)</p></div>";}i:444;O:8:"stdClass":10:{s:2:"id";s:1:"1";s:2:"cm";s:3:"444";s:3:"mod";s:6:"assign";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"46";s:6:"module";s:1:"1";s:5:"added";s:10:"1489424913";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:23:"Envio de Documentação";}i:445;O:8:"stdClass":10:{s:2:"id";s:2:"29";s:2:"cm";s:3:"445";s:3:"mod";s:4:"quiz";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"16";s:5:"added";s:10:"1489426343";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:32:"PARTE 1/2 - Avaliação PID 2017";}i:446;O:8:"stdClass":11:{s:2:"id";s:3:"118";s:2:"cm";s:3:"446";s:3:"mod";s:3:"vpl";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"23";s:5:"added";s:10:"1489427764";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:12:"availability";s:71:"{"op":"&","c":[{"type":"date","d":">=","t":1490094900}],"showc":[true]}";s:4:"name";s:29:"PARTE 2/2 - Questão prática";}}s:12:"sectioncache";a:3:{i:0;O:8:"stdClass":3:{s:2:"id";s:2:"45";s:4:"name";N;s:12:"availability";N;}i:1;O:8:"stdClass":3:{s:2:"id";s:2:"46";s:4:"name";s:14:"Documentação";s:12:"availability";N;}i:2;O:8:"stdClass":3:{s:2:"id";s:2:"47";s:4:"name";s:5:"Prova";s:12:"availability";N;}}s:9:"shortname";s:8:"SELPID17";s:8:"fullname";s:20:"Seleção - PID 2017";s:6:"format";s:6:"topics";s:16:"enablecompletion";s:1:"0";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1490105608";}
+<p>(88) 99685-9555 (whatsapp)</p></div>";}i:444;O:8:"stdClass":10:{s:2:"id";s:1:"1";s:2:"cm";s:3:"444";s:3:"mod";s:6:"assign";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"46";s:6:"module";s:1:"1";s:5:"added";s:10:"1489424913";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:23:"Envio de Documentação";}i:445;O:8:"stdClass":10:{s:2:"id";s:2:"29";s:2:"cm";s:3:"445";s:3:"mod";s:4:"quiz";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"16";s:5:"added";s:10:"1489426343";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:4:"name";s:32:"PARTE 1/2 - Avaliação PID 2017";}i:446;O:8:"stdClass":11:{s:2:"id";s:3:"118";s:2:"cm";s:3:"446";s:3:"mod";s:3:"vpl";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"23";s:5:"added";s:10:"1489427764";s:7:"visible";s:1:"1";s:10:"visibleold";s:1:"1";s:12:"availability";s:71:"{"op":"&","c":[{"type":"date","d":">=","t":1490094900}],"showc":[true]}";s:4:"name";s:29:"PARTE 2/2 - Questão prática";}}s:12:"sectioncache";a:3:{i:0;O:8:"stdClass":3:{s:2:"id";s:2:"45";s:4:"name";N;s:12:"availability";N;}i:1;O:8:"stdClass":3:{s:2:"id";s:2:"46";s:4:"name";s:14:"Documentação";s:12:"availability";N;}i:2;O:8:"stdClass":3:{s:2:"id";s:2:"47";s:4:"name";s:5:"Prova";s:12:"availability";N;}}s:9:"shortname";s:8:"SELPID17";s:8:"fullname";s:20:"Seleção - PID 2017";s:6:"format";s:6:"topics";s:16:"enablecompletion";s:1:"0";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1490271743";}

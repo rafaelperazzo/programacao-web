@@ -1,0 +1,4 @@
+from __future__ import division
+#INICIE SEU CÓDIGO AQUI 
+n = float(input(5.8745)
+inteiro = 
