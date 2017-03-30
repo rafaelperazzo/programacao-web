@@ -71,4 +71,24 @@ $string['nosuppresstarget'] = 'Nenhuma atividade de destino selecionada';
 $string['oncompletion'] = 'Ao completar o reengajamento';
 $string['periodtoolow'] = 'O intervalo está muito pequeno - ele deve ser ao menos 5 minutos.';
 $string['pluginname'] = 'Reengajamento';
-$string['receiveemailattimex'] = 'A mensagem será enviado ás {$a}.';
+$string['receiveemailattimex'] = 'A mensagem será enviada em {$a}.';
+$string['reengagement'] = 'reengajamento';
+$string['reengagement:addinstance'] = 'reengagement:addinstance';
+$string['reengagementduration'] = 'Duração do reengajamento';
+$string['reengagement:editreengagementduration'] = 'Editar Duração do Reengajamento';
+$string['reengagementfieldset'] = 'Detalhes do reengajamento';
+$string['reengagementintro'] = 'Introdução do reengajamento';
+$string['reengagementname'] = 'Nome do Reengajamento';
+$string['reengagementsinprogress'] = 'Reengajamentos em progresso';
+$string['reengagement:startreengagement'] = 'Iniciar Reengajamento';
+$string['remindercount'] = 'Contador do lembrete';
+$string['remindercount_help'] = 'Este é o número de vezes um e-mail é enviado após cadas período de atraso. Existem algumas limitações nos valores possíveis.<ul>
+<li>menos de 24 hrs - limite de 2 lembretes.</li>
+<li>menos de 5 dias - limite de 10 lembretes.</li>
+<li>menos de 15 dias - limite de 26 lembretes.</li>
+<li>acima de 15 dias - limite máximo de 40 lembretes.</li></ul>';
+$string['search:activity'] = 'Reengajamento - Informação sobre a atividade';
+$string['suppresstarget'] = 'Atividade de destino.';
+$string['suppresstarget_help'] = 'Use este menu suspenso para escolher qual atividade deve ter a conclusão verificada antes de enviar o e-mail de lembrete.';
+$string['userandmanager'] = 'Usuário e Gerente';
+$string['weeks'] = 'Semanas';

@@ -1,0 +1,33 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>Informe o valor de f: Informe o valor de L: Informe o valor de Q: Informe o valor de deltaH: Informe o valor de V: 0.0486
+>17034946.4168
+>0.0105
+
+ --- Expected output (regular expression)---
+>.*5[.]+609[0-9]*
+>.*12[.]+893[0-9]*
+>.*123[.]+901[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

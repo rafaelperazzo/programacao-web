@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['auth_ipdescription'] = 'Plugin de autenticação que restringe a possibilidade de autenticação aos IPs definidos';
 $string['auth_ipexampleips'] = 'Lista de IPs em formato separado por vírgulas. Exemplos: X.X.X.X. o X.X.X.X, Y.Y.Y.Y';
+$string['auth_ipmailsubject'] = 'IPs alterados no plugin de autenticação por IP';
+$string['auth_ipmailtext'] = 'Os IPs aceitos pelo plugin de autenticação por IP foram atualizados.';
 $string['auth_ipvalidips'] = 'IPs válidos';
 $string['pluginname'] = 'Autenticação por IP';

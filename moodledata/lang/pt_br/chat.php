@@ -125,6 +125,7 @@ $string['repeattimes'] = 'Repetir sessões';
 $string['repeatweekly'] = 'No mesmo horário cada semana';
 $string['saidto'] = 'disse para';
 $string['savemessages'] = 'Salvar as sessões encerradas';
+$string['search:activity'] = 'Chat - informações da atividade';
 $string['seesession'] = 'Ver esta sessão';
 $string['send'] = 'Enviar';
 $string['sending'] = 'Enviando';

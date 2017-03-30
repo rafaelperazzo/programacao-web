@@ -489,10 +489,25 @@ $string['modgradecantchangegradetypemsg'] = 'Algumas notas já foram atribuídas
 $string['modgradecantchangegradetyporscalemsg'] = 'Algumas notas já foram atribuídas, de modo que a nota e o tipo de escala não podem ser alterados.';
 $string['modgradecantchangeratingmaxgrade'] = 'Você não pode alterar a nota máxima quando as notas já existem para uma atividade com avaliações.';
 $string['modgradecantchangescale'] = 'Você não pode mudar a escala, pois já existem notas para este item';
+$string['modgradecategorycantchangegradetypemsg'] = 'Esta categoria possui itens de avaliação que foram ajustados. Por conseguinte, como algumas notas já foram atribuídas, o tipo de nota não pode ser alterado. Se pretender alterar a nota máxima, deve primeiro escolher se quer ou não reajustar as notas já existentes.';
+$string['modgradecategorycantchangegradetyporscalemsg'] = 'Esta categoria possui itens de avaliação que foram ajustados. Por conseguinte, como algumas notas já foram atribuídas, o tipo de nota e a escala não podem ser alterados.';
+$string['modgradecategoryrescalegrades'] = 'Recalcular ajustamento de notas';
+$string['modgradecategoryrescalegrades_help'] = 'Ao alterar as notas máximas de um item da pauta, deve indicar se pretende que esta ação altere, ou não, a percentagem das notas já existentes.
+
+Se definir esta configuração como \'Sim\', quaisquer notas reajustadas já existentes serão novamente reajustadas para que a percentagem da nota permaneça igual.
+
+Por exemplo, se esta configuração for definida como \'Sim\', ao mudar a nota máxima de um item de 10 para 20, isto levaria a que uma nota de 6/10 (60%) fosse ajustada para 12/20 (60%). Se esta configuração for definida como \'Não\', a nota permanecerá inalterada, o que requer um ajuste manual dos itens de avaliação para garantir pontuações corretas.';
+$string['modgradedonotmodify'] = 'Não modificar as notas existentes';
 $string['modgradeerrorbadpoint'] = 'Valor da nota inválido. Este valor deve ser um inteiro entre 1 e {$a}';
 $string['modgradeerrorbadscale'] = 'Escala selecionada inválida. Por favor, certifique-se de selecionar uma escala das opções abaixo.';
 $string['modgrade_help'] = 'Selecione o tipo de notas (escala ou pontos) que será utilizado nesta atividade. Esta escolha habilitará os itens (escala ou pontos) nos quais pode ser escolhida a escala ou a pontuação máxima, conforme o caso.';
 $string['modgrademaxgrade'] = 'Pontuação máxima';
+$string['modgraderescalegrades'] = 'Reajustar notas existentes';
+$string['modgraderescalegrades_help'] = 'Ao alterar as notas máximas de um item da pauta, deve indicar se pretende que esta ação altere, ou não, a percentagem das notas já existentes.
+
+Se definir esta configuração como \'Sim\', quaisquer notas existentes serão reajustadas para que a percentagem da nota permaneça igual.
+
+Por exemplo, se esta configuração for definida como \'Sim\', ao mudar a nota máxima de um item de 10 para 20, isto levaria a que uma nota de 6/10 (60%) fosse ajustada para 12/20 (60%). Se esta configuração for definida como \'Não\', a nota passará de 6/10 (60%) para 6/20 (30%), o que requer um ajuste manual dos itens de avaliação para garantir pontuações corretas.';
 $string['modgradetype'] = 'Tipo';
 $string['modgradetypenone'] = 'Nenhum';
 $string['modgradetypepoint'] = 'Pontos';
@@ -503,6 +518,7 @@ $string['movingelement'] = 'Movendo {$a}';
 $string['multfactor'] = 'Multiplicador';
 $string['multfactor_help'] = '<p>Fator pelo qual todas as notas desse item serão multiplicadas.</p>';
 $string['multfactorvalue'] = 'Valor Multiplicador {$a}';
+$string['mustchooserescaleyesorno'] = 'Deve selecionar se pretende, ou não, reajustar as notas existentes.';
 $string['mygrades'] = 'Link notas do menu do usuário';
 $string['mygrades_desc'] = 'Esta configuração permite a opção de acionar um livro de notas externo a partir do menu do usuário.';
 $string['mypreferences'] = 'Minhas preferências';
@@ -617,6 +633,7 @@ $string['rawpct'] = 'Bruto %';
 $string['real'] = 'Real';
 $string['realletter'] = 'Real (letra)';
 $string['realpercentage'] = 'Real (porcentagem)';
+$string['recalculatinggrades'] = 'A recalcular as notas';
 $string['recovergradesdefault'] = 'Recuperar notas antigas';
 $string['recovergradesdefault_help'] = 'Por padrão recuperar notas antigas ao reinscrever um aluno em um curso';
 $string['refreshpreview'] = 'Atualizar pré-visualização';

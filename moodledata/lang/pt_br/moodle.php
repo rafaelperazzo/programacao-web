@@ -366,6 +366,7 @@ $string['courselegacyfiles'] = 'Arquivos de curso legados';
 $string['courselegacyfiles_help'] = 'A área de arquivos do curso oferece alguma compatibilidade com o Moodle 1.9 e versões anteriores. Todos os arquivos nesta área são acessíveis a todos os participantes do curso (se você fizer links para eles ou não) e não há maneira de saber onde qualquer um desses arquivos estão sendo usados no Moodle.
 
 Se você usar esse espaço para armazenar arquivos do curso, você pode se expor a uma série de riscos de privacidade e segurança, bem como tendo arquivos perdidos em backups e importações de curso e quaisquer conteúdos podem ser compartilhados ou reutilizados a qualquer momento. Por isso, é recomendável que você não use esta área a menos que você realmente saiba o que está fazendo.';
+$string['courselegacyfiles_link'] = 'coursefiles2';
 $string['courselegacyfilesofcourse'] = 'Arquivos legados do curso: {$a}';
 $string['coursemessage'] = 'Mensagem para usuários do curso';
 $string['coursenotaccessible'] = 'Este curso não permite acesso público (usuários não inscritos)';
@@ -373,7 +374,7 @@ $string['courseoverview'] = 'Descrição do curso';
 $string['courseoverviewfiles'] = 'Arquivos de resumo do curso';
 $string['courseoverviewfilesext'] = 'Arquivos de resumo de extensões do curso';
 $string['courseoverviewfiles_help'] = 'Arquivos de resumo do curso, tais como imagens, são exibidas na lista de cursos juntamente com o resumo.';
-$string['courseoverviewfileslimit'] = 'Arquivos de resumo do curso limitar';
+$string['courseoverviewfileslimit'] = 'Limita os arquivos de resumo do curso';
 $string['courseoverviewgraph'] = 'Gráfico de visão geral do curso';
 $string['courseprofiles'] = 'Cursos inscritos';
 $string['coursereasonforrejecting'] = 'Seus motivos para rejeitar esta solicitação';
@@ -497,6 +498,7 @@ $string['deletechecktype'] = 'Você tem certeza que quer apagar este {$a->type}?
 $string['deletechecktypename'] = 'Você tem certeza que quer apagar o {$a->type} "{$a->name}"?';
 $string['deletecheckwarning'] = 'Você vai excluir estes arquivos';
 $string['deletecomment'] = 'Excluir este comentário';
+$string['deletecommentbyon'] = 'Excluír o comentário publicado por {$a->user} em {$a->time}';
 $string['deletecompletely'] = 'Excluir completamente';
 $string['deletecourse'] = 'Excluir um curso';
 $string['deletecoursecheck'] = 'Tem certeza que quer excluir completamente este curso e todos os seus dados?';

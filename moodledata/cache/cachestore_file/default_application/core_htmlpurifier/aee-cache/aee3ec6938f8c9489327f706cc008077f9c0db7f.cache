@@ -1,0 +1,31 @@
+s:900:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5.672345
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Informe um número:O valor real é: 5
+O valor fracionário é: 0.672345
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*5
+.*0\.6[0-9]*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10.25
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Informe um número:O valor real é: 10
+O valor fracionário é: 0.250000
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*10
+.*0\.25[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

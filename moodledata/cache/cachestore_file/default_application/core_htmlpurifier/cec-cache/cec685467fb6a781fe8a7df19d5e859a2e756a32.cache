@@ -1,0 +1,9 @@
+s:476:"<p>A agregação determina como as notas em uma categoria são combinadas, como:</p>
+
+<ul><li>Média das notas - A soma de todas as notas dividida pelo número total  de notas</li>
+<li>Mediana das notas - A nota mediana quando as notas são ordenadas por tamanho</li>
+<li>Menor nota</li>
+<li>Maior nota</li>
+<li>Moda das notas - A nota que ocorre mais frequentemente</li>
+<li>Soma das notas - A soma de todos os valores de notas, com notas em escala sendo ignoradas</li>
+</ul>";

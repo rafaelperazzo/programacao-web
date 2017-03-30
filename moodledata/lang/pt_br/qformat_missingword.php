@@ -30,3 +30,4 @@ $string['endanswernotfound'] = 'Não foi possível encontrar o caractere obrigat
 $string['noanswerfound'] = 'Nenhuma resposta encontrada para a questão';
 $string['pluginname'] = 'Faltando formato da palavra';
 $string['pluginname_help'] = 'Formato de texto faltante habilita questões a serem importadas via arquivo texto.';
+$string['pluginname_link'] = 'Formato palavra em falta';

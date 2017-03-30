@@ -1,0 +1,25 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>Digite o valor de f:Digite o valor de L:Digite o valor de Q:Digite o valor de deltaH:Digite o valor de v:Traceback (most recent call last):
+>  File "swamee.py", line 12, in <module>
+>    K=(0.25)/(( math.log10*(e/(3.7*D))+(5.74/(Rey**0.9))))**2
+>TypeError: unsupported operand type(s) for *: 'builtin_function_or_method' and 'float'
+
+ --- Expected output (regular expression)---
+>.*5[.]+609[0-9]*
+>.*12[.]+893[0-9]*
+>.*123[.]+901[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -26,6 +26,9 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['eventgradereportviewed'] = 'Relatório de notas do usuário visualizado';
+$string['myself'] = 'Própria';
+$string['otheruser'] = 'Usuário';
 $string['pluginname'] = 'Relatório do usuário';
 $string['tablesummary'] = 'A tabela está organizada como uma lista de itens graduados incluindo categorias de itens graduados.  Quando os itens estiverem incluídos em uma categoria, eles serão indicados desta maneira.';
 $string['user:view'] = 'Visualizar o relatório das suas notas';
+$string['viewas'] = 'Ver relatório como';

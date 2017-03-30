@@ -37,6 +37,7 @@ $string['pluginname'] = 'Escolha de palavra';
 $string['pluginnameadding'] = 'Adicionando uma questão de escolha de palavra';
 $string['pluginnameediting'] = 'Editando uma questão de escolha de palavra';
 $string['pluginname_help'] = 'Coloque delimitadores ao redor de palavras cosideradas corretas, por exemplo: O gato [deitou] no tapete. Ao responder, o usuário pode selecionar quaisquer palavras exceto aquelas da introdução.';
+$string['pluginname_link'] = 'Wordselect_question_type';
 $string['pluginnamesummary'] = 'Todas as palavras podem ser selecionadas clicando nelas. Palavras corretas são definidas sendo colocadas entre delimitadores, por exemplo: O gato [deitou] no tapete.';
 $string['questiontext'] = 'texto da questão';
 $string['questiontext_help'] = 'Coloque colchetes ao redor das palavras corretas';

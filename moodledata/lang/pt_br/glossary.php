@@ -332,6 +332,8 @@ $string['rsstype_help'] = '<P>Esta opção permite que sejam criados alimentador
 <LI><B>Sem autor -</B> os alimentadores criados não incluem
        o nome do autor em nenhum artigo.</li>
 </UL>';
+$string['search:activity'] = 'Glossário - informações da atividade';
+$string['search:entry'] = 'Glossário - termos';
 $string['searchindefinition'] = 'Buscar em todo o texto';
 $string['secondaryglossary'] = 'Glossário secundário';
 $string['showall'] = 'Mostrar o link \'TODOS\'';

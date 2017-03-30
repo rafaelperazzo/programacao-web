@@ -1,0 +1,23 @@
+s:562:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite f:Digite L:Digite Q:Digite deltaH:Digite v:D=1.7382
+Rey=476122.1893
+k=0.0132
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*5[.]+609[0-9]*
+.*12[.]+893[0-9]*
+.*123[.]+901[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

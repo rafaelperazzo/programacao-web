@@ -39,10 +39,19 @@ $string['config_clock_visibility_help'] = '<p>Com essa configuração, você pod
 $string['config_day'] = 'Exibir nome do dia';
 $string['config_day_help'] = '<p> Mostrando o nome do dia acrescenta informação adicional para os alunos que podem estar em um fuso horário de um dia mais cedo ou mais tarde. </ p>';
 $string['config_header'] = 'Exibir cabeçalho';
+$string['config_header_help'] = '<p>Com esta configuração, é possível controlar se o cabeçalho do bloco, incluindo o título, será mostrado.</p>
+<p style="background:yellow;border:3px dashed black;padding:10px;"><strong>Nota</strong><br />
+Quando a "Edição" é ativada, o cabeçalho do bloco será mostrado a professores/administradores.
+Quando a "Edição" é desativada, o cabeçalho será ocultado.
+Se selecionar a opção "Não", os alunos não irão ver o cabeçalho, independentemente de a "Edição" estar ativada ou desativada.</p>';
 $string['config_icons'] = 'Exibir ícones';
 $string['config_icons_help'] = '<p>Com essa configuração, você pode controlar se os ícones serão exibidos ao lado de cada rótulo do relógio.</p>
 <p>O ícone do site é exibido ao lado do rótulo do "servidor". A imagem do ícone do usuário é exibida ao lado de seu relógio.</p>';
 $string['config_seconds'] = 'Exibir segundos';
+$string['config_seconds_help'] = '<p>Mostrar os segundos irá mostrar aos usuários a hora incluindo segundos em todos os relógios visíveis.</p>
+<p style="background:yellow;border:3px dashed black;padding:10px;"><strong>Aviso</strong><br />
+A hora mostrada inicialmente é a de quando a página foi criada.
+Quando o conteúdo desta página chega ao navegador do usuário, a diferença temporal inclui um atraso (normalmente de alguns segundos). Isto é na maioria das vezes aceitável, uma vez que qualquer interação com o Moodle envolve um atraso, mas esse atraso será mais evidente com os segundos a serem mostrados.</p>';
 $string['config_show_both_clocks'] = 'Mostrar relógios para servidor e usuário';
 $string['config_show_server_clock'] = 'Mostrar relógio apenas para servidor';
 $string['config_show_user_clock'] = 'Mostrar relógio somente para usuário';

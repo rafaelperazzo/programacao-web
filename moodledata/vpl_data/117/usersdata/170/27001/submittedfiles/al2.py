@@ -1,0 +1,5 @@
+n=float(input('digite um número real:'))
+i=int(n)
+r=(n-i)
+print('valor inteiro: %d'%i)
+print('parte fraciuonária: %.3f'%r)

@@ -1,0 +1,11 @@
+s:839:"<p>Joe, se tu perceber, na parte do denominador do K, o professor da a dica para usar :</p>
+<p>"<strong>O logaritmo na base 10 pode ser calculado com o comando:</strong></p>
+<p><strong>math.log10(expressao)</strong></p>
+<p><strong>Ex:</strong></p>
+<p><strong><em>math.log10(a*b)</em></strong></p>
+<p><strong>calcula o logaritmo na base 10 da expressão a*b."</strong></p>
+<p>Como tu fez <strong>((math.log10*(e/(3.7*D))+(5.74/(Rey**0.9))))**2</strong></p>
+<p>Acho que tu não deveria colocar o * depois do math.log10. e ao invés de ser + tu tem que colocar *, porque a expressão <strong>(e/(3.7*D) é como se fosse o a e <strong>(Rey**0.9) é o b. Logo, teria que ficar </strong></strong></p>
+<pre class="vpl_sh vpl_g">K=(0.25)/( (math.log10(E/(3.7*D))*((5.74)/Rey**0.9)))
+</pre>
+<p> Pelo menos no meu assim deu certo.</p>";

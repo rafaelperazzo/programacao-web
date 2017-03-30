@@ -27,4 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Alternar tela cheia';
 $string['requireedit'] = 'Exigir Edição';
+$string['requireedit_desc'] = 'Requerer permissão para gerenciar as atividades antes de mostrar o botão de tela cheia';
 $string['settings'] = 'Configurações de tela cheia';

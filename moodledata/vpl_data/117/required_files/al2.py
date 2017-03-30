@@ -1,2 +1,1 @@
-from __future__ import division
-#INICIE SEU CÓDIGO AQUI 
+# -*- coding: utf-8 -*-

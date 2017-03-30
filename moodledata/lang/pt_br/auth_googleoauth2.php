@@ -34,6 +34,9 @@ $string['auth_githubclientsecret_key'] = 'Segredo de cliente Github';
 $string['auth_googleclientid_key'] = 'ID de cliente Google';
 $string['auth_googleclientsecret_key'] = 'Segredo de cliente Google';
 $string['auth_googleipinfodbkey_key'] = 'Chave IPinfoDB';
+$string['auth_googleoauth2description'] = 'Permitir que um usuário se ligue ao site com um fornecedor de autenticação externa: Google/Facebook.
+A primeira vez que o usuário se ligar ao fornecedor de autenticação, uma nova conta é criada.
+<b>Deve</b> desmarcar a opção Prevenir criação de conta (configuração de administrador: authpreventaccountcreation ) ao autenticar.';
 $string['auth_googlesettings'] = 'Configurações';
 $string['auth_googleuserprefix'] = 'A identificação do usuário (username) irá começar com este prefixo. Num site básico você não precisa mudar isto.';
 $string['auth_googleuserprefix_key'] = 'Prefixo da identificação do usuário';
@@ -45,6 +48,7 @@ Por favor, tente acessar utilizando sua identificação de usuário e senha.<br/
 <a href="{$a->forgotpass}">Esqueceu a senha</a>?';
 $string['couldnotgetgoogleaccesstoken'] = 'O provedor de autenticação nos comunicou um erro. Por favor, tente acessar novamente.';
 $string['emailaddressmustbeverified'] = 'O seu endereço de email não foi verificado pelo método de autenticação que você escolheu. É possível que você tenha esquecido de clicam em um link "verificar meu endereço de email" que o Google ou o Facebook devem ter enviado a você durante a assinatura daqueles serviços.';
+$string['faileduserdetails'] = 'O site conectou-se com sucesso ao fornecedor selecionado mas não conseguiu recuperar os seus dados de usuário. Se estiver usando o Google, verifique se o administrador do site ativou Google+ API no console de desenvolvimento do Google. É a razão mais comum para este erro.';
 $string['moreproviderlink'] = 'Acesse com outro serviço.';
 $string['noaccountyet'] = 'Você nao tem permissão de acessar o site ainda. Por favor, contate seu administrador e peça para ativar sua conta.';
 $string['oauth2displaybuttons'] = 'Mostrar botões na página de login';
