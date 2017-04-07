@@ -1,0 +1,24 @@
+s:750:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de f: Digite o valor de L: Digite o valor de Q: Digite o valor de DeltaH: Digite o valor de v: Traceback (most recent call last):
+  File "swamee.py", line 11, in &lt;module&gt;
+    D=(8*f*L*(Q**2))/((pi**2)*g*H)**(0.2)
+NameError: name 'pi' is not defined
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*1[.]+738[0-9]*
+.*476122[.]+189[0-9]*
+.*0[.]+013[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

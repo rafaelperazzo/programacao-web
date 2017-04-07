@@ -1,0 +1,42 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 10
+>45
+>2
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:2.0
+>10.0
+>45.0
+
+ --- Expected output (text)---
+> '2
+>10
+>45'
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 4
+>3
+>2
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:2.0
+>3.0
+>4.0
+
+ --- Expected output (text)---
+> '2
+>3
+>4'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

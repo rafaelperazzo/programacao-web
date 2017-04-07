@@ -1,0 +1,24 @@
+s:756:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de f:digite o valor de l:digite o valor de q:digite o valor de deltaH:digite o valor de v:Traceback (most recent call last):
+  File "swamee.py", line 6, in &lt;module&gt;
+    d=((8*f*l*q**2)/(math.pi**2)*9.81*deltaH)**1/5
+NameError: name 'math' is not defined
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*1[.]+738[0-9]*
+.*476122[.]+189[0-9]*
+.*0[.]+0132[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+a=float(input('digite o 1° número:'))
+b=float(input('digite o 2° número:'))
+c=float(input('digite o 3° número:'))
+ifa>=b
+  print(b)
+    

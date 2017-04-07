@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+a=float(input('digite um numero:')
+b=float(input('digite outro numero:')
+c(float(input('digite outro numero:')
+if a<b<c:
+    print('%f'%abc)

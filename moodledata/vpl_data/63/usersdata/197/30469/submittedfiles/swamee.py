@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+import math
+#COMECE SEU CÓDIGO AQUI
+f=float(input('Digite o valor de f:'))
+l=float(input('Digite o valor de l:'))
+q=float(input('Digite o valor de q:'))
+deltah=float(input('Digite o valor de deltah:'))
+v=float(input('Digite o valor de v:'))
+g=9.81
+e=0.000002
+math.pi
+D=((8*f*l*q*q)/((math.pi**2)*g*deltah))**(1/5)
+print('%.4f'%D)

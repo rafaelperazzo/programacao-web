@@ -1,0 +1,23 @@
+s:515:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 123.56
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor a ser sacado:Notas de vinte: 6
+Notas de dez: 0
+Notas de cinco: 0
+Notas de dois: 1
+Notas de um: 3
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>6
+0
+0
+1
+1
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

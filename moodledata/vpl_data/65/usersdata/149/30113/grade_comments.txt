@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>digite o valor inicial do seu investimento:digite o valor da taxa de crescimento anual:mês 1:-------> 1000.45
+>mês 2:-------> 1000.90
+>mês 3:-------> 1001.35
+>mês 4:-------> 1001.80
+>mês 5:-------> 1002.25
+>mês 6:-------> 1002.70
+>mês 7:-------> 1003.15
+>mês 8:-------> 1003.61
+>mês 9:-------> 1004.06
+>mês 10:------> 1004.51
+
+ --- Expected output (numbers)---
+>1045.00
+>1092.03
+>1141.17
+>1192.52
+>1246.18
+>1302.26
+>1360.86
+>1422.10
+>1486.10
+>1552.97
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

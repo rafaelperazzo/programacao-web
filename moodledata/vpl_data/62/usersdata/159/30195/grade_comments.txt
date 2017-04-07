@@ -1,0 +1,41 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite a: Digite b: Traceback (most recent call last):
+>  File "ex1.py", line 5, in <module>
+>    c = floart(input('Digite c: '))
+>NameError: name 'floart' is not defined
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite a: Digite b: Traceback (most recent call last):
+>  File "ex1.py", line 5, in <module>
+>    c = floart(input('Digite c: '))
+>NameError: name 'floart' is not defined
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

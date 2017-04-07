@@ -1,0 +1,30 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 20
+>10
+>40
+>100
+
+ --- Program output ---
+>Informe o primeiro número:Informe o segundo número:Informe o terceiro número:Informe o quarto número:100
+
+ --- Expected output (text)---
+> '100
+>10'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>10

@@ -1,0 +1,367 @@
+s:8871:"<p align="center">MÉTODO DA BISSEÇÃO</p>
+<p>                Assim como em qualquer equação matemática, o objetivo do método da Bisseção é encontrar o valor de x que zera a função f(x), assim encontramos a raiz da mesma. Em calculo numérico aprendemos a definir o zero da função, em funções que não possuem solução exata através de processos como o método da bisseção.</p>
+<p>                Assim, para determinar o f(x) com o método da bisseção, precisamos de que a função respeite a premissa de que precisa ser contínua. Com base nisso, a função precisa atender a um ponto além de ser contínua, em um intervalo [a,b] ela precisa que seus f(a) e f(b) possuam sinais opostos, assim:</p>
+<p>1)      f(a)&gt;0 e f(b)&lt;0 ou f(a)&lt;0 e f(b)&gt;0;</p>
+<p>2)      f(a).f(b)&lt;0</p>
+<p>Então, poderemos aplicar o método da bisseção.</p>
+<p> </p>
+<p>- PASSO A PASSO:</p>
+<p>1) Primeiramente escolhemos um intervalo contínuo na nossa função, e que além disso temos certeza que a raiz esteja ali presente. Ou seja os f(a) e f(b) precisam ter sinais opostos.</p>
+<p>2) Em um intervalo [a,b] achamos um elemento c, calculado pela equação:</p>
+<p>3) Então, analisaremos os sinais de f(a), f(b) e f(c). Para que possamos definir o novo intervalo [a,b], que é um intervalo menor e que possui o resultado que queremos encontrar (a raiz)</p>
+<p>4) Assim como no passo 1, o novo intervalo [a,b] precisa ter sinais opostos em f(a) e f(b). Dessa forma, o novo intervalo será definido por o ‘c’ calculado e um dos outros dois intervalos antigos que possuam o sinal oposto ao ‘c’ encontrado.</p>
+<p>5) A partir do primeiro teste, quando tivermos 2 ou mais ‘c’ calculados em cada teste, precisamos calcular o erro. O erro é calculado pela diferença numérica entre os ‘c’ dos dois últimos testes.</p>
+<p>6) Enfim, iremos diminuir o erro cada vez mais, para que no final do processo o erro seja menor do que aquele que foi pré-determinado pelo realizador do teste desde o início.</p>
+<p> </p>
+<p>- EXEMPLOS:</p>
+<p>(Os exemplos a seguir foram retirados do livro Métodos Numéricos para engenheiros e cientistas – Gilat)</p>
+<p>Exemplo 3.2</p>
+<p>Determine a raiz de f(x) = x² - e<sup>-x </sup>utilizando o método da bisseção. Comece com a=0 e b=1 e realize as cinco primeiras iterações.</p>
+<p> </p>
+<p>Será utilizado truncamento com 3 casas decimais</p>
+<table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td valign="bottom">
+<p>        i</p>
+</td>
+<td valign="bottom">
+<p>        a</p>
+</td>
+<td valign="bottom">
+<p>       b</p>
+</td>
+<td valign="bottom">
+<p>        c</p>
+</td>
+<td valign="bottom">
+<p>     f(a)</p>
+</td>
+<td valign="bottom">
+<p>     f[c]</p>
+</td>
+<td valign="bottom">
+<p>f(a).f[c]</p>
+</td>
+<td valign="bottom">
+<p>    Erro</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">0</p>
+</td>
+<td valign="bottom">
+<p align="center">0</p>
+</td>
+<td valign="bottom">
+<p align="center">1</p>
+</td>
+<td valign="bottom">
+<p align="center">0,5</p>
+</td>
+<td valign="bottom">
+<p align="center">-1</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,356</p>
+</td>
+<td valign="bottom">
+<p align="center">(+)</p>
+</td>
+<td valign="bottom">
+<p align="center">N/A</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">1</p>
+</td>
+<td valign="bottom">
+<p align="center">0,5</p>
+</td>
+<td valign="bottom">
+<p align="center">1</p>
+</td>
+<td valign="bottom">
+<p align="center">0,75</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,356</p>
+</td>
+<td valign="bottom">
+<p align="center">0,09</p>
+</td>
+<td valign="bottom">
+<p align="center">(-)</p>
+</td>
+<td valign="bottom">
+<p align="center">0,25</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">2</p>
+</td>
+<td valign="bottom">
+<p align="center">0,5</p>
+</td>
+<td valign="bottom">
+<p align="center">0,75</p>
+</td>
+<td valign="bottom">
+<p align="center">0,625</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,356</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,144</p>
+</td>
+<td valign="bottom">
+<p align="center">(+)</p>
+</td>
+<td valign="bottom">
+<p align="center">0,125</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">3</p>
+</td>
+<td valign="bottom">
+<p align="center">0,625</p>
+</td>
+<td valign="bottom">
+<p align="center">0,75</p>
+</td>
+<td valign="bottom">
+<p align="center">0,687</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,144</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,03</p>
+</td>
+<td valign="bottom">
+<p align="center">(+)</p>
+</td>
+<td valign="bottom">
+<p align="center">0,062</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">4</p>
+</td>
+<td valign="bottom">
+<p align="center">0,687</p>
+</td>
+<td valign="bottom">
+<p align="center">0,75</p>
+</td>
+<td valign="bottom">
+<p align="center">0,718</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,03</p>
+</td>
+<td valign="bottom">
+<p align="center">0,029</p>
+</td>
+<td valign="bottom">
+<p align="center">(-)</p>
+</td>
+<td valign="bottom">
+<p align="center">0,031</p>
+</td>
+</tr><tr><td valign="bottom">
+<p align="center">5</p>
+</td>
+<td valign="bottom">
+<p align="center">0,687</p>
+</td>
+<td valign="bottom">
+<p align="center">0,718</p>
+</td>
+<td valign="bottom">
+<p align="center">0,703</p>
+</td>
+<td valign="bottom">
+<p align="center">-0,03</p>
+</td>
+<td valign="bottom">
+<p align="center">0,029</p>
+</td>
+<td valign="bottom">
+<p align="center">(-)</p>
+</td>
+<td valign="bottom">
+<p align="center">0,015</p>
+</td>
+</tr></tbody></table><p> </p>
+<p>O resultado obtido para a raiz da função após as 5 iterações é 0,703 (o último ponto médio calculado).</p>
+<p> </p>
+<p>Exemplo 3.7</p>
+<p>Determine uma das raízes da equação x³ + 12x² - 100x -6 = 0 usando o método da bissecção (cinco iterações para cada raiz).</p>
+<p><br /><br /><br /><br /><br /><br /></p>
+<p>Podemos observar que está função possui 3 raízes reais. No entanto, será escolhido intervalo [5,6] para saber o valor aproximado da raiz.</p>
+<table border="0" cellspacing="0" cellpadding="0"><tbody><tr><td valign="bottom">
+<p>        i</p>
+</td>
+<td valign="bottom">
+<p>        a</p>
+</td>
+<td valign="bottom">
+<p>       b</p>
+</td>
+<td valign="bottom">
+<p>       c</p>
+</td>
+<td valign="bottom">
+<p>     f(a)</p>
+</td>
+<td valign="bottom">
+<p>      f[c]</p>
+</td>
+<td valign="bottom">
+<p>f(a).f[c]</p>
+</td>
+<td valign="bottom">
+<p>    Erro</p>
+</td>
+</tr><tr><td>
+<p align="center">0</p>
+</td>
+<td>
+<p align="center">5</p>
+</td>
+<td>
+<p align="center">6</p>
+</td>
+<td>
+<p align="center">5,5</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(+)</p>
+</td>
+<td>
+<p align="center">N/A</p>
+</td>
+</tr><tr><td>
+<p align="center">1</p>
+</td>
+<td>
+<p align="center">5,5</p>
+</td>
+<td>
+<p align="center">6</p>
+</td>
+<td>
+<p align="center">5,75</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(+)</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">0,25</p>
+</td>
+</tr><tr><td>
+<p align="center">2</p>
+</td>
+<td>
+<p align="center">5,5</p>
+</td>
+<td>
+<p align="center">5,75</p>
+</td>
+<td>
+<p align="center">5,625</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(+)</p>
+</td>
+<td>
+<p align="center">0,125</p>
+</td>
+</tr><tr><td>
+<p align="center">3</p>
+</td>
+<td>
+<p align="center">5,625</p>
+</td>
+<td>
+<p align="center">5,75</p>
+</td>
+<td>
+<p align="center">5,687</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(+)</p>
+</td>
+<td>
+<p align="center">0,062</p>
+</td>
+</tr><tr><td>
+<p align="center">4</p>
+</td>
+<td>
+<p align="center">5,625</p>
+</td>
+<td>
+<p align="center">5,75</p>
+</td>
+<td>
+<p align="center">5,718</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">(+)</p>
+</td>
+<td>
+<p align="center">(-)</p>
+</td>
+<td>
+<p align="center">0,031</p>
+</td>
+</tr><tr><td>
+<p align="center">5</p>
+</td>
+<td>
+<p align="center">5,688</p>
+</td>
+<td>
+<p align="center">5,718</p>
+</td>
+<td>
+<p align="center">5,703</p>
+</td>
+<td>
+<p align="center"> </p>
+</td>
+<td>
+<p align="center"> </p>
+</td>
+<td>
+<p align="center"> </p>
+</td>
+<td>
+<p align="center">0,015</p>
+</td>
+</tr></tbody></table><p> </p>
+<p>O resultado aproximado obtido para a raiz após 5 iterações e truncamento com 3 casas decimais é 5,703</p>
+<p> </p>";

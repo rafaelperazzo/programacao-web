@@ -1,0 +1,32 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>digite um valor para o saque:a quantidade das notas de vinte é:6
+>a quantidade das notas de dez é:0
+>a quantidade das notas de cinco é:0
+>a quantidade das notas de um é:3
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

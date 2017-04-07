@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 20
+>10
+>40
+>100
+
+ --- Program output ---
+
+ --- Expected output (text)---
+> '100
+>10'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,19 +1,19 @@
 case = Teste 1
 input = 78
 1.80
-output='NORMAL'
+output=/.*NORMAL.*/i
 
 case = Teste 2
 input = 90
 1.80
-output='SOBREPESO'
+output=/.*SOBREPESO.*/i
 
 case = Teste 3
 input = 110
 1.80
-output='OBESIDADE'
+output=/.*OBESIDADE.*/i
 
 case = Teste 4
 input = 180
 1.80
-output='OBESIDADE GRAVE'
+output=/.*OBESIDADE GRAVE.*/i

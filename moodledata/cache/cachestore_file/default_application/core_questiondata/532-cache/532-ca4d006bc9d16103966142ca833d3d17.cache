@@ -1,0 +1,8 @@
+O:8:"stdClass":22:{s:2:"id";s:3:"532";s:8:"category";s:3:"119";s:6:"parent";s:1:"0";s:4:"name";s:9:"03_Newton";s:12:"questiontext";s:314:"<p>Calcule o zero da função abaixo de acordo com o que está definido a seguir:</p>
+<p>$$f(x)=sen(x)+cos(1+x^2)-1.2$$</p>
+<p>- Método de Newton-Raphson</p>
+<p>- Arredondamento</p>
+<p>- 5 casas decimais (em todas as contas)</p>
+<p>- $$|x_k-x_{k-1}|&lt;0.01$$</p>
+<p>- Estimativa inicial: 1.7</p>
+<p> </p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:9:"numerical";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170406165421+nb3GVS";s:7:"version";s:43:"programacao.ufca.edu.br+170406165421+p8FCFn";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1491497661";s:12:"timemodified";s:10:"1491497661";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":6:{s:7:"answers";a:1:{i:1134;O:8:"stdClass":8:{s:2:"id";s:4:"1134";s:8:"question";s:3:"532";s:6:"answer";s:7:"2.00206";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:6:"0.0001";}}s:5:"units";a:0:{}s:15:"unitgradingtype";s:1:"0";s:11:"unitpenalty";s:9:"0.1000000";s:9:"showunits";s:1:"3";s:9:"unitsleft";s:1:"0";}s:5:"hints";a:0:{}}

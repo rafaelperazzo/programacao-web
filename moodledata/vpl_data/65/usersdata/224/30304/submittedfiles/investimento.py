@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+a=float(input('O investimento inicial é de: '))
+t=float(input('A taxa de crescimento percentual é de: '))
+I1=a+(a*t)
+print('%.2f'%I1)
+I2=I1+(I1*t)
+print('%.2f'%I2)
+I3=I2+(I2*t)
+print('%.2f'%I3)
+I4=I3+(I3*t)
+print('%.2f'%I4)
+I5=I4+(I4*t)
+print('%.2f'%I5)
+I6=I5+(I5*t)
+print('%.2f'%I6)
+I7=I6+(I6*t)
+print('%.2f'%I7)
+I8=I7+(I7*t)
+print('%.2f'%I8)
+I9=I8+(I8*t)
+print('%.2f'%I9)
+I10=I9+(I9*t)
+print('%.2f'%I10)
+

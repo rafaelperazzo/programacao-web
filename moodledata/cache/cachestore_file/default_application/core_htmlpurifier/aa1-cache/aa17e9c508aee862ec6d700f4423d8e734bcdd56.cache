@@ -1,0 +1,37 @@
+s:1016:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 20
+10
+40
+100
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro número:Digite o segundo número:Digite o terceiro número:Digite o quarto número:10.0
+100.0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*100[.]*[0-9]*
+.*10[.]*[0-9]*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 100
+90
+80
+70
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro número:Digite o segundo número:Digite o terceiro número:Digite o quarto número:70.0
+100.0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*100[.]*[0-9]*
+.*70[.]*[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";
