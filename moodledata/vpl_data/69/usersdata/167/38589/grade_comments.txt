@@ -1,0 +1,22 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>digite cv:digite ce:digite cs:digite fv:digite fe:digite fs:F
+>F
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

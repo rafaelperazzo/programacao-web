@@ -1,0 +1,38 @@
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 3: Teste 3 (-5.000)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:Traceback (most recent call last):
+>  File "imc.py", line 11, in <module>
+>    elif imc>30 and ima<=40:
+>NameError: name 'ima' is not defined
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE.*
+
+-Test 4: Teste 4 (-5.000)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:Traceback (most recent call last):
+>  File "imc.py", line 11, in <module>
+>    elif imc>30 and ima<=40:
+>NameError: name 'ima' is not defined
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE GRAVE.*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+

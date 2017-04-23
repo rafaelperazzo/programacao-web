@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+import math
+n=int(input('digite o número de termos:'))
+if n<0:
+    n=n*(-1)
+de=n
+cont=1
+soma=0
+while cont<=n:
+    soma=soma+(cont/de)
+    cont=cont+1
+    de=de-1
+print('%.5f'%soma)
+    

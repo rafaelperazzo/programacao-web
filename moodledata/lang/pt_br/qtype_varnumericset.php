@@ -77,6 +77,7 @@ Os números usados na questão e usadas para calcular a resposta são escolhidos
 Todas as expressões são calculados na hora da criação da questão ou de funções aleatórias e podem ser os mesmos para todos os estudantes.
 
 Para uma questão sem variantes, com expressões calculadas na hora da aplicação e com valores aleatórios diferentes para cada usuário, veja o tipo de questão \'variável numérica\'.';
+$string['pluginname_link'] = 'question/type/varnumericset';
 $string['pluginnamesummary'] = 'Permite respostas numéricas, questões podem ter \'variantes\' e expressões são calculados previamente para cada variante da questão';
 $string['preandpostfixesignored'] = 'Apenas a parte numérica de sua resposta foi avaliada';
 $string['questiontext'] = 'Enunciado da questão e variáveis embutidas';
@@ -93,6 +94,7 @@ $string['syserrorpenalty'] = 'Para cada erro deduzir';
 $string['unspecified'] = 'Indeterminado';
 $string['usesuperscript'] = 'Usar entrada sobrescrita';
 $string['varheader'] = 'Variável {no}';
+$string['variables'] = 'Variáveis';
 $string['variant'] = 'Valor para a variante {$a}';
 $string['variants'] = 'Value for variants';
 $string['variants_help'] = 'Digite os valores para \'variáveis pré-definidas\'. Ou, se isto é uma \'variável calculada\' você vai ver os valores calculados exibidos aqui.
@@ -116,6 +118,7 @@ Os números usados na questão e usadas para calcular a resposta são escolhidos
 Todas as expressões são calculados na hora da criação da questão ou de funções aleatórias e podem ser os mesmos para todos os estudantes.
 
 Para uma questão sem variantes, com expressões calculadas na hora da aplicação e com valores aleatórios diferentes para cada usuário, veja o tipo de questão \'variável numérica\'.';
+$string['varnumericset_link'] = 'question/type/varnumericset';
 $string['varnumericsetsummary'] = 'Permite respostas numéricas e a questão pode ter \'variantes\'. Expressões são calculadas para cada variante.';
 $string['vartypecalculated'] = 'Variável calculada';
 $string['vartypepredefined'] = 'Variável predefinida';

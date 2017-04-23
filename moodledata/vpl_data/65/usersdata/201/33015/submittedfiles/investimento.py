@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+X0=float(input('Investimento inicial:'))
+Taxa=float(input('Taxa de crescimento percentual:'))
+X1=(X0+(X0*Taxa))
+X2=(X1+(X1*Taxa))
+X3=(X2+(X2*Taxa))
+X4=(X3+(X3*Taxa))
+X5=(X4+(X4*Taxa))
+X6=(X5+(X5*Taxa))
+X7=(X6+(X6*Taxa))
+X8=(X7+(X7*Taxa))
+X9=(X8+(X8*Taxa))
+X10=(X9+(X9*Taxa))
+print('%.2f' %X1)
+print('%.2f' %X2)
+print('%.2f' %X3)
+print('%.2f' %X4)
+print('%.2f' %X5)
+print('%.2f' %X6)
+print('%.2f' %X7)
+print('%.2f' %X8)
+print('%.2f' %X9)
+print('%.2f' %X10)

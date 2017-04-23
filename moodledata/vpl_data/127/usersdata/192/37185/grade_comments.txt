@@ -1,0 +1,24 @@
+-Test 5: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>12
+>09
+>1980
+
+ --- Program output ---
+>(data 1)digite o dia: (data 1)digite o mês: (data 1)digite o ano: (data 2)digite o dia: (data 2)digite o mês: (data 2)digite o ano: Traceback (most recent call last):
+>  File "ex11.py", line 19, in <module>
+>    elif(a1==a2)and(m1==mm2)and(d1<d2):
+>NameError: name 'mm2' is not defined
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

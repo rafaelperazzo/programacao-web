@@ -1,0 +1,18 @@
+s:585:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>30
+100
+60
+50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite peso da criança do lado esquerdo: Digite peso da criança do lado direito: Digite o comprimento da gangorra do lado esquerdo: Digite o comprimento da gangorra do lado direito: 1
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'0'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

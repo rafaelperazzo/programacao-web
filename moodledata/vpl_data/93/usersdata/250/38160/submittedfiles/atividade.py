@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+import math
+n=float(input('digite n:'))
+while n>0:
+    x=float(input('o valor de x:'))
+    y=float(input('o valor de y:'))
+    n=n-1
+    if x>=0 and y>=0 and (x**2)+(y**2)<=1:
+        print('SIM')
+    else:
+        print('NÂO')
+

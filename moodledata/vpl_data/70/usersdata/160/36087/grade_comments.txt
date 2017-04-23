@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 35
+>60
+>75
+
+ --- Program output ---
+>Digite o valor de L:Digite o valor de R:Digite o valor de D:S
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

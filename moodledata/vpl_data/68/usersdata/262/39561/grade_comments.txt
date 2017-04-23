@@ -1,0 +1,22 @@
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+>30
+>100
+>60
+>50
+
+ --- Program output ---
+>Digite o peso da criança1:Digite o comprimento 1:Digite o peso da criança2:Digite o comprimento 2:Traceback (most recent call last):
+>  File "crianca.py", line 11, in <module>
+>    print9('0')
+>NameError: name 'print9' is not defined
+
+ --- Expected output (text)---
+>'0'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

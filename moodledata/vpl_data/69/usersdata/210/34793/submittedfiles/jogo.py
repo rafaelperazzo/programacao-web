@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+CV=int(INPUT('DIGITE O TOTAL DE VITÓRIAS DO CORMENGO:'))
+CE=int(INPUT('DIGITE O TOTAL DE EMPATES DO CORMENGO:'))
+CS=int(INPUT('DIGITE O SALDO DE GOLS DO CORMENGO:'))
+FV=int(INPUT('DIGITE O TOTAL DE VITÓRIAS DO FLAMINTHIAS:'))
+FE=int(INPUT('DIGITE O TOTAL DE EMPATES DO FLAMINTHIAS:'))
+FS=int(INPUT('DIGITE O SALDO DE GOLS DO FLAMINTHIAS:'))
+PC=(CV*3)+CE
+PF=(FV*3)+FE
+if PC>PF:
+    PRINT('C')
+elif PF>PC:
+    PRINT('F')
+else:
+    if CS>FS:
+        PRINT('C')
+    elif FS>CS:
+        PRINT('F')
+    else:
+        print('=')
+
+
+

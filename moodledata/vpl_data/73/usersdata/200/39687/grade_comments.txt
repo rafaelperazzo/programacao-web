@@ -1,0 +1,61 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>9
+>8
+
+ --- Program output ---
+>digite o lado A:digite o lado B:digite o lado C:Traceback (most recent call last):
+>  File "triangulo.py", line 6, in <module>
+>    if a>=B and B>=C:
+>NameError: name 'a' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Es'
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>2
+
+ --- Program output ---
+>digite o lado A:digite o lado B:digite o lado C:Traceback (most recent call last):
+>  File "triangulo.py", line 6, in <module>
+>    if a>=B and B>=C:
+>NameError: name 'a' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Eq'
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>3
+>2
+
+ --- Program output ---
+>digite o lado A:digite o lado B:digite o lado C:Traceback (most recent call last):
+>  File "triangulo.py", line 6, in <module>
+>    if a>=B and B>=C:
+>NameError: name 'a' is not defined
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

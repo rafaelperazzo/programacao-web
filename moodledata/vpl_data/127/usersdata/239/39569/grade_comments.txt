@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1987
+
+ --- Program output ---
+>Digite o Dia1: Digite o Mês1: Digite o Ano1: Digite o Dia2: Digite o Mês2: Digite o Ano2: DATA 02
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

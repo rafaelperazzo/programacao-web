@@ -1,0 +1,34 @@
+s:644:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+0.045
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor inicial do seu investimento:digite o valor da taxa de crescimento anual:1000.45
+1000.90
+1001.35
+1001.80
+1002.25
+1002.70
+1003.15
+1003.61
+1004.06
+1004.51
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1045.00
+1092.03
+1141.17
+1192.52
+1246.18
+1302.26
+1360.86
+1422.10
+1486.10
+1552.97'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

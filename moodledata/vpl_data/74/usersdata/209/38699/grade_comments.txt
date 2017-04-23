@@ -1,0 +1,19 @@
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>A:B:C:D:s
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

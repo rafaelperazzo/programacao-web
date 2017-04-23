@@ -1,0 +1,36 @@
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+>40
+>40
+>38
+>60
+
+ --- Program output ---
+>digite o peso 1:digite o comprimento 1:digite o peso 2:digite o comprimento 2:
+
+ --- Expected output (text)---
+> '1'
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 35
+>80
+>35
+>75
+
+ --- Program output ---
+>digite o peso 1:digite o comprimento 1:digite o peso 2:digite o comprimento 2:
+
+ --- Expected output (text)---
+>'-1'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

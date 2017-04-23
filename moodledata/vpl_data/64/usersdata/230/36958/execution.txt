@@ -1,0 +1,32 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>  File "atm.py", line 12
+>    print('%.1d' n1)
+>                  ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

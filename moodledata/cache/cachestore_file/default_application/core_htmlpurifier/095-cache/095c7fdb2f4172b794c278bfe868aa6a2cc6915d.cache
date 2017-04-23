@@ -1,0 +1,19 @@
+s:2197:"<p>Implementar o projeto descrito abaixo, utilizando a linguagem de programação de sua preferência.</p>
+<p>Envie apenas um único arquivo, de acordo com a linguagem escolhida.</p>
+<p><span style="font-family:'courier new', courier, monospace;">Python - .py</span></p>
+<p><span style="font-family:'courier new', courier, monospace;">C - .c</span></p>
+<p><span style="font-family:'courier new', courier, monospace;">C++ - .cpp</span></p>
+<p><span style="font-family:'courier new', courier, monospace;">Scilab - .sce</span></p>
+<p><span style="font-family:'courier new', courier, monospace;">Matlab - .m</span></p>
+<p><span style="font-family:'courier new', courier, monospace;">R - .R</span></p>
+<p><span style="font-family:'courier new', courier, monospace;"><span style="font-family:arial, helvetica, sans-serif;">Escreva o nome do grupo no texto online, e não no arquivo com o código.</span> </span></p>
+<p><span style="font-family:'courier new', courier, monospace;"><span style="font-family:arial, helvetica, sans-serif;">Ignorar o item 4. </span></span></p>
+<p><span style="font-family:'courier new', courier, monospace;"><span style="font-family:arial, helvetica, sans-serif;"><strong><span class="nolink"><span class="filter_mathjaxloader_equation"><span style="font-family:'courier new', courier, monospace;"><span style="font-family:arial, helvetica, sans-serif;"><span style="color:#ff0000;">Você pode utilizar o método de sua preferência para calcular o zero da função. (não é obrigatório usar o método de newton).</span> </span></span></span></span></strong></span></span></p>
+<p><img src="https://programacao.ufca.edu.br/moodle/webservice/pluginfile.php/2603/mod_assign/intro/zeros.1.jpg" width="608" height="514" alt="zeros.1.jpg" /></p>
+<p><img src="https://programacao.ufca.edu.br/moodle/webservice/pluginfile.php/2603/mod_assign/intro/zeros.2.jpg" width="596" height="228" alt="zeros.2.jpg" /></p>
+<p></p>
+<p>$$f(P) = \dfrac{P}{A}-\dfrac{\sigma}{1+\frac{ec}{r^2}sec(\frac{L}{2r}\sqrt{\frac{P}{EA}})}=0$$</p>
+<p>$$P_{cr}=\dfrac{\pi^2EA}{(\frac{L}{r})^2} $$</p>
+<p></p>
+<p>Cada 2 dias de atraso, penalidade de 5 pontos (escala de 0 a 100).</p>
+<p></p>";

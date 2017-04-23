@@ -1,0 +1,46 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>9
+>8
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+>Traceback (most recent call last):
+>  File "triangulo.py", line 10, in <module>
+>    elif (a)**2>b()**2+(c)**2:
+>TypeError: 'int' object is not callable
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Es'
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>2
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:S
+>Traceback (most recent call last):
+>  File "triangulo.py", line 10, in <module>
+>    elif (a)**2>b()**2+(c)**2:
+>TypeError: 'int' object is not callable
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Eq'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

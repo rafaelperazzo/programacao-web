@@ -1,0 +1,20 @@
+s:671:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+18
+11
+1
+18
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o numero de vitorias do Cormengo: Digite o numero de empates do Cormengo: Digite o numero do saldo de gols do Cormengo: Digite o numero de vitorias do Flaminthians: Digite o numero de empates do Flaminthians: Digite o numero do saldo de gols do Flaminthians: F
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'C'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

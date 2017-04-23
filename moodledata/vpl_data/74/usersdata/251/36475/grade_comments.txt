@@ -1,0 +1,51 @@
+-Failed tests
+Test 6: Teste 6
+Test 7: Teste 7
+Test 9: Teste 9
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>Digite o valor 1: Digite o valor 2: Digite o valor 3: Digite o valor 4: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite o valor 1: Digite o valor 2: Digite o valor 3: Digite o valor 4: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>Digite o valor 1: Digite o valor 2: Digite o valor 3: Digite o valor 4: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 6 tests passed |
+>+------------------------------+
+

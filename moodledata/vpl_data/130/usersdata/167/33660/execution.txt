@@ -1,0 +1,62 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 4
+
+ --- Program output ---
+>digite n:2
+>6
+
+ --- Expected output (regular expression)---
+>.*24.*
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>digite n:2
+>6
+>24
+
+ --- Expected output (regular expression)---
+>.*120.*
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 6
+
+ --- Program output ---
+>digite n:2
+>6
+>24
+>120
+
+ --- Expected output (regular expression)---
+>.*720.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

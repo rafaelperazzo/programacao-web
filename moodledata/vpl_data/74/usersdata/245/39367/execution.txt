@@ -1,0 +1,101 @@
+Testing 1/9 : Teste 1
+Testing 2/9 : Teste 2
+Testing 3/9 : Teste 3
+Testing 4/9 : Teste 4
+Testing 5/9 : Teste 5
+Testing 6/9 : Teste 6
+Testing 7/9 : Teste 7
+Testing 8/9 : Teste 8
+Testing 9/9 : Teste 9
+
+<|--
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+Test 7: Teste 7
+Test 8: Teste 8
+--|>
+
+<|--
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 4: Teste 4 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>5
+>3
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 5: Teste 5 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>2
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Digite o valor de d:N
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 4.44

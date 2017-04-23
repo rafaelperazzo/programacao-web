@@ -1,0 +1,31 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>Reolução do exercício 3
+>OBS. O valor de i tem que ser diferente de 0
+>
+>Digite o valor de P.: Digite o valor de i.: Digite o valor de n.: 
+>O valor de v é.: 68837.53
+
+ --- Expected output (regular expression)---
+>.*52204\.[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

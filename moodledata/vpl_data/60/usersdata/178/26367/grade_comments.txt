@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>digite uma valor para pdigite um valor para idigite um valor para n68837.53
+
+ --- Expected output (regular expression)---
+>.*52204\.[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

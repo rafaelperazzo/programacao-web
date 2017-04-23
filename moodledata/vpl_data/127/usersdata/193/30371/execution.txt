@@ -1,0 +1,90 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1987
+
+ --- Program output ---
+>digite o dia da pessoa 1:digite o mês da pessoa 1:digite o ano da pessoa 1:digite o dia da pessoa 2:digite o mês da pessoa 2:digite o ano da pessoa 2:data da pessoa 2
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 2: Teste 2 (-6.000)
+Incorrect program result
+ --- Input ---
+> 31
+>06
+>1988
+>20
+>06
+>1988
+
+ --- Program output ---
+>digite o dia da pessoa 1:digite o mês da pessoa 1:digite o ano da pessoa 1:digite o dia da pessoa 2:digite o mês da pessoa 2:digite o ano da pessoa 2:pessoa 1
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Test 3: Teste 3 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>digite o dia da pessoa 1:digite o mês da pessoa 1:digite o ano da pessoa 1:digite o dia da pessoa 2:digite o mês da pessoa 2:digite o ano da pessoa 2:pessoa 2
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 4: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>digite o dia da pessoa 1:digite o mês da pessoa 1:digite o ano da pessoa 1:digite o dia da pessoa 2:digite o mês da pessoa 2:digite o ano da pessoa 2:pessoa 2
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 6

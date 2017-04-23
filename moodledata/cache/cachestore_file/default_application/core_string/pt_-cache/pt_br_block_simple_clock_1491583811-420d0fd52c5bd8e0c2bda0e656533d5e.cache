@@ -1,0 +1,16 @@
+a:28:{s:10:"after_noon";s:2:"pm";s:11:"before_noon";s:2:"am";s:15:"clock_separator";s:1:":";s:19:"clock_title_default";s:8:"Relógio";s:23:"config_clock_visibility";s:21:"Relatórios visíveis";s:28:"config_clock_visibility_help";s:188:"<p>Com essa configuração, você pode verificar se o usuário verá:</p>
+<ul>
+    <li>horário no servidor,</li>
+    <li>horário do próprio computador, ou</li>
+    <li>ambos.</li>
+</ul>";s:13:"config_header";s:17:"Exibir cabeçalho";s:18:"config_header_help";s:514:"<p>Com esta configuração, é possível controlar se o cabeçalho do bloco, incluindo o título, será mostrado.</p>
+<p style="background:yellow;border:3px dashed black;padding:10px;"><strong>Nota</strong><br />
+Quando a "Edição" é ativada, o cabeçalho do bloco será mostrado a professores/administradores.
+Quando a "Edição" é desativada, o cabeçalho será ocultado.
+Se selecionar a opção "Não", os alunos não irão ver o cabeçalho, independentemente de a "Edição" estar ativada ou desativada.</p>";s:12:"config_icons";s:14:"Exibir ícones";s:17:"config_icons_help";s:255:"<p>Com essa configuração, você pode controlar se os ícones serão exibidos ao lado de cada rótulo do relógio.</p>
+<p>O ícone do site é exibido ao lado do rótulo do "servidor". A imagem do ícone do usuário é exibida ao lado de seu relógio.</p>";s:10:"config_day";s:18:"Exibir nome do dia";s:15:"config_day_help";s:153:"<p> Mostrando o nome do dia acrescenta informação adicional para os alunos que podem estar em um fuso horário de um dia mais cedo ou mais tarde. </ p>";s:14:"config_seconds";s:15:"Exibir segundos";s:19:"config_seconds_help";s:593:"<p>Mostrar os segundos irá mostrar aos usuários a hora incluindo segundos em todos os relógios visíveis.</p>
+<p style="background:yellow;border:3px dashed black;padding:10px;"><strong>Aviso</strong><br />
+A hora mostrada inicialmente é a de quando a página foi criada.
+Quando o conteúdo desta página chega ao navegador do usuário, a diferença temporal inclui um atraso (normalmente de alguns segundos). Isto é na maioria das vezes aceitável, uma vez que qualquer interação com o Moodle envolve um atraso, mas esse atraso será mais evidente com os segundos a serem mostrados.</p>";s:23:"config_show_both_clocks";s:42:"Mostrar relógios para servidor e usuário";s:24:"config_show_server_clock";s:37:"Mostrar relógio apenas para servidor";s:22:"config_show_user_clock";s:38:"Mostrar relógio somente para usuário";s:12:"config_title";s:19:"Título alternativo";s:17:"config_title_help";s:221:"<p>Essa configuração permite que o título do bloco seja alterado.</p>
+<p>Se nenhuma alternativa for fornecida, o título padrão será usado.</p>
+<p>Se o cabeçalho do bloco está oculto, o título não aparecerá.</p>";s:28:"config_twenty_four_hour_time";s:31:"Mostrar relógio no formato 24h";s:9:"day_names";s:28:"Dom,Seg,Ter,Qua,Qui,Sex,Sáb";s:19:"javascript_disabled";s:82:"Para permitir que os relógios se atualizem, ativar o JavaScript no seu navegador.";s:7:"loading";s:13:"Carregando...";s:10:"pluginname";s:16:"Relógio simples";s:6:"server";s:8:"Servidor";s:26:"simple_clock:myaddinstance";s:68:"Adicionar um novo bloco Relógio Simples para a página de My Moodle";s:24:"simple_clock:addinstance";s:40:"Adicionar um novo bloco Relógio Simples";s:3:"you";s:5:"Você";}

@@ -1,0 +1,32 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>Digite o investimento:Digite a taxa de crescimento: Traceback (most recent call last):
+>  File "atm.py", line 7, in <module>
+>    taxa=float(input('Digite a taxa de crescimento: '))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

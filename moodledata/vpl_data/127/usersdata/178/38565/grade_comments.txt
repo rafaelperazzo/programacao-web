@@ -1,0 +1,40 @@
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 3: Teste 3 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Digite o dia 1: Digite o mes 1: Digite o ano 1: Digite o dia 2: Digite o mes 2: Digite o ano 2: Data2
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 4: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Digite o dia 1: Digite o mes 1: Digite o ano 1: Digite o dia 2: Digite o mes 2: Digite o ano 2: Iguais
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 3 tests passed |
+>+------------------------------+
+

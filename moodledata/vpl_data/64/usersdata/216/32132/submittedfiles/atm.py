@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+20, 10, 5, 2 ,1 
+#COMECE SEU CODIGO AQUI
+a=int(input('Digite um valor:'))
+
+if a%20==0:
+    print ('a')
+elif a%10==0:
+    print ('a')
+elif a%5==0:
+    print ('a')
+elif a%2==0:
+    print ('a')
+else a%1==0:
+    print ('a')

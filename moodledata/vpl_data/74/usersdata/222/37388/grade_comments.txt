@@ -1,0 +1,66 @@
+-Failed tests
+Test 4: Teste 4
+Test 5: Teste 5
+Test 6: Teste 6
+Test 8: Teste 8
+-Test 4: Teste 4 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>5
+>3
+
+ --- Program output ---
+>a:b:c:d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 5: Teste 5 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>2
+
+ --- Program output ---
+>a:b:c:d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>a:b:c:d:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>a:b:c:d:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 5 tests passed |
+>+------------------------------+
+

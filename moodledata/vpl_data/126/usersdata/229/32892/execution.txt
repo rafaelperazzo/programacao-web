@@ -1,0 +1,53 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 20
+>10
+>40
+>100
+
+ --- Program output ---
+>digite um valor a:digite um valor b:digite um valor c:digite um valor d:100
+> 20
+
+ --- Expected output (regular expression)---
+>.*100[.]*[0-9]*
+>.*10[.]*[0-9]*
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 100
+>90
+>80
+>70
+
+ --- Program output ---
+>digite um valor a:digite um valor b:digite um valor c:digite um valor d:90
+> 100
+
+ --- Expected output (regular expression)---
+>.*100[.]*[0-9]*
+>.*70[.]*[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

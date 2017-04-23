@@ -1,0 +1,30 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>dite o valor de P:dite o valor de i:dite o valor de n:Traceback (most recent call last):
+>  File "formula.py", line 5, in <module>
+>    v=((((1+i)**n)-1)/i)*P
+>TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+ --- Expected output (regular expression)---
+>.*52204\.[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+a=float(input('Valor do investimento:'))
+x=float(input('Taxa de crescimento:')) and 0<=x<=1
+b=a+(x*a)
+print('%.2f' %b)
+c=b+(x*b)
+print('%.2f' %c)
+d=c+(x*c)
+print('%.2f' %d)
+e=d+(x*d)
+print('%.2f' %d)
+f=e+(x*e)
+print('%.2f' %f)
+g=f+(x*f)
+print('%.2f' %g)
+h=g+(x*g)
+print('%.2f' %h)
+i=h+(x*h)
+print('%.2f' %i)
+j=i+(x*i)
+print('%.2f' %j)
+l=j+(x*j)
+print('%.2f' %l)

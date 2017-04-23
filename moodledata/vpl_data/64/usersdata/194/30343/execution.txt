@@ -1,0 +1,33 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>Digite o valor que deseja sacar:cédulas de 20 reais:6
+>cédulas de 10 reais:0
+>cédulas de 5 reais:0
+>cédulas de 2 reais:1
+>cédulas de 1 reais:1
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

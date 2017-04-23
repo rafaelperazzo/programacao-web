@@ -1,0 +1,32 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Traceback (most recent call last):
+>  File "ex1.py", line 9, in <module>
+>    X1=(-b+DELTA**(1/2))/2*a
+>NameError: name 'DELTA' is not defined
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

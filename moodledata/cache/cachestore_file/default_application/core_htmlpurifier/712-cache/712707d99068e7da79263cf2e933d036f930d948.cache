@@ -1,0 +1,33 @@
+s:1084:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>30
+100
+60
+50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite um valor para o peso da esquerdadigite um valor para o cumprimento esquerdo da gangorradigite um valor para o peso da direitadigite um valor para o comprimento direito da gangorra0
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'0'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>40
+40
+38
+60
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite um valor para o peso da esquerdadigite um valor para o cumprimento esquerdo da gangorradigite um valor para o peso da direitadigite um valor para o comprimento direito da gangorra1
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

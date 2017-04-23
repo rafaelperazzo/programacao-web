@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+import math
+a=float(input('digite a:'))
+b=float(input('digite b:'))
+c=float(input('digite c:'))
+d=float(input('digite d:'))
+
+if (b>a) and (b>c) and (d>c):
+    print ('nao')
+elif (c>b) and (c>b) and (a>b):
+    print('nao')
+elif (b>a) and (b>c) or ( c>b) and (c>d):
+    print ('sim')
+elif (a>b) and (d>c):
+    print ('não')
+elif (a>b) or (d>c):
+    print('sim')
+else:
+    print('não')
+    
+
+    

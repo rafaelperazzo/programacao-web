@@ -1,0 +1,21 @@
+-Test 4: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>digite um dia:digite um mês:digite um ano:digite um dia:digite um mês:digite um ano:IGUAIS
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

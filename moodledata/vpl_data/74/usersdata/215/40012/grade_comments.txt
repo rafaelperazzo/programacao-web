@@ -1,0 +1,36 @@
+-Failed tests
+Test 4: Teste 4
+Test 7: Teste 7
+-Test 4: Teste 4 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>5
+>3
+
+ --- Program output ---
+>digite c:digite d:digite e:digite f:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>digite c:digite d:digite e:digite f:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 7 tests passed |
+>+------------------------------+
+

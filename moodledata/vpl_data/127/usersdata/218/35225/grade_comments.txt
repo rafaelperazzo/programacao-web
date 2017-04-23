@@ -1,0 +1,21 @@
+-Test 5: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>12
+>09
+>1980
+
+ --- Program output ---
+>digite o dia da data 1:digite o dia da data 2:digite o mês da data 1:digite o mês da data 2:digite o ano da data 1:digite o ano da data 2:data2
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

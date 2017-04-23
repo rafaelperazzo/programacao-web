@@ -1,0 +1,20 @@
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 12
+>3
+>3
+>6
+
+ --- Program output ---
+>digite o peso da esfera A:digite o peso da esfera B:digite o peso da esfera C:digite o peso da esfera D:S
+>N
+
+ --- Expected output (text)---
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

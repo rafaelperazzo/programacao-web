@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+a=int(input('digite o valor'))
+b=a%20
+c=a//20
+d=a%20%10
+e=a%20//10
+f=a%20%10%5
+g=a%20%10//5
+h=a%20%10%5%2
+i=a%20%10%5//2
+j=a%20%10%5%2//1
+if b==0 or b!=0:
+    print(c)
+elif d==0 or d!=0:
+    print(e)
+elif f==0 or f!=0:
+    print(g)
+elif h==0 or h!=0:
+    print(i)
+elif j==0 or j!=0:
+    print(j)

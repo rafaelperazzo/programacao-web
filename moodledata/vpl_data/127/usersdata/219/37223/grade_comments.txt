@@ -1,0 +1,40 @@
+-Failed tests
+Test 2: Teste 2
+Test 4: Teste 4
+-Test 2: Teste 2 (-6.000)
+Incorrect program result
+ --- Input ---
+> 31
+>06
+>1988
+>20
+>06
+>1988
+
+ --- Program output ---
+>Digita dia1 :Digita mes1 :Digita ano1 :Digita dia2 :Digita mes2 :Digita ano2 :iguais
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Test 4: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Digita dia1 :Digita mes1 :Digita ano1 :Digita dia2 :Digita mes2 :Digita ano2 :iguais
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 3 tests passed |
+>+------------------------------+
+

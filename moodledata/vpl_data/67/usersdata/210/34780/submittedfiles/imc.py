@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+P=FLOAT(INPUT('O VALOR DE SEU PESO:'))
+H=FLOAT(INPUT('O VALOR DE SUA ALTURA:))
+IMC=P/H**2
+IF IMC<20:
+    PRINT
+
+
+
+
+
+
+
+
+
+

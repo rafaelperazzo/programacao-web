@@ -1,0 +1,60 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+>1
+>0
+>1
+>0
+>0
+
+ --- Program output ---
+>Digite x1: Digite x2: Digite x3: Digite x4: Digite x5: Digite x6: Digite x7: Digite x8: Digite x9: 
+
+ --- Expected output (text)---
+> '1'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 0
+>0
+>1
+>1
+>1
+>0
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite x1: Digite x2: Digite x3: Digite x4: Digite x5: Digite x6: Digite x7: Digite x8: Digite x9: 
+
+ --- Expected output (text)---
+> 'E'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 3.33

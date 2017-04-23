@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+c=float(input('Digite o valor do investimento inicial: '))
+d=float(input('Digite o valor da taxa de crecimento percentual: '))
+a=0
+while(a<=9):
+    c=(c)+(c*d)
+    a=a+1
+    print(c)
+    
+

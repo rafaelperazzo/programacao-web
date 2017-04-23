@@ -1,0 +1,188 @@
+Testing 1/9 : Teste 1
+Testing 2/9 : Teste 2
+Testing 3/9 : Teste 3
+Testing 4/9 : Teste 4
+Testing 5/9 : Teste 5
+Testing 6/9 : Teste 6
+Testing 7/9 : Teste 7
+Testing 8/9 : Teste 8
+Testing 9/9 : Teste 9
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+Test 6: Teste 6
+Test 7: Teste 7
+Test 8: Teste 8
+Test 9: Teste 9
+--|>
+
+<|--
+-Test 1: Teste 1 (-1.111)
+Incorrect program result
+ --- Input ---
+> 2
+>5
+>10
+>46
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 2: Teste 2 (-1.111)
+Incorrect program result
+ --- Input ---
+> 16
+>16
+>16
+>16
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 4: Teste 4 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>5
+>3
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 5: Teste 5 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>2
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>  File "lecker.py", line 11
+>    print('N')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (text)---
+> 'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

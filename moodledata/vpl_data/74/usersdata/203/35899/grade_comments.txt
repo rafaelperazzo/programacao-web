@@ -1,0 +1,81 @@
+-Failed tests
+Test 3: Teste 3
+Test 5: Teste 5
+Test 6: Teste 6
+Test 7: Teste 7
+Test 8: Teste 8
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>digite o primeiro valor: digite o segundo valor: digite o terceiro valor: digite o quarto valor: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 5: Teste 5 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>2
+
+ --- Program output ---
+>digite o primeiro valor: digite o segundo valor: digite o terceiro valor: digite o quarto valor: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>digite o primeiro valor: digite o segundo valor: digite o terceiro valor: digite o quarto valor: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>digite o primeiro valor: digite o segundo valor: digite o terceiro valor: digite o quarto valor: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>digite o primeiro valor: digite o segundo valor: digite o terceiro valor: digite o quarto valor: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 4 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,56 @@
+s:1241:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>30
+100
+60
+50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "crianca.py", line 6
+    if p1*c1=p2*c2:
+            ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'0'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>40
+40
+38
+60
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "crianca.py", line 6
+    if p1*c1=p2*c2:
+            ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 35
+80
+35
+75
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "crianca.py", line 6
+    if p1*c1=p2*c2:
+            ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'-1'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 15
+
+ --- Program output ---
+>Digite um número inteiro:0
+>1
+>2
+>primo
+
+ --- Expected output (regular expression)---
+>3
+>5
+>.*não primo.*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

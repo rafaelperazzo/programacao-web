@@ -1,0 +1,56 @@
+Testing 1/9 : Teste 1
+Testing 2/9 : Teste 2
+Testing 3/9 : Teste 3
+Testing 4/9 : Teste 4
+Testing 5/9 : Teste 5
+Testing 6/9 : Teste 6
+Testing 7/9 : Teste 7
+Testing 8/9 : Teste 8
+Testing 9/9 : Teste 9
+
+<|--
+-Failed tests
+Test 8: Teste 8
+Test 9: Teste 9
+--|>
+
+<|--
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite um número qualquer: Digite um número qualquer: Digite um número qualquer: Digite um número qualquer: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>Digite um número qualquer: Digite um número qualquer: Digite um número qualquer: Digite um número qualquer: 
+
+ --- Expected output (text)---
+> 'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 7 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 7.78

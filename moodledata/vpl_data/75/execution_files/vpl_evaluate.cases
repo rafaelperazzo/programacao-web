@@ -4,8 +4,8 @@ input = 3
 2
 1
 6
-output = '1'
-'6'
+output = '1
+6'
 
 case = Teste 2
 input = 6
@@ -13,8 +13,8 @@ input = 6
 6
 8
 3
-output = '3'
-'8'
+output = '3
+8'
 
 case = Teste 3
 input = 2
@@ -22,5 +22,5 @@ input = 2
 2
 2
 2
-output = '2'
-'2'
+output = '2
+2'

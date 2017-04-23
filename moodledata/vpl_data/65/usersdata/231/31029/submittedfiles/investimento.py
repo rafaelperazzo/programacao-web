@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+i=int(input('digite o valor do investimento :'))
+taxa=float(input('digite valor da taxa :'))
+t=taxa/100
+a1=i+(t*i)
+print('lucros em 1 ano :%.2f'%a1)
+a2=a1+(t*a1)
+print('lucros em 2 anos :%.2f'%a2)
+a3=a2+(t*a2)
+print('lucros em 3 anos :%.2f'%a3)
+a4=a3+(t*a3)
+print('lucros em 4 anos :%.2f'%a4)
+a5=a4+(t*a4)
+print('lucros em 5 anos :%.2f'%a5)
+a6=a5+(t*a5)
+print('lucros em 6 anos :%.2f'%a6)
+a7=a6+(t*a6)
+print('lucros em 7 anos :%.2f'%a7)
+a8=a7+(t*a7)
+print('lucros em 8 anos :%.2f'%a8)
+a9=a8+(t*a8)
+print('lucros em 9 anos :%.2f'%a9)
+a10=a9+(t*a9)
+print('lucros em 10 anos :%.2f'%a10)

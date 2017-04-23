@@ -1,0 +1,22 @@
+s:526:"Perazzo, não estou entendendo porque nessa questão do Leker, minha nota não é maxima. Porém todos os exemplos que coloco dá certo!
+
+a=float(input('Digite um número:'))
+b=float(input('Digite um número:'))
+c=float(input('Digite um número:'))
+d=float(input('Digite um número:'))
+
+cont=0
+
+if a&gt;b and a&gt;d:
+    cont=cont+1
+if b&gt;a and b&gt;c:
+    cont=cont+1
+if c&gt;b and c&gt;d:
+    cont=cont+1
+if d&gt;c and d&gt;a:
+    cont=cont+1
+    
+if cont==1:
+    print('S')
+if cont!=1:
+    print('N')";

@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+investimento=float(input('digite o investimento inicial:'))
+taxa=float(input('digite a taxa de crescimento:'))
+taxa= taxa/100
+investimento=investimento+(taxa*investimento)
+print('%.2f'%investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)
+investimento=investimento+(taxa*investimento)
+print(investimento)

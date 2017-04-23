@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>digite o valor do investimento:digite o valor da taxa de crescimento:seu saldo no 1º ano é:1000.45
+>seu saldo no 2º ano é:1000.90
+>seu saldo no 3º ano é:1001.35
+>seu saldo no 4º ano é:1001.80
+>seu saldo no 5º ano é:1002.25
+>seu saldo no 6º ano é:1002.70
+>seu saldo no 7º ano é:1003.15
+>seu saldo no 8º ano é:1003.61
+>seu saldo no 9º ano é:1004.06
+>seu saldo no 10º ano é:1004.51
+
+ --- Expected output (numbers)---
+>1045.00
+>1092.03
+>1141.17
+>1192.52
+>1246.18
+>1302.26
+>1360.86
+>1422.10
+>1486.10
+>1552.97
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+import math
+l=int(input('digite o valor de l:'))
+r=int(input('digite o valor de r:'))
+d=int(input('digite o valor de d:'))
+l>=0 and l<=100
+r>=0 and r<=100
+d>=0 and d<=100
+if r>50 and l<r and r>d:
+    print('S')
+else:
+    print('N')
+    

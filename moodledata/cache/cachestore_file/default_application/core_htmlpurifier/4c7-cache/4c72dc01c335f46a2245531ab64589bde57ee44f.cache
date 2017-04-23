@@ -1,0 +1,24 @@
+s:579:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0.2
+50000
+0.65
+22
+0.000001
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "swamee.py", line 14
+    print('O valor D é %.4f'%D)
+        ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*1[.]+738[0-9]*
+.*476122[.]+189[0-9]*
+.*0[.]+013[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,40 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 35
+>60
+>75
+
+ --- Program output ---
+>Digite o valor de L:Digite o valor de R:Digite o valor de D:Traceback (most recent call last):
+>  File "impedimento.py", line 9, in <module>
+>    if r>50 and L>R and R>D and R>=100:
+>NameError: name 'r' is not defined
+
+ --- Expected output (text)---
+>'N'
+
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 55
+>68
+>67
+
+ --- Program output ---
+>Digite o valor de L:Digite o valor de R:Digite o valor de D:Traceback (most recent call last):
+>  File "impedimento.py", line 9, in <module>
+>    if r>50 and L>R and R>D and R>=100:
+>NameError: name 'r' is not defined
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

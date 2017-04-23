@@ -1,0 +1,20 @@
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 35
+>80
+>35
+>75
+
+ --- Program output ---
+>Digite o Peso da Criança do Lado Esquerdo da Gangorra:Digite o Comprimento do Lado Esquerdo da Gangorra:Digte o Peso da Criança do Lado Direito da Gangorra:Digite o Comprimento do Lado Direito da Gangorra:-1
+>0
+
+ --- Expected output (text)---
+>'-1'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

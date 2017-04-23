@@ -1,0 +1,41 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Traceback (most recent call last):
+>  File "ex1.py", line 3, in <module>
+>    a = float(int('Digite a: '))
+>ValueError: invalid literal for int() with base 10: 'Digite a: '
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Traceback (most recent call last):
+>  File "ex1.py", line 3, in <module>
+>    a = float(int('Digite a: '))
+>ValueError: invalid literal for int() with base 10: 'Digite a: '
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

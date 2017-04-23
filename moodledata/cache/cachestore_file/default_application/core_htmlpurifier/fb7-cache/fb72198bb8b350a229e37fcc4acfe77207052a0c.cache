@@ -1,0 +1,34 @@
+s:791:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000
+0.045
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor do investimento :digite valor da taxa :lucros em 1 ano :1000.45
+lucros em 2 anos :1000.90
+lucros em 3 anos :1001.35
+lucros em 4 anos :1001.80
+lucros em 5 anos :1002.25
+lucros em 6 anos :1002.70
+lucros em 7 anos :1003.15
+lucros em 8 anos :1003.61
+lucros em 9 anos :1004.06
+lucros em 10 anos :1004.51
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1045.00
+1092.03
+1141.17
+1192.52
+1246.18
+1302.26
+1360.86
+1422.10
+1486.10
+1552.97'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

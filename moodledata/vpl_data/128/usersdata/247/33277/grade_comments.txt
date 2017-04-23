@@ -1,0 +1,20 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 15
+
+ --- Program output ---
+>digite o número: 3
+>5
+>não primo
+
+ --- Expected output (text)---
+> '3
+>5
+>NÃO PRIMO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

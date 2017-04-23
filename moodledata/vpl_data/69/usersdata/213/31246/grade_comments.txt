@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>Informe as virtórias do Cormengo: Informe os empates do Cormengo: Informe o saldo de gols do Cormengo: Informe as virtórias do Flaminthians: Informe os empates do Flaminthians: Informe o saldo de gols do Flaminthians: F
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

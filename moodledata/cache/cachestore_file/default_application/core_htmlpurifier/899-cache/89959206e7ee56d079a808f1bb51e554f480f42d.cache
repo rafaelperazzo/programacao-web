@@ -1,0 +1,6 @@
+s:417:"<p>Selecionar se as notas ocultas serão totalmente invisíveis para os cursistas ou se eles poderão ver os nomes dos itens.</p>
+
+<ul><li><p>Mostrar ocultas - Os nomes dos itens são visíveis mas as notas permanecem ocultas.</p></li>
+<li><p>Ocultas até - Os itens permanecem totalmente ocultos até a data fixada.</p></li>
+<li><p>Não mostrar - Os itens permanecem totalmente ocultos, nomes e notas.</p></li>
+</ul>";

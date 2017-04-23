@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+a=3
+b=5
+c=10
+if a <  b:
+    print("comando 1")

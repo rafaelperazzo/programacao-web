@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+iv=float(input('digite o valor do investimento:'))
+t=float(input('digite o valor da taxa. Ex. 5%=0,05 :'))
+iv1=iv+(iv*t)
+iv2=iv1+(iv1*t)
+iv3=iv2+(iv2*t)
+iv4=iv3+(iv3*t)
+iv5=iv4+(iv4*t)
+iv6=iv5+(iv5*t)
+iv7=iv6+(iv6*t)
+iv8=iv7+(iv7*t)
+iv9=iv8+(iv8*t)
+iv10=iv9+(iv9*t)
+print(iv1)
+print(iv2)
+print(iv3)
+print(iv4)
+print(iv5)
+print(iv6)
+print(iv7)
+print(iv8)
+print(iv9)
+print(iv10)

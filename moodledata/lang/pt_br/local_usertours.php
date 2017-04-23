@@ -39,12 +39,23 @@ $string['confirmstepremovaltitle'] = 'Confirme remoção de passo';
 $string['confirmtourremovalquestion'] = 'Você tem certeza de que deseja remover este tour?';
 $string['confirmtourremovaltitle'] = 'Confirme remoção de tour';
 $string['content'] = 'Conteúdo';
+$string['content_help'] = 'Este é o conteúdo do passo.
+Você pode inserir o conteúdo nos seguintes formatos:
+<dl>
+    <dt>Texto simples</dt>
+    <dd>Um texto simples de descrição</dd>
+    <dt>Moodle MultiLang</dt>
+    <dd>Uma string que use o formato do Moodle MultiLang</dd>
+    <dt>Uma string traduzida do Moodle</dt>
+    <dd>Um valor encontrado em um arquivo de idioma padrão do Moodle no identificador de formato, componente</dd>
+</dl>';
 $string['cssselector'] = 'Seletor de CSS';
 $string['defaultvalue'] = 'Padrão ({$a})';
 $string['delay'] = 'Atraso antes de mostrar o passo';
 $string['delay_help'] = 'Você pode opcionalmente escolher adicionar um atraso antes do passo ser exibido.
 
 Esse atraso é em milisegundos.';
+$string['description'] = 'Descrição';
 $string['done'] = 'Pronto';
 $string['editstep'] = 'Editando "{$a}"';
 $string['enabled'] = 'Habilitado';
@@ -117,6 +128,16 @@ Você também vai achar as ferramantas de desenvolvimento do seu navegador extre
 $string['targettype'] = 'Tipo de alvo';
 $string['target_unattached'] = 'Exibir no meio da página';
 $string['title'] = 'Título';
+$string['title_help'] = 'Este é o título mostrado no início do passo.
+Você pode inserir o título nos seguintes formatos:
+<dl>
+    <dt>Texto simples</dt>
+    <dd>Um texto simples de descrição</dd>
+    <dt>Moodle MultiLang</dt>
+    <dd>Uma string que use o formato do Moodle MultiLang</dd>
+    <dt>Uma string traduzida do Moodle</dt>
+    <dd>Um valor encontrado em um arquivo de idioma padrão do Moodle no identificador de formato, componente</dd>
+</dl>';
 $string['top'] = 'Acima';
 $string['tourconfig'] = 'Arquivo de configuração do tour para importar';
 $string['tourlist_explanation'] = 'Você pode criar quantos tours você quiser e ativá-los para diferentes partes do Moodle. Apenas um tour pode ser criado por página.';

@@ -1,0 +1,47 @@
+s:1174:"<b>Failed tests</b><br />Test 2: Teste 2
+<br />Test 6: Teste 6
+<br />Test 9: Teste 9
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 16
+16
+16
+16
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor 1:digite o valor 2:digite o valor 3:digite o valor 4:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+5
+7
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor 1:digite o valor 2:digite o valor 3:digite o valor 4:S
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 9: Teste 9 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1
+1
+0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor 1:digite o valor 2:digite o valor 3:digite o valor 4:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  9 tests run/ 6 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

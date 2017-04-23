@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>Digite o Valor do Investimento Inicial:Digite a Taxa de Juros Anual:1045
+>1092
+>1141
+>1193
+>1246
+>1302
+>1361
+>1422
+>1486
+>1553
+
+ --- Expected output (text)---
+> '1045.00
+>1092.03
+>1141.17
+>1192.52
+>1246.18
+>1302.26
+>1360.86
+>1422.10
+>1486.10
+>1552.97'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

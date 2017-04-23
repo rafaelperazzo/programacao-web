@@ -1,0 +1,17 @@
+-Test 4: Teste 4 (-5.000)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>digite o seu peso:digite sua altura:
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE GRAVE.*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

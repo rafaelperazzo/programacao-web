@@ -274,6 +274,7 @@ $cache = array (
       'section_links' => '/var/www/html/moodle/blocks/section_links',
       'selfcompletion' => '/var/www/html/moodle/blocks/selfcompletion',
       'settings' => '/var/www/html/moodle/blocks/settings',
+      'simple_clock' => '/var/www/html/moodle/blocks/simple_clock',
       'site_main_menu' => '/var/www/html/moodle/blocks/site_main_menu',
       'social_activities' => '/var/www/html/moodle/blocks/social_activities',
       'tag_flickr' => '/var/www/html/moodle/blocks/tag_flickr',

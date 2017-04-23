@@ -1,0 +1,69 @@
+s:1744:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1987
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite ano um:digite ano dois:digite mes um:digite mes dois:digite dia um:digite dia dois:Data 1
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite ano um:digite ano dois:digite mes um:digite mes dois:digite dia um:digite dia dois:Data 1
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite ano um:digite ano dois:digite mes um:digite mes dois:digite dia um:digite dia dois:Data 1
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 5: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+12
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite ano um:digite ano dois:digite mes um:digite mes dois:digite dia um:digite dia dois:Data 1
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*IGUAIS.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

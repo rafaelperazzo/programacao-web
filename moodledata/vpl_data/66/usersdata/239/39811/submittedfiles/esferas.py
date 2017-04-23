@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+a=int(input("Digite o valor de a: "))
+b=int(input("Digite o valor de b: "))
+c=int(input("Digite o valor de c: "))
+d=int(input("Digite o valor de d: "))
+
+if a==b+c+d and d==b+c and b==c:
+    print("S")
+else:
+    print("N")

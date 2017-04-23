@@ -1,0 +1,51 @@
+-Failed tests
+Test 3: Teste 3
+Test 7: Teste 7
+Test 8: Teste 8
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>Digite V1:Digite V2:Digite V3:Digite V4:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite V1:Digite V2:Digite V3:Digite V4:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite V1:Digite V2:Digite V3:Digite V4:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 6 tests passed |
+>+------------------------------+
+

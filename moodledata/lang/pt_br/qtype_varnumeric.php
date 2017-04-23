@@ -25,6 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['combinedcontrolnamevarnumeric'] = 'Campo numérico';
+$string['err_notavalidnumberinanswer'] = 'Insira um número válido no campo de resposta.';
+$string['err_notavalidnumberinerrortolerance'] = 'Você digitou um número inválido no campo de resposta errada.';
 $string['pluginname'] = 'Variável numérica';
 $string['pluginnameadding'] = 'Adicionando uma questão Variável numérica';
 $string['pluginnameediting'] = 'Editando uma questão variável numérica';
@@ -35,7 +38,9 @@ Os valores usados no enunciado e usados para calcular a resposta são calculados
 Todas as expressões são calculada em tempo real e podem ser definidos para ser aleatórias e  diferentes para todos os usuários.
 
 Se precisar uma questão com um número fixo de variantes e com valores alelatórios mas igual para todos os estudantes, veja o tipo de questão "Conjunto de variáveis numéricos"';
+$string['pluginname_link'] = 'question/type/varnumeric';
 $string['pluginnamesummary'] = 'Permite respostas numéricas; expressões são calculadas cada vez e comparadas com a resposta do estudante';
+$string['scinotation'] = 'Notação científica';
 $string['value'] = 'Valor';
 $string['value_help'] = 'Entre aqui com valores para as "variáveis pré-definidas". Caso contrário, aparecerão os valores calculados para a \'variável calculada\'
 

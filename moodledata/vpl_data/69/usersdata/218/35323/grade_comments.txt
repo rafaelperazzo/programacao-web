@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>digite o numero de pontos do C:digite o numero de empates do C:digite o saldo de gols de C:digite o numero de pontos do F:digite o numero de empates do F:digite o saldo de gols de F:F
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

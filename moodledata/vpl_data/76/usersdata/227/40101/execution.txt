@@ -1,0 +1,89 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 0
+>0
+>1
+>1
+>0
+>1
+>1
+>1
+>0
+
+ --- Program output ---
+>  File "jogoDaVelha.py", line 21
+>    print('%d'%x1')
+>                  ^
+>SyntaxError: EOL while scanning string literal
+
+ --- Expected output (text)---
+> '0'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+>1
+>0
+>1
+>0
+>0
+
+ --- Program output ---
+>  File "jogoDaVelha.py", line 21
+>    print('%d'%x1')
+>                  ^
+>SyntaxError: EOL while scanning string literal
+
+ --- Expected output (text)---
+> '1'
+
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 0
+>0
+>1
+>1
+>1
+>0
+>0
+>1
+>1
+
+ --- Program output ---
+>  File "jogoDaVelha.py", line 21
+>    print('%d'%x1')
+>                  ^
+>SyntaxError: EOL while scanning string literal
+
+ --- Expected output (text)---
+> 'E'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

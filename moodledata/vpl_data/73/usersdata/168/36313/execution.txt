@@ -1,0 +1,59 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>2
+
+ --- Program output ---
+>Digite o comprimento do lado a do triângulo: Digite o comprimento do lado b do triângulo: Digite o comprimento do lado c do triângulo: Números inteiros positivos
+>S
+>Ac
+>Traceback (most recent call last):
+>  File "triangulo.py", line 19, in <module>
+>    print(Eq)
+>NameError: name 'Eq' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Eq'
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>3
+>2
+
+ --- Program output ---
+>Digite o comprimento do lado a do triângulo: Digite o comprimento do lado b do triângulo: Digite o comprimento do lado c do triângulo: Números inteiros positivos
+>N
+>Ob
+>Es
+
+ --- Expected output (text)---
+> 'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 6.67

@@ -1,0 +1,32 @@
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 3: Teste 3 (-5.000)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o peso(kg):digite a altura(m):obsidade
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE.*
+
+-Test 4: Teste 4 (-5.000)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>digite o peso(kg):digite a altura(m):obsidade grave
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE GRAVE.*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+

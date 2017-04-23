@@ -1,0 +1,22 @@
+s:506:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+4
+2
+1
+6
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o número 1: Digite o número 2: Digite o número 3: Digite o número 4: Digite o número 5: 1
+6
+6
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1
+6'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,38 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>9
+>8
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:S
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Es'
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>2
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:S
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Eq'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

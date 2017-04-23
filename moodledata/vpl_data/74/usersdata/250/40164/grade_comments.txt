@@ -1,0 +1,51 @@
+-Failed tests
+Test 2: Teste 2
+Test 8: Teste 8
+Test 9: Teste 9
+-Test 2: Teste 2 (-1.111)
+Incorrect program result
+ --- Input ---
+> 16
+>16
+>16
+>16
+
+ --- Program output ---
+>digite o primeiro numero:digite o segundo numero:digite o terceiro numero:digite o quarto numero:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>digite o primeiro numero:digite o segundo numero:digite o terceiro numero:digite o quarto numero:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>digite o primeiro numero:digite o segundo numero:digite o terceiro numero:digite o quarto numero:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 6 tests passed |
+>+------------------------------+
+

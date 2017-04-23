@@ -1,0 +1,22 @@
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>9
+>8
+
+ --- Program output ---
+>digite o lado A:digite o lado B:digite o lado C:S
+>Ob
+>Es
+
+ --- Expected output (text)---
+> 'S'
+>'Ac'
+>'Es'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

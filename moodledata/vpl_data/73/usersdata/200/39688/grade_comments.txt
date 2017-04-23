@@ -1,0 +1,20 @@
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 10
+>3
+>2
+
+ --- Program output ---
+>digite o lado A:digite o lado B:digite o lado C:S
+>Ob
+>Es
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

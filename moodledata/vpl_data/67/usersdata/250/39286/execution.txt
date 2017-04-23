@@ -1,0 +1,53 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 3: Teste 3 (-5.000)
+Incorrect program result
+ --- Input ---
+> 110
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:Traceback (most recent call last):
+>  File "imc.py", line 11, in <module>
+>    elif imc>30 and imC<=40:
+>NameError: name 'imC' is not defined
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE.*
+
+-Test 4: Teste 4 (-5.000)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>digite o peso:digite a altura:Traceback (most recent call last):
+>  File "imc.py", line 11, in <module>
+>    elif imc>30 and imC<=40:
+>NameError: name 'imC' is not defined
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE GRAVE.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>10

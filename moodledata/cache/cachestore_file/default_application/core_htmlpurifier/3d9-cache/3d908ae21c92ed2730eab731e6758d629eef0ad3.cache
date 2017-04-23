@@ -1,0 +1,39 @@
+s:771:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+9
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dig a:dig b:dig c:N
+Ac
+Es
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'Ac'
+'Es'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+2
+2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dig a:dig b:dig c:N
+Ac
+Eq
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'Ac'
+'Eq'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>Digite aqui o valor de f: Digite aqui o valor de l: Digite aqui o valor de q: Digite aqui o valor de Delta H: Digite aqui o valor de v: D=5.6770
+>Rey=145781.1072
+>k=-0.0356
+
+ --- Expected output (regular expression)---
+>.*1[.]+738[0-9]*
+>.*476122[.]+189[0-9]*
+>.*0[.]+013[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

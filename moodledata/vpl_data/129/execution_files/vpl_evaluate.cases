@@ -1,0 +1,22 @@
+case = Teste 1
+input = 28
+output = '1
+2
+4
+7
+14
+PERFEITO'
+
+case = Teste 2
+input = 20
+output = /1
+2
+4
+5
+10
+NÃO PERFEITO|1
+2
+4
+5
+10
+não perfeito/i

@@ -1,0 +1,19 @@
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 2002
+>560
+>560
+>882
+
+ --- Program output ---
+>digite um valor:digite um valor:digite um vaoor:digite um valor:
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

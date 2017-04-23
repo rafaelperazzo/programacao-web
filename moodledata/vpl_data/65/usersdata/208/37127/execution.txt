@@ -1,0 +1,38 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1000
+>0.045
+
+ --- Program output ---
+>  File "investimento.py", line 10
+>    m4=m3*(1=i)
+>            ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>1045\.00
+>(1092\.03|1090\.02)
+>1141\.17
+>1192\.52
+>1246\.18
+>1302\.26
+>1360\.86
+>1422\.10
+>1486\.10
+>1552\.97
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

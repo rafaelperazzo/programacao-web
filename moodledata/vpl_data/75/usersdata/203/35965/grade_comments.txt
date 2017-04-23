@@ -1,0 +1,23 @@
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 6
+>8
+>6
+>8
+>3
+
+ --- Program output ---
+>Digite o número 1: Digite o número 2: Digite o número 3: Digite o número 4: Digite o número 5: 3
+>8
+>8
+
+ --- Expected output (text)---
+> '3
+>8'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,72 @@
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+Test 6: Teste 6
+Test 7: Teste 7
+-Test 3: Teste 3 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>1
+>10
+
+ --- Program output ---
+>digite valor de u:digite valor de v:digite valor de y:digite valor de z:Traceback (most recent call last):
+>  File "lecker.py", line 7, in <module>
+>    if v>u and v>y and y<f:
+>NameError: name 'f' is not defined
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 4: Teste 4 (-1.111)
+Incorrect program result
+ --- Input ---
+> 4
+>7
+>5
+>3
+
+ --- Program output ---
+>digite valor de u:digite valor de v:digite valor de y:digite valor de z:Traceback (most recent call last):
+>  File "lecker.py", line 7, in <module>
+>    if v>u and v>y and y<f:
+>NameError: name 'f' is not defined
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>digite valor de u:digite valor de v:digite valor de y:digite valor de z:S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>digite valor de u:digite valor de v:digite valor de y:digite valor de z:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 5 tests passed |
+>+------------------------------+
+

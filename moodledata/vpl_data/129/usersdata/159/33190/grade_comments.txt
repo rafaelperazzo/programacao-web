@@ -1,0 +1,26 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 28
+
+ --- Program output ---
+>Digite n:1
+>2
+>4
+>7
+>14
+>NÃO PERFEITO
+
+ --- Expected output (text)---
+> '1
+>2
+>4
+>7
+>14
+>PERFEITO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

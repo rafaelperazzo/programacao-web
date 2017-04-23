@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+import math
+a=float(input('digite a: '))
+b=float(input('digite b: '))
+c=float(input('digite c: '))
+if a>b and a>c and a>d:
+    print('S')
+elif b>a and b>c and b>d:
+    print('S')
+elif c>a and c>b and c>d:
+    print('S')
+elif d>a and d>b and d>c:
+    print('S')
+else:
+    print('N')

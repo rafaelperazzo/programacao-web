@@ -1,0 +1,31 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 2: Teste 2 (-12.500)
+Incorrect program result
+ --- Input ---
+> 55
+>68
+>67
+
+ --- Program output ---
+>Digite o valor de L:Digite o valor de R:Digite o valor de D:Traceback (most recent call last):
+>  File "impedimento.py", line 9, in <module>
+>    if R>50 and L<R and R>D and r<=100:
+>NameError: name 'r' is not defined
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>12.50

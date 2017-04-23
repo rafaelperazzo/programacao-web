@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+i=float(input('digite o investimento:'))
+t=float(input('digite a taxa:'))
+i1=(i*t)+i
+i2=i1+(i1+t)
+i3=i2+(i2*t)
+i4=i3+(i3*t)
+i5=i4+(i4*t)
+i6=i5+(i5*t)
+i7=i6+(i6*t)
+i8=i7+(i7*t)
+i9=i8+(i8*t)
+i10=i9+(i9*t)
+print('%.2f'%m1)
+print('%.2f'%m2)
+print('%.2f'%m3)
+print('%.2f'%m4)
+print('%.2f'%m5)
+print('%.2f'%m6)
+print('%.2f'%m7)
+print('%.2f'%m8)
+print('%.2f'%m9)
+print('%.2f'%m10)

@@ -1,0 +1,26 @@
+s:640:"<b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 0
+0
+1
+1
+1
+0
+0
+1
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite x1: Digite x2: Digite x3: Digite x4: Digite x5: Digite x6: Digite x7: Digite x8: Digite x9: Traceback (most recent call last):
+  File "jogoDaVelha.py", line 54, in &lt;module&gt;
+    print(E)
+NameError: name 'E' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'E'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

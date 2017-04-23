@@ -1,0 +1,42 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 12
+>3
+>3
+>6
+
+ --- Program output ---
+>digite A: digite B: digite C: digite D: Traceback (most recent call last):
+>  File "esferas.py", line 7, in <module>
+>    print(S)
+>NameError: name 'S' is not defined
+
+ --- Expected output (text)---
+>'S'
+
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 2002
+>560
+>560
+>882
+
+ --- Program output ---
+>digite A: digite B: digite C: digite D: Traceback (most recent call last):
+>  File "esferas.py", line 9, in <module>
+>    print(N)
+>NameError: name 'N' is not defined
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,49 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 12
+>3
+>3
+>6
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:sim
+
+ --- Expected output (text)---
+>'S'
+
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 2002
+>560
+>560
+>882
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:não
+
+ --- Expected output (text)---
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0
