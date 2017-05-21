@@ -1,0 +1,75 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+exc= float(input('Digite o valor da excentricidade (e): '))
+L= float(input('Digite o valor do comprimento da coluna (L): '))
+
+sigma= 40000
+E= 30*(10**6)
+cont=0
+
+Pcr=((((math.pi)**2)*E)/(L)**2)
+P0= Pcr/2
+cont=0
+
+while(True):
+    #Separando a função em partes:
+    
+    raiz= ((P0/E)**(0.5))   
+    den= (1+(exc)*(1/math.cos((L/2)*raiz)))
+    
+    #Função:
+    
+    fP0= P0-(sigma/den)
+    
+    #Separando a derivada da função em partes:
+    
+    num1= (L*sigma*exc)*(1/math.cos((L/2)*(P0/E)**0.5))
+    num2= math.tan((L/2)*(P0/E)**0.5)
+    den1= (4*(E*P0)**0.5)
+    den2= (1+exc*(1/math.cos((L/2)*(P0/E)**0.5)))**2
+
+    #Derivada:
+        
+    fP1= 1+(num1*num2)/(den1*den2)
+    
+    cont=cont+1
+    P1= P0-(fP0/fP1)
+  
+    if abs(P0-P1)<0.4:
+        break
+    P0= P1
+   
+print('Para uma excentricidade de %5f e para um comprimento de %5f a menor raiz positiva da equação é %.5f, encontrada na iteração %d.'%(exc,L,P1,cont))
+
+while(True):
+    if P1<Pcr:
+        break
+    P1=(P0+Pcr)/2
+    P0=P1
+    if P1>=Pcr:
+       P1=(P0+Pcr)/2
+       P0=P1
+       
+       #Separando a função em partes:
+       raiz= ((P0/E)**(0.5))           
+       den= (1+(exc)*(1/math.cos((L/2)*raiz)))
+       
+       #Função:
+       fP0= P0-(sigma/den)
+       #Separando a derivada da função em partes:
+       num1= (L*sigma*exc)*(1/math.cos((L/2)*(P0/E)**0.5))
+       num2= math.tan((L/2)*(P0/E)**0.5)
+       den1= (4*(E*P0)**0.5)
+       den2= (1+exc*(1/math.cos((L/2)*(P0/E)**0.5)))**2
+       
+       #Derivada:
+       fP1= 1+(num1*num2)/(den1*den2)
+
+       cont=cont+1
+       P1= P0-(fP0/fP1)
+    if abs(P0-P1)<0.4:
+        break
+
+print('Para uma excentricidade de %5f e para um comprimento de %5f a menor raiz positiva da equação é %.5f, encontrada na iteração %d.'%(exc,L,P1,cont))       

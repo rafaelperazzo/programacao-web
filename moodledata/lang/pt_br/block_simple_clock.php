@@ -37,7 +37,7 @@ $string['config_clock_visibility_help'] = '<p>Com essa configuração, você pod
     <li>ambos.</li>
 </ul>';
 $string['config_day'] = 'Exibir nome do dia';
-$string['config_day_help'] = '<p> Mostrando o nome do dia acrescenta informação adicional para os alunos que podem estar em um fuso horário de um dia mais cedo ou mais tarde. </ p>';
+$string['config_day_help'] = '<p> Mostrando o nome do dia acrescenta informação adicional para os alunos que podem estar em um fuso horário de um dia mais cedo ou mais tarde. </p>';
 $string['config_header'] = 'Exibir cabeçalho';
 $string['config_header_help'] = '<p>Com esta configuração, é possível controlar se o cabeçalho do bloco, incluindo o título, será mostrado.</p>
 <p style="background:yellow;border:3px dashed black;padding:10px;"><strong>Nota</strong><br />

@@ -29,7 +29,7 @@ $string['clientid'] = 'Id de cliente';
 $string['noauthtoken'] = 'Um token de autenticação não foi recebido do Google. Certifique-se que está permitindo que o moodle acesse sua conta do Google';
 $string['nooauthcredentials'] = 'Credenciais OAuth exigidas.';
 $string['nooauthcredentials_help'] = 'Para usar o plugin de portfólio do Google Drive você precisa configurar as credenciais OAuth nas configurações do portfólio.';
-$string['nosessiontoken'] = 'Um token de sessão não existe prevenindo exportar ao Google';
+$string['nosessiontoken'] = 'Um token de sessão não existe prevenindo exportar ao Google.';
 $string['oauthinfo'] = '<p>Para usar o portfólio do google Drive você precisa estar registrado no Google. Instruções sobre o registro de sua instalação com o Google estão descritas no <a href="{$a->docsurl}">Moodle Drive</a>. A Url de redirecionamento precisa apontar para:</p><p>{$a->callbackurl}</p>';
 $string['pluginname'] = 'Google Drive';
 $string['secret'] = 'Segredo';

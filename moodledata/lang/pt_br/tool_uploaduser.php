@@ -44,7 +44,7 @@ $string['rowpreviewnum'] = 'Linhas de pré-visualização';
 $string['unassignedsysrole'] = 'Atribuição de papel de sistema removida {$a}';
 $string['uploadpicture_baduserfield'] = 'O atributo de usuário especificado não é válido. Favor tentar novamente.';
 $string['uploadpicture_cannotmovezip'] = 'Não pode mover arquivo zip para o diretório temporário.';
-$string['uploadpicture_cannotprocessdir'] = 'Não consegue processar arquivos unzipados';
+$string['uploadpicture_cannotprocessdir'] = 'Não consegue processar arquivos unzipados.';
 $string['uploadpicture_cannotsave'] = 'Não pode salvar imagem para o usuário {$a}. Verifique o arquivo de imagem original.';
 $string['uploadpicture_cannotunzip'] = 'Não consegue unzipar arquivos de imagens.';
 $string['uploadpicture_invalidfilename'] = 'Arquivo de imagem {$a} tem caracteres inválidos em seu nome. Saltando.';
@@ -53,10 +53,10 @@ $string['uploadpictures'] = 'Carregar imagens de usuários';
 $string['uploadpictures_help'] = '<p>Imagens de usuários podem ser carregadas através de um arquivo compactado (zip) de arquivos de imagens. Os arquivos de imagens devem ter o nome na forma <i>atributo-do-usuário.extensão</i>. Por exemplo, se o atributo de usuário escolhido para identificar as imagens for o usuário (username) e o usuário for usuario1234, então o nome do arquivo deverá ser usuario1234.jpg.</p>
 <p>Os tipos de arquivos de imagens aceitos são gif, jpg, e png.</p>
 <p>Nome de arquivos de imagem não diferenciam maiúsculas de minúsculas.</p>';
-$string['uploadpicture_userfield'] = 'Atributo de usuário a ser usado para comparar imagens';
+$string['uploadpicture_userfield'] = 'Atributo de usuário a ser usado para comparar imagens:';
 $string['uploadpicture_usernotfound'] = 'Usuário com um \'{$a->userfield}\' com valor de \'{$a->uservalue}\'';
-$string['uploadpicture_userskipped'] = 'Saltando usuário {$a} (já tem uma imagem)';
-$string['uploadpicture_userupdated'] = 'Imagem atualizada para o usuário {$a}';
+$string['uploadpicture_userskipped'] = 'Saltando usuário {$a} (já tem uma imagem).';
+$string['uploadpicture_userupdated'] = 'Imagem atualizada para o usuário {$a}.';
 $string['uploadusers'] = 'Carregar lista de usuários';
 $string['uploadusers_help'] = 'Usuários podem ser enviados (e opcionalmente inscritos em cursos) via arquivos de texto. O formato deste arquivo deve ser o seguinte:
 

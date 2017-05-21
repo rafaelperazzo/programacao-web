@@ -1,0 +1,17 @@
+-Test 1: Teste 1 (-7.500)
+Incorrect program result
+ --- Input ---
+> 23
+>57238
+
+ --- Program output ---
+>q:p:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

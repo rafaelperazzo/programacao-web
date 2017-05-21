@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+# Entrada e Valores fornecidos no Exercício #
+
+e2=input('digite o valor de e:')
+L2=input('digite o valor de L:')
+A=1
+c=1
+r=1
+a=40000
+E=30000000
+
+# Função secante a ser usada no cálculo #
+
+def sec(x):
+    sec= (1/math.cos(x))
+    return sec
+
+# Cálculo do Valor inicial Po #
+
+Pcr = (((math.pi)**2)*E*A)/((L2/r)**2)
+Po = Pcr/2 
+print (Pcr)
+
+# Repetição que fornece o valor da menor raiz através de n iterações #
+
+erroo=999
+Contador=0
+while(erroo>0.4): 
+    Pk=Po
+    x = (L2/(2*r))*math.sqrt((Po/(E*A)))
+    z = (a*c*e2*L2)*math.tan(x)*sec(x)
+    y=4*(r**3)*E*A*math.sqrt(Po/(E*A))*((1+(((e2*c)/(r**2))*sec(x)))**2)    
+    FPo= (Po/A) - (a/(1+((e2*c)/(r**2))*sec(x)))
+    FlinhaPo= (z/y) +(1/A)     
+    Pomais1= (Po - (FPo/FlinhaPo))
+    erroo= math.fabs(Pomais1 - Po)      
+    Po=Pomais1
+    Contador= Contador+1
+    if Po>Pcr:
+        Po=(Pk+Pcr)/2        
+    print ('O valor do erro é %f' %erroo)
+    print ('O valor de Po é %f' %Po)
+print ('O valor do erro final é %f' %erroo)
+print ('O valor da raiz é %f' %Po)
+print('O número de iterações é %d' %Contador)
+   
+
+ 
+    
+    

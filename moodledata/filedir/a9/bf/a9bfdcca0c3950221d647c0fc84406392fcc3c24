@@ -1,0 +1,24 @@
+#Metodo da Secante
+from __future__ import division
+import math
+e=input('digite o valor de e: ')
+L=input('digite o valor de L: ')
+Pcr=(((math.pi)**2)*(30*(10**6)))/(L**2)
+xi=Pcr/2
+xi1=xi-10
+fxi=(xi)-((40000)/(1+(e*(1/math.cos((L/2)*(math.sqrt(xi)/(30*(10**6))))))))
+fxi1=(xi1)-((40000)/(1+(e*(1/math.cos((L/2)*(math.sqrt(xi1)/(30*(10**6))))))))
+x2=xi-((fxi*(xi1-xi))/(fxi1-fxi))
+erro=1
+cont=0
+while erro>=0.4:
+    xi1=xi
+    xi=x2
+    fxi=(xi)-((40000)/(1+(e*(1/math.cos((L/2)*(math.sqrt(xi)/(30*(10**6))))))))
+    fxi1=(xi1)-((40000)/(1+(e*(1/math.cos((L/2)*(math.sqrt(xi1)/(30*(10**6))))))))
+    x2=xi-((fxi*(xi1-xi))/(fxi1-fxi))
+    erro=abs(xi-x2)
+    cont=cont+1
+print('A menor raiz eh %.5f, encontrada na iteracao %d'%(x2,cont))
+
+

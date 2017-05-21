@@ -26,11 +26,16 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['configjapaneseyeartype'] = 'Escolha entre o tipo de ano gregoriano ou pela regra do Imperador.';
+$string['emperor'] = 'Empírico';
+$string['gregorian'] = 'Gregoriano';
 $string['heisei'] = 'Ano Heisei {$a}';
+$string['japaneseyeartype'] = 'Tipo de ano japonês';
 $string['meiji'] = 'Ano Meiji {$a}';
 $string['meijihandover'] = 'Ano Meiji {$a->old} - Ano Taishou {$a->new}';
+$string['month'] = '{$a}';
 $string['name'] = 'Japonês';
 $string['pluginname'] = 'Tipo de calendário japonês';
+$string['pm'] = 'pm';
 $string['shouwa'] = 'Ano Shouwa {$a}';
 $string['shouwahandover'] = 'Ano Shouwa {$a->old} - Ano Heisei {$a->new}';
 $string['taishou'] = 'Ano Taishou {$a}';

@@ -1,0 +1,37 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>2
+>3
+
+ --- Program output ---
+>Qual a quantidade de divisores? Qual o 1º valor? Qual o 2º valor? Traceback (most recent call last):
+>  File "divisores.py", line 16, in <module>
+>    mult()
+>  File "divisores.py", line 12, in mult
+>    print (mult)
+>UnboundLocalError: local variable 'mult' referenced before assignment
+
+ --- Expected output (text)---
+> '2'
+>'3'
+>'4'
+>'6'
+>'8'
+>'9'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['eventbookexported'] = 'Livro exportado';
 $string['exportimscp:export'] = 'Exportar livro como pacote de conteúdo IMS ';
 $string['generateimscp'] = 'Gerar pacote de conteúdo IMS';
-$string['nochapters'] = 'Não foram encontrados capítulos do livro, não sendo possível exportar para IMS CP';
+$string['nochapters'] = 'Não foram encontrados capítulos do livro, não sendo possível exportar para IMS CP.';
 $string['pluginname'] = 'Exportar livro para IMS CP';

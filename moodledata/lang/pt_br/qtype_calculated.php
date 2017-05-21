@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['additem'] = 'Adicionar item';
-$string['addmoreanswerblanks'] = 'Adicionar outra resposta vazia';
+$string['addmoreanswerblanks'] = 'Adicionar outra resposta vazia.';
 $string['addsets'] = 'Adicionar conjunto(s)';
 $string['answerdisplay'] = 'Responda exibir';
 $string['answerformula'] = 'Responda {$a} fórmula';

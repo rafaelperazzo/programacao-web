@@ -74,7 +74,7 @@ $string['setlayoutcolumnorientation_help'] = 'Vertical - Seções que vão de ci
 Horizontal - Seções que vão da esquerda para a direita.';
 $string['setlayoutelements'] = 'Definir elementos';
 $string['showfromothers'] = 'Mostrar seção';
-$string['topcollall'] = 'Seções';
+$string['topcollall'] = 'Seções.';
 $string['topcollclosed'] = 'Fechar tudo';
 $string['topcollopened'] = 'Abrir tudo';
 $string['topcolltoggle'] = 'Alternar';

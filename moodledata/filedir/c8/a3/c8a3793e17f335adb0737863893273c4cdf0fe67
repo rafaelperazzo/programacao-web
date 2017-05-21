@@ -1,0 +1,23 @@
+l=input("Digite o valor de l");
+e=input("Digite o valor de e");
+k=((%pi^2)*30000000)/l^2
+
+function y=fdex(k)
+    y= k - (40000/(1+(e*sec((l/2)*((k/30000000)^(1/2))))))
+endfunction
+x=[0:100:100000];
+plot(x,fdex,k)
+z=0*x
+plot(x,z,'k')
+y=1
+
+while (abs(y)>0.00001)
+    y=fdex(k)
+    yl=numderivative(fdex,k)
+    novok=k-(y/yl)
+    k=novok
+
+end
+disp ("O valor da raiz foi ")
+disp(k)
+

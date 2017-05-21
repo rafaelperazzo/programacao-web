@@ -25,5 +25,5 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pleaseselectacertainty'] = 'Por favor selecione o grau de certeza';
+$string['pleaseselectacertainty'] = 'Por favor selecione o grau de certeza.';
 $string['pluginname'] = 'Feedback imediato com CBM';

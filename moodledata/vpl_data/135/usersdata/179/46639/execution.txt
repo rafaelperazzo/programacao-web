@@ -1,0 +1,35 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>4
+>235
+>100
+>134
+>0
+>0
+>200
+>200
+>150
+>150
+
+ --- Program output ---
+>digite n :digite p :digite x :digite y :digite x :digite y :digite x :digite y :1
+
+ --- Expected output (text)---
+>'2'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

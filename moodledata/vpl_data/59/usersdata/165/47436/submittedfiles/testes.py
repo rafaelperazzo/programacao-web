@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+n=int(input('digite n:'))
+s=0
+x=1
+for i in range(1,n+1,1):
+    if (termo%2)!=0:
+        s=s+x/(x**2)
+    else:
+        s=s-x/(x**2)
+    x=x+1
+print(s)

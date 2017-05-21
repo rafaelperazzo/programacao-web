@@ -1,0 +1,144 @@
+#include "koolplot.h"
+#include <math.h>
+#include <iostream>
+
+using namespace std;
+
+#define ep 0.01
+#define PI 3.14159265359
+double carga_critica(double, double, double, double);
+//calcula a carga crítica na coluna.
+
+double fp(double, double, double, double, double, double, double, double);
+//função que cálcula a carga axial.
+
+double dfp(double, double, double, double, double, double, double, double);
+//derivada da função da carga axial.
+
+double metodo_newton(double, double, double, double, double, double, double, double, double, double);
+//método de newton para encontrar as raízes.
+
+struct coluna
+{
+    //Propriedades geométricas da secção transversal da barra.
+    double A;
+    double c;
+    double r;
+
+    double sigma; //tensão máxima suportada pelo material da coluna.
+    double E; //módulo de elasticidade do material da coluna.
+
+    double tolerancia;//tolerancia do método de Newton;
+
+    double e; //excentricidade da coluna.
+    double L; //comprimento da coluna.
+
+    double Pcr;// = carga_critica(E,A,L,r); //carga axial crítica.
+    double P0; //= Pcr/2; //chute inicial para a carga axial.
+    double P; //= metodo_newton(P0,A,sigma,e,c,r,L,E,tolerancia); //carga axial.
+
+};
+
+int main ()
+{
+    coluna coluna_A, coluna_B;
+
+    coluna_A.e = 0.3;
+    coluna_A.L = 50;
+    coluna_A.A = 1;
+    coluna_A.c = 1;
+    coluna_A.r = 1;
+    coluna_A.sigma = 40000;
+    coluna_A.E = 30000000;
+    coluna_A.tolerancia = coluna_A.A*coluna_A.sigma*0.00001;
+
+    coluna_A.Pcr = carga_critica(coluna_A.E,coluna_A.A,coluna_A.L,coluna_A.r);
+    coluna_A.P0 = coluna_A.Pcr/2;
+    coluna_A.P = metodo_newton(coluna_A.P0,coluna_A.A,coluna_A.sigma,coluna_A.e,coluna_A.c,coluna_A.r,coluna_A.L,coluna_A.E,coluna_A.tolerancia,coluna_A.Pcr);
+
+
+    cout << "A carga maxima suportada pela coluna A é: " << coluna_A.P << endl;
+    cout << "A carga critica na coluna A é: " << coluna_A.Pcr << endl;
+
+    coluna_B.e = 0.05;
+    coluna_B.L = 150;
+    coluna_B.A = 1;
+    coluna_B.c = 1;
+    coluna_B.r = 1;
+    coluna_B.sigma = 40000;
+    coluna_B.E = 30000000;
+    coluna_B.tolerancia = coluna_B.A*coluna_B.sigma*0.00001;
+
+
+    coluna_B.Pcr = carga_critica(coluna_B.E,coluna_B.A,coluna_B.L,coluna_B.r);
+    coluna_B.P0 = coluna_B.Pcr/2;
+    coluna_B.P = metodo_newton(coluna_B.P0,coluna_B.A,coluna_B.sigma,coluna_B.e,coluna_B.c,coluna_B.r,coluna_B.L,coluna_B.E,coluna_B.tolerancia,coluna_B.Pcr);
+
+    cout << "A carga maxima suportada pela coluna B é: " << coluna_B.P << endl;
+    cout << "A carga critica na coluna B é: " << coluna_B.Pcr << endl;
+
+
+    //Plotdata x(20.0, 40.0), y = x*1000-40000/(1+0.3/cos(25*sqrt(x/30000)));
+    //plot(x, y);
+
+    Plotdata P(5.0, 15.0), f = P*1000-40000/(1+0.05/cos(75*sqrt(P/30000)));
+    plot(P, f);
+    return 0;
+}
+
+//definição da função que calcula a carga crítica
+double carga_critica(double E, double A, double L, double r)
+{
+    double Pcr;
+
+    Pcr = pow(PI,2)*E*A/pow(L/r,2);
+
+    return Pcr;
+}
+
+//definição da função de cálculo da carga axial
+double fp(double P, double A, double sigma, double e, double c, double r, double L, double E)
+{
+    double fp;
+
+    fp = P/A - sigma/(1+e*c/(pow(r,2)*cos((L/(2*r))*pow(P/(E*A),0.5))));
+
+    return fp;
+}
+
+//derivada da função fp
+double dfp(double P, double A, double sigma, double e, double c, double r, double L, double E)
+{
+    double d;
+    double Plinha = P + ep;
+
+    d = (fp(Plinha,A,sigma,e,c,r,L,E) - fp(P,A,sigma,e,c,r,L,E)) / ep;
+
+    return d;
+}
+
+//definição do méodo de Newton para determinação da raiz da equação.
+double metodo_newton(double P0, double A, double sigma, double e, double c, double r, double L, double E, double tolerancia, double Pcr)
+{
+    double err , P ;
+    P = P0; //inicializando a varável P para evitar que ela assuma valores negativos.
+
+    do
+    {
+
+        P = P0 - ( fp (P,A,sigma,e,c,r,L,E) / dfp(P,A,sigma,e,c,r,L,E) ) ;
+        err = fabs ( ( P - P0 ) / P ) ;
+
+        if (P < Pcr)//limitando a carga axial a valores menores que o crítico
+            P0 = P;
+        else//recalculando o valor de P caso ele estoure o valor de Pcr
+        {
+            P = (P0 + Pcr)/2;
+            err = fabs ( ( P - P0 ) / P ) ;
+            P0 = P;
+        }
+
+    }while ( err > tolerancia) ;
+
+    return P ;
+}

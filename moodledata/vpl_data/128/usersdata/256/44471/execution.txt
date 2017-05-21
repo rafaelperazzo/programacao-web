@@ -1,0 +1,49 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 15
+
+ --- Program output ---
+>  File "al6.py", line 2
+>    n=int(input('Digite N':))
+>                          ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>.*NÃO PRIMO.*|.*não primo.*
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 19
+
+ --- Program output ---
+>  File "al6.py", line 2
+>    n=int(input('Digite N':))
+>                          ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>PRIMO.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

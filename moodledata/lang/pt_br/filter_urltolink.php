@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['embedimages'] = 'Imagens embarcadas';
-$string['embedimages_desc'] = 'Substitui urls de imagens nos formatos de textos selecionados';
+$string['embedimages_desc'] = 'Substitui urls de imagens nos formatos de textos selecionados.';
 $string['filtername'] = 'Converter URLs em links e imagens';
 $string['settingformats'] = 'Aplicar aos formatos';
 $string['settingformats_desc'] = 'O filtro será aplicado somente se o texto original foi inserido em um dos formatos selecionados.';

@@ -34,4 +34,4 @@ $string['pluginname_link'] = 'qformat/webct';
 $string['questionnametoolong'] = 'Nome da questão está muito longo na linha {$a} (255 car. max.). Nome foi truncado.';
 $string['unknowntype'] = 'Tipo desconhecido';
 $string['warningsdetected'] = '{$a} aviso(s) detectados';
-$string['wronggrade'] = 'Nota errada (após linha {$a})';
+$string['wronggrade'] = 'Nota errada (após linha {$a}):';

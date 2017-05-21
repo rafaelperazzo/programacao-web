@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_shib_auth_method'] = 'Nome do método de autenticação';
-$string['auth_shib_auth_method_description'] = 'Forneça um nome para o método de autenticação Shibboleth que seja familiar aos usuários. Um exemplo poderia ser o nome da sua associação Shibboleth, <tt>SWITCHaai Login</ tt> ou <tt>InCommon Login</ tt> ou similares.';
+$string['auth_shib_auth_method_description'] = 'Forneça um nome para o método de autenticação Shibboleth que seja familiar aos usuários. Um exemplo poderia ser o nome da sua associação Shibboleth, <tt>SWITCHaai Login</tt> ou <tt>InCommon Login</tt> ou similares.';
 $string['auth_shibbolethdescription'] = 'Com este método os usuários são criados e autenticados utilizando <a href="http://shibboleth.internet2.edu/" target="_blank">Shibboleth</a>.<br>Leia o <a href="../auth/shibboleth/README.txt" target="_blank">README</a> de Shibboleth para instruções sobre a configuração do Moodle com Shibboleth';
 $string['auth_shibboleth_errormsg'] = 'Por favor, selecione a organização da qual você é membro.';
 $string['auth_shibboleth_login'] = 'Login Shibboleth';
@@ -48,7 +48,7 @@ $string['auth_shib_integrated_wayf_description'] = 'Se você marcar essa opção
 $string['auth_shib_logout_return_url'] = 'URL de saída alternativa do logout';
 $string['auth_shib_logout_return_url_description'] = 'Forneça a URL para a qual os usuários Shibboleth devem ser redirecionado após o logoff. <br /> Se deixado em branco, os usuários serão redirecionados para o local padrão de redirecionamento de usuários Moodle.';
 $string['auth_shib_logout_url'] = 'URL de manipulação de "logout" do provedor de serviços Shibboleth.';
-$string['auth_shib_logout_url_description'] = 'Forneça a URL para o manipulador de logout do provedor de serviços Shibboleth. Normalmente é <tt> / Shibboleth.sso / Logout </ tt>';
+$string['auth_shib_logout_url_description'] = 'Forneça a URL para o manipulador de logout do provedor de serviços Shibboleth. Normalmente é <tt> / Shibboleth.sso / Logout </tt>';
 $string['auth_shib_no_organizations_warning'] = 'Se quiser usar o serviço WAYF integrado, faça uma lista separada por vírgulas do entityIDSs do provedor de identificação, com seus nomes e opcionalmente um iniciador de sessão.';
 $string['auth_shib_only'] = 'Apenas Shibboleth';
 $string['auth_shib_only_description'] = 'Selecionar esta opção para utilizar uma autenticação Shibboleth';

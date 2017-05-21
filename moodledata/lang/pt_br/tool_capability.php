@@ -36,4 +36,4 @@ $string['intro'] = 'Este relatório mostra, para uma capability específica, qua
 $string['pluginname'] = 'Relatório de capability';
 $string['reportforcapability'] = 'Relatório para capability \'{$a}\'';
 $string['reportsettings'] = 'Configurações do relatório';
-$string['roleslabel'] = 'Papéis';
+$string['roleslabel'] = 'Papéis:';

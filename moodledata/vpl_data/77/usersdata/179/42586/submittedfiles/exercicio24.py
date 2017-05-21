@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+import math
+a=int(input('digite a:'))
+b=int(input('digite b:'))
+mdc==a%i
+for i in range(1,a+b+1,1):
+    if a%i!=0 and b%i!=0:
+        print(mdc)
+    

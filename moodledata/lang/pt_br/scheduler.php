@@ -48,8 +48,8 @@ $string['appointment'] = 'Compromisso';
 $string['appointmentmode'] = 'Configurando o modo de compromisso';
 $string['appointmentmode_help'] = '<p> Você pode escolher aqui algumas variantes na forma como os compromissos podem ser tomados. </p>
 <p><ul>
-<li><strong> "<emph>n</emph> compromissos neste organizador": </strong> O estudante só pode reservar um número fixo de compromissos nesta atividade. Mesmo se o professor os marca como "visto", eles não serão autorizados a reservar mais reuniões. A única maneira de restaurar a capacidade de um aluno para reservar é excluir os antigos registros "visto". </ Li>
-<li><strong>"<emph>n</emph> compromissos em um momento": </strong> O aluno pode reservar um número fixo de compromissos. Quando a reunião acabou e que o professor tem marcado o aluno como "visto", o estudante pode fazer novas nomeações. No entanto, o estudante é limitado a <emph>n</ emph> slots "abertos" (não vistos), em determinado momento.
+<li><strong> "<emph>n</emph> compromissos neste organizador": </strong> O estudante só pode reservar um número fixo de compromissos nesta atividade. Mesmo se o professor os marca como "visto", eles não serão autorizados a reservar mais reuniões. A única maneira de restaurar a capacidade de um aluno para reservar é excluir os antigos registros "visto". </Li>
+<li><strong>"<emph>n</emph> compromissos em um momento": </strong> O aluno pode reservar um número fixo de compromissos. Quando a reunião acabou e que o professor tem marcado o aluno como "visto", o estudante pode fazer novas nomeações. No entanto, o estudante é limitado a <emph>n</emph> slots "abertos" (não vistos), em determinado momento.
 </li>
 </ul>
 </p>';
@@ -287,7 +287,7 @@ $string['groupsession'] = 'Sessão de grupo';
 $string['groupsize'] = 'Tamanho do grupo';
 $string['guardtime'] = 'Tempo de proteção';
 $string['guardtime_help'] = 'Um tempo de proteção impede que os alunos alterem sua reserva um pouco antes do compromisso.
- <p> Se o tempo de guarda estiver habilitado e configurado para, por exemplo, 2 horas, em seguida, os alunos serão capazes de reservar um slot que começa em menos de 2 horas de tempo a partir de agora, e eles serão incapazes de deixar cair um compromisso se iniciar em menos de 2 horas. </ p>';
+ <p> Se o tempo de guarda estiver habilitado e configurado para, por exemplo, 2 horas, em seguida, os alunos serão capazes de reservar um slot que começa em menos de 2 horas de tempo a partir de agora, e eles serão incapazes de deixar cair um compromisso se iniciar em menos de 2 horas. </p>';
 $string['guestscantdoanything'] = 'Visitantes não podem fazer nada aqui.';
 $string['howtoaddstudents'] = 'Para adicionar alunos a um agendador de escopo global, use a configuração da função para o módulo. <br/> Você também pode usar definições de função do módulo para definir quem atenderá seus alunos.';
 $string['htmlformat'] = 'HTML';

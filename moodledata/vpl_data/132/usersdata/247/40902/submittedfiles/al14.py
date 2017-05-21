@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+n=int(input('numero de pessoas: '))
+soma=0
+for i in range (1,n+1,1):
+    i=int(input('digite a idade'))
+    soma=soma+i
+    med=soma/n
+print('%2.f'%med)

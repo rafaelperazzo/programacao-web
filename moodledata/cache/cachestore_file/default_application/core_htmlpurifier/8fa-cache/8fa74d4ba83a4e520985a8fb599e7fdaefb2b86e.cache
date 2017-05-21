@@ -1,0 +1,17 @@
+s:451:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 15
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite n:3
+5
+n primo
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*NÃO PRIMO.*|.*não primo.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

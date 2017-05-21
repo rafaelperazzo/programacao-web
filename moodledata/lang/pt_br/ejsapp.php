@@ -39,7 +39,4 @@ $string['min_value'] = 'Valor mínimo {no}';
 $string['min_value_help'] = 'Valor mínimo permitido para a variável.';
 $string['personal_vars_button'] = 'Exibir variáveis personalizadas';
 $string['personalVars_pageTitle'] = 'Valores das variáveis personalizadas';
-$string['preserve_applet_size'] = 'Preservar tamanho original';
-$string['preserve_aspect_ratio'] = 'Preservar proporção';
-$string['preserve_aspect_ratio_help'] = 'Se essa opção for selecionada, a proporção original do applet será respeitada. Neste caso, o usuário será capaz de modificar a largura do applet e o sistema irá automaticamente ajustar a sua altura. Se esta opção estiver definida como "não", o usuário será capaz de definir a largura e a altura do applet.';
 $string['rem_lab_conf'] = 'Configuração do laboratório remoto';

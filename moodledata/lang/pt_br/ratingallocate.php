@@ -53,7 +53,6 @@ $string['distribution_published'] = 'Alocação foi publicada.';
 $string['distribution_saved'] = 'Distribuição salva (em {$a}s).';
 $string['distribution_table'] = 'Tabela de distribuição';
 $string['download_problem_mps_format'] = 'Download de Equação (mps/txt)';
-$string['download_votetest_allocation'] = 'Download da avaliação e alocação (csv)';
 $string['edit_choice'] = 'Editar escolha "{$a}"';
 $string['edit_rating'] = 'Editar classificação';
 $string['err_maximum'] = 'O valor máximo para este campo é {$a}.';

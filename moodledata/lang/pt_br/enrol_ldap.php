@@ -108,7 +108,7 @@ $string['pluginname'] = 'Inscrições LDAP';
 $string['pluginname_desc'] = '<p>Você pode usar um server LDAP para controlar as inscrições. Se presume que o ramo LDAP contenha grupos mapeados em relação aos cursos e que cada um destes grupos/cursos terá itens que identificam membros mapeados em relação aos estudantes.</p>
 <p>Se presume que os cursos sejam definidos como grupos em LDAP, com cada grupo contendo campos múltiplos que identificam os membros (<em>member</em> ou <em>memberUid</em>) e que contém uma identificação unívoca do usuário </p>';
 $string['pluginnotenabled'] = 'Plugin desabilitado!';
-$string['role_mapping'] = '<p> Para cada papel que você deseja atribuir a partir do LDAP, você precisa especificar a lista de contextos onde os papéis dos grupos do curso estão localizados. Separe contextos diferentes,   com \';\'. </ P> Você também precisa especificar o atributo que seu servidor LDAP utiliza para manter os membros de um grupo. Geralmente \'membro\' ou \'memberUid\' </ p>';
+$string['role_mapping'] = '<p> Para cada papel que você deseja atribuir a partir do LDAP, você precisa especificar a lista de contextos onde os papéis dos grupos do curso estão localizados. Separe contextos diferentes,   com \';\'. </P> Você também precisa especificar o atributo que seu servidor LDAP utiliza para manter os membros de um grupo. Geralmente \'membro\' ou \'memberUid\' </p>';
 $string['role_mapping_attribute'] = 'Atributo de membro LDAP para {$a}';
 $string['role_mapping_context'] = 'Contextos de LDAP para {$a}';
 $string['role_mapping_key'] = 'Mapear papéis do LDAP';

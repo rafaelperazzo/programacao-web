@@ -1,0 +1,110 @@
+# -*- coding: utf-8 -*-
+from __future__ import division 
+import math as m
+from sympy import *
+
+
+def main():
+    global A, c, r, e, L, si, E, pc, Para, P     
+    
+    parada = True
+    while parada:
+        
+        A = c = r = 1.0
+        si, E = 40000.0, 30.0*10**6
+        e = float(input("Digite o valor da exentricidade da carga (e): "))
+        L = float(input("Digite o valor do comprimento da coluna (L): "))
+        P = ((m.pi**2*E*A)/((L/r)**2))/2
+        pc = ((m.pi**2*E*A)/((L/r)**2))
+        Para = (si*A)*(10**(-5))
+        
+        print()
+        print(" interação        P                erro")
+        
+        Newton(P)
+        
+        q = int(input("Deseja calcular com outros valores? 1(sim) 2(nao) "))
+        if q == 2:
+            parada = False
+        
+'''
+Aqui foram declaradas todas as variaveis que serão utilizadas pelas funções,
+onde algumas são fixas, enquanto outras devem ser inseridas pelo usuario.
+É responsavel também por executar a função Newton. 
+  
+'''
+def f():
+    
+    P = symbols('P')
+    y =  (P/A) - (si/(1 + (e*c/r**2)*sec((L/2*r)*sqrt((P/E*A)))))
+    
+    return y
+"""
+Aqui, a função desejada é inserida na forma simbólica.       
+"""
+
+def df():
+    P = symbols('P')
+    y = diff(f(),P)
+    
+    return y
+"""
+Esta função calcula a derivada de forma simbólica.  
+"""
+
+def vf(a):
+    P = symbols('P')
+    
+    return f().subs(P,a)
+"""
+Aqui, um valor é atribuido a função e devolove seu valor numérico.
+"""
+
+def vdf(a):
+    P = symbols('P')
+    
+    return df().subs(P,a)
+
+"""
+Nesta função, um valor é atribuido a derivada e devolve seu valor numeríco. 
+"""
+
+
+def Newton(P):
+    c = [0]
+    i = 0
+    t = 1
+
+    while abs(c[i]-c[i-1 + t]) > Para or i == 0:
+        i += 1
+        t = 0
+        c.append(P - (vf(P)/vdf(P)))
+        P = c[i]
+        
+        
+        if P > pc:
+            P = (c[i-1]+pc)/2
+            c[i] = P
+            
+         
+        print("    %i---------(%.3f)----------%.3f"%(i,P,abs(c[i]-c[i-1 + t])))    
+   
+    print()
+    print("A carga axial máxima permitida (P) é: %.3f" %P)
+    return P
+"""
+Esta função recebe um valor inicial e inicia o método iterativo de newton 
+"""
+   
+main()
+
+    
+
+
+
+
+
+        
+
+
+    

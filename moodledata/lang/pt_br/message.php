@@ -153,5 +153,5 @@ $string['unreadnewmessage'] = 'Nova mensagem de {$a}';
 $string['unreadnewmessages'] = 'Novas mensagens ({$a})';
 $string['userisblockingyou'] = 'Este usuário bloqueou as suas mensagens.';
 $string['userisblockingyounoncontact'] = '{$a} só aceita mensagens de seus contatos.';
-$string['userssearchresults'] = ' {$a} usuários encontrados';
+$string['userssearchresults'] = 'Usuários encontrados: {$a}';
 $string['viewconversation'] = 'Ver conversa';

@@ -45,7 +45,7 @@ $string['cannotmapfeedback'] = 'Problema no banco de dados, incapaz de mapear o 
 $string['cannotsavetempl'] = 'Não é permitido salvar modelos';
 $string['cannotunmap'] = 'Problema da base de dados. Não é possível desmapear.';
 $string['captcha'] = 'Captcha';
-$string['captchanotset'] = 'Captcha não está configurado';
+$string['captchanotset'] = 'Captcha não está configurado.';
 $string['check'] = 'Múltipla escolha - múltiplas respostas';
 $string['checkbox'] = 'Múltipla escolha - permite múltiplas respostas (check boxes)';
 $string['check_values'] = 'Possíveis respostas';
@@ -53,7 +53,7 @@ $string['choosefile'] = 'Escolha um arquivo';
 $string['chosen_feedback_response'] = 'Escolha a resposta';
 $string['completed'] = 'terminado';
 $string['completed_feedbacks'] = 'Respostas submetidas';
-$string['complete_the_form'] = 'Responda as questões';
+$string['complete_the_form'] = 'Responda as questões...';
 $string['completionsubmit'] = 'Ver como concluída se as respostas foram enviadas';
 $string['configallowfullanonymous'] = 'Se definido como "sim", os usuários podem completar uma atividade comentários na primeira página, sem ser obrigada a efetuar login.';
 $string['confirmdeleteentry'] = 'Você tem a certeza que deseja apagar esta entrada?';
@@ -108,7 +108,7 @@ Você pode ver aqui:
 {$a->url}';
 $string['emailteachermailhtml'] = '<p>{$a->username} completou a atividade: <i>\'{$a->feedback}\'</i>.</p>
 <p>A atividade está <a href="{$a->url}">disponível neste endereço</a>.</p>';
-$string['entries_saved'] = 'Suas respostas foram gravadas. Obrigado';
+$string['entries_saved'] = 'Suas respostas foram gravadas. Obrigado.';
 $string['eventresponsedeleted'] = 'Resposta excluída';
 $string['eventresponsesubmitted'] = 'Resposta enviada';
 $string['export_questions'] = 'Exportar perguntas';
@@ -204,8 +204,7 @@ $string['numeric_range_from'] = 'Valor de';
 $string['numeric_range_to'] = 'Valor até';
 $string['of'] = 'de';
 $string['oldvaluespreserved'] = 'Todas as perguntas antigas e valores atribuídos serão preservados ';
-$string['oldvalueswillbedeleted'] = 'As questões atuais e todas as respectivas respostas do usuário serão excluídas
-';
+$string['oldvalueswillbedeleted'] = 'As questões atuais e todas as respectivas respostas do usuário serão excluídas.';
 $string['only_one_captcha_allowed'] = 'Apenas um \'captcha\' é permitido em uma pesquisa';
 $string['overview'] = 'Visão geral';
 $string['page'] = 'Página';
@@ -251,7 +250,7 @@ $string['searchcourses_help'] = 'Procure pelo(s) código(s) ou nome(s) do(s) cur
 ';
 $string['selected_dump'] = 'Os índices selecionados da variável $SESSION estão mostrados abaixo:';
 $string['send'] = 'enviar';
-$string['send_message'] = 'enviar mansagem';
+$string['send_message'] = 'Enviar mensagem';
 $string['separator_decimal'] = ',';
 $string['separator_thousand'] = '.';
 $string['show_all'] = 'Mostrar tudo';

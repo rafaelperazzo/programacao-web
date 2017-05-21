@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+
+"""
+Primeira Questão - Ep1
+Equipe: Ana Lídia Alencar Vasconcelos
+        Camila Lima de Sousa
+        Emily Lobo Almeida
+        Gabriella Rosendo dos Santos 
+"""
+
+from __future__ import division
+import math
+def sec(x):
+    sec=1/(math.cos(x))
+    return sec 
+def f(A,s,e,c,L,r,P,y):    
+    x=(L/(2*r))*math.sqrt((P/(y*A)))
+    f=(P/A)-((s)/(1+((e*c)/(r**2))*sec(x)))
+    return f
+def derivada(A,s,e,c,L,r,P,y):
+    x=((L/(2*r))*(math.sqrt(P/(y*A))))
+    num=(s*e*c*L)*sec(x)*math.tan(x)
+    den=4*(r**3)*y*A*math.sqrt(P/(y*A))*((1+(((e*c)/(r**2))*sec(x)))**2)
+    derivada=(1/A)+(num/den)
+    return derivada
+def raiz(A,c,r,s,y,e,L,erro):
+    per=(((math.pi)**2)*y*A)/((L/r)**2)
+    p0=per/2
+    b=f(A,s,e,c,L,r,p0,y)
+    d=derivada(A,s,e,c,L,r,p0,y)
+    pprox=(p0)-(b/d)
+    raiz=[]
+    raiz.append(pprox)
+    while erro>abs((s*A)*(10**(-5))):
+         p1=(raiz[len(raiz)-1])-((f(A,s,e,c,L,r,raiz[len(raiz)-1],y))/(derivada(A,s,e,c,L,r,raiz[len(raiz)-1],y)))    
+         if p1>per:
+            p1=(raiz[len(raiz)-1]+per)/2
+            raiz.append(p1)
+         else:
+             raiz.append(p1)
+         erro=math.fabs((raiz[len(raiz)-1])-raiz[len(raiz)-2])
+    return (raiz[len(raiz)-1])
+    
+"""
+Segunda Questão- Ep1
+Equipe: Ana Lídia Alencar Vasconcelos
+        Camila Lima de Sousa
+        Emily Lobo Almeida
+        Gabriella Rosendo dos Santos
+"""
+
+A=1
+c=1
+r=1
+s=40000
+y=30*(10**6)
+e2=0.05
+L2=150
+erro=100000
+'''
+Letra a)
+--- Para e=0.3 e L=50 ---
+'''
+e1=0.3
+L1=50
+print ('Primeira Raiz: ', raiz(A,c,r,s,y,e1,L1,erro))
+'''
+Letra b)
+--- Para e=0.05 e L=150 ---
+'''
+e2=0.05
+L2=150
+print ('Segunda Raiz: ', raiz(A,c,r,s,y,e2,L2,erro))
+
+'''
+Terceira Questão - Ep1
+Equipe: Ana Lídia Alencar Vasconcelos
+        Camila Lima de Sousa
+        Emily Lobo Almeida
+        Gabriella Rosendo dos Santos
+Seguem em anexo os gráficos das funções descritas;
+Observações: No primeiro caso da segunda questão encontramos o menor valor de raiz sem a necessidade da correção descrita na quarta questão.
+Já no segundo caso, foi necessário utilizar a correção para encontrarmos a menor raiz. 
+'''
+
+
+ 

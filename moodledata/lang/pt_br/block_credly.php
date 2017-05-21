@@ -26,12 +26,14 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['addnewbadge'] = 'Adicionar um novo emblema';
+$string['apikeydesc'] = 'Chave da API fornecida pela credly';
 $string['apipassword'] = 'Senha';
 $string['apiuser'] = 'Usuário';
 $string['badgeimage'] = 'Imagem do Emblema';
 $string['badgeimage_help'] = 'O arquivo de imagem que deseja usar como imagem de emblema. O melhor é usar uma imagem com um dimensionamento quadrado. O tamanho máximo do arquivo é de 1 MB.';
 $string['created_at'] = 'Data de criação';
 $string['createnewbadge'] = 'Criar um novo emblema';
+$string['credly:addinstance'] = 'Adicionar um novo bloco credly';
 $string['criteria'] = 'Critérios';
 $string['criteria_help'] = 'Critérios para o novo emblema (até 500 caracteres)';
 $string['description'] = 'Descrição';

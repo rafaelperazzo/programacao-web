@@ -1,0 +1,92 @@
+O:8:"stdClass":22:{s:2:"id";s:3:"575";s:8:"category";s:3:"131";s:6:"parent";s:1:"0";s:4:"name";s:29:"Ponto Fixo - Multipla Escolha";s:12:"questiontext";s:631:"<p>Seja $$p$$ um inteiro positivo,</p>
+<p> </p>
+<p>$$g(x)=\dfrac{1}{p}((p-1)x + \dfrac{a}{x^{p-1}})$$</p>
+<p> </p>
+<p>Sobre a função de iteração $$g(x)$$, assinale a alternativa correta:</p>
+<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170430210807+FhIoKu";s:7:"version";s:43:"programacao.ufca.edu.br+170430211049+HefQd0";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493586487";s:12:"timemodified";s:10:"1493586649";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:3:"147";s:10:"questionid";s:3:"575";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"1";s:15:"correctfeedback";s:454:"<p>Sua resposta está correta.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:467:"<p>Sua resposta está parcialmente correta.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:456:"<p>Sua resposta está incorreta.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:3:"abc";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:8:{i:1202;O:8:"stdClass":7:{s:2:"id";s:4:"1202";s:8:"question";s:3:"575";s:6:"answer";s:461:"<p>$$g(x)$$ aproxima $$\sqrt[p]{a}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1203;O:8:"stdClass":7:{s:2:"id";s:4:"1203";s:8:"question";s:3:"575";s:6:"answer";s:461:"<p>$$g(x)$$ aproxima $$\sqrt[a]{p}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1204;O:8:"stdClass":7:{s:2:"id";s:4:"1204";s:8:"question";s:3:"575";s:6:"answer";s:458:"<p>$$g(x)$$ aproxima $$\sqrt{p}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1205;O:8:"stdClass":7:{s:2:"id";s:4:"1205";s:8:"question";s:3:"575";s:6:"answer";s:458:"<p>$$g(x)$$ aproxima $$\sqrt{a}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1206;O:8:"stdClass":7:{s:2:"id";s:4:"1206";s:8:"question";s:3:"575";s:6:"answer";s:461:"<p>$$g(x)$$ aproxima $$\sqrt[3]{p}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1207;O:8:"stdClass":7:{s:2:"id";s:4:"1207";s:8:"question";s:3:"575";s:6:"answer";s:356:"<p>$$g(x)$$ aproxima $$\sqrt[3]{a}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:324:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1208;O:8:"stdClass":7:{s:2:"id";s:4:"1208";s:8:"question";s:3:"575";s:6:"answer";s:358:"<p>$$g(x)$$ aproxima $$\sqrt[p-1]{a}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:324:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}i:1209;O:8:"stdClass":7:{s:2:"id";s:4:"1209";s:8:"question";s:3:"575";s:6:"answer";s:358:"<p>$$g(x)$$ aproxima $$\sqrt[a-1]{p}$$.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:324:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:2:{i:9;O:8:"stdClass":7:{s:2:"id";s:1:"9";s:10:"questionid";s:3:"575";s:4:"hint";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";s:1:"0";s:10:"clearwrong";s:1:"0";s:7:"options";N;}i:10;O:8:"stdClass":7:{s:2:"id";s:2:"10";s:10:"questionid";s:3:"575";s:4:"hint";s:429:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";s:1:"0";s:10:"clearwrong";s:1:"0";s:7:"options";N;}}}

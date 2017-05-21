@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['correctanswer'] = 'Resposta certa';
 $string['correctanswerfalse'] = 'A resposta correta é \'Falso\'.';
-$string['correctanswertrue'] = 'A resposta correta é \'Verdadeiro\'';
+$string['correctanswertrue'] = 'A resposta correta é \'Verdadeiro\'.';
 $string['false'] = 'Falso';
 $string['feedbackfalse'] = 'Feedback para a opção \'falso\'.';
 $string['feedbacktrue'] = 'Feedback para a opção \'verdadeiro\'.';

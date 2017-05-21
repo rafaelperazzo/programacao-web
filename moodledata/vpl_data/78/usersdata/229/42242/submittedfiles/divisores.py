@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+import math
+
+n=int(input('digite o numero de multiplos:'))
+a=int(input('digite o valor de a:'))
+b=int(input('digite o valor de b:'))
+
+cont=0
+i=1
+while cont<n:
+    if i%a==0 or i%b==0:
+        cont=cont+1
+        print(i)
+    i=i+1

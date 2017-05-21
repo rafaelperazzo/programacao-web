@@ -1,0 +1,45 @@
+s:560:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+2
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor do multiplo:digite seu primeiro numero:digite seu segundo numero:2
+3
+4
+6
+8
+9
+10
+12
+14
+15
+16
+18
+20
+21
+22
+24
+26
+27
+28
+30
+32
+33
+34
+36
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '2'
+'3'
+'4'
+'6'
+'8'
+'9'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

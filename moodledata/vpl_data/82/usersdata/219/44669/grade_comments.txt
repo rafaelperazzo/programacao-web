@@ -1,0 +1,30 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 11110
+
+ --- Program output ---
+>Digite n :5
+
+ --- Expected output (regular expression)---
+>.*(30).*
+
+-Test 2: Teste 2 (-20.000)
+Incorrect program result
+ --- Input ---
+> 1000011
+
+ --- Program output ---
+>Digite n :7
+
+ --- Expected output (regular expression)---
+>.*(67).*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

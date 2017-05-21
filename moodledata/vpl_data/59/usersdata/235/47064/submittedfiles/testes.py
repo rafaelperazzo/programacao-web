@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+n=int(input('n:'))
+for i in range(1,n+1,1):
+    if i%2==0:
+        soma=soma-(n/n**2)
+    else:
+        soma=soma+(n/n**2)
+print(soma)
+
+    

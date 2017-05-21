@@ -1,0 +1,26 @@
+-Test 1: Teste 1 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>2
+>3
+
+ --- Program output ---
+>igite n: igite a: igite b: Traceback (most recent call last):
+>  File "divisores.py", line 8, in <module>
+>    if a%d==0 and b%d==0:
+>NameError: name 'd' is not defined
+
+ --- Expected output (text)---
+> '2'
+>'3'
+>'4'
+>'6'
+>'8'
+>'9'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -58,5 +58,4 @@ $string['auth_joomla_use_kunena_forums'] = 'Usar Kunena fóruns';
 $string['auth_joomla_use_kunena_forums_description'] = 'Sincronize fóruns de curso com fóruns Kunena em Joomla. Joomla 1.6 + apenas';
 $string['joomla_sp_description'] = 'Serviços para Integração Joomla';
 $string['joomla_sp_name'] = 'Joomdle';
-$string['pluginame_desc'] = 'Este método utiliza serviços web Joomdle para saber se um usuário tem uma sessão válida em Joomla. Version 0.95';
 $string['pluginname'] = 'Joomdle';

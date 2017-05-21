@@ -26,5 +26,5 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['downloadfile'] = 'Baixe seu arquivo de exportação de portifólio';
-$string['downloading'] = 'Baixando arquivo';
+$string['downloading'] = 'Baixando arquivo...';
 $string['pluginname'] = 'Baixar arquivo';

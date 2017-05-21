@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+import math
+a=int(input('coloque a:'))
+b=int(input('coloque b:'))
+mdc=a
+while a%mdc!=0 or b%mdc!=0:
+    mdc=mdc-1
+print(mdc)

@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+a=int(input('Digite a: '))
+b=int(input('Digite b: '))
+c=int(input('Digite c: '))
+cont=0
+while (c%a>=0) and (c%b>=0):
+    if (a>b):
+        qa=c//a
+        c=c%a
+        qb=c//b
+        cont=cont+1
+    else:
+        qb=c//b
+        c=c%b
+        qa=c//a
+        cont=cont+1
+print(qa)
+print(qb)

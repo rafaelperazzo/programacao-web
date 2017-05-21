@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+n(int(input('digite o valor de n:'))
+for i in ronge(2,n,1):
+    if n% i==0 :
+        cont=cont+1
+        print(i)
+if cont==0:
+    print('PRIMO')
+else :
+    print('NÃO PRIMO')

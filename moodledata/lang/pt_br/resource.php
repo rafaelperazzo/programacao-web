@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['clicktodownload'] = 'Clique no link {$a} para baixar o arquivo';
-$string['clicktoopen2'] = 'Clique no link {$a} para visualizar o arquivo';
+$string['clicktodownload'] = 'Clique no link {$a} para baixar o arquivo.';
+$string['clicktoopen2'] = 'Clique no link {$a} para visualizar o arquivo.';
 $string['configdisplayoptions'] = 'Selecione todas as opções que devem ser avaliadas, configurações existentes não são modificadas. Pressione a tecla CTRL para selecionar múltiplos campos';
 $string['configframesize'] = 'Quando uma página web ou um arquivo é visualizado em um frame, este valor é a altura, em pixels, do frame que contém a navegação (top frame).';
 $string['configparametersettings'] = 'Isto define o valor padrão dos parâmetros do formulário do painel de configuração quando são criados novos recursos. Os parâmetros utilizados podem ser escolhidos em seguida segundo a preferência do usuário.';
@@ -77,7 +77,7 @@ $string['pluginadministration'] = 'Administração do Arquivo';
 $string['pluginname'] = 'Arquivo';
 $string['popupheight'] = 'Altura da janela pop-up (em pixels)';
 $string['popupheightexplain'] = 'Especifica a altura padrão de janelas pop-up.';
-$string['popupresource'] = 'Este recurso deve ser mostrado em uma janela popup';
+$string['popupresource'] = 'Este recurso deve ser mostrado em uma janela popup.';
 $string['popupresourcelink'] = 'Em caso contrário, clicar aqui: {$a}';
 $string['popupwidth'] = 'Largura da janela pop-up (em pixels)';
 $string['popupwidthexplain'] = 'Especifica a largura padrão de janelas pop-up.';

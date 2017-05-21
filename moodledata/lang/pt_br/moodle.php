@@ -160,7 +160,7 @@ $string['assigncreators'] = 'Designar criadores de curso';
 $string['assignedrolecount'] = '{$a->role}: {$a->count}';
 $string['assignsiteroles'] = 'Designar papéis no contexto do site';
 $string['authenticateduser'] = 'Usuário autenticado';
-$string['authenticateduserdescription'] = 'Todos os usuários que fizerem o login';
+$string['authenticateduserdescription'] = 'Todos os usuários que fizerem o login.';
 $string['authentication'] = 'Autenticação';
 $string['authenticationplugins'] = 'Plugins de autenticação';
 $string['autosubscribe'] = 'Assinatura automática';
@@ -174,7 +174,7 @@ $string['backtocourselisting'] = 'Voltar para a lista de cursos';
 $string['backtopageyouwereon'] = 'Voltar para a página que você estava';
 $string['backtoparticipants'] = 'Voltar à lista de participantes';
 $string['backup'] = 'Backup';
-$string['backupactivehelp'] = 'Escolher se fazer ou não backups automáticos';
+$string['backupactivehelp'] = 'Escolher se fazer ou não backups automáticos.';
 $string['backupcancelled'] = 'Backup cancelado';
 $string['backupcoursefileshelp'] = 'Se ativado então os arquivos do curso serão incluidos nos backups automáticos';
 $string['backupdate'] = 'Data do backup';
@@ -183,7 +183,7 @@ $string['backupdateold'] = '{$a->TAG} era {$a->weekday}, {$a->mday} {$a->month} 
 $string['backupdaterecordtype'] = '<br />{$a->recordtype} - {$a->recordname}<br />';
 $string['backupdetails'] = 'Detalhes do backup';
 $string['backuperrorinvaliddestination'] = 'A pasta de destino de backup não existe ou não é gravável.';
-$string['backupexecuteathelp'] = 'Indicar o horário em que o backup deve iniciar';
+$string['backupexecuteathelp'] = 'Indicar o horário em que o backup deve iniciar.';
 $string['backupfailed'] = 'Alguns cursos não foram salvos!';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'Backup concluído com sucesso';
@@ -250,7 +250,7 @@ $string['checkinginstances'] = 'Verificando exemplares';
 $string['checkingsections'] = 'Verificando seções';
 $string['checklanguage'] = 'Verificar idiomas';
 $string['checknone'] = 'Não controlar nenhum';
-$string['childcoursenotfound'] = 'Curso afiliado não encontrado';
+$string['childcoursenotfound'] = 'Curso afiliado não encontrado!';
 $string['childcourses'] = 'Cursos afiliados';
 $string['choose'] = 'Escolher';
 $string['choosecourse'] = 'Escolha um curso';
@@ -335,7 +335,7 @@ $string['coursecatmanagement'] = 'Gerenciamento de curso e categoria';
 $string['coursecompletion'] = 'Andamento do curso';
 $string['coursecompletions'] = 'Andamento dos cursos';
 $string['coursecreators'] = 'Criador de cursos';
-$string['coursecreatorsdescription'] = 'Criadores de cursos podem criar novos cursos e agir como professores';
+$string['coursecreatorsdescription'] = 'Criadores de cursos podem criar novos cursos e agir como professores.';
 $string['coursedeleted'] = 'Apagado curso {$a}';
 $string['coursedetails'] = 'Detalhes do curso';
 $string['coursedisplay'] = 'Layout do curso';
@@ -556,7 +556,7 @@ $string['edhelpbgcolor'] = 'Definir cor da área de edição.<br />Exemplo de va
 $string['edhelpcleanword'] = 'Esta opção ativa ou desativa o filtro de código específico de Word.';
 $string['edhelpenablespelling'] = 'Ativar ou desativar o controle ortográfico. Para a ativação é necessário que o <strong>aspell</strong> esteja instalado no servidor.';
 $string['edhelpfontfamily'] = 'A propriedade de font-family é uma lista de nomes de famílias de fontes e/ou nomes genéricos de fontes. Estes nomes devem ser separados por vírgulas.';
-$string['edhelpfontlist'] = 'Definir as fontes indicadas nos menus dropdown do editor';
+$string['edhelpfontlist'] = 'Definir as fontes indicadas nos menus dropdown do editor.';
 $string['edhelpfontsize'] = 'O tamanho padrão das fontes.<br />Exemplos de valores válidos: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = 'Editar';
 $string['edita'] = 'Editar {$a}';
@@ -663,16 +663,14 @@ Se você precisar de ajuda, por favor contate o administrador do site,
 {$a->admin}';
 $string['emailpasswordchangeinfodisabled'] = 'Olá {$a->firstname},
 
-Alguém (ou você mesmo) pediu para mudar a senha da sua conta de usuário em \'{$a->sitename}\'.
+Alguém (provavelmente você) solicitou uma nova senha para sua conta em \'{$a->sitename}\'.
 
-Esta operação não foi possível pois a sua conta está desabilitada e não pode ser reconfigurada.
-Para resolver o problema contate o administrador do site,
-{$a->admin}';
+Infelizmente, sua conta neste site está desativada, portanto, a senha não pode ser redefinida. Entre em contato com o administrador do site {$a->admin}.';
 $string['emailpasswordchangeinfofail'] = 'Olá {$a->firstname},
 
-Alguém (provavelmente você) pediu uma nova senha para a sua conta de usuário em \'{$a->sitename}\'.
+Alguém (provavelmente você) solicitou uma nova senha para sua conta em \'{$a->sitename}\'.
 
-Infelizmente as senhas não podem ser modificadas neste site, por favor contate o administrador do site, {$a->admin}';
+Infelizmente as senhas não podem ser modificadas neste site, por favor contate o administrador {$a->admin}';
 $string['emailpasswordchangeinfosubject'] = '{$a}: Modificar informação da senha';
 $string['emailpasswordconfirmation'] = '{$a->firstname},
 
@@ -1044,7 +1042,7 @@ $string['locktimeout'] = 'A operação esgotou o tempo de espera por um "lock".'
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = 'Você acessou como {$a}';
 $string['loggedinasguest'] = 'Você acessou como visitante';
-$string['loggedinnot'] = 'Você ainda não se identificou';
+$string['loggedinnot'] = 'Você ainda não se identificou.';
 $string['login'] = 'Acessar';
 $string['loginactivity'] = 'Atividade de login';
 $string['loginalready'] = 'Você já se identificou';
@@ -1221,7 +1219,7 @@ $string['newactivityname'] = 'Novo nome para a atividade {$a}';
 $string['newcourse'] = 'Novo curso';
 $string['newpassword'] = 'Nova senha';
 $string['newpasswordfromlost'] = '<strong>AVISO:</strong> A sua <strong>senha atual</strong> será enviada no <strong>segundo</strong> dos dois emails emitidos neste processo de recuperação de senha. Certifique-se que você recebeu a senha substituta antes de continuar.';
-$string['newpassword_help'] = 'Deixar em branco para manter a senha atual';
+$string['newpassword_help'] = 'Deixar em branco para manter a senha atual.';
 $string['newpasswordtext'] = 'Olá {$a->firstname},
 
 A senha de sua conta em \'{$a->sitename}\' foi redefinida e você recebeu uma senha provisória:
@@ -1282,7 +1280,7 @@ $string['nocomments'] = 'Nenhum comentário';
 $string['nocourses'] = 'Nenhum curso';
 $string['nocoursesfound'] = 'Nenhum curso encontrado com as palavras \'{$a}\'';
 $string['nocoursesyet'] = 'Nenhum curso nesta categoria';
-$string['nodstpresets'] = 'O administrador não habilitou o suporte ao horário de verão';
+$string['nodstpresets'] = 'O administrador não habilitou o suporte ao horário de verão.';
 $string['nofilesselected'] = 'Nenhum arquivo foi selecionado para o restauração';
 $string['nofilesyet'] = 'Nenhum arquivo foi enviado ao seu curso ainda';
 $string['nograde'] = 'Nenhuma nota';
@@ -1319,8 +1317,8 @@ $string['nosuchemail'] = 'Este endereço de email não foi encontrado';
 $string['notavailable'] = 'Não disponível';
 $string['notavailablecourse'] = '{$a} não está disponível';
 $string['noteachersyet'] = 'Este curso ainda não tem professores';
-$string['notenrolled'] = '{$a} não está inscrito neste curso';
-$string['notenrolledprofile'] = 'Este perfil não é disponível porque este usuário não está inscrito neste curso';
+$string['notenrolled'] = '{$a} não está inscrito neste curso.';
+$string['notenrolledprofile'] = 'Este perfil não é disponível porque este usuário não está inscrito neste curso.';
 $string['noteusercannotrolldatesoncontext'] = '<strong>Atenção:</strong> A habilidade de rolar datas quando restaurando backup foi desabilitada pois você não tem as permissões necessárias.';
 $string['noteuserschangednonetocourse'] = '<strong>Nota:</strong> É necessário fazer a restauração dos usuários do curso quando se faz a restauração dos dados do usuário (em atividades, arquivos ou mensagens). Esta configuração foi mudada para você.';
 $string['nothingnew'] = 'Nenhuma atividade recente';
@@ -1416,7 +1414,7 @@ $string['phone2'] = 'Telefone celular';
 $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = 'Imagem de {$a}';
 $string['pictureofuser'] = 'Imagem do usuário';
-$string['pleaseclose'] = 'Feche esta janela agora';
+$string['pleaseclose'] = 'Feche esta janela agora.';
 $string['pleasesearchmore'] = 'Por favor procure um pouco mais';
 $string['pleaseusesearch'] = 'Por favor utilize a busca';
 $string['plugin'] = 'Plugin';
@@ -1464,7 +1462,7 @@ $string['questionsinthequestionbank'] = 'Questões no banco de questões';
 $string['readinginfofrombackup'] = 'Lendo informações do backup';
 $string['readme'] = 'LEIA-ME';
 $string['recentactivity'] = 'Atividade recente';
-$string['recentactivityreport'] = 'Relatório completo da atividade recente';
+$string['recentactivityreport'] = 'Relatório completo da atividade recente..';
 $string['recipientslist'] = 'Lista de destinatários';
 $string['recreatedcategory'] = 'Recriar categoria {$a}';
 $string['redirect'] = 'Redirecionar';
@@ -1749,7 +1747,7 @@ $string['sortbyx'] = 'Ordenar por {$a} em ordem crescente';
 $string['sortbyxreverse'] = 'Ordenar por {$a} em ordem decrescente';
 $string['sorting'] = 'Ordenando';
 $string['sourcerole'] = 'Papel fonte';
-$string['specifyname'] = 'É necessário especificar um nome';
+$string['specifyname'] = 'É necessário especificar um nome.';
 $string['standard'] = 'Padrão';
 $string['starpending'] = '([*] = aprovação de curso pendente)';
 $string['startdate'] = 'Data de início do curso';
@@ -1824,7 +1822,7 @@ $string['switchrolereturn'] = 'Retomar ao meu papel normal';
 $string['switchroleto'] = 'Mudar papel para...';
 $string['tag'] = 'Tag';
 $string['tagalready'] = 'Este tag já existe';
-$string['tagmanagement'] = 'Adicionar/excluir tags';
+$string['tagmanagement'] = 'Adicionar/excluir tags...';
 $string['tags'] = 'Tags';
 $string['targetrole'] = 'Papel alvo';
 $string['teacheronly'] = 'só para o {$a}';
@@ -1856,7 +1854,7 @@ $string['today'] = 'Hoje';
 $string['todaylogs'] = 'Logs de hoje';
 $string['toeveryone'] = 'para todos';
 $string['toomanybounces'] = 'Este endereço de email deu origem a muitos erros de aceitação. Você tem que mudá-lo para continuar.';
-$string['toomanytoshow'] = 'Há demasiados usuários para mostrar';
+$string['toomanytoshow'] = 'Há demasiados usuários para mostrar.';
 $string['toomanyusersmatchsearch'] = 'Muitos usuários ({$a->count}) resultantes da pesquisa \'{$a->search}\'';
 $string['toomanyuserstoshow'] = 'Muitos usuários ({$a}) para exibir';
 $string['toonly'] = 'apenas para {$a}';
@@ -1870,8 +1868,8 @@ $string['total'] = 'Total';
 $string['totopofsection'] = 'Para o topo da seção "{$a}"';
 $string['trackforums'] = 'Monitoramento do fórum';
 $string['trackforumsno'] = 'Não, não marque as mensagens que eu já li';
-$string['trackforumsyes'] = 'Sim, ponha em evidência as novas mensagens';
-$string['trysearching'] = 'Como alternativa, tente fazer uma busca';
+$string['trackforumsyes'] = 'Sim: ponha em evidência as novas mensagens';
+$string['trysearching'] = 'Como alternativa, tente fazer uma busca.';
 $string['turneditingoff'] = 'Desativar edição';
 $string['turneditingon'] = 'Ativar edição';
 $string['unauthorisedlogin'] = 'A conta de usuário "{$a}" não está disponível neste site';
@@ -1896,7 +1894,7 @@ $string['updatemyprofile'] = 'Atualizar perfil';
 $string['updatesevery'] = 'Atualizações a cada {$a} segundos';
 $string['updatethis'] = 'Atualizar {$a}';
 $string['updatethiscourse'] = 'Atualizar este curso';
-$string['updatinga'] = 'Atualizando um {$a}';
+$string['updatinga'] = 'Atualizando: {$a}';
 $string['updatingain'] = 'Atualizando um {$a->what} em {$a->in}';
 $string['upload'] = 'Enviar';
 $string['uploadafile'] = 'Enviar um arquivo';
@@ -1994,7 +1992,7 @@ $string['windowclosing'] = 'Esta janela deverá ser fechada automaticamente. Sen
 $string['withchosenfiles'] = 'Com arquivos escolhidos';
 $string['withdisablednote'] = '{$a} (desativado)';
 $string['withoutuserdata'] = 'sem dados de usuário';
-$string['withselectedusers'] = 'Com usuários selecionados';
+$string['withselectedusers'] = 'Com usuários selecionados...';
 $string['withselectedusers_help'] = '* Enviar mensagem - Para enviar uma mensagem a um ou mais participantes
 * Incluir uma nova anotação - para incluir uma anotação a um participante selecionado
 * Incluir uma anotação comum - Para incluir a mesma anotação para mais de um participante';

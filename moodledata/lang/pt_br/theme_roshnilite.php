@@ -55,10 +55,10 @@ $string['choosereadme'] = '<div class="clearfix">
 <div class="well">
 <h3>Pais</h3>
 <P>Este tema baseia-se no tema Bootstrap, que foi criado para o Moodle 2.5, com a ajuda de: <br>
-Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </ P>
+Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </P>
 <P> A seção de definição de fontes deste tema é baseada no tema Essencial com a ajuda de: <br>
-Julian Ridden, Gareth J. Barnard, David Bezemer. </ P>
-<H3> Créditos do tema </ h3>
+Julian Ridden, Gareth J. Barnard, David Bezemer. </P>
+<H3> Créditos do tema </h3>
 <P> Autores: Dualcube <br>
 Contato: admin@dualcube.com <br>
 Site: <a href="https://dualcube.com/"> https://dualcube.com/ </a>

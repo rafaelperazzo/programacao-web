@@ -1,0 +1,73 @@
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+Test 6: Teste 6
+-Test 1: Teste 1 (-0.167)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>Digite um número inteiro: 0.05000
+
+ --- Expected output (text)---
+> '55.55253'
+
+-Test 3: Teste 3 (-0.167)
+Incorrect program result
+ --- Input ---
+> 2
+
+ --- Program output ---
+>Digite um número inteiro: 0.50000
+
+ --- Expected output (text)---
+> '2.50000'
+
+-Test 4: Teste 4 (-0.167)
+Incorrect program result
+ --- Input ---
+> 0
+
+ --- Program output ---
+>Digite um número inteiro: Traceback (most recent call last):
+>  File "atividade.py", line 6, in <module>
+>    for numerador in range (1,n+1,n):
+>ValueError: range() arg 3 must not be zero
+
+ --- Expected output (text)---
+> '0.00000'
+
+-Test 5: Teste 5 (-0.167)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>Digite um número inteiro: 0.20000
+
+ --- Expected output (text)---
+> '8.70000'
+
+-Test 6: Teste 6 (-0.167)
+Incorrect program result
+ --- Input ---
+> -5.87
+
+ --- Program output ---
+>Digite um número inteiro: Traceback (most recent call last):
+>  File "atividade.py", line 3, in <module>
+>    n=int(input('Digite um número inteiro: '))
+>ValueError: invalid literal for int() with base 10: ' -5.87'
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  6 tests run/ 1  test passed |
+>+------------------------------+
+

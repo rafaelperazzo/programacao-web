@@ -1,0 +1,28 @@
+-Test 1: Teste 1 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>2
+>3
+
+ --- Program output ---
+>digite a quantidade de múltiplos: digite a: digite b: 0
+>2
+>3
+>4
+>6
+>8
+
+ --- Expected output (text)---
+> '2'
+>'3'
+>'4'
+>'6'
+>'8'
+>'9'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,13 @@
+t1=int(input('t1:'))
+t2=int(input('t2:'))
+t3=int(input('t3:'))
+t4=int(input('t4:'))
+x1=0
+x2=0
+x3=0
+X=0
+x1=x1-1
+x2=x2-1
+x3=x3-1
+X=x1+x2+x3+t4
+print(X)

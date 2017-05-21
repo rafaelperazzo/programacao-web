@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+import math
+n=int(input(
+    print(mm)
+
+    
+    

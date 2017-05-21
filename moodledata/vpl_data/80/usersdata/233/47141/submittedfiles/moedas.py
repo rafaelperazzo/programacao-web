@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+a=int(input('Digite o valor de a: '))
+b=int(input('Digite o valor de b: '))
+c=int(input('Digite o valor da cédula: '))
+cont=0
+if b<a:
+    qb=n//b
+    if (n%b)%a==0:
+        qa=(n%b)/a
+        print(qa)
+        print(qb)
+    elif (n%b)%a!=0:
+        while (n%b)%a<1:
+            for i in range(1,b+1,1):
+                qb=(n//b)-i
+                j=qb*b
+                z=c-j
+                qa=z/a
+                if (c%b)%a==0 or (c%b)%a>=1:
+                    break
+            elif (c%b)%a==0   
+                 print(qa)
+                 print(qb)
+            elif (c%b)%a>=1:
+                print('N')
+
+        
+        
+    

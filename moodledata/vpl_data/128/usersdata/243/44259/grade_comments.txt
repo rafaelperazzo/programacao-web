@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 15
+
+ --- Program output ---
+>  File "al6.py", line 9
+>    print('primo')
+>        ^
+>IndentationError: expected an indented block
+
+ --- Expected output (regular expression)---
+>.*NÃO PRIMO.*|.*não primo.*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

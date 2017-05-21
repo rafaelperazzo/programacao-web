@@ -50,5 +50,5 @@ $string['referencerun'] = 'Referência executar / comentar';
 $string['runid'] = 'Executar ID';
 $string['summaryof'] = 'Resumo de {$a}';
 $string['viewdetails'] = 'Ver detalhes de perfil';
-$string['viewdiff'] = 'Ver diferenças de perfil com run última referência';
+$string['viewdiff'] = 'Ver diferenças de perfil com run última referência:';
 $string['viewdiffdetails'] = 'Ver perfil detalhes diff';

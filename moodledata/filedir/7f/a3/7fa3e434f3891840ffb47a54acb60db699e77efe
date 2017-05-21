@@ -1,0 +1,43 @@
+%% Definicao inicial das variaveis
+
+clear;
+close all;
+
+fun = @( P, e, L ) ( P - 4e4 / ( 1 + e * sec( L * sqrt( P / 3e7 ) / 2 ) ) );
+tolerancia = 4e4 * 1e-5;
+
+
+%% Exemplo 1
+excentricidade = 0.3;
+comprimento = 50;
+fprintf("Exemplo 1\nexcentricidade: %f\ncomprimento: %f\n\n" , excentricidade , comprimento);
+
+carga_critica = pi^2 * 3e7 / comprimento^2;
+
+p = ponto_fixo( carga_critica , excentricidade , comprimento , tolerancia );
+fprintf("Raiz: %f\n" , p);
+
+% grafico
+0.
+y = fun(intervalo);
+
+figure(1)
+plot(intervalo, y);
+
+
+%% Exemplo 2
+excentricidade = 0.05;
+comprimento = 150;
+fprintf("Exemplo 2\nexcentricidade: %f\ncomprimento: %f\n\n" , excentricidade , comprimento);
+
+carga_critica = pi^2 * 3e7 / comprimento^2;
+
+p = ponto_fixo( carga_critica , excentricidade , comprimento , tolerancia );
+fprintf("Raiz: %f\n" , p);
+
+% grafico
+intervalo = mean(reshape(1:carga_critica,100,100),1);
+y = fun(intervalo);
+
+figure(2)
+plot(intervalo, y);

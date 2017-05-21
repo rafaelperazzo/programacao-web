@@ -293,7 +293,7 @@ $string['newimage'] = 'Nova imagem';
 $string['noawards'] = 'Este emblema ainda não foi conquistado.';
 $string['nobackpack'] = 'Não há serviço de mochila conectado a esta conta. <br/>';
 $string['nobackpackbadges'] = 'Não há emblemas nas coleções selecionadas. <a href="mybackpack.php">Adicionar mais coleções</a> .';
-$string['nobackpackcollections'] = 'Nenhuma coleção de emblemas foi selecionada. <a href="mybackpack.php">Adicionar coleções</ a>.';
+$string['nobackpackcollections'] = 'Nenhuma coleção de emblemas foi selecionada. <a href="mybackpack.php">Adicionar coleções</a>.';
 $string['nobadges'] = 'Não há emblemas disponíveis.';
 $string['nocriteria'] = 'Os critérios para este emblema ainda não foram definidos.';
 $string['noexpiry'] = 'Este emblema não possui uma data de expiração.';

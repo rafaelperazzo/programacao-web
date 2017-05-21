@@ -1,0 +1,26 @@
+function [ p ] = ponto_fixo( p0 , excentricidade, comprimento, tolerancia )
+%PONTO_FIXO Summary of this function goes here
+%   Detailed explanation goes here
+
+carga_critica = pi^2 * 3e7 / comprimento^2;
+
+% funcao de iteracao
+fun_iteracao = @( P, e, L ) ( 4e4 / ( 1 + e * sec( L * sqrt( P / 3e7 ) / 2 ) ) );
+
+% numero maximo de iteracoes = 10
+for k = 1:10
+    p = fun_iteracao( p0 , excentricidade , comprimento );
+    
+%     criterio de parada
+    if abs( p - p0 ) < tolerancia
+        break
+    end
+    
+%     reiniciacao do valor de p
+    if p > carga_critica
+        p = ( p0 + carga_critica ) / 2;
+    end
+end
+
+end
+

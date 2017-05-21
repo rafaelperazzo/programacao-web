@@ -48,9 +48,9 @@ $string['qtypenotrecognized'] = 'tipo de questão {$a} não reconhecida';
 $string['questiondefinition'] = 'Definição da pergunta';
 $string['questiondeleted'] = 'Questão excluída';
 $string['questioninquiz'] = '<ul>
-<li> adicionar ou excluir perguntas, </ li>
-<li> alterar a ordem de perguntas no texto, </ li>
-<li> alterar o tipo de questão (numérico, resposta curta, de múltipla escolha). </ li> </ ul>';
+<li> adicionar ou excluir perguntas, </li>
+<li> alterar a ordem de perguntas no texto, </li>
+<li> alterar o tipo de questão (numérico, resposta curta, de múltipla escolha). </li> </ul>';
 $string['questionnotfound'] = 'Impossível encontrar questão em part#{$a}';
 $string['questionsadded'] = 'Pergunta adicionada';
 $string['questionsaveasedited'] = 'A pergunta será gravada como editada';
@@ -64,4 +64,4 @@ $string['storedqtype'] = 'Tipo de questão aramazenado {$a}';
 $string['subqresponse'] = 'parte {$a->i}: {$a->response}';
 $string['unknownquestiontypeofsubquestion'] = 'Tipo de questão desconhecido: {$a->type} em part#{$a->sub}';
 $string['warningquestionmodified'] = '<b>ATENÇÃO</b>';
-$string['youshouldnot'] = '<b>VOCÊ NÃO DEVE </ b>';
+$string['youshouldnot'] = '<b>VOCÊ NÃO DEVE </b>';

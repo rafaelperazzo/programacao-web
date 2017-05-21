@@ -30,7 +30,7 @@ $string['aboutstatisticsheading'] = 'Estatísticas Moodle';
 $string['aboutstatisticstitle'] = 'Moodle.org: Moodle estatísticas';
 $string['activeusers24hours'] = 'Usuários registrados que acessaram nas últimas 24 horas:';
 $string['activeuserspastmonth'] = 'Usuários registrados que acessaram no último mês:';
-$string['communityintro'] = 'Moodle tem uma comunidade de usuários grande e diversificada, com mais de <a href="http://moodle.org/userpics">{$a->usercount} usuários registrados</a>  que comunicam em <a href="http://download.moodle.org/lang16/">{$a-> langcount} idiomas</a> em <a href="http://moodle.org/sites"> {$a->countrycount} países</a> (nós temos <a href="http://moodle.org/stats">mais estatísticas</a>  neste site).';
+$string['communityintro'] = 'Moodle tem uma comunidade de usuários grande e diversificada, com mais de <a href="http://moodle.org/userpics">{$a->usercount} usuários registrados</a>  que comunicam em <a href="http://download.moodle.org/langpack/">{$a->langcount} idiomas</a> em <a href="http://moodle.org/sites"> {$a->countrycount} países</a> (nós temos <a href="http://moodle.org/stats">mais estatísticas</a>  neste site).';
 $string['conferencecenter'] = 'Centro de conferência Moodle';
 $string['connectedsites'] = 'Alguns sites Moodle tem estão ligados ao moodle.org utilizando o Moodle Networking, então você pode entrar lá diretamente, uma vez que você está autenticado aqui.';
 $string['donations'] = 'Moodle é completamente livre de obrigações financeiras, entretanto várias pessoas da comunidade têm feito doações para o nosso projeto para ajudar a pagar os desenvolvedores que contribuem com o desenvolvimento do Moodle.';

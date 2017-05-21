@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['apCreationFailed'] = 'Falha ao criar Watershed Activity Provider';
+$string['apCreationFailed'] = 'Falha ao criar Watershed Activity Provider.';
 $string['badarchive'] = 'Você deve fornecer um arquivo zip válido';
 $string['badimsmanifestlocation'] = 'Um arquivo tincan.xml foi encontrado mas não no diretório raiz do arquivo zip, por favor compacte novamente seu curso.';
 $string['completionverb'] = 'Verbo';

@@ -26,13 +26,21 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['alertemptied'] = 'A lixeira foi esvaziada.';
+$string['alertrestored'] = '\'{$a->name}\' foi restaurado.';
+$string['autohide'] = 'Ocultar automaticamente';
 $string['autohide_desc'] = 'Automaticamente esconde a lixeira quando a mesma está vazia.';
 $string['categorybinenable'] = 'Habilita lixeira para categorias';
 $string['categorybinexpiry_desc'] = 'Por quanto tempo um curso excluído deve permanecer na lixeira?';
 $string['coursebinenable'] = 'Habilita lixeira para cursos';
+$string['coursebinexpiry'] = 'Tempo de vida do item';
 $string['coursebinexpiry_desc'] = 'Por quanto tempo um item excluído deve permanecer na lixeira?';
 $string['deleteallconfirm'] = 'Você tem certeza que quer excluir todos os itens da lixeira?';
 $string['deleteconfirm'] = 'Você tem certeza que quer excluir os itens selecionados da lixeira?';
+$string['eventitemcreated'] = 'Item criado';
+$string['eventitemcreated_desc'] = 'Item criado com o ID {$a->objectid}.';
+$string['eventitemrestored'] = 'Item restaurado';
+$string['eventitemrestored_desc'] = 'O item com o ID {$a->objectid} foi restaurado.';
+$string['invalidcontext'] = 'Contexto fornecido inválido.';
 $string['noitemsinbin'] = 'Não há itens na lixeira.';
 $string['notenabled'] = 'Desculpe, mas a lixeira foi desabilitada pelo administrador.';
 $string['pluginname'] = 'Lixeira';

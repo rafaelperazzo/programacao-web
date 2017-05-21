@@ -52,7 +52,7 @@ onde:
 * número de itendificação (usuário) = idnumber na tabela de usuário NB não Id
  * número de identificação (curso) = idnumber na tabela de cursos NB não Id
 * horário de inicio =  hora de início (em segundos desde a época)
-* horário de encerramento =  tempo final (em segundos desde a epoca) - opcional </ pre>
+* horário de encerramento =  tempo final (em segundos desde a epoca) - opcional </pre>
 
 Poderia ser algo assim:
 
@@ -63,4 +63,4 @@ add. editing-teacher, 7, CF101
 del, student, 8, CF101
 del, student, 17, CF101
 add, student, 21, CF101, 1091115000, 1091215000
-</ pre>';
+</pre>';

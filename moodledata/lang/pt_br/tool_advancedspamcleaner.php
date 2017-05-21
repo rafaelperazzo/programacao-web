@@ -27,13 +27,13 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['akismetkey'] = 'Sua chave akismet';
 $string['akismetkey_desc'] = 'Digite a chave que recebeu de akismet.com';
-$string['alreadyreported'] = 'Você já relatou este conteúdo como spam';
+$string['alreadyreported'] = 'Você já relatou este conteúdo como spam.';
 $string['apilimit'] = 'Limite da API';
 $string['blogpost'] = 'Mensagem do Blog';
 $string['blogsummar'] = 'Sumário do Blog';
 $string['commment'] = 'Comentário';
 $string['countmessageread'] = 'Mensagens lidas:{$a}';
-$string['countmessageunread'] = 'Mensagens não lidas {$a}';
+$string['countmessageunread'] = 'Mensagens não lidas: {$a}';
 $string['enddate'] = 'Data final';
 $string['forummessage'] = 'Mensagem do fórum';
 $string['forumsubject'] = 'Titulo do Fórum';

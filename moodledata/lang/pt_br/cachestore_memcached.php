@@ -41,6 +41,12 @@ $string['hash_help'] = 'Especifica os algoritmos de hashing usado para os itens 
 $string['hash_hsieh'] = 'Hsieh';
 $string['hash_md5'] = 'MD5';
 $string['hash_murmur'] = 'Murmur';
+$string['isshared'] = 'Cache compartilhado';
+$string['isshared_help'] = 'O seu servidor memcached também está sendo utilizado por outras aplicações?
+
+Se o cache é compartilhado por outras aplicações, então cada chave será excluída individualmente para garantir que apenas são excluídos os dados pertencentes a essa aplicação (o que deixará os dados do cache da aplicação externa inalterados). Isto pode provocar uma diminuição de desempenho quando limpar a cache, dependendo da configuração do seu servidor.
+
+Se o cache for dedicado para esta aplicação, então o cache pode ser esvaziado seguramente sem qualquer risco de destruição de dados de cache de outra aplicação. Isto deve resultar num aumento de desempenho quando limpar o cache.';
 $string['pluginname'] = 'Memcached';
 $string['prefix'] = 'Tecla de prefixo';
 $string['prefix_help'] = 'Isso pode ser usado para se criar um "domínio" para os seus itens chave, permitindo que você crie múltiplos depósitos de "memcached" em uma única instalação de  "memcached". Não pode ser maior do que 16 caracteres para se garantir de que não haverá problemas de comprimento de chave.';
@@ -75,6 +81,8 @@ servername:port:weight
 $string['testservers'] = 'Servidores de teste';
 $string['testservers_desc'] = 'Os servidores teste são usados para testes unitários e testes de desempenho. É totalmente opcional se configurar servidores de teste. Servidores deveriam ser definidos um por linha e consistir de um endereço do servidor e, opcionalmente, uma porta e peso.
 Se nenhuma porta for fornecida, então a porta padrão (11211) será usada.';
+$string['upgrade200recommended'] = 'Recomendamos que atualize a extensão PHP Memcached para a versão 2.0.0 ou superior.
+A versão da extensão PHP Memcached em uso não fornece a funcionalidade que o Moodle utiliza para garantir o uso do cache de modo seguro (sandboxed). Até atualizar, recomendamos que não configure quaisquer outras aplicações para utilizar os mesmos servidores de Memcached tal como o Moodle está configurado para usar.';
 $string['usecompression'] = 'Usar compressão';
 $string['usecompression_help'] = 'Habilita e desabilita e compressão do "payload". Quando habilitado, itens com valores maiores que um certo limite (atualmente 100 bytes) serão comprimidos durante o armazenamento e descomprimidos durante o retorno, de forma transparente.';
 $string['useserialiser'] = 'Usar serializador';

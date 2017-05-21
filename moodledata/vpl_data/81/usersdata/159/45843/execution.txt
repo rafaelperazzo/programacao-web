@@ -1,0 +1,29 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 1: Teste 1 (-7.500)
+Incorrect program result
+ --- Input ---
+> 23
+>57238
+
+ --- Program output ---
+>Digite p:Digite q:N
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>22.50

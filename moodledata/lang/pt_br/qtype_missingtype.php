@@ -34,4 +34,4 @@ $string['missingqtypewarning'] = 'Esta questão é de um tipo que não está ins
 $string['pluginname'] = 'Tipo de falha';
 $string['pluginnameadding'] = 'Adicionando uma questão de um um tipo que não está instalado no sistema';
 $string['pluginnameediting'] = 'Editando questão de um tipo que não está instalada nesse sistema';
-$string['warningmissingtype'] = '<b> Esta pergunta é de um tipo que ainda não foi instalado em seu Moodle. <br /> Informe, por favor, o seu administrador do Moodle. </ b>';
+$string['warningmissingtype'] = '<b> Esta pergunta é de um tipo que ainda não foi instalado em seu Moodle. <br /> Informe, por favor, o seu administrador do Moodle. </b>';

@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['buffersize'] = 'Tamanho do buffer';
 $string['buffersize_help'] = 'Número de entradas de log inseridas em uma única operação em lote, o que melhora o desempenho.';
-$string['conectexception'] = 'Não pode se conectar à base de dados';
+$string['conectexception'] = 'Não pode se conectar à base de dados.';
 $string['create'] = 'Criar';
 $string['databasecollation'] = '"Collation" da base de dados';
 $string['databasepersist'] = 'Conexões persistentes da base de dados';

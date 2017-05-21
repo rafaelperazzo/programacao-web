@@ -1,0 +1,47 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 5
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 5: Teste 5
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.200)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>Digite o valor de n: 33.36564
+
+ --- Expected output (text)---
+> '55.55253'
+
+-Test 5: Teste 5 (-0.200)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>Digite o valor de n: 7.59167
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0.60

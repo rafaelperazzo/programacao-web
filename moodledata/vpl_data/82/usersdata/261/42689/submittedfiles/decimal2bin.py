@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+def bintodecimal():
+    b = str(input("Qual binário você quer transformar? "))
+    exp = len(b)-1
+    dec = 0
+    for i in b:
+        print(type(i))
+        dec = dec + (int(i))*(2**exp)
+        print(type(i))
+        exp = exp-1
+    print (int(dec))
+
+bintodecimal()

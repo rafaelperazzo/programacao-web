@@ -1,0 +1,19 @@
+s:585:"<b>Test 6: Teste 6 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> -5.87
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite n:Traceback (most recent call last):
+  File "atividade.py", line 4, in &lt;module&gt;
+    n=int(input('Digite n:'))
+ValueError: invalid literal for int() with base 10: ' -5.87'
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '8.70000'
+
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  6 tests run/ 5 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

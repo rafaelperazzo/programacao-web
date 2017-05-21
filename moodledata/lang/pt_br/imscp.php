@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['areabackup'] = 'Arquivo de pacote';
 $string['areacontent'] = 'Conteúdo';
 $string['contentheader'] = 'Conteúdo';
-$string['deploymenterror'] = 'Erro no conte';
+$string['deploymenterror'] = 'Erro no conte!';
 $string['imscp:addinstance'] = 'Adicionar novo pacote IMS';
 $string['imscp:view'] = 'Visualizar conteúdo IMS';
 $string['keepold'] = 'Arquivar pacotes';

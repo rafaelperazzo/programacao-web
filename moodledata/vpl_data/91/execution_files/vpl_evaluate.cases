@@ -7,7 +7,7 @@ input = 1008956
 output = '7'
 
 case = Teste 3
-input = 100.56
+input = 100
 output = '3'
 
 case = Teste 4

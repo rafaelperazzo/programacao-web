@@ -1,0 +1,58 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 5: Teste 5
+-Test 1: Teste 1 (-0.200)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>Digite um número:11.05263
+
+ --- Expected output (text)---
+> '55.55253'
+
+-Test 2: Teste 2 (-0.200)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>Digite um número:Traceback (most recent call last):
+>  File "atividade.py", line 11, in <module>
+>    soma=soma+((i+1)/(n-1))
+>ZeroDivisionError: division by zero
+
+ --- Expected output (text)---
+> '1.00000'
+
+-Test 3: Teste 3 (-0.200)
+Incorrect program result
+ --- Input ---
+> 2
+
+ --- Program output ---
+>Digite um número:3.00000
+
+ --- Expected output (text)---
+> '2.50000'
+
+-Test 5: Teste 5 (-0.200)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>Digite um número:0.00000
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 1  test passed |
+>+------------------------------+
+

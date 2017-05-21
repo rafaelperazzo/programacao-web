@@ -1,0 +1,82 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+-Test 1: Teste 1 (-0.200)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>  File "atividade.py", line 9
+>    for numeradorin range(1,A+1,1):
+>                        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '55.55253'
+
+-Test 2: Teste 2 (-0.200)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>  File "atividade.py", line 9
+>    for numeradorin range(1,A+1,1):
+>                        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '1.00000'
+
+-Test 3: Teste 3 (-0.200)
+Incorrect program result
+ --- Input ---
+> 2
+
+ --- Program output ---
+>  File "atividade.py", line 9
+>    for numeradorin range(1,A+1,1):
+>                        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '2.50000'
+
+-Test 4: Teste 4 (-0.200)
+Incorrect program result
+ --- Input ---
+> 0
+
+ --- Program output ---
+>  File "atividade.py", line 9
+>    for numeradorin range(1,A+1,1):
+>                        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '0.00000'
+
+-Test 5: Teste 5 (-0.200)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>  File "atividade.py", line 9
+>    for numeradorin range(1,A+1,1):
+>                        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 0 tests passed |
+>+------------------------------+
+

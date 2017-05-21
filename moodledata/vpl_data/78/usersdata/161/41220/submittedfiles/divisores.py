@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+n=int(input('Quantidade de divisores a serem mostrados:'))
+a=int(input('Número 1:'))
+b=int(input('Número 2:'))  
+multiplo=1
+for i in range(1,n+1,1):
+    if multiplo%a==0 or multiplo%b==0:
+        print(multiplo)
+    multiplo=multiplo+1    
