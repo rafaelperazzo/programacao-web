@@ -1,0 +1,68 @@
+-Failed tests
+Test 2: Teste 2
+Test 7: Teste 7
+-Test 2: Teste 2 (-1.429)
+Incorrect program result
+ --- Input ---
+> 4
+>2
+>34
+
+ --- Program output ---
+>digite um valor:digite um valor:digite um valor:1
+>15
+>2
+>13
+>3
+>11
+>4
+>9
+>5
+>7
+>6
+>5
+>7
+>3
+
+ --- Expected output (regular expression)---
+>0
+>17|8
+>1
+
+-Test 7: Teste 7 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>3
+>33
+
+ --- Program output ---
+>digite um valor:digite um valor:digite um valor:N
+>N
+>3
+>9
+>N
+>N
+>6
+>7
+>N
+>N
+>9
+>5
+>N
+>N
+>12
+>3
+>N
+>N
+
+ --- Expected output (regular expression)---
+>15
+>1|0
+>11
+
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 5 tests passed |
+>+------------------------------+
+

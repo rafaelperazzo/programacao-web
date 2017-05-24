@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+import math
+
+#COMECE SEU CÓDIGO ABAIXO DESTA LINHA
+a=int(input('Digite o valor de A: '))
+b=int(input('Digite o valor de B: '))
+c=int(input('Digite o valor de C: '))
+d=int(input('Digite o valor de D: '))
+if (a<b<c<d):
+    print('C')
+elif (a>b>c>d):
+    print('D')
+else:
+    print('N')
+
+
+

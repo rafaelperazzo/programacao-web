@@ -1,0 +1,16 @@
+-Test 3: Teste 3 (-7.500)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>digite n:3.141309
+
+ --- Expected output (regular expression)---
+>.*3.142[0-9]+.*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

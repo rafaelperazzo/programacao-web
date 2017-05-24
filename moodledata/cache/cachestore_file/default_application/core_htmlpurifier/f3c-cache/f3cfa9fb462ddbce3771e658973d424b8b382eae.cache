@@ -1,0 +1,4 @@
+s:466:"<p>p=int(input('Digite P:'))<br />q=int(input('Digite Q:'))</p>
+<p>cont=0<br />temp=p<br />while temp&gt;0:<br /> cont=cont+1<br /> p=temp//10<br /><br />cont2=0<br />while q&gt;0:<br /> n=q%(10**cont)<br /> if n==p:<br /> cont2=cont2 +1<br /> q=q//10<br />if cont2&gt;0:<br /> print('S')<br />else:<br /> print('N')</p>
+<p> </p>
+<p>Alguém sabe me dizer  o que está errado nesse Exercício 31, por que fica só executando e não vai pra canto nenhum. :( </p>";

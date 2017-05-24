@@ -1,0 +1,8 @@
+n=int(input('numero:'))
+soma=0
+for i in range(0,n+1,1):
+    n=n//10
+    r=n%10
+    soma=soma+r*(2**i)    
+print(soma)    
+   

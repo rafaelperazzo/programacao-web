@@ -1,0 +1,4 @@
+s:466:"<p>Determina como as tentativas de envio do estudante são reabertas.
+As opções disponíveis são:</p>
+
+<ul><li>Nunca - O envio do estudante não pode ser reaberto.</li><li>Manualmente -  O envio do estudante pode ser reaberto por um professor. Automaticamente até passar - O envio do estudante é automaticamente reaberto até o estudante obter a nota para passar, este valor é definido no livro de notas (Categorias e seção itens) para esta tarefa.</li></ul>";

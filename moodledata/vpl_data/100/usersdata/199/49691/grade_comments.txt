@@ -1,0 +1,21 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 1
+>2
+>3
+>5
+>6
+
+ --- Program output ---
+>Digite C1:Digite C2:Digite C3:Digite C4:Digite C5:C
+>N
+
+ --- Expected output (text)---
+> 'C'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

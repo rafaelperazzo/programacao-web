@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+n=int(input('digite n:'))
+while n>0:
+    b=n*n
+    print(b)

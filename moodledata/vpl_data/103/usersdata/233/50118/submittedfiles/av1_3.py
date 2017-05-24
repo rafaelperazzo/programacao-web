@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+import math
+a=int(input('Digite um número: '))
+b=int(input('Digite um número: '))
+ndedivisoes=0
+if b>a:
+    mdc=a
+    maior=b
+    menor=a
+elif a>b:
+    mdc=b
+    maior=a
+    menor=b
+cont=0
+resto=0
+while divisao>0:
+    resto=maior%menor
+    maior=menor
+    menor=resto
+    cont=cont+1
+    mdc=resto
+print(mdc)
+print(cont)    
+    
+
+
+
+#while a%mdc!=0 or b%mdc!=0:
+#   mdc=mdc-1
+#    ndedivisoes=ndedivisoes+1
+#print(mdc)    
+#print(ndedivisoes)

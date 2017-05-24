@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+import math
+a=int(input('Digite o primeiro número:'))
+b=int(input('Digite o segundo número'))
+while resto!=0:
+    resto=a%b
+    a=b
+    b=resto
+

@@ -1,0 +1,2 @@
+-Regular Expression compilation error in case: Teste 1.
+Invalid preceding regular expression (30.00)

@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import numpy as np
+import math
+x = float(input ('valor incial'))
+e = float(x)
+k = float(0.001)
+#calculo newtoniano
+while (e>=k):
+    f = (math.sin(x*math.pi/180) - (x**4))
+    g = (math.cos(x*math.pi/180) - 4*(x**3))
+    q = x
+    x = q - f/g
+    e = np.abs(q-x)
+    print(x)
+    print(f)
+    print(g)
+    print(q)
+print (x)

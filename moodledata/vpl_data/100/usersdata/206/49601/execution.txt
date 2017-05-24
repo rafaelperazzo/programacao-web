@@ -1,0 +1,9 @@
+Testing 1/3 : Teste 1
+
+<|--
+-Regular Expression compilation error in case: Teste 1.
+Invalid preceding regular expression (30.00)
+--|>
+
+Grade :=>> 0
+/home/p12073/vpl_execution: line 2:  4385 Aborted                 (core dumped) ./.vpl_tester

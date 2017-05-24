@@ -1,0 +1,40 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 1: Teste 1 (-7.500)
+Incorrect program result
+ --- Input ---
+> 34
+>55
+>77
+>12
+>23
+>99
+>5
+>3
+>77
+>55
+>42
+>34
+
+ --- Program output ---
+>digite o valor de n1 :digite o valor de n2 :digite o valor de n3 :digite o valor de n4 :digite o valor de n5 :digite o valor de n6 :digite o valor de s1 :digite o valor de s2 :digite o valor de s3 :digite o valor de s4 :digite o valor de s5 :digite o valor de s6 :terno
+>azar
+
+ --- Expected output (text)---
+>'terno'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>22.50

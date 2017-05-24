@@ -1,0 +1,25 @@
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>4
+>235
+>100
+>134
+>0
+>0
+>200
+>200
+>150
+>150
+
+ --- Program output ---
+>Digite o número de participantes: Digite o total mínimo de pontos: Digite a pontuação do participante na primeira fase: Digite a pontuação do participante na segunda fase: Digite a pontuação do participante na primeira fase: Digite a pontuação do participante na segunda fase: Digite a pontuação do participante na primeira fase: Digite a pontuação do participante na segunda fase: Digite a pontuação do participante na primeira fase: Digite a pontuação do participante na segunda fase: 0
+
+ --- Expected output (text)---
+>'2'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

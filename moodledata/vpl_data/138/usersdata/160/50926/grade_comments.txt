@@ -1,0 +1,21 @@
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>4
+>11
+>20
+>-15
+>-13
+
+ --- Program output ---
+>Digite o volume inicial:Digite as alterações feita no volume:Digite a alteração feita no volume:Digite a alteração feita no volume:Digite a alteração feita no volume:Digite a alteração feita no volume:72
+
+ --- Expected output (text)---
+>'53'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

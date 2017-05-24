@@ -1,0 +1,58 @@
+Testing 1/7 : Teste 1
+Testing 2/7 : Teste 2
+Testing 3/7 : Teste 3
+Testing 4/7 : Teste 4
+Testing 5/7 : Teste 5
+Testing 6/7 : Teste 6
+Testing 7/7 : Teste 7
+
+<|--
+-Failed tests
+Test 5: Teste 5
+Test 6: Teste 6
+--|>
+
+<|--
+-Test 5: Teste 5 (-1.429)
+Incorrect program result
+ --- Input ---
+> 4
+>2
+>33
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Traceback (most recent call last):
+>  File "moedas.py", line 13, in <module>
+>    while (c%qaa!=(qb*b)) and (c*qaa!=0):
+>ZeroDivisionError: integer division or modulo by zero
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 6: Teste 6 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>4
+>33
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Traceback (most recent call last):
+>  File "moedas.py", line 13, in <module>
+>    while (c%qaa!=(qb*b)) and (c*qaa!=0):
+>ZeroDivisionError: integer division or modulo by zero
+
+ --- Expected output (text)---
+> 'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 5 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 7.14

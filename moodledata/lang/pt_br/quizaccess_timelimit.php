@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['confirmstart'] = 'O questionário tem um limite de tempo de {$a}. O cronómetro começará a contar a partir do momento em que iniciar a tentativa e deverá submetê-la antes do tempo acabar. Tem certeza que quer iniciar a tentativa agora?';
+$string['confirmstart'] = 'O questionário tem um limite de tempo de {$a}. O cronômetro começará a contar a partir do momento em que iniciar a tentativa e deverá submetê-la antes do tempo acabar. Tem certeza que quer iniciar a tentativa agora?';
 $string['confirmstartheader'] = 'Questionário com limite de tempo';
 $string['pluginname'] = 'Regra de acesso ao questionário por limite de tempo';
 $string['quiztimelimit'] = 'Duração máxima: {$a}';

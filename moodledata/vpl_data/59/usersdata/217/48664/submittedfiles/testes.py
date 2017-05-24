@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+n=int(input('digite n:'))
+x=0
+i=0
+for i in range(1,n+1,1):
+    x=x+3
+    print(x)
+    

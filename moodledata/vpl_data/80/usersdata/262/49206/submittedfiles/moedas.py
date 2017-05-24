@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+a=int(input('Digite os valores disponíveis das moedas:'))
+b=int(input('Digite os valores disponíveis das moedas:'))
+c=int(input('Digite a cédula:'))
+
+cont=0
+qa-c//0
+qb=0
+while qa>-0:
+    troca-c-qa*a
+    if troca%b--0:
+    
+        qb-troca//b
+        cont-cont+1
+        break
+    else:
+        qa=qa-1
+if cont>0:
+    print qa
+    print qb
+
+else:
+    print('N')
+        

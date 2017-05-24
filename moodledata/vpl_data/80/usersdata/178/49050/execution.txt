@@ -1,0 +1,17 @@
+Testing 1/7 : Teste 1
+Testing 2/7 : Teste 2
+Testing 3/7 : Teste 3
+Testing 4/7 : Teste 4
+Testing 5/7 : Teste 5
+Testing 6/7 : Teste 6
+Testing 7/7 : Teste 7
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 7 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>10

@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+p=int(input('digite p'))
+q=int(input('digite q'))
+i=0
+t=p
+while t>0:
+    t=t//10
+    i=i+1
+resto=q%(10**i)
+while q>0:
+    if resto==p:
+        cont=cont+1
+    q=q//10
+if cont!=0:
+    print('S')
+else:
+    print('N')
+

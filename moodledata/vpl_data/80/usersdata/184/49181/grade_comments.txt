@@ -1,0 +1,53 @@
+-Failed tests
+Test 5: Teste 5
+Test 6: Teste 6
+-Test 5: Teste 5 (-1.429)
+Incorrect program result
+ --- Input ---
+> 4
+>2
+>33
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:não
+>não
+>não
+>não
+>não
+>não
+>não
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 6: Teste 6 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>4
+>33
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+>não
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 5 tests passed |
+>+------------------------------+
+

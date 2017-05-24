@@ -1,0 +1,28 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 3: Teste 3 (-7.500)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>digite n:3.141309
+
+ --- Expected output (regular expression)---
+>.*3.142[0-9]+.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>22.50

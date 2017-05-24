@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 5
+>3
+>9
+>3
+
+ --- Program output ---
+>digite o valor de a:digite o valor de b:digite o valor de c:digite o valor de d:
+
+ --- Expected output (text)---
+> 'V'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

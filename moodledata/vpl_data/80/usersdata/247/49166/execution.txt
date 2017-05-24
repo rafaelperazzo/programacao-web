@@ -1,0 +1,103 @@
+Testing 1/7 : Teste 1
+Testing 2/7 : Teste 2
+Testing 3/7 : Teste 3
+Testing 4/7 : Teste 4
+Testing 5/7 : Teste 5
+Testing 6/7 : Teste 6
+Testing 7/7 : Teste 7
+
+<|--
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+Test 6: Teste 6
+Test 7: Teste 7
+--|>
+
+<|--
+-Test 3: Teste 3 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>5
+>101
+
+ --- Program output ---
+>digite a: digite b: digite c: 53
+>-1
+
+ --- Expected output (regular expression)---
+>48
+>1|3
+>19
+
+-Test 4: Teste 4 (-1.429)
+Incorrect program result
+ --- Input ---
+> 5
+>2
+>101
+
+ --- Program output ---
+>digite a: digite b: digite c: 21
+>-2
+
+ --- Expected output (regular expression)---
+>1
+>48|19
+>3
+
+-Test 5: Teste 5 (-1.429)
+Program timeout
+Incorrect program result
+ --- Input ---
+> 4
+>2
+>33
+
+ --- Program output ---
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 6: Teste 6 (-1.429)
+Program timeout
+Incorrect program result
+ --- Input ---
+> 2
+>4
+>33
+
+ --- Program output ---
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 7: Teste 7 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>3
+>33
+
+ --- Program output ---
+>digite a: digite b: digite c: 18
+>-1
+
+ --- Expected output (regular expression)---
+>15
+>1|0
+>11
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2.86
