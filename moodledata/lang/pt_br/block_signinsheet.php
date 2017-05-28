@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['addcustomlogo'] = 'Adicionar Logo Customizada';
 $string['course'] = 'Curso';
 $string['customfield'] = 'Incluir campo personalizado';
 $string['customfielddesc'] = 'Incluir um campo personalizado na folha';

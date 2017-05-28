@@ -1,7 +1,9 @@
-O:8:"stdClass":22:{s:2:"id";s:3:"585";s:8:"category";s:3:"131";s:6:"parent";s:1:"0";s:4:"name";s:16:"Zeros - Teórica";s:12:"questiontext";s:1190:"<p><strong>Fonte: IME/USP</strong></p>
+O:8:"stdClass":22:{s:2:"id";s:3:"585";s:8:"category";s:3:"131";s:6:"parent";s:1:"0";s:4:"name";s:16:"Zeros - Teórica";s:12:"questiontext";s:1273:"<p><strong>Fonte: IME/USP</strong></p>
 <p>Seja $$g(x)=\dfrac{5}{0.6x+2}$$</p>
 <p>$$g'(x)=\dfrac{-3}{(0.6x+2)^2}$$</p>
+<p>Suponha que $$f(x)$$ possui uma única raiz real.</p>
 <p>Assinale a alternativa correta a respeito da convergência de $$g(x)$$ para a raiz $$\alpha$$ de $$f(x)$$.</p>
+<p>$$|g'(x)|&lt;1$$</p>
 <p> </p>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
@@ -20,7 +22,7 @@ O:8:"stdClass":22:{s:2:"id";s:3:"585";s:8:"category";s:3:"131";s:6:"parent";s:1:
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
-<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170430223433+bFg3Iz";s:7:"version";s:43:"programacao.ufca.edu.br+170524113933+W9I3sh";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493591673";s:12:"timemodified";s:10:"1495625973";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:3:"148";s:10:"questionid";s:3:"585";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"1";s:15:"correctfeedback";s:979:"<p>Sua resposta está correta.</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170430223433+bFg3Iz";s:7:"version";s:43:"programacao.ufca.edu.br+170525184219+W8QcKX";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493591673";s:12:"timemodified";s:10:"1495737739";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:3:"148";s:10:"questionid";s:3:"585";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"1";s:15:"correctfeedback";s:979:"<p>Sua resposta está correta.</p>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>

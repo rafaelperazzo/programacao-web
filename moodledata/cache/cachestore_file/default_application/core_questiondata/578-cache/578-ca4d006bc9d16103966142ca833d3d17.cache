@@ -1,0 +1,63 @@
+O:8:"stdClass":22:{s:2:"id";s:3:"578";s:8:"category";s:2:"72";s:6:"parent";s:1:"0";s:4:"name";s:19:"Método de Newton 3";s:12:"questiontext";s:1305:"<p><span style="font-size: medium;"><strong><span style="font-size: medium;">Fonte: IME/USP</span></strong></span></p>
+<p><span style="font-size: medium;">Calcule, pelo método de Newton-Raphson, o $$x_3$$ de $$f(x)$$, considerando $$x_0=8$$, com 5 casas decimais. </span></p>
+<p><span style="font-size: medium;">$$f(x)=e^x cos(x) + 1$$</span></p>
+<p><span style="font-size: medium;">$$f'(x)=-e^x sen(x) + e^x cos(x)$$</span></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:9:"numerical";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170430215238+7jBsfV";s:7:"version";s:43:"programacao.ufca.edu.br+170526123751+G0M52y";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493589158";s:12:"timemodified";s:10:"1495802271";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":6:{s:7:"answers";a:3:{i:1216;O:8:"stdClass":8:{s:2:"id";s:4:"1216";s:8:"question";s:3:"578";s:6:"answer";s:7:"7.85437";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:3:"0.1";}i:1217;O:8:"stdClass":8:{s:2:"id";s:4:"1217";s:8:"question";s:3:"578";s:6:"answer";s:7:"7.98249";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:4:"0.01";}i:1218;O:8:"stdClass":8:{s:2:"id";s:4:"1218";s:8:"question";s:3:"578";s:6:"answer";s:7:"8.31315";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:4:"0.01";}}s:5:"units";a:0:{}s:15:"unitgradingtype";s:1:"0";s:11:"unitpenalty";s:9:"0.1000000";s:9:"showunits";s:1:"3";s:9:"unitsleft";s:1:"0";}s:5:"hints";a:2:{i:15;O:8:"stdClass":7:{s:2:"id";s:2:"15";s:10:"questionid";s:3:"578";s:4:"hint";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";N;s:10:"clearwrong";N;s:7:"options";N;}i:16;O:8:"stdClass":7:{s:2:"id";s:2:"16";s:10:"questionid";s:3:"578";s:4:"hint";s:849:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";N;s:10:"clearwrong";N;s:7:"options";N;}}}

@@ -1,0 +1,24 @@
+-Test 2: teste2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 5
+>5
+>10
+>17
+>20
+>30
+
+ --- Program output ---
+>digite n hora da entrada: hora da entrada: 15
+>hora da entrada: 22
+>hora da entrada: 25
+>hora da entrada: 40
+
+ --- Expected output (text)---
+> '35'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

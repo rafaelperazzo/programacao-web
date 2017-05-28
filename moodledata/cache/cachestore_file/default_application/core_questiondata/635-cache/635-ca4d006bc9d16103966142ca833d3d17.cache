@@ -1,7 +1,7 @@
-O:8:"stdClass":22:{s:2:"id";s:3:"635";s:8:"category";s:2:"68";s:6:"parent";s:1:"0";s:4:"name";s:11:"Intruções";s:12:"questiontext";s:957:"<p>- Esta prova é composta por 7 questões. </p>
+O:8:"stdClass":22:{s:2:"id";s:3:"635";s:8:"category";s:2:"68";s:6:"parent";s:1:"0";s:4:"name";s:11:"Intruções";s:12:"questiontext";s:2034:"<p>- Esta prova é composta por 6 questões.</p>
 <p>- Faça suas contas e anotações no rascunho. O rascunho deve ser entregue ao sair da prova.</p>
 <p>- Não esqueça de assinar a lista de frequência ao sair da prova.</p>
-<p>- Não fotografe nenhuma questão, os recursos que você pode utilizar durante a prova é seu cerebro e uma calculadora científica. Não UTILIZE whatsapp nem qualquer aplicativo de celular.</p>
+<p>- Não fotografe nenhuma questão, os recursos que você pode utilizar durante a prova são seu cerebro e uma calculadora científica. Não UTILIZE whatsapp nem qualquer aplicativo de celular, pois não será necessário.</p>
 <p> </p>
 <p>Tempo de prova: 2 horas (para todos)</p>
 <p>1a turma: 8-10</p>
@@ -9,9 +9,23 @@ O:8:"stdClass":22:{s:2:"id";s:3:"635";s:8:"category";s:2:"68";s:6:"parent";s:1:"
 <p>O tempo é controlado automaticamente, sem intervenção do professor.</p>
 <p>O sistema fecha automaticamente as 12 horas, quando os resultados são automaticamente liberados.</p>
 <p> </p>
+<p>O resultado é liberado após as 10 (para quem fizer das 8 as 10) e após as 12:00 pra quem fizer das 10 as 12.</p>
+<p>Confira sua correção. Caso você ache que a correção de alguma questão está errada, me avise pra que eu possa conferir e fazer a retificação, se necessário. Não se preocupe, pois qualquer erro da parte do professor resultará na anulação da questão (você ganhará integralmente o valor da questão).</p>
+<p> </p>
+<p><strong>Fórmulas</strong></p>
+<p>Convergência do método do ponto fixo</p>
+<p>$$|g'(x)|&lt;1$$ para qualquer valor de x em [a,b]</p>
+<p> onde $$g(x)$$ é a função de iteração para $$f(x)$$.</p>
+<p><strong>Método de Newton</strong></p>
+<p>$$x_{n+1} = x_n-\dfrac{f(x_n)}{f'(x_n)}$$</p>
+<p><strong>Derivadas</strong></p>
+<p>f'(x)&gt;0, f(x) é crescente</p>
+<p>f'(x)&lt;0, f(x) é decrescente</p>
+<p> </p>
+<p><span style="color: #ff0000; font-size: x-large;"><strong>Configure sua calculadora para utilizar a unidade RADIANOS, antes de iniciar a prova.</strong> </span></p>
 <p> </p>
 <p> </p>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:219:"<p> </p>
 <div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
-<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:0;s:7:"penalty";d:0;s:5:"qtype";s:11:"description";s:6:"length";s:1:"0";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501142735+wuviJx";s:7:"version";s:43:"programacao.ufca.edu.br+170501145149+eDgsME";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493648855";s:12:"timemodified";s:10:"1493650309";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":1:{s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:0;s:7:"penalty";d:0;s:5:"qtype";s:11:"description";s:6:"length";s:1:"0";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501142735+wuviJx";s:7:"version";s:43:"programacao.ufca.edu.br+170526114343+zDSQMq";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493648855";s:12:"timemodified";s:10:"1495799023";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":1:{s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}

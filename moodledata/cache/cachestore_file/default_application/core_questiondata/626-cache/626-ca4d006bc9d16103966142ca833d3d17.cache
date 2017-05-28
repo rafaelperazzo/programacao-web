@@ -1,0 +1,48 @@
+O:8:"stdClass":22:{s:2:"id";s:3:"626";s:8:"category";s:2:"73";s:6:"parent";s:1:"0";s:4:"name";s:27:"Sistemas Lineares 2 (outra)";s:12:"questiontext";s:1853:"<p><strong>Fonte: BRNO - University of Technology - República Tcheca (2014)<br /></strong></p>
+<p><span style="font-size: x-small;"><span style="font-size: x-small;">(https://www.vutbr.cz/www_base/priloha.php?dpid=117087)<br /></span></span></p>
+<p>Seja o sistema linear abaixo:</p>
+<p> $$\begin{equation*}<br />A=\begin{pmatrix}<br />5 &amp; 2 &amp; 2 \\<br />1 &amp; 5 &amp; -3 \\<br />1 &amp; -2 &amp; 8 \\<br />\end{pmatrix}<br />, X=<br />\begin{pmatrix}<br />x_1 \\<br />x_2 \\<br />x_3<br />\end{pmatrix}<br />, B = <br />\begin{pmatrix}<br />5 \\<br />9 \\<br />9<br />\end{pmatrix}.<br />\end{equation*}$$</p>
+<p>Calcule a solução do sistema utilizando o método de gauss_seidel com $$x^{(0)}=[0,0,0]$$ e 3 iterações.</p>
+<p>$$x_1$$ {#1}</p>
+<p>$$x_2$$ {#2}</p>
+<p>$$x_3$$ {#3}</p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:1059:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:20;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multianswer";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501140105+6pJEG4";s:7:"version";s:43:"programacao.ufca.edu.br+170526192550+NXQ0Eg";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493647265";s:12:"timemodified";s:10:"1495826750";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":1:{s:9:"questions";a:3:{i:1;O:8:"stdClass":22:{s:2:"id";s:3:"627";s:8:"category";s:2:"73";s:6:"parent";s:3:"626";s:4:"name";s:27:"Sistemas Lineares 2 (outra)";s:12:"questiontext";s:23:"{7:NUMERICAL:=-0.8:0.3}";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";s:9:"7.0000000";s:7:"penalty";s:9:"0.0000000";s:5:"qtype";s:9:"numerical";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501140105+TI5eBS";s:7:"version";s:43:"programacao.ufca.edu.br+170526192550+RQb1Jy";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493647265";s:12:"timemodified";s:10:"1495826750";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:7:"options";O:8:"stdClass":6:{s:7:"answers";a:1:{i:1293;O:8:"stdClass":8:{s:2:"id";s:4:"1293";s:8:"question";s:3:"627";s:6:"answer";s:4:"-0.8";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:3:"0.3";}}s:5:"units";a:0:{}s:15:"unitgradingtype";s:1:"0";s:11:"unitpenalty";s:9:"1.0000000";s:9:"showunits";s:1:"3";s:9:"unitsleft";s:1:"0";}s:5:"hints";a:0:{}s:7:"maxmark";s:9:"7.0000000";}i:2;O:8:"stdClass":22:{s:2:"id";s:3:"628";s:8:"category";s:2:"73";s:6:"parent";s:3:"626";s:4:"name";s:27:"Sistemas Lineares 2 (outra)";s:12:"questiontext";s:24:"{7:NUMERICAL:=3.052:0.2}";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";s:9:"7.0000000";s:7:"penalty";s:9:"0.0000000";s:5:"qtype";s:9:"numerical";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501140105+ORGQuG";s:7:"version";s:43:"programacao.ufca.edu.br+170526192550+Sp06xY";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493647265";s:12:"timemodified";s:10:"1495826750";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:7:"options";O:8:"stdClass":6:{s:7:"answers";a:1:{i:1294;O:8:"stdClass":8:{s:2:"id";s:4:"1294";s:8:"question";s:3:"628";s:6:"answer";s:5:"3.052";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:3:"0.2";}}s:5:"units";a:0:{}s:15:"unitgradingtype";s:1:"0";s:11:"unitpenalty";s:9:"1.0000000";s:9:"showunits";s:1:"3";s:9:"unitsleft";s:1:"0";}s:5:"hints";a:0:{}s:7:"maxmark";s:9:"7.0000000";}i:3;O:8:"stdClass":22:{s:2:"id";s:3:"629";s:8:"category";s:2:"73";s:6:"parent";s:3:"626";s:4:"name";s:27:"Sistemas Lineares 2 (outra)";s:12:"questiontext";s:24:"{6:NUMERICAL:=1.988:0.1}";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";s:9:"6.0000000";s:7:"penalty";s:9:"0.0000000";s:5:"qtype";s:9:"numerical";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170501140105+LEwdxK";s:7:"version";s:43:"programacao.ufca.edu.br+170526192550+cCPdVe";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1493647265";s:12:"timemodified";s:10:"1495826750";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:7:"options";O:8:"stdClass":6:{s:7:"answers";a:1:{i:1295;O:8:"stdClass":8:{s:2:"id";s:4:"1295";s:8:"question";s:3:"629";s:6:"answer";s:5:"1.988";s:12:"answerformat";s:1:"0";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";s:9:"tolerance";s:3:"0.1";}}s:5:"units";a:0:{}s:15:"unitgradingtype";s:1:"0";s:11:"unitpenalty";s:9:"1.0000000";s:9:"showunits";s:1:"3";s:9:"unitsleft";s:1:"0";}s:5:"hints";a:0:{}s:7:"maxmark";s:9:"6.0000000";}}}s:5:"hints";a:2:{i:63;O:8:"stdClass":7:{s:2:"id";s:2:"63";s:10:"questionid";s:3:"626";s:4:"hint";s:1059:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";s:1:"0";s:10:"clearwrong";s:1:"0";s:7:"options";N;}i:64;O:8:"stdClass":7:{s:2:"id";s:2:"64";s:10:"questionid";s:3:"626";s:4:"hint";s:1059:"<p> </p>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>
+<div id="websigner_certisign_com_br" class="websigner_certisign_com_br" style="display: none;"> </div>";s:10:"hintformat";s:1:"1";s:14:"shownumcorrect";s:1:"0";s:10:"clearwrong";s:1:"0";s:7:"options";N;}}}

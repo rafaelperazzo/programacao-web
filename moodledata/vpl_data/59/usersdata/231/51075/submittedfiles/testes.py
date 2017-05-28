@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+
+a=[]
+for i in rang(0,n,1):
+    a.append(input('digite um valor:'))
+for i in range(0,n,1):
+    if a[i]%2==0:
+        print(a[i])
+        
+    
