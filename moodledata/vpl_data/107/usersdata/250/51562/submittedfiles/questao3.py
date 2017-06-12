@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+p=int(input('digite o primeiro numero:'))
+q=int(input('digite o segundo numero:'))
+while
+if q==p+2:
+    print('S')
+else:
+    print('N')
+

@@ -1,0 +1,56 @@
+s:1061:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+10
+11
+20
+22
+30
+33
+40
+44
+50
+55
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lista1.py", line 12
+    for i in range(0,len(a),1)):
+                              ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '99'
+'216'
+'3'
+'7'
+'[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+1
+2
+3
+4
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "lista1.py", line 12
+    for i in range(0,len(a),1)):
+                              ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '9'
+'6'
+'3'
+'2'
+'[1, 2, 3, 4, 5]'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

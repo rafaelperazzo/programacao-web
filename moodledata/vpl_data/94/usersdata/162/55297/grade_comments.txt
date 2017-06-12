@@ -1,0 +1,27 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de valores:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Digite o valor:3.00
+>1.00
+>5.00
+>[1.0, 2.0, 3.0, 4.0, 5.0]
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'[1.0, 2.0, 3.0, 4.0, 5.0]'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

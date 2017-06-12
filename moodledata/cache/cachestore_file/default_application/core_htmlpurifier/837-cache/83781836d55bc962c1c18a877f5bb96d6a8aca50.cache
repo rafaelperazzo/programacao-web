@@ -1,0 +1,40 @@
+s:1216:"<p>Professor,<br />
+Essa questão do lecker não estou entendendo o que estou errando...<br /><br />
+n=int(input('Digite a quantidade de números na lista:'))<br />
+h=[]<br />
+b=[]<br /><br />
+for i in range(0,n,1):<br />
+    c=int(input('Digite um valor para lista h:'))<br />
+    h.append(c)<br /><br />
+for i in range(0,n,1):<br />
+    d=int(input('Digite um valor para lista b:'))<br />
+    b.append(d)<br /><br />
+def lecker(a):<br />
+    cont=0<br />
+    i=0<br />
+    while i&gt;(len(a)-1):<br />
+        if i==0:    <br />
+            if (a[i])&gt;(a[i+1]):<br />
+                cont=cont+1<br />
+            i=i+1<br />
+        elif (i==(len(a)-1)):<br />
+            if (a[i])&gt;(a[i-1]):<br />
+                cont=cont+1<br />
+        else:<br />
+            if (a[i])&gt;(a[i+1]) and (a[i])&gt;(a[i-1]):<br />
+                cont=cont+1<br />
+            i=i+1<br />
+        if cont==1:<br />
+            return True<br />
+        else:<br />
+            return False<br />
+if lecker(h):<br />
+    print('S')<br />
+else:<br />
+    print('N')<br /><br />
+if lecker(b):<br />
+    print('S')<br />
+else:<br />
+    print('N')<br /><br />
+print(b)<br />
+print(h)</p>";

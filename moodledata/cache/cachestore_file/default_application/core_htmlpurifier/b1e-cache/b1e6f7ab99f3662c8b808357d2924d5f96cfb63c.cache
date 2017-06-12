@@ -1,0 +1,40 @@
+s:784:"<b>Failed tests</b><br />Test 1: teste1
+<br />Test 2: teste2
+<br /><b>Test 1: teste1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>3
+20000
+0
+20000
+33333
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor:1
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'S'
+</i></pre>
+<br /><b>Test 2: teste2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>8
+6000
+0
+6000
+12000
+18000
+24000
+32000
+37000
+45000
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor:1
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

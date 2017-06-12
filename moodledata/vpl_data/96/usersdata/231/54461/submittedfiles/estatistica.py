@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+
+def media(lista):
+    soma = 0
+    for i in range(0,len(lista),1):
+        soma = soma + lista[i]
+    resultado = soma/len(lista)
+    return resultado
+
+#Baseado na função acima, escreva a função para calcular o desvio padrão de uma lista
+def variancia(lista):
+    v=0
+    for i in range(0,len(lista),1):
+        v=v+((lista[i]-resultado)**2)
+    d=(v/len(lista))**0.5
+
+#Por último escreva o programa principal, que pede a entrada e chama as funções criadas. 
+
+

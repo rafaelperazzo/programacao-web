@@ -1,0 +1,45 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7 
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite a Quantidade de Elementos:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 1:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Digite o Elemento da Lista 2:Traceback (most recent call last):
+>  File "lecker.py", line 25, in <module>
+>    if lecker(l1):
+>  File "lecker.py", line 10, in lecker
+>    elif lista(len(lista-1))>lista(len(lista)-2):
+>TypeError: unsupported operand type(s) for -: 'list' and 'int'
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+p=int(input('digite p:'))
+q=int(input('digite q:'))
+for i in range(2,p-1,1):
+    if p%i==0:
+        print('N')

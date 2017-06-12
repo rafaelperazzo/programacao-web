@@ -1,0 +1,83 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.333)
+Incorrect program result
+ --- Input ---
+> 4
+>20
+>31
+>18
+>23
+
+ --- Program output ---
+>Digite a quantidade de pessoas:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Traceback (most recent call last):
+>  File "al14.py", line 13, in <module>
+>    print('%.2f'%media(n))
+>  File "al14.py", line 5, in media
+>    for i in range(0, len(a),1):
+>NameError: name 'a' is not defined
+
+ --- Expected output (regular expression)---
+>.*23.0[0-9]*.*
+
+-Test 2: Teste 2 (-0.333)
+Incorrect program result
+ --- Input ---
+> 3
+>20
+>31
+>43
+
+ --- Program output ---
+>Digite a quantidade de pessoas:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Traceback (most recent call last):
+>  File "al14.py", line 13, in <module>
+>    print('%.2f'%media(n))
+>  File "al14.py", line 5, in media
+>    for i in range(0, len(a),1):
+>NameError: name 'a' is not defined
+
+ --- Expected output (regular expression)---
+>.*31.3[0-9]*.*
+
+-Test 3: Teste 3 (-0.333)
+Incorrect program result
+ --- Input ---
+> 5
+>20
+>31
+>18
+>23
+>17
+
+ --- Program output ---
+>Digite a quantidade de pessoas:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Digite a idade da pessoa:Traceback (most recent call last):
+>  File "al14.py", line 13, in <module>
+>    print('%.2f'%media(n))
+>  File "al14.py", line 5, in media
+>    for i in range(0, len(a),1):
+>NameError: name 'a' is not defined
+
+ --- Expected output (regular expression)---
+>.*21.8[0-9]*.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

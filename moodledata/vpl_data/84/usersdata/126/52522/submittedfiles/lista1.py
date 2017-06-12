@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+n=int(input('digite o numero de elementos da lista:'))
+
+for i in range(1,n+1,1):
+    m=int(input('digite um valor:'))
+    if m%2==1:
+        soma1=soma1+m
+        comt1=cont1+1
+    else:
+        soma2=soma2+m
+        cont2=cont2+1
+    print(soma1)
+    print(cont1)
+    print(soma2)
+    print(cont2)
+    print(m)
+    

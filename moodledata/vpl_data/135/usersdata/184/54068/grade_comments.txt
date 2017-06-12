@@ -1,0 +1,49 @@
+-Failed tests
+Test 1: teste1
+Test 2: teste2
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>100
+>50
+>50
+>100
+>0
+>49
+>50
+
+ --- Program output ---
+>digite o valor mínimo para ser convidado:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:Traceback (most recent call last):
+>  File "OBI.py", line 10, in <module>
+>    y4=int(input('digite a segunda pontuação:'))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+>'2'
+
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>4
+>235
+>100
+>134
+>0
+>0
+>200
+>200
+>150
+>150
+
+ --- Program output ---
+>digite o valor mínimo para ser convidado:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:digite a primeira pontuação:digite a segunda pontuação:4
+
+ --- Expected output (text)---
+>'2'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

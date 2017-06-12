@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7 
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>digite a quantidade de elementos digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite a quantidade de elementos digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento digite o valor do elemento Traceback (most recent call last):
+>  File "lecker.py", line 22, in <module>
+>    b.append(int(input("digite o valor do elemento ")))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

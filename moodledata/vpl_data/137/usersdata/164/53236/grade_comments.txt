@@ -1,0 +1,25 @@
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>8
+>6000
+>0
+>6000
+>12000
+>18000
+>24000
+>32000
+>37000
+>45000
+
+ --- Program output ---
+>Digite o número de postos de água: Digite a distância intermadiária máxima do atleta: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: Digite a posição do postos de água: S
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

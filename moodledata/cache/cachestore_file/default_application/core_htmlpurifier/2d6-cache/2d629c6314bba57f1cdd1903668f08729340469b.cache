@@ -1,0 +1,52 @@
+s:1142:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+1
+2
+3
+4
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero de elementos da lista:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:1.00
+5.00
+0.20
+[1.0, 2.0, 3.0, 4.0, 5.0]
+3.51
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1.00'
+'5.00'
+'3.00'
+'1.58'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+1
+1
+1
+1
+1
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero de elementos da lista:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:digite um elemento:1.00
+1.00
+0.17
+[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+0.91
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1.00'
+'1.00'
+'1.00'
+'0.00'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

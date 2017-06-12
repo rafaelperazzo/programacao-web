@@ -1,0 +1,62 @@
+-Failed tests
+Test 1: teste1
+Test 2: teste2
+Test 3: teste3
+-Test 1: teste1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>0
+>10
+>20
+
+ --- Program output ---
+>Digite o número de pessoas: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Traceback (most recent call last):
+>  File "escadarolante.py", line 10, in <module>
+>    tempo=tempo2-tempo1+10
+>NameError: name 'tempo1' is not defined
+
+ --- Expected output (text)---
+> '30'
+
+-Test 2: teste2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 5
+>5
+>10
+>17
+>20
+>30
+
+ --- Program output ---
+>Digite o número de pessoas: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Traceback (most recent call last):
+>  File "escadarolante.py", line 10, in <module>
+>    tempo=tempo2-tempo1+10
+>NameError: name 'tempo1' is not defined
+
+ --- Expected output (text)---
+> '35'
+
+-Test 3: teste3 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>3
+
+ --- Program output ---
+>Digite o número de pessoas: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Digite o instante em que a pessoa passou pelo sensor da escada rolante: Traceback (most recent call last):
+>  File "escadarolante.py", line 10, in <module>
+>    tempo=tempo2-tempo1+10
+>NameError: name 'tempo1' is not defined
+
+ --- Expected output (text)---
+>'12'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

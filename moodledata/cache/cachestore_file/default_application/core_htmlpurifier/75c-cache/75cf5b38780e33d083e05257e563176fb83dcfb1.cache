@@ -1,0 +1,35 @@
+s:1241:"<b>Failed tests</b><br />Test 2: teste2
+<br />Test 3: teste3
+<br /><b>Test 2: teste2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+5
+10
+17
+20
+30
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero de pessoas que passaram pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:40
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '35'
+</i></pre>
+<br /><b>Test 3: teste3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+1
+2
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o numero de pessoas que passaram pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:digite o instante em que a pessoa passou pelo sensor:13
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'12'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

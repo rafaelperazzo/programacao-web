@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+N=int(input('digite o numero de postos:'))
+M=int(input('digite a distancia maxima media:'))
+distancia=42195
+prox=0
+ante=0
+cont=0
+media=distancia/N
+for i in range (0,N,1):
+    n=int(input('distancia dos postos:'))
+    if (distancia/N)<=M:
+        prox=ante+media
+        if prox-ante<=M:
+            cont=cont+1
+    ante=prox
+    else:
+        print('N')
+if media<=M and cont==N:
+    print('S')
+else:
+    print('N')

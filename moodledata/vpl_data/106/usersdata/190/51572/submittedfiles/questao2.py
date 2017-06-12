@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+a=int(input('digite o numero escolhido:'))
+b=int(input('digite o numero escolhido:'))
+c=int(input('digite o numero escolhido:'))
+d=int(input('digite o numero escolhido:'))
+e=int(input('digite o numero escolhido:'))
+f=int(input('digite o numero escolhido:'))
+g=int(input('digite o numero sorteado:'))
+h=int(input('digite o numero sorteado:'))
+i=int(input('digite o numero sorteado:'))
+j=int(input('digite o numero sorteado:'))
+k=int(input('digite o numero sorteado:'))
+l=int(input('digite o numero sorteado:'))

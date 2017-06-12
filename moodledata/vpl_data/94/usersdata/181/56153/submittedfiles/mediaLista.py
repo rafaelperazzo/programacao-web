@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+n=int(input('digite o valor n:'))
+a=[]
+soma=0
+for i in range (0,n,1):
+    numero=float(input('numero:'))
+    a.append(numero)
+    soma=soma+a[i]
+media=soma/len(a)
+print (a[0])
+print (a[i])
+print (media)
+print (a)
+
+

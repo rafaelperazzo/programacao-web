@@ -1,0 +1,47 @@
+-Failed tests
+Test 1: teste1
+Test 2: teste2
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>4
+>11
+>20
+>-15
+>-13
+
+ --- Program output ---
+>Volume inicial:Mudança de volume:Alteração do volume:Alteração do volume:Alteração do volume:Alteração do volume:Traceback (most recent call last):
+>  File "volumeTV.py", line 7, in <module>
+>    print(v)
+>NameError: name 'v' is not defined
+
+ --- Expected output (text)---
+>'53'
+
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>5
+>30
+>30
+>30
+>40
+>-78
+
+ --- Program output ---
+>Volume inicial:Mudança de volume:Alteração do volume:Alteração do volume:Alteração do volume:Alteração do volume:Alteração do volume:Traceback (most recent call last):
+>  File "volumeTV.py", line 7, in <module>
+>    print(v)
+>NameError: name 'v' is not defined
+
+ --- Expected output (text)---
+>'22'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

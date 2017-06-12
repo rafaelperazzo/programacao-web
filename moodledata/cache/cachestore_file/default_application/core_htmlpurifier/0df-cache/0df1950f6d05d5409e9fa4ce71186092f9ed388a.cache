@@ -1,0 +1,70 @@
+s:2231:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+  File "pico.py", line 17, in &lt;module&gt;
+    if pico(a)==True:
+  File "pico.py", line 6, in pico
+    if n[i]&lt;n[i+1]&lt;[i+2]:
+TypeError: unorderable types: int() &lt; list()
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+1
+2
+1
+2
+1
+2
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+  File "pico.py", line 17, in &lt;module&gt;
+    if pico(a)==True:
+  File "pico.py", line 6, in pico
+    if n[i]&lt;n[i+1]&lt;[i+2]:
+TypeError: unorderable types: int() &lt; list()
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+2
+5
+10
+46
+25
+12
+7
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+  File "pico.py", line 17, in &lt;module&gt;
+    if pico(a)==True:
+  File "pico.py", line 6, in pico
+    if n[i]&lt;n[i+1]&lt;[i+2]:
+TypeError: unorderable types: int() &lt; list()
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

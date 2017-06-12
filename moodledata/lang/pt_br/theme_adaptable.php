@@ -75,6 +75,7 @@ $string['noenrolments'] = 'Nenhuma matrícula encontrada.';
 $string['pastcourses'] = 'Últimos cursos';
 $string['people'] = 'Pessoas';
 $string['region-frnt-footer'] = 'Rodapé';
+$string['standardview'] = 'Visualização padrão';
 $string['thiscourse'] = 'Este curso';
 $string['ticker'] = 'Avisos';
 $string['tickerdefault'] = 'Não há notícias para exibir';

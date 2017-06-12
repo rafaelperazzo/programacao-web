@@ -1,0 +1,20 @@
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>20000
+>0
+>20000
+>33333
+
+ --- Program output ---
+>Digite a quantidade de postos:Digite a maior distancia:Digite a distancia dos postos de agua:Digite a distancia dos postos de agua:Digite a distancia dos postos de agua:N
+
+ --- Expected output (text)---
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

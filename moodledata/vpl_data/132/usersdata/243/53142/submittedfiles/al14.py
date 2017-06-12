@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+
+def media(n):
+    soma=0
+    for i in range(0,n+1,1):
+        soma=soma+idade
+   
+    return soma
+    
+
+n=int(input('digite a quantidade de pessoas:'))
+idade=int(input('digite a idade:'))
+
+if media(n):
+    media=media(n)/n
+    print('%.2f'%media)
+

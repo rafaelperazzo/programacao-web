@@ -1,0 +1,18 @@
+s:533:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><br /> --- Program output ---
+<br /><pre><i>Digite n:Traceback (most recent call last):
+  File "al15.py", line 2, in &lt;module&gt;
+    a=int(input('Digite n:'))
+EOFError: EOF when reading a line
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '2025
+3025
+9801'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

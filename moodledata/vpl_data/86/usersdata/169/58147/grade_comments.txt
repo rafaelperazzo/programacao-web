@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a Quantidade de Elementos da Lista:Digite os Elementos da Lista:Digite os Elementos da Lista:Traceback (most recent call last):
+>  File "pico.py", line 17, in <module>
+>    if pico(l1)==True:
+>  File "pico.py", line 6, in pico
+>    if n[i]<n[i+1]<n[i+2]:
+>IndexError: list index out of range
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

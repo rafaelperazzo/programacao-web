@@ -1,0 +1,22 @@
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>20000
+>0
+>20000
+>33333
+
+ --- Program output ---
+>digite o numero de pontos:digite a distancia media intermediaria:digite a posição do postoS
+>digite a posição do postoN
+>digite a posição do postoS
+
+ --- Expected output (text)---
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+for i in range(1000,9999+1,1):
+    a=i//100
+    b=a+i%100
+    if (i**0.5)==b:
+        print (b)
+    a=0
+    b=0

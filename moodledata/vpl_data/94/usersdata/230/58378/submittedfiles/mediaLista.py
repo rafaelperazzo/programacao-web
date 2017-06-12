@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+def media(lista):
+    soma=0
+    for i in range (0,len(a),1):
+        soma=soma+lista[i]
+    media=soma/len(lista)
+    return(media)
+
+n=int(input('Digite quantidade de valores: '))
+a=[]   
+for i in range (1,n+1,1):
+    numero=int(input('Digite valor: '))
+    a.append(numero)
+
+print('%.2f' %a[0])
+print('%.2f' %a[i])
+print('%.2f' %media(a))
+print(a)

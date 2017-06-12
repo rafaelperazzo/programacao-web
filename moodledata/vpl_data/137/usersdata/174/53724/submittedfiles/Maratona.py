@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+n=int(input('Número de postos de água:'))
+m=int(input('Distância intermediária máxima do atleta:'))
+a=m
+cont=0
+for i in range(1,n+1,1):
+    d=int(input('Posição dos postos de água:'))
+    a=d-m
+    if a<m:
+        cont=cont+1
+if cont!=n:
+    print('N')
+else:
+    print('S')

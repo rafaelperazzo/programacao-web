@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+def pico(n):
+    for i in range(0,len(n),1):
+        if n[0]<n[1]<n[2]:
+                return True
+        else: 
+            return False
+n=int(input('Digite a Quantidade de Elementos da Lista:'))
+l1=[]
+for i in range(1,n+1,1):
+    v=int(input('Digite os Elementos da Lista:'))
+    l1.append(v)
+if pico(l1)==True:
+    print('S')
+else: 
+    print('N')
+    

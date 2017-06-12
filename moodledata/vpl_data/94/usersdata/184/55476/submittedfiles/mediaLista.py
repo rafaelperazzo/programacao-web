@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+soma=0
+for i in range(0,len(a),1):
+    soma=soma+lista[i]
+media=soma/len(a)
+a=[]
+n=int(input('digite a quantidade de elementos:'))
+for i in range(0,n,1):
+    num=float(input('digite um valor:'))
+    a.append(num)
+print(media)

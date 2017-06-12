@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+p=int(input('digite p:'))
+q=int(input('digite q:'))
+for i in range(2,p-1,1):
+    if p%i==0:
+        print('N')
+        break
+    i=i1
+for i in range(2,q-1,1):
+    if q%i==0:
+        print('N')
+        break
+    i=i2
+if p%i1!=0 and q%i2!=0 and q=p+2:
+    print('S')
+    
+
+    
+
+    
+    
+    

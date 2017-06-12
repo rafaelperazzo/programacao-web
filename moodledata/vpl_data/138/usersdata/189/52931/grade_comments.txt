@@ -1,0 +1,22 @@
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>5
+>30
+>30
+>30
+>40
+>-78
+
+ --- Program output ---
+>Volume inicial:Mudança de volume:Alteração do volume:Alteração do volume:Alteração do volume:Alteração do volume:Alteração do volume:55
+
+ --- Expected output (text)---
+>'22'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

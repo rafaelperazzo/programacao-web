@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+import math
+
+#comece abaixo
+n=int(input('tamanho da lista: '))
+l=[]
+soma=0
+soma2=0
+for i in range (1,n+1,1):
+    a=float(input('elemento da lista: '))
+    l.append(a)
+for i in range (0,n,1):
+    soma=soma+l[i]
+media=soma/n
+for i in range (0,n,1):
+    soma2=soma2 + (l[i]-media)**2
+dp=(soma2/(n-1))**0.5
+print('%.2f' % l[0])
+print('%.2f' % l[n-1])
+print('%.2f' % l[0])
+print(dp)

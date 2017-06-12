@@ -1,0 +1,36 @@
+s:950:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+10
+20
+30
+40
+50
+1
+2
+3
+4
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o tamanho da lista 1:digite os numeros da lista:digite os numeros da lista:digite os numeros da lista:digite os numeros da lista:digite os numeros da lista:digite o tamanho da lista 2:digite os numeros da lista:30.00
+15.81
+2.00
+Traceback (most recent call last):
+  File "estatistica.py", line 41, in &lt;module&gt;
+    bdesvio=desvio(b)
+  File "estatistica.py", line 17, in desvio
+    soma=(soma/(len(lista)-1))**0.5
+ZeroDivisionError: integer division or modulo by zero
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>30\.0[0-9]*
+15\.81[0-9]*
+3\.0[0-9]*
+1\.58[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

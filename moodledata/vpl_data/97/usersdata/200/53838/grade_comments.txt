@@ -1,0 +1,36 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>coloque a quantidade de elementes da lista:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Coloque o valor:Traceback (most recent call last):
+>  File "lecker.py", line 33, in <module>
+>    if lecker(a):
+>  File "lecker.py", line 5, in lecker
+>    for i in range (0,lend(lista),1):
+>NameError: name 'lend' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

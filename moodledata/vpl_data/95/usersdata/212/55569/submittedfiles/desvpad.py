@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+import math
+
+#comece abaixo
+n=int(input('digite ovalor do número de elementos da lista:'))
+a=[]
+for i in range(0,n,1):
+    v=float(input('digite um valor:'))
+    a.append(v)
+soma=0
+for cont in range(0,n,1):
+    soma=soma+a[cont]
+m=soma/n
+s=0
+for c in range(0,n,1):
+    s=s+(a[c]-m)
+    print(s)
+s2=s/(n-1)
+print(s2)
+dp=s2**(1/2)
+print('%.2f'%a[0])
+print('%.2f'%a[n-1])
+print('%.2f'%m)
+print('%.2f'%dp)

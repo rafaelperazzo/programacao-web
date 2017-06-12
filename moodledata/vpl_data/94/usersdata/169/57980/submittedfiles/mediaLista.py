@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+def média(lista):
+    soma=0
+    for i in range(0,len(lista),1):
+        soma=soma+lista[i]
+    resultado=soma/len(lista)
+    return resultado 
+n=int(input('Digite a Quantidade de Números:'))
+l1=[]
+for i in range(0,n,1):
+    v=float(input('Digite o Valores de Inteiros da Lista:'))
+    l1.append(v)
+print('%.2f' %l1[0])
+print('%.2f' %l1[i])
+print('%.2f' %média(l1))
+print(l1)
+
+
+
+

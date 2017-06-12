@@ -1,0 +1,32 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>50 
+>5
+>30
+>30
+>30
+>40
+>-78
+
+ --- Program output ---
+>Digite o volume inicial: Digite quantas vezes houve a troca de volume: Digite a modificação do volume: Digite a modificação do volume: Digite a modificação do volume: Digite a modificação do volume: Digite a modificação do volume: 102
+
+ --- Expected output (text)---
+>'22'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

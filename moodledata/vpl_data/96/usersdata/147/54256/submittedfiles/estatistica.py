@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+lista1=[]
+lista2=[]
+def media(lista):
+    soma1 = 0
+    for i in range(0,len(lista),1):
+        soma1 = soma1 + lista[i]
+    resultado = soma1/len(lista)
+    return resultado
+def desviop(lista):
+    soma2=0
+    for i in range(0,len(lista),1):
+        soma2=soma2+(lista[i]-media(lista))**2
+    desviop=(soma2/(len(lista)-1))**0.5
+    return desviop
+for i in range(0,n,1):
+    num=float(input('digite numero:'))
+    lista1.append(num)
+for i in range(0,n,1):
+    num=float(inout('digite numero:'))
+    lista2.append(num)
+print('%.2f' %media(lista1))
+print('%.2f' %desviop(lista1))
+print('%.2f' %media(lista2))
+print('%.2f' %desviop(lista2))

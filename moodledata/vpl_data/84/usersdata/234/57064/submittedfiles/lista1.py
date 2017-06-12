@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+def somatorio1(a):
+    soma=0
+    for i in range(0,len(a),1):
+        if a[i]%2==1:
+            soma=soma+a[i]
+    return(soma)
+    
+def somatorio2(a):
+    soma=0
+    for i in range(0,len(a),1):
+        if a[i]%2==0:
+            soma=soma+a[i]
+    return(soma)
+    
+ def quantidade1(a):
+     cont=0
+     for i in range(0,len(a),1):
+         if a[i]%2==1:
+             cont=cont+1
+     return(cont)
+     
+ def quantidade2(a):
+     cont=0
+     for i in range(0,len(a),1):
+         if a[i]%2==0:
+             cont=cont+1
+     return(cont)
+     
+n=int(input('digite o valor de n :'))
+
+    
+
+       
+        
+    

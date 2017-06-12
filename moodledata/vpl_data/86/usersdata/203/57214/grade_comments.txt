@@ -1,0 +1,19 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: digite elemento: digite elemento: digite elemento: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+
+
+def media(lista):
+    soma = 0
+    for i in range(0,len(lista),1):
+        soma = soma + lista[i]
+    resultado = soma/len(lista)
+    return resultado
+
+#Baseado na função acima, escreva a função para calcular o desvio padrão de uma lista
+def desvio(lista):
+    soma=0
+    for i in range(1,len(lista)+1,1):
+        soma=soma+((lista[i-1]-media(lista))**2)
+    dp=((soma/(len(lista)-1))**0,5)
+    return dp
+#Por último escreva o programa principal, que pede a entrada e chama as funções criadas. 
+n1=int(int('digite o número de elemetos da primeira lista:'))
+l1=[]
+i=0
+while i<n1:
+    elemento=float(input('digite um número:'))
+    l1.append(elemento)
+ n2=int(int('digite o número de elemetos da segunda lista:'))
+l2=[]
+i=0
+while i<n2:
+    elemento=float(input('digite um número:'))
+    l2.append(elemento)
+media(l1)
+desvio(l1)
+media(l2)
+desvio(l2)

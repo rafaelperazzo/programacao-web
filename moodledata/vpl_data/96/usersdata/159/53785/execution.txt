@@ -1,0 +1,44 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Quantidade de elementos da lista a:Valor:Valor:Valor:Valor:Valor:Quantidade de elementos da lista b:Valor:A média de a é: 30.00
+>O desvio padrão de a é: 14.11
+>A média de b é: 2.00
+>Traceback (most recent call last):
+>  File "estatistica.py", line 41, in <module>
+>    print('O desvio padrão de b é: %.2f' %desviob)
+>TypeError: a float is required
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

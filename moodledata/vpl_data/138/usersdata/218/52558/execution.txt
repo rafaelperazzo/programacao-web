@@ -1,0 +1,31 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>4
+>11
+>20
+>-15
+>-13
+
+ --- Program output ---
+>digite o volume inicial de sua tv:digite o numero de mudanças no volume:digide a alteração no volume:digide a alteração no volume:digide a alteração no volume:digide a alteração no volume:7
+
+ --- Expected output (text)---
+>'53'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

@@ -1,0 +1,11 @@
+s:399:"<p>def calcula_pi(m):<br />
+    soma=0<br />
+    denominador=2<br />
+    for i in range(1,m+1,1):<br />
+        if i%2==1:<br />
+            soma=soma+(4/((denominador)*(denominador+1)*(denominador+2)))<br />
+        else:<br />
+            soma=soma-(4/((denominador)*(denominador+1)*(denominador+2)))<br />
+        denominador=denominador+2<br />
+    pi=3+(soma)<br />
+    return(pi)</p>";

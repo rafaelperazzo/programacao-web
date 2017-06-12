@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+a=int(input('digite a:'))
+b=int(input('digite b:'))
+e=0
+for i in range(1,a+1,1):
+    c=int(input('digite c:'))
+    d=int(input('digite d:'))
+    if c+d>=b:
+        e=e+1
+    if i==a:
+        print(e)
+    
+    

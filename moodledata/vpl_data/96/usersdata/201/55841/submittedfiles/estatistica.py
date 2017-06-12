@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+n=int(input('Digite n:'))
+lista1=[]
+lista2=[]
+def media(lista):
+    soma = 0
+    for i in range(0,len(lista),1):
+        soma = soma + lista[i]
+    resultado = soma/len(lista)
+    return resultado
+def DP(lista):
+    soma2=0
+    for i in range(0,len(lista),1):
+        soma2=soma2+(lista[i]-media(lista))**2
+    DP=(soma2/(len(lista)-1))**(0.5)
+    return (DP)
+for i in range(0,n,1):
+    num=float(input('Digite numero:'))
+    lista1.append(num)
+for i in range(0,n,1):
+    num=float(input('Digite numero:'))
+    lista2.append(num)
+print('%.2f' %media(lista1))
+print('%.2f' %DP(lista1))
+print('%.2f' %media(lista2))
+print('%.2f' %DP(lista2))

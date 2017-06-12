@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+n= int(input('Digite os n valores da lista:'))
+L= []
+SOMA=0
+MEDIA=0
+for i in range (1,n+1,1):
+    a= float(input('digite o número:'))
+    L.append(a)
+    SOMA= SOMA+a
+
+MEDIA= SOMA/n    
+print(L[0])
+print(L[i-1])
+print(MEDIA)
+print(L)
+
+
+

@@ -32,6 +32,7 @@ $string['add_groupings'] = 'Adicionar Agrupamentos';
 $string['add_groups'] = 'Adicionar Grupos';
 $string['addmorechoices'] = 'Adicionar mais opções';
 $string['afterresultsviewable'] = 'Os resultados serão visíveis depois de ter feito a sua escolha.';
+$string['allowupdate'] = 'Permitir que a escolha seja atualizada';
 $string['answered'] = 'Respondida';
 $string['applytoallgroups'] = 'Aplicar a todos os grupos';
 $string['available_groups'] = 'Grupos Disponíveis';

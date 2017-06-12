@@ -1,0 +1,54 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Failed tests
+Test 1: teste1
+Test 2: teste2
+--|>
+
+<|--
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>50
+>4
+>11
+>20
+>-15
+>-13
+
+ --- Program output ---
+>digite o volume inicial da tv:digite o numero de trocas de volume:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:110
+
+ --- Expected output (text)---
+>'53'
+
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>50 
+>5
+>30
+>30
+>30
+>40
+>-78
+
+ --- Program output ---
+>digite o volume inicial da tv:digite o numero de trocas de volume:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:digite quantas vezes o botao de controle do volume foi apertado:110
+
+ --- Expected output (text)---
+>'22'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

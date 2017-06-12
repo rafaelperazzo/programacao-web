@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+
+
+def pico(x):
+    for i in range(0,len(x)-1,1):
+        decr=0
+        cres=0
+        if i==0:
+            if x[i]<x[i+1]:
+                cres=cres+1
+                i=i+1z
+            else:
+                break
+        else:
+            if x[i]<x[i+1]:
+                cres=cres+1
+                if x[i]>x[1+1]:
+                    decr=decr+1
+            else:
+                decr=decr+1
+                i=i+1
+            
+    if cres>=decr:
+        return(True)
+    else:
+        return(False)
+    
+    
+
+
+n = int(input('Digite a quantidade de elementos da lista: '))
+a=[]
+for i in range(0,n,1):
+    d=int(input('Digite o valor:'))
+    a.append(d)
+    
+if pico(a):
+    print('S')
+else:
+    print('N')

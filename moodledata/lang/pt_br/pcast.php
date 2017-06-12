@@ -56,3 +56,4 @@ $string['pcastname'] = 'Nome do Podcast';
 $string['pcast:view'] = 'Ver episodios';
 $string['sortbycreation'] = 'Data de criação';
 $string['sortbylastupdate'] = 'Data  de envio';
+$string['standardview'] = 'Por ordem alfabética';

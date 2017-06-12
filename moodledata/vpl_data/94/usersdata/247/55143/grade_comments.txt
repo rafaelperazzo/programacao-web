@@ -1,0 +1,53 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>  File "mediaLista.py", line 5
+>    valor=int(input('digite z: ))
+>                                ^
+>SyntaxError: EOL while scanning string literal
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'[1.0, 2.0, 3.0, 4.0, 5.0]'
+
+-Test 2: Teste 2 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>1
+>1
+>1
+>1
+>1
+
+ --- Program output ---
+>  File "mediaLista.py", line 5
+>    valor=int(input('digite z: ))
+>                                ^
+>SyntaxError: EOL while scanning string literal
+
+ --- Expected output (text)---
+> '1.00'
+>'1.00'
+>'1.00'
+>'[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

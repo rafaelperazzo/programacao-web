@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+p = int(input('Digite p: ')
+q = int(input('Digite q: ')
+if p==2 or q==2 or p==4 or q==4:
+    print('N')
+while p>1 and q>1:
+    if p//2==0 or q//2==0:
+        print('N')
+if q=p+2:
+    print('S')
+else:
+    print('N')
+    
+    
+

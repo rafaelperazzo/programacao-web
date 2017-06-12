@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7 
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite a quantidade de números na lista:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista a:Digite um valor para lista b:Digite um valor para lista b:Digite um valor para lista b:Digite um valor para lista b:Digite um valor para lista b:Digite um valor para lista b:Digite um valor para lista b:s
+>n
+>[2.0, 5.0, 10.0, 46.0, 25.0, 12.0, 7.0]
+>[13.0, 5.0, 4.0, 2.0, 3.0, 0.0, -3.0]
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite os n elementos:digite os elementos da lista 1:digite os elementos da lista 1:digite os elementos da lista 1:digite os elementos da lista 1:digite os elementos da lista 1:digite os elementos da lista 2:digite os elementos da lista 2:digite os elementos da lista 2:digite os elementos da lista 2:digite os elementos da lista 2:30.0
+>1112.4297730643495
+>3.0
+>Traceback (most recent call last):
+>  File "estatistica.py", line 33, in <module>
+>    print(desvia(b))
+>NameError: name 'desvia' is not defined
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

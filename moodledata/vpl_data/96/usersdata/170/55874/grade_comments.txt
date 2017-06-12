@@ -1,0 +1,33 @@
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite o tamanho da lista:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:Digite os termos:30.00
+>Traceback (most recent call last):
+>  File "estatistica.py", line 36, in <module>
+>    print('%.2f' %desvpad1(lista1,media1(lista1)))
+>TypeError: desvpad1() takes 1 positional argument but 2 were given
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,20 @@
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>20000
+>0
+>20000
+>33333
+
+ --- Program output ---
+>digite a quantidade de pontos de água:digite a distância entre os pontos de água:distancia entre os pontos:distancia entre os pontos:distancia entre os pontos:N
+
+ --- Expected output (text)---
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,47 @@
+s:1636:"from __future__ import division <br /><br />
+def calcula_valor_absoluto(x):<br />
+    if x&lt;0:<br />
+        x=x*(-1)<br />
+    else:<br />
+        x=x*1<br />
+    return(x)<br /><br />
+def calcula_pi(m):<br />
+    soma=0<br />
+    denominador=2<br />
+    for i in range(1,m+1,1):<br />
+        if i%2==1:<br />
+            soma=soma+(4/((denominador)*(denominador+1)*(denominador+2)))<br />
+        else:<br />
+            soma=soma-(4/((denominador)*(denominador+1)*(denominador+2)))<br />
+        denominador=denominador+2<br />
+    pi=3+(soma)<br />
+    return(pi)<br /><br />
+def fatorial(n):<br />
+    i=1<br />
+    fatorial=1<br />
+    while i&lt;=n:<br />
+        fatorial=fatorial*i<br />
+        i=i+1<br /><br />
+def calcula_co_seno(z,epsilon):<br />
+    expoente=2<br />
+    i=1<br />
+    termo=((z**expoente)/(fatorial(expoente)))<br />
+    soma=0<br />
+    while termo&gt;epsilon:<br />
+        if i%2==1:<br />
+            soma=soma-termo<br />
+        else:<br />
+            soma=soma+termo<br />
+        i=i+1<br />
+        denominador=denominador+2<br />
+        termo=((z**expoente)/(fatorial(expoente)))<br />
+    cosseno=1+(soma)<br />
+    return(cosseno)<br /><br />
+def calcula_razao_aurea(m,epsilon):<br />
+    formula=calcula_co_seno((calcula_pi(m))/(5/epsilon))<br />
+    razaoaurea=2*(formula)<br />
+    return(razaoaurea)<br /><br />
+m=input('Digite o número de m termos da fórmula pi:')<br />
+epsilon=input('Digite o epsilon para o cálculo da razão aurea:')<br /><br />
+print('%.15f'%(calcula_pi(m)))<br />
+print('%.15f'%(calcula_razao_aurea(m,epsilon)))";

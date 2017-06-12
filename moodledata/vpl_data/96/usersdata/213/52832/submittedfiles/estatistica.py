@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+
+
+def media(lista):
+    soma = 0
+    for i in range(0,len(lista),1):
+        soma = soma + lista[i]
+    resultado = soma/len(lista)
+    return resultado
+
+#Baseado na função acima, escreva a função para calcular o desvio padrão de uma lista
+
+
+#Por último escreva o programa principal, que pede a entrada e chama as funções criadas.
+
+n=int(input('Informe o número de termos na lista: '))
+
+lista1=[]
+for i in range(0,n,1):
+    numero=float(input('Informe os números da primeira lista: '))
+    lista1.append(numero)
+
+lista2=[]
+for i in range(0,n,1):
+    numero=float(input('Informe os números da segunda lista: '))
+    lista2.append(numero)
+
+if media(lista1):
+    print(resultado)
+    somatorio=0
+    for i in range(0,n,1):
+        somatorio=somatorio+((lista1[i]-resultado)**2)
+    desvioPadrao=(somatorio/(n-1)**0.5)
+    print(desvioPadrao)
+
+if media(lista2):
+    print(resultado)
+    somatorio=0
+    for i in range(0,n,1):
+        somatorio=somatorio+((lista2[i]-resultado)**2)
+    desvioPadrao=(somatorio/(n-1)**0.5)
+    print(desvioPadrao)

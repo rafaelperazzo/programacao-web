@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+n=int(input('Digite n: '))
+a=[]
+b=[]
+somaA=0
+difquadA=0
+for z in range (1, n+1, 1):
+    valorA=float(input('Valor da lista A: '))
+    a.append(valorA)
+def mediaA(a):
+    for i in range(0, len(a) ,1):
+        somaA=somaA+a[i]
+    resultadoA=somaA/len(a)
+    return resultadoA
+    for j in range (0, len(a), 1):
+        difquadA=
+    
+    
+
+#Baseado na função acima, escreva a função para calcular o desvio padrão de uma lista
+
+
+#Por último escreva o programa principal, que pede a entrada e chama as funções criadas. 

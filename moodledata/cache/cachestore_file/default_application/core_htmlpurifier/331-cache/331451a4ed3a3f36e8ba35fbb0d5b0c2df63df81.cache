@@ -1,0 +1,27 @@
+s:794:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 11110
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite um número binário:0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*(30).*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1000011
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite um número binário:0
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*(67).*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

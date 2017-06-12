@@ -1,0 +1,61 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 10
+>10
+>11
+>20
+>22
+>30
+>33
+>40
+>44
+>50
+>55
+
+ --- Program output ---
+>digite a quantidade de elementos:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:165
+>150
+>5
+>5
+>[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]
+
+ --- Expected output (text)---
+> '99'
+>'216'
+>'3'
+>'7'
+>'[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]'
+
+-Test 2: Teste 2 (-20.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite a quantidade de elementos:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:6
+>9
+>2
+>3
+>[1, 2, 3, 4, 5]
+
+ --- Expected output (text)---
+> '9'
+>'6'
+>'3'
+>'2'
+>'[1, 2, 3, 4, 5]'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

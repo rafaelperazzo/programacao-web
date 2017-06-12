@@ -1,0 +1,39 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de termos da lista: Digite o valor do termo0 da lista 1: Digite o valor do termo1 da lista 1: Digite o valor do termo2 da lista 1: Digite o valor do termo3 da lista 1: Digite o valor do termo4 da lista 1: 30
+>15.81
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

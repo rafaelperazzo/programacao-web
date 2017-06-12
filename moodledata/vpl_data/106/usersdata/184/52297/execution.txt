@@ -1,0 +1,39 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 4: Teste 4 (-7.500)
+Incorrect program result
+ --- Input ---
+> 1
+>2
+>3
+>4
+>5
+>6
+>1
+>2
+>3
+>4
+>5
+>6
+
+ --- Program output ---
+>digite n1:digite n2:digite n3:digite n4:digite n5:digite n6:digite g1:digite g2:digite g3:digite g4:digite g5:digite g6:
+
+ --- Expected output (text)---
+> 'sena'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>22.50

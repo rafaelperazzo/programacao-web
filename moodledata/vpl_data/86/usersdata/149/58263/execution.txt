@@ -1,0 +1,89 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+>  File "pico.py", line 17, in <module>
+>    if pico(a)==True:
+>  File "pico.py", line 6, in pico
+>    if n[i]<n[i+1]<[i+2]:
+>TypeError: unorderable types: int() < list()
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7
+>1
+>2
+>1
+>2
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+>  File "pico.py", line 17, in <module>
+>    if pico(a)==True:
+>  File "pico.py", line 6, in pico
+>    if n[i]<n[i+1]<[i+2]:
+>TypeError: unorderable types: int() < list()
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 4: Teste 4 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:digite O elementos da lista:Traceback (most recent call last):
+>  File "pico.py", line 17, in <module>
+>    if pico(a)==True:
+>  File "pico.py", line 6, in pico
+>    if n[i]<n[i+1]<[i+2]:
+>TypeError: unorderable types: int() < list()
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>10

@@ -1,0 +1,32 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>20000
+>0
+>20000
+>33333
+
+ --- Program output ---
+>quantidade de pontos de água:distância entre os pontos de água:distância entre os pontos:S
+>distância entre os pontos:S
+>distância entre os pontos:N
+
+ --- Expected output (text)---
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

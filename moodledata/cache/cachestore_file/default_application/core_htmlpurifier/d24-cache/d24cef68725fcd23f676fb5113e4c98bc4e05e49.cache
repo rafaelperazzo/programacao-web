@@ -1,0 +1,50 @@
+s:1300:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+20
+31
+18
+23
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n:digite a idade:digite a idade:digite a idade:digite a idade:23
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*23.0[0-9]*.*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+20
+31
+43
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n:digite a idade:digite a idade:digite a idade:31
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*31.3[0-9]*.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+20
+31
+18
+23
+17
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de n:digite a idade:digite a idade:digite a idade:digite a idade:digite a idade:21
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*21.8[0-9]*.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

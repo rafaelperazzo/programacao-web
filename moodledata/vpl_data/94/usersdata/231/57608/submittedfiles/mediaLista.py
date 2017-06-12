@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+
+def media(lista):
+    soma=0
+    for i in range(0,len(lista),1):
+        soma=soma+lista[i]
+    resultado=soma/len(lista)
+    return resultado
+def primeiro(lista):
+    for i in range(0,len(lista),1):
+        if i==0:
+            m=lista[i]
+    return m
+def ultimo(lista):
+    for i in range(0,len(lista),1):
+        if i==lista[n]:
+            k=lista[i]
+    return k
+    
+n=int(input('n:'))
+a=[]
+x=0
+y=0
+for i in range(0,n,1):
+    numero=int(input('numero:'))
+    a.append(numero)
+    if i==0:
+        x=x+numero
+    if i==(n):
+        y=y+numero
+print(x)
+print(y)
+print(media(a))
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-7.500)
+Incorrect program result
+ --- Input ---
+> 34
+>55
+>77
+>12
+>23
+>99
+>5
+>3
+>77
+>55
+>42
+>34
+
+ --- Program output ---
+>digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:
+
+ --- Expected output (text)---
+>'terno'
+
+-Test 3: Teste 3 (-7.500)
+Incorrect program result
+ --- Input ---
+> 25
+>51
+>53
+>17
+>19
+>87
+>23
+>33
+>1
+>2
+>81
+>92
+
+ --- Program output ---
+>digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero escolhido:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:digite o numero sorteado:
+
+ --- Expected output (text)---
+> 'azar'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15
