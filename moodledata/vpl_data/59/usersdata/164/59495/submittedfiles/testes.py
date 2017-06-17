@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+npi=int(input('Digite o número de termos para PI: '))
+nep=int(input('Digite o número de termos para Epsilon: '))
+contpi=0
+somapi=3
+a=0
+b=2
+for i in range (1, npi+1, 1):
+    a=4/(b*(b+1)*(b+2))
+    contpi=contpi+1
+    if (contpi%2==1):
+        somapi=somapi+a
+    if (contpi%2==0):
+        somapi=somapi-a    
+    b=b+2
+print('%.15f' %somapi)
+
+contep=0
+somaep=1
+c=0
+d=2
+for j in range (1, nep+1, 1):
+    c=x**d/(d*(d-1))
+    contep=contep+1
+    if (contep%2==1):
+        somaep=somaep-c
+    if (contep%2==0):
+        somaep=somaep+a    
+    b=b+2
+print('%.15f' %somaep)

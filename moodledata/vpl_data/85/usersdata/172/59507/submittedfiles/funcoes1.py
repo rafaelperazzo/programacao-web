@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+
+def crescente (lista):
+    #escreva o código da função crescente aqui
+    cont=0
+    for i in range(1,len(lista),1):
+        if lista[i]>lista[i-1]:
+            cont=cont+1
+    if cont==len(lista)-1:
+        return True
+    else:
+        return False
+#escreva as demais funções
+def decrescente (lista):
+    cont=0
+    for i in range(1,len(lista),1):
+        if lista[i]>lista[i-1]:
+            cont=cont+1
+    if cont!=len(lista)-1:
+        return True
+    else:
+        return False
+def consecutivos(lista):
+    cont=0
+    for i in range(0,len(lista)-1,1):
+        if lista[i]==lista[i+1]:
+            cont=cont+1
+        if cont==0:
+            return False
+        else:
+            return True
+a=[]
+b=[]
+c=[]
+n=int(input('Tamanho da lista: '))
+for i in range(1,n+1,1):
+    valora=float(input('Digite o valor: '))
+    valorb=float(input('Digite o valor: '))
+    valorc=float(input('Digite o valor: '))
+    a.append(valora)
+    b.append(valorb)
+    c.append(valorc)
+print(a)
+print(b)
+print(c)
+            
+
+
+
+
+
+#escreva o programa principal

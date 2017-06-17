@@ -1,0 +1,45 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Quantidade de elementos:Lista V - 1° valor: Lista V - 2° valor: Lista V - 3° valor: Lista V - 4° valor: Lista V - 5° valor: Lista V - 6° valor: Lista L - 1° valor: Lista L - 2° valor: Lista L - 3° valor: Lista L - 4° valor: Lista L - 5° valor: Lista L - 6° valor: Lista S - 1° valor: Lista S - 2° valor: Lista S - 3° valor: Lista S - 4° valor: Lista S - 5° valor: Lista S - 6° valor: Traceback (most recent call last):
+>  File "funcoes1.py", line 66, in <module>
+>    teste(a)
+>NameError: name 'a' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

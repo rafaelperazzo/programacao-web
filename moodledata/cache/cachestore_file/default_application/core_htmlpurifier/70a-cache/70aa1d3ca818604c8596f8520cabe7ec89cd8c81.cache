@@ -1,0 +1,41 @@
+s:825:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 6
+1
+2
+3
+4
+5
+6
+7
+6
+5
+4
+3
+2
+9
+8
+8
+8
+9
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>quantidade de elementos:Lista A - 1° ValorLista A - 2° ValorLista A - 3° ValorLista A - 4° ValorLista A - 5° ValorLista A - 6° ValorLista B - 1° ValorLista B - 2° ValorLista B - 3° ValorLista B - 4° ValorLista B - 5° ValorLista B - 6° ValorLista C - 1° ValorLista C - 2° ValorLista C - 3° ValorLista C - 4° ValorLista C - 5° ValorLista C - 6° Valor
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+'N'
+'N'
+'N'
+'S'
+'N'
+'N'
+'N'
+'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

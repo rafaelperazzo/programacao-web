@@ -1,0 +1,30 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>-10
+>-5
+>2
+>4
+>9
+
+ --- Program output ---
+>digite o número de elementos:digte um número para alista:digte um número para alista:digte um número para alista:digte um número para alista:digte um número para alista:-5
+>5
+>-7
+>7
+>-2
+>2
+>-5
+>5
+>5
+
+ --- Expected output (text)---
+> '7'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

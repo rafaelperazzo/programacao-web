@@ -1,0 +1,2 @@
+def numerofeliz(a):
+    for i in ran

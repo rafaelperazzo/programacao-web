@@ -1,0 +1,49 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Quantidade de elementos:Lista A - 1° valor: Lista A - 2° valor: Lista A - 3° valor: Lista A - 4° valor: Lista A - 5° valor: Lista A - 6° valor: Lista B - 1° valor: Lista B - 2° valor: Lista B - 3° valor: Lista B - 4° valor: Lista B - 5° valor: Lista B - 6° valor: Lista C - 1° valor: Lista C - 2° valor: Lista C - 3° valor: Lista C - 4° valor: Lista C - 5° valor: Lista C - 6° valor: S
+>N
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 66, in <module>
+>    teste(a)
+>  File "funcoes1.py", line 60, in teste
+>    if consecutivo(a):
+>NameError: name 'consecutivo' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

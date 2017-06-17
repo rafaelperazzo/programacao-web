@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+
+def crescente (lista):
+    #escreva o código da função crescente aqui
+    cont=0
+    for i in range(0,len(lista)-1,1):
+        if lista[i]<lista[i+1]:
+            cont=cont+1
+        if cont==(len(lista)-1,1):
+            return True
+        else:
+            return False
+
+#escreva as demais funções
+def decrescente(lista):
+    cont=0
+    for i in range(0,len(lista)-1,1):
+        if lista[i]>lista[i+1]:
+            cont=cont+1
+        if cont==(len(lista)-1):
+            return True
+        else:
+            return False
+
+def iguais(lista):
+    for i in range(0,len(lista)-1,1):
+        if lista[i]==lista[i+1]:
+            return True
+        return False
+
+
+#escreva o programa principal
+n=int(input('Digite a quantidade de elementos da lista: '))
+a=[]
+for i in range(1,n+1,1):
+    valor=int(input('Digite elementos da lista: '))
+    a.append(valor)
+    
+b=[]
+for i in range(1,n+1,1):
+    valor2=int(input('Digite elementos da lista: '))
+    b.append(valor2)
+    
+c=[]
+for i in range(1,n+1,1):
+    valor3=int(input('Digite elementos da lista: '))
+    c.append(valor3)
+    
+if crescente(a):
+    print('S')
+
+
+
+
+

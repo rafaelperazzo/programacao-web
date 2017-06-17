@@ -1,0 +1,66 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Quantidade de elementos: Lista A - 1° Valor: Lista A - 2° Valor: Lista A - 3° Valor: Lista A - 4° Valor: Lista A - 5° Valor: Lista A - 6° Valor: Lista B - 1° Valor: Lista B - 2° Valor: Lista B - 3° Valor: Lista B - 4° Valor: Lista B - 5° Valor: Lista B - 6° Valor: Lista C - 1° Valor: Lista C - 2° Valor: Lista C - 3° Valor: Lista C - 4° Valor: Lista C - 5° Valor: Lista C - 6° Valor: s
+>N
+>N
+>N
+>S
+>N
+>N
+>N
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 68, in <module>
+>    teste(c)
+>  File "funcoes1.py", line 60, in teste
+>    if consecutivos(a):
+>  File "funcoes1.py", line 28, in consecutivos
+>    cont=conot+1
+>NameError: name 'conot' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

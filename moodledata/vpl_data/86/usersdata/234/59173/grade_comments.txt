@@ -1,0 +1,40 @@
+-Failed tests
+Test 1: Teste 1
+Test 4: Teste 4
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementosda lista:Digite o valor:Digite o valor:Digite o valor:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 4: Teste 4 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite a quantidade de elementosda lista:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Digite o valor:Digite o valor:N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
