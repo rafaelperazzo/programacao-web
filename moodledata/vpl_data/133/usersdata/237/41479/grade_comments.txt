@@ -1,0 +1,17 @@
+-Test 1: Teste 1 (-1.000)
+Program timeout
+Incorrect program result
+ --- Input ---
+
+ --- Program output ---
+
+ --- Expected output (text)---
+> '2025
+>3025
+>9801'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

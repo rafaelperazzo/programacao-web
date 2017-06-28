@@ -35,5 +35,5 @@ $string['configquarantinedir'] = 'Se você quer que o ClamAV mova arquivos infec
 $string['invalidpathtoclam'] = 'Moodle está configurado para ativar o Clam durante o upload de arquivos, mas o percurso indicado para o acesso de Clam AV, {$a}, não é válido.';
 $string['pathtoclam'] = 'Caminho do ClamAV';
 $string['pluginname'] = 'Antivírus ClamAV';
-$string['quarantinedir'] = 'Diretório de quarentena';
+$string['quarantinedir'] = 'Diretório da quarentena';
 $string['unknownerror'] = 'Erro desconhecido com Clam.';

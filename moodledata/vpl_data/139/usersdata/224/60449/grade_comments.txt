@@ -1,0 +1,25 @@
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>2
+>3
+>2
+>3
+>2
+>4
+>5
+>8
+
+ --- Program output ---
+>Digite n: Digite o valor: Digite o valor: Digite o valor: Digite o valor: Digite o valor: Digite o valor: Digite o valor: Digite o valor: Digite o valor: SIM
+
+ --- Expected output (text)---
+> 'NAO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

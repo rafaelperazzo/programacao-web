@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>linhas:colunas:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Valor:Traceback (most recent call last):
+>  File "matriz1.py", line 43, in <module>
+>    c1=cortec1(a)
+>  File "matriz1.py", line 19, in cortec1
+>    for j in range (0,a.shape[i],1):
+>UnboundLocalError: local variable 'i' referenced before assignment
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

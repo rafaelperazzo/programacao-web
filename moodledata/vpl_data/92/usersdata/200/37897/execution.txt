@@ -1,0 +1,30 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 5
+
+<|--
+-Test 5: Teste 5 (-0.200)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>digite o numero de n:0.00000
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0.80

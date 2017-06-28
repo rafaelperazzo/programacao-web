@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+
+#criando uma função para transformar o número em uma lista#
+def lista(numero):
+    lista=[]
+    cont=0
+    while numero>0:
+        resto=numero%10
+        cont=cont+1
+        lista.append(resto)
+        numero = numrero//10
+    return (lista,cont)
+#função para determinar se o número é feliz ou não#
+def feliz(numero):
+    while numero>1:
+        soma=0
+        a=lista(numero)
+        for i in range(0,len(a),1):
+            soma=soma+a[i]**2
+        numero=soma
+    if soma==1:
+        return True
+    else:
+        return False
+numero=int(input('Digite o número à ser testado se é feliz:'))
+
+if feliz(numero):
+    print('SIM, o número testado é feliz')
+else:
+    print('NÃo, o número testado não é feliz')
+    
+r=lista(numero)[1]
+p=10**(n-1)
+q=(10**n)-1
+
+for i in range(p,q+1,1):
+    cont=0
+    s=lista(i)[0]
+        for j in range(0,len(s),1):
+            z=lista(n)[0]
+            for l in range(0,len(z),1):
+                if s[j]==z[l]:
+                    cont=cont+1
+    if cont==lista(n)[0]:
+        print(i)
+    
+    
+    
+    
+    
+    
+    
+    

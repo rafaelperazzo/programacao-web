@@ -1,0 +1,24 @@
+s:594:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+10
+2
+3
+2
+7
+2
+4
+5
+11
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite a ordem da matriz:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:digite um numero:NAO
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'SIM'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -26,6 +26,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['auth_pamdescription'] = 'Este método usa PAM para acessar os "usernames" nativos deste servidor. Você tem que instalar <a href="http://www.math.ohio-state.edu/~ccunning/pam_auth/" target="_blank">PHP4 PAM Authentication</a> para utilizar este módulo.';
-$string['auth_passwordisexpired'] = 'A sua senha expirou. Você quer mudar a sua senha agora?';
-$string['auth_passwordwillexpire'] = 'A sua senha vai expirar em {$a} dias. Você quer mudar a sua senha agora?';
+$string['auth_passwordisexpired'] = 'Sua senha expirou. Deseja alterar sua senha agora?';
+$string['auth_passwordwillexpire'] = 'Sua senha expirará em {$a} dias. Deseja alterar sua senha agora?';
 $string['pluginname'] = 'PAM (Pluggable Authentication Modules)';

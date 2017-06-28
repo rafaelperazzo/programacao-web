@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+
+n=int(input('Digite o número de linhas de colunas da matriz: '))
+a=np.zeros((n,n))
+for i in range (0,a.shape[0],1):
+    for j in range (0,a.shape[1],1):
+        a[i,j]=int(input('Digite os termos da matriz: '))
+
+def SomaLinhas(a):
+    l=[]
+    for i in range(0,a.shape[0],1):
+        soma=0
+        for j in range(0,a.shape[1],1):
+            soma=soma+a[i,j]
+        l.append(soma)
+    return(l)
+    
+def SomaColunas(a):
+    c=[]
+    for j in range (0,a.shape[1],1):
+        soma=0
+        for i in range (0,a.shape[0],1):
+            soma=soma+a[i,j]
+        c.append(soma)
+    return(c)
+
+SomaLinhas(a)=l
+SomaColunas(a)=c
+
+print(l)
+print(c)
+        
+

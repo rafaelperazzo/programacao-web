@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>digite o número de linhas da matriz:digite o número de colunas da matriz:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:digite zero ou um:Traceback (most recent call last):
+>  File "matriz1.py", line 29, in <module>
+>    print(matriza[menorlinha(matriza):maiorlinha(matriza)+1,menorcoluna(matriza):maiorcoluna(matriza)+1])
+>  File "matriz1.py", line 16, in maiorlinha
+>    if matriz[i,j]==1:
+>IndexError: index 3 is out of bounds for axis 0 with size 3
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

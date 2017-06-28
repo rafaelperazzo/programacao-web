@@ -1,0 +1,48 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 3
+>10
+>2
+>3
+>2
+>7
+>2
+>4
+>5
+>11
+
+ --- Program output ---
+>digite o número de elementos de para as linhas e as colunas da matrizdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosNÃO
+
+ --- Expected output (text)---
+> 'SIM'
+
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>2
+>3
+>2
+>3
+>2
+>4
+>5
+>8
+
+ --- Program output ---
+>digite o número de elementos de para as linhas e as colunas da matrizdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosdigite um elementosSIM
+
+ --- Expected output (text)---
+> 'NAO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+
+def media(a):
+    soma = 0
+    for i in range(0,len(a),1):
+        soma = soma + a[i]
+    media = soma/len(a)
+    return (media)
+
+def soma(p,q):
+    mp=media(p)
+    mq=media(q)
+    soma=0
+    for i in range(0,len(p),1):
+        soma=soma+((p[1]-mp)*(q[1]-mq))
+        return(soma)
+        
+def somaD(lista):
+    mlista=media(lista)
+    soma=0
+    for i in range(0,len(lista),1):
+        soma=soma+(lista[1]-mlista)**2
+        return(soma)
+        
+def entradaLista(n):
+    a = []
+    for i in range(0,n,1):
+        valor = float(input('Digite um valor: '))
+        a.append(valor)
+    return (a)
+
+n = int(input('Digite o tamanho da lista: '))
+x = entradaLista(n)
+y = entradaLista(n)
+
+p =soma(x,y)/(somaD(x)*somaD(y))**0.5
+
+p = abs(p)
+
+print('%.4f' % p)

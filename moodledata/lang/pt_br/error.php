@@ -463,6 +463,7 @@ $string['pleasereport'] = 'Por favor dedique alguns minutos à descrição do qu
 $string['pluginrequirementsnotmet'] = 'O Plugin "{$a->pluginname}" ({$a->pluginversion}) não foi instalado. Isto requer uma nova versão de Moodle (você está usando a versão {$a->currentmoodle}, mas precisa da {$a->requiremoodle}).';
 $string['prefixcannotbeempty'] = '<p> Erro: prefixo da tabela do banco de dados não pode estar vazio ({$a}) </p><p> O administrador do site deve corrigir esse problema </p>.';
 $string['prefixtoolong'] = '<p> Erro: prefixo da tabela do banco de dados é muito grande ({$a->dbfamily})</p> <p> O administrador do site deve corrigir esse problema. Tamanho máximo para prefixos de tabela no {$a->dbfamily} é {$a->maxlength} caracteres.</p>';
+$string['privatefilesupload'] = 'Upload direto para área de arquivos privados do usuário não é mais suportado. Faça o upload para a área de rascunho e, em seguida, mova os arquivos com core_user::add_user_private_files';
 $string['processingstops'] = 'Processamento interrompido aqui. Os demais registros foram ignorados.';
 $string['protected_cc_not_supported'] = 'Cartuchos protegidos não suportados.';
 $string['querystringcannotbeempty'] = 'A consulta não pode ser vazia.';

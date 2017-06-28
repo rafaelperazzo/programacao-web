@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+def magica (a):
+    for j in range (0,len(a),1):
+        soma=0
+        for i in range (0,len(a),1):
+            if j==a[i]:
+                soma=soma+1
+        if a[j]!=soma:
+            return False
+    return True 
+
+a=[]
+n=int(input('Tamanho:'))
+for i in range (0,n,1):
+    valor=int(input('valor:'))
+    a.append(valor)
+
+if magica(a):
+    print('S')
+else:
+    print('N')

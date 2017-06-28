@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['competency'] = 'Competência';
 $string['coursecompetencybreakdownsummary'] = 'Um relatório de todos os alunos do curso, e seu progresso em relação às competências do curso';
+$string['notrated'] = 'Não avaliado.';
 $string['pluginname'] = 'Distribuição de competências';
 $string['rating'] = 'Classificação';
 $string['usercompetencysummary'] = 'Resumo competência do usuário';

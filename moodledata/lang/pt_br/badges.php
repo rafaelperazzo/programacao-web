@@ -79,13 +79,34 @@ Você deve corrigir esse problema em qualquer local de produção onde você est
 
 A única URL necessárias para a verificação é [seu-site-url]/badges/assertion.php por isso, se você é capaz de modificar o seu firewall para permitir o acesso externo ao arquivo, verificação emblema continuará a funcionar.';
 $string['backpackbadges'] = 'Você tem {$a->totalbadges} emblema(s) exibido(s) a partir de {$a->totalcollections} coleção(ões). <a href="mybackpack.php">Alterar configurações da mochila</a>.';
+$string['backpackcannotsendverification'] = 'Não foi possível enviar email de verificação';
 $string['backpackconnection'] = 'Conexão de mochila';
+$string['backpackconnectioncancelattempt'] = 'Conectar usando um endereço de email diferente';
+$string['backpackconnectionconnect'] = 'Conectar a mochila';
 $string['backpackconnection_help'] = 'Esta página permite que você configure a conexão com um provedor de mochila externo. Conectar-se a uma mochila permite que você exiba emblemas externos neste site e que envie emblemas adquiridos aqui para sua mochila.
 
 Atualmente, apenas <a href="http://backpack.openbadges.org">OpenBadges Mozilla Backpack</a> é suportado. Você precisa se inscrever para um serviço de mochila antes de tentar configurar a conexão mochila nesta página.';
+$string['backpackconnectionresendemail'] = 'Reenviar email de verificação';
+$string['backpackconnectionunexpectedresult'] = 'Ocorreu um problema ao conectar a sua mochila. Por favor tente novamente.<br><br>Se o problema persistir, contate o administrador.';
 $string['backpackdetails'] = 'Configurações de mochila';
 $string['backpackemail'] = 'Endereço de e-mail';
 $string['backpackemail_help'] = 'Endereço de e-mail associado à sua mochila. Enquanto você estiver conectado, quaisquer medalhas obtidas nesse site serão associadas ao seu ambiente de email.';
+$string['backpackemailverificationpending'] = 'Verificação pendente';
+$string['backpackemailverifyemailbody'] = 'Olá,
+
+Uma nova conexão à sua mochila OpenBadges foi solicitada a partir de \'{$a->sitename}\' usando o seu endereço de email.
+
+Para confirmar e ativar a conexão à sua mochila, por favor acesse
+
+{$a->link}
+
+Na maioria de programas de email, esse endereço deve aparecer como um link azul que você pode clicar. Se isso não funcionar, copie e cole o endereço na barra de endereços do seu navegador, na parte superior.
+
+Se você precisar de ajuda, entre em contato com o administrador do site, {$a->admin}';
+$string['backpackemailverifyemailsubject'] = '{$a}: Email de verificação da mochila OpenBadges';
+$string['backpackemailverifypending'] = 'Um email de verificação foi enviado para <strong>{$a}</strong>. Clique no link de verificação no email para ativar sua conexão com a mochila.';
+$string['backpackemailverifysuccess'] = 'Obrigado por confirmar seu endereço de email. Agora você está conectado à sua mochila.';
+$string['backpackemailverifytokenmismatch'] = 'O token no link que você clicou não corresponde ao token armazenado. Certifique-se de clicar no link do email mais recente que você recebeu.';
 $string['backpackimport'] = 'Configurações de importação de emblema';
 $string['backpackimport_help'] = 'Depois que a conexão com a mochila é estabelecida com sucesso, os emblemas de sua mochila podem ser exibidos em sua página "Meus emblemas" e em sua página de perfil.
 
@@ -101,7 +122,7 @@ $string['badgeprivacysetting_help'] = 'Emblemas que você ganha podem ser exibid
 Você ainda pode controlar as configurações de privacidade dos emblemas individualmente em sua página "Meus emblemas".';
 $string['badgeprivacysetting_str'] = 'Mostrar automaticamente emblemas que eu obtive em minha página de perfil';
 $string['badges'] = 'Emblemas';
-$string['badgesalt'] = 'Sal para o hash do endereço de email do remetente';
+$string['badgesalt'] = 'Salt do hash do endereço de e-mail do destinatário';
 $string['badgesalt_desc'] = 'Usar um "hash" permite que os serviços de mochilas confirmem o ganhador do emblema sem ter que expor seu endereço de e-mail. Esta configuração deve usar apenas números e letras.
 
 Nota: Para efeitos de verificação de destinatários, por favor, evite alterar essa configuração uma vez que você começar a emitir emblemas.';
@@ -324,7 +345,7 @@ $string['numawards'] = 'Este emblema foi emitido para <a href="{$a->link}">{$a->
 $string['numawardstat'] = 'Este emblema foi emitido {$a} usuário(s).';
 $string['overallcrit'] = 'dos critérios selecionados estão completos.';
 $string['personaconnection'] = 'Acessar com seu e-mail';
-$string['personaconnection_help'] = 'Persona é um sistema para identificar-se em toda a web, usando um endereço de e-mail que você possui. The Open Badges mochila usa Persona como um sistema de login, de modo a ser capaz de se conectar a uma mochila com você precisa de uma conta Persona. Para mais informações sobre Persona visita <a href="https://login.persona.org/about">https://login.persona.org/about</a> .';
+$string['personaconnection_help'] = 'Persona é um sistema para identificar-se em toda a web, usando um endereço de e-mail que você possui. A mochila Open Badges usa Persona como um sistema de login, de modo a ser capaz de se conectar a uma mochila você precisará de uma conta Persona. Para mais informações sobre Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Usuários aptos a receber o emblema';
 $string['preferences'] = 'Preferências de emblema';
 $string['recipientdetails'] = 'Detalhes do usuário a receber o emblema';

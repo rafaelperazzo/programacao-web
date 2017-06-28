@@ -1,0 +1,16 @@
+-Test 4: Teste 4 (-0.250)
+Incorrect program result
+ --- Input ---
+> 100
+
+ --- Program output ---
+>numero de termos:3.12577
+
+ --- Expected output (regular expression)---
+>.*3.1260[0-9]*.*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

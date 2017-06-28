@@ -29,6 +29,7 @@ $string['eventactivityreportviewed'] = 'Relatório de atividade visto';
 $string['eventoutlinereportviewed'] = 'Esboço do relatório visto';
 $string['neverseen'] = 'Nunca visualizados';
 $string['nologreaderenabled'] = 'Nenhum leitor log habilitado';
+$string['numviews'] = '{$a->numviews} por {$a->distinctusers} usuários';
 $string['outline:view'] = 'Ver relatório das atividades do curso';
 $string['page-report-outline-index'] = 'Relatório de curso outline';
 $string['page-report-outline-user'] = 'Relatório de usuário de curso outline';

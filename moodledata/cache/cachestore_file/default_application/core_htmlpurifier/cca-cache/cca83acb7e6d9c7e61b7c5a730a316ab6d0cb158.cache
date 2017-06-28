@@ -1,0 +1,37 @@
+s:1231:"<p>import numpy as np<br /><br />
+def Qmagico(A):<br />
+    k=[]<br />
+    for i in range(0,A.shape[0],1):<br />
+        soma=0<br />
+        for j in range(0,A.shape[1],1):<br />
+            soma=soma + A[i,j]<br />
+        k.append(soma)<br /><br />
+    for j in range(0,A.shape[1],1):<br />
+        soma=0<br />
+        for i in range(0,A.shape[0],1):<br />
+            soma=soma + A[i,j]<br />
+        k.append(soma)<br /><br /><br />
+    #########<br />
+    soma=0<br />
+    for i in range(0,A.shape[0],1):<br />
+        for j in range(0,A.shape[0],1):<br />
+            if i==j:<br />
+                soma=soma + A[i,i]<br />
+    k.append(soma)    <br /><br />
+    soma=0<br />
+    for i in range(0,A.shape[0],1):<br />
+        soma= soma + A[i,A.shape[0]-i-1]<br />
+    k.append(soma)<br /><br />
+    cont=0<br />
+    for i in range(0,len(k)-1,1):<br />
+        if k[i]!=k[i+1]:<br />
+            cont=cont+1<br />
+    if cont==0:<br />
+        print('S')<br />
+    else:<br />
+        print('N')<br /><br /><br />
+n= input('Digite a dimenção n da matriz:') <br />
+a=np.zeros((n,n))<br /><br />
+for i in range (0,A.shape[0],1):<br />
+    for j in range (0,A.shape[1],1):<br />
+        A[i,j]= input ('digite o valor:')</p>";

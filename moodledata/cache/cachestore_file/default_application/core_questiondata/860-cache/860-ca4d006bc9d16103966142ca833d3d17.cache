@@ -1,0 +1,13 @@
+O:8:"stdClass":22:{s:2:"id";s:3:"860";s:8:"category";s:2:"69";s:6:"parent";s:1:"0";s:4:"name";s:12:"Instruções";s:12:"questiontext";s:1592:"<p><span style="font-size: x-large;"><strong>Instruções <span style="color: #ff0000;">(LEIA ATENTAMENTE)</span></strong></span></p>
+<p>- Horário da prova: Das 8:30 as 11:00, sem prorrogação. O tempo é controlado pelo sistema, sem nenhuma intervenção do professor.</p>
+<p>- Problemas técnicos individuais como: "Fiquei sem internet", "Minha internet caiu", "Meu notebook pifou", "Travou", etc... são de sua inteira responsabilidade.</p>
+<p>- Quem ficar com nota abaixo de 5.0, poderá fazer a 2a Chamada no dia 30/06/2017.</p>
+<p> </p>
+<p>1) Utilize 5 casas decimais por truncamento ou arredondamento (tanto faz)</p>
+<p>2) As questões são <span style="color: #ff0000;"><strong>ESTRITAMENTE OBJETIVAS</strong></span>, ou seja, não serão considerados rascunhos, "eu quis dizer", "eu sabia resolver", "usei um método diferente do pedido", "eu li errado", foto da questão resolvida no whatsapp, etc.</p>
+<p>3) A interpretação faz parte da prova.</p>
+<p>4) Qualquer erro no gabarito da prova será devidamente corrigido e a prova reavaliada, sem prejuízo nenhum a ninguém.</p>
+<p>5) Todas as questões são corrigidas <strong>AUTOMATICAMENTE</strong>, não sendo possível a correção manual e individual para ninguem, por qualquer que seja o motivo. Apenas questões com gabarito errado podem ser reavalidas (para todos, e nunca individualmente).</p>
+<p><span style="color: #ff0000; font-size: large;"><strong>6) Questões com funções trigonométricas, não esquecer de utilizar a unidade RADIANOS na calculadora.</strong> </span></p>
+<p>Boa prova</p>
+<p> </p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:0;s:7:"penalty";d:0;s:5:"qtype";s:11:"description";s:6:"length";s:1:"0";s:5:"stamp";s:43:"programacao.ufca.edu.br+170620123053+CZOkFo";s:7:"version";s:43:"programacao.ufca.edu.br+170623112307+wlc6Kw";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1497961853";s:12:"timemodified";s:10:"1498216987";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:4:"1621";s:7:"options";O:8:"stdClass":1:{s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}

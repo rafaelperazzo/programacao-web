@@ -283,7 +283,7 @@ Ao analisar os trabalhos, os professores podem deixar comentários de feedback e
 $string['modulename_link'] = 'mod/assignment/view';
 $string['modulenameplural'] = 'Tarefas';
 $string['moreusers'] = '{$a} mais...';
-$string['multipleteams'] = 'Você é membro de vários grupos, entre em contato com o seu professor.';
+$string['multipleteams'] = 'Membro de mais de um grupo';
 $string['multipleteamsgrader'] = 'Membro de mais de um grupo, portanto impedido de fazer envios.';
 $string['mysubmission'] = 'Minha submissão:&nbsp;';
 $string['newsubmissions'] = 'Tarefas apresentadas';
@@ -458,7 +458,7 @@ $string['viewfeedbackforuser'] = 'Ver feedback para o usuário {$a}';
 $string['viewfull'] = 'Ver completo';
 $string['viewfullgradingpage'] = 'Abrir a página de avaliação completa para enviar feedback';
 $string['viewgradebook'] = 'Ver livro de notas';
-$string['viewgrading'] = 'Ver/Avaliar todos os envios';
+$string['viewgrading'] = 'Ver todos os envios';
 $string['viewgradingformforstudent'] = 'Ver página de avaliação para o estudante: (id={$a->id}, nome={$a->fullname}).';
 $string['viewownsubmissionform'] = 'Ver própria página de envio de tarefa.';
 $string['viewownsubmissionstatus'] = 'Ver própria página de status de envio.';

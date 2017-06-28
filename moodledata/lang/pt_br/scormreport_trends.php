@@ -25,5 +25,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['data'] = 'Dados';
+$string['element'] = 'Elementos';
 $string['freq'] = 'Frequência';
+$string['pluginname'] = 'Tendências de questão';
+$string['questioncount'] = 'Contagem de Questões';
+$string['questionfreq'] = 'Questão {$a}';
 $string['value'] = 'Valor';

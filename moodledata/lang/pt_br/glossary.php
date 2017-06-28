@@ -163,7 +163,7 @@ $string['displayformats'] = 'Mostrar formatos';
 $string['displayformatssetup'] = 'Mostrar configuração de formatos';
 $string['duplicatecategory'] = 'Categoria duplicada';
 $string['duplicateentry'] = 'Duplicar item';
-$string['editalways'] = 'Editar sempre';
+$string['editalways'] = 'Sempre permitir edição';
 $string['editalways_help'] = '<P>Esta opção define se os estudantes são autorizados a editar os seus itens a qualquer momento os textos.
 
 <P>Você pode selecionar:

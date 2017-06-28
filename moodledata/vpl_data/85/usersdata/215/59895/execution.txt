@@ -1,0 +1,51 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>quantidade de elementos:listaA - 1 valor: listaA - 2 valor: listaA - 3 valor: listaA - 4 valor: listaA - 5 valor: listaA - 6 valor: listaB - 1 valor: listaB - 2 valor: listaB - 3 valor: listaB - 4 valor: listaB - 5 valor: listaB - 6 valor: listaC - 1 valor: listaC - 2 valor: listaC - 3 valor: listaC - 4 valor: listaC - 5 valor: listaC - 6 valor: 
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

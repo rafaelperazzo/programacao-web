@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>numero de linhas: numero de colunas: elemento: elemento: elemento: elemento: elemento: elemento: elemento: elemento: elemento: elemento: elemento: elemento: Traceback (most recent call last):
+>  File "matriz1.py", line 32, in <module>
+>    z=maiorcoluna(a)
+>  File "matriz1.py", line 25, in maiorcoluna
+>    for j in range(a,shape[1]-1,-1,-1):
+>NameError: name 'shape' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

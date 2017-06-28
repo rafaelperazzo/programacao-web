@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+def degrau (a, b):
+    for i in range ( 0, n-1, 1):
+        a.append (a (i)-a(i-i))
+    for i in range (0, len(b), 1):
+        if (b[i]<0):
+            b[i]<b[i]*(-1)
+    return(b)
+n= int( input(' quantidade de elementos: '))
+a=[]
+b=[]
+for i in range (0, n, 1):
+    valor= int( input( ' digite o valor da lista: '))
+    a.append(valor)
+print(degrau(a,b)

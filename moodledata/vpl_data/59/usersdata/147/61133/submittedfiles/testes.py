@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+n=int(input('digite n:'))
+x1=n//1000
+print(x1)
+resto=n%1000
+x2=resto//100
+print(x2)
+resto2=resto%100
+x3=resto2//10
+print(x3)
+x4=resto2%10
+print(x4)
+print((x1*10)+x2)
+
+

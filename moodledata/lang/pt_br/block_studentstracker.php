@@ -41,6 +41,7 @@ $string['role'] = 'Rastrear todos os papéis ?';
 $string['roles'] = 'Papéis permitidos para ver o bloco';
 $string['studentstracker:addinstance'] = 'Adicionar um novo bloco Rastrear Estudante';
 $string['text_footer'] = 'Clique no nome para contatá-los';
+$string['text_footer_content'] = 'Contate-nos!';
 $string['text_header'] = 'Usuários ausentes';
 $string['text_header_fine'] = 'Tudo está bem!';
 $string['text_never'] = 'Texto para quando não tiver acesso';

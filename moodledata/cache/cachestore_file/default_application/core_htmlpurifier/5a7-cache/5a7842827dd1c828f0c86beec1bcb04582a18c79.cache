@@ -1,0 +1,9 @@
+s:645:"<p>Possíveis estados para o fluxo de avaliação de trabalhos (dependendo de suas permissões):</p>
+
+<ul><li>Não avaliado - a avaliação ainda não iniciou</li>
+<li>Em avaliação - a avaliação foi iniciada, mas ainda não foi concluída</li>
+<li>Avaliação concluída - a avaliação foi concluída, mas talvez ainda sejam necessárias verificações/correções</li>
+<li>Em revisão - a avaliação está, agora, com o professor responsável para revisão final</li>
+<li>Pronto para publicação - a revisão final foi completada, mas aguarda publicação</li>
+<li>Publicado - os estudantes tem acesso às notas e aos retornos</li>
+</ul>";

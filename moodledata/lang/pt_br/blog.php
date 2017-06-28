@@ -192,4 +192,5 @@ $string['viewmyentriesaboutmodule'] = 'Ver minhas mensagens sobre este {$a}';
 $string['viewsiteentries'] = 'Ver todas as mensagens';
 $string['viewuserentries'] = 'Ver todas as mensagens de {$a}';
 $string['worldblogs'] = 'Qualquer pessoa, mesmo se não for um usuário do site, pode ler os textos configurados como acessíveis por todos';
+$string['wrongexternalid'] = 'ID do blog externo errado';
 $string['wrongpostid'] = 'ID errada da mensagem no blog';

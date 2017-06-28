@@ -1,0 +1,58 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 3
+>10
+>2
+>3
+>2
+>7
+>2
+>4
+>5
+>11
+
+ --- Program output ---
+>n:numero:numero:numero:numero:numero:numero:numero:numero:numero:Traceback (most recent call last):
+>  File "diagonaldominante.py", line 27, in <module>
+>    if somadia(matrizA)>somalinhas(matrizA):
+>  File "diagonaldominante.py", line 17, in somalinhas
+>    if soam>a:
+>NameError: name 'soam' is not defined
+
+ --- Expected output (text)---
+> 'SIM'
+
+-Test 2: Teste 2 (-15.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>2
+>3
+>2
+>3
+>2
+>4
+>5
+>8
+
+ --- Program output ---
+>n:numero:numero:numero:numero:numero:numero:numero:numero:numero:Traceback (most recent call last):
+>  File "diagonaldominante.py", line 27, in <module>
+>    if somadia(matrizA)>somalinhas(matrizA):
+>  File "diagonaldominante.py", line 17, in somalinhas
+>    if soam>a:
+>NameError: name 'soam' is not defined
+
+ --- Expected output (text)---
+> 'NAO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

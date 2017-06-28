@@ -46,7 +46,7 @@ $string['choiceoptions'] = 'Opções de escolha';
 $string['choiceoptions_help'] = '<p>Aqui você define as opções que os participantes podem escolher.</p>
 
 <p>Você pode preencher o número de respostas que você desejar. As caixas de texto em branco não serão visualizadas.</p>';
-$string['choice:readresponses'] = 'Ler respostas';
+$string['choice:readresponses'] = 'Ver respostas';
 $string['choicesaved'] = 'A opção escolhida foi gravada';
 $string['choicetext'] = 'Texto da Escolha';
 $string['chooseaction'] = 'Escolha uma ação...';
@@ -92,8 +92,8 @@ $string['noresultsviewable'] = 'Não é possível visualizar os resultados neste
 $string['notanswered'] = 'Nenhuma resposta';
 $string['notenrolledchoose'] = 'Desculpe, somente usuários inscritos têm permissão para fazer escolhas.';
 $string['notopenyet'] = 'Esta atividade será acessível a partir de {$a}';
-$string['numberofuser'] = 'Número de usuários';
-$string['numberofuserinpercentage'] = 'Percentual de participantes';
+$string['numberofuser'] = 'Número de respostas';
+$string['numberofuserinpercentage'] = 'Percentagem de respostas';
 $string['option'] = 'Opção';
 $string['optionno'] = 'Opção {no}';
 $string['options'] = 'Opções';

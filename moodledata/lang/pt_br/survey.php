@@ -214,6 +214,7 @@ $string['downloadinfo'] = 'É possível baixar os dados completos desta pesquisa
 $string['downloadresults'] = 'Resultados de download';
 $string['downloadtext'] = 'Baixar o arquivo dos dados em formato Texto Simples';
 $string['editingasurvey'] = 'Edição de uma pesquisa de avaliação';
+$string['errorunabletosavenotes'] = 'Ocorreu um erro ao guardar as observações.';
 $string['eventreportdownloaded'] = 'Relatório da escolha baixada';
 $string['eventreportviewed'] = 'Relatório da escolha visualizado';
 $string['eventresponsesubmitted'] = 'Resposta de escolha enviada';
