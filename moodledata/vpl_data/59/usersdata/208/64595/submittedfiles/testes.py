@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*g
+
+    
+a=[]
+b=4
+for p in range(0,n,1):
+    valor=int(input('valor:'))
+    a.append(valor)
+m=int(str(a[0])+(str(a[1])+(str(a[2])+(str(a[3]))
+
+for i in range(10,100):
+    for j in range(10,100:
+        
+        n=i*j
+        
+print(n)

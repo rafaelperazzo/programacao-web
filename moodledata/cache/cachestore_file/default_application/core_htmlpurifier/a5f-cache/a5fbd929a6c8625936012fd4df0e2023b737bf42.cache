@@ -1,0 +1,56 @@
+s:1739:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+3
+6
+6
+8
+6
+7
+4
+3
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Informe a quantidade de linhas e colunas da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: [[ 2.  0.  1.]]
+[[ 8.  6.  7.]]
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '1'
+'7'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+16
+3
+2
+13
+5
+10
+11
+8
+8
+6
+7
+12
+4
+15
+14
+1
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Informe a quantidade de linhas e colunas da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: Informe os elementos da matriz: [[  9.   7.   8.  13.]]
+[[  8.   6.   7.  12.]]
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> '9'
+'8'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";
