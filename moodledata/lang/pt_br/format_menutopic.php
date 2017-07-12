@@ -106,23 +106,51 @@ $string['topic_sheet_sheetedit'] = 'Tópico de destino';
 $string['tree_editmenu'] = 'Árvore do menu';
 $string['tree_editmenu_title'] = 'Configuração do árvore do menu';
 $string['tree_struct'] = 'Estrutura da árvore';
-$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode ser externa ou directamente ligada a uma secção do curso. Ao assinar a primeira vez para definir a árvore de secção, a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de secções do curso. <P />
-<p> Para alterar as propriedades de uma folha, clique em seu nome, e ela vai aparecer uma janela onde você pode: realizar algumas ações para mover as folhas, eliminar a folha selecionada, crie uma nova planilha ou atualizar os dados da folha de <. / p>
-<p> Entre as opções que você pode fazer sobre a folha são: </ p>
+$string['tree_struct_help'] = '<p> A base do menu é uma estrutura de árvore onde cada ramo ou folha de árvore pode ser associado a uma URL. O URL pode
+    ser externa ou directamente ligada a uma secção do curso. Ao assinar a primeira vez para definir a árvore de secção,
+    a plataforma sugere uma estrutura linear, sem ramificações, com uma quantidade de folhas de igual ao número de
+    secções do curso. </p>
+<p> Para alterar as propriedades de uma folha, clique em seu nome, e ela vai aparecer uma janela onde você pode:
+    realizar algumas ações para mover as folhas, eliminar a folha selecionada, crie uma nova planilha ou atualizar os
+    dados da folha de <. / p>
+<p> Entre as opções que você pode fazer sobre a folha são: </p>
 <ul>
-    <li> <strong> Mover uma folha para a esquerda: </ strong> é feito selecionando a seta apontando para a esquerda. Converte a folha na irmã da folha que contém (folha de pai). Ele só está disponível se a folha é filha de uma outra folha, nunca se está no ramo principal. </ Li>
-    <li> <strong> Mover uma folha para a direita: </ strong> é feito selecionando a seta apontando para a direita. Converte para a folha da filha da folha anterior. Ela não está disponível para a primeira folha do ramo principal. </ Li>
-    <li> <strong> uma folha: </ strong> é feito selecionando a seta apontando para cima. Altera a ordem de uma folha de colocá-lo antes de seu irmão inmediately anterior. Ela não está disponível para a primeira folha de um ramo. </ Li>
-    <li> <strong> baixo de uma folha: </ strong> é feito selecionando a seta apontando para baixo. Altera a ordem de uma folha de colocá-lo depois de seu irmão inmediately seguinte. Ela não está disponível para a última folha de um ramo. </ Li>
-    <li> <strong> Excluir uma folha:. </ strong> é feito selecionando os Exclui X. a folha selecionada e todas as folhas que contém </ li>
-</ Ul>
-<p> O <strong> opção "Adicionar uma nova folha" </ strong> cria uma cópia da folha de selecionado e adiciona-la como sua filha. Filha folhas não são copiadas, apenas o selecionado. </ P>
-<p> O <strong> opção "Alterar dados da folha de" </ strong> atualiza os valores selecionados para as propriedades da folha selecionada. As propriedades que podem ser modificados são: </ p>
-<ul>
-    <li> nome Folha <strong>:. </ strong> a marca que aparece para esta folha no menu </ li>
-    <li> secção <strong> Alvo: </ strong> Se a folha é usada para uma secção de curso, esta opção indica que a secção será o seleccionado. Se uma seção é selecionada, uma URL externa não pode ser selecionado para que direcionam o link da opção no menu. </ Li>
-    <li> <strong> URL: </ strong> indica um URL para o qual fará referência à opção de menu. É só podem ser especified se uma secção alvo não foi seleccionada. </ Li>
-    <li> alvo ligação <strong>: </ strong> Indica se você deseja abrir o link, a seção ou a URL externa, em uma nova janela ou na mesma janela. Se uma opção não for selecionada, o link será aberto na mesma janela. </ Li>
-</ Ul>
-<p> As mudanças realizadas no menu são armazenadas somente para selecionar o <strong> opção "Salvar alterações" </ strong> na parte inferior da página. </ p>';
+    <li><strong> Mover uma folha para a esquerda: </strong> é feito selecionando a seta apontando para a esquerda.
+        Converte a folha na irmã da folha que contém (folha de pai). Ele só está disponível se a folha é filha de uma
+        outra folha, nunca se está no ramo principal.
+    </li>
+    <li><strong> Mover uma folha para a direita: </strong> é feito selecionando a seta apontando para a direita.
+        Converte para a folha da filha da folha anterior. Ela não está disponível para a primeira folha do ramo
+        principal.
+    </li>
+    <li><strong> uma folha: </strong> é feito selecionando a seta apontando para cima. Altera a ordem de uma folha de
+        colocá-lo antes de seu irmão inmediately anterior. Ela não está disponível para a primeira folha de um ramo.
+    </li>
+    <li><strong> baixo de uma folha: </strong> é feito selecionando a seta apontando para baixo. Altera a ordem de uma
+        folha de colocá-lo depois de seu irmão inmediately seguinte. Ela não está disponível para a última folha de um
+        ramo.
+    </li>
+    <li><strong> Excluir uma folha:. </strong> é feito selecionando os Exclui X. a folha selecionada e todas as folhas
+        que contém
+    </li>
+</ul>
+<p> O <strong> opção "Adicionar uma nova folha" </strong> cria uma cópia da folha de selecionado e adiciona-la como sua
+    filha. Filha folhas não são copiadas, apenas o selecionado. </p>
+<p> O <strong> opção "Alterar dados da folha de" </strong> atualiza os valores selecionados para as propriedades da
+    folha selecionada. As propriedades que podem ser modificados são: </p>
+<ul>  
+    <li> nome Folha <strong>:. </strong> a marca que aparece para esta folha no menu</li>
+    <li> secção <strong> Alvo: </strong> Se a folha é usada para uma secção de curso, esta opção indica que a secção
+        será o seleccionado. Se uma seção é selecionada, uma URL externa não pode ser selecionado para que direcionam o
+        link da opção no menu.
+    </Li>
+    <li><strong> URL: </strong> indica um URL para o qual fará referência à opção de menu. É só podem ser especified se
+        uma secção alvo não foi seleccionada.
+    </Li>
+    <li> alvo ligação <strong>: </strong> Indica se você deseja abrir o link, a seção ou a URL externa, em uma nova
+        janela ou na mesma janela. Se uma opção não for selecionada, o link será aberto na mesma janela.
+    </Li>
+</Ul>
+<p> As mudanças realizadas no menu são armazenadas somente para selecionar o <strong> opção "Salvar
+        alterações" </strong> na parte inferior da página. </p>';
 $string['url_sheet_sheetedit'] = 'URL';

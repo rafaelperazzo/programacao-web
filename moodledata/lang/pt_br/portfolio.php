@@ -99,13 +99,9 @@ A lista de instâncias do plugin de portfólio que foram desabilitadas é:
 
 Isso precisa ser corrigido o mais cedo possível visitando {$a->fixurl}.';
 $string['insanebodyhtml'] = '<p>Olá! Você está recebendo esta mensagem com um adminsistrador do {$a->sitename}.</p>
-
 <p>Algumas instâncias do plugin de portfólio foram automaticamente desabitadas por conta de problemas de configuração. Isto significa que usuário estão impedidos de exportar corretamente o conteúdo de seus portfólios.</p>
-
 <p>A lista de instâncias do plugin de portfólio que foram desabilitadas é:</p>
-
-{$a->textlist}
-
+{$a->htmllist}
 <p>Isso precisa ser corrigido o mais cedo possível visitando <a href="{$a->fixurl}">a página de configuração do portifólio</a>.</p>';
 $string['insanebodysmall'] = 'Olá! Você está recebendo esta mensagem com um adminsistrador do {$a->sitename}. Algumas instâncias do plugin de portfólio foram automaticamente desabitadas por conta de problemas de configuração. Isso precisa ser corrigido o mais cedo possível visitando {$a->fixurl}.';
 $string['insanesubject'] = 'Algumas instâncias do portfólio automaticamente dasabilitadas';

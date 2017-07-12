@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['accesCAS'] = 'Usuários CAS';
 $string['accesNOCAS'] = 'outros usuários';
 $string['auth_cas_auth_user_create'] = 'Criar usuários externamente';
-$string['auth_cas_baseuri'] = 'URI do servidor (nada se não existir uma baseUri))<br />Por exemplo, se o servidor responde a um endereço como host.domaine.fr/CAS/ então<br />cas_baseuri = CAS/';
+$string['auth_cas_baseuri'] = 'URI do servidor (nada se não existir uma baseUri)<br/>Por exemplo, se o servidor responde a um endereço como host.domaine.fr/CAS/ então<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'Base URI';
 $string['auth_cas_broken_password'] = 'Você não pode prosseguir sem alterar sua senha, contudo não existe nenhuma página disponível para alterá-la. Por favor, contate seu administrador do Moodle.';
 $string['auth_cas_cantconnect'] = 'A parte LDAP do CAS-module não pode conectar ao servidor: {$a}';

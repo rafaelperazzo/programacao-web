@@ -32,7 +32,14 @@ $string['cohortnonmemberinfo'] = 'Apenas os membros do coorte \'{$a}\' podem se 
 $string['cohortonly'] = 'Apenas membros do coorte';
 $string['cohortonly_help'] = 'Auto-inscrição pode ser restrito a membros de um grupo especificado somente. Note que a alteração dessa configuração não tem efeito sobre as inscrições existentes.';
 $string['customwelcomemessage'] = 'Mensagem de boas vindas padrão';
-$string['customwelcomemessage_help'] = 'Uma mensagem de saudação personalizada pode ser adicionada como texto simples ou formato Moodle-auto, incluindo tags HTML e tags multi-idiomas';
+$string['customwelcomemessage_help'] = 'Uma mensagem de boas-vindas personalizada pode ser adicionada como texto simples ou formato Moodle-auto, incluindo tags HTML e tags multi-lang.
+
+Os seguintes espaços reservados podem ser incluídos na mensagem:
+
+* Nome do curso {$a->coursename}
+* Link para a página de perfil do usuário {$a->profileurl}
+* Email do usuário {$a->email}
+* Nome do usuário {$a->fullname}';
 $string['defaultrole'] = 'Atribuição de papel padrão';
 $string['defaultrole_desc'] = 'Selecione o papel que deve ser atribuído aos usuários durante a auto inscrição';
 $string['enrolenddate'] = 'Data final';
@@ -67,7 +74,7 @@ $string['keyholder'] = 'Você deve ter recebido esta chave de inscrição a part
 $string['longtimenosee'] = 'Cancelar inscrição de usuário inativo';
 $string['longtimenosee_help'] = 'Caso um usuário não tenha acessado um curso por um longo período de tempo, então eles terão sua inscrição automaticamente cancelada. Este parâmetro especifica o limite de tempo';
 $string['maxenrolled'] = 'Máximo de usuários inscritos';
-$string['maxenrolled_help'] = 'Especifica o número máximo de usuários que podem realizar  auto - inscrição. ) significa sem limite.';
+$string['maxenrolled_help'] = 'Especifica o número máximo de usuários que podem realizar  auto - inscrição. 0 significa sem limite.';
 $string['maxenrolledreached'] = 'Número máximo de usuários com permissão para auto-inscrição já foi alcançado.';
 $string['messageprovider:expiry_notification'] = 'Notificações de expira';
 $string['newenrols'] = 'Permitir novas inscrições';

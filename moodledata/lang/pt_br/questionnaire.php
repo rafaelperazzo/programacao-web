@@ -53,7 +53,7 @@ $string['averagerank'] = 'Médias';
 $string['bodytext'] = 'Texto do corpo';
 $string['boxesnbexact'] = 'exatamente {$a} opção(ões).';
 $string['boxesnbmax'] = 'no máximo {$a} opção(ões).';
-$string['boxesnbmin'] = 'no mínimo {$a} opção(ões)).';
+$string['boxesnbmin'] = 'no mínimo {$a} opção(ões).';
 $string['boxesnbreq'] = 'Para esta questão você deve marcar';
 $string['by'] = 'por';
 $string['cannotviewpublicresponses'] = 'Você não pode ver respostas desta enquete pública.';
@@ -166,7 +166,7 @@ $string['feedbacknotes_help'] = 'O texto inserido aqui será apresentado aos res
 $string['feedbackoptions'] = 'Opções de feedback';
 $string['feedbackoptions_help'] = 'Opções de feedback estão disponíveis se o seu questionário contém os seguintes tipos de perguntas e configurações pergunta:
 Botões de rádio; Menu Dropdown ou Rate. Estas questões devem ser definidos como obrigatórios, o campo Nome da Questão não deve estar vazio e as escolhas possíveis respostas devem conter um valor.';
-$string['feedbackremovequestionfromsection'] = 'Esta questão faz parte de uma seção de feedback';
+$string['feedbackremovequestionfromsection'] = 'Esta questão faz parte de uma seção de comentários [{$a}]';
 $string['feedbackremovesection'] = 'Remover esta questão irá remover completamente a seção de feedback [{$a}]';
 $string['feedbackreport'] = 'Relatório de Feedback';
 $string['feedbackscore'] = 'Pontuação de feedback';

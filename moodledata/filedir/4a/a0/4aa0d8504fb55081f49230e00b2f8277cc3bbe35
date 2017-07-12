@@ -1,0 +1,108 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#EXEMPLO
+#ENTRADA
+Q = 5
+B = 20
+n = 0.03
+S = 0.0002
+print 'A vazão do canal é de %.1f m³/s' %Q
+
+#PROCESSAMENTO
+#INTERVALO INICIAL
+Hzero = (((Q*n)/B)**(3/5))/(S**(3/10))
+print 'A estimativa inicial da profundidade específica atingida pelo canal é %.4f m' %Hzero
+#ESTIMATIVAS INICIAIS
+Ha = Hzero
+Hi = 10
+#VALORES DA FUNÇÃO NOS PONTOS Ha e Hi
+fHi = (((S)**(1/2))/n)*(((B*Hi)**(5/3))/((B+(2*Hi))**(2/3))) - Q
+fHa = (((S)**(1/2))/n)*(((B*Ha)**(5/3))/((B+(2*Ha))**(2/3))) - Q
+#CÁLCULO DAS ESTIMATIVAS PARA A PROFUNDIDADE ESPECÍFICA DO CANAL
+Hf = Hi - (((fHi)*(Ha-Hi))/(fHa-fHi))
+#ERRO
+erro = abs(Hf-Hi)
+if erro > 0.001:
+    Ha = Hi
+    Hi = Hf
+else: 
+    U = Q/(B*Hf)
+    print ('A profundidade específica H atingida pelo canal para uma vazão Q de %.1f m³/s é de %.4f m' %(Q,Hf))
+    print ('A velocidade U específica da água para uma vazão Q de %.1f m³/s é de %.3f m/s' %(Q,U))
+#ITERAÇÕES
+i = 0
+while erro > 0.001:
+    #VALORES DA FUNÇÃO DE PROFUNDIDADE ESPECÍFICA NO CANAL NOS PONTOS Ha e Hi
+    fHi = (((S)**(1/2))/n)*(((B*Hi)**(5/3))/((B+(2*Hi))**(2/3))) - Q
+    fHa = (((S)**(1/2))/n)*(((B*Ha)**(5/3))/((B+(2*Ha))**(2/3))) - Q
+    #CÁLCULO DAS ESTIMATIVAS PARA A PROFUNDIDADE ESPECÍFICA DO CANAL
+    Hf = Hi - (((fHi)*(Ha-Hi))/(fHa-fHi))
+    #ERRO
+    erro = abs(Hf-Hi)
+    #NÚMERO DE ITERAÇÕES
+    i = i + 1 
+    if erro > 0.001:
+        Ha = Hi
+        Hi = Hf
+    else:
+        #CÁLCULO DA VELOCIDADE
+        U = Q/(B*Hf)
+        #SAÍDA
+        print ('A profundidade específica H atingida pelo canal para uma vazão Q de %.1f m³/s é de %.4f m' %(Q,Hf))
+        print ('A velocidade específica U da água para uma vazão Q de %.1f m³/s é de %.3f m/s' %(Q,U))
+        print ('%d iterações foram necessárias para calcular a profunidade e a velocidade com uma tolerância de 0.001' %i)
+
+#SOFTWARE PRINCIPAL        
+#ENTRADA
+Q = input ('Digite a vazão do canal em m³/s: ')
+print 'Os valores de entradas digitados a seguir são parâmetros do canal'
+B = input ('Digite a largura do canal em m: ')
+n = input ('Digite o coeficiente de rugosidade de Manning para o canal: ')
+S = input ('Digite a inclinação do canal em queda por metros por metro de comprimento: ')
+
+#PROCESSAMENTO
+#INTERVALO INICIAL
+Hzero = (((Q*n)/B)**(3/5))/(S**(3/10))
+print 'A estimativa inicial da profunidade específica atingida pelo canal é %.4f m' %Hzero
+#ESTIMATIVAS INICIAIS
+Ha = Hzero
+Hi = 10
+#VALORES DA FUNÇÃO DE PROFUNDIDADE ESPECÍFICA NO CANAL NOS PONTOS Ha e Hi
+fHi = (((S)**(1/2))/n)*(((B*Hi)**(5/3))/((B+(2*Hi))**(2/3))) - Q
+fHa = (((S)**(1/2))/n)*(((B*Ha)**(5/3))/((B+(2*Ha))**(2/3))) - Q
+#CÁLCULO DAS ESTIMATIVAS PARA A PROFUNDIDADE ESPECÍFICA DO CANAL
+Hf = Hi - (((fHi)*(Ha-Hi))/(fHa-fHi))
+#ERRO
+erro = abs(Hf-Hi)
+if erro > 0.001:
+    Ha = Hi
+    Hi = Hf
+else:
+    #CÁLCULO DA VELOCIDADE
+    U = Q/(B*Hf)
+    #SAÍDA
+    print ('A profundidade específica H atingida pelo canal para uma vazão Q de %.1f m³/s é de %.4f m' %(Q,Hf))
+    print ('A velocidade específica U da água para uma vazão Q de %.1f m³/s é de %.3f m/s' %(Q,U))
+#ITERAÇÕES
+i = 0
+while erro > 0.001:
+    #VALORES DA FUNÇÃO DE PROFUNDIDADE ESPECÍFICA NO CANAL NOS PONTOS Ha e Hi
+    fHi = (((S)**(1/2))/n)*(((B*Hi)**(5/3))/((B+(2*Hi))**(2/3))) - Q
+    fHa = (((S)**(1/2))/n)*(((B*Ha)**(5/3))/((B+(2*Ha))**(2/3))) - Q
+    #CÁLCULO DAS ESTIMATIVAS PARA A PROFUNDIDADE ESPECÍFICA DO CANAL
+    Hf = Hi - (((fHi)*(Ha-Hi))/(fHa-fHi))
+    #ERRO
+    erro = abs(Hf-Hi)
+    #NÚMERO DE ITERAÇÕES
+    i = i + 1 
+    if erro > 0.001:
+        Ha = Hi
+        Hi = Hf
+    else:
+        #CÁLCULO DA VELOCIDADE
+        U = Q/(B*Hf)
+        #SAÍDA
+        print ('A profundidade específica H atingida pelo canal para uma vazão Q de %.1f m³/s é de %.4f m' %(Q,Hf))
+        print ('A velocidade específica U da água para uma vazão Q de %.1f m³/s é de %.3f m/s' %(Q,U))
+        print ('%d iterações foram necessárias para calcular a profunidade e a velocidade com uma tolerância de 0.001' %i)

@@ -151,7 +151,7 @@ pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:
 
 <p>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></p>
 
-<p>usando o organizador intitulado "<em>{$a->module}</em>" no website: <a href="{$a->site_url}">{$a->site}</a>.</p>';
+<p>usando o organizador intitulado "<em><a href="{$a->scheduler_url}">{$a->module}</a></em>" no site: <a href="{$a->site_url}">{$a->site}</a>.</p>';
 $string['email_applied_plain'] = 'Um compromisso foi aplicado em {$a->date} às {$a->time},
 pelo aluno {$a->attendee} para o curso:
 
@@ -164,7 +164,7 @@ com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> par
 
 <p><strong>{$a->course_short} : <a href="{$a->course_url}">{$a->course}</a></strong></p>
 
-<p>no organizador intitulado "<em>{$a->module}</em>" no website : <strong><a href="{$a->site_url}">{$a->site}</a></strong></p>
+<p>no organizador intitulado "<em><a href="{$a->scheduler_url}">{$a->module}</a></em>" no site : <strong><a href="{$a->site_url}">{$a->site}</a></strong></p>
 
 <p><strong><span class="error">foi cancelado ou removido</span></strong>.</p>';
 $string['email_cancelled_plain'] = 'Seu compromisso em  {$a->date} às {$a->time},
@@ -198,7 +198,7 @@ com o {$a->staffrole} <strong><a href="{$a->attendant_url}">{$a->attendant}</a><
 
 <p><strong>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></strong></p>
 
-<p>no organizador "<em>{$a->module}</em>" no website: <strong><a href="{$a->site_url}">{$a->site}</a></strong></p>
+<p>no organizador "<em><a href="{$a->scheduler_url}">{$a->module}</a></em>" no site: <strong><a href="{$a->site_url}">{$a->site}</a></strong></p>
 
 <p><strong><span class="error">foi cancelado</span></strong>. Por favor, solicite por um novo slot.</p>';
 $string['email_teachercancelled_plain'] = 'Seu compromisso em {$a->date} às {$a->time},
@@ -258,7 +258,7 @@ $string['fileformat_help'] = 'Os seguintes formatos de arquivo são disponíveis
           <li>Documentos PDF. Você pode escolher a orientação entre paisagem e retrato.</li>
      </ul>';
 $string['finalgrade'] = 'Nota final';
-$string['firstslotavailable'] = 'O primeiro slot não será aberto: {$}';
+$string['firstslotavailable'] = 'O primeiro slot não será aberto: {$a}';
 $string['forbidgroup'] = 'Slot de grupo - clique para alterar';
 $string['forcewhenoverlap'] = 'Forçar quando coincidir';
 $string['forcewhenoverlap_help'] = '<h3>Forçar criação de slot quando slots coincidirem</h3>

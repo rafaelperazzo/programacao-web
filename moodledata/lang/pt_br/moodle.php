@@ -1493,7 +1493,7 @@ $string['removecreator'] = 'Remover criador de curso';
 $string['removestudent'] = 'Remover participante';
 $string['removeteacher'] = 'Remover professor';
 $string['rename'] = 'Renomear';
-$string['renamefileto'] = 'Necessário';
+$string['renamefileto'] = 'Renomear <b>{$a}</b> para';
 $string['report'] = 'Relatório';
 $string['reports'] = 'Relatórios';
 $string['repositories'] = 'Repositórios';
@@ -1675,7 +1675,7 @@ $string['shortnamecourse_help'] = '<P>Muitas instituições adotam um nome breve
    BP102 ou COMMS.  Se o seu curso não corresponde a um nome breve real, crie um. Este
    nome breve será usado em alguns lugares onde a utilização do nome completo não é apropriada
    (por exemplo: na descrição do assunto das mensagens de email).</P>';
-$string['shortnametaken'] = 'Este nome breve já é usado por um outro curso';
+$string['shortnametaken'] = 'Este nome breve já é usado no curso ({$a})';
 $string['shortnameuser'] = 'Nome breve do usuário';
 $string['shortsitename'] = 'Nome breve do site';
 $string['show'] = 'Mostrar';
@@ -1905,7 +1905,7 @@ $string['uploadedfiletoobig'] = 'Sinto muito, este arquivo é grande demais, o l
 $string['uploadextension'] = 'Envio de arquivo bloqueado por uma extensão PHP';
 $string['uploadfailednotrecovering'] = 'O seu envio de arquivo ao servidor não foi possível por causa de um problema com um dos arquivos: {$a->name}.<br />Este é o log do problema::<br />{$a->problem}<br />Sem recuperação.';
 $string['uploadfilelog'] = 'Relatório de envio do arquivo: {$a}';
-$string['uploadformlimit'] = 'O tamanho do arquivo é superior ao limite autorizado neste formulário';
+$string['uploadformlimit'] = 'O tamanho do arquivo {$a} é superior ao limite autorizado neste formulário';
 $string['uploadlabel'] = 'Título:';
 $string['uploadlimitwithsize'] = '{$a->contextname} limite de upload ({$a->displaysize})';
 $string['uploadnewfile'] = 'Enviar um novo arquivo';

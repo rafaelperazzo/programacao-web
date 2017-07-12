@@ -29,7 +29,8 @@ $string['pluginname'] = 'Spam cleaner';
 $string['spamauto'] = 'Detectar patterns comuns de spam';
 $string['spamcannotdelete'] = 'Não é possível excluir este usuário';
 $string['spamcannotfinduser'] = 'Nenhum usuário encontrado';
-$string['spamcleanerintro'] = 'Este script permite a busca em todos os perfis de usuários e excluir as contas criadas por spammers. É possível utilizar diversas palavras separadas por vírgulas)<br /><br />Moodle docs<a href="http://docs.moodle.org/en/Reducing_spam_in_Moodle">Reduzir o spam en Moodle</a>.';
+$string['spamcleanerintro'] = '<p>Este script permite que você  busque em todos os perfis de usuários por um certo texto e então exclua as contas criadas por spammers. Você pode buscar por palavras separadas por vírgulas, por exemplo: cassino, pornô.</p>
+<p>Para mais informação veja a documentação em <a href="http://docs.moodle.org/en/Reducing_spam_in_Moodle">Reduzindo o spam no Moodle</a>.</p>';
 $string['spamdeleteall'] = 'Cancelar todas estas contas de usuários';
 $string['spamdeleteallconfirm'] = 'Tem certeza que quer excluir estes itens? Isto não é reversivel.';
 $string['spamdeleteconfirm'] = 'Tem certeza que quer excluir este item? Isto não é reversivel.';

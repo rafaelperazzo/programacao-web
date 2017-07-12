@@ -1,0 +1,91 @@
+from __future__ import division
+import math
+
+#A entrada do usuario sera a quantidade de experimentos, por ele feitos.
+n=input('Digite o numero de experimentos: ')
+logD=[]
+logS=[]
+logE=[]
+
+#Converte os valores de metros para pes, caso necessario.
+Resposta1=input('Caso os valores precisem ser convertidos de metros pra pes digite 1, se nao digite 2: ')
+while Resposta1!=1 and Resposta1!=2:
+    Resposta1=input('Por favor, digite apenas 1 ou 2 de acordo com sua necessidade: ')
+if Resposta1==1:
+    for i in range (0,n):
+        D=input('Digite o valor do diametro em metros: ')
+        S=input('Digite o valor da inclinacao em metros/metro: ')
+        E=input('Digite o valor do escoamento em metros ao cubo/s: ')
+        logD.append(math.log10(D/0.3048))
+        logS.append(math.log10(S/0.3048))
+        logE.append(math.log10(E/0.3048))
+        
+#Em seguida ele fornecera o Diametro, a inclinacao e escoamente de cada experimento.
+#Os valores serao convertidos em Logaritomos, para condizer com a equacao.
+#A equacao de saida e do tipo Q=a0*(D**a1)*(S**a2).
+if Resposta1==2:
+    for i in range (0,n):
+        D=input('Digite o valor do diametro em pes: ')
+        S=input('Digite o valor da inclinacao em pes/pe: ')
+        E=input('Digite o valor do escoamento em pes ao cubo/s: ')
+        logD.append(math.log10(D))
+        logS.append(math.log10(S))
+        logE.append(math.log10(E))
+DxS=0
+DxE=0
+SxE=0
+SxS=0
+DxD=0
+somaD=sum(logD)
+somaS=sum(logS)
+somaE=sum(logE)
+for i in range (0,n):
+    DxS=DxS+(logD[i]*logS[i])
+    DxE=DxE+(logD[i]*logE[i])
+    SxE=SxE+(logS[i]*logE[i])
+    SxS=SxS+(logS[i]**2)
+    DxD=DxD+(logD[i]**2)
+    
+#A partir dessa etapa comeca a resulucao da matriz pelo metodo da eliminacao de Gauss.
+L1=[n,somaD,somaS,somaE]
+L2=[somaD,DxD,DxS,DxE]
+L3=[somaS,DxS,SxS,SxE]
+
+#Triangulacao da Matriz.
+pivo=L1[0]
+m21=L2[0]/pivo
+m31=L3[0]/pivo
+for i in range(0,4):
+    L2[i]=(L2[i]-(L1[i]*m21))
+    L3[i]=(L3[i]-(L1[i]*m31))
+pivo2=L2[1]
+m32=L3[1]/pivo2
+for i in range(1,4):
+    L3[i]=(L3[i]-(L2[i]*m32))
+
+#Retrosubstituicao
+a2=(round((L3[3]/L3[2]),3))
+a1=(round(((L2[3]-(L2[2]*a2))/L2[1]),3))
+loga0=(round(((L1[3]-(L1[2]*a2)-(L1[1]*a1))/L1[0]),3))
+
+
+#O a0 encontrado tem seu valor em log, logo o convertemos.
+a0=round((10**loga0),3)
+
+#Variaveis de entrada que caracterizam o tubo ao qual o usuario quer saber a escoamento.
+dm=input('Digite o valor desejado do diametro do tubo em pes: ')
+inc=input('Digite o valor desejado da inclinacao em pes/pe: ')
+
+#Escoamento encontrada.
+print ("A equacao geral para os dados dispostos e %.2f*(D**%.2f)*(S**%.2f)" %(a0,a1,a2))
+Q=round(a0,2)*(dm**round(a1,2))*(inc**round(a2,2))
+print ("O valor do escoamento num tubo com essas caracteristicas e %.3f pes**3/s" %Q)
+
+#A partir da equacao acima pode se calcular a perda de carga da tubulacao com a equacao de Hazen Williams.
+Resposta2=input('Caso queira saber a perda de carga na tubulacao digite 1, se nao digite qualquer outro numero: ')
+if Resposta2==1:
+    L=input('Digite o comprimento da tubulacao em pes: ')
+    hl=L*((Q/(a0*(D**a1)))**(1/a2))
+    print ('A perda de carga na tubulacao e de %.3f' %hl)
+    
+

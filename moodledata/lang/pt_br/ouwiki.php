@@ -266,52 +266,52 @@ $string['timeout_help'] = '<p>
 Se você selecionar um tempo limite, as pessoas de edição do wiki são permitidas apenas para editá-lo por um determinado tempo.
 O wiki bloqueia páginas, enquanto eles estão sendo editados (de modo que duas pessoas não podem editar a mesma página
 de uma só vez), para definir um tempo limite impede a wiki tornando bloqueado para os outros.
-</ p>
+</p>
 
-<h3> que os usuários vêem </ h3>
+<h3> que os usuários vêem </h3>
 
 <p>
 Quando tempo limite é ativado, os usuários ver uma contagem quando editar uma página. Se a contagem regressiva atinge
 zero, o seu navegador irá automaticamente salvar as alterações e parar de edição.
-</ p>
+</p>
 
-Usuários <h3> Sem JavaScript habilitado </ h3>
+Usuários <h3> Sem JavaScript habilitado </h3>
 
 <p>
 Esta opção não tem efeito sobre os usuários que não têm o Javascript habilitado ou que têm navegadores antigos.
 Um tempo limite de 15 minutos sempre se aplica a esses usuários. Quando editar uma página, ele exibe o tempo
 por que deve salvá-lo, se não o fizerem, eles poderiam perder seus trabalhos.
-</ p>
+</p>
 
-<h3> Por que você pode não precisar desta opção </ h3>
+<h3> Por que você pode não precisar desta opção </h3>
 
 <p>
 Mesmo quando esta opção estiver desligada, os bloqueios são automaticamente descartados nas seguintes situações após
 um usuário começou a editar uma página:
-</ p>
+</p>
 
 <ul>
-<li> sem salvar as alterações ou cancelamento, o usuário se move para uma página diferente. </ li>
-<li> O usuário fecha seu navegador. </ li>
-<li> falhas do computador do usuário. </ li>
-<li> O usuário perde a sua ligação à Internet. </ li>
-</ ul>
+<li> sem salvar as alterações ou cancelamento, o usuário se move para uma página diferente. </li>
+<li> O usuário fecha seu navegador. </li>
+<li> falhas do computador do usuário. </li>
+<li> O usuário perde a sua ligação à Internet. </li>
+</ul>
 
 <p>
 Nestas situações, o bloqueio é removido automaticamente depois de cerca de dois minutos.
-</ p>
+</p>
 
 <p>
 Além disso, os tutores e funcionários têm curso (por padrão) a capacidade de substituir qualquer bloqueio a qualquer momento.
-</ p>
+</p>
 
-<h3> que esta opção não faz </ h3>
+<h3> que esta opção não faz </h3>
 
 <p>
 Esta opção não parar de alguém segurando em uma página e impedindo que outros usuários editem-lo se
 eles são muito determinado. Eles poderiam editar uma página e esperar até o tempo limite está prestes a expirar antes
 salvar as alterações em seguida, muito rapidamente editá-lo novamente.
-</ p>';
+</p>';
 $string['timeout_none'] = 'Sem timeout';
 $string['tryagain'] = 'Tente novamente';
 $string['typeinpagename'] = 'Digite o nome da página aqui';

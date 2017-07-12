@@ -241,7 +241,7 @@ $string['invalidgradeforscale'] = 'A nota fornecida não é válida para a escal
 $string['lastmodifiedgrade'] = 'Última modificação (nota)';
 $string['lastmodifiedsubmission'] = 'Última modificação (envio)';
 $string['latesubmissions'] = 'Submissões atrasadas';
-$string['latesubmissionsaccepted'] = 'Somente estudante(s) contemplados com uma extensão ainda poderá(ão) enviar a tarefa';
+$string['latesubmissionsaccepted'] = 'Permitido até {$a}';
 $string['locksubmissionforstudent'] = 'Impedir envio para o estudante: (id={$a->id}, fullname={$a->fullname}).';
 $string['locksubmissions'] = 'Travar envios';
 $string['manageassignfeedbackplugins'] = 'Gerenciar plugins de feedback de tarefa';
@@ -369,7 +369,7 @@ $string['studentnotificationworkflowstateerror'] = 'A configuração do estado d
 $string['submission'] = 'Envio de tarefas';
 $string['submissioncopiedhtml'] = '<p>Você fez uma cópia do seu envio anterior \'<i>{$a->assignment}</i>\'.</p>
 <p>Você pode ver o status do seu <a href="{$a->url}">envio</a>.</p>';
-$string['submissioncopiedsmall'] = 'abs';
+$string['submissioncopiedsmall'] = 'Você copiou seu envio de tarefa anterior para {$a->assignment}';
 $string['submissioncopiedtext'] = 'Você fez uma cópia do seu envio anterior para \'{$a->assignment}\'
 
 Você pode ver o status de seu envio:

@@ -1,0 +1,144 @@
+from datetime import datetime
+
+'''    I - Função (calcula_valor_absoluto) - Esta função recebe um número real qualquer "x" e retorna o valor absoluto deste número.
+Ela opera da seguinta forma: se o número for negativo, ele é multiplicado por (-1), caso contrário, a função retorna o próprio número.    '''
+
+def calcula_valor_absoluto (x):
+    if x < 0:
+        x = x*(-1)
+        return x
+    else:
+        return x
+
+
+'''     II -  Função (calcula_pi) - Esta função recebe um número "digitos" de termos maior ou igual a 1 e menor ou igual a 2000
+e retorna uma aproximação do valor de pi através de um somatório de frações.
+  Variáveis usadas na função:
+     Fatores do denominador dos termos: "primeirofator", "segundofator" e "terceirofator".(É sabido que eles variam em duas unidades a cada repetição).
+     A variável "soma" recebe o valor inical 3, pois este é o termo inicial do somatório.
+     Foi usada a estrutura de repetição "for i in range" e dentro dela ficou determinado que para um "i" par,
+o termo da fórmula seria somado e para um "i" ímpar, o termo seria subtraído.
+      "pi": recebe o valor da soma final.    '''
+
+def calcula_pi (digitos):
+    primeirofator = 2
+    segundofator = 3
+    terceirofator = 4
+    soma = 3
+    for i in range (digitos):
+        if i % 2 == 0:
+            soma = soma + 4/(primeirofator*segundofator*terceirofator)
+        else:            
+            soma = soma - 4/(primeirofator*segundofator*terceirofator)
+        primeirofator = primeirofator + 2
+        segundofator = segundofator + 2
+        terceirofator = terceirofator + 2
+    pi=soma
+    return pi
+
+
+'''    III - Função (calcula_co_seno) - Esta função recebe dois números reais, "epsilon" e "z", e retorna uma aproximação da função cosseno.
+   Variáveis usadas na função:
+      Para calcular os fatoriais, foram usadas quatro variáveis: "primeirofator", "segundofator", "produtodosfatoriais" e "fatorialatual"(esta só aparece dentro
+da repetição). As variáveis "primeirofator" e "segundofator" recebem valor inicial respectivamente 2 e 1 e vão variando a cada repetição em duas unidades.
+Já a variável "produtodosfatoriais" começa com o valor 1 e é multiplicada a cada repetição por a variável "fatorialatual", esta que por sua vez é o
+produto das variáveis "primeirofator" e "segundofator". Exemplo: Na primeira execução, a "fatorialatual" é igual a 2*1 e assim a "produtodosfatoriais"
+será igual a 1*(2*1)=2, quando a execução for repetida, a variável "fatorialatual" será 4*3 e portanto a "produtodosfatoriais" será igual a 2*(4*3)=24
+e assim sucessivamente.
+    Outras variáveis:
+       "expoente": varia em duas unidades a cada repetição.
+       "soma" começa em 1, pois este é o valor do primeiro termo da soma.
+       "termo" começa em 2 e varia em uma unidade. Se este for par, o termo será subtraído, caso seja ímpar, será somado.
+Obs: Na repetição, fizemos((z**expoente)/produtodosfatoriais > 0) para que pudesse ser iniciada outra repetição e as variáveis (fatorialatual) e (produtosdosfatoriais)
+fossem atualizadas. Só depois disso, é que o programa faz a comparação entre ((z**expoente)/produtodosfatoriais) e (epsilone) para  decidir se deve ou não continuar
+a executar a repetição. Usamos o comando "break" para que se o valor de((z**expoente)/produtodosfatoriais) for menor do que (epsilone), a repetição pare.
+'''
+
+def calcula_co_seno (z, epsilon):
+    primeirofator = 2
+    segundofator = 1
+    produtodosfatoriais = 1
+    soma = 1
+    expoente = 2
+    termo = 2
+    while (z**expoente)/produtodosfatoriais > 0:
+        fatorialatual = primeirofator*segundofator
+        produtodosfatoriais = produtodosfatoriais*fatorialatual
+        if (z**expoente)/produtodosfatoriais < epsilon:
+            break
+        if termo % 2 == 0:
+            soma = soma - (z**expoente)/produtodosfatoriais
+        else:
+            soma = soma + (z**expoente)/produtodosfatoriais  
+        termo = termo + 1
+        primeirofator = primeirofator + 2
+        segundofator = segundofator + 2
+        expoente = expoente + 2
+    cosseno = soma
+    return cosseno
+
+
+'''   IV - Função(calcula_razao_aurea) - Esta função recebe um número real "m". Alem disso, ela chama a função calcula_co_seno e retorna uma aproximação
+para a razão áurea.
+OBS: É sabido que o parâmetro "m" precisa receber o valor de pi sobre cinco(pi/5).
+Na sessão VIII, sera explicitado que o valor do cosseno de (pi/5) será armazenado em uma variável.   '''
+
+def calcula_razao_aurea (m):
+    razaoaurea = 2*(m)
+    return razaoaurea
+
+
+'''   V - Esta parte do código tem a finalidade de escolher e mostrar um cumprimento adequado ao usuário baseando-se no horário
+do computador onde o programa está sendo executado. (Usamos o módulo "datetime").   '''
+
+now=datetime.now()
+if now.hour >= 12 and now.hour <= 17:
+    print ('                      Boa tarde, amigo(a)!')
+    print (                                            )
+elif now.hour >= 18 and now.hour <= 23:
+    print ('                      Boa noite, amigo(a)!')
+    print(                                             )
+elif now.hour >= 0 and now.hour <= 11:
+    print ('                      Bom dia, amigo(a)!')
+    print (                                            )
+
+
+'''    VI - Esta parte do código fará com que o programa pergunte o nome do usuário e mostre uma frase de saudação contendo o respectivo nome digitado.    '''
+
+nomedousuario = input ('Como você se chama? ')
+print ('**********************************************************') 
+print ('Olá, '+nomedousuario+'!'' Este programa calculará uma aproximação para o valor de pi e para a razão áurea. ')
+print ('Para isso, você precisa nos informar dois valores.')
+
+
+'''   VII - Esta é a segunda parte da interação com o usário, onde são pedidos dois valores que serão armazenados nas variáveis "termos" e "epsilon".
+Obs: Na tela do usuário, serão mostradas várias cerquilhas que foram colocadas por questões estéticas.    ''' 
+
+print ('**********************************************************')
+termos = int(input('Por favor, digite o número de termos da fórmula pi: '))
+epsilon = float(input('Agora digite o epsilon: '))
+print ('                    ****************************')
+
+
+'''   VIII - Nesta parte, são chamadas as funções criadas com os valores que foram digitados pelo usuário, a cada uma delas é atribuída uma variável.
+Obs: a variável "pisobrecinco" recebe o valor de (pi/5). Assim,calculamos o cosseno dela diretamente.
+E a variável "cosseno_PiSobreCinco" recebe o valor do cosseno de (pi/5).    '''
+
+pi = calcula_pi (termos)
+modulodepi = calcula_valor_absoluto (pi)
+PiSobreCinco = modulodepi/5
+cosseno_PiSobreCinco = calcula_co_seno (PiSobreCinco,epsilon)
+razao = calcula_razao_aurea (cosseno_PiSobreCinco)
+
+
+'''   IX - Nesta parte, serão mostrados os valores calculados e no final uma mensagem de despedida.
+Obs: Na tela do usuário, serão mostradas várias cerquilhas que foram colocadas por questões estéticas.    '''
+
+print (                                            )
+
+print ('O valor aproximado de pi é: %.15f'%modulodepi)
+print ('O valor aproximado da razão áurea é: %.15f'%razao)
+print (                                            ) 
+print ('                    ****************************')
+print ('Esperamos ter ajudado! Bons estudos, até mais.')
+

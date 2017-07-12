@@ -51,9 +51,9 @@ $string['modifiedno'] = 'Não há strings modificadas para salvar.';
 $string['modifiednum'] = 'Há {$a} strings modificadas. Você deseja salvar essas alterações no pacote de idioma local?';
 $string['nostringsfound'] = 'Nenhuma string encontrada, por favor altere as configurações de filtragem';
 $string['placeholder'] = 'Placeholders';
-$string['placeholder_help'] = 'Placeholders são declarações como `{$a}` or `{$a->algumacoisa}` dentro das strings. Estes são substituidos por valores quando a string é impressa.
+$string['placeholder_help'] = 'Placeholders são declarações como `{$a}` ou `{$a->algumacoisa}` dentro das strings. Estes são substituidos por valores quando a string é impressa.
 
-É importante copiá-los exatamente como na string original. Não os traduza ou modifique sua orientação left-to-right';
+É importante copiá-los exatamente como na string original. Não os traduza nem altere a orientação da esquerda para a direita.';
 $string['placeholderwarning'] = 'string contém um placehoder';
 $string['pluginname'] = 'Personalização de idioma';
 $string['savecheckin'] = 'Salvar alterações no pacote de idioma';

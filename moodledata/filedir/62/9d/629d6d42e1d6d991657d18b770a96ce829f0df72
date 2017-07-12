@@ -1,0 +1,36 @@
+//Trabalho 2
+//Disciplina: Calculo numerico Aplicado a Engenharia Civil
+//Professor: Rafael Perazzo
+//Equipe: Paloma Morais, Rafaelly Peixoto, Rayanne Bezerra e Ruan Carlos.
+
+//PROPOSTA:Determinar a tensao admissivel de uma camada de solo intermediaria baseado nos resultados obtidos no ensaio de SPT. Usado para casos onde se aplica as fundacoes rasas, como por exemplo, as sapatas. Por se tratar de camadas de solos diferentes, pode apresentar um resultado nao muito preciso, apesar de levar em conta, para os calculos das tensoes admissiceis, todos os Nspt obtidos no ensaio.
+
+//PASSO 01: Inserir em forma de vetor as profundidades relacionadas as tensoes dadas no vetor x
+
+x = [1,4,6]// Profundidade em metros 
+
+//PASSO 02: Inserir em forma de vetor os dados da tensao do solo obtida no ensaio SPT
+
+y = [0.2,0.54,0.56] // Tensao admissivel do solo em Kgf/cm^2
+
+//PASSO 03: Plotagem do grafico Tensao do solo x Profundidade
+
+plot(x,y);
+xtitle('TENSAO ADMISSIVEL DO SOLO VS PROFUNDIDADE','Profundidade (m)','Tensao admissivel do solo (Kgf/cm^2)',"")
+
+//PASSO 04: Aplicar o metodo de Lagrange para determinar a resistencia do solo em uma camada intermedaria as camadas apresentadas em questao
+
+p = input ("digite o valor pluviometrico p:")
+function s = lag(x,y,p)
+    n = length (x)
+    s = 0
+    for i = 1:n
+        L = 1
+        for j = 1:n
+            if j <> i
+                L = L*(p - x(j))/(x(i)- x(j)) 
+            end  
+        end
+               s = s + y(i)*L 
+end    
+endfunction

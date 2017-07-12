@@ -29,38 +29,38 @@ $string['choosereadme'] = '<div class="clearfix">
 
 <div class="theme_screenshot">
 
-<h2 style="padding-top:0.5em;"> tijolo </ h2>
+<h2 style="padding-top:0.5em;"> tijolo </h2>
 <img src="brick/pix/screenshot.png" />
 
-Fórum de Discussão <h3> Tema: </ h3>
-<p> href="http://moodle.org/mod/forum/view.php?id=46"> http://moodle.org/mod/forum/view.php?id=46 </ a> </ p>
+Fórum de Discussão <h3> Tema: </h3>
+<p> href="http://moodle.org/mod/forum/view.php?id=46"> http://moodle.org/mod/forum/view.php?id=46 </a> </p>
 
-<h3> Documentação Tema: </ h3>
-<p> href="http://docs.moodle.org/en/Themes"> http://docs.moodle.org/en/Themes </ a> </ p>
+<h3> Documentação Tema: </h3>
+<p> href="http://docs.moodle.org/en/Themes"> http://docs.moodle.org/en/Themes </a> </p>
 
-Créditos <h3> tema </ h3>
-<p> href="http://docs.moodle.org/en/Theme_credits"> http://docs.moodle.org/en/Theme_credits </ a> </ p>
+Créditos <h3> tema </h3>
+<p> href="http://docs.moodle.org/en/Theme_credits"> http://docs.moodle.org/en/Theme_credits </a> </p>
 
-<h3> Relatar um bug: </ h3>
-<p> href="http://tracker.moodle.org"> http://tracker.moodle.org </ a> </ p>
+<h3> Relatar um bug: </h3>
+<p> href="http://tracker.moodle.org"> http://tracker.moodle.org </a> </p>
 
-</ div>
+</div>
 <div class="theme_description">
 
-Sobre <h2> </ h2>
-Tijolo <p> é uma de duas colunas, o tema do fluido de largura para Moodle 2.0. Você pode alterar o esquema de cor do tema através da página de configurações tema. </ P>
+Sobre <h2> </h2>
+Tijolo <p> é uma de duas colunas, o tema do fluido de largura para Moodle 2.0. Você pode alterar o esquema de cor do tema através da página de configurações tema. </P>
 
-<h2> Tweaks </ h2>
-tema <p> Este é construída sobre ambos Base e Canvas, dois temas de pais incluídos no núcleo do Moodle. Se você deseja modificar aspectos desse tema além das configurações oferecidas, aconselhamos a criação de um novo tema que usa este tema, Base, Canvas e todos como pais. Isso irá garantir atualizações a qualquer desses temas no núcleo vai encontrar seu caminho para o seu novo tema. </ P>
+<h2> Tweaks </h2>
+tema <p> Este é construída sobre ambos Base e Canvas, dois temas de pais incluídos no núcleo do Moodle. Se você deseja modificar aspectos desse tema além das configurações oferecidas, aconselhamos a criação de um novo tema que usa este tema, Base, Canvas e todos como pais. Isso irá garantir atualizações a qualquer desses temas no núcleo vai encontrar seu caminho para o seu novo tema. </P>
 
-<h2> Créditos </ h2>
-tema <p> Este foi codificado e é mantido por John Stabinger de Aprendizagem NewSchool. Ele pode ser contatado pelo e-mail contact@newschoollearning.com. </ p>
+<h2> Créditos </h2>
+tema <p> Este foi codificado e é mantido por John Stabinger de Aprendizagem NewSchool. Ele pode ser contatado pelo e-mail contact@newschoollearning.com. </p>
 
-<h2> Licença </ h2>
-<p> Este, e todos os outros temas incluídos no núcleo do Moodle, estão licenciadas sob a <a href="http://www.gnu.org/licenses/gpl.html"> GNU General Public License </ a>. </ p>
+<h2> Licença </h2>
+<p> Este, e todos os outros temas incluídos no núcleo do Moodle, estão licenciadas sob a <a href="http://www.gnu.org/licenses/gpl.html"> GNU General Public License </a>. </p>
 
-</ div>
-</ div>';
+</div>
+</div>';
 $string['configtitle'] = 'Configurações de tijolo';
 $string['headingcolor'] = 'headingcolor';
 $string['headingcolordesc'] = 'Esta é a cor indo para grandes rubricas (notícias do site, meus cursos) e outras rubricas.';

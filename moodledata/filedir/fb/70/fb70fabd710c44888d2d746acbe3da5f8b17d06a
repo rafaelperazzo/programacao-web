@@ -1,0 +1,129 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+# importação da interface
+from PyQt4.QtGui import *
+import sys
+from FEMVC import *
+import math
+
+# função para o botão "Calcular"
+def bntCalcularClick(self):
+    limitesuperior=int(ui.Hmastro.text())
+    limiteinferior=0
+    amplitude=(limitesuperior-limiteinferior)
+    segmentos=int(ui.Smastro.text())
+    intervalo=amplitude/segmentos
+    
+    zi=[]
+    fzi=[]
+    c=[]
+    c2=[]
+    cfzi=[]
+    listad=[]
+    c2fzi=[]
+    listad2=[]
+    listasimp=[]
+    listatrapd=[]
+    
+                        #CÁLCULO DA FORÇA RESULTANTE NO MASTRO
+    #Inserir valores em c
+    c.append(1)
+    for i in range(1,segmentos,1):
+        c.append(2)
+        if i==(segmentos-1):
+            c.append(1)
+
+    #Inserir valores em zi
+    valor=limiteinferior
+    for i in range(0,segmentos+1,1):
+        zi.append(valor)
+        valor=valor+intervalo
+    
+    #inserir valores em fzi
+    for i in range(0,segmentos+1,1):
+        vzi=zi[i]
+        f=200*(vzi/(5+vzi))*(1/(math.exp((2*vzi)/30)))
+        fzi.append(f)
+    
+    #Inserindo valores na listad para o cálculo da integral da fórmula da distância
+    for i in range(0,segmentos+1,1):
+        vzi2=zi[i]
+        f2=200*vzi2*(vzi2/(5+vzi2))*(1/(math.exp((2*vzi2)/30)))
+        listad.append(f2)
+    
+    #Calculo da distancia d Trapézio (coluna Ci*Listad)
+    for i in range(0,segmentos+1,1):
+        add4=c[i]*listad[i]
+        listatrapd.append(add4)
+        
+    
+    #Inserindo valores na coluna C2 do método de 1/3 Simpson 
+    c2.append(1)
+    for i in range(1,segmentos,1):
+        if i%2==0:
+            c2.append(2)
+        if i%2!=0:
+            c2.append(4)
+        if i==(segmentos-1):
+            c2.append(1)
+    
+    #Calculo da distancia d Simpson (coluna Ci*Listad)
+    for i in range(0,segmentos+1,1):
+        add2=c2[i]*listad[i]
+        c2fzi.append(add2)
+    
+    #Cálculo da Força Simpson (coluna Ci*fzi)
+    for i in range(0,segmentos+1,1):
+        add3=c2[i]*fzi[i]
+        listasimp.append(add3)
+    
+    #Cálculo da Força Trapézio (coluna Ci*fzi)
+    for i in range(0,segmentos+1,1):
+        add=c[i]*fzi[i]
+        cfzi.append(add)
+    
+    #Somatórios das colunas Ci*fzi
+    soma=sum(cfzi)
+    soma3=sum(c2fzi)
+    soma4=sum(listasimp)
+    soma5=sum(listatrapd)
+    
+    #cálculo da integral Metodo do Trapezio
+    Ft=soma*(intervalo/2)
+    #Calculo da distancia d Metodo Trapezio
+    resultado2=soma5*(0.5/2)
+    dt=resultado2/Ft
+    #Calculo da integral Metodo 1/3 Simpson
+    Fs=soma4*(intervalo/3)
+    #Calculo da distancia d Metodo 1/3 Simpson
+    resultado3=soma3*(0.5/3)
+    ds=resultado3/Fs
+    #Calculo da Reaçao V#
+    v1=(Ft*dt)/3
+    v2=(Fs*ds)/3
+    #Calculo da Tensão
+    ang=math.atan(3/30)
+    T1=v1/(math.cos(ang))
+    T2=v2/(math.cos(ang))
+    
+    #Resultados
+    ui.FmastroS.setText(str(Fs))
+    ui.FmastroT.setText(str(Ft))
+    ui.TcaboS.setText(str(T2))
+    ui.TcaboT.setText(str(T1))
+    
+# Iniciando a aplicação:
+app = QApplication(sys.argv)
+
+# Criando a janela principal:
+window = QtGui.QDialog()
+ui = Ui_Dialog()
+ui.setupUi(window)
+
+# ativando o botão "Calcular"
+ui.pushButton.clicked.connect(bntCalcularClick)
+
+# mostrar janela
+window.show()
+sys.exit(app.exec_())

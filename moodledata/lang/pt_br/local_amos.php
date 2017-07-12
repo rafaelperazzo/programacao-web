@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['about'] = '<p> AMOS significa Automated Manipulation Of Strings (Manipulação automática de Strings). AMOS é o repositório central de strings do Moodle e seu histórico. Ele controla a adição de strings em Inglês para o código do Moodle, reúne traduções, manipula tarefas de tradução mais comuns e gera pacotes de idiomas a serem instalados nos servidores do Moodle. </p> <p> Veja <a href="http://docs.moodle.org/en/AMOS"> documentação AMOS</a> para mais informações. </ p>';
+$string['about'] = '<p> AMOS significa Automated Manipulation Of Strings (Manipulação automática de Strings). AMOS é o repositório central de strings do Moodle e seu histórico. Ele controla a adição de strings em Inglês para o código do Moodle, reúne traduções, manipula tarefas de tradução mais comuns e gera pacotes de idiomas a serem instalados nos servidores do Moodle. </p> <p> Veja <a href="http://docs.moodle.org/en/AMOS"> documentação AMOS</a> para mais informações. </p>';
 $string['amos'] = 'AMOS - Ferramenta de tradução do Moodle';
 $string['amos:commit'] = 'Fazer o "commit" das strings do "stage" no repositório principal.';
 $string['amos:execute'] = 'Executa o AMOScript fornecido';

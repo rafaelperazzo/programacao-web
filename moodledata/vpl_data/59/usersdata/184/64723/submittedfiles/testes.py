@@ -1,0 +1,5 @@
+x=float(input('digite um número:'))
+y=float(input('digite um número:'))
+z=float(input('digite um número:'))
+mg=(x*y*z)**(1/3)
+print(mg)

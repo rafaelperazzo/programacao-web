@@ -1,0 +1,217 @@
+# -*- coding: utf-8 -*-
+"""
+EP2 - Cálculo Numérico
+Equipe 07: Ana Lídia Alencar Vasconcelos
+           Camila Lima de Sousa 
+           Emily Lobo Almeida
+           Gabriella Rosendo dos Santos
+Cálculo da Corrente Eficaz através de Integração Numérica
+Nessa aplicação temos o primeiro resultado referente a um exemplo aplicado nos dois métodos.
+Em seguida o usuário tem a opção de colocar os valores desejados em uma função de sua escolha.
+No exemplo foi usada a segunda opção de função deste trabalho
+"""
+from __future__ import division
+import math
+from sympy import *
+#Funções
+def f(funcao,x):
+    return (N(eval(funcao)))
+def f1(x,m,n,T):
+    a=((m*(math.exp((-x)/T)*(math.sin(n*(math.pi)*(x/T)))))**2)
+    return a
+def f2(x,m,n,T):
+    b=((m*(math.sin(n*(math.pi)*(x/T))))**2)
+    return b
+def f3(x,m,n,T):
+    c=((m*(math.sin((n*x)+T)))**2)
+    return c
+def trapezio(m,n,T,i,escolha):
+    print ('.')
+    print ('Resultados aplicando o método dos Trapézios')
+    print ('A tabela consta [i,x,f(x),Integral], sendo i o número da iteração, x do intervalo, f(x) é o valor de x aplicado na função da corrente e o valor da integral a cada iteração')
+    print ('.')
+    lista=[]
+    x=0
+    h= float ((T-0)/i)
+    if escolha==1:
+        g=f1(x,m,n,T) 
+    elif escolha==2:
+        g=f2(x,m,n,T) 
+    elif escolha==3:
+        g=f3(x,m,n,T) 
+    else:
+        print('Escolha inválida. As opções de funções são 1,2 ou 3')
+    ci=1
+    cy=ci*g
+    soma=cy
+    integral=(soma*h)/2
+    lista.append(0)
+    lista.append(x)
+    lista.append(g)
+    lista.append(integral)
+    print (lista)
+    for j in range (1,i,1):
+        lista1=[]
+        xi=x+h
+        c1=2
+        if escolha==1:
+            g1=f1(x,m,n,T)
+        if escolha==2:
+            g1=f2(x,m,n,T)
+        if escolha==3:
+            g1=f3(x,m,n,T)
+        cy1=c1*g1
+        soma=soma+cy1
+        integral1=(soma*h)/2
+        lista1.append(j)
+        lista1.append(xi)
+        lista1.append(g1)
+        lista1.append(integral1)
+        print (lista1)
+        x=xi
+    listai=[]
+    if escolha==1:
+        gi=f1(x+h,m,n,T)
+    if escolha==2:
+        gi=f2(x,m,n,T)
+    if escolha==3:
+        gi=f3(x,m,n,T)
+    cy=ci*gi
+    soma=soma+cy
+    integralF=(soma*h)/2
+    listai.append(i)
+    listai.append(x+h)
+    listai.append(gi)
+    listai.append(integralF)
+    print (listai)
+    print ('.')
+    print ('O resultado final da integral pelo método do Trapézio é', integralF)
+    print ('.')
+    x=symbols('x')
+    if escolha==1:
+        primitiva=str(integrate((m*(exp((-x/T))*(sin(n*(math.pi)*(x/T)))))**2))
+        valorReal=f(primitiva,T)-f(primitiva,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método de Trapézio e o valor real é', taxa)
+    if escolha==2:
+        primitiva1=str(integrate((m*sin((math.pi*n*x)/T))**2))
+        valorReal=f(primitiva1,T)-f(primitiva1,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método de Trapézio e o valor real é', taxa)
+    if escolha==3:
+        primitiva2=str(integrate((m*sin((n*x)+T))**2))
+        valorReal=f(primitiva2,T)-f(primitiva2,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método do Trapézio e o valor real é', taxa)
+    print('.')
+    #Corrente Eficaz
+    print('Logo o valor da corrente eficaz pelo método do Trapézio será:')
+    correnteEficaz=math.sqrt(integralF/T)
+    print (correnteEficaz)
+
+def simpson(m,n,T,i1,escolha):
+    print ('.')
+    print ('Resultados aplicando o método de Simpson')
+    print ('A tabela consta [i,x,f(x),Integral], sendo i o número da iteração, x do intervalo, f(x) é o valor de x aplicado na função da corrente e o valor da integral a cada iteração')
+    print ('.')
+    simpson=[]
+    x=0
+    h1=float ((T-0)/i1)
+    if escolha==1:
+        g1=f1(x,m,n,T)
+    elif escolha==2:
+        g1=f2(x,m,n,T)
+    elif escolha==3:
+        g1=f3(x,m,n,T)
+    else:
+        print ('Escolha inválida. As opções de funções são 1,2 ou 3')
+    ci=1
+    cy=ci*g1
+    soma=cy
+    integral=(soma*h1)/3
+    simpson.append(0)
+    simpson.append(x)
+    simpson.append(g1)
+    simpson.append(integral)
+    print (simpson)
+    xi=0
+    for j in range (1,i1,1):
+        if j%2!=0:
+            c=4
+        else:
+            c=2
+        if escolha==1:
+            g=f1(x,m,n,T)
+        if escolha==2:
+            g=f2(x,m,n,T)
+        if escolha==3:
+            g=f3(x,m,n,T)
+        simpson1=[]
+        xi=x+h1
+        cy1=c*g
+        soma=soma+cy1
+        integral1=(soma*h1)/3
+        simpson1.append(j)
+        simpson1.append(xi)
+        simpson1.append(g)
+        simpson1.append(integral1)
+        print (simpson1)
+        x=xi
+    Simpsoni=[]
+    if escolha==1:
+        gi=f1(x,m,n,T)
+    if escolha==2:
+        gi=f2(x,m,n,T)
+    if escolha==3:
+        gi=f3(x,m,n,T)
+    cy=ci*gi
+    soma=soma+cy
+    integralF=(soma*h1)/3
+    Simpsoni.append(i1)
+    Simpsoni.append(x+h1)
+    Simpsoni.append(gi)
+    Simpsoni.append(integralF)
+    print (Simpsoni)
+    print ('.')
+    print ('O resultado final da integral pelo método de Simpson é', integralF)
+    print ('.')
+    x=symbols('x')
+    if escolha==1:
+        primitiva=str(integrate((m*(exp((-x/T))*(sin(n*(math.pi)*(x/T)))))**2))
+        valorReal=f(primitiva,T)-f(primitiva,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método de Trapézio e o valor real é', taxa)
+    if escolha==2:
+        primitiva1=str(integrate((m*sin((math.pi*n*x)/T))**2))
+        valorReal=f(primitiva1,T)-f(primitiva1,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método de Trapézio e o valor real é', taxa)
+    if escolha==3:
+        primitiva2=str(integrate((m*sin((n*x)+T))**2))
+        valorReal=f(primitiva2,T)-f(primitiva2,0)
+        taxa=math.fabs(((valorReal-integralF)*100)/(valorReal))
+        print ('O valor do erro em porcentagem da integral calculada pelo método de Trapézio e o valor real é', taxa)
+    print ('.')
+    #Corrente Eficaz
+    print('Logo o valor da corrente eficaz pelo método de Simpson será:')
+    correnteEficaz=math.sqrt(integralF/T)
+    print (correnteEficaz)
+#Exemplo Aplicado
+print (trapezio(5,3,2,25,2))
+print (simpson(5,3,2,25,2))
+#Opção de dados de entrada
+print ('A partir do programa vamos calcular a integral de i²(t) componente do cálculo da corrente eficaz, por meio dos métodos numéricos de simpson e do trapézio de acordo com o número de iterações desejadas.Em seguida mostraremos o valor total da corrente eficaz.')
+print ('Escolha o tipo de função senoidal desejada onde a e b são coeficientes constantes, x é a variável em relação ao tempo e T é o periodo.')
+print ('1.(a*e(-x/T)*sen((2*π*x)/T))')
+print ('2.(a*sen(b*π*(x/T)))')
+print ('3.(a*sen(b*x*T))')
+escolha=float (input ('Escolha o número correspondente a sua função: '))
+m= float (input ('Escolha o número correspondente ao seu coeficiente a: '))
+n= float (input ('Escolha o número correspondente ao seu coeficiente b: ')) 
+T = float ( input ('Determine o período da corrente: '))
+i=int (input ('Determine o número de iterações para o método dos Trapézios: '))
+i1= int (input('Determine o número de iterações para o método de Simpsons:'))
+##
+print(trapezio(m,n,T,i,escolha))
+print(simpson(m,n,T,i1,escolha))
+      

@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['activitytime'] = 'Tempo em atividades:';
-$string['activitytime_help'] = '<p> Este cálculo de tempo considera todo o tempo de uso gasto nas atividades do curso, deixando os tempos de layout do curso fora do cálculo. Em certos casos (quando se usa o Learning Time Check (não padrão) com alocação de tempo padrão (http://github.com/vfremaux/moodle-mod_learningtimecheck.git), tempos padrões adicionais são usados em vez de tempos reais extraídos do log. </ p>';
+$string['activitytime_help'] = '<p> Este cálculo de tempo considera todo o tempo de uso gasto nas atividades do curso, deixando os tempos de layout do curso fora do cálculo. Em certos casos (quando se usa a Verificação de Tempo de Aprendizado (não padrão) com alocação de tempo padrão (http://github.com/vfremaux/moodle-mod_learningtimecheck.git), o tempo padrão adicional é usado em vez de tempos reais extraídos do log. </p>';
 $string['addmodulelabel'] = 'Adicionar módulo de atividade';
 $string['addmoduletitle'] = 'Adicione um módulo de atividade que deseja para adicionar nota no relatório';
 $string['advancement'] = 'Avanço';

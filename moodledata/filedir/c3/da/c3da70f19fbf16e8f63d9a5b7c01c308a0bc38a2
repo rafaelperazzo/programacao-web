@@ -1,0 +1,207 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+from sympy import *
+import sympy as sym
+
+
+def exemplo():
+    global x, f, a, b, n, x0, t, z, j, k, simp, trap, l
+    
+    z = [0,5,10,15,20,25,30] #Lista com Valores de x
+    j = [0,9,13,14,10.5,12,5] #Lista com valores de F(x)
+    k = [0.5,1.4,0.75,0.9,1.3,1.48,1.5]#lista com valores do ângulo(x)
+    
+    x = symbols ('x')
+    
+    a = 0   # a e b: limites de integração 
+    b = 30   
+    
+    n = 50 # quantidade de subintervalos de x
+    
+    
+    f = simplify(lagrange(j,z))*sym.cos(simplify(lagrange(k,z)))
+    # essa varialvel f armazena a função a ser integrada.
+    # no caso do cálculo do trabalho, essa função é F(x)*cos(ângulo(x))
+    x0 = cria_x(a,b,n)
+    l = cria_y(x0)
+    
+    
+    
+    print("Digite uma lista com valores de x: ", z)
+    print("Digite uma lista com valores de F(x): ", j)
+    print("Digite uma lista com valores de ângulo(x): ", k)
+    print ("Insira o primeiro limite de integração: ", a)
+    print("Insira o segundo limite de integração:", b)
+    print ("Digite a quantidade de subintervalos de x: ", n)
+    print()
+    print("Integração pelo metodo de Simpson: \n", simpson(l,a,b))
+    print("Integração pelo metodo do Trapézio: \n", trapezio(l,a,b))
+    print()
+    print(plot(f,(x, a, b)))
+    print()
+        
+"""
+Esta função executa um exemplo automatico do prorgrama, com os valores pré definidos
+no estudo de caso retirado do livro. 
+"""
+
+def main():
+    global x, f, a, b, n, x0, t, z , j, k, simp, trap, l
+
+    z = []
+    j = []
+    k = []
+    m = int(input("Digite a quantidade de termos que possuem as listas: x, f(x) e ângulo(x):  "))
+    
+    print()
+    print("Digite uma lista com valores de x: ")
+    for i in range(m):
+        
+        c = i + 1
+        v = float(input("Insira o %iº valor de x: " %(i+1)))
+        
+        z.append(v)
+        
+    print()   
+    print("Digite uma lista com valores de F(x): ")
+    
+    for i in range(m):
+        
+        v = float(input("Insira o %iº valor de F(x): " %(i+1)))
+        
+        j.append(v)
+        
+    print()    
+    print("Digite uma lista com valores de angulo(x): ")
+    
+    for i in range(m):
+        
+        v = float(input("Insira o %iº valor de angulo(x): " %(i+1)))
+        
+        k.append(v)
+        
+        
+    x = symbols ('x')
+    
+    a = float(input("Primeiro limite (a): "))
+    b = float(input("Sugundo limite (b): "))
+    n = float(input("Digite a quantidade de subintervalos: "))
+    
+    
+    f = simplify(lagrange(j,z))*sym.cos(simplify(lagrange(k,z)))
+    x0 = cria_x(a,b,n)
+    l = cria_y(x0)
+    
+    
+    print(plot(f,(x, a, b)))
+    print()
+    print("Integração pelo metodo de Simpson: \n", simpson(l,a,b))
+    print("Integração pelo metodo do Trapézio: \n", trapezio(l,a,b))
+
+"""
+Esta função executa o programa com valores definidos pelo usuario,
+valores a serem definidos: lista com valores de x, y e angulo, intervalo de integraçao, numero de
+subintervalos que sera usado na integração.
+"""
+
+def lagrange (y,u):
+    
+    soma = 0
+    
+    for i in range(len(y)):
+        pro = 1
+        
+        for j in range (len(y)):
+            
+            if i != j:
+                
+                pro = pro*((x-u[j])/(u[i]-u[j]))
+                
+        soma += y[i]*pro        
+    
+    return soma
+
+'''
+Esta função é responsavel por interpolar os valores inseridos na lista
+pelo usuario e tranformar em um polinônio.  
+
+'''
+
+def cria_x(a,b,n):
+    q = (b - a)/n
+    x = []
+    for i in range(int(n)+1):
+       if i == 0:
+           x.append(a)
+       if i != 0:
+           x.append(x[i-1] + q)
+
+    return x
+'''
+Esta função cria uma lista com n valores de x. com x de a ate b.
+esta lista posteriormente sera usada para encontar os valores correspondentes de y. 
+
+'''
+
+def cria_y(x0):
+    y = []
+    for i in range(int(n)+1):
+        y.append(f.subs(x,x0[i]))
+         
+    return y
+    
+'''
+Esta função recebe a lista crianda na funçao anterior e substitue cada um de seus termos
+no polinomio que foi interpolado, e adiciona cada termo em uma lista.
+
+'''
+def simpson(l,a,b):
+    
+    i = (b-a)*((l[0] + l[len(l)-1]) + 4*soma1(l) + 2*soma2(l))/(3*(len(l)-1))
+    
+    return i
+'''
+
+Aqui é executado o metodo iterativo de simpson. tem como parâmetros
+a lista dos valores de y e interlaos de integração
+'''
+
+def trapezio(l,a,b):
+
+    i = (b-a)*((l[0] + l[len(l)-1]) + 2*soma3(l))/(2*(len(l)-1))
+    
+    return i
+"""
+aqui é executado o metodo iterativo de Trapézio. tem como parametros
+a lista dos valores de y interlaos de integração
+"""
+def soma1(l):
+    
+    soma = 0
+    for i in range(1,(len(l)-1),2):
+        soma += l[i]
+    
+    return soma
+
+"""
+As tres funçoes chamadas soma1 soma2 soma3 são somatorios existenes nos metodos
+do trapézio e Simpson.
+"""
+def soma2(l):
+    
+    soma = 0
+    for i in range(2,(len(l)-1),2):
+        soma += l[i]
+    return soma
+
+def soma3(l):
+    
+    soma = 0
+    for i in range(1,(len(l)-1)):
+        soma += l[i]
+    
+    return soma
+
+
+exemplo()
+main()

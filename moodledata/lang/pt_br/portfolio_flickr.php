@@ -44,7 +44,7 @@ $string['safetylevel'] = 'Nível de segurança';
 $string['screenshot'] = 'Capturas de tela';
 $string['set'] = 'Configurado';
 $string['setupinfo'] = 'Instruções de configuração';
-$string['setupinfodetails'] = 'Para obter a chave API e a frase secreta, faça o login no Flickr e <a href="{$a->applyurl}">gere uma nova chave</a>. Uma vez que a nova chave e o segredo foram gerados para você, siga o link \'Edit auth flow for this app\' na página. Defina \'App Type\' como \'Web Application\'. No campo "Callback URL", coloque o valor: <br/><code>{$a->callbackur>}</code><br/>Opcionalmente, você também pode fornecer sua descrição e logotipo do site Moodle. Estes itens podem ser definidos posteriormente em <a href="{$a->keysurl}">na página </a> que lista seus aplicativos do Flickr.';
+$string['setupinfodetails'] = 'Para obter a chave API e a frase secreta, faça o login no Flickr e <a href="{$a->applyurl}">gere uma nova chave</a>. Uma vez que a nova chave e o segredo foram gerados para você, siga o link \'Edit auth flow for this app\' na página. Defina \'App Type\' como \'Web Application\'. No campo "Callback URL", coloque o valor: <br/><code>{$a->callbackurl}</code><br/>Opcionalmente, você também pode fornecer sua descrição e logotipo do site Moodle. Estes itens podem ser definidos posteriormente em <a href="{$a->keysurl}">na página </a> que lista seus aplicativos do Flickr.';
 $string['sharedsecret'] = 'Frase secreta';
 $string['title'] = 'Título';
 $string['uploadfailed'] = 'Falha ao enviar imagem(ns) para Flickr.com: {$a}';

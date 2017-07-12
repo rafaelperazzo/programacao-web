@@ -74,12 +74,12 @@ $string['how_group_works_help'] = '<p> Selecionar um grupo irá limitar a exibi�
 $string['how_ordering_works'] = 'Como encomendar trabalhos';
 $string['how_ordering_works_help'] = '<p> Há duas maneiras os itens na barra de progresso podem ser encomendados. </p>
 <ul>
-     <li> <em> "Espera-se por" data-hora </ em> (default) <br />
+     <li> <em> "Espera-se por" data-hora </em> (default) <br />
      As datas de vencimento ou definir manualmente datas das atividades / recursos são utilizados para ordenar os itens mostrados na barra de progresso.
      </li>
-     <li> <em> pedindo no curso </ em> <br />
+     <li> <em> pedindo no curso </em> <br />
      Atividades / recursos são apresentados na mesma ordem em que estão na página do curso. Quando esta opção for usada, os aspectos relacionados com o tempo são desativados.
-     </ li>
+     </li>
 </ul>';
 $string['hsuforum'] = 'Fórum avançado';
 $string['imscp'] = 'Pacote de Conteúdo IMS';

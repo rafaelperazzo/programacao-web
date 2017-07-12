@@ -95,9 +95,9 @@ $string['onthismoodlefrom'] = 'aqui desde';
 $string['other'] = 'Outra presença fora do curso';
 $string['othershort'] = 'OUTRO';
 $string['plugindist'] = 'Distribuição de Plugin';
-$string['plugindist_desc'] = '<p> Este plugin é a versão da comunidade e é publicado para qualquer um usar como está e verifica a aplicação principal do plugin. Existe uma versão "pro" deste plugin e é distribuída sob condições para alimentar o ciclo de vida, atualização, documentação e esforço de melhoria. </ p>
+$string['plugindist_desc'] = '<p> Este plugin é a versão da comunidade e é publicado para qualquer um usar como está e verifica a aplicação principal do plugin. Existe uma versão "pro" deste plugin e é distribuída sob condições para alimentar o ciclo de vida, atualização, documentação e esforço de melhoria. </p>
 <p> Por favor, entre em contato com um dos nossos distribuidores para obter suporte à versão "Pro". .
-</ p>
+</p>
 <ul><li><a href="http://www.activeprolearn.com/plugin.php?plugin=block_use_stats&lang=en">ActiveProLearn SAS</a></li>
 <li><a href="http://www.edunao.com">Edunao SAS</a></li></ul>';
 $string['pluginname'] = 'Estatísticas de uso';

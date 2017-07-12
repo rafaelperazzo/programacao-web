@@ -36,4 +36,4 @@ $string['invalidpathtoclam'] = 'Moodle está configurado para ativar o Clam dura
 $string['pathtoclam'] = 'Caminho do ClamAV';
 $string['pluginname'] = 'Antivírus ClamAV';
 $string['quarantinedir'] = 'Diretório da quarentena';
-$string['unknownerror'] = 'Erro desconhecido com Clam.';
+$string['unknownerror'] = 'Erro desconhecido com ClamAV.';

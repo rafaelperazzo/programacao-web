@@ -88,7 +88,7 @@ $string['answertoolong'] = 'Resposta longa demais a partir da linha {$a} (máxim
 $string['aon'] = 'Formato AON';
 $string['areyousureremoveselected'] = 'Você quer mesmo remover todas as questões selecionadas?';
 $string['asshownoneditscreen'] = 'Como mostrado na tela de edição';
-$string['attempt'] = 'Tentativa';
+$string['attempt'] = 'Tentativa {$a}';
 $string['attemptalreadyclosed'] = 'Essa tentativa já terminou.';
 $string['attemptclosed'] = 'A tentativa não foi ainda fechada';
 $string['attemptduration'] = 'Tempo utilizado';
@@ -317,7 +317,9 @@ $string['emailnotifysmall'] = '{$a->studentname} completou {$a->quizname}. Veja 
 $string['emailnotifysubject'] = '{$a->studentname} concluiu o questionário {$a->quizname}';
 $string['emailoverduebody'] = 'Prezado {$a->studentname},
 
-Você iniciou uma tentativa no queziontário \'{$a->quizname}\' no curso \'{$a->coursename}\' mas não finalizou a tentativa.
+Você iniciou uma tentativa no queziontário \'{$a->quizname}\'
+no curso \'{$a->coursename}\' mas não finalizou a tentativa.
+Ele deveria ter sido enviado por {$a->attemptduedate}.
 
 Se você pretende ainda finalizar essa tentativa, por favor retorne para {$a->attemptsummaryurl} e clique no botão de envio. Você precisa fazer isso antes de {$a->attemptgraceend}, caso contrário sua tentativa não será levada em conta.';
 $string['emailoverduesmall'] = 'Você não finalizou sua tentativa em {$a->quizname}. Por favor vá para {$a->attemptsummaryurl} antes de {$a->attemptgraceend} se você pretende finalizá-la.';
@@ -780,7 +782,7 @@ $string['reportregrade'] = 'Modificar notas';
 $string['reportresponses'] = 'Respostas detalhadas';
 $string['reports'] = 'Relatórios';
 $string['reportshowonly'] = 'Mostrar apenas tentativas';
-$string['reportshowonlyfinished'] = 'Mostrar no máximo uma tentativa finalizada por usuário {$a})';
+$string['reportshowonlyfinished'] = 'Mostrar no máximo uma tentativa finalizada por usuário ({$a})';
 $string['reportsimplestat'] = 'Estatísticas simples';
 $string['reportusersall'] = 'todos os usuário que tem';
 $string['reportuserswith'] = 'usuários inscritos haviam tentado o questionário';

@@ -725,7 +725,7 @@ $string['mnetrestore_extusers'] = '<strong>Nota:</strong> Este arquivo de backup
 $string['mnetrestore_extusers_admin'] = '<strong>Nota:</strong> Este arquivo de backup aparentemente foi gerado em outra instalaçao do Moodle e contém contas de usuários remotos da Rede Moodle. O processo de restauração tentará casar os hosts da Rede Moodle para todos os usuário criados. Aqueles que não casarem serão automaticamente alterados para autenticação interna (ao invés de mnet). O log da restauração vai informá-lo sobre isso.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> Este arquivo de backup aparentemente foi gerado em outra instalação do Moodle e possui contas de usuários remotos da Rede Moodle que podem falhar ao retaurar. Esta operação não é aceita. Se você está certo de que este arquivo foi criado nesta instalação do Moodle, ou você pode assegurar que todos os hosts da Rede Moodle necessários estão configurados, você pode querer ainda tentar restaurá-los.';
 $string['mnetrestore_extusers_noadmin'] = '<strong>Nota:</strong> Este arquivo de backup aparentemente foi gerado em outra instalaçao do Moodle e contém contas de usuários remotos da Rede Moodle. Você não tem autorização para executar este tipo de restauração. Contate o administrador do site ou, alternativamente, restaurar este curso sem informações de usuários (módulos, arquivos...)';
-$string['mnetrestore_extusers_switchuserauth'] = 'Usuário da Rede Moodle Remota {$a->username} (proveniente de {$a->mnethosturl}) mudou para usuário ($a->auth} autenticado localmente.';
+$string['mnetrestore_extusers_switchuserauth'] = 'Usuário da Rede Moodle Remota {$a->username} (proveniente de {$a->mnethosturl}) mudou para usuário {$a->auth} autenticado localmente.';
 $string['mobile'] = 'Mobile';
 $string['mobilecssurl'] = 'CSS';
 $string['modchooserdefault'] = 'Padrão para seletor de atividades';
@@ -812,7 +812,7 @@ for command line operations.
 If you only have one postgresql
 on your system or you are not
 sure what this is, leave this blank.';
-$string['phpfloatproblem'] = 'Foi detectado um erro inesperado ao manipular números de ponto flutuante no PHP...';
+$string['phpfloatproblem'] = 'Foi detectado um erro inesperado ao manipular números de ponto flutuante no PHP - {$a}';
 $string['pleaserefreshregistration'] = 'Seu site está registrado. Última atualização em {$a}.<br/>A tarefa agendada "Site registration" mantém atualizado automaticamente seu registro. Você também pode atualizar manualmente o seu registro a qualquer momento.';
 $string['pleaserefreshregistrationunknown'] = 'Seu site foi registrado, mas a data de registro é desconhecida. Por favor, atualize seu cadastro usando o botão \'Atualizar cadastro\' ou certifique-se que a tarefa agendada "Registo do Site" esteja habilitada para que o seu registro seja atualizado automaticamente.';
 $string['plugin'] = 'Plugin';
