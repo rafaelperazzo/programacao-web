@@ -83,7 +83,7 @@ $string['check_passwordpolicy_error'] = 'A política de senhas não está defini
 $string['check_passwordpolicy_name'] = 'Política de senhas';
 $string['check_passwordpolicy_ok'] = 'A política de senhas está ativada.';
 $string['check_riskadmin_detailsok'] = '<p>Por favor, verifique a seguinte lista de administradores do sistema:</p> {$a}';
-$string['check_riskadmin_detailswarning'] = 'Por favor, verifique a seguinte lista de administradores do sistema:</p> {$a->admins} <p>É recomendado que o papel de administrador seja atribuído apenas no contexto do sistema. Os seguintes usuários tem atribuições (não suportadas) de papel de administrador em outros contextos:</p> {$a->unsupported}';
+$string['check_riskadmin_detailswarning'] = '<p>Por favor, verifique a seguinte lista de administradores do sistema:</p> {$a->admins} <p>É recomendado que o papel de administrador seja atribuído apenas no contexto do sistema. Os seguintes usuários tem atribuições (não suportadas) de papel de administrador em outros contextos:</p> {$a->unsupported}';
 $string['check_riskadmin_name'] = 'Administradores';
 $string['check_riskadmin_ok'] = 'Encontrados {$a} administrador(es).';
 $string['check_riskadmin_unassign'] = '<a href="{$a->url}">{$a->fullname}  ({$a->email}) revisar atribuição de papel</a>';

@@ -147,11 +147,11 @@ $string['divide'] = 'Dividir entre slots?';
 $string['duration'] = 'Duração';
 $string['durationrange'] = 'Duração de slot deve estar entre {$a->min} e {$a->max} minutos.';
 $string['email_applied_html'] = '<p>Um compromisso foi aplicado em {$a->date} às {$a->time},<br/>
-pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:
+pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:</p>
 
 <p>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></p>
 
-<p>usando o organizador intitulado "<em><a href="{$a->scheduler_url}">{$a->module}</a></em>" no site: <a href="{$a->site_url}">{$a->site}</a>.</p>';
+<p>usando o organizador intitulado "<em>{$a->module}</em>" no website: <a href="{$a->site_url}">{$a->site}</a>.</p>';
 $string['email_applied_plain'] = 'Um compromisso foi aplicado em {$a->date} às {$a->time},
 pelo aluno {$a->attendee} para o curso:
 

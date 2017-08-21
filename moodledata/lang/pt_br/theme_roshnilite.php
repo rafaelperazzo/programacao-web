@@ -48,22 +48,23 @@ $string['addressdesc'] = 'Digite seu endereço aqui.';
 $string['addressfontawesomeicon'] = 'Digite a tag de ícone de Fonte incrível para o ícone de endereço';
 $string['addressfontawesomeicondesc'] = 'Apenas copie e cole &lt; i &gt;&lt; / i &gt; tag';
 $string['choosereadme'] = '<div class="clearfix">
-<div class="well">
-<h2>Roshnilite</h2>
-<p><img class=img-polaroid src="roshnilite/pix/screenshot.jpg" /></p>
-</div>
-<div class="well">
-<h3>Pais</h3>
-<P>Este tema baseia-se no tema Bootstrap, que foi criado para o Moodle 2.5, com a ajuda de: <br>
-Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </P>
-<P> A seção de definição de fontes deste tema é baseada no tema Essencial com a ajuda de: <br>
-Julian Ridden, Gareth J. Barnard, David Bezemer. </P>
-<H3> Créditos do tema </h3>
-<P> Autores: Dualcube <br>
-Contato: admin@dualcube.com <br>
-Site: <a href="https://dualcube.com/"> https://dualcube.com/ </a>
-</p>
-</div></div>';
+    <div class="well">
+        <h2>Roshnilite</h2>
+        <p><img class=img-polaroid src="roshnilite/pix/screenshot.jpg"/></p>
+    </div>
+    <div class="well">
+        <h3>Pais</h3>
+        <p>Este tema baseia-se no tema Bootstrap, que foi criado para o Moodle 2.5, com a ajuda de: <br>
+            Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans. </p>
+        <p> A seção de definição de fontes deste tema é baseada no tema Essencial com a ajuda de: <br>
+            Julian Ridden, Gareth J. Barnard, David Bezemer. </p>
+        <h3> Créditos do tema </h3>
+        <p> Autores: Dualcube <br>
+            Contato: admin@dualcube.com <br>
+            Site: <a href="https://dualcube.com/"> https://dualcube.com/ </a>
+        </p>
+    </div>
+</div>';
 $string['configtitle'] = 'Roshni Lite';
 $string['customcss'] = 'CSS personalizado';
 $string['customcssdesc'] = 'Quaisquer regras CSS que você adicionar a esta área de texto serão refletidas em cada página, tornando mais fácil personalização deste tema.';

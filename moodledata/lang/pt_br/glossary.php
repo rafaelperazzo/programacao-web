@@ -30,8 +30,8 @@ $string['addentry'] = 'Inserir novo item';
 $string['addingcomment'] = 'Inserir um comentário';
 $string['alias'] = 'Palavra chave';
 $string['aliases'] = 'Outras palavras que serão linkadas ao mesmo item';
-$string['aliases_help'] = '<p>Cada item do glossário pode ser associado a uma lista de palavras-chave (ou aliases).
-<p><b>Escreva cada alias em uma nova linha</b> (sem separar com vírgulas).</p>
+$string['aliases_help'] = '<p>Cada item do glossário pode ser associado a uma lista de palavras-chave (ou aliases).</p>
+<p><strong>Escreva cada alias em uma nova linha</strong> (sem separar com vírgulas).</p>
 <p>Estas palavras-chave podem ser usadas como referências alternativas ao item associado. Por exemplo, todas estas palavras chave serão linkadas automaticamente ao mesmo item do glossário em caso de criação automática de links (filtro auto-linking).</p>';
 $string['allcategories'] = 'Todas as categorias';
 $string['allentries'] = 'Todos';
@@ -138,41 +138,40 @@ $string['displayformatentrylist'] = 'Lista de itens';
 $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'Completo com autor';
 $string['displayformatfullwithoutauthor'] = 'Completo sem autor';
-$string['displayformat_help'] = '<P>Esta configuração define o modo em que cada item será visualizado no glossário. Os formatos predefinidos são:</p>
+$string['displayformat_help'] = '<p>Esta configuração define o modo em que cada item será visualizado no glossário. Os formatos predefinidos são:</p>
 
 <dl>
-<dt><b>Dicionário simples</b>:</dt>
+<dt><strong>Dicionário simples</strong>:</dt>
 <dd>Um dicionário convencional com os itens separados; os autores não são indicados e os anexos são mostrados como links.</dd>
-<dt><b>Contínuo sem autor</b>:</dt>
+<dt><strong>Contínuo sem autor</strong>:</dt>
 <dd>Mostra os itens um após o outro sem qualquer tipo de separação além dos ícones de edição.</dd>
-<dt><b>Completo com Autor</b>:</dt>
+<dt><strong>Completo com Autor</strong>:</dt>
 <dd>Visualiza os itens com o mesmo formato de um fórum, incluindo os dados do autor; os anexos são mostrados como links.</dd>
-<dt><b>Completo sem Autor</b>:</dt>
+<dt><strong>Completo sem Autor</strong>:</dt>
 <dd>Visualiza os itens com o mesmo formato de um fórum, sem os dados do autor; os anexos são mostrados como links.</dd>
-<dt><b>Enciclopédia</b>:</dt>
+<dt><strong>Enciclopédia</strong>:</dt>
 <dd>Mesmas características do formato \'Completo com Autor\' mas as imagens anexadas são visualizadas no texto.</dd>
-<dt><b>Lista de itens</b>:</dt>
+<dt><strong>Lista de itens</strong>:</dt>
 <dd>Lista os conceitos como links.</dd>
-<dt><b>FAQ</b>:</dt>
+<dt><strong>FAQ</strong>:</dt>
 <dd>Edita items como listas de Perguntas Frequentes (FAQ) e anexa as palavras PERGUNTA e RESPOSTA respectivamente ao conceito e à definição.</dd>
 </dl>
 
 <hr />
-<p>Os Administradores podem criar novos formatos de visualização seguindo as instruções presentes no arquivo <b>mod/glossary/formats/README.txt</b>.</p>';
+<p>Os Administradores podem criar novos formatos de visualização seguindo as instruções presentes no arquivo <strong>mod/glossary/formats/README.txt</strong>.</p>';
 $string['displayformats'] = 'Mostrar formatos';
 $string['displayformatssetup'] = 'Mostrar configuração de formatos';
 $string['duplicatecategory'] = 'Categoria duplicada';
 $string['duplicateentry'] = 'Duplicar item';
 $string['editalways'] = 'Sempre permitir edição';
-$string['editalways_help'] = '<P>Esta opção define se os estudantes são autorizados a editar os seus itens a qualquer momento os textos.
+$string['editalways_help'] = '<p>Esta opção define se os estudantes são autorizados a editar os seus itens a qualquer momento os textos.</p>
 
-<P>Você pode selecionar:
+<p>Você pode selecionar:</p>
 
-<UL>
-<LI><B>Sim:</B> Os itens sempre são editáveis.
-
-<LI><B>Não:</B> Os itens só são editáveis durante o período definido.
-</UL>';
+<ul>
+<li><strong>Sim:</strong> Os itens sempre são editáveis.</li>
+<li><strong>Não:</strong> Os itens só são editáveis durante o período definido.</li>
+</ul>';
 $string['editcategories'] = 'Editar categorias';
 $string['editentry'] = 'Editar item';
 $string['editingcomment'] = 'Editando comentário';
@@ -221,7 +220,7 @@ $string['filetoimport_help'] = '<P>Selecione no seu computador o arquivo XML que
 $string['fillfields'] = 'Conceito e definição são campos obrigatórios.';
 $string['filtername'] = 'Links automáticos ao glossário';
 $string['fullmatch'] = 'Criar links apenas a partir de palavras inteiras';
-$string['fullmatch_help'] = '<p>Se ativada, esta opção estabelece que os links criados automaticamente devem ser associados apenas a palavras inteiras
+$string['fullmatch_help'] = '<p>Se ativada, esta opção estabelece que os links criados automaticamente devem ser associados apenas a palavras inteiras</p>
 
 <p>Por exemplo: um item chamado "carro" não dará origem a um link incluído na palavra "carroça".</p>';
 $string['glossary:addinstance'] = 'Adicionar novo glossário';
@@ -321,17 +320,17 @@ $string['rssarticles_help'] = '<P>Esta configuração permite que você selecion
    glossários. Aumente este número se o glossário for constantemente atualizado.</p>';
 $string['rsssubscriberss'] = 'Mostrar \'{$a}\' conceitos no feed RSS';
 $string['rsstype'] = 'RSS feed para esta atividade';
-$string['rsstype_help'] = '<P>Esta opção permite que sejam criados alimentadores RSS neste glossário.
+$string['rsstype_help'] = '<p>Esta opção permite que sejam criados alimentadores RSS neste glossário.</p>
 
-<P>Você pode escolher dois tipos de Feeds:
+<p>Você pode escolher dois tipos de Feeds:</p>
 
-<UL>
-<LI><B>Com autor -</B> os alimentadores criados incluem
+<ul>
+<li><strong>Com autor -</strong> os alimentadores criados incluem
        o nome do autor em cada artigo.</li>
 
-<LI><B>Sem autor -</B> os alimentadores criados não incluem
+<li><strong>Sem autor -</strong> os alimentadores criados não incluem
        o nome do autor em nenhum artigo.</li>
-</UL>';
+</ul>';
 $string['search:activity'] = 'Glossário - informações da atividade';
 $string['search:entry'] = 'Glossário - termos';
 $string['searchindefinition'] = 'Buscar em todo o texto';

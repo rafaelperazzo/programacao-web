@@ -77,16 +77,16 @@ $string['depending_help'] = 'Itens dependentes possibilitam mostrar itens que de
 <ul>
 <li>Inicialmente crie um item do qual outros itens dependem de um valor.</li>
 <li>Na sequência, adicione uma nova página..</li>
-<li>Na sequencia adicione o item dependente do valor apresentado no iem anterior.<br />
+<li>Na sequencia adicione o item dependente do valor apresentado no iem anterior.</li>
 <li>Escolha \'Item dependente\' no formulário de criação de um item e indique o valor na caixa de texto.</li>
 </ul>
 <strong>A estrutura deve ser como a seguir:</strong>
 <ol>
 <li>Item pergunta: Você tem um carro? Resposta: sim/não</li>
 <li>Quebra de páginak</li>
-<li>Item pergunta: Qual é a cor de seu carro?<br />
+<li>Item pergunta: Qual é a cor de seu carro?</li>
 (este item depende da resposta \'sim\' ao item 1)</li>
-<li>Item perguna: Por que você não tem um carro?<br />
+<li>Item perguna: Por que você não tem um carro?</li>
 (este item depende da resposta \'não ao item 1)</li>
 <li> ...outros itens</li>
 </ol>';

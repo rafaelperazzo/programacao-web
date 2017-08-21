@@ -179,7 +179,7 @@ $string['componentisuptodate'] = 'Componente está atualizado';
 $string['confirmsesskeybad'] = 'Sinto muito mas não foi possível confirmar a chave da sua sessão para completar esta ação. Esta medida de segurança evita a execução de funções importantes em seu nome, causadas por terceiros maliciosos ou por erros acidentais. Certifique-se que a execução desta função seja realmente intencional.';
 $string['couldnotassignrole'] = 'Um erro sério mas não especificado ocorreu ao tentar atribuir um papel para você';
 $string['couldnotupdatenoexistinguser'] = 'Não foi possível atualizou o usuário - usuário não existe';
-$string['countriesphpempty'] = 'O arquivo countries.php é ausente ou vazio no idioma {$a}';
+$string['countriesphpempty'] = 'Erro: O arquivo countries.php está ausente ou vazio no idioma {$a}.';
 $string['coursedoesnotbelongtocategory'] = 'O curso não pertence a esta categoria';
 $string['courseformatnotfound'] = 'Formato de curso \'{$a}\' não existe ou não foi reconhecido';
 $string['coursegroupunknown'] = 'O curso correspondente ao grupo {$a} não foi definido';
@@ -471,8 +471,7 @@ $string['redirecterrordetected'] = 'Detectado redirecionamento não suportado. A
 ';
 $string['refoundto'] = 'Pode ser reembolsado ao {$a}';
 $string['refoundtoorigi'] = 'Devolução do montante original: {$a}';
-$string['remotedownloaderror'] = '<p>O download do componente falhou, por favor verifique as configurações do proxy. A extensão cURL do PHP é altamente recomendada.</p>
-<p>Você precisar baixar o <a href="{$a->url}">{$a->url}</a> manualmente, copiar para "{$a->dest}" e descompactar lá.</p>';
+$string['remotedownloaderror'] = '<p>O download do componente falhou, por favor verifique as configurações do proxy. A extensão cURL do PHP é altamente recomendada.</p><p>Você precisar baixar o <a href="{$a->url}">arquivo</a> manualmente, copiar para "{$a->dest}" e descompactar lá.</p>';
 $string['remotedownloadnotallowed'] = 'Não é permitido baixar componentes no seu servidor (allow_url_fopen está desabilitado).).<br /><br />Você deve baixar o arquivo <a href="{$a->url}">{$a->url}</a> manualmente, copiar em "{$a->dest}" no seu servidor e descomprimir o arquivo nesta posição.';
 $string['reportnotavailable'] = 'Este tipo de informe só está disponível para o curso global';
 $string['requirecorrectaccess'] = 'Url inválida ou alterada.';

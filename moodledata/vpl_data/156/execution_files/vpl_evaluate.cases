@@ -1,0 +1,44 @@
+case = Teste 1
+input = 12
+06
+1980
+20
+09
+1987
+output = /.*DATA 2.*/i
+
+case = Teste 2
+input = 31
+06
+1988
+20
+06
+1988
+output = /.*DATA 1.*/i
+
+case = Teste 3
+input = 12
+06
+1980
+20
+09
+1980
+output = /.*DATA 2.*/i
+
+case = Teste 4
+input = 12
+09
+1980
+20
+09
+1980
+output = /.*DATA 2.*/i
+
+case = Teste 4
+input = 12
+09
+1980
+12
+09
+1980
+output = /.*IGUAIS.*/i

@@ -33,6 +33,6 @@ $string['pleaseputananswerineachbox'] = 'Por favor, coloque uma resposta em cada
 $string['pluginname'] = 'Arrastar e soltar sobre o texto';
 $string['pluginnameadding'] = 'Adicionando um arrastar e soltar sobre texto';
 $string['pluginnameediting'] = 'Edição de um arrastar e soltar sobre texto';
-$string['pluginname_help'] = 'Digite algum texto da pergunta como "O [[1]] saltou sobre as [[2]]" e, em seguida, insira as palavras possíveis para serem inseridas nos intervalos 1 e 2 abaixo.';
+$string['pluginname_help'] = 'Digite algum texto da questão como "O [[1]] saltou sobre as [[2]]" e, em seguida, insira as palavras possíveis para serem inseridas nos intervalos 1 e 2 abaixo.';
 $string['pluginname_link'] = 'question/type/ddwtos';
 $string['pluginnamesummary'] = 'Faltando palavras alguns textos são preenchidos usando arrastar e soltar.';

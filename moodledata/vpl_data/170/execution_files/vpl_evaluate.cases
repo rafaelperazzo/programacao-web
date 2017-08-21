@@ -1,0 +1,12 @@
+case = Teste 1
+input = 10
+output = /0.64563[0-9]*/i
+
+case = Teste 2
+input = 40
+output = /0.68080[0-9]*/i
+
+case = Teste 3
+input = 5
+output = /0.78333[0-9]*/i
+

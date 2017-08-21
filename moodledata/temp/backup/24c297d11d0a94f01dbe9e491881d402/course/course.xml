@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="8" contextid="3072">
+  <shortname>programacaoTemplate</shortname>
+  <fullname>ECI0007/EM0006 - Programação Computacional para Engenharia 2017.2</fullname>
+  <idnumber></idnumber>
+  <summary>&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;O objetivo principal de ECI0007/EM0006 é desenvolver um &lt;a href="http://en.wikipedia.org/wiki/Computational_thinking"&gt; raciocínio aplicado na formulação e resolução de problemas computacionais&lt;/a&gt;, ensinar como abordar e resolver problemas computacionais.&lt;/p&gt;
+&lt;p&gt;Em ECI0007/EM0006 você aprenderá a escrever programas de computador. O ato de programar é uma ferramenta útil para trabalhar o raciocínio mencionado acima, bem como tornar mais concretos outros conceitos comuns em ciência da computação.&lt;/p&gt;
+&lt;p&gt;Ao longo dos anos, ECI0007/EM0006 utilizou as linguagens de programação, &lt;a href="http://en.wikipedia.org/wiki/C_%28programming_language%29"&gt;C&lt;/a&gt; e C++. A partir de 2016, será utilizada exclusivamente a linguagem &lt;a href="http://en.wikipedia.org/wiki/Python_programming_language"&gt;Python&lt;/a&gt;. O ensino de uma linguagem de programação é uma ferramenta didática, e um bônus concreto de aprendizagem, subordinado ao objetivo principal.&lt;/p&gt;
+&lt;p&gt;Em geral, uma vez adquirida familiaridade com uma linguagem de programação, não é difícil utilizar outra. Muitas vezes, basta apenas ler o manual. Desta forma, gostaríamos que no futuro você não se lembrasse de ECI0007/EM0006 como um "Curso de Python". Em ECI0007/EM0006, de fato, você aprenderá um pouco de alguma linguagem (Python) e será cobrado pela aplicação apropriada dos conceitos vistos nas aulas (assim como seus colegas de anos anteriores aprenderam C/C++). No entanto, o verdadeiro aprendizado será a familiaridade com os conceitos e princípios envolvidos em programar.&lt;/p&gt;
+&lt;p&gt;O andamento da disciplina é orientado pelos problemas propostos. Cada problema introduz novos desafios que, para serem transpostos, nos levam a novas ideias e práticas de programação.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EMENTA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Introdução a lógica de programação. Algoritmos. Tipos básicos de dados. Operadores. Estruturas condicionais. Estruturas de repetição. Vetores e Matrizes. Funções. Sistema de Entrada/Saída. Programação em linguagem de programação estruturada.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <format>topics</format>
+  <showgrades>1</showgrades>
+  <newsitems>5</newsitems>
+  <startdate>1502852400</startdate>
+  <marker>0</marker>
+  <maxbytes>10485760</maxbytes>
+  <legacyfiles>0</legacyfiles>
+  <showreports>0</showreports>
+  <visible>0</visible>
+  <groupmode>2</groupmode>
+  <groupmodeforce>1</groupmodeforce>
+  <defaultgroupingid>0</defaultgroupingid>
+  <lang>pt_br</lang>
+  <theme></theme>
+  <timecreated>1466086556</timecreated>
+  <timemodified>1502735394</timemodified>
+  <requested>0</requested>
+  <enablecompletion>0</enablecompletion>
+  <completionnotify>0</completionnotify>
+  <numsections>15</numsections>
+  <hiddensections>1</hiddensections>
+  <coursedisplay>0</coursedisplay>
+  <category id="7">
+    <name>2017.2</name>
+    <description></description>
+  </category>
+  <tags>
+  </tags>
+</course>

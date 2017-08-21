@@ -88,6 +88,9 @@ Moodle.com | http: //moodle.com/
 $string['logo'] = 'Logo';
 $string['logodesc'] = 'Faça o upload de seu logotipo personalizado aqui se você deseja adicioná-lo ao cabeçalho.
                         <br> A imagem deve ser 37px de altura e qualquer largura razoável (mínimo: 250px) que se adapte.';
+$string['moodle_community'] = 'Comunidade Moodle';
+$string['moodle_docs'] = 'Documentos Moodle';
+$string['moodle_support'] = 'Suporte Moodle';
 $string['newsblockcontent'] = 'Conteúdo do bloco Notícias & Eventos';
 $string['newsblockcontentdesc'] = 'O que você adicionar nesta área de texto será exibido no bloco Notícias & Eventos.';
 $string['newsblockheading'] = 'Bloco Notícias & Eventos';
@@ -97,6 +100,7 @@ $string['numberofslides'] = 'Número de slides';
 $string['numberofslides_desc'] = 'Número de slides deslizantes.';
 $string['numberoftmonials'] = 'Número de depoimentos';
 $string['numberoftmonials_desc'] = 'Número de depoimentos na Página Inicial.';
+$string['phone'] = 'Telefone';
 $string['phoneno'] = 'Tel:';
 $string['pinurl'] = 'Pinterest';
 $string['pinurl_default'] = 'https://in.pinterest.com/yourpinterestname/';

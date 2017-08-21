@@ -1,0 +1,19 @@
+case = Teste 1 
+input = 1320
+35
+output = '5'
+'4'
+
+case= Teste 2
+input = 23732
+152
+output = '4'
+'5'
+
+case = Teste 3
+input = 23732
+152
+output = /4
+.*/i
+
+

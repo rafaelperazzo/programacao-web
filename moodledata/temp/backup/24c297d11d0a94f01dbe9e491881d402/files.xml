@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="8812">
+    <contenthash>e8b282f66c68fdfbb5f682ba51361d06db048858</contenthash>
+    <contextid>3072</contextid>
+    <component>question</component>
+    <filearea>questiontext</filearea>
+    <itemid>1120</itemid>
+    <filepath>/</filepath>
+    <filename>Ñ impedido.png</filename>
+    <userid>2</userid>
+    <filesize>6121</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1471572249</timecreated>
+    <timemodified>1471572444</timemodified>
+    <source>nimpedido.png</source>
+    <author>Juan Ibiapina</author>
+    <license>public</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="8813">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>3072</contextid>
+    <component>question</component>
+    <filearea>questiontext</filearea>
+    <itemid>1120</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>2</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1502735363</timecreated>
+    <timemodified>1502735363</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

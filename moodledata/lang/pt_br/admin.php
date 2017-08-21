@@ -63,7 +63,7 @@ $string['alternativefullnameformat_desc'] = 'Esta opção define como os nomes s
 $string['appearance'] = 'Aparência';
 $string['aspellpath'] = 'Caminho para o aspell';
 $string['authentication'] = 'Autenticação';
-$string['authpreventaccountcreation'] = 'Evitar a criação de contas quando autenticando';
+$string['authpreventaccountcreation'] = 'Impedir a criação de conta ao autenticar';
 $string['authpreventaccountcreation_help'] = 'Quando um usuário se autentica, uma conta no site é automaticamente criada caso ainda não exista. Se um banco de dados externo, como o LDAP, for utilizado para autenticação, mas você deseja restringir o acesso ao site somente para os usuários que já possuam conta, então essa opção deverá ser ativada. Neste caso, novas contas terão de ser criadas manualmente ou por meio do recurso  de upload de usuários. Note que esta definição não se aplica à autenticação MNet.';
 $string['authsettings'] = 'Gerenciar autenticação';
 $string['autolang'] = 'Detecção automática de idioma';
@@ -1097,6 +1097,7 @@ $string['unlockaccount'] = 'Desbloquear a conta';
 $string['unoconvwarning'] = 'A versão do unoconv que esta instalado não é suportado. Recurso de atribuição de classificação Moodle requer a versão 0.7 ou superior.';
 $string['unsettheme'] = 'Tema não definido';
 $string['unsupported'] = 'Não tem suporte';
+$string['unsupporteddbfileformat'] = 'Seu banco de dados possui tabelas usando Antelope como formato de arquivo. O suporte completo da codificação UTF-8 no MySQL e o MariaDB requer o formato do arquivo Barracuda. Converta as tabelas para o formato de arquivo Barracuda. Consulte a documentação <a href="https://docs.moodle.org/en/cli"> Administração via linha de comando </a> para obter detalhes de uma ferramenta para converter tabelas InnoDB para Barracuda.';
 $string['unsupporteddbfilepertable'] = 'Para suporte total ao UTF-8, o MySQL e MariaDB exigem que altere a sua configuração MySQL \'innodb_file_per_table\' para \'ON\'. Consulte a documentação para obter mais detalhes.';
 $string['unsupporteddblargeprefix'] = 'Para suporte total do UTF-8, o MySQL e MariaDB exigem que altere a sua configuração MySQL \'innodb_large_prefix\' para \'ON\'. Consulte a documentação para obter mais detalhes.';
 $string['unsupporteddbstorageengine'] = 'O mecanismo de armazenamento do banco de dados que está em uso não é mais suportado.';

@@ -1,0 +1,26 @@
+case = Teste 1
+input = 15
+24
+60
+output = /.*120/i
+
+case = Teste 2
+grade reduction = 100%
+input = 11
+17
+89
+output = /.*16643/i
+
+case = Teste 3
+grade reduction = 100%
+input = 33
+99
+66
+output = /.*198/i
+
+case = Teste 4
+grade reduction = 100%
+input = 22
+44
+88
+output = /.*88/i

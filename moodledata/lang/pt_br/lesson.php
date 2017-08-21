@@ -334,7 +334,7 @@ $string['lessonopens'] = 'A lição inicia';
 $string['lessonpagelinkingbroken'] = 'A página inicial não foi encontrada. Os links entre as páginas da lição podem estar com problemas. Contate um administrador.';
 $string['lessonstats'] = 'Estatísticas da Lição';
 $string['lesson:viewreports'] = 'Exibir relatórios de aula';
-$string['linkedmedia'] = 'Arquivo multimídia linkado';
+$string['linkedmedia'] = 'Arquivo multimídia vinculado';
 $string['loginfail'] = 'Erro de login, por favor tente novamente...';
 $string['lowscore'] = 'Pontuação baixa';
 $string['lowtime'] = 'Tempo breve';
@@ -387,24 +387,7 @@ $string['maximumnumberofattempts_help'] = '<p>Este valor determina o número má
 $string['maximumnumberofattemptsreached'] = 'Número máximo de tentativas atingido - indo para a próxima página';
 $string['mediaclose'] = 'Mostrar botão de encerramento:';
 $string['mediafile'] = 'Pop-up de arquivo';
-$string['mediafile_help'] = '<p>Isto abre, no início de uma lição, uma nova janela (pop-up) para uma página web ou um arquivo (por exemplo, um arquivo mp3).
-Além disso, um link que reabre a nova janela, se necessário, será adicionado a cada página da lição.</p>
-
-<p>Opcionalmente, a altura e largura da nova janela podem ser definidas e um botão "Fechar Janela" pode ser colocado na parte inferior.</p>
-
-<p>Tipos de arquivo suportados:</p>
-    <ul>
-        <li>MP3</li>
-        <li>Media Player</li>
-        <li>Quicktime</li>
-        <li>Realmedia</li>
-        <li>HTML</li>
-        <li>Plain Text</li>
-        <li>GIF</li>
-        <li>JPEG</li>
-        <li>PNG</li>
-    </ul>
-<p>Outros tipo de formato serão indicados como links para download.</p>';
+$string['mediafile_help'] = 'Um arquivo multimídia pode ser enviado para uso na lição. Um link \'Clique aqui para ver o arquivo multimídia desta lição\' será exibido em um bloco chamado \'Arquivo multimídia vinculado\' em cada página da lição.';
 $string['mediafilepopup'] = 'Clique aqui para ver o arquivo multimídia desta lição';
 $string['mediaheight'] = 'Altura da janela <em>popup</em>:';
 $string['mediawidth'] = 'Largura da janela <em>popup</em>:';

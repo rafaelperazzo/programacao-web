@@ -1,0 +1,22 @@
+case = teste1
+input = 3
+0
+10
+20
+output = '30'
+
+case = teste2
+input = 5
+5
+10
+17
+20
+30
+output = '35'
+
+case = teste3
+input = 3
+1
+2
+3
+output='12'

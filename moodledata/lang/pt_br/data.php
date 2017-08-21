@@ -354,7 +354,7 @@ $string['requiredentries_help'] = '<p align="center"><strong>Itens Obrigatórios
 
 <p>A atividade não será considerada completa antes que o usuário tenha enviado o número requerido de itens</p>';
 $string['requiredentriestoview'] = 'Itens obrigatórios antes da visualização';
-$string['requiredentriestoview_help'] = '<p align="center"><strong>Itens Obrigatórios antes da Permissão de Visualização</strong><p>
+$string['requiredentriestoview_help'] = '<p align="center"><strong>Itens Obrigatórios antes da Permissão de Visualização</strong></p>
 
 <p>O número de itens que um participante deve enviar antes que lhe seja permitido acessar itens criados por outros usuários nesta atividade de banco de dados.</p>';
 $string['requiredfield'] = 'Campo obrigatório';

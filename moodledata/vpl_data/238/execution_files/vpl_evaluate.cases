@@ -1,0 +1,17 @@
+case = Teste 1
+input = 10
+5
+18
+11
+1
+18
+output='C'
+
+case = Teste 2
+input = 10
+5
+18
+11
+2
+18
+output='='

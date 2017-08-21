@@ -1,0 +1,25 @@
+case = Teste 1
+input = 3
+10
+5
+5
+2
+7
+2
+4
+5
+11
+output = 'SIM'
+
+case = Teste 2
+input = 3
+5
+2
+3
+2
+3
+2
+4
+5
+8
+output = 'NAO'

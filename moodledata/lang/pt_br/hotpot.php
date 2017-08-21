@@ -94,7 +94,7 @@ $string['delay2'] = 'Atraso 2';
 $string['delay2_help'] = 'Intervalo mínimo entre tentativas depois da segunda tentativa.';
 $string['delay2summary'] = 'Espaço de tempo entre últimas tentativas';
 $string['delay3'] = 'Atraso 3';
-$string['delay3afterok'] = 'Esperar até os estudantes clicarem em OK';
+$string['delay3afterok'] = 'Esperar até que o estudante clique OK';
 $string['delay3disable'] = 'Não continuar automaticamente';
 $string['delay3_help'] = 'Esta configuração especifica o tempo decorrido entre o término do questionário e o retorno do controle da tela para o Moodle.
 
@@ -226,7 +226,7 @@ $string['exit_index_text'] = 'Ir para o índice das atividades';
 $string['exit_links'] = 'Sair da página de links';
 $string['exit_links_help'] = 'Estas opções ativam e desativam a exibição de certos links de navegação na página de saída de um HotPot .
 
- ** Repetir** : Se forem permitidas tentativas múltiplas neste HotPot e o estudante ainda tem algumas tentativas restantes, um link para permitir que o aluno repita o HotPot será exibido
+ ** Repetir** : Se forem permitidas tentativas múltiplas neste HotPot e o estudante ainda tem algumas tentativas restantes, um link para permitir que o estudante repita o HotPot será exibido
 
  ** Índice ** : Se marcado, um link para a página de índice do HotPot será exibido.
 

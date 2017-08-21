@@ -101,7 +101,7 @@ $string['incompatible_video'] = 'Para ver este vídeo por favor use o link diret
 $string['incorrectlinksid'] = 'ID de Links incorretos';
 $string['incorrectnoteid'] = 'ID de nota incorreto';
 $string['internalaccess'] = 'Acesso interno';
-$string['internalaccessall'] = 'Acesso para <span class=\'block_eportfolio_bold\'>all</span';
+$string['internalaccessall'] = 'Acesso para <span class=\'block_eportfolio_bold\'>all</span>';
 $string['internalaccessgroups'] = 'Acesso apenas para os seguintes grupos';
 $string['internalaccessusers'] = 'Acesso apenas para os seguintes usuários';
 $string['intro'] = 'Conteúdo';

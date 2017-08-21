@@ -404,27 +404,27 @@ $string['gradeboundary'] = 'Limite das notas';
 $string['gradeessays'] = 'Avaliar dissertações';
 $string['gradehighest'] = 'Nota mais alta';
 $string['grademethod'] = 'Método de avaliação';
-$string['grademethod_help'] = '<P>Quando são permitidas diversas tentativas de resposta ao questionário, podem ser configurados 4 modos diversos de cálculo da nota final.
+$string['grademethod_help'] = '<p>Quando são permitidas diversas tentativas de resposta ao questionário, podem ser configurados 4 modos diversos de cálculo da nota final.
 
 <h2>Nota mais alta</h2>
-<UL>
-<P>A nota final é a nota mais alta obtida nas diversas tentativas.
-</UL>
+<ul>
+<li>A nota final é a nota mais alta obtida nas diversas tentativas.</li>
+</ul>
 
 <h2>M&eacute;dia dos resultados</h2>
-<UL>
-<P>A nota final é a média entre as notas de todas as tentativas.
-</UL>
+<ul>
+<li>A nota final é a média entre as notas de todas as tentativas.</li>
+</ul>
 
 <h2>Primeira nota</h2>
-<UL>
-<P>Apenas os resultados da primeira tentativa são considerados.
-</UL>
+<ul>
+<li>Apenas os resultados da primeira tentativa são considerados.</li>
+</ul>
 
 <h2>Última nota</h2>
-<UL>
-<P>Apenas o resultado da última tentativa é considerado..
-</UL>';
+<ul>
+<li>Apenas o resultado da última tentativa é considerado..</li>
+</ul>';
 $string['gradesdeleted'] = 'Excluir notas de questionário';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}.';
 $string['gradingdetails'] = 'Notas relativas a este envio: {$a->raw}/{$a->max}.';
@@ -795,22 +795,23 @@ $string['requirepassword_help'] = '<P>Este campo é opcional</P>
 senha para receberem a permissão para fazer uma tentativa no
 questionário.</P>';
 $string['requiresubnet'] = 'Requer endereço de rede';
-$string['requiresubnet_help'] = '<P>Este campo é opcional.</P>
-<P>Pode-se restringir o acesso a um questionário a sub-redes particulares numa LAN ou
-Internet especificando-se uma lista separada por vírgulas dos endereços IP completos ou parciais.</P>
-<P>Isto é especialmente útil para um questionário pré-determinado ("proctored quiz"), onde se desejar certeza
-que somente as pessoas de uma certa sala estiverem aptas a acessar o questionário.</P>
-<P>Por exemplo: <B>192.168. , 231.54.211.0/20, 231.3.56.211</B></P>
-<P>Existem três tipos de números que podem ser usados (não se podem utilizar nomes de domínios em texto como exemplo.com):
-<OL>
-  <LI>Endereços IP completos, tais como <B>192.168.10.1</B> designarão um simples
-  computador (ou proxy).
-  <LI>Endereços parciais, tais como <B>192.168</B> designarão qualquer um
-  iniciando com estes números.
-  <LI>Notação CIDR, tais como <B>231.54.211.0/20</B> permitirá que se especifiquem
-  sub-redes mais detalhadas. </LI></OL>
+$string['requiresubnet_help'] = '<p>Este campo é opcional.</p>
+<p>Pode-se restringir o acesso a um questionário a sub-redes particulares numa LAN ou
+Internet especificando-se uma lista separada por vírgulas dos endereços IP completos ou parciais.</p>
+<p>Isto é especialmente útil para um questionário pré-determinado ("proctored quiz"), onde se desejar certeza
+que somente as pessoas de uma certa sala estiverem aptas a acessar o questionário.</p>
+<p>Por exemplo: <strong>192.168. , 231.54.211.0/20, 231.3.56.211</strong></p>
+<p>Existem três tipos de números que podem ser usados (não se podem utilizar nomes de domínios em texto como exemplo.com):</p>
+<ol>
+  <li>Endereços IP completos, tais como <strong>192.168.10.1</strong> designarão um simples
+  computador (ou proxy).</li>
+  <li>Endereços parciais, tais como <strong>192.168</strong> designarão qualquer um
+  iniciando com estes números.</li>
+  <li>Notação CIDR, tais como <strong>231.54.211.0/20</strong> permitirá que se especifiquem
+  sub-redes mais detalhadas. </li>
+</ol>
 
-<P>Os espaços são ignorados.</P>';
+<p>Os espaços são ignorados.</p>';
 $string['response'] = 'Resposta';
 $string['responses'] = 'Respostas';
 $string['results'] = 'Resultados';
@@ -832,7 +833,7 @@ $string['reviewofquestion'] = 'Revisão da questão {$a->question} em {$a->quiz}
 $string['reviewopen'] = 'Mais tarde, enquanto ainda estiver aberto';
 $string['reviewoptions'] = 'Estudantes podem fazer revisão';
 $string['reviewoptionsheading'] = 'Opções de revisão';
-$string['reviewoptionsheading_help'] = 'Estas opções controlam quais informações estudantes podem ver quando eles revisam uma tentativa visualizam os relatórios do quiz.</p>
+$string['reviewoptionsheading_help'] = '<p>Estas opções controlam quais informações estudantes podem ver quando eles revisam uma tentativa visualizam os relatórios do quiz.</p>
 
 **Durante a tentativa** é relevante para alguns comportamentos como "interativo com múltiplas tentativas" que pode mostrar o feedback durante a tentativa.
 
@@ -964,21 +965,21 @@ $string['timedelay'] = 'Você ainda não pode resolver este questionário porque
 $string['timeleft'] = 'Tempo restante';
 $string['timelimit'] = 'Limite de tempo';
 $string['timelimitexeeded'] = 'O limite de tempo do questionário foi superado!';
-$string['timelimit_help'] = '<P align=center><STRONG>Tempo Limite</STRONG></P>
-<P>Na configuração padrão os questionários não têm tempo limite, permitindo-se aos estudantes o tempo
-que for necessário para completar o questionário.</P>
-<P>Caso se especifique um tempo limite,  diversas coisas  são feitas para tentar e assegurar
-que os questionários sejam concluídos dentro deste tempo:</P>
-<UL>
-  <LI>O suporte  ao Javascript no navegador torna-se prioritário - isto permite que o
-  contador do tempo trabalhe corretamente.
-  <LI>Uma janela com o contador é mostrada com a contagem regressiva
-  <LI>Quando a contagem terminar, o questionário é submetido automaticamente com
-  as respostas que foram preenchidas até então
-  <LI>Se um estudante tentar enganar o sistema e gastar mais que 60 segundos acima do tempo permitido
+$string['timelimit_help'] = '<p align=center><strong>Tempo Limite</strong></p>
+<p>Na configuração padrão os questionários não têm tempo limite, permitindo-se aos estudantes o tempo
+que for necessário para completar o questionário.</p>
+<p>Caso se especifique um tempo limite,  diversas coisas  são feitas para tentar e assegurar
+que os questionários sejam concluídos dentro deste tempo:</p>
+<ul>
+  <li>O suporte  ao Javascript no navegador torna-se prioritário - isto permite que o
+  contador do tempo trabalhe corretamente.</li>
+  <li>Uma janela com o contador é mostrada com a contagem regressiva</li>
+  <li>Quando a contagem terminar, o questionário é submetido automaticamente com
+  as respostas que foram preenchidas até então</li>
+  <li>Se um estudante tentar enganar o sistema e gastar mais que 60 segundos acima do tempo permitido
   então o questionário é automaticamente avaliado com zero.
-</LI>
-</UL>';
+</li>
+</ul>';
 $string['timelimit_link'] = 'mod/quiz/timing';
 $string['timelimitmin'] = 'Limite de tempo (minutos)';
 $string['timelimitsec'] = 'Limite de tempo (segundos)';
