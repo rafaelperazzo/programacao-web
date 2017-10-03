@@ -1,0 +1,14 @@
+s:789:"<p><strong>1) Dados de Entrada</strong></p>
+<p>Preço do produto: R$ 1599,00</p>
+<p>Número de prestações: 2</p>
+<p>Acréscimo: 7,5%</p>
+<p><strong>2) Saída(s) Esperada(s)</strong></p>
+<p>Valor de cada parcela no caso de pagamento parcelado: R$ 860,00</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p><strong> Usar a fórmula:    <span style="text-decoration:underline;"> Vt + A </span>      ( QUANDO O P≥2)</strong></p>
+<p><strong>                                    P           </strong></p>
+<p><strong>LEGENDA: </strong></p>
+<p><strong>Vt = Valor total do produto</strong></p>
+<p><strong>A = Acréscimo em relação ao Vt</strong></p>
+<p><strong>P = Número de parcelas</strong></p>
+<p> </p>";

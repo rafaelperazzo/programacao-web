@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+#ENTRADA
+n=int(input('Digite um numero: '))
+if n%7!=0:
+    print('NAO E DIVISIVEL POR 7')

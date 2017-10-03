@@ -75,13 +75,13 @@ $string['limitno'] = 'Limite {no}';
 $string['modulename'] = 'Escolha';
 $string['modulename_help'] = 'O módulo escolha permite ao professor fazer uma pergunta e especificar opções de múltiplas respostas.
 
-Resultados da escolha podem ser publicados depois que os alunos responderam, após uma determinada data, ou não.
+Resultados da escolha podem ser publicados depois que os estudantes responderem, após uma determinada data, ou não.
 
 Uma atividade de escolha pode ser usada
 
 * Como uma pesquisa rápida para estimular reflexão sobre um tópico
-* Para testar rapidamente o compreensão dos alunos
-* Para facilitar a tomada de decisões do aluno, por exemplo, permitindo os alunos votarem em uma direção para o curso';
+* Para testar rapidamente o compreensão dos estudantes
+* Para facilitar a tomada de decisões do estudante, por exemplo, permitindo os estudantes votarem em uma direção para o curso';
 $string['modulename_link'] = 'mod/choice/view';
 $string['modulenameplural'] = 'Escolhas';
 $string['moveselectedusersto'] = 'Mova os usuários selecionados para...';
@@ -106,9 +106,9 @@ $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar os resultados ao estudante só depois que ele tiver dado a sua resposta';
 $string['publishafterclose'] = 'Mostrar resultados aos estudantes após o fechamento do período de escolha';
 $string['publishalways'] = 'Mostrar sempre os resultados aos estudantes';
-$string['publishanonymous'] = 'Publicar resultados de forma anônima, sem mostrar o nome do aluno';
-$string['publishnames'] = 'Publicar resultados completos, mostrando os nomes dos alunos e os resultados';
-$string['publishnot'] = 'Não mostrar os resultados aos alunos';
+$string['publishanonymous'] = 'Publicar resultados de forma anônima, sem mostrar o nome do estudante';
+$string['publishnames'] = 'Publicar resultados completos, mostrando os nomes dos estudantes e os resultados';
+$string['publishnot'] = 'Não mostrar os resultados aos estudantes';
 $string['removemychoice'] = 'Remover a minha resposta';
 $string['removeresponses'] = 'Remover todas as respostas';
 $string['responses'] = 'Respostas';

@@ -1,0 +1,32 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 1: Teste 1 (-0.500)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>3
+>0.5
+>0.2
+
+ --- Program output ---
+>Digite o numero de pontos: Sim
+>Nao
+
+ --- Expected output (regular expression)---
+>.*(NAO|N).*
+>.*(SIM|s).*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0.50

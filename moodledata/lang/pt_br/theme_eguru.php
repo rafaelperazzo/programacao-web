@@ -28,11 +28,12 @@ defined('MOODLE_INTERNAL') || die();
 $string['about'] = 'Sobre';
 $string['aboutus'] = 'Sobre Nós';
 $string['address'] = 'Endereço';
+$string['blue'] = 'Azul';
 $string['choosereadme'] = '<div class="clearfix"><div class="theme_screenshot">
 <img class=img-polaroid src="eguru/pix/screenshot.jpg" />
 <h3>Créditos do Tema</h3>
 <p>
-<h3>Tema Moodle Eguru</h3>
+<h3>Tema Eguru para Moodle</h3>
 <p>
 Este tema é baseado no tema Bootstrapbase Moodle.
 </p>
@@ -40,10 +41,14 @@ Este tema é baseado no tema Bootstrapbase Moodle.
 <a href="http://getbootstrap.com">http://getbootstrap.com</a>
 </p>
 <p>
-Autores: Nephzat Dev Team<br>
-Contato: info@nephzat.com<br>
-Site: <a href="http://www.nephzat.com">www.nephzat.com</a><br>
+Autores: LMSACE Dev Team<br>
+Contato: info@lmsace.com<br>
+Site: <a href="http://www.lmsace.com">www.lmsace.com</a><br>
 </p>';
+$string['color_1'] = 'Cor 1';
+$string['color_2'] = 'Cor 2';
+$string['color_3'] = 'Cor 3';
+$string['color_4'] = 'Cor 4';
 $string['colorscheme'] = 'Esquema de Cores';
 $string['color_schemes_heading'] = 'Esquemas de Cores';
 $string['configtitle'] = 'Eguru';
@@ -53,6 +58,8 @@ $string['copyright'] = '<p class="text-center">Copyright © 2015 - Desenvolvido 
 <a href="http://www.nephzat.com/">Nephzat.com</a>. Fornecido por <a href="https://moodle.org">Moodle</a></p>';
 $string['customcss'] = 'CSS Personalizado';
 $string['customcssdesc'] = 'O CSS adicionado nessa caixa de texto refletirá em todas as páginas, facilitando a personalização do tema.';
+$string['dark_cyan'] = 'Ciano Escuro';
+$string['default'] = 'Padrão';
 $string['defaultaddress'] = 'Rua de Exemplo, 26 - Brasília - 72000-000';
 $string['default_color'] = 'Esquema de cores padrão';
 $string['defaultemailid'] = 'info@exemplo.com.br';
@@ -92,10 +99,12 @@ $string['footnotedesc'] = 'O que você digitar nessa caixa de texto será mostra
 $string['frontpageheading'] = 'Página inicial';
 $string['gpurl'] = 'Google+';
 $string['gpurl_default'] = 'https://www.google.com/+seugoogleplus';
-$string['gpurldesc'] = 'O Google+ da sua organização.';
+$string['gpurldesc'] = 'URL do Google+ da sua organização.';
+$string['green'] = 'Verde';
 $string['headerheading'] = 'Topo';
 $string['icon'] = 'Ícone';
 $string['knowmore'] = 'Saiba Mais';
+$string['lavender'] = 'Lavanda';
 $string['link'] = 'Link';
 $string['login'] = 'Login';
 $string['loginheader'] = 'Efetuar login';
@@ -133,6 +142,7 @@ $string['patternselectdesc'] = 'Selecione o esquema de cores do site.';
 $string['pcourseenable'] = 'Habilitar cursos em destaque';
 $string['pcourses'] = 'Cursos em Destaque';
 $string['pcoursesdesc'] = 'Informe os IDs dos cursos em destaque, separados por vírgula.';
+$string['phone'] = 'Telefone';
 $string['phoneno'] = 'Telefone';
 $string['pinurl'] = 'Pinterest';
 $string['pinurl_default'] = 'https://in.pinterest.com/seupinterest/';

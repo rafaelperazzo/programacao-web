@@ -1,0 +1,18 @@
+-Test 2: Test 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 7
+
+ --- Program output ---
+>---------------------------------------
+>Quantos lados tem o polígono?Então o polígono de 7 lados tem 12 diagonais diferentes.
+>---------------------------------------
+
+ --- Expected output (regular expression)---
+>.*14[.]*[0]*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+

@@ -35,8 +35,7 @@ $string['adaptive_help'] = 'Se ativado, várias respostas a uma pergunta são pe
 $string['add'] = 'Adicionar';
 $string['addaquestion'] = 'uma nova questão';
 $string['addarandomquestion'] = 'uma pergunta aleatória';
-$string['addarandomquestion_help'] = 'Quando uma pergunta aleatória é adicionada, isso resulta em uma questão escolhida aleatoriamente a partir da categoria que está sendo inserida no questionário. Isto significa que diferentes alunos poderão receber uma seleção diferente de perguntas, e quando um questionário permite várias tentativas, para cada uma delas é possível conter uma nova seleção de perguntas.
-';
+$string['addarandomquestion_help'] = 'Quando uma pergunta aleatória é adicionada, isso resulta em uma questão escolhida aleatoriamente a partir da categoria que está sendo inserida no questionário. Isto significa que diferentes estudantes poderão receber uma seleção diferente de perguntas, e quando um questionário permite várias tentativas, para cada uma delas é possível conter uma nova seleção de perguntas.';
 $string['addarandomselectedquestion'] = 'Adicionar uma questão aleatória';
 $string['addasection'] = 'Novo título da seção';
 $string['adddescriptionlabel'] = 'Adicionar um item de descrição';
@@ -107,11 +106,11 @@ $string['attemptsexist'] = 'Este questionário já foi respondido';
 $string['attemptsnum'] = 'Tentativas: {$a}';
 $string['attemptsnumthisgroup'] = 'Tentativas: {$a->total} ({$a->group} deste grupo)';
 $string['attemptsnumyourgroups'] = 'Tentativas: {$a->total} ({$a->group} do seu grupo)';
-$string['attemptsonly'] = 'Mostrar apenas alunos com tentativas realizadas';
+$string['attemptsonly'] = 'Mostrar apenas estudantes com tentativas realizadas';
 $string['attemptstate'] = 'Estado';
-$string['attemptstillinprogress'] = 'Tentativa ainda em andamento';
+$string['attemptstillinprogress'] = 'Tentativa em andamento';
 $string['attemptsunlimited'] = 'Tentativas ilimitadas';
-$string['autosaveperiod'] = 'Período de salvamento automático';
+$string['autosaveperiod'] = 'Intervalo de tempo para salvamento automático';
 $string['autosaveperiod_desc'] = 'As respostas dos alunos podem ser salvas automaticamente a cada minuto, durante as tentativas do quiz. Trata-se de um trade-off: salvar as respostas aumenta a carga do servidor, mas reduz a chance dos alunos perdem o seu trabalho.';
 $string['back'] = 'Voltar à visualização prévia da questão';
 $string['backtocourse'] = 'Voltar ao curso';
@@ -119,11 +118,11 @@ $string['backtoquestionlist'] = 'Voltar à Lista de Questões';
 $string['backtoquiz'] = 'Voltar para edição do questionário';
 $string['basicideasofquiz'] = 'As ideias básicas da construção do questionário';
 $string['bestgrade'] = 'Melhor nota';
-$string['bothattempts'] = 'Mostrar alunos com e sem tentativas';
+$string['bothattempts'] = 'Mostrar estudantes com e sem tentativas';
 $string['browsersecurity'] = 'Segurança do navegador';
 $string['browsersecurity_help'] = 'Se a opção "Tela cheia pop-up com segurança JavaScript" estiver selecionada,
 
- * O teste só vai começar se o aluno tem um JavaScript habilitado no navegador.
+* O teste só vai começar se o estudante tem um JavaScript habilitado no navegador.
 * O questionário aparece em uma janela <em>pop-up</em> em tela cheia, que abrange todas as outras janelas e não tem controles de navegação
  * Estudantes são impedidos, na medida do possível, de usar os recursos como copiar e colar.';
 $string['calculated'] = 'Calculado';
@@ -152,10 +151,10 @@ $string['cannotstartmissingquestion'] = 'Não foi possivel iniciar tentativa par
 $string['cannotstartnoquestions'] = 'Não é possível iniciar uma tentativa neste questionário. O questionário não foi configurado ainda. Nenhuma questão foi adicionada.';
 $string['cannotwrite'] = 'Impossível escrever arquivo de exportação ({$a})';
 $string['canredoquestions'] = 'Permitir refazer dentro de uma tentativa';
-$string['canredoquestions_desc'] = 'Se ativado, quando os alunos terminarem a tentativa de uma questão específica, eles verão um botão Refazer questão. Isso permite que eles tentem uma outra versão da mesma questão, sem ter de submeter toda a tentativa do questionário e começar outro. Essa opção é útil principalmente para testes de prática.
+$string['canredoquestions_desc'] = 'Se habilitado, quando os estudantes terminarem a tentativa de uma questão específica, eles verão um botão Refazer questão. Isso permite que eles tentem uma outra versão da mesma questão, sem ter de submeter toda a tentativa do questionário e começar outro. Essa opção é útil principalmente para testes de prática.
 
 Esta configuração afeta somente questões (por exemplo questões não dissertativas) e comportamentos (por exemplo, feedback imediato, ou interativo com várias tentativas), onde é posível ao estudante finalizar a questão antes da tentativa ser submetida.';
-$string['canredoquestions_help'] = 'Se ativado, quando os alunos terminarem a tentativa de uma questão específica, eles verão um botão Refazer questão. Isso permite que eles tentem uma outra versão da mesma questão, sem ter de submeter toda a tentativa do questionário e começar outro. Essa opção é útil principalmente para testes de prática.
+$string['canredoquestions_help'] = 'Se habilitado, quando os estudantes terminarem a tentativa de uma questão específica, eles verão um botão Refazer questão. Isso permite que eles tentem uma outra versão da mesma questão, sem ter de submeter toda a tentativa do questionário e começar outro. Essa opção é útil principalmente para testes de prática.
 
 Esta configuração afeta somente questões (por exemplo questões não dissertativas) e comportamentos (por exemplo, feedback imediato, ou interativo com várias tentativas), onde é posível ao estudante finalizar a questão antes da tentativa ser submetida.';
 $string['canredoquestionsyes'] = 'Estudantes podem refazer uma outra versão de qualquer questão finalizada';
@@ -176,9 +175,9 @@ $string['commentorgrade'] = 'Faça um comentário ou modifique a avaliação';
 $string['comments'] = 'Comentários';
 $string['completedon'] = 'Concluída em';
 $string['completionattemptsexhausted'] = 'Todas as tentativas disponíveis concluídas';
-$string['completionattemptsexhausted_help'] = 'Marcar questionário como completo quando o aluno tiver esgotado o número máximo de tentativas.';
+$string['completionattemptsexhausted_help'] = 'Marcar questionário como completo quando o estudante tiver esgotado o número máximo de tentativas.';
 $string['completionpass'] = 'Exigir nota de aprovação';
-$string['completionpass_help'] = 'Se habilitado, esta atividade é considerada completa quando o aluno receber uma nota superior à de aprovação definida no livro de notas.';
+$string['completionpass_help'] = 'Se habilitado, esta atividade é considerada completa quando o estudante receber uma nota superior à de aprovação definida no livro de notas.';
 $string['configadaptive'] = 'Se você escolher \'Sim\' para esta opção, então   será permitido ao estudante a utilização de múltiplas respostas a uma pergunta até mesmo em uma mesma tentativa do questionário.
 ';
 $string['configattemptsallowed'] = 'Restrições no número de tentativas que estudantes tem permissão no questionário.';
@@ -187,8 +186,7 @@ $string['configdecimalplaces'] = 'Quantidade de dígitos que devem ser mostrados
 $string['configdecimalplacesquestion'] = 'Quantidade de dígitos que devem ser mostrados após o ponto decimal ao exibir a série para as perguntas individuais.
 ';
 $string['configdelay1'] = 'Se você definir um intervalo de tempo, então um estudante tem que esperar que o tempo antes que eles podem tentar um teste após a primeira tentativa.';
-$string['configdelay1st2nd'] = 'Se você definir aqui um tempo, o aluno não pode iniciar a sua segunda tentativa, até que esse tempo tenha se passado desde o final da primeira tentativa.
-';
+$string['configdelay1st2nd'] = 'Se você definir aqui um tempo, o estudante não pode iniciar a sua segunda tentativa, até que esse tempo tenha se passado desde o final da primeira tentativa.';
 $string['configdelay2'] = 'Se você definir um período de tempo aqui, então um estudante tem que esperar que o tempo antes que eles possam tentar as suas tentativas de terceiros ou posterior.';
 $string['configdelaylater'] = 'Se você definir aqui um tempo, o aluno não pode iniciar a sua terceira, quarta ... tentativa até que este tempo tenha passado desde o fim da tentativa anterior.';
 $string['configeachattemptbuildsonthelast'] = 'Se forem permitidas tentativas múltiplas, então cada nova tentativa contém o resultado da anterior.';
@@ -271,11 +269,7 @@ $string['dragtoafter'] = 'Após {$a}';
 $string['dragtostart'] = 'Para o início';
 $string['duplicateresponse'] = 'Esta tentativa foi ignorada porque você já deu uma resposta idêntica em data anterior.';
 $string['eachattemptbuildsonthelast'] = 'Cada tentativa se baseia na última';
-$string['eachattemptbuildsonthelast_help'] = '<P>Caso forem permitidas tentativas múltiplas e esta opção for colocada em <B>Sim</B>, então
-cada nova tentativa contém o resultado da tentativa anterior. Isto permite que o questionário seja
-concluído após várias tentativas.</P>
-<P>Para mostrar um questionário vazio em cada tentativa, seleciona-se <B>Não</B> para esta
-opção.</P>';
+$string['eachattemptbuildsonthelast_help'] = 'Se o questionário permitir múltiplas tentativas e esta configuração estiver habilitada, cada nova tentativa do questionário conterá os resultados da tentativa anterior. Isso permite que um questionário seja finalizado em várias tentativas.';
 $string['editcategories'] = 'Editar categorias';
 $string['editcategory'] = 'Editar categoria';
 $string['editcatquestions'] = 'Editar questões da categoria';
@@ -427,6 +421,8 @@ $string['grademethod_help'] = '<p>Quando são permitidas diversas tentativas de 
 </ul>';
 $string['gradesdeleted'] = 'Excluir notas de questionário';
 $string['gradesofar'] = '{$a->method}: {$a->mygrade} / {$a->quizgrade}.';
+$string['gradetopassmustbeset'] = 'A nota de aprovação não pode ser zero, pois o critério de conclusão para este questionário exige nota de aprovação. Defina um valor diferente de zero.';
+$string['gradetopassnotset'] = 'Não foi configurada uma nota de aprovação neste questionário, logo esta opção não pode ser utilizada.';
 $string['gradingdetails'] = 'Notas relativas a este envio: {$a->raw}/{$a->max}.';
 $string['gradingdetailsadjustment'] = 'Considerando as penalidades: <strong>{$a->cur}/{$a->max}</strong>.';
 $string['gradingdetailspenalty'] = 'Penalidade de {$a} neste envio';
@@ -464,7 +460,7 @@ $string['infoshort'] = 'i';
 $string['initialnumfeedbacks'] = 'Número inicial de campos de feedbacks globais';
 $string['initialnumfeedbacks_desc'] = 'Ao criar um novo questionário, são fornecidas muitas caixas de feedback global em branco. Uma vez que o questionário foi criado, o formulário mostra o número de campos obrigatórios para o número de feedbacks do questionário. O ajuste deve ser de pelo menos 1';
 $string['inprogress'] = 'Em andamento';
-$string['introduction'] = 'Introdução';
+$string['introduction'] = 'Descrição';
 $string['invalidattemptid'] = 'Não existe a identificação desta tentativa.';
 $string['invalidcategory'] = 'O ID da categoria é inválido';
 $string['invalidoverrideid'] = 'Identificação inválida de sobreposição';
@@ -513,6 +509,7 @@ $string['multichoice'] = 'Múltipla Escolha';
 $string['multipleanswers'] = 'Escolha pelo menos uma resposta.';
 $string['mustbesubmittedby'] = 'Esta tentativa precisa ser enviada até {$a}.';
 $string['name'] = 'Nome';
+$string['navigatenext'] = 'Próxima página';
 $string['navigateprevious'] = 'Página anterior';
 $string['navmethod'] = 'Método de navegação';
 $string['navmethod_free'] = 'Livre';
@@ -608,7 +605,7 @@ Limite de notas: 0%</p>
 $string['overdue'] = 'Expirado';
 $string['overduehandling'] = 'Quando o tempo expirar';
 $string['overduehandlingautoabandon'] = 'Tentativas devem ser submetidas antes que o tempo expire ou elas não serão contabilizadas';
-$string['overduehandlingautosubmit'] = 'a tentativa é enviada automaticamente';
+$string['overduehandlingautosubmit'] = 'As tentativas abertas são enviadas automaticamente';
 $string['overduehandling_desc'] = 'O que deveria acontecer por padrão se um aluno não enviar o questionário antes de o tempo expirar.';
 $string['overduehandlinggraceperiod'] = 'há um período de carência no qual a tentativa pode ser enviada, mas não é possível modificar questões';
 $string['overduehandling_help'] = 'Esta configuração controla o que acontece se o aluno não envia sua tentativa questionário antes do tempo expirar. Se o aluno está trabalhando ativamente no questionário, no momento, então a contagem regressiva irá sempre enviar automaticamente a tentativa para eles, mas se eles deslogare, então essa configuração controla o que acontece.';
@@ -865,6 +862,7 @@ $string['savingnewgradeforquestion'] = 'Salvando nova nota para a questão de id
 $string['savingnewmaximumgrade'] = 'Salvando nova nota máxima.';
 $string['score'] = 'Classificação';
 $string['scores'] = 'Notas';
+$string['search:activity'] = 'Quiz - informação sobre a atividade';
 $string['sectionheadingedit'] = 'Editar título \'{$a}\'';
 $string['sectionheadingremove'] = 'Remover título \'{$a}\'';
 $string['seequestions'] = '(ver questões)';
@@ -904,7 +902,7 @@ $string['showuserpicture_help'] = 'Se ativado, o nome do aluno e a sua fotografi
 $string['shuffle'] = 'Misturar';
 $string['shuffleanswers'] = 'Misturar as respostas';
 $string['shuffledrandomly'] = 'Embaralhar aleatoriamente';
-$string['shufflequestions'] = 'Misturar as perguntas';
+$string['shufflequestions'] = 'Misturar as questões';
 $string['shufflequestions_help'] = 'Se você ativar, então cada vez que o questionário for respondido, a ordem das questões nesta seção será embaralhada de forma aleatórida diferente.
 
 Isto pode dificultar para os estudantes compartilharem respostas, mas também torna mais difícil para os estudantes discutir uma questão específica com você.';

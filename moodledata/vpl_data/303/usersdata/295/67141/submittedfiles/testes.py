@@ -1,0 +1,1 @@
+print("as quatro notas sao %d" %(nota,nota,nota,nota,media))

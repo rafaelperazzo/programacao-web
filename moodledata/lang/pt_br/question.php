@@ -190,16 +190,16 @@ $string['flagthisquestion'] = 'Marcar esta pergunta';
 $string['formquestionnotinids'] = 'O formulário continha questões que não estavam entre os questionids';
 $string['fractionsnomax'] = 'Uma das respostas deve ter valor de 100% para que seja possível obter a nota total.';
 $string['generalfeedback'] = 'Feedback geral';
-$string['generalfeedback_help'] = 'Feedback geral é mostrado ao aluno após ele completar a tentativa da. Diferentemente do feedback, que depende do tipo de questão e da resposta que o aluno deu, o mesmo feedback geral aparece para todos os alunos.
+$string['generalfeedback_help'] = 'Feedback geral é mostrado ao estudante após ele completar a questão. Diferentemente do feedback, que depende do tipo de questão e da resposta do estudante , o mesmo feedback geral aparece para todos os estudantes.
 
-Você pode usar o feedback geral para dar aos alunos algumas informações sobre o tipo de conhecimento que a questão está testando, ou dá-los um link com mais informações que eles possam usar caso não tenham entendido a questão.';
+Você pode usar o feedback geral para dar aos estudantes algumas informações sobre o tipo de conhecimento que a questão está testando, ou dá-los um link com mais informações que eles possam usar caso não tenham entendido a questão.';
 $string['getcategoryfromfile'] = 'Tirar categoria do arquivo';
 $string['getcontextfromfile'] = 'Tirar contexto do arquivo';
 $string['hintn'] = 'Dica {no}';
 $string['hintnoptions'] = 'Dica {no} opções';
 $string['hinttext'] = 'Texto da dica';
 $string['howquestionsbehave'] = 'Como se comportam as questões';
-$string['howquestionsbehave_help'] = 'Alunos podem interagir com as questões no questionário de várias formas. Por exemplo, você pode querer que os alunos dêem uma resposta para todas as questões e depois submetam o questionário inteiro, antes de ser avaliado ou receber qualquer feedback. Esse é o modo \'Feedbak adiado\'. Alternativamente, você pode querer que seus alunos submetam cada questão à medida que eles avançam para receber feedback imediato, e se eles não acertarem de primeira, tenham outra chance por uma pontuação menor. Esse é o modo \'Interativo com múltiplas tentativas\'.';
+$string['howquestionsbehave_help'] = 'Estudantes podem interagir com as questões no questionário de várias formas. Por exemplo, você pode querer que os alunos dêem uma resposta para todas as questões e depois submetam o questionário inteiro, antes de ser avaliado ou receber qualquer feedback. Esse é o modo \'Feedbak adiado\'. Alternativamente, você pode querer que seus estudantes submetam cada questão à medida que eles avançam para receber feedback imediato, e se eles não acertarem de primeira, tenham outra chance por uma pontuação menor. Esse é o modo \'Interativo com múltiplas tentativas\'.';
 $string['howquestionsbehave_link'] = 'question/behaviour';
 $string['ignorebroken'] = 'Ignorar links quebrados';
 $string['import'] = 'Importação';

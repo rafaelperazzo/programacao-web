@@ -68,6 +68,7 @@ $string['region-side-pre'] = 'Esquerda';
 $string['secondarybackground'] = 'Cor de fundo secundária';
 $string['secondarybackground_desc'] = 'A cor de fundo de qualquer conteúdo secundário como os blocos.';
 $string['sitelogo'] = 'Logotipo do site';
+$string['sitename'] = 'Mostrar o nome do site junto com logotipo pequeno';
 $string['smalllogo'] = 'Logotipo pequeno';
 $string['textcolor'] = 'Cor do texto';
 $string['textcolor_desc'] = 'A cor do texto';

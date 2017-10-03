@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+import math
+#ENTRADA
+n = int(input('Digite o valor de n: '))
+SOMA = 0
+num = 1
+den = n
+if (n<0) :
+    n=-n
+while (num<=n) :
+    SOMA = SOMA+(num/den)
+    num = num+1
+    den = den - i
+print('%.5f' % SOMA)
+

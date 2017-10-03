@@ -37,7 +37,7 @@ $string['actionaftercorrectanswer_help'] = '<p>A ação padrão é seguir confor
 <p>Em cada tipo de lições Flash Card, o professor pode decidir usar todos os Cards/Páginas na lição ou escolher um subconjunto (aleatório). Isso pode ser definido no parâmetro "Número de Páginas (fichas) a serem mostradas" .</p>';
 $string['actions'] = 'Ações';
 $string['activitylink'] = 'Link para a próxima atividade';
-$string['activitylink_help'] = '<p>A caixa de selação contém todas as atividades deste curso. Se uma estiver selecionada, então um link para esta atividade aparecerá no final da Lição.</p>';
+$string['activitylink_help'] = 'Para inserir um link no final da lição para outra atividade deste curso, selecione esta atividade na caixa de seleção.';
 $string['activitylinkname'] = 'Vai a {$a}';
 $string['activityoverview'] = 'Você tem aulas que são devidas';
 $string['addabranchtable'] = 'Inserir página com painel de navegação';
@@ -159,9 +159,8 @@ $string['deletepagenamed'] = 'Excluir página: {$a}';
 $string['deleting'] = 'Excluindo';
 $string['deletingpage'] = 'Excluindo página: {$a}';
 $string['dependencyon'] = 'Dependente de';
-$string['dependencyon_help'] = '<p>Este parâmetro possibilita que esta lição dependa do desempenho do aluno em outra
-lição do mesmo curso. Se as exigências de desempenho não forem atingidas, o aluno
-não terá acesso a esta lição.</p>
+$string['dependencyon_help'] = '<p>Este parâmetro possibilita que esta lição seja dependente do desempenho do estudante em outra
+lição do mesmo curso.</p>
 
 <p>As condições para a dependência incluem:
     <ul>
@@ -266,7 +265,7 @@ $string['handlingofretakes'] = 'Calculando o resultado das tentativas';
 $string['handlingofretakes_help'] = '<p>Quando são habilitadas novas tentativas na lição, esta opção permite que
     o professor mostre a nota para a lição, por exemplo, na página de Notas,
     tanto como a <b>média</b>, isto é, média aritmética das notas da primeira
-    tentativa e subsequentes, ou como a nota obtida nas <b>melhores</b> tentativas dos alunos.</p>
+    tentativa e subsequentes, ou como a nota obtida nas <b>melhores</b> tentativas dos estudantes.</p>
 
 <p>Esta opção pode ser mudada a qualquer momento.</p>';
 $string['havenotgradedyet'] = 'Ainda não foi avaliado.';
@@ -346,7 +345,7 @@ $string['maxgrade'] = 'Avaliação máxima';
 $string['maxgrade_help'] = '<p>Este valor determina a nota máxima que pode ser obtida na Lição.
     O intervalo é de 0 a 100%. Este valor pode ser mudado a qualquer momento durante a
 lição. Qualquer mudança tem um efeito imediato na página de Notas e nas
-notas mostradas aos alunos em várias listas. Se a nota for fixada em 0
+notas mostradas aos estudantes em várias listas. Se a nota for fixada em 0
 a Lição não aparece em nenhum dos relatórios de Notas.</p>';
 $string['maxhighscores'] = 'Número de pontuações altas visualizado';
 $string['maximumnumberofanswersbranches'] = 'Número máximo de respostas/seções';
@@ -409,7 +408,7 @@ $string['modattempts'] = 'Permitir revisão pelo estudante';
 $string['modattempts_help'] = '<p>Isto permitirá que o estudante volte atrás na lição, caso queira mudar suas respostas.</p>';
 $string['modattemptsnoteacher'] = 'A revisão dos estudantes só é ativa para eles.';
 $string['modulename'] = 'Lição';
-$string['modulename_help'] = 'Uma lição publica o conteúdo em um modo interessante e flexível. Ela consiste em um certo número de páginas. Cada página, normalmente, termina com uma questão e uma série de possíveis respostas. Dependendo da resposta escolhida pelo aluno, ou ele passa para a próxima página ou é levado de volta para uma página anterior. A navegação através da lição pode ser direta ou complexa, dependendo em grande parte da estrutura do material que está sendo apresentado.';
+$string['modulename_help'] = 'Uma lição publica o conteúdo em um modo interessante e flexível. Ela consiste em um certo número de páginas. Cada página, normalmente, termina com uma questão e uma série de possíveis respostas. Dependendo da resposta escolhida pelo estudante, ou ele passa para a próxima página ou é levado de volta para uma página anterior. A navegação através da lição pode ser direta ou complexa, dependendo em grande parte da estrutura do material que está sendo apresentado.';
 $string['modulename_link'] = 'mod/lesson/view';
 $string['modulenameplural'] = 'Lições';
 $string['move'] = 'Mais páginas';
@@ -469,7 +468,7 @@ $string['numberofcorrectanswers'] = 'Número de respostas corretas: {$a}';
 $string['numberofcorrectanswersheader'] = 'Número de respostas corretas';
 $string['numberofcorrectmatches'] = 'Número de associações corretas: {$a}';
 $string['numberofpagestoshow'] = 'Número  de páginas (fichas) a serem mostradas';
-$string['numberofpagestoshow_help'] = '<p>Este parâmetro somente é usado em lições do tipo Fichas "Resumo" (Flash cards). O valor padrão é zero, o que significa que todas as Páginas/Fichas são mostradas em uma lição. Fixando o parâmetro com um valor diferente de zero mostra esse número de páginas. Após esse número de Páginas/Fichas terem sido mostradas, o fim da lição é alcançado e a nota é mostrada ao aluno.</p>
+$string['numberofpagestoshow_help'] = '<p>Este parâmetro somente é usado em lições do tipo Fichas "Resumo" (Flash cards). O valor padrão é zero, o que significa que todas as Páginas/Fichas são mostradas em uma lição. Fixando o parâmetro com um valor diferente de zero mostra esse número de páginas. Após esse número de Páginas/Fichas terem sido mostradas, o fim da lição é alcançado e a nota é mostrada ao estudante.</p>
 
 <p>Se este parâmetro for fixado em um valor maior que o número de páginas na lição, então o final da lição é atingido quando todas as páginas tiverem sido mostradas.</p>';
 $string['numberofpagesviewed'] = 'Número de páginas vistas: {$a}';
@@ -478,8 +477,8 @@ $string['numberofpagesviewednotice'] = 'Número de questões respondidas {$a->nq
 $string['numerical'] = 'Numérico';
 $string['ongoing'] = 'Visualizar pontuação corrente';
 $string['ongoingcustom'] = 'Esta lição corresponde a {$a->score} pontos. Você recebeu {$a->score} ponto(s) de um total de {$a->currenthigh} pontos até agora.';
-$string['ongoing_help'] = '<p>Com isto ativado, cada página mostrará os pontos acumulados até este momento pelo aluno,
-    em relação ao total possível ao final. Por exemplo: um aluno respondeu quatro questões de
+$string['ongoing_help'] = '<p>Com isto ativado, cada página mostrará os pontos acumulados até este momento pelo estudante,
+    em relação ao total possível ao final. Por exemplo: um estudante respondeu quatro questões de
     5 pontos e respondeu uma incorretamente. Na Pontuação Atual aparecerá que ele ganhou
     até o momento 15/20 pontos.</p>';
 $string['ongoingnormal'] = 'Você respondeu corretamente {$a->correct} questões de um total de {$a->viewed} .';
@@ -625,7 +624,7 @@ $string['usepassword'] = 'Lição protegida por senha';
 $string['usepassword_help'] = '<p>Isto bloqueará o acesso dos estudantes à lição a menos que digitem a senha..</p>';
 $string['useroverrides'] = 'Sobreposições de usuários';
 $string['useroverridesdeleted'] = 'Sobreposições de usuário excluídas';
-$string['usersnone'] = 'Nenhum aluno tem acesso a esta lição';
+$string['usersnone'] = 'Nenhum estudante tem acesso a esta lição';
 $string['viewgrades'] = 'Ver notas';
 $string['viewhighscores'] = 'Ver lista dos melhores resultados';
 $string['viewreports'] = 'Ver {$a->attempts} {$a->student} tentativas completas';

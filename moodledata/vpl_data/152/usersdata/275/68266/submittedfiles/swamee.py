@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+import math
+#COMECE SEU CÓDIGO AQUI
+#ENTRADA
+f= float(input('Digite f:'))
+l= float(input('Digite l:'))
+q= float(input('Digite q:'))
+dh= float(input('Digite dh:'))
+v= float(input('Digite v:'))
+d= ((8*f*l*q**2)/math.pi**2*9.81*dh)**1/2
+rey= (4*q)/(3.1416*d*v)
+k= 0.25/(math.log10(0.000002)/(3.7*d)+5.74/(rey**0.9))**2
+print(d)
+print(rey)
+print(k)

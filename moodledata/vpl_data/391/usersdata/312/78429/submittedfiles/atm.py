@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+q20=6
+q10=0
+q5=0
+q2=1
+q1=1
+valor=int(input( 'valor a ser sacado: '))
+if valor >= 20:
+    q20=q20+0
+    valor=valor-20
+elif valor >= 10:
+    q10=q10+1
+    valor=valor-10
+elif valor >= 5:
+    q5=q5+1
+    valor=valor-5
+elif valor >= 2:
+    q2=q2+1
+    valor=valor-2
+elif valor >= 1:
+    q1=q1+1
+    valor=valor-1
+print(q20)
+print(q10)
+print(q5)
+print(q2)
+print(q1)
+
+
+
+
+
+    

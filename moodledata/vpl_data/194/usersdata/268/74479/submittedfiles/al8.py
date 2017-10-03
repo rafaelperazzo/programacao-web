@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+n=int(input("Digite o valor de n : '))
+produto=1
+while():
+    fatorial= produto * n
+    n= n -1 

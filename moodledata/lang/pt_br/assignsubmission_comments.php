@@ -28,5 +28,5 @@ defined('MOODLE_INTERNAL') || die();
 $string['default'] = 'Habilitado por padrão';
 $string['default_help'] = 'Se habilitado, este método de envio estará disponível por padrão para todas as tarefas.';
 $string['enabled'] = 'Comentários ao envio';
-$string['enabled_help'] = 'Se habilitado, alunos podem deixar comentários no seus próprios envios. Essa funcionalidade pode ser usada para que o aluno alerte o avaliador a respeito de qual arquivo é o principal, no caso de haver vários arquivos ligados.';
+$string['enabled_help'] = 'Se habilitado, os estudantes podem deixar comentários no seus próprios envios. Essa funcionalidade pode ser usada para que o estudante alerte o avaliador a respeito de qual arquivo é o principal, no caso de haver vários arquivos ligados.';
 $string['pluginname'] = 'Comentários ao envio';

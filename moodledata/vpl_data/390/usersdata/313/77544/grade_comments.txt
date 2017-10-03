@@ -1,0 +1,22 @@
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+> digite o valor de a  digite o valor de b digite o valor de c SRR
+>Traceback (most recent call last):
+>  File "ex1.py", line 14, in <module>
+>    x1 = (-b+delta**0.5)/2*a
+>ValueError: negative number cannot be raised to a fractional power
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

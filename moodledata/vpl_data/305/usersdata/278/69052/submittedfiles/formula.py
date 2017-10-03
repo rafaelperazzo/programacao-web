@@ -1,0 +1,6 @@
+P = float(input("Digite P: "))
+print("P eh %.2f" %(P))
+i = float(input("Digite i: "))
+n = float(input("Digite n: "))
+v = float(input((P*((1+i)**n)-1)/i))
+print("O v eh %.2f" %(v))

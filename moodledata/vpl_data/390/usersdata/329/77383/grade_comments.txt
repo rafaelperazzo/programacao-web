@@ -1,0 +1,41 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>  File "ex1.py", line 17
+>    x1 = (-b)+(/(2*a))
+>               ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>  File "ex1.py", line 17
+>    x1 = (-b)+(/(2*a))
+>               ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

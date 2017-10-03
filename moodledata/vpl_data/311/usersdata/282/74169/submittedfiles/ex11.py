@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+Dia1 = int(input('Digite o primeiro dia: '))
+Mes1 = int(input('Digite o primeiro mês: '))
+Ano1 = int(input('Digite o primeiro ano: '))
+print('\n')
+Dia2 = int(input('Digite o segundo dia: '))
+Mes2 = int(input('Digite o segundo mes: '))
+Ano2 = int(input('Digite o segundo ano: '))
+print('\n')
+Data1 = Dia1 Mes1 Ano1
+Data2 = Dia2 Mes2 Ano2
+print(Data1)
+print(Data2)

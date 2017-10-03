@@ -48,8 +48,8 @@ $string['appointment'] = 'Compromisso';
 $string['appointmentmode'] = 'Configurando o modo de compromisso';
 $string['appointmentmode_help'] = '<p> Você pode escolher aqui algumas variantes na forma como os compromissos podem ser tomados. </p>
 <p><ul>
-<li><strong> "<emph>n</emph> compromissos neste organizador": </strong> O estudante só pode reservar um número fixo de compromissos nesta atividade. Mesmo se o professor os marca como "visto", eles não serão autorizados a reservar mais reuniões. A única maneira de restaurar a capacidade de um aluno para reservar é excluir os antigos registros "visto". </Li>
-<li><strong>"<emph>n</emph> compromissos em um momento": </strong> O aluno pode reservar um número fixo de compromissos. Quando a reunião acabou e que o professor tem marcado o aluno como "visto", o estudante pode fazer novas nomeações. No entanto, o estudante é limitado a <emph>n</emph> slots "abertos" (não vistos), em determinado momento.
+<li><strong> "<emph>n</emph> compromissos neste organizador": </strong> O estudante só pode reservar um número fixo de compromissos nesta atividade. Mesmo se o professor os marca como "visto", eles não serão autorizados a reservar mais reuniões. A única maneira de restaurar a capacidade de um estudante para reservar é excluir os antigos registros "visto". </Li>
+<li><strong>"<emph>n</emph> compromissos em um momento": </strong> O estudante pode reservar um número fixo de compromissos. Quando a reunião acabou e que o professor tem marcado o estudante como "visto", o estudante pode fazer novas nomeações. No entanto, o estudante é limitado a <emph>n</emph> slots "abertos" (não vistos), em determinado momento.
 </li>
 </ul>
 </p>';
@@ -66,7 +66,7 @@ $string['areateachernote'] = 'Arquivos em comentários confidenciais';
 $string['attendable'] = 'Apto';
 $string['attendablelbl'] = 'Total de candidatos para agendamento';
 $string['attended'] = 'Atendido';
-$string['attendedlbl'] = 'Quantidade de alunos atendidos';
+$string['attendedlbl'] = 'Quantidade de estudantes atendidos';
 $string['attendedslots'] = 'Slots atendidos';
 $string['availableslots'] = 'Slots disponíveis';
 $string['availableslotsall'] = 'Todos os slots';
@@ -104,7 +104,7 @@ $string['contentformat_help'] = '<p>Existem três escolhas básicas para o forma
          <dt>Uma linha por slot</dt>:
          <dd>
              O arquivo de saída conterá uma linha para cada slot. Se um slot contiver múltiplos compromissos, então ao invés
-			 do nome do aluno, etc., um marcador "(múltiplo)" será mostrado.
+			 do nome do estudante, etc., um marcador "(múltiplo)" será mostrado.
          </dd>
          <dt>Uma linha por compromisso</dt>:
          <dd>
@@ -141,26 +141,26 @@ $string['deletetheseslots'] = 'Excluir esses slots';
 $string['deleteunusedslots'] = 'Excluir meus slots não utilizados';
 $string['department'] = 'De onde?';
 $string['disengage'] = 'Excluir todos os meus compromissos';
-$string['displayfrom'] = 'Mostrar compromissos para alunos de';
+$string['displayfrom'] = 'Mostrar compromissos para estudantes de';
 $string['distributetoslot'] = 'Distribuir para o grupo inteiro';
 $string['divide'] = 'Dividir entre slots?';
 $string['duration'] = 'Duração';
 $string['durationrange'] = 'Duração de slot deve estar entre {$a->min} e {$a->max} minutos.';
 $string['email_applied_html'] = '<p>Um compromisso foi aplicado em {$a->date} às {$a->time},<br/>
-pelo aluno <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:</p>
+pelo estudante <a href="{$a->attendee_url}">{$a->attendee}</a> para o curso:</p>
 
 <p>{$a->course_short}: <a href="{$a->course_url}">{$a->course}</a></p>
 
 <p>usando o organizador intitulado "<em>{$a->module}</em>" no website: <a href="{$a->site_url}">{$a->site}</a>.</p>';
 $string['email_applied_plain'] = 'Um compromisso foi aplicado em {$a->date} às {$a->time},
-pelo aluno {$a->attendee} para o curso:
+pelo estudante {$a->attendee} para o curso:
 
 {$a->course_short}: {$a->course}
 
 usando o organizador intitulado "{$a->module}" no website: {$a->site}.';
 $string['email_applied_subject'] = '{$a->course_short}: Novo compromisso';
 $string['email_cancelled_html'] = '<p>Seu compromisso em <strong>{$a->date}</strong> às <strong>{$a->time}</strong>,<br/>
-com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> para o curso:</p>
+com o estudante <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> para o curso:</p>
 
 <p><strong>{$a->course_short} : <a href="{$a->course_url}">{$a->course}</a></strong></p>
 
@@ -168,14 +168,14 @@ com o aluno <strong><a href="{$a->attendee_url}">{$a->attendee}</a></strong> par
 
 <p><strong><span class="error">foi cancelado ou removido</span></strong>.</p>';
 $string['email_cancelled_plain'] = 'Seu compromisso em  {$a->date} às {$a->time},
-com o aluno {$a->attendee} para o curso:
+com o estudante {$a->attendee} para o curso:
 
 {$a->course_short} : {$a->course}
 
 no organizador intitulado "{$a->module}" no website : {$a->site}
 
 foi cancelado ou removido.';
-$string['email_cancelled_subject'] = '{$a->course_short}: Compromisso cancelado ou removido por um aluno';
+$string['email_cancelled_subject'] = '{$a->course_short}: Compromisso cancelado ou removido por um estudante';
 $string['email_invite_html'] = '<p>Por favor escolha um slot de tempo para um compromisso em:</p> <p>{$a->scheduler_url}</p>';
 $string['email_invitereminder_html'] = '<p>Este é um lembrete de que você ainda não agendou seu compromisso. Por favor, escolha um slot de tempo assim que possível em:</p><p>{$a->scheduler_url}</p>';
 $string['email_invitereminder_subject'] = 'Lembrete: {$a->module}';
@@ -222,12 +222,12 @@ $string['everyone'] = 'Todos';
 $string['excelformat'] = 'Excel';
 $string['exclusive'] = 'Exclusivo';
 $string['exclusivity'] = 'Exclusividade';
-$string['exclusivity_help'] = '<p>Você pode armazenar um limite no número de alunos que podem solicitar um dado slot. </p>
-<p>Armazenando um limite de 1 (padrão) significará que o slot é exclusivo para um único aluno.</p>
-<p>Armazenando um limite de, por exemplo, 3, significará que até três alunos podem agendar no slot.</p>
-<p>Se desabilitado, qualquer número de alunos pode reservar o slot; nunca será considerado "cheio".</p>';
-$string['exclusivityoverload'] = 'O slot possui {$a} alunos agendados, mais do que o permitido por essa configuração.';
-$string['exclusivitypositive'] = 'O número de alunos por slot precisa ser no mínimo 1.';
+$string['exclusivity_help'] = '<p>Você pode armazenar um limite no número de estudantes que podem solicitar um dado slot. </p>
+<p>Armazenando um limite de 1 (padrão) significará que o slot é exclusivo para um único estudante.</p>
+<p>Armazenando um limite de, por exemplo, 3, significará que até três estudantes podem agendar no slot.</p>
+<p>Se desabilitado, qualquer número de estudantes pode reservar o slot; nunca será considerado "cheio".</p>';
+$string['exclusivityoverload'] = 'O slot possui {$a} estudantes agendados, mais do que o permitido por essa configuração.';
+$string['exclusivitypositive'] = 'O número de estudantes por slot precisa ser no mínimo 1.';
 $string['explaingeneralconfig'] = 'Essas opções podem ser apenas configuradas no nível do site e aplicarão para todos os organizadores nessa instalação do Moodle.';
 $string['export'] = 'Exportar';
 $string['exporthdr'] = 'Exportar slots e compromissos';
@@ -237,15 +237,15 @@ $string['field-date'] = 'Dados';
 $string['field-endtime'] = 'Tempo final';
 $string['field-grade'] = 'Nota';
 $string['field-location'] = 'Localização';
-$string['field-maxstudents'] = 'Máx. alunos';
+$string['field-maxstudents'] = 'Máx. estudantes';
 $string['field-slotnotes'] = 'Notas de slot';
 $string['field-starttime'] = 'Tempo inicial';
-$string['field-studentemail'] = 'E-mail do aluno';
-$string['field-studentfirstname'] = 'Primeiro nome do aluno';
-$string['field-studentfullname'] = 'Nome completo do aluno';
-$string['field-studentidnumber'] = 'Número id do aluno';
-$string['field-studentlastname'] = 'Último sobrenome do aluno';
-$string['field-studentusername'] = 'Nome de usuário do aluno';
+$string['field-studentemail'] = 'E-mail do estudante';
+$string['field-studentfirstname'] = 'Primeiro nome do estudante';
+$string['field-studentfullname'] = 'Nome completo do estudante';
+$string['field-studentidnumber'] = 'Número id do estudante';
+$string['field-studentlastname'] = 'Último sobrenome do estudante';
+$string['field-studentusername'] = 'Nome de usuário do estudante';
 $string['field-teachernote'] = 'Comentários confidenciais (somente professor)';
 $string['fileformat'] = 'Formato de arquivo';
 $string['fileformat_help'] = 'Os seguintes formatos de arquivo são disponíveis:
@@ -265,31 +265,31 @@ $string['forcewhenoverlap_help'] = '<h3>Forçar criação de slot quando slots c
 <p>Essa configuração determina quantos slots novos serão tratados se eles se coincidirem com outros slots já existentes.</p>
 <p>Se habilitado, a sobreposição de slot existente será removida e o novo slot criado.</p>
 <p>Se desabilitado, a sobreposição de slot existente será mantida e um novo slot <em>não</em> será criado.</p>';
-$string['forcourses'] = 'Escolher alunos em cursos';
+$string['forcourses'] = 'Escolher estudantes em cursos';
 $string['friday'] = 'Sexta-feira';
 $string['generalconfig'] = 'Configuração geral';
 $string['grade'] = 'Nota';
 $string['gradeingradebook'] = 'Nota no livro de notas';
 $string['gradingstrategy'] = 'Estratégia de avaliação';
-$string['gradingstrategy_help'] = 'Em um organizador, quando alunos podem ter vários compromissos, selecione quantas notas são agregadas.
-  O livro de notas pode mostrar entre <ul><li>a nota principal ou</li><li>a nota máxima</li></ul>que o aluno alcançou.';
+$string['gradingstrategy_help'] = 'Em um organizador, quando estudantes podem ter vários compromissos, selecione quantas notas são agregadas.
+  O livro de notas pode mostrar entre <ul><li>a nota principal ou</li><li>a nota máxima</li></ul>que o estudante alcançou.';
 $string['group'] = 'grupo';
 $string['groupbookings'] = 'Agendamento em grupos';
-$string['groupbookings_help'] = 'Permitir aos alunos agendarem um slot para todos os membros de seu grupo.
-(Note que isso é separado da configuração "modo grupo", que controla os slots que um aluno pode ver.)';
+$string['groupbookings_help'] = 'Permitir aos estudantes agendarem um slot para todos os membros de seu grupo.
+(Note que isso é separado da configuração "modo grupo", que controla os slots que um estudante pode ver.)';
 $string['groupbreakdown'] = 'Por tamanho do grupo';
-$string['groupmodeyourgroups'] = 'Modo grupo:{$a->groupmode}. Apenas alunos em {$a->grouplist} podem agendar compromissos com você.';
-$string['groupmodeyourgroupsempty'] = 'Modo grupo: {$a->groupmode}. Você não é membro de qualquer grupo, portanto alunos não podem agendar compromissos com você.';
+$string['groupmodeyourgroups'] = 'Modo grupo:{$a->groupmode}. Apenas estudantes em {$a->grouplist} podem agendar compromissos com você.';
+$string['groupmodeyourgroupsempty'] = 'Modo grupo: {$a->groupmode}. Você não é membro de qualquer grupo, portanto estudantes não podem agendar compromissos com você.';
 $string['groupscheduling'] = 'Habilitar organização de grupo';
 $string['groupscheduling_desc'] = 'Permitir que grupos inteiros sejam agendados ao mesmo tempo.
 (Além da opção global, a definição de "Agendamentos em grupos" deve ser habilitado na respectiva instância do organizador.)';
 $string['groupsession'] = 'Sessão de grupo';
 $string['groupsize'] = 'Tamanho do grupo';
 $string['guardtime'] = 'Tempo de proteção';
-$string['guardtime_help'] = 'Um tempo de proteção impede que os alunos alterem sua reserva um pouco antes do compromisso.
- <p> Se o tempo de guarda estiver habilitado e configurado para, por exemplo, 2 horas, em seguida, os alunos serão capazes de reservar um slot que começa em menos de 2 horas de tempo a partir de agora, e eles serão incapazes de deixar cair um compromisso se iniciar em menos de 2 horas. </p>';
+$string['guardtime_help'] = 'Um tempo de proteção impede que os estudantes alterem sua reserva um pouco antes do compromisso.
+ <p> Se o tempo de guarda estiver habilitado e configurado para, por exemplo, 2 horas, em seguida, os estudantes serão capazes de reservar um slot que começa em menos de 2 horas de tempo a partir de agora, e eles serão incapazes de deixar cair um compromisso se iniciar em menos de 2 horas. </p>';
 $string['guestscantdoanything'] = 'Visitantes não podem fazer nada aqui.';
-$string['howtoaddstudents'] = 'Para adicionar alunos a um agendador de escopo global, use a configuração da função para o módulo. <br/> Você também pode usar definições de função do módulo para definir quem atenderá seus alunos.';
+$string['howtoaddstudents'] = 'Para adicionar estudantes a um agendador de escopo global, use a configuração da função para o módulo. <br/> Você também pode usar definições de função do módulo para definir quem atenderá seus estudantes.';
 $string['htmlformat'] = 'HTML';
 $string['ignoreconflicts'] = 'Ignorar conflitos de planejamento';
 $string['ignoreconflicts_help'] = 'Se esta opção estiver assinalada, então o slot será movido para a data e hora solicitada, mesmo se existirem outros slots ao mesmo tempo. Isso pode levar à sobreposição de compromissos para alguns professores ou estudantes, e deve, portanto, ser usada com cuidado.';
@@ -304,12 +304,12 @@ $string['limited'] = 'Limitado ({$a} left)';
 $string['location'] = 'Localização';
 $string['location_help'] = 'Especificar o local da reunião agendada.';
 $string['markasseennow'] = 'Marcar como visto agora';
-$string['markseen'] = 'Depois de ter tido uma consulta com um aluno, por favor, marcá-los como "Visto" ao clicar na caixa próxima à imagem de usuário acima.';
+$string['markseen'] = 'Depois de ter tido uma consulta com um estudante, por favor, marcá-los como "Visto" ao clicar na caixa próxima à imagem de usuário acima.';
 $string['maxgrade'] = 'Pegar a nota mais alta';
-$string['maxstudentlistsize'] = 'Tamanho máximo da lista de alunos';
-$string['maxstudentlistsize_desc'] = 'O comprimento máximo da lista dos alunos que precisam criar um compromisso, como mostrado na visão do professor do organizador. Se houver mais alunos do que isso, nenhuma lista será exibida.';
-$string['maxstudentsperslot'] = 'Número máximo de alunos por slot';
-$string['maxstudentsperslot_desc'] = 'Slots de grupo / slots não-exclusivos podem ter no máximo esse número de alunos. Note que em adição, a configuração "ilimitada" pode sempre ser escolhida para um slot.';
+$string['maxstudentlistsize'] = 'Tamanho máximo da lista de estudantes';
+$string['maxstudentlistsize_desc'] = 'O comprimento máximo da lista dos estudantes que precisam criar um compromisso, como mostrado na visão do professor do organizador. Se houver mais estudantes do que isso, nenhuma lista será exibida.';
+$string['maxstudentsperslot'] = 'Número máximo de estudantes por slot';
+$string['maxstudentsperslot_desc'] = 'Slots de grupo / slots não-exclusivos podem ter no máximo esse número de estudantes. Note que em adição, a configuração "ilimitada" pode sempre ser escolhida para um slot.';
 $string['meangrade'] = 'Pegar a nota média';
 $string['meetingwith'] = 'Encontro com seu';
 $string['meetingwithplural'] = 'Encontro com seu';
@@ -321,20 +321,20 @@ $string['messagesent'] = 'Mensagem enviada para {$a} destinatários';
 $string['messagesubject'] = 'Assunto';
 $string['minutes'] = 'minutos';
 $string['minutesperslot'] = 'minutos por slot';
-$string['missingstudents'] = '{$a} alunos ainda precisarão criar um compromisso';
-$string['missingstudentsmany'] = '{$a} alunos ainda precisarão criar um compromisso. Nenhuma lista está sendo exibida devido ao tamanho.';
+$string['missingstudents'] = '{$a} estudantes ainda precisarão criar um compromisso';
+$string['missingstudentsmany'] = '{$a} estudantes ainda precisarão criar um compromisso. Nenhuma lista está sendo exibida devido ao tamanho.';
 $string['mode'] = 'Modo';
 $string['modeappointments'] = 'compromisso(s)';
-$string['modeintro'] = 'Alunos podem registrar';
+$string['modeintro'] = 'Estudantes podem registrar';
 $string['modeoneatatime'] = 'em uma vez';
 $string['modeoneonly'] = 'nesse organizador';
 $string['modulename'] = 'Organizador';
-$string['modulename_help'] = 'A atividade do organizador ajuda você a programar compromissos com seus alunos.
+$string['modulename_help'] = 'A atividade do organizador ajuda você a programar compromissos com seus estudantes.
 
-Professores especificar intervalos de tempo para as reuniões, os alunos, em seguida, escolhem um deles no Moodle.
+Professores especificar intervalos de tempo para as reuniões, os estudantes, em seguida, escolhem um deles no Moodle.
 Os professores, por sua vez, podem gravar o resultado da reunião - e, opcionalmente, um grau - dentro do organizador.
 
-Organizador de grupo é suportada; isto é, cada intervalo de tempo pode acomodar vários alunos, e, opcionalmente, é possível programar compromissos para grupos inteiros, ao mesmo tempo.';
+Organizador de grupo é suportada; isto é, cada intervalo de tempo pode acomodar vários estudantes, e, opcionalmente, é possível programar compromissos para grupos inteiros, ao mesmo tempo.';
 $string['modulenameplural'] = 'Agendador';
 $string['monday'] = 'Segunda-feira';
 $string['multiple'] = '(múltiplo)';
@@ -345,21 +345,21 @@ $string['needteachers'] = 'Slots não podem ser adicionados a curso sem professo
 $string['negativerange'] = 'Faixa é negativa. Isso não pode.';
 $string['never'] = 'Nunca';
 $string['noappointments'] = 'Nenhum compromisso';
-$string['noexistingstudents'] = 'Não há alunos disponíveis para organização';
+$string['noexistingstudents'] = 'Não há estudantes disponíveis para organização';
 $string['nogroups'] = 'Não há grupos disponíveis para organização.';
 $string['noresults'] = 'Sem resultados.';
 $string['noschedulers'] = 'Não há agendadores';
 $string['noslots'] = 'Não há slots de compromisso disponíveis.';
 $string['noslotsavailable'] = 'Nenhum slot disponível para agendamento nesse momento.';
 $string['noslotsopennow'] = 'Nenhum slot aberto para agendamento agora.';
-$string['nostudents'] = 'Nenhum aluno escalado';
-$string['nostudenttobook'] = 'Nenhum aluno para agendar';
+$string['nostudents'] = 'Nenhum estudante escalado';
+$string['nostudenttobook'] = 'Nenhum estudante para agendar';
 $string['note'] = 'Nota';
 $string['noteacherforslot'] = 'Nenhum professor para os slots';
 $string['noteachershere'] = 'Nenhum professor disponível';
 $string['notenoughplaces'] = 'Sinto muito, não há compromissos livres suficientes nesse slot.';
 $string['notifications'] = 'Notificações';
-$string['notifications_help'] = 'Quando essa opção estiver habilitada, professores e alunos receberão notificações quando compromissos são solicitados ou cancelados.';
+$string['notifications_help'] = 'Quando essa opção estiver habilitada, professores e estudantes receberão notificações quando compromissos são solicitados ou cancelados.';
 $string['notseen'] = 'Não visto';
 $string['now'] = 'Agora';
 $string['occurrences'] = 'Ocorrências';
@@ -391,7 +391,7 @@ $string['preview'] = 'Pré-visualização';
 $string['previewlimited'] = '(Pré-visualização está limitada para {$a} linhas.)';
 $string['purgeunusedslots'] = 'Remover slots não usados no passado';
 $string['recipients'] = 'Destinatários';
-$string['registeredlbl'] = 'Aluno agendado';
+$string['registeredlbl'] = 'Estudante agendado';
 $string['reminder'] = 'Lembrete';
 $string['resetappointments'] = 'Compromissos e notas excluídos';
 $string['resetslots'] = 'Excluir slots de organizador';
@@ -410,18 +410,18 @@ $string['scheduleinslot'] = 'Agendar em slot';
 $string['scheduler'] = 'Agendador';
 $string['scheduler:addinstance'] = 'Adicionar um novo agendador';
 $string['scheduler:appoint'] = 'Agendar';
-$string['scheduler:attend'] = 'Assistir alunos';
+$string['scheduler:attend'] = 'Assistir estudantes';
 $string['scheduler:canscheduletootherteachers'] = 'Agendar compromissos para outros membros da equipe';
 $string['scheduler:canseeotherteachersbooking'] = 'Ver e buscar outros agendamentos de professores';
 $string['scheduler:disengage'] = 'Essa capacidade está depreciada e não faz nada';
 $string['scheduler:manage'] = 'Gerenciar seus slot e compromissos';
 $string['scheduler:manageallappointments'] = 'Gerenciar todos os dados do agendador';
-$string['scheduler:seeotherstudentsbooking'] = 'Ver outros agendamentos de alunos no slot';
-$string['scheduler:seeotherstudentsresults'] = 'Ver outros slots de resultados de alunos';
+$string['scheduler:seeotherstudentsbooking'] = 'Ver outros agendamentos de estudantes no slot';
+$string['scheduler:seeotherstudentsresults'] = 'Ver outros slots de resultados de estudantes';
 $string['scheduler:seeoverviewoutsideactivity'] = 'Usar a tela de visão geral para ver slots que estão fora da atividade do agendador corrente.';
 $string['scheduler:viewfullslots'] = 'Ver slots mesmo se não tiverem vagas (visão do estudante)';
 $string['scheduler:viewslots'] = 'Ver slots disponíveis para reserva (visão do estudante)';
-$string['schedulestudents'] = 'Agendar por aluno';
+$string['schedulestudents'] = 'Agendar por estudante';
 $string['scopemenu'] = 'Mostrar slots em: {$a}';
 $string['scopemenuself'] = 'Mostrar meus slots em: {$a}';
 $string['search:activity'] = 'Organizador - informações de atividade';
@@ -436,12 +436,12 @@ $string['sepcomma'] = 'Vírgula';
 $string['sepsemicolon'] = 'Ponto-e-vírgula';
 $string['septab'] = 'Aba';
 $string['showemailplain'] = 'Mostrar endereços de e-mail em texto simples';
-$string['showemailplain_desc'] = 'Na visão do professor do agendador, mostrar os endereços de e-mail dos alunos que precisam de um novo compromisso em texto simples, em adição aos links mailto:';
+$string['showemailplain_desc'] = 'Na visão do professor do agendador, mostrar os endereços de e-mail dos estudantes que precisam de um novo compromisso em texto simples, em adição aos links mailto:';
 $string['showparticipants'] = 'Mostrar participantes';
 $string['slot'] = 'Slot';
 $string['slotdatetime'] = '{$a->shortdatetime} por {$a->duration} minutos';
 $string['slotdescription'] = '{$a->status} em {$a->startdate} de {$a->starttime} para {$a->endtime} em {$a->location} com {$a->facilitator}.';
-$string['slot_is_just_in_use'] = 'Desculpa, o compromisso já foi escolhido por outro aluno! Por favor, tente novamente.';
+$string['slot_is_just_in_use'] = 'Desculpa, o compromisso já foi escolhido por outro estudante! Por favor, tente novamente.';
 $string['slots'] = 'Slots';
 $string['slotsadded'] = '{$a} slots foram adicionados';
 $string['slotsdeleted'] = '{$a} slots foram excluídos';
@@ -450,20 +450,20 @@ $string['slotupdated'] = '1 slot atualizado';
 $string['slotwarning'] = '<strong>Aviso: </strong> Movendo esse slot para o tempo selecionado entra em conflito com o slot(s) listado(s) abaixo. Assinale "Ignorar conflitos de agendamento" se você quiser mover o slot mesmo assim.';
 $string['staffbreakdown'] = 'Por {$a}';
 $string['staffrolename'] = 'Nome do papel do professor';
-$string['staffrolename_help'] = 'O rótulo para o papel que atende alunos. Este não é necessariamente um "professor".';
+$string['staffrolename_help'] = 'O rótulo para o papel que atende estudantes. Este não é necessariamente um "professor".';
 $string['start'] = 'Iniciar';
 $string['startpast'] = 'Você não pode iniciar um slot de agendamento vazio no passado';
 $string['statistics'] = 'Estatística';
-$string['student'] = 'Aluno';
-$string['studentbreakdown'] = 'Por aluno';
-$string['studentcomments'] = 'Notas do aluno';
-$string['studentdetails'] = 'Detalhes do aluno';
-$string['studentmultiselect'] = 'Cada aluno pode ser selecionado apenas uma vez nesse slot';
+$string['student'] = 'Estudante';
+$string['studentbreakdown'] = 'Por estudante';
+$string['studentcomments'] = 'Notas do estudante';
+$string['studentdetails'] = 'Detalhes do estudante';
+$string['studentmultiselect'] = 'Cada estudante pode ser selecionado apenas uma vez nesse slot';
 $string['studentnotes'] = 'Suas notas sobre agendamento';
-$string['students'] = 'Alunos';
+$string['students'] = 'Estudantes';
 $string['sunday'] = 'Domingo';
-$string['tab-otherappointments'] = 'Todos os compromissos desse aluno';
-$string['tab-otherstudents'] = 'Alunos nesse slot';
+$string['tab-otherappointments'] = 'Todos os compromissos desse estudante';
+$string['tab-otherstudents'] = 'Estudantes nesse slot';
 $string['tab-thisappointment'] = 'Esse compromisso';
 $string['teacher'] = 'Professor';
 $string['teachernote'] = 'Comentários confidenciais (visível somente ao professor)';

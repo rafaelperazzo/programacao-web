@@ -264,19 +264,18 @@ $string['linking'] = 'Auto-link';
 $string['mainglossary'] = 'Glossário principal';
 $string['maxtimehaspassed'] = 'Sinto muito, mas o período de edição deste comentário ({$a}) terminou!';
 $string['modulename'] = 'Glossário';
-$string['modulename_help'] = 'O módulo glossário permite que os membros do fórum criem e mantenham uma lista de termos ou definições, como um dicionário.
+$string['modulename_help'] = 'O módulo de atividade de glossário permite aos participantes criar e manter uma lista de definições, como um dicionário, ou coletar e organizar recursos ou informações.
 
-Um professor pode permitir que arquivos sejam anexados as entradas no glossário. Imagens anexas são exibidas na entrada. Entradas podem ser pesquisadas ou navegadas alfabeticamente ou por categoria, data ou autor. Entradas podem ser aprovadaspor padrão ou necessário aprovação por um professor antes que sejam visualizadas por alguém.
+Um professor pode permitir que arquivos sejam anexados aos termos do glossário. As imagens anexadas são exibidas no termo. Os termos do glossário podem ser pesquisados ou listados alfabeticamente ou por categoria, data ou autor. Os termos podem por padrão serem aprovados  ou depender da aprovação de um professor antes de serem visualizadas por alguém.
 
-Caso o filtro auto-link, do glossário,  esteja habilitado
-As entradas no glossário serão linkadas ao conceito ou frase no local onde elas aparecem no curso.
+Se o filtro de auto-ligação do glossário estiver ativado, os termos do glossário serão automaticamente vinculados quando as palavras e/ou frases do conceito aparecerem no curso, .
 
-Um professor pode permitir comentários ou entradas. Entradas podem também ser avaliadas por professores ou estudantes (avaliação por pares). Avaliações podem também ser agregadas para formar a nota final que será registrada no livro de notas.
+Um professor pode permitir comentários nos termos do glossário. Os termos também podem ser avaliados por professores ou estudantes (avaliação por pares). Avaliações também podem ser agregadas para formar a nota final que será registrada no livro de notas.
 
 Glossários tem muitos usos, como por exemplo:
 
 * Um banco colaborativo de termos chaves
-* Um espaço "apresente-se" onde novos estudantes adicionam seus nomes e detalhes pessoais
+* Um espaço "apresente-se" onde novos estudantes adicionam seus nomes e informações pessoais
 * Centralização de dicas ou melhores práticas sobre algum item
 * Uma área de compartilhamento de vídeos, imagens ou arquivos de som
 * Como recurso de revisão de fatos a serem lembrados';

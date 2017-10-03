@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+f = float (input ('f: '))
+L = float (input ('L: '))
+Q = float (input ('Q: '))
+DeltaH = float (input ('DeltaH: '))
+v = float (input ('v: '))

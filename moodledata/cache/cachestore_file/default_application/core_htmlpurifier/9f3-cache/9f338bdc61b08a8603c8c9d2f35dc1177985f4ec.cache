@@ -1,0 +1,21 @@
+s:718:"<b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 521.78
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>OPÇÕES DE PAGAMENTO:
+A vista em dinhero ou cheque, com 15% de desconto digite: 1
+A vista no cartão, com 10% de desconto digite: 2
+Em duas vezes, valor da etiqueta sem juros, digite: 3
+Em duas vezes, valor da etiqueta mais 10% de juros, de digite: 4
+Digite o valor da compra: Digite a opção de pagamento: 521.78
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>521.78
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

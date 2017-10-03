@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-12.500)
+Incorrect program result
+ --- Input ---
+> 35
+>60
+>75
+
+ --- Program output ---
+>Digite a posição do jogador l (entre 0 e 100 metros):Digite a posição do jogador r (entre 0 e 100 metros):Digite a posição do jogador d (entre 0 e 100 metros):
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

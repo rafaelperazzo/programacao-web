@@ -45,6 +45,7 @@ $string['err_mintwolevels'] = 'Cada critério deve ter ao menos dois níveis';
 $string['err_nocriteria'] = 'Rubrica deve conter pelo menos um critério';
 $string['err_nodefinition'] = 'Definição de nível não pode ficar vazia';
 $string['err_nodescription'] = 'Descrição do critério não pode ficar vazia';
+$string['err_novariations'] = 'Níveis de critérios não podem valer o mesmo número de pontos';
 $string['err_scoreformat'] = 'O número de pontos para cada nível precisa ser um número não negativo válido';
 $string['err_totalscore'] = 'Número máximo de pontos possíveis para avaliação por rubrica precisa ser maior que zero';
 $string['gradingof'] = '{$a} avaliações';

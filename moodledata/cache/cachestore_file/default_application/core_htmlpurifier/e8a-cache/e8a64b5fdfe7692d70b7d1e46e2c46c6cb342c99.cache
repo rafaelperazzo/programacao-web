@@ -1,0 +1,53 @@
+s:2012:"<b>Failed tests</b><br />Test 1: Test 1
+<br />Test 2: Test 2
+<br />Test 3: Test 3
+<br />Test 4: Test 4
+<br /><b>Test 1: Test 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "poligono.py", line 1
+SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*5[.]*[0]*
+</i></pre>
+<br /><b>Test 2: Test 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "poligono.py", line 1
+SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*14[.]*[0]*
+</i></pre>
+<br /><b>Test 3: Test 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 20
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "poligono.py", line 1
+SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*170[.]*[0]*
+</i></pre>
+<br /><b>Test 4: Test 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "poligono.py", line 1
+SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 1, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*1175[.]*[0]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

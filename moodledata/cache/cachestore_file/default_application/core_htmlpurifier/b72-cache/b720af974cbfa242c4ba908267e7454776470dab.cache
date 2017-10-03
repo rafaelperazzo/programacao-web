@@ -1,0 +1,24 @@
+s:1849:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li><strong>   Tipo de assinante ( se é comercial ou doméstico)</strong></li>
+<li><strong>Quantidade de tempo de uso de telefone em minutos</strong></li>
+</ul><p><strong> Dada a situação temos que o assinante é do tipo doméstico e que o tempo de uso do telefone foi de 342 minutos.</strong></p>
+<p><strong>2) Saída(s) Esperada(s) </strong></p>
+<p>Espera-se que o valor que João venha a pagar, pelas condições estabelecidas, seja referente à 109,76 reais.</p>
+<p><strong>3</strong><strong>) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p><strong>1. O programa deve pedir ao usuário o dado referente ao seu tipo de serviço, se trata de um serviço comercial ou doméstico:</strong></p>
+<p><strong>"Digite 1 se você for assinante  Comercial ou 2 caso seja assinante doméstico"</strong></p>
+<p><strong>O dado para tipo de assinante fica armazenado na variável tip_assinante, essa variável só deve aceitar valor 1 ou 2</strong></p>
+<p><strong>2. Em segundo plano o programa deve pedir o tempo de uso do telefone.</strong></p>
+<p><strong>" Digite em minutos o tempo de uso do telefone "</strong></p>
+<p><strong>O dado para minutos deve ficar armazenado na variável qt_minutos, o valor não deve aceitar valores negativos</strong></p>
+<p><strong>3. </strong></p>
+<p><strong>*Se qt_minutos  menor ou igual a zero, segue:</strong></p>
+<p><strong>tempo=0</strong></p>
+<p><strong>* Senão tempo = qt_minutos - 100</strong></p>
+<p><strong>   </strong></p>
+<p><strong>Se tip_assinante=1,segue:</strong></p>
+<p><strong>resul = 71,99 + tempo x 0.33 </strong></p>
+<p><strong>Senão </strong></p>
+<p><strong> resul = 29.9 + tempo x 0.33</strong></p>
+<p><strong>4. O programa deve exibir o valor armazenado em resul</strong></p>
+<p> </p>";

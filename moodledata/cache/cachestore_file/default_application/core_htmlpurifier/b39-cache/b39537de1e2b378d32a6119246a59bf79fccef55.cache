@@ -1,0 +1,49 @@
+s:1270:"<b>Failed tests</b><br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o dia da DATA 1: Digite o mês da DATA 1: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    mes1=str(input("Digite o mês da DATA 1: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+12
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o dia da DATA 1: Digite o mês da DATA 1: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    mes1=str(input("Digite o mês da DATA 1: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*IGUAIS.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

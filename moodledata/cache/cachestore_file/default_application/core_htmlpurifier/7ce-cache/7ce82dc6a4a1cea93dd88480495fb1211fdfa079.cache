@@ -1,0 +1,89 @@
+s:1668:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 164878
+9.1
+8.7
+7.8
+8.5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "av1_programa2.py", line 20
+    else:
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>164878
+8.3
+B
+APROVADO
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 98765544
+5.1
+7.2
+3.8
+5.5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "av1_programa2.py", line 20
+    else:
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>98765544
+5.2
+D
+REPROVADO
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 169870
+10
+9
+9
+10
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "av1_programa2.py", line 20
+    else:
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>169870
+9.3
+A
+APROVADO
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 123456
+0
+0
+0
+0
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>  File "av1_programa2.py", line 20
+    else:
+       ^
+SyntaxError: invalid syntax
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>123456
+0.0
+E
+REPROVADO
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

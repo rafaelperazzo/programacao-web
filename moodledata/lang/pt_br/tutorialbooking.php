@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['addstudents'] = 'Adicionar alunos';
+$string['addstudents'] = 'Adicionar estudantes';
 $string['adminblockinghelp'] = 'Ligando isso permitirá bloqueio de inscrições de usuários selecionados';
 $string['adminblockingprompt'] = 'Ligar funcionalidade de Bloqueio';
 $string['adminiconhelp'] = 'Se desligado, todos os links estarão no texto, nenhum ícone será mostrado';
@@ -48,7 +48,7 @@ $string['blockedtotal'] = 'inclui {$a} usuário/s bloqueado';
 $string['blockedusermessage'] = 'Você foi bloqueado da inscrição para essas sessões - por favor, veja coordenador para motivos';
 $string['blockuserprompt'] = 'Inscrito - Clique para bloquear Usuário';
 $string['cancel'] = 'Cancelar';
-$string['completionsignedup'] = 'Alunos devem se inscrever para um grupo de tutorial nessa atividade para completá-la.';
+$string['completionsignedup'] = 'Estudantes devem se inscrever para um grupo de tutorial nessa atividade para completá-la.';
 $string['completionsignedupgroup'] = 'Requer inscrição';
 $string['confirm'] = 'Confirmar';
 $string['confirmmessage'] = 'Você tem certeza de que deseja remover {$a->name} de {$a->timeslot}?';
@@ -86,7 +86,7 @@ $string['hidesession'] = 'Visível - Ocultar Slot de Tempo';
 $string['idnumber'] = 'IDNumber';
 $string['indexnoid'] = 'Um curso id deve ser estabelecido para visualizar todos os tutoriais';
 $string['instancedesc'] = 'Inscrição de Notas de Lista';
-$string['instancedeschelp'] = 'Alunos de Informação precisam saber quando se inscrever, assim como a duração da sessão.';
+$string['instancedeschelp'] = 'Estudantes de Informação precisam saber quando se inscrever, assim como a duração da sessão.';
 $string['instanceheading'] = 'Configurações Gerais';
 $string['instancenamehelp'] = 'Exemplo. Tutorial 1 ou Laboratórios de Computação ou Tutoriais Quinzenais';
 $string['instancetitle'] = 'Título da Lista de Inscrição';
@@ -96,23 +96,23 @@ $string['liveservicemsg'] = 'Serviço ao vivo reconhecido, notificação a ser e
 $string['locked'] = 'Tutorial desbloqueado';
 $string['lockederror'] = 'O tutorial está bloqueado. Você não deve se inscrever nesse momento.';
 $string['lockedprompt'] = 'Bloqueado';
-$string['lockhelp'] = 'Se alunos bloqueados não podem se inscrever (ou cancelar inscrição) para qualquer intervalo de tempo desse tutorial.
+$string['lockhelp'] = 'Se estudantes bloqueados não podem se inscrever (ou cancelar inscrição) para qualquer intervalo de tempo desse tutorial.
 Bloqueando agora, vai efetivamente congelar as listas de inscrição em seu estado atual.';
 $string['lockwarning'] = 'Esse tutorial foi bloqueado pelo coordenador. Você não pode se inscrever (ou se remover de) qualquer slot.';
 $string['messageprompt'] = 'Mensagem';
 $string['messageprovider:notify'] = 'Notificação de Tutorial';
 $string['messagessent'] = 'Mensagens enviadas';
-$string['messagewillbesent'] = 'Mensagem para o aluno sendo removida';
+$string['messagewillbesent'] = 'Mensagem para o  estudante sendo removida';
 $string['moduleadminname'] = 'Agendamento de Tutorial';
 $string['modulename'] = 'Agendamento de Tutorial';
-$string['modulename_help'] = 'A atividade de agendamento de tutorial permite que alunos se inscrevam num único slot.
+$string['modulename_help'] = 'A atividade de agendamento de tutorial permite que estudante se inscrevam num único slot.
 
 Professores podem:
 
-* Armazenar os nomes de outras pessoas que se inscreveram para um slot a ser visível ou oculto dos alunos.
-* Imprimir registradores de alunos inscritos para slots.
+* Armazenar os nomes de outras pessoas que se inscreveram para um slot a ser visível ou oculto dos estudantes.
+* Imprimir registradores de estudantes inscritos para slots.
 * Gerar um arquivo csv das inscrições.
-* Manualmente adicionar ou remover alunos dos slots.
+* Manualmente adicionar ou remover estudantes dos slots.
 * Bloquear ou desbloquear a habilitação para inscrição.
 * Enviar uma mensagem a todos os inscritos para um slot';
 $string['modulenameplural'] = 'Agendamentos de Tutorial';
@@ -128,7 +128,7 @@ $string['numbersline'] = '{$a->total} lugares disponíveis no total ({$a->taken}
 $string['numbersline_oversubscribed'] = '{$a->total} vagas disponíveis no total ({$a->taken} tomados, saturados por {$a->left})';
 $string['option_spaces_high'] = 'O número de espaços deve ser menor que 65536';
 $string['option_spaces_low'] = 'O número de espaços deve ser maior que 0';
-$string['oversubscribed'] = 'Existem {$a->freeslots} lugares deixados em {$a->timeslotname}. Você tentou adicionar {$a->numbertoadd} aluno.';
+$string['oversubscribed'] = 'Existem {$a->freeslots} lugares deixados em {$a->timeslotname}. Você tentou adicionar {$a->numbertoadd}  estudante.';
 $string['pagecrumb'] = 'Slots de tempo';
 $string['pagetitle'] = 'Agendamento de tutorial';
 $string['pluginadministration'] = 'Agendamento de tutorial';
@@ -137,10 +137,10 @@ $string['positionfirst'] = 'Topo da página';
 $string['positionlast'] = 'Parte inferior da página';
 $string['positionprompt'] = 'Posição';
 $string['privacy'] = 'Privacidade';
-$string['privacy_showall'] = 'Alunos podem ver todas as inscrições';
-$string['privacy_showown'] = 'Alunos podem ver apenas suas inscrições';
+$string['privacy_showall'] = 'Estudantes podem ver todas as inscrições';
+$string['privacy_showown'] = 'Estudantes podem ver apenas suas inscrições';
 $string['realname'] = 'RealName';
-$string['reasonrequired'] = 'Você deve fornecer o motivo pelo qual está removendo o aluno.';
+$string['reasonrequired'] = 'Você deve fornecer o motivo pelo qual está removendo o  estudante.';
 $string['registerdateline'] = 'Por favor, entre com a Data do Tutorial
 (dd/mm/yy):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_&nbsp;_&nbsp;&nbsp;_&nbsp;_&nbsp;&nbsp;_&nbsp; _';
 $string['registerfooter'] = 'Por favor, assine ao lado do seu nome para indicar atendimento. Se seu nome não está na lista, então adicione sem perguntar primeiro.';
@@ -171,10 +171,10 @@ $string['showalltutorialbookings'] = 'Índice do agendamento de tutorial';
 $string['showmymessages'] = 'Mostrar minhas mensagens apenas';
 $string['showsession'] = 'Ocultar - Tornar visível';
 $string['signupforslot'] = 'Me inscrever para esse slot';
-$string['spacesprompt'] = 'Número Máximo de Alunos';
+$string['spacesprompt'] = 'Número Máximo de Estudante';
 $string['statsline'] = '({$a->places} slots, {$a->signedup} ocupados)';
 $string['statslineblocked'] = '({$a->places} slots, {$a->signedup} ocupados - {$a->blocked} bloqueados)';
-$string['studentcoltitle'] = 'Nome do Aluno';
+$string['studentcoltitle'] = 'Nome do estudante';
 $string['subjecttitleprompt'] = 'Assunto';
 $string['testservicemsg'] = 'Serviço não ao vivo - notificação a ser enviada para Admin (id = 2)';
 $string['thereareno'] = 'Não há tutoriais nesse curso';
@@ -182,14 +182,14 @@ $string['timeslotheading'] = 'Gerenciamento de Lista de Inscrição';
 $string['timeslottitle'] = 'Título de Slot de Tempo';
 $string['tutorialbooking'] = 'Agendamento de Tutorial';
 $string['tutorialbooking:addinstance'] = 'Permite que um usuário adicione essa atividade a um curso (não usado no Moodle 2.2)';
-$string['tutorialbooking:adduser'] = 'Permite que o usuário adicione alunos para um grupo de inscrição.';
+$string['tutorialbooking:adduser'] = 'Permite que o usuário adicione estudantes para um grupo de inscrição.';
 $string['tutorialbooking:editsignuplist'] = 'Permite que usuários adicionem, excluam e editem as listas de inscrição.';
 $string['tutorialbooking:export'] = 'Permite que o usuário exporte inscrições de tutorial';
 $string['tutorialbooking:exportallcoursetutorials'] = 'Necessário exportar lista para todas as inscrições de tutorial em um curso.';
-$string['tutorialbooking:message'] = 'Permite que o usuário envie mensagens para alunos via atividade de agendamento de tutorial.';
-$string['tutorialbooking:oversubscribe'] = 'Permite que o usuário adicione alunos para um grupo toda vez que ultrapassar seu limite de usuários.';
+$string['tutorialbooking:message'] = 'Permite que o usuário envie mensagens para estudantes via atividade de agendamento de tutorial.';
+$string['tutorialbooking:oversubscribe'] = 'Permite que o usuário adicionar estudantes em um grupo toda vez que ultrapassar seu limite de usuários.';
 $string['tutorialbooking:printregisters'] = 'Permite ao usuário imprimir registros para essa atividade.';
-$string['tutorialbooking:removeuser'] = 'Permite a remoção de alunos de um grupo de inscrição.';
+$string['tutorialbooking:removeuser'] = 'Permite remover estudantes de um grupo de inscrição.';
 $string['tutorialbooking:submit'] = 'Necessário inscrever para uma sessão de agendamento de tutorial.';
 $string['tutorialbooking:viewadminpage'] = 'Permite ao usuário ver a página de administração da atividade.';
 $string['tutorialbooking:viewallmessages'] = 'Necessário visualizar mensagens enviadas de outros usuários em uma sessão de agendamento de tutorial.';

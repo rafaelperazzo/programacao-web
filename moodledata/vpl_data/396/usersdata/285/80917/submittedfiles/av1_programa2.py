@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+
+#COMECE AQUI ABAIXO
+n1=int(input("insira o valor de n1: "))
+n2=int(input("insira o valor de n2: "))
+n3=int(input("insira o valor de n3: "))
+n4=int(input("insira o valor de n4: "))
+n5=int(input("insira o valor de n5: "))
+n6int(input("insira o valor de n6: "))
+n7=int(input("insira o valor de n7: "))
+n8=int(input("insira o valor de n8: "))
+n9=int(input("insira o valor de n9: "))
+n10=int(input("insira o valor de n10: "))
+n11=int(input("insira o valor de n11: "))
+n12=int(input("insira o valor de n12: "))
+if n1==n7 and n2==n8 and n3==n9 and n4!=n10 and n5!=n11 and n6!=n12:
+    print("terno")

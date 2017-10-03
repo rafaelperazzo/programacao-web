@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+av1 = float(input('digite a nota da av1: '))
+av2 = float(input('digite a sua nota da av2 '))
+av3 = float(input('digite a sua sua nota da av3 '))
+av4 = float(input('digite a sua nota da av4 '))
+média=((av1 + av2 + av3 + av4)/4)
+
+print(média)
+print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
+nm = float(input('digite o seu numero em metros: '))
+conversao=(nm*100)
+
+print(conversao)
+print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
+h = float(input('digite a sua altura em metros: '))
+pi = ((72.5*h)-58)
+print(pi)
+print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+r = float(input('digite o tamanho do raio em metros: '))
+pi = 3.14
+area=(pi*r*r)
+
+print(area)
+print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')

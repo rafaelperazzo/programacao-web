@@ -1,0 +1,109 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.750)
+Incorrect program result
+ --- Input ---
+> 164878
+>9.1
+>8.7
+>7.8
+>8.5
+
+ --- Program output ---
+>  File "av1_programa2.py", line 10
+>    print( ma )
+>        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+>164878
+>8.3
+>B
+>APROVADO
+
+-Test 2: Teste 2 (-0.750)
+Incorrect program result
+ --- Input ---
+> 98765544
+>5.1
+>7.2
+>3.8
+>5.5
+
+ --- Program output ---
+>  File "av1_programa2.py", line 10
+>    print( ma )
+>        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+>98765544
+>5.2
+>D
+>REPROVADO
+
+-Test 3: Teste 3 (-0.750)
+Incorrect program result
+ --- Input ---
+> 169870
+>10
+>9
+>9
+>10
+
+ --- Program output ---
+>  File "av1_programa2.py", line 10
+>    print( ma )
+>        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+>169870
+>9.3
+>A
+>APROVADO
+
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 123456
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>  File "av1_programa2.py", line 10
+>    print( ma )
+>        ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+>123456
+>0.0
+>E
+>REPROVADO
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,115 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 5
+-Test 1: Teste 1 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1987
+
+ --- Program output ---
+>dia 1: mes 1: ano 1: dia 2: mes 2: Traceback (most recent call last):
+>  File "ex11.py", line 6, in <module>
+>    mes2 = int(input('mes 2: '))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 2: Teste 2 (-2.000)
+Incorrect program result
+ --- Input ---
+> 31
+>06
+>1988
+>20
+>06
+>1988
+
+ --- Program output ---
+>dia 1: mes 1: ano 1: dia 2: mes 2: ano 3: IGUAIS
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Test 3: Teste 3 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>dia 1: mes 1: ano 1: dia 2: mes 2: Traceback (most recent call last):
+>  File "ex11.py", line 6, in <module>
+>    mes2 = int(input('mes 2: '))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 4: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>dia 1: mes 1: Traceback (most recent call last):
+>  File "ex11.py", line 3, in <module>
+>    mes1 = int(input('mes 1: '))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 5: Teste 5 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>12
+>09
+>1980
+
+ --- Program output ---
+>dia 1: mes 1: Traceback (most recent call last):
+>  File "ex11.py", line 3, in <module>
+>    mes1 = int(input('mes 1: '))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 0 tests passed |
+>+------------------------------+
+

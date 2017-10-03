@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+"""
+print("Seja bem vindo ao programa Quem é você!")
+print("________________________________________")
+nome= str(input("Me diga o seu nome: "))
+print("\nOlá "+nome+". Farei algumas perguntas sobre você!")
+idade=int(input("Me diga a sua idade: "))
+print("\nok! Você tem %d anos." %idade)
+altura=float(input("Me diga a sua altura em metros: "))
+print("\nVocê tem %.2f metros de altura!" %altura)
+print("\n\nIsso é tudo. Até a próxima, %s!" %nome)
+
+
+
+
+
+a= float(input("digite o valor de a"))
+a= a*10
+print(a)
+
+
+
+
+
+
+
+float(input("digite um número em metros: "))
+conversao=(unidade*100)
+print("-----------------------------------")
+print("o valor em centímetros é: %2.f" %conversao)
+
+
+
+
+
+
+
+"""
+nota1 =float(input("digite sua nota (1): "))
+nota2 =float(input("digite sua nota (2): "))
+nota3 =float(input("digite sua nota (3): "))
+nota4 =float(input("digite sua nota (4): "))
+media=((nota1+nota2+nota3+nota4)/4)
+print("sua média é: %2.f" %media)
+
+
+
+
+
+
+
+
+
+
+

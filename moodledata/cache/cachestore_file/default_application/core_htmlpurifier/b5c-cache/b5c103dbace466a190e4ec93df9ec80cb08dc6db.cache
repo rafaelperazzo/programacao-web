@@ -1,0 +1,105 @@
+s:4892:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 34
+55
+77
+12
+23
+99
+5
+3
+77
+55
+42
+34
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 difernte dos anteriores: Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 diferente dos anteriores: Traceback (most recent call last):
+  File "av1_programa2.py", line 29, in &lt;module&gt;
+    AF = acerto1 + acerto2 + acerto3 + acerto4 + acerto5 + acerto6
+NameError: name 'acerto2' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'terno'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 22
+41
+9
+71
+88
+4
+41
+9
+88
+71
+4
+22
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 difernte dos anteriores: Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 diferente dos anteriores: Traceback (most recent call last):
+  File "av1_programa2.py", line 29, in &lt;module&gt;
+    AF = acerto1 + acerto2 + acerto3 + acerto4 + acerto5 + acerto6
+NameError: name 'acerto2' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'sena'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 25
+51
+53
+17
+19
+87
+23
+33
+1
+2
+81
+92
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 difernte dos anteriores: Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 diferente dos anteriores: Traceback (most recent call last):
+  File "av1_programa2.py", line 29, in &lt;module&gt;
+    AF = acerto1 + acerto2 + acerto3 + acerto4 + acerto5 + acerto6
+NameError: name 'acerto2' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'azar'
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+2
+3
+4
+5
+6
+1
+2
+3
+4
+5
+6
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 difernte dos anteriores: Digite o primeiro numero entre 1 e 99: Digite o segundo numero entre 1 e 99 diferente do anterior: Digite o terceiro numero entre 1 e 99 diferente dos anteriores: Digite o quarto numero entre 1 e 99 diferente dos anteriores: Digite o quinto numero entre 1 e 99 diferente dos anteriores: Digite o sexto numero entre 1 e 99 diferente dos anteriores: Traceback (most recent call last):
+  File "av1_programa2.py", line 29, in &lt;module&gt;
+    AF = acerto1 + acerto2 + acerto3 + acerto4 + acerto5 + acerto6
+NameError: name 'acerto2' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'sena'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+s = str(input('Qual seu sexo? '))
+h = float(input('Digite sua altura: '))
+sexo = bool(input('Voce eh homem? (sim:true, no:false)'))
+peso = float(input('Qual seu peso? '))
+PH = (72.7*h)-58
+PM = (32.1*h)-44.7
+if sexo==true and peso>PH:
+    print('Voce esta acima do peso')
+else:
+    print('Seu peso esta normal')
+    if sexo==false and peso>PM:
+        print('Voce esta acima do peso')
+    else:
+        print('Seu peso esta normal')
+    

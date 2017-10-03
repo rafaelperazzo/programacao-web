@@ -1,0 +1,45 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+>42
+
+ --- Program output ---
+>fNAO SEI
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+-Test 4: Teste 4 (-2.500)
+Incorrect program result
+ --- Input ---
+>123
+
+ --- Program output ---
+>fNAO SEI
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

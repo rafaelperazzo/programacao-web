@@ -1,0 +1,20 @@
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Delta:  16
+>2.0 2.0
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

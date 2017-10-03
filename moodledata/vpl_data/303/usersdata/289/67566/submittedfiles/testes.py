@@ -1,0 +1,5 @@
+ Número=int(input("Digite um número"))
+if número>5
+print("Você digitou um número maior que 5")
+If número<5
+print("Você digitou um numero menor que 5)

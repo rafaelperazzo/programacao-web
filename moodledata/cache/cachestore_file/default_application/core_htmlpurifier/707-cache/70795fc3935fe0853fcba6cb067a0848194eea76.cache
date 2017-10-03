@@ -1,0 +1,27 @@
+s:857:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Insira um numero: NAO DIVISIVEL POR 3 E 7
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*NAO DIVISIVEL POR 3 E POR 7.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 51
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Insira um numero: NAO DIVISIVEL POR 3 E 7
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*NAO DIVISIVEL POR 3 E POR 7.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

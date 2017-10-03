@@ -1,0 +1,68 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 5
+
+<|--
+-Failed tests
+Test 4: Teste 4
+Test 5: Teste 5
+--|>
+
+<|--
+-Test 4: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Digite o dia da DATA 1: Digite o mês da DATA 1: Traceback (most recent call last):
+>  File "ex11.py", line 3, in <module>
+>    mes1=float(input("Digite o mês da DATA 1: "))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 5: Teste 5 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>12
+>09
+>1980
+
+ --- Program output ---
+>Digite o dia da DATA 1: Digite o mês da DATA 1: Traceback (most recent call last):
+>  File "ex11.py", line 3, in <module>
+>    mes1=float(input("Digite o mês da DATA 1: "))
+>  File "<string>", line 1
+>    09
+>     ^
+>SyntaxError: invalid token
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 6

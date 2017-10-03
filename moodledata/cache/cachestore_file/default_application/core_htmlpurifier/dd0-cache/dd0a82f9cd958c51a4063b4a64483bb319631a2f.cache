@@ -1,0 +1,11 @@
+s:633:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li>valor a ser pago = R$ 1.599,00;</li>
+<li>a partir de duas prestações, acréscimo de 7,5% no valor total;</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul><li>valor da prestação no caso de pagamento parcelado.</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p>[1599 + (0,075 * 1599)* n-(k-1) ] / n</p>
+<ul><li>n ≤ a 2, k = 2</li>
+<li>n &gt; 2, k = n</li>
+</ul><p>Esta é a equação que satisfaz o problema, onde "n" é o numero parcelas em que o valor vai ser dividido.</p>
+<p>            </p>";

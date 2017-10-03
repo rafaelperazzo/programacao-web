@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+moradores=int(input('Digite o numero de moradores:'))
+votobranco=int(input('Digite o numero de votos em branco:'))
+votonulo=int(input('Digite o numero de votos nulos:'))
+votovalido=int(input('Digite o numero de votos validos:'))
+porcentagem1=((votobranco/moradores)*100)
+porcentagem2=((votonulo/moradores)*100)
+porcentagem3=((votovalido/moradores)*100)
+print('Percentual de votos em branco eh %.d' %porcentagem1)
+print('Percentual de votos nulos eh %.d' %porcentagem2)
+print('Pecentural de votos validos eh %.d' %porcentagem3)

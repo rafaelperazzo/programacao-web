@@ -1,0 +1,5 @@
+dia1=input('Dia: ')
+mes1=input('Mes: ')
+ano1=input('Ano: ')
+dia2=input('Dia: ')
+mes2=input('Mes: ')

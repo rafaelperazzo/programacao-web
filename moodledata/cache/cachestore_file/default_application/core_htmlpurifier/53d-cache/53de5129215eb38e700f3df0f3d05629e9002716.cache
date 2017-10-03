@@ -1,0 +1,6 @@
+s:247:"<p>Olá, Marcos.<br />
+Uma forma mais simples é usar um print diferente pra cada variável<br />
+print(a)<br />
+print(b)<br />
+print(c)<br /><br />
+lembre-se que o comando print pula uma linha automaticamente após mostrar o dado na tela</p>";

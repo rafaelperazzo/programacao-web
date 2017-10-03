@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+
+print('Digite seu Ano,Mês e Data do seu nascimento: ')
+int(input('ano: '))
+int(input('mês: '))
+int(input('data: '))
+
+
+print('Digite seu Ano,Mês e Data atual: ')
+int(input('ano: '))
+int(input('mês: '))
+int(input('data: '))
+
+
+
+ 

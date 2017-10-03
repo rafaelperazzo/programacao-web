@@ -1,0 +1,30 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 521.78
+>3
+
+ --- Program output ---
+>códigos de pagamento: 1 - À vista em dinheiro ou cheque. 2 - À vista no cartão crédito. 3 - Em duas vezes, preço normal de etiqueta. 4 - Em duas vezes, com jueros de 10%.
+>Digite o valor dos produtos:Digite o código de pagamento:521.78
+
+ --- Expected output (numbers)---
+>521.78
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2.25

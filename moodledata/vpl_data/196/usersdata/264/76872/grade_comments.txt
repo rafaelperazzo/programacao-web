@@ -1,0 +1,17 @@
+-Test 5: Teste 5 (-0.200)
+Incorrect program result
+ --- Input ---
+> -5
+
+ --- Program output ---
+>Digite o valor de n:0.00000
+
+ --- Expected output (text)---
+> '8.70000'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

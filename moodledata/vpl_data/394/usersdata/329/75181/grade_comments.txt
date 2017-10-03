@@ -1,0 +1,21 @@
+-Test 5: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>9
+>1980
+>12
+>9
+>1980
+
+ --- Program output ---
+>digite dia1digite mes1digite ano1digite dia2digite mes2digite ano2IQUAIS
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

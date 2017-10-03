@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+#ENTRADA
+print('-------------------------------------------')
+p=float(input('Digite a variável P: '))
+i=float(input('Digite a variável i: '))
+n=float(input('Digite a variável n: '))
+#PROCESSAMENTO
+v=(p*((1+i)**n-1)/i)
+#SAíDA
+float(print('V é igual',v,'.'))
+

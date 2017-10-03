@@ -1,0 +1,19 @@
+case = Teste 1
+input = 5
+output = /.*IGUAL A 5.*/i
+
+case = Teste 2
+input = 200
+output = /.*IGUAL A 200.*/i
+
+case = Teste 3
+input = 400
+output = /.*IGUAL A 400.*/i
+
+case = Teste 4
+input = -20
+output = /.*OUTRO CASO.*/i
+
+case = Teste 5
+input = 1000
+output = /.*OUTRO CASO.*/i

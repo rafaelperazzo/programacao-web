@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+p1=float(input('digite o valor do peso1: '))
+c1=float(input('digite o valor do comprimento1: '))
+p2=float(input('digite o valor do peso2: '))
+c2=float(input('digite o valor do comprimento2: '))
+if (p1*c1)==(p2*c2) :
+    print('0')
+elif (p1*c1)>(p2*c2):
+    print('-1')
+else :
+    print('1')
+

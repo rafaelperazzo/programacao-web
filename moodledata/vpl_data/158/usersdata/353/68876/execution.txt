@@ -1,0 +1,29 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 4: Teste 4 (-5.000)
+Incorrect program result
+ --- Input ---
+> 180
+>1.80
+
+ --- Program output ---
+>Peso: Altura: OBESIDAD GRAVE
+
+ --- Expected output (regular expression)---
+>.*OBESIDADE GRAVE.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

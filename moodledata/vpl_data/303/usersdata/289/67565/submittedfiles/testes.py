@@ -1,0 +1,1 @@
+print("Você digitou um número maior que 5")

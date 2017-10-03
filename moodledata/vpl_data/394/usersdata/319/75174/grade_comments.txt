@@ -1,0 +1,46 @@
+-Failed tests
+Test 2: Teste 2
+Test 5: Teste 4
+-Test 2: Teste 2 (-2.000)
+Incorrect program result
+ --- Input ---
+> 31
+>6
+>1988
+>20
+>6
+>1988
+
+ --- Program output ---
+>  File "ex11.py", line 20
+>    print(print('DATA 2')
+>              ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Test 5: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>9
+>1980
+>12
+>9
+>1980
+
+ --- Program output ---
+>  File "ex11.py", line 20
+>    print(print('DATA 2')
+>              ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 3 tests passed |
+>+------------------------------+
+

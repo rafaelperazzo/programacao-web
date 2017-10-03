@@ -88,7 +88,7 @@ Indique o endereço completo do diretório de instalação, prestando muita aten
 Indique um diretório para o arquivamento de documentos carregados no servidor. Este diretório deve ter as autorizações de acesso configuradas para que o Usuário do Servidor (ex. \'nobody\' ou \'apache\') possa acessar e criar novos arquivos. Atenção, este diretório não deve ter o acesso via web autorizado.</p>';
 $string['directorysettingshead'] = 'Confirme os percursos de acesso desta instalação de Moodle';
 $string['directorysettingssub'] = '<b>Endereço Web:</b>
-Especifique o endereço web completo em que Moodle pode ser acessado. Se o acesso é múltiplo, escolha o endereço mais fácil para os alunos. Não inclua uma barra final no endereço.
+Especifique o endereço web completo em que Moodle pode ser acessado. Se o acesso é múltiplo, escolha o endereço mais fácil para os estudantes. Não inclua uma barra final no endereço.
 <br />
 <br />
 <b>Diretório Moodle:</b>

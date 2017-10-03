@@ -1,0 +1,11 @@
+s:685:"<p><strong>1) Dados de Entrada</strong></p>
+<p>Se a vista 1599,00. Se em parcelas maior ou igual a 2 acrescentar 7,5% sobre o valor considerado a vista. Dividir o valor por o numero de parcelas que foram escolhidas.</p>
+<p><strong>2) Saída(s) Esperada(s)</strong></p>
+<p>1599,00 ((se numero de parcelas maior ou igual a 2) + 0,075 x 1599,00)/numero de parcelas</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p> </p>
+<ol><li>Saber se é a vista ou a prazo</li>
+<li>Se a vista, somar o valor de 1599,00</li>
+<li>Se a prazo maior ou igual a 2, somar sobre o valor 7,5%</li>
+<li>Dividir pelo numero de parcelas desejadas </li>
+</ol>";

@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+a=30
+b=20
+print a/b
+
+
+
+
+"""
+valor=int(input("digite o valor a ser sacado: "))
+a=valor/20
+z=(valor%20)
+if (z%20)==0:
+    print a
+else:
+    b=(z/10)
+    if (z%10)==0:
+        print b
+"""
+       

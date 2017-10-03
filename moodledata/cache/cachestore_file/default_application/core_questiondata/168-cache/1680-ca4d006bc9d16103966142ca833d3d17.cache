@@ -1,0 +1,20 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1680";s:8:"category";s:3:"285";s:6:"parent";s:1:"0";s:4:"name";s:20:"Juros da Prestação";s:12:"questiontext";s:253:"<p><span>O preço de um refrigerador, à vista, é R$ 1.599,00. No pagamento a partir de duas prestações, ocorre um acréscimo de 7,5% de juros sobre o valor à vista. Quanto ficaria o valor de cada parcela no caso de pagamento parcelado? </span></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:108:"<p>Suas respostas foram enviadas.</p>
+<p>Aguarde a correção do professor que será realizada em breve.</p>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0;s:5:"qtype";s:5:"essay";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170823134645+eS9pIR";s:7:"version";s:43:"programacao.ufca.edu.br+170823135235+Chj5Lf";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1503496005";s:12:"timemodified";s:10:"1503496355";s:9:"createdby";s:3:"277";s:10:"modifiedby";s:3:"277";s:9:"contextid";s:4:"3847";s:7:"options";O:8:"stdClass":12:{s:2:"id";s:3:"267";s:10:"questionid";s:4:"1680";s:14:"responseformat";s:6:"editor";s:16:"responserequired";s:1:"1";s:18:"responsefieldlines";s:2:"20";s:11:"attachments";s:1:"0";s:19:"attachmentsrequired";s:1:"0";s:10:"graderinfo";s:485:"<p><strong>1) Dados de Entrada</strong></p>
+<ul>
+<li>Valor do produto à vista</li>
+<li>Taxa de juros sobre o valor total no caso de pagamento parcelado</li>
+</ul>
+<p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul>
+<li>Valor de cada parcela</li>
+</ul>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<ul>
+<li>TotalAPrazo = TotalAVista * [1 + (PercentualJurosAPrazo / 100)]</li>
+<li>ValorParcela = TotalAPrazo / QuantidadePrestações</li>
+</ul>";s:16:"graderinfoformat";s:1:"1";s:16:"responsetemplate";s:244:"<p><strong>1) Dados de Entrada</strong></p>
+<p>[escreva aqui]</p>
+<p><strong>2) Saída(s) Esperada(s)</strong></p>
+<p>[escreva aqui]</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p>[escreva aqui]</p>";s:22:"responsetemplateformat";s:1:"1";s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}

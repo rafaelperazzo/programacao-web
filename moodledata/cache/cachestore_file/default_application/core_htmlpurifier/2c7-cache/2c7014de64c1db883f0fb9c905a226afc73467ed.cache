@@ -1,0 +1,13 @@
+s:1524:"<p><strong>1) Dados de Entrada </strong></p>
+<ul><li>Valor da mensalidade de manutenção fixa para assinantes domésticos: R$ 29,90</li>
+<li>Número limite de minutos não taxados: 100</li>
+<li>Valor da taxa para cada minuto excedente: R$ 0,33</li>
+<li>Número total de minutos utilizados ao telefone, no último mês, na residência de João: 342</li>
+</ul><p><strong>2) Saída(s) Esperada(s) </strong></p>
+<ul><li>Valor da fatura mensal: R$ 109,76.</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<ol><li>Observamos o número de de minutos utilizados naquele mês: a) se ele for igual ou inferior a 100, não há acréscimo e o valor da fatura mensal corresponde aos R$ 29,90 da mensalidade fixa; b) se ele for superior a 100, há acréscimo, devido à taxa sobre minutos excedentes. Nesse caso, concluímos que há acréscimo, pois 342 &gt; 100;</li>
+<li>Calculamos o total de minutos excedentes: <em>(Minutos excedentes) = (Minutos utilizados no mês) - 100. </em>Nesse caso, obteremos: <em>(Minutos excedentes) = 342 - 100 = 242;</em></li>
+<li>Calculamos o valor, em reais, da taxa relativa aos minutos excedentes: <em>(Taxa) = (Minutos excedentes)*(0,33).</em> Nesse caso, obteremos: <em>(Taxa) = 242*(0,33) = R$ 79,86;</em><em><br /></em></li>
+<li>Calculamos o valor da fatura mensal: <em>(Valor da fatura mensal) = (Mensalidade fixa) + (Taxa)</em>. Nesse caso, obtemos <em>(Valor da fatura mensal) = R$ 29,90 + R$ 79,86 = R$ 109,76.</em></li>
+</ol>";

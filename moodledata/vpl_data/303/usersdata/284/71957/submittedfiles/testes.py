@@ -1,0 +1,4 @@
+    print('comando')
+print('pronto')
+   
+        

@@ -1,0 +1,10 @@
+s:760:"<p>Estas opções controlam quais informações estudantes podem ver quando eles revisam uma tentativa visualizam os relatórios do quiz.</p>
+
+<p><strong>Durante a tentativa</strong> é relevante para alguns comportamentos como "interativo com múltiplas tentativas" que pode mostrar o feedback durante a tentativa.</p>
+
+<p><strong>Imediatamente após a tentativa</strong> se aplica aos primeiros dois minutos após clicar em "Enviar tudo e terminar".</p>
+
+<p><strong>Mais tarde, enquanto o quiz ainda está aberto</strong> se aplica após isto e antes da data de encerramento do quiz.</p>
+
+<p><strong>Após o quiz estar fechado</strong> se aplica após a data de encerramento. Se o quiz não tem uma data de encerramento, este estado nunca é alcançado.</p>
+";

@@ -1,0 +1,77 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>--------------------------------------------------
+>
+>Calculadora para hidraulica aplicada
+>
+>--------------------------------------------------
+>
+>Digite o valor de f: Digite o valor de L: Digite o valor de Q: Digite o valor de DeltaH: Digite o valor de v: 
+>D = 1.7382 
+>
+>Rey = 476122.1893
+>
+>k = 0.0133
+
+ --- Expected output (regular expression)---
+>.*1[.]+738[0-9]*
+>.*476122[.]+189[0-9]*
+>.*0[.]+013[0-9]*
+
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 0.5
+>20000
+>0.5
+>11
+>0.000010
+
+ --- Program output ---
+>--------------------------------------------------
+>
+>Calculadora para hidraulica aplicada
+>
+>--------------------------------------------------
+>
+>Digite o valor de f: Digite o valor de L: Digite o valor de Q: Digite o valor de DeltaH: Digite o valor de v: 
+>D = 1.7978 
+>
+>Rey = 35411.6702
+>
+>k = 0.0225
+
+ --- Expected output (regular expression)---
+>.*1[.]+797[0-9]*
+>.*35411[.]+670[0-9]*
+>.*0[.]+022[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,4 @@
+s:459:"<p>Professor, bom dia. Quando tiver um tempinho e puder tirar uma dúvida.<br />
+Na prática pra casa de condicionais tive uma dúvida numa linha que era pra deixar os valores um sobre o outro no print aí fiz pra cada variável um "\n", por exemplo:<br />
+str(d1)+"\n"+str(d2)+"\n".... str(d5).<br />
+então me perguntei se havia uma forma de deixar a linha mais simples, se o senhor puder me ajudar a simplificar ou tiver algum comando que simplifique. </p>";

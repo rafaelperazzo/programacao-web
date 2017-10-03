@@ -1,0 +1,13 @@
+s:932:"<p><strong>1) Dados de Entrada </strong></p>
+<ul><li>Mensalidade de manutenção fixa para assinantes domésticos e comerciais;</li>
+<li>Taxa por minuto excedente (acima de 100 minutos);</li>
+<li>Contagem de minutos utilizados após os 100 primeiros minutos.</li>
+</ul><p><strong>2) Saída(s) Esperada(s) </strong></p>
+<ul><li>Valor a ser pago por João à empresa.</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<ul><li>Quantidade de minutos utilizados = <strong>342;</strong></li>
+<li>Subtração do total de minutos utilizados por 100 = <strong>242;</strong></li>
+<li>Multiplicação do resultado da subtração por<strong> R$0,33</strong> = <strong>R$79,86;</strong></li>
+<li>Soma do resultado anterior com a taxa de manutenção fixa para assinantes domésticos =<strong> R$79,86 + R$29,90;</strong></li>
+<li>Resultado final = <strong>R$ 109,76</strong></li>
+</ul>";

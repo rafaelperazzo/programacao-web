@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+#NÃO APAGUE A LINHA ACIMA. COMECE ABAIXO DESTA LINHA
+i = 2.0
+j = 3.0
+auxi = 2.0
+auxj = 3.0
+cont = 0
+
+
+n = int(input())
+
+while n>0:
+    n = n - 1
+    
+    j = j * auxj
+    i = i * auxi
+
+    
+    if cont == 0
+        auxj = auxj + 2
+    else: 
+        auxi = auxi + 2
+        
+
+pi = i/j
+
+print(pi)

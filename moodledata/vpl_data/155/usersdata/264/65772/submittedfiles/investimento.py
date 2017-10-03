@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+i= float(input('Digite o valor do investimento inicial:'))
+t= float(input('Digite o valor da taxa de crescimento percentual:'))
+a= i+(i*t)
+b= a+(a*t)
+c= b+(b*t)
+d= c+(c*t)
+e= d+(d*t)
+f= e+(e*t)
+g= f+(f*t)
+h= g+(g*t)
+j= h+(h*t)
+k= j+(j*t)
+print('%.2f' %a)
+print('%.2f' %b)
+print('%.2f' %c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(j)
+print(k)

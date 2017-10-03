@@ -1,0 +1,69 @@
+s:1556:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1987
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 02
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 31
+06
+1988
+20
+06
+1988
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 01
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 1.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 02
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 02
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

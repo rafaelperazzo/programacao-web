@@ -1,0 +1,30 @@
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>-----------------------------------------------------------
+>Welcome to my calculus world!!! Enjoy!!!
+>-----------------------------------------------------------
+>
+>
+>Enter the coefficient 'a' value of the second degree equation in the format ax²+bx+c=0 to calculate your roots: Enter the coefficient 'b' value: Now enter the coefficient 'c' value:
+>SRR
+>
+>
+>Do you wish continue? (Enter 1 to continue or other number to close this software): Traceback (most recent call last):
+>  File "ex1.py", line 20, in <module>
+>    cont=int(input("\n\nDo you wish continue? (Enter 1 to continue or other number to close this software): "))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

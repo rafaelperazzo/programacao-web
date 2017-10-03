@@ -270,7 +270,7 @@ $string['forumtype_help'] = '<P>Os fóruns podem ter as seguintes característic
 
 <p><b>Fórum Perguntas e Respostas</b> - neste fórum um estudante pode ler as mensagens de outros sómente após a publicação de sua mensagem. Depois disto pode também responder às mensagens do grupo. isto permite que a primeira mensagem de cada estudante seja original e independente.</p>';
 $string['forum:viewallratings'] = 'Ver todas as qualificações emitidas pelos usuários';
-$string['forum:viewanyrating'] = 'Ver todas as avaliações de todos os alunos';
+$string['forum:viewanyrating'] = 'Ver todas as avaliações de todos os estudantes';
 $string['forum:viewdiscussion'] = 'Ver discussões';
 $string['forum:viewhiddentimedposts'] = 'Ver mensagens escondidas';
 $string['forum:viewqandawithoutposting'] = 'Ver sempre mensagens Q e A';
@@ -326,7 +326,7 @@ $string['modethreaded'] = 'Listar respostas';
 $string['modulename'] = 'Fórum';
 $string['modulename_help'] = 'O módulo de atividade fórum permite que participantes tenham discussões assíncronas, ou seja, discussões que acontecem durante um longo período de tempo.
 
-Existem vários tipos de fóruns que você pode escolher, como o fórum padrão onde qualquer um pode iniciar uma discussão a qualquer momento; um fórum onde cada estudante pode postar apenas uma discussão; ou um fórum de perguntas e respostas onde os estudantes devem primeiro fazer um post para então serem autorizados a ver os outros posts de outros alunos. Um professor pode permitir que arquivos sejam anexados aos posts dos fóruns. As imagens anexadas são exibidas no post do fórum.
+Existem vários tipos de fóruns que você pode escolher, como o fórum padrão onde qualquer um pode iniciar uma discussão a qualquer momento; um fórum onde cada estudante pode postar apenas uma discussão; ou um fórum de perguntas e respostas onde os estudantes devem primeiro fazer um post para então serem autorizados a ver os outros posts de outros estudantes. Um professor pode permitir que arquivos sejam anexados aos posts dos fóruns. As imagens anexadas são exibidas no post do fórum.
 
 Participantes podem assinar um fórum para receber notificações de novos posts do fórum. Um professor pode definir o modo de assinatura como opcional, forçado ou automático, ou proibir as assinaturas completamente. Se necessário, é possível estabelecer um número máximo de postagens num determinado período de tempo; isto pode previnir que alguns indivíduos dominem as discussões.
 
@@ -340,7 +340,7 @@ Fórum tem muitas utilizadades, como
 * Para continuar online uma discussão iniciada em sala de aula
 * Para discussões entre os professores (utilize um fórum oculto)
 * Uma central de ajuda onde tutores e estudantes podem conseguir ajuda
-* Uma área de suporte um-para-um para comunicações particulares entre professor e estudante (usando um fórum com grupos separados e um aluno por grupo)
+* Uma área de suporte um-para-um para comunicações particulares entre professor e estudante (usando um fórum com grupos separados e um estudante por grupo)
 * Para atividades de extensão, por exemplo "brainstorms" para estudantes sugerirem e avaliarem idéias';
 $string['modulename_link'] = 'mod/forum/view';
 $string['modulenameplural'] = 'Fóruns';

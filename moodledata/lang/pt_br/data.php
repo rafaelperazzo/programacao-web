@@ -255,9 +255,7 @@ Mapear para {$a}';
 $string['mapnewfield'] = 'Criar um novo campo';
 $string['mappingwarning'] = 'Todos os campos antigos que não forem mapeados para um novo campo serão perdidos e todos os dados naquele campo serão removidos.';
 $string['maxentries'] = 'Número máximo de entradas';
-$string['maxentries_help'] = '<p align="center"><strong>Número Máximo Itens</strong></p>
-
-<p>O número máximo de itens que um aluno pode criar nesta atividade.</p>';
+$string['maxentries_help'] = 'O número máximo de itens que um estudante pode inserir nesta atividade.';
 $string['maxsize'] = 'Tamanho máximo';
 $string['menu'] = 'Menu';
 $string['menuchoose'] = 'Selecionar...';

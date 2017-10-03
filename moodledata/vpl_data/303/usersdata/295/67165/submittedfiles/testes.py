@@ -1,0 +1,10 @@
+print(int(input("nota 1"))
+print(nota1)
+print(int(input("nota 2"))
+print(nota2)
+print(int(input("nota 3"))
+print(nota3)
+print(int(input("nota 4"))
+print(nota4)
+
+print("as quatro notas sao %d" %(nota,nota,nota,nota,media))

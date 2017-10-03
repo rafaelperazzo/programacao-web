@@ -1,0 +1,8 @@
+s:607:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li>Valor do refrigerador é <span>R$</span> 1.599,00</li>
+<li>Acréscimo de 7,5% juros</li>
+<li>Duas ou mais prestações</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<p>Acrescentar 7,5% juros sobre o valor à vista <span>R$</span> 1.599,00 e depois somar com o valor inicial e dividir por 2 e  a saída esperada fica menor e/ou igual a <span>R$</span> 859,46</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<p>V+7,5V/(x), onde V é o valor do produto e (x) é a quantidade de parcelas.</p>";

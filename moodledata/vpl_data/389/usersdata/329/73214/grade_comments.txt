@@ -1,0 +1,42 @@
+-Failed tests
+Test 2: Test 2
+Test 3: Test 3
+Test 4: Test 4
+-Test 2: Test 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 7
+
+ --- Program output ---
+>digite o valor de lados=49.0
+
+ --- Expected output (regular expression)---
+>.*14[.]*[0]*
+
+-Test 3: Test 3 (-2.500)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>digite o valor de lados=114486680448.0
+
+ --- Expected output (regular expression)---
+>.*170[.]*[0]*
+
+-Test 4: Test 4 (-2.500)
+Incorrect program result
+ --- Input ---
+> 50
+
+ --- Program output ---
+>digite o valor de lados=8429369702178806958029325315903584206848.0
+
+ --- Expected output (regular expression)---
+>.*1175[.]*[0]*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+import math
+#COMECE SEU CÓDIGO AQUI
+g = 9.81
+epsilon = 0.000002
+pi = math.pi
+
+calc1 = float(8*0.2*50000*(0.65*2))
+calc2 = float((pi**2)*9.81*22)
+calc3 = float(calc1/calc2)
+calc4 = float(calc3**(1/5))
+print(calc4)
+
+f = float(input('Digite f: '))
+L = float(input('Digite L: '))
+Q = float(input('Digite Q: '))
+DeltaH = float(input('Digite DeltaH: '))
+v = float(input('Digite v: '))
+
+D = float((((8*f*L*(Q**2))/((pi**2)*g*DeltaH))**(1/5)))
+
+Rey = float((4*Q)/(pi*D*v))
+
+k = float((0.25)/((math.log10((epsilon/(3.7*D))+(5.74/(Rey**0.9))))**2))
+
+print('\n')
+print('%.4f' % D)
+print('%.4f' % Rey)
+print('%.4f' % k)

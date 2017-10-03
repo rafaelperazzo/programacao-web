@@ -30,18 +30,18 @@ $string['activate'] = 'Habilitar acesso';
 $string['activatesuccess'] = 'Acesso aos emblemas foi habiltiado com sucesso.';
 $string['addbadgecriteria'] = 'Adicionar critérios ao emblema';
 $string['addcourse'] = 'Adicionar cursos';
-$string['addcourse_help'] = 'Selecione todos os cursos que podem ser adicionados a essa requisição de badge. Mantenha pressioanda a tecla CTRL para selecionar vários itens.';
+$string['addcourse_help'] = 'Selecione todos os cursos que podem ser adicionados a essa condição de emblema. Mantenha pressionada a tecla CTRL para selecionar vários cursos.';
 $string['addcriteria'] = 'Adicionar critérios';
 $string['addcriteriatext'] = 'Para começar a adicionar critérios, por favor, selecione uma das opções a partir do menu drop-down.';
 $string['addtobackpack'] = 'Adicionar à mochila';
 $string['adminonly'] = 'Esta página é restrita a administradores do site.';
 $string['after'] = 'após a data de emissão.';
 $string['aggregationmethod'] = 'Método de agregação';
-$string['all'] = 'Tudo';
-$string['allmethod'] = 'Todas as condições selecionadas estão satisfeitas';
-$string['allmethodactivity'] = 'Todas as atividades selecionadas estão completas';
-$string['allmethodcourseset'] = 'Todos os cursos selecionados estão completos';
-$string['allmethodmanual'] = 'Todos os papeis selecionados concedem o badge';
+$string['all'] = 'Todos';
+$string['allmethod'] = 'Todas as condições selecionadas forem concluídas';
+$string['allmethodactivity'] = 'Todas as atividades selecionadas forem concluídas';
+$string['allmethodcourseset'] = 'Todos os cursos selecionados forem concluídos';
+$string['allmethodmanual'] = 'Todos os papéis selecionados concedem o emblema';
 $string['allmethodprofile'] = 'Todos os campos do perfil selecionados foram preenchidos';
 $string['allowcoursebadges'] = 'Ativar emblemas do curso';
 $string['allowcoursebadges_desc'] = 'Permite que emblemas sejam criados e concedidos no contexto do curso';
@@ -50,8 +50,8 @@ $string['allowexternalbackpack_desc'] = 'Permite a usuários configurar conexõe
 
 Nota: É recomendado deixar esta opção desabilitada se o site não pode ser acessado a partir da internet (ex. por conta de um firewall)';
 $string['any'] = 'Qualquer';
-$string['anymethod'] = 'Qualquer uma das condições está cumprida';
-$string['anymethodactivity'] = 'Qualquer uma das atividades selecionadas estar concluída';
+$string['anymethod'] = 'Qualquer uma das condições for concluída';
+$string['anymethodactivity'] = 'Qualquer uma das atividades selecionadas for concluída';
 $string['anymethodcourseset'] = 'Qualquer um dos cursos selecionados estar concluído';
 $string['anymethodmanual'] = 'Qualquer um dos papeis selecionados concedem o emblema';
 $string['anymethodprofile'] = 'Qualquer um dos campos do perfil estar preenchido';
@@ -144,7 +144,7 @@ $string['bmessage'] = 'Mensagem';
 $string['boverview'] = 'Visão geral';
 $string['bydate'] = 'concluir até';
 $string['clearsettings'] = 'Limpar configurações';
-$string['completioninfo'] = 'Este emblema foi emitido por completar:&nbsp;';
+$string['completioninfo'] = 'Este emblema foi emitido por concluir: ';
 $string['completionnotenabled'] = 'A conclusão de curso não está habilitada para esse curso e portanto não pode ser incluída no critério do emblema. Você pode habilitar a conclusão de curso nas configurações do curso.';
 $string['configenablebadges'] = 'Quando habilitada, esta funcionalidade permite a você criar emblemas e concedê-los aos usuários do site.';
 $string['configuremessage'] = 'Mensagem do emblema';
@@ -156,10 +156,10 @@ $string['contact_help'] = 'Um endereço de email associado ao emissor do emblema
 $string['copyof'] = 'Cópia de {$a}';
 $string['coursebadges'] = 'Emblemas';
 $string['coursebadgesdisabled'] = 'Emblemas de curso não estão habilitados neste site.';
-$string['coursecompletion'] = 'Participantes precisam completar este curso.';
+$string['coursecompletion'] = 'Os usuários devem concluir este curso.';
 $string['create'] = 'Novo emblema';
 $string['createbutton'] = 'Criar emblema';
-$string['creatorbody'] = '<p>{$a->user} completou todos os requisitos e foi premiado com o emblema. Ver emblema emitido em {$a->link} </p>';
+$string['creatorbody'] = '<p>{$a->user} concluiu todos os requisitos e foi premiado com o emblema. Ver emblema emitido em {$a->link} </p>';
 $string['creatorsubject'] = '\'{$a}\' foi concedido!';
 $string['criteria_0'] = 'Este emblema é concedido quando';
 $string['criteria_1'] = 'Conclusão de atividade';
@@ -176,8 +176,8 @@ $string['criteria_6'] = 'Preenchimento de perfil';
 $string['criteria_6_help'] = 'Permite que um emblema seja concedido a um usuário por preencher determinados campos do perfil. Você pode selecionar campos padrão e personalizados que estejam disponíveis aos usuários.';
 $string['criteriacreated'] = 'Critério de emblema criado com sucesso';
 $string['criteriadeleted'] = 'Critério de emblema excluído com sucesso';
-$string['criteria_descr'] = 'Os alunos são premiados com este emblema quando completam o seguinte requisito:';
-$string['criteria_descr_0'] = 'Os alunos são premiados com este emblema quando completam <strong>{$a}</strong> dos requisitos listados.';
+$string['criteria_descr'] = 'Os estudantes são premiados com este emblema quando concluem a seguinte condição:';
+$string['criteria_descr_0'] = 'Os estudantes são premiados com este emblema quando concluem <strong>{$a}</strong> das condições listadas.';
 $string['criteria_descr_1'] = '<strong>{$a}</strong> das seguintes atividades estão concluídas:';
 $string['criteria_descr_2'] = 'Este emblema deve ser concedido por usuários com <strong>{$a}</strong> dos seguintes papéis:';
 $string['criteria_descr_4'] = 'Os usuários devem concluir o curso';
@@ -192,7 +192,7 @@ $string['criteria_descr_short4'] = 'Concluir o curso';
 $string['criteria_descr_short5'] = 'Concluir <strong>{$a}</strong> de:&nbsp;';
 $string['criteria_descr_short6'] = 'Concluir <strong>{$a}</strong> de:&nbsp;';
 $string['criteria_descr_single_1'] = 'A seguinte atividade deve ser concluída:';
-$string['criteria_descr_single_2'] = 'Este badge deve ser concedido por um usuário com o seguinte papel:';
+$string['criteria_descr_single_2'] = 'Este emblema deve ser concedido por um usuário com o seguinte papel:';
 $string['criteria_descr_single_4'] = 'Os usuários devem concluir o curso';
 $string['criteria_descr_single_5'] = 'O seguinte curso deve ser concluído:';
 $string['criteria_descr_single_6'] = 'O seguinte campo de perfil de usuário deve ser preenchido:';
@@ -204,7 +204,7 @@ $string['criteria_descr_single_short6'] = 'Concluir:&nbsp;';
 $string['criteriasummary'] = 'Resumo dos critérios';
 $string['criteriaupdated'] = 'Critério do emblema atualizado com sucesso';
 $string['criterror'] = 'Problemas com parâmetros atuais';
-$string['criterror_help'] = 'Esse conjunto de campos mostra todos os parâmetros que foram inicialmente adicionados como requisitos deste emblema e não estão mais disponíveis. É recomendado que você desmarque estes parâmetros para se certificar de que os participantes podem obter esse badge no futuro.';
+$string['criterror_help'] = 'Esse conjunto de campos mostra todos os parâmetros que foram inicialmente adicionados como condições deste emblema e não estão mais disponíveis. É recomendado que você desmarque estes parâmetros para se certificar de que os usuários possam obter esse emblema no futuro.';
 $string['currentimage'] = 'Imagem atual';
 $string['currentstatus'] = 'Estado atual:&nbsp;';
 $string['dateawarded'] = 'Data de emissão';
@@ -290,9 +290,11 @@ $string['issuername_help'] = 'Nome do agente ou da autoridade emissora.';
 $string['issuerurl'] = 'URL do emissor';
 $string['localbadges'] = 'Meus emblemas do web site {$a}';
 $string['localbadgesh'] = 'Meus emblemas deste web site';
-$string['localbadgesh_help'] = 'Todos os emblemas ganhos neste web site por completar cursos, atividades de cursos e outros requisitos.
+$string['localbadgesh_help'] = 'Todos os emblemas ganhos neste web site por concluir cursos, atividades de cursos e outras condições.
 
-Você pode gerenciar suas medalhas aqui tornando-as públicas ou particulares na sua página de perfil.';
+Você pode gerenciar seus emblemas aqui tornando-os públicos ou particulares na sua página de perfil.
+
+Você pode baixar todos os seus emblemas ou cada emblema separadamente e salvá-los em seu computador. Os emblemas baixados podem ser adicionados ao seu serviço de mochila externo.';
 $string['localbadgesp'] = 'Emblemas de {$a}:';
 $string['localconnectto'] = 'Para compartilhar estes emblemas fora deste site, você precisa <a href="{$a}">conectar a uma mochila</a> .';
 $string['makeprivate'] = 'Tornar particular';
@@ -318,9 +320,9 @@ $string['nobackpackcollections'] = 'Nenhuma coleção de emblemas foi selecionad
 $string['nobadges'] = 'Não há emblemas disponíveis.';
 $string['nocriteria'] = 'Os critérios para este emblema ainda não foram definidos.';
 $string['noexpiry'] = 'Este emblema não possui uma data de expiração.';
-$string['noparamstoadd'] = 'Não existem parâmetros adicionais disponíveis para adicionar a este requisito do emblema.';
+$string['noparamstoadd'] = 'Não existem parâmetros adicionais disponíveis para adicionar a esta condição do emblema.';
 $string['notacceptedrole'] = 'Sua atribuição de papel atual não está entre os papéis que podem atribuir manualmente este emblema.<br/>
-Se você gostaria de ver os usuários que já ganharam este badge, você pode visitar a página {$a}.';
+Se você gostaria de ver os usuários que já ganharam este emblema, você pode visitar a página {$a}.';
 $string['notconnected'] = 'Não conectado';
 $string['nothingtoadd'] = 'Não existem critérios disponíveis para adicionar.';
 $string['notification'] = 'Notificar criador do emblema';
@@ -343,7 +345,7 @@ $string['notifymonthly'] = 'Mensal';
 $string['notifyweekly'] = 'Semanal';
 $string['numawards'] = 'Este emblema foi emitido para <a href="{$a->link}">{$a->count}</a> usuário(s).';
 $string['numawardstat'] = 'Este emblema foi emitido {$a} usuário(s).';
-$string['overallcrit'] = 'dos critérios selecionados estão completos.';
+$string['overallcrit'] = 'critério(s) selecionado(s) for(em) concluído(s).';
 $string['personaconnection'] = 'Acessar com seu e-mail';
 $string['personaconnection_help'] = 'Persona é um sistema para identificar-se em toda a web, usando um endereço de e-mail que você possui. A mochila Open Badges usa Persona como um sistema de login, de modo a ser capaz de se conectar a uma mochila você precisará de uma conta Persona. Para mais informações sobre Persona visite <a href="https://login.persona.org/about">https://login.persona.org/about</a>.';
 $string['potentialrecipients'] = 'Usuários aptos a receber o emblema';
@@ -377,15 +379,15 @@ Emblemas para atividades relacionadas com o curso deve ser criados no nível do 
 $string['status'] = 'Status do emblema';
 $string['status_help'] = 'Status de um emblema determina seu comportamento no sistema:
 
-* ** DISPONÍVEL** - Significa que este emblema pode ser conquistado pelos usuários. Enquanto um emblema está disponível para os utilizadores, os seus critérios não podem ser modificados.
+* ** DISPONÍVEL** - Significa que este emblema pode ser conquistado pelos usuários. Enquanto um emblema estiver disponível para os usuários, os seus critérios não podem ser alterados.
 
-* **Não disponível** - Significa que este emblema não está disponível para os usuários e não pode ser ganho ou emitido manualmente. Se tal emblema nunca foi emitido antes, os seus critérios podem ser alterados.
+* **NÃO DISPONÍVEL** - Significa que este emblema não está disponível para os usuários e não pode ser obtido ou emitido manualmente. Se tal emblema nunca foi emitido antes, os seus critérios podem ser alterados.
 
-Uma vez que um emblema foi emitido, pelo menos, um utilizador, torna-se automaticamente **BLOQUEADO**. Emblemas bloqueados ainda podem ser obtidos pelos usuários, mas os seus critérios não pode mais ser mudados. Se você precisar modificar detalhes ou critérios de um emblema bloqueado, você pode duplicar este emblema e fazer todas as alterações necessárias.
+Uma vez que um emblema foi emitido pelo menos a um usuário, torna-se automaticamente **BLOQUEADO**. Emblemas bloqueados ainda podem ser obtidos pelos usuários, mas os seus critérios não podem mais serem alterados. Se você precisar modificar detalhes ou critérios de um emblema bloqueado, você pode duplicar este emblema e fazer todas as alterações necessárias.
 
 *Por que bloqueamos os emblemas?*
 
-Queremos ter certeza que todos os usuários completaram os mesmos requisitos para ganhar um emblema. Atualmente, não é possível revogar emblemas. Se nós permitirmos que requisitos de emblemas sejam modificados o tempo todo, nós provavelmente acabaríamos com usuários tendo o mesmo emblema por completar requisitos completamente diferentes.';
+Queremos ter certeza que todos os usuários concluam as mesmas condições para ganhar um emblema. Atualmente, não é possível revogar emblemas. Se permitirmos que as condições de emblemas sejam alteradas o tempo todo, nós provavelmente terminaríamos com usuários obtendo o mesmo emblema por concluir condições completamente diferentes.';
 $string['statusmessage_0'] = 'Este emblema não está disponível para os usuários. Permita o acesso caso queira que os usuários ganhem este emblema.';
 $string['statusmessage_1'] = 'Este emblema está disponível para os usuários. Desabilite o acesso para fazer quaisquer alterações.';
 $string['statusmessage_2'] = 'Este emblema não está disponível para os usuários e seus critérios estão bloqueados. Permita o acesso caso queira que os usuários ganhem este emblema.';

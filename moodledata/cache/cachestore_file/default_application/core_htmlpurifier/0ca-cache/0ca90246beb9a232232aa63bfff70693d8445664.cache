@@ -1,0 +1,93 @@
+s:2194:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1987
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dia 1: mes 1: ano 1: dia 2: mes 2: Traceback (most recent call last):
+  File "ex11.py", line 6, in &lt;module&gt;
+    mes2 = int(input('mes 2: '))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dia 1: mes 1: ano 1: dia 2: mes 2: Traceback (most recent call last):
+  File "ex11.py", line 6, in &lt;module&gt;
+    mes2 = int(input('mes 2: '))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dia 1: mes 1: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    mes1 = int(input('mes 1: '))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+12
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>dia 1: mes 1: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    mes1 = int(input('mes 1: '))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*IGUAIS.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

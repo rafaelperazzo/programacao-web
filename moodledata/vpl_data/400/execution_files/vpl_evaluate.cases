@@ -1,0 +1,19 @@
+case = Teste 1
+input = 5
+output = /.*MAI.*/i
+
+case = Teste 2
+input = 13
+output = /.*NDA.*/i
+
+case = Teste 3
+input = 12
+output = /.*DEZ.*/i
+
+case = Teste 4
+input = 10
+output = /.*OUT.*/i
+
+case = Teste 5
+input = -1
+output = /.*NDA.*/i

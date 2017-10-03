@@ -1,0 +1,41 @@
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 2: Teste 2 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>7
+>10
+>2
+>9
+>11
+
+ --- Program output ---
+>Digite o numero da carta 1 :Digite o numero da carta 2 :Digite o numero da carta 3 :Digite o numero da carta 4 :Digite o numero da carta 5 :Digite o numero da carta 6 :
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 3: Teste 3 (-1.000)
+Incorrect program result
+ --- Input ---
+> 12
+>10
+>4
+>3
+>2
+>1
+
+ --- Program output ---
+>Digite o numero da carta 1 :Digite o numero da carta 2 :Digite o numero da carta 3 :Digite o numero da carta 4 :Digite o numero da carta 5 :Digite o numero da carta 6 :D
+>N
+
+ --- Expected output (text)---
+> 'D'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

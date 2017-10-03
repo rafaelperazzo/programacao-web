@@ -67,7 +67,15 @@ $string['legacyfilesactive'] = 'Ativo';
 $string['legacyfilesdone'] = 'Terminado';
 $string['modifieddate'] = 'Modificado {$a}';
 $string['modulename'] = 'Arquivo';
-$string['modulename_help'] = 'O módulo de arquivo permite que um professor para fornecer um arquivo como um recurso curso. Sempre que possível, o arquivo será exibido na interface do curso, caso contrário, os alunos serão solicitados a fazer o download. O arquivo pode incluir arquivos de suporte, por exemplo uma página HTML pode ter incorporado imagens ou objectos Flash. Note-se que os alunos precisam ter o software adequado em seus computadores a fim de abrir o arquivo. Um arquivo pode ser usado * Para compartilhar apresentações em classe * Para incluir um mini website como um recurso curso * Para fornecer arquivos de projectos de determinados programas de software (por exemplo, Photoshop. Psd) para que os alunos podem editar e enviá-los para a avaliação';
+$string['modulename_help'] = 'O módulo de arquivo permite que um professor para fornecer um arquivo como um recurso curso. Sempre que possível, o arquivo será exibido na interface do curso, caso contrário, os estudantes serão solicitados a fazer o download. O arquivo pode incluir arquivos de suporte, por exemplo uma página HTML pode ter incorporado imagens ou objetos Flash.
+
+Note-se que os estudantes precisam ter o software adequado em seus computadores a fim de abrir o arquivo.
+
+Um arquivo pode ser usado
+
+* Para compartilhar apresentações em classe
+* Para incluir um mini website como um recurso curso
+* Para fornecer arquivos de projetos de determinados programas de software (por exemplo, Photoshop. psd) para que os estudantes podem editar e enviá-los para a avaliação';
 $string['modulename_link'] = 'mod/resource/view';
 $string['modulenameplural'] = 'Arquivos';
 $string['notmigrated'] = 'Este tipo de recurso legado ({$a}) ainda não foi migrado, desculpe.';

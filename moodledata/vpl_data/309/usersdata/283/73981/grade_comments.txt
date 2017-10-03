@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+>Digite o valor desejado: 6 notas de 20
+>0 notas de 10
+>0 notas de 5
+>1 notas de 2
+>1 notas de 1
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

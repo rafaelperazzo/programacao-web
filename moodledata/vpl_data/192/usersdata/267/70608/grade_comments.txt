@@ -1,0 +1,18 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 15
+
+ --- Program output ---
+>Forneça um número: 3
+>5
+>NÃO É PRIMO
+
+ --- Expected output (regular expression)---
+>.*NÃO PRIMO.*|.*não primo.*
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

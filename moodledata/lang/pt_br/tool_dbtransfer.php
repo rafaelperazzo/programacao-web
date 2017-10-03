@@ -41,5 +41,5 @@ $string['targetdatabase'] = 'Banco de dados destino';
 $string['targetdatabasenotempty'] = 'Banco de dados de destino não contem nenhuma tabela com prefixo informado!';
 $string['transferdata'] = 'Transferência de dados';
 $string['transferdbintro'] = 'Este script irá transferir todo o conteúdo desse banco de dados para outro servidor de banco de dados.';
-$string['transferdbtoserver'] = 'Transferência do banco de dados deste Moodle para outro servidor';
+$string['transferdbtoserver'] = 'Transferir este banco de dados Moodle para outro servidor';
 $string['transferringdbto'] = 'Transferindo a base {$a->dbtypefrom} para {$a->dbtype} banco de dados {$a->dbname} em {$a->dbhost}';

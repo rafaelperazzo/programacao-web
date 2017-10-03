@@ -1,0 +1,27 @@
+-Test 1: Teste 1 (-30.000)
+Incorrect program result
+ --- Input ---
+> 6
+>2
+>3
+
+ --- Program output ---
+>Digite o valor de : Digite o valor do primeiro numero: Digite o valor do segundo numero: 2
+>Traceback (most recent call last):
+>  File "divisores.py", line 11, in <module>
+>    multiplo=mutiplo+1
+>NameError: name 'mutiplo' is not defined
+
+ --- Expected output (text)---
+> '2'
+>'3'
+>'4'
+>'6'
+>'8'
+>'9'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

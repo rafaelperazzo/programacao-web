@@ -1,0 +1,19 @@
+case = Teste 1
+input = 1
+output = /.*IMPAR.*/i
+
+case = Teste 2
+input = 33
+output = /.*IMPAR.*/i
+
+case = Teste 3
+input = 789
+output = /.*IMPAR.*/i
+
+case = Teste 4
+input = 1000
+output = /.*PAR.*/i
+
+case = Teste 5
+input = 10
+output = /.*PAR.*/i

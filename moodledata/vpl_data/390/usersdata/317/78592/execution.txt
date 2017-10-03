@@ -1,0 +1,58 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+--|>
+
+<|--
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: mostre o valor de 16
+>escreva o valor de (1, 5)
+>Traceback (most recent call last):
+>  File "ex1.py", line 13, in <module>
+>    x1 = -(b+SRR)/2
+>TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: mostre o valor de -3
+>escreva o valor de (1, 5)
+>Traceback (most recent call last):
+>  File "ex1.py", line 13, in <module>
+>    x1 = -(b+SRR)/2
+>TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+
+ --- Expected output (text)---
+> 'SRR'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,19 @@
+s:463:"<b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 10
+3
+2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor de a:Digite o valor de b:Digite o valor de c:N
+Ob
+Es
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'N'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

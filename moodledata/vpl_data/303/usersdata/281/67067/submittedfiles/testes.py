@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+idade=int(input('sua idade(i):'))
+print('a idade do individuo eh %d' %idade)
+idade=float(input('sua idade(f):'))
+print(idade)
+print('Sua idade inteira eh %d e sua idade copmleta eh %.1f' %(idade,idade)
+

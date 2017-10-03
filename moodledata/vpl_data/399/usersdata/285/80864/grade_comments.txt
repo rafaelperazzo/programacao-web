@@ -1,0 +1,16 @@
+-Test 5: Teste 5 (-0.400)
+Incorrect program result
+ --- Input ---
+> 1000
+
+ --- Program output ---
+>digite o valor de n: ENTRE 500 E 1000
+
+ --- Expected output (regular expression)---
+>.*OUTRO CASO.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

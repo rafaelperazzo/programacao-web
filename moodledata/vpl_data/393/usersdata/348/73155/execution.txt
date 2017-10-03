@@ -1,0 +1,31 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>digite f: digite L: digite Q: digite deltaH: digite v: 0.0132
+
+ --- Expected output (regular expression)---
+>.*1[.]+738[0-9]*
+>.*476122[.]+189[0-9]*
+>.*0[.]+013[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

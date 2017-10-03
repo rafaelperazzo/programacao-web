@@ -1,0 +1,15 @@
+case = Test 1
+input = 5
+output = /.*5[.]*[0]*/i
+
+case = Test 2
+input = 7
+output = /.*14[.]*[0]*/i
+
+case = Test 3
+input = 20
+output = /.*170[.]*[0]*/i
+
+case = Test 4
+input = 50
+output = /.*1175[.]*[0]*/i

@@ -1,0 +1,15 @@
+case = Teste 1
+input = 4000
+output = /.*3.14120[0-9]*.*/i
+
+case = Teste 2
+input = 5000
+output = /.*3.1412[1-9]*.*/i
+
+case = Teste 3
+input = 50000
+output = /.*3.14156[0-9]*.*/i
+
+case = Teste 4
+input = 100
+output = /.*3.1260[0-9]*.*/i

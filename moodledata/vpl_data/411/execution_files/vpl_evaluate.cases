@@ -1,0 +1,19 @@
+case = Teste 1
+input = 109.90
+2
+output=/.*98[.]+9[0-9]*/i
+
+case = Teste 2
+input = 369.80
+4
+output=/.*406[.]+7[0-9]*/i
+
+case = Teste 3
+input = 104.60
+1
+output=/.*88[.]+9[0-9]*/i
+
+case = Teste 4
+input = 521.78
+3
+output=521.78

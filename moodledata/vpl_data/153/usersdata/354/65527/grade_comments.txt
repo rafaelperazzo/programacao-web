@@ -1,0 +1,21 @@
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite o valor de a:Digite o valor de b:Digite o valor de c:Traceback (most recent call last):
+>  File "ex1.py", line 10, in <module>
+>    print(x1)
+>NameError: name 'x1' is not defined
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

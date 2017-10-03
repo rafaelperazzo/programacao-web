@@ -1,0 +1,32 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 123.56
+
+ --- Program output ---
+> digite o valor de p digite o valor de iTraceback (most recent call last):
+>  File "atm.py", line 2, in <module>
+>    i = float(input(' digite o valor de i'))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>6
+>0
+>0
+>1
+>1
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

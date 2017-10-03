@@ -1,0 +1,50 @@
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+-Test 1: Teste 1 (-0.750)
+Incorrect program result
+ --- Input ---
+> 164878
+>9.1
+>8.7
+>7.8
+>8.5
+
+ --- Program output ---
+>Digite o numero de matricula: Digite o valor da N1: Digite o valor da N2: Digite o valor da N3: Digite a média dos exercícios: 164878
+>8.342857142857143
+>B
+>APROVADO
+
+ --- Expected output (text)---
+>164878
+>8.3
+>B
+>APROVADO
+
+-Test 3: Teste 3 (-0.750)
+Incorrect program result
+ --- Input ---
+> 169870
+>10
+>9
+>9
+>10
+
+ --- Program output ---
+>Digite o numero de matricula: Digite o valor da N1: Digite o valor da N2: Digite o valor da N3: Digite a média dos exercícios: 169870
+>9.285714285714286
+>A
+>APROVADO
+
+ --- Expected output (text)---
+>169870
+>9.3
+>A
+>APROVADO
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+#ENTRADA: NÚMERO QUALQUER:x
+x= float(input('digite um número real x:')
+#PROCESSAMENTO: q:PARTE INTEIRA, j: PARTE FRACINÁRIA
+q= ('%d' % x)
+j= (x%1)
+#Saída:
+print(q)
+print(j)

@@ -1,0 +1,40 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>-----------------------------------------------------------
+>Welcome to my calculus world!!! Enjoy!!!
+>-----------------------------------------------------------
+>
+>
+>Enter the coefficient 'a' value of the second degree equation in the format ax²+bx+c=0 to calculate your roots: Enter the coefficient 'b' value: Now enter the coefficient 'c' value: 
+>SRR
+>
+>
+>Enter the coefficient 'a' value of the second degree equation in the format ax²+bx+c=0 to calculate your roots: Traceback (most recent call last):
+>  File "ex1.py", line 8, in <module>
+>    a=float(input("\n\nEnter the coefficient 'a' value of the second degree equation in the format ax²+bx+c=0 to calculate your roots: "))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> 'SRR'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

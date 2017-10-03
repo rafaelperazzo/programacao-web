@@ -59,11 +59,19 @@ $string['elements_help'] = 'Esta é a lista de elementos que serão exibidos no 
 Por favor note: Os elementos são apresentados nesta ordem. A ordem pode ser alterada usando as setas ao lado de cada elemento.';
 $string['elementwidth'] = 'Largura';
 $string['elementwidth_help'] = 'Especifique a largura do elemento. \'0\' significa que não há qualquer restrição de largura.';
+$string['emailnonstudentbody'] = 'O certificado \'{$a->certificatename}\' para \'{$a->userfullname}\' do curso \'{$a->coursefullname}\' está anexado.';
 $string['emailnonstudentcertificatelinktext'] = 'Exibir relatório do certificado';
 $string['emailnonstudentgreeting'] = 'Oi';
+$string['emailnonstudentsubject'] = '{$a->coursename}: {$a->certificatename}';
+$string['emailothers'] = 'Outros emails';
 $string['emailothers_help'] = 'Se configurado, isso enviará um e-mail com uma cópia do certificado quando ele estiver disponível aos endereços de e-mail listados aqui (separados por uma vírgula) .';
+$string['emailstudentbody'] = 'Seu certificado \'{$a->certificatename}\' para o curso \'{$a->coursefullname}\' está anexado.';
 $string['emailstudentcertificatelinktext'] = 'Exibir certificado';
+$string['emailstudentgreeting'] = 'Prezado(a)';
+$string['emailstudents'] = 'Email dos estudantes';
 $string['emailstudents_help'] = 'Se configurado, isso enviará por e-mail aos estudantes uma cópia do certificado quando ele estiver disponível.';
+$string['emailstudentsubject'] = '{$a->coursename}: {$a->certificatename}';
+$string['emailteachers'] = 'Email dos professores';
 $string['emailteachers_help'] = 'Se configurado, isso enviará por e-mail aos professores uma cópia do certificado quando ele estiver disponível.';
 $string['font'] = 'Fonte';
 $string['fontcolour'] = 'Cor';
@@ -134,6 +142,7 @@ $string['showposxy_desc'] = 'Mostra a posição x e y na edição de um elemento
 
 Isso não é necessário se você pretende utilizar apenas a funcionalidade de arrastar e soltar para este objetivo.';
 $string['summaryofissue'] = 'Resumo de emissão';
+$string['taskemailcertificate'] = 'Manipula certificados de e-mail.';
 $string['templatename'] = 'Nome do modelo';
 $string['templatenameexists'] = 'Este nome de modelo está atualmente em uso, escolha outro.';
 $string['topcenter'] = 'Centro';
@@ -145,6 +154,7 @@ $string['uploadimagedesc'] = 'Este link irá levá-lo para uma nova tela onde vo
 $string['verified'] = 'Verificado';
 $string['verify'] = 'Verificar';
 $string['verifycertificate'] = 'Verificar certificado';
+$string['verifycertificateanyone'] = 'Permitir que qualquer pessoa verifique um certificado.';
 $string['verifycertificateanyone_help'] = 'Essa configuração permite que qualquer pessoa com o link de verificação de certificado (incluindo usuários não autenticados) verifique um certificado.';
 $string['viewcustomcertissues'] = 'Ver {$a} certificados emitidos personalizados';
 $string['width'] = 'Largura';

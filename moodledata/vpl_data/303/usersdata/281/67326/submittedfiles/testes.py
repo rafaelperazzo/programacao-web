@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+nota1=float(input('Sua primeira nota (f):'))
+print(nota1)
+nota2=float(input('Sua segunda nota (f):'))
+print(nota2)
+nota3=float(input('Sua terceira nota (f):'))
+print(nota3)
+nota4=float(input('Sua quarta nota (f):'))
+print(nota4)
+média=(nota1+nota2+nota3+nota4)/4
+print('média')
+print(média)
+print('---------------------------------------')
+print('Questão 2')
+altura=float(input('Qual sua altura? (f):'))
+print(altura)
+conversão=(altura*100)
+print(conversão)

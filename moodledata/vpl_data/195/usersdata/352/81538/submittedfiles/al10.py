@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+#NÃO APAGUE A LINHA ACIMA. COMECE ABAIXO DESTA LINHA
+
+n=int(input('Digite a quantidade de termos:'))
+
+numerador=2
+denominador=1
+s=1
+while n>0:
+    esquerda=numerador/denominador
+    direita=numerador/(denominador+2)
+    s=2*s*esquerda*direita
+    numerador=numerador+2
+    denominador=denominador+2
+    n=n-1
+print(s)

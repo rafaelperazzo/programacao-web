@@ -1,0 +1,11 @@
+s:831:"<p><strong>1) Dados de Entrada </strong></p>
+<ul><li>Valor da mensalidade de manutenção fixa para assinantes domésticos= R$ 29,90</li>
+<li>Valor da mensalidade de manutenção fixa para assinantes comerciais= R$ 71,99</li>
+<li>Taxa excedente acima de 100 minutos= 0,33 por minuto</li>
+<li>Total de minutos utilizados pelo aparelho telefônico de João= 342min</li>
+</ul><p><strong>2) Saída(s) Esperada(s) </strong></p>
+<ul><li>O valor da tarifa a ser paga por João no último mês= R$ 109,76</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<p>Identificar se João é um assinante doméstico ou comercial</p>
+<p>Pelos dados apresentados João é um assinante doméstico</p>
+<p>Tarifa doméstica+( Total de minutos utilizados pelo aparelho telefônico - 100) x 0,33</p>";

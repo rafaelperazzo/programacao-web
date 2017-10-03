@@ -1,0 +1,60 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.750)
+Incorrect program result
+ --- Input ---
+> 109.90
+>2
+
+ --- Program output ---
+>Digite o valor do produto: Digite a opçao de pagamento: 93.42
+
+ --- Expected output (regular expression)---
+>.*98[.]+9[0-9]*
+
+-Test 2: Teste 2 (-0.750)
+Incorrect program result
+ --- Input ---
+> 369.80
+>4
+
+ --- Program output ---
+>Digite o valor do produto: Digite a opçao de pagamento: 314.33
+
+ --- Expected output (regular expression)---
+>.*406[.]+7[0-9]*
+
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 521.78
+>3
+
+ --- Program output ---
+>Digite o valor do produto: Digite a opçao de pagamento: 443.51
+
+ --- Expected output (numbers)---
+>521.78
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0.75

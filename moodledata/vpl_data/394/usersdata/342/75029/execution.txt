@@ -1,0 +1,34 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 4
+
+<|--
+-Test 5: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>9
+>1980
+>12
+>9
+>1980
+
+ --- Program output ---
+>Digite o dia 01: Digite o mes 01: Digite o ano 01: Digite o dia 02: Digite o mes 02: Digite o ano 02: IGAUAL
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 8

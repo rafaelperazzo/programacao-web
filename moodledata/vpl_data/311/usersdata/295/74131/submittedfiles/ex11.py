@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+dia1 = int(input("digite o dia 1:"))
+mes1 = int(input("digite o dia 1:"))
+ano1 = int(input("digite o dia 1:"))
+dia2 = int(input("digite o dia 2:"))
+mes2 = int(input("digite o dia 2:"))
+ano2 = int(input("digite o dia 2:"))
+if d1 > d2 :
+    print(d1)

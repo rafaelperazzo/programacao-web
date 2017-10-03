@@ -1,0 +1,21 @@
+-Test 2: Teste 2 (-2.000)
+Incorrect program result
+ --- Input ---
+> 31
+>6
+>1988
+>20
+>6
+>1988
+
+ --- Program output ---
+>digite dia1: digite mes1: digite ano1: digite dia2: digite mes2: digite ano2:
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

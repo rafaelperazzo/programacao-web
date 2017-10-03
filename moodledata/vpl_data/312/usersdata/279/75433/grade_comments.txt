@@ -1,0 +1,36 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 12
+>3
+>3
+>6
+
+ --- Program output ---
+>digite o valor de Adigite o valor de Bdigite o valor de Cdigite o valor de DS
+
+ --- Expected output (text)---
+>'S'
+
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 2002
+>560
+>560
+>882
+
+ --- Program output ---
+>digite o valor de Adigite o valor de Bdigite o valor de Cdigite o valor de DN
+
+ --- Expected output (text)---
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

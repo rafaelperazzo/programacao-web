@@ -1,0 +1,24 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 0.2
+>50000
+>0.65
+>22
+>0.000001
+
+ --- Program output ---
+>Valor de f: Valor de L: Valor de Q: Valor de delta H: valor de V: 1.7382
+>476130.6148
+>0.0132
+
+ --- Expected output (regular expression)---
+>.*1[.]+738[0-9]*
+>.*476122[.]+189[0-9]*
+>.*0[.]+013[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

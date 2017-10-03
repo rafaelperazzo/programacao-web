@@ -1,0 +1,80 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 1: Teste 1 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1987
+
+ --- Program output ---
+>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 02
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 2: Teste 2 (-6.000)
+Incorrect program result
+ --- Input ---
+> 31
+>06
+>1988
+>20
+>06
+>1988
+
+ --- Program output ---
+>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Data 01
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Test 3: Teste 3 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>06
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Traceback (most recent call last):
+>  File "ex11.py", line 12, in <module>
+>    if (D1<D2) and (M1<M2) and (A1<A2) or (D1==D2) and (M1==M2) and (A1<A2) or (D1==D2) and (M1<M2) and (A1==A2) or (D1<D2) and (M1==m2) and (A1==A2):
+>NameError: name 'm2' is not defined
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 4: Teste 4 (-6.000)
+Incorrect program result
+ --- Input ---
+> 12
+>09
+>1980
+>20
+>09
+>1980
+
+ --- Program output ---
+>Dia 1: Mes 1: Ano 1: Dia 2: Mes 2: Ano 2: Traceback (most recent call last):
+>  File "ex11.py", line 12, in <module>
+>    if (D1<D2) and (M1<M2) and (A1<A2) or (D1==D2) and (M1==M2) and (A1<A2) or (D1==D2) and (M1<M2) and (A1==A2) or (D1<D2) and (M1==m2) and (A1==A2):
+>NameError: name 'm2' is not defined
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 1  test passed |
+>+------------------------------+
+

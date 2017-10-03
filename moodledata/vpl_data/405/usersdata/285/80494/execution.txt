@@ -1,0 +1,51 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+>34576890
+
+ --- Program output ---
+>digite o número n: Traceback (most recent call last):
+>  File "exe11.py", line 13, in <module>
+>    d8 = (n - ((d1*(10**7) + d2*(10**6) + d3*(10**5) + d4*(10**4) + d5*(10**3) + d6*(10**2) + d7(10**1))))//1
+>TypeError: 'int' object is not callable
+
+ --- Expected output (numbers)---
+>42
+
+-Test 3: Teste 3 (-2.500)
+Incorrect program result
+ --- Input ---
+>17286328
+
+ --- Program output ---
+>digite o número n: Traceback (most recent call last):
+>  File "exe11.py", line 13, in <module>
+>    d8 = (n - ((d1*(10**7) + d2*(10**6) + d3*(10**5) + d4*(10**4) + d5*(10**3) + d6*(10**2) + d7(10**1))))//1
+>TypeError: 'int' object is not callable
+
+ --- Expected output (numbers)---
+>37
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

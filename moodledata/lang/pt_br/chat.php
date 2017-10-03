@@ -91,12 +91,12 @@ A conversa pode ser uma atividade de uma só vez ou pode ser repetido na mesma h
 
 Bate-papo são especialmente úteis quando o bate-papo grupo não é capaz de se encontrarem cara-a-cara, como:
 
-* As reuniões regulares dos alunos que participam de cursos on-line para que possam compartilhar experiências com outros no mesmo curso, mas em um local diferente
+* As reuniões regulares dos estudantes que participam de cursos on-line para que possam compartilhar experiências com outros no mesmo curso, mas em um local diferente
 * Um estudante temporariamente impossibilitado de comparecer pessoalmente conversar com seu professor para conversar com trabalho
 * Os estudantes fora na experiência de trabalho se reunir para discutir as suas experiências uns com os outros e seu professor
 * As crianças mais novas que usam bate-papo em casa à noite como um (monitorado) introdução controlada ao mundo das redes sociais
 * A sessão de perguntas e respostas com um orador convidado em um local diferente
-* Sessões de ajudar os alunos a se preparar para testes em que o professor ou outros alunos, colocaria exemplos de perguntas';
+* Sessões para ajudar os estudantes a se prepararem para testes em que o professor ou outros estudantes, colocariam exemplos de perguntas';
 $string['modulename_link'] = 'mod/chat/view';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Nunca excluir as mensagens';

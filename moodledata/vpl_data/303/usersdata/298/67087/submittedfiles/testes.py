@@ -1,0 +1,5 @@
+idade = float(input("Qual a sua idade?: "))
+altura = float(input("Qual sua altura?: "))
+print(idade)
+print(altura)
+print('Sua idade inteira é %d, sua idade nâo-inteira é %.2f e sua altura é %.2f' % (idade, idade, altura))

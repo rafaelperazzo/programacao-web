@@ -38,6 +38,7 @@ $string['addquestion'] = 'Adicionar questão';
 $string['addtoquiz'] = 'Adicionar';
 $string['anonymousresponses'] = 'Tornar anônimas as respostas dos alunos';
 $string['anonymousresponses_help'] = 'Tornar anônimas as respostas dos alunos para vista do instrutor de modo que se sua tela está sendo mostrada, nomes de estudante ou nomes de grupo não serão mostrados';
+$string['anonymoususer'] = 'Usuário anônimo';
 $string['assessed'] = 'Avaliadas';
 $string['assessed_help'] = 'Marque esta caixa para que seu questionário seja avaliado';
 $string['attempt_grade'] = 'Nota da tentativa';

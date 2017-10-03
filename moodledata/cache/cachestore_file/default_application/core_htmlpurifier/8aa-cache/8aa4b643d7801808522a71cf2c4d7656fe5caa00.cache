@@ -1,0 +1,11 @@
+s:615:"<p><strong>1) Dados de Entrada </strong></p>
+<ul><li>valor fixo = R$ 29,90;</li>
+<li>taxa de R$ 0,33 por minuto a partir de 100 minutos utilizados;</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<p>Valor a ser pago após a utilização do serviço.</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<p>29,90 + (n * 0,33)</p>
+<ul><li>n-100 &gt; 0, existe número excedente</li>
+<li>n-100 ≤ 0, não existe número excedente</li>
+</ul><p>Esta é a equação que satisfaz o problema, onde "n" é o número excedente de minutos utilizados.</p>
+<p> </p>";

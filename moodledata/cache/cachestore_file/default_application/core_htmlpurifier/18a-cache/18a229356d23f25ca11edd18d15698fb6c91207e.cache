@@ -1,0 +1,10 @@
+s:1228:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li>Preço do refrigerador, à vista: R$ 1.599,00;</li>
+<li>Acréscimo de 7,5% de juros sobre o valor à vista, caso o pagamento seja feito em duas ou mais parcelas.</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul><li>Valor da parcela</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<ol><li>Calculamos o valor do acréscimo de juros sobre o valor à vista: <em>(Juros) = (Preço à vista)*(Taxa de juros). </em>Nesse caso, obtemos: <em>(Juros) = (1.599,00) * (7,5/100) = R$ 119,925</em>;</li>
+<li>Calculamos o valor total a ser pago, caso o pagamento seja feito em duas ou mais parcelas: <em>(Valor total) = (Preço à vista) + (Juros). </em>Nesse caso, obtemos : <em>(Valor total) = (R$ 1.599,00) + (R$ 119,925) = R$ 1.718,925;</em></li>
+<li>Calculamos o valor da parcela: <em>(Valor da parcela) = (Valor total)/(Número de parcelas). </em>Este valor dependerá do número de parcelas. Como ele não é informado na questão (ela afirma apenas que há juros quando o pagamento é feito em duas ou mais prestações), o processo é finalizado com a expressão que calcula o valor da parcela.</li>
+</ol>";

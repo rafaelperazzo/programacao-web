@@ -1,0 +1,16 @@
+-Test 3: Teste 3 (-0.400)
+Incorrect program result
+ --- Input ---
+> 51
+
+ --- Program output ---
+>Digite o numero: DIVISIVEL POR 3 E POR 7
+
+ --- Expected output (regular expression)---
+>.*NAO DIVISIVEL POR 3 E POR 7.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

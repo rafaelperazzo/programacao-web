@@ -1,0 +1,11 @@
+s:948:"<p><strong>1) Dados de Entrada </strong></p>
+<ul><li><span>R$ </span>29,90 para assinantes domésticos.</li>
+<li><span>R$ </span>71,99 para assinantes comerciais.</li>
+<li>Taxa de <span>R$ 0.33 acima de 100 minutos.</span></li>
+<li><span>342 minutos utilizados no mês</span></li>
+</ul><p><strong> 2) Saída(s) Esperada(s) </strong></p>
+<p>Como ultrapassou os 100 minutos estabelecidos pelo plano, foi cobrado <span>R$ 0,33 por minuto excedente, como ultrapassou 242 minutos, a taxa será cobrada em cima desses 242 minutos extrapolados do ofertado. e a saída esperada ficou <span>R$ 109,76.</span></span></p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<ul><li>Vd+(Me*T), onde Vd(Valor para assinantes domésticos), Me(minutos excedentes) e T(taxa por minuto excedente). Para os Minutos utilizados maior que 100.</li>
+<li>Vd, Para até 100 minutos utilizados no mês.</li>
+</ul><p> </p>";

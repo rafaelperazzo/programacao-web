@@ -1,0 +1,17 @@
+s:580:"<b>Test 2: Test 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 7
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>---------------------------------------
+Quantos lados tem o polígono?Então o polígono de 7 lados tem 12 diagonais diferentes.
+---------------------------------------
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*14[.]*[0]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 3 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

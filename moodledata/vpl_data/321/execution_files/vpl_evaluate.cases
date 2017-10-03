@@ -1,0 +1,26 @@
+case = Teste 1
+input = 3
+4
+2
+1
+6
+output = '1
+6'
+
+case = Teste 2
+input = 6
+8
+6
+8
+3
+output = '3
+8'
+
+case = Teste 3
+input = 2
+2
+2
+2
+2
+output = '2
+2'

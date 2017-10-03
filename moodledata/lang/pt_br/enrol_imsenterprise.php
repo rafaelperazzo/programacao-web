@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['aftersaving...'] = 'Depois de salvar as suas opções, é possível que você queira';
-$string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição</strong> de alunos e professores';
+$string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição</strong> de estudantes e professores';
 $string['allowunenrol_desc'] = 'Se habilitado, inscrições no curso serão removidas quando especificado nos dados do Enterprise.';
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados do curso';
@@ -95,6 +95,6 @@ Alguns sistemas de informação de estudantes falham ao imprimir o campo <userid
 $string['truncatecoursecodes'] = 'Reduzir códigos de curso para este tamanho';
 $string['truncatecoursecodes_desc'] = '<p>Em algumas situações você pode ter códigos de curso que deseje reduzir para um tamanho específico antes de processar. Se assim desejar, insira o número de caracteres nesse box. Caso contrário, deixe esse box <strong>em branco</strong> e nenhuma redução ocorrerá.</p>';
 $string['usecapitafix'] = 'Selecione este box se usar "Capita" (o formato XML deles é um pouco defeituoso)';
-$string['usecapitafix_desc'] = '<p>Os sistemas de dados de alunos produzidos pelo Capita possuem um pequeno erro no código XML. Se você está usando Capita, deve habilitar essa opção. Em caso contrário deixe-a desmarcada.</p>';
+$string['usecapitafix_desc'] = '<p>Os sistemas de dados de estudantes produzidos pelo Capita possuem um pequeno erro no código XML. Se você está usando Capita, deve habilitar essa opção. Em caso contrário deixe-a desmarcada.</p>';
 $string['usersettings'] = 'Opções de dados de usuários';
 $string['zeroisnotruncation'] = '0 (zero) indica ausência de redução';

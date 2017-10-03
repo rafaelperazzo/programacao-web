@@ -1,0 +1,27 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 500
+>0.03
+>48
+
+ --- Program output ---
+>Digite o valor de P:Digite o valor de i:Digite o valor de n:22452287308237944538543380752758938412703042632990293311963750700657840907259656273920.00
+
+ --- Expected output (regular expression)---
+>.*52204\.[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

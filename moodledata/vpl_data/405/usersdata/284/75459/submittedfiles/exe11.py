@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+a=int(input('digite o algarismo 1: ')
+b=int(input('digite o algarismo 2: ')
+c=int(input('digite o algarismo 3: ')
+d=int(input('digite o algarismo 4: ')
+e=int(input('digite o algarismo 5: ')
+f=int(input('digite o algarismo 6: ')
+g=int(input('digite o algarismo 7: ')
+h=int(input('digite o algarismo 8: ')

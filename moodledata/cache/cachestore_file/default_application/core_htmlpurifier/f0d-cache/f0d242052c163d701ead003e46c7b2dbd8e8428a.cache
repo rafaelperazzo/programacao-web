@@ -1,0 +1,11 @@
+s:739:"<p><strong>1) Dados de Entrada </strong></p>
+<p>Se o plano for domestico colocar 29,90. Se o plano for comercial colocar 71,99. Se ultrapassar 100 minutos somar 0,33 multiplicado pelos minutos ultrapassados.</p>
+<p><strong>2) Saída(s) Esperada(s) </strong></p>
+<p>29,90 + 0,33 x 242 = 109,76</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<ol><li>-Saber se o plano é domestico ou comercial.</li>
+<li>-Se o plano for domestico soma 29,90, se for comercial soma 71,99</li>
+<li>-Saber se ultrapassou 100 minutos em qualquer dos planos.</li>
+<li>-Se ultrapassou multiplica os minutos ultrapassados por 0,33 e soma ao plano que é utilizado.</li>
+<li>-Chega ao resultado final.</li>
+</ol>";

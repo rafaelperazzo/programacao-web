@@ -84,6 +84,7 @@ $string['negcovar_help'] = 'A nota desta pergunta para esse conjunto de tentativ
 Nossa equação de peso efetivo da pergunta não pode ser calculado neste caso. Os cálculos de peso efetivo da pergunta para as outras questões neste questionário são o peso efetivo de pergunta para estas questões se as questões em destaque com uma covariância negativa é dada para uma avaliação máxima de zero.
 
 Se você editar um questionário e atribuir a esta(s) pergunta(s) com covariância negativa um máximo grau de zero, então o peso efetivo para estas questões será zero e o peso efetivo da pergunta das outras perguntas serão calculados agora.';
+$string['nogradedattempts'] = 'Nenhuma tentativa foi realizada neste questionário, ou todas as tentativas têm questões que precisam de atribuição de nota manual.';
 $string['nostudentsingroup'] = 'Ainda não há estudantes no grupo';
 $string['optiongrade'] = 'Crédito parcial';
 $string['partofquestion'] = 'Parte da questão';

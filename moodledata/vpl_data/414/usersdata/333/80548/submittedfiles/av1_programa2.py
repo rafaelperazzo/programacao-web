@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+Matricula = int(input('Matricula : '))
+nota1 = float(input('nota 1 : '))
+nota2 = float(input('nota 2 : '))
+nota3 = float(input('nota 3 : '))
+ME = float(input('media dos exercicios : '))
+MA = (nota1+(nota2*2)+(nota3*3)+ME)/(7)
+print('MA : ')
+A = (MA >= 9)
+B = (7.5 <= MA < 9)
+C = (6 <= MA < 7.5)
+D = (4 <= MA < 6)
+E = (MA < 4)

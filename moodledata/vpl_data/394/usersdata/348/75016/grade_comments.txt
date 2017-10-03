@@ -1,0 +1,21 @@
+-Test 2: Teste 2 (-2.000)
+Incorrect program result
+ --- Input ---
+> 31
+>6
+>1988
+>20
+>6
+>1988
+
+ --- Program output ---
+>informe dia 1: informe mes 1: informe ano 1: informe dia 2: informe mes 2: informe ano 2: DATA 2
+
+ --- Expected output (regular expression)---
+>.*DATA 1.*
+
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,33 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 5
+
+<|--
+-Test 3: Teste 3 (-0.400)
+Incorrect program result
+ --- Input ---
+> 0
+
+ --- Program output ---
+> valor de n  POSITIVO 
+> valor de n1 Traceback (most recent call last):
+>  File "av1_programa1.py", line 8, in <module>
+>    n1 = int(input( ' valor de n1 ' ))
+>EOFError: EOF when reading a line
+
+ --- Expected output (regular expression)---
+>.*NULO.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 1.60

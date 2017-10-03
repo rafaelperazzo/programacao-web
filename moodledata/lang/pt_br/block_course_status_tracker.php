@@ -45,5 +45,7 @@ $string['name'] = 'Nome';
 $string['pluginname'] = 'Acompanhamento de status de curso';
 $string['report_coursecompletion'] = 'Relatório de conclusão de curso';
 $string['report_courseenrollment'] = 'Relatório de inscrições no curso';
+$string['report_courseinprogress'] = 'Curso em progresso';
+$string['report_courseundefined'] = 'Curso sem acompanhamento de conclusão';
 $string['s_no'] = '<abbr title="number">Número</abbr> de série';
 $string['undefined_coursecriteria'] = 'Critério de curso não definido';

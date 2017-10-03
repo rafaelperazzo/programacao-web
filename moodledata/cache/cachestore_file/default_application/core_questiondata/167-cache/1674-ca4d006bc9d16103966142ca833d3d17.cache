@@ -1,0 +1,24 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1674";s:8:"category";s:3:"283";s:6:"parent";s:1:"0";s:4:"name";s:18:"Fatura Telefônica";s:12:"questiontext";s:656:"<p>Uma empresa telefônica aplica a seguinte política de tarifamento aos seus assinantes: uma mensalidade de manutenção fixa (R$ 29,90 para assinantes domésticos; R$ 71,99 para assinantes comerciais), uma taxa de R$ 0,33 por minuto excedente (acima de 100 minutos). João recebeu seu salário do mês e gostaria de saber o valor de sua fatura mensal de telefonia referente ao consumo de sua residência. Ele está preocupado com o valor, já que sua esposa teve filho recentemente e eles precisaram utilizar muito o telefone. Sabendo que o telefone de João no último mês foi utilizado por 342 minutos, quanto João terá que pagar neste mês?</p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:109:"<p>Suas respostas foram enviadas.</p>
+<p>Aguarde a correção do professor que será realizada em breve.</p>";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0;s:5:"qtype";s:5:"essay";s:6:"length";s:1:"1";s:5:"stamp";s:43:"programacao.ufca.edu.br+170823132223+S71HD7";s:7:"version";s:43:"programacao.ufca.edu.br+170823134741+9zVRJg";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1503494543";s:12:"timemodified";s:10:"1503496061";s:9:"createdby";s:3:"277";s:10:"modifiedby";s:3:"277";s:9:"contextid";s:4:"3801";s:7:"options";O:8:"stdClass":12:{s:2:"id";s:3:"261";s:10:"questionid";s:4:"1674";s:14:"responseformat";s:6:"editor";s:16:"responserequired";s:1:"1";s:18:"responsefieldlines";s:2:"20";s:11:"attachments";s:1:"0";s:19:"attachmentsrequired";s:1:"0";s:10:"graderinfo";s:726:"<p><strong>1) Dados de Entrada</strong></p>
+<ul>
+<li>Mensalidade de manutenção fixa para residência</li>
+<li>Mensalidade de manutenção fixa para comércio</li>
+<li>Taxa por minuto excedente</li>
+<li>Quantidade de minutos regulamentar (sem exceder)</li>
+<li>Quantidade de minutos consumido no mês</li>
+</ul>
+<p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul>
+<li>Valor total da fatura a ser pago</li>
+</ul>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<ul>
+<li>Consumo = Quantidade minutos consumo mês - Quantidade regulamentar</li>
+<li>ValorConsumo = Consumo * Taxa por minuto excedente</li>
+<li>ValorFatura = ValorConsumo + Taxa manutenção fixa</li>
+</ul>";s:16:"graderinfoformat";s:1:"1";s:16:"responsetemplate";s:252:"<p><strong>1) Dados de Entrada </strong></p>
+<p>[escreva aqui]</p>
+<p><strong>2) Saída(s) Esperada(s) </strong></p>
+<p>[escreva aqui]</p>
+<p><strong>3) Sequência de ações para se chegar ao resultado esperado </strong></p>
+<p>[escreva aqui]</p>";s:22:"responsetemplateformat";s:1:"1";s:7:"answers";a:0:{}}s:5:"hints";a:0:{}}

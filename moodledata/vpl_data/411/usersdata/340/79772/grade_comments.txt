@@ -1,0 +1,70 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 1: Teste 1 (-0.750)
+Incorrect program result
+ --- Input ---
+> 109.90
+>2
+
+ --- Program output ---
+>Digite a condição do pagamento do produto que custa R$500.00: Traceback (most recent call last):
+>  File "av1_programa2.py", line 3, in <module>
+>    v = int(input('Digite a condição do pagamento do produto que custa R$500.00: '))
+>ValueError: invalid literal for int() with base 10: ' 109.90'
+
+ --- Expected output (regular expression)---
+>.*98[.]+9[0-9]*
+
+-Test 2: Teste 2 (-0.750)
+Incorrect program result
+ --- Input ---
+> 369.80
+>4
+
+ --- Program output ---
+>Digite a condição do pagamento do produto que custa R$500.00: Traceback (most recent call last):
+>  File "av1_programa2.py", line 3, in <module>
+>    v = int(input('Digite a condição do pagamento do produto que custa R$500.00: '))
+>ValueError: invalid literal for int() with base 10: ' 369.80'
+
+ --- Expected output (regular expression)---
+>.*406[.]+7[0-9]*
+
+-Test 3: Teste 3 (-0.750)
+Incorrect program result
+ --- Input ---
+> 104.60
+>1
+
+ --- Program output ---
+>Digite a condição do pagamento do produto que custa R$500.00: Traceback (most recent call last):
+>  File "av1_programa2.py", line 3, in <module>
+>    v = int(input('Digite a condição do pagamento do produto que custa R$500.00: '))
+>ValueError: invalid literal for int() with base 10: ' 104.60'
+
+ --- Expected output (regular expression)---
+>.*88[.]+9[0-9]*
+
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 521.78
+>3
+
+ --- Program output ---
+>Digite a condição do pagamento do produto que custa R$500.00: Traceback (most recent call last):
+>  File "av1_programa2.py", line 3, in <module>
+>    v = int(input('Digite a condição do pagamento do produto que custa R$500.00: '))
+>ValueError: invalid literal for int() with base 10: ' 521.78'
+
+ --- Expected output (numbers)---
+>521.78
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+

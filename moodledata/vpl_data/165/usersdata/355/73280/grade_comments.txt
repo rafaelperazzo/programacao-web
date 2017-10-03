@@ -1,0 +1,19 @@
+-Test 7: Teste 7 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Digite d: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

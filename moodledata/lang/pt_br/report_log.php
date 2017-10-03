@@ -35,6 +35,7 @@ $string['eventuserreportviewed'] = 'Relatório de log do usuário visto';
 $string['logsformat'] = 'Formato de Logs';
 $string['log:view'] = 'Ver logs do curso';
 $string['log:viewtoday'] = 'Ver logs de hoje';
+$string['nocapability'] = 'Não é possível acessar o relatório de log do usuário';
 $string['nologreaderenabled'] = 'Nenhum leitor log habilitado';
 $string['page'] = 'Página {$a}';
 $string['page-report-log-index'] = 'Relatório do log do curso';

@@ -1,0 +1,13 @@
+s:884:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li>Preço à vista;</li>
+<li>Quantidade de prestações;</li>
+<li>Percentual de acréscimo adicionado ao valor total do refrigerador.</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul><li>Valor de cada parcela com o acréscimo dado na questão.</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<ul><li>Calcula o valor de 7,5% de <span>R$ 1.599,00;</span></li>
+<li><span>Resultado da conta anterior é de: R$120,00 arpoximadamente;</span></li>
+<li><span>Soma-se o valor à vista do refrigerador com o acréscimo dos 7,5% = <strong>R$ 1.599,00 + R$120,00;</strong></span></li>
+<li><span>Somado os valores, divide o resultado por 2 =<strong> R$1.718,00/2</strong></span></li>
+<li><span>Valor final de cada parcela é de <strong>R$859,50</strong></span></li>
+</ul>";

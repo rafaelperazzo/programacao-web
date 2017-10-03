@@ -329,7 +329,7 @@ $string['coursecategory_help'] = '<p>Algumas categorias de curso devem ter sido 
 
 <p>Escolha a categoria mais adequada ao seu curso.
    A categoria escolhida determina a posição do seu curso
-   na lista de cursos para que os alunos o encontrem
+   na lista de cursos para que os estudantes o encontrem
    com facilidade.</p>';
 $string['coursecatmanagement'] = 'Gerenciamento de curso e categoria';
 $string['coursecompletion'] = 'Andamento do curso';
@@ -993,7 +993,7 @@ $string['includeuserfiles'] = 'Incluir arquivos de usuários';
 $string['increasesections'] = 'Aumentar o número de tópicos';
 $string['info'] = 'Informação';
 $string['institution'] = 'Instituição';
-$string['instudentview'] = 'na visão do aluno';
+$string['instudentview'] = 'na visão do estudante';
 $string['interests'] = 'Interesses';
 $string['interestslist'] = 'Lista de interesses';
 $string['interestslist_help'] = 'Digite seus interesses, um por um, que será, então, exibido em sua página de perfil como tags.';
@@ -1693,7 +1693,7 @@ $string['showdescription_help'] = 'Caso ativada, a descrição acima será exibi
 $string['showgrades'] = 'Mostrar livro de notas aos estudantes';
 $string['showgrades_help'] = '<P>Muitas atividades podem ser avaliadas mediante atribuição de notas.</p>
 
-<p>Os resultados das avaliações são consultados pelos alunos na página de Relatório de Notas, cujo acesso se faz por um link predefinido na página principal do curso.</p>
+<p>Os resultados das avaliações são consultados pelos estudantes na página de Relatório de Notas, cujo acesso se faz por um link predefinido na página principal do curso.</p>
 
 <p>Para restringir o acesso ao Relatório de Notas apenas aos professores, é necessário desabilitar a visualização no painel de configuração do curso. Este procedimento é útil também nos casos em que o curso não prevê o uso de atividades com avaliação correspondente. Isto não impede que atividades individuais utilizem ou atribuam notas, apenas desativa a exibição da página de relatório para os estudantes.</p>';
 $string['showingacourses'] = 'Mostrando todos os {$a} cursos';
@@ -1704,7 +1704,7 @@ $string['showonly'] = 'Mostrar só';
 $string['showperpage'] = 'Mostrar {$a} por página';
 $string['showrecent'] = 'Mostrar a atividade recente';
 $string['showreports'] = 'Mostrar relatório das atividades';
-$string['showreports_help'] = 'Relatórios de atividade estão disponíveis para cada participante, mostrando a sua atividade no curso, bem como listagens das suas contribuições, tais como mensagens do fórum ou submissões de tarefas. Esses relatórios também incluem logs de acesso. Esta configuração determina se um aluno pode ver os seus próprios relatórios de atividade através da sua página de perfil.';
+$string['showreports_help'] = 'Relatórios de atividade estão disponíveis para cada participante, mostrando a sua atividade no curso, bem como listagens das suas contribuições, tais como mensagens do fórum ou submissões de tarefas. Esses relatórios também incluem logs de acesso. Esta configuração determina se um estudante pode ver os seus próprios relatórios de atividade através da sua página de perfil.';
 $string['showsettings'] = 'Mostrar configurações';
 $string['showtheselogs'] = 'Mostrar estes logs';
 $string['showthishelpinlanguage'] = 'Mostrar esta ajuda no idioma: {$a}';
@@ -1785,9 +1785,9 @@ $string['statsreportlogins'] = 'Logins';
 $string['statsreportreads'] = 'Visualizações (todos os papéis)';
 $string['statsreporttype'] = 'Tipo de relatório';
 $string['statsreportwrites'] = 'Posts (todos os papéis)';
-$string['statsstudentactivity'] = 'Atividades dos alunos';
-$string['statsstudentreads'] = 'Acessos dos alunos';
-$string['statsstudentwrites'] = 'Mensagens dos alunos';
+$string['statsstudentactivity'] = 'Atividades dos estudantes';
+$string['statsstudentreads'] = 'Acessos dos estudantes';
+$string['statsstudentwrites'] = 'Mensagens dos estudantes';
 $string['statsteacheractivity'] = 'Atividades dos docentes';
 $string['statsteacherreads'] = 'Acessos dos docentes';
 $string['statsteacherwrites'] = 'Mensagens dos docentes';
@@ -1809,7 +1809,7 @@ $string['subcategoryof'] = 'Subcategoria de {$a}';
 $string['submit'] = 'Enviar';
 $string['success'] = 'Sucesso';
 $string['summary'] = 'Sumário';
-$string['summary_help'] = '<p>Um suário é um texto breve que apresenta aos alunos as atividades da tópico/semana.</p>
+$string['summary_help'] = '<p>Um suário é um texto breve que apresenta aos estudantes as atividades da tópico/semana.</p>
 <p>Cada sumário deve ser curto para que a página do curso não fique muito longa.</p>
 <p>Se você achar necessário escrever um texto mais longo, adicione este texto ao Tópico como material (por exemplo: a primeira atividade poderia ser uma página web com o seguinte título: <b>Introdução ao Tópico</b>).</p>';
 $string['summaryof'] = 'Sumário de {$a}';
@@ -1907,7 +1907,7 @@ $string['uploadfailednotrecovering'] = 'O seu envio de arquivo ao servidor não 
 $string['uploadfilelog'] = 'Relatório de envio do arquivo: {$a}';
 $string['uploadformlimit'] = 'O tamanho do arquivo {$a} é superior ao limite autorizado neste formulário';
 $string['uploadlabel'] = 'Título:';
-$string['uploadlimitwithsize'] = '{$a->contextname} limite de upload ({$a->displaysize})';
+$string['uploadlimitwithsize'] = 'Limite de upload para {$a->contextname} ({$a->displaysize})';
 $string['uploadnewfile'] = 'Enviar um novo arquivo';
 $string['uploadnofilefound'] = 'Nenhum arquivo foi encontrado - você tem certeza que selecionou um arquivo para enviar?';
 $string['uploadnotallowed'] = 'Não é permitido enviar arquivos';

@@ -55,7 +55,7 @@ Um livro pode ser usado
 
 *Para exibir material de leitura para um módulo de estudo individual
 *Como um manual departamental
-*Como um portfólio do trabalho dos alunos';
+*Como um portfólio do trabalho dos estudantes';
 $string['modulename_link'] = 'mod/book/view';
 $string['modulenameplural'] = 'Livros';
 $string['movechapterdown'] = 'Mover capítulo para baixo "{$a}"';

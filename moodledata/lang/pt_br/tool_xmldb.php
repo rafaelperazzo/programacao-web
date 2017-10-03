@@ -25,11 +25,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['actual'] = 'Real';
+$string['actual'] = 'Atual';
 $string['aftertable'] = 'Depois da tabela:';
 $string['back'] = 'Voltar';
 $string['backtomainview'] = 'Voltar para principal';
-$string['cannotuseidfield'] = 'Não é possível inserir o campo "id". É uma  coluna auto-numérica';
+$string['cannotuseidfield'] = 'Não é possível inserir o campo "id". É uma coluna auto-numérica';
 $string['change'] = 'Mudar';
 $string['charincorrectlength'] = 'Tamanho incorreto para campo "char"';
 $string['checkbigints'] = 'Verifique inteiros';
@@ -39,7 +39,7 @@ $string['check_defaults'] = 'Procurar valores padrão inconsistentes';
 $string['checkforeignkeys'] = 'Verificar chaves estrangeiras';
 $string['check_foreign_keys'] = 'Procurar por violações de chave estrangeira';
 $string['checkindexes'] = 'Verificar índices';
-$string['check_indexes'] = 'Procurar índices ausentes no BD';
+$string['check_indexes'] = 'Procurar índices ausentes no banco de dados';
 $string['checkoraclesemantics'] = 'Verificação semântica';
 $string['check_oracle_semantics'] = 'Procurar semânticas de comprimento incorretas';
 $string['completelogbelow'] = '(veja abaixo o log completo da pesquisa)';
@@ -147,12 +147,12 @@ $string['noreffieldsspecified'] = 'Nenhuma referência a campo especificada';
 $string['noreftablespecified'] = 'Tabela de referências especificadas não encontrada';
 $string['noviolatedforeignkeysfound'] = 'Nenhuma violação de chave estrangeira encontrada';
 $string['nowrongdefaultsfound'] = 'Não foram encontrados valores padrão, o seu BD não requer outras ações.';
-$string['nowrongintsfound'] = 'Não foi encontrado nenhum integral errado, seu BD não precisa de outras ações.';
+$string['nowrongintsfound'] = 'Não foi encontrado nenhum inteiro errado, seu BD não precisa de outras ações.';
 $string['nowrongoraclesemanticsfound'] = 'Não há colunas Oracle usando semântica BYTE foram encontrados, a DB não precisa de novas acções.';
 $string['numberincorrectdecimals'] = 'Número incorreto de decimais para campo numérico';
 $string['numberincorrectlength'] = 'Tamanho incorreto para campo numérico';
 $string['pendingchanges'] = 'Aviso: Você realizou alterações neste arquivo. Elas podem ser salvas a qualquer momento.';
-$string['pendingchangescannotbesaved'] = 'Existem alterações neste arquivo, mas elas não puderam ser salvas! Por favor verifique se o arquivo "install.xml" e o diretório no qual ele está contido tem permissão de escrita para o servidor web';
+$string['pendingchangescannotbesaved'] = 'Existem alterações neste arquivo, mas elas não puderam ser salvas! Por favor verifique se o arquivo "install.xml" e o diretório onde ele está tem permissão de escrita para o servidor web';
 $string['pendingchangescannotbesavedreload'] = 'Existem alterações neste arquivo, mas elas não puderam ser salvas! Por favor verifique se o arquivo "install.xml" e o diretório no qual ele está contido tem permissão de escrita para o servidor web. Então recarregue este página e você deverá ser capaz de salvar aquelas alterações.';
 $string['pluginname'] = 'Editor XMLDB';
 $string['primarykeyonlyallownotnullfields'] = 'Chaves primárias não podem ser nulas';

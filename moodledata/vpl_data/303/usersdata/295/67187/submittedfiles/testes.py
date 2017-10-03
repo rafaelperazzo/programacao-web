@@ -1,0 +1,10 @@
+print=float(input("digite nota 1"))
+print(nota1)
+print=float(input("digite nota 2"))
+print(nota2)
+print=float(input("digite nota 3"))
+print(nota3)
+print=float(input("digite nota 4"))
+print(nota4)
+
+print("as quatro notas sao %d" %(nota,nota,nota,nota,media))

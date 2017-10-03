@@ -94,6 +94,7 @@ $string['dependitem'] = 'Item dependente';
 $string['dependvalue'] = 'Valor dependente';
 $string['description'] = 'Descrição';
 $string['do_not_analyse_empty_submits'] = 'Não analisar submissões vazias';
+$string['downloadresponseas'] = 'Baixar todas as respostas como:';
 $string['dropdown'] = 'Múltipla escolha - resposta única (\'dropdown list\') ';
 $string['dropdownlist'] = 'Múltipla escolha - resposta única (\'dropdown\') ';
 $string['dropdownrated'] = 'Lista dropdown (rateada)';
@@ -175,7 +176,7 @@ Actividades de feedback pode ser usado
 * Para avaliações do curso, contribuindo para melhorar o conteúdo para os participantes posteriores
 * Para capacitar os participantes para se inscrever para módulos de cursos, eventos etc.
 * Para levantamentos de hóspedes de opções de cursos, políticas escolares etc.
-* Para inquéritos anti-bullying nas quais os alunos podem relatar incidentes de forma anônima';
+* Para inquéritos anti-bullying nas quais os estudantes podem relatar incidentes de forma anônima';
 $string['modulename_link'] = 'mod/feedback/view';
 $string['modulenameplural'] = 'Pesquisa';
 $string['movedown_item'] = 'Mover a questão para baixo';
@@ -236,7 +237,7 @@ $string['radiobutton_rated'] = 'Radiobutton (nominal)';
 $string['radiorated'] = 'Botão rádio (rateado)';
 $string['radio_values'] = 'Respostas';
 $string['ready_feedbacks'] = 'Feedbacks prontos';
-$string['relateditemsdeleted'] = 'Todos as respostas de seus usuários para esta pergunta também serão apagadas.';
+$string['relateditemsdeleted'] = 'Todas as respostas para esta pergunta também serão excluídas.';
 $string['required'] = 'Exigido';
 $string['resetting_data'] = 'Reset das respostas da pesquisa';
 $string['resetting_feedbacks'] = 'Reconfigurando pesquisas';
@@ -270,8 +271,8 @@ $string['started'] = 'iniciado';
 $string['stop'] = 'Fim';
 $string['subject'] = 'Assunto';
 $string['switch_group'] = 'Comutar grupo';
-$string['switch_item_to_not_required'] = 'Comutar para: resposta não exigida';
-$string['switch_item_to_required'] = 'Comutar para: resposta exigida';
+$string['switch_item_to_not_required'] = 'Definir como opcional';
+$string['switch_item_to_required'] = 'Definir como obrigatório';
 $string['template'] = 'Modelo';
 $string['template_deleted'] = 'Modelo excluído';
 $string['templates'] = 'Modelos';

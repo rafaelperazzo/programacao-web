@@ -1,0 +1,41 @@
+s:1211:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 109.90
+2
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor do produto: Digite a opçao de pagamento: 93.42
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*98[.]+9[0-9]*
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 369.80
+4
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor do produto: Digite a opçao de pagamento: 314.33
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*406[.]+7[0-9]*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 521.78
+3
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o valor do produto: Digite a opçao de pagamento: 443.51
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>521.78
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

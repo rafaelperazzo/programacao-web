@@ -50,7 +50,12 @@ $string['framesize'] = 'Altura do frame';
 $string['invalidstoredurl'] = 'Impossível mostrar este recurso pois a URL é inválida.';
 $string['invalidurl'] = 'A URL inserida é inválida';
 $string['modulename'] = 'URL';
-$string['modulename_help'] = 'O módulo de URL permite que um professor para fornecer um link de web como um recurso curso. Tudo o que está online disponível gratuitamente, tais como documentos ou imagens, pode ser ligado a, a URL não tem que ser a home page de um site. A URL de uma página web em particular pode ser copiado e colado ou um professor pode usar o seletor de arquivo e escolha um link de um repositório, como Flickr, YouTube ou Wikipédia (dependendo de qual repositórios estão habilitados para o site). Há uma série de opções de exibição para a URL, como embutidos ou abrir em uma nova janela e opções avançadas de informação que passa, tal como o nome de um aluno, para a URL, se necessário.';
+$string['modulename_help'] = 'O módulo de URL permite que um professor para fornecer um link de web como um recurso do curso.
+Qualquer coisa que esteja livremente disponível on-line, como documentos ou imagens, pode ser vinculada; URL não tem que ser a home page de um site. URL de uma página web em particular pode ser copiado e colado ou um professor pode usar o seletor de arquivo e escolher um link de um repositório, como Flickr, YouTube ou Wikipédia (dependendo de qual repositórios estão habilitados para o site).
+
+Há uma série de opções de exibição para URL, como incorporado ou aberto em uma nova janela e opções avançadas para transmitir informações, como o nome de um estudante para URL, se necessário.
+
+Observe que URLs também podem ser adicionados a qualquer outro tipo de recurso ou atividade através do editor de texto.';
 $string['modulename_link'] = 'mod/url/view';
 $string['modulenameplural'] = 'URLs';
 $string['page-mod-url-x'] = 'Qualquer URl do módulo página';

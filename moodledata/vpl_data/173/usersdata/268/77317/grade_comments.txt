@@ -1,0 +1,57 @@
+-Failed tests
+Test 3: Teste 3
+Test 4: Teste 4
+Test 7: Teste 7
+-Test 3: Teste 3 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>5
+>101
+
+ --- Program output ---
+>Digite o valor de a: Digite o valor de b: Digite o valor da cédula: N
+
+ --- Expected output (regular expression)---
+>48
+>1|3
+>19
+
+-Test 4: Teste 4 (-1.429)
+Incorrect program result
+ --- Input ---
+> 5
+>2
+>101
+
+ --- Program output ---
+>Digite o valor de a: Digite o valor de b: Digite o valor da cédula: N
+
+ --- Expected output (regular expression)---
+>1
+>48|19
+>3
+
+-Test 7: Teste 7 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>3
+>33
+
+ --- Program output ---
+>Digite o valor de a: Digite o valor de b: Digite o valor da cédula: Traceback (most recent call last):
+>  File "moedas.py", line 26, in <module>
+>    print(qa)
+>NameError: name 'qa' is not defined
+
+ --- Expected output (regular expression)---
+>15
+>1|0
+>11
+
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 4 tests passed |
+>+------------------------------+
+

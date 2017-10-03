@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+import math
+
+#COMECE SEU CODIGO AQUI
+Valor=int(input('Valor: '))
+n20=Valor//20
+print(n20)

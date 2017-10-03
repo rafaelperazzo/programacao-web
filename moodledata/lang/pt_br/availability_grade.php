@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['cachedef_items'] = 'Itens de notas armazenados para avaliação da condições de disponibilidade';
 $string['cachedef_scores'] = 'Notas dos usuários armazenadas para avaliação das condições de disponibilidade';
-$string['description'] = 'Requer que os alunos alcancem uma nota específica.';
+$string['description'] = 'Requer que os estudantes alcancem uma nota específica.';
 $string['error_backwardrange'] = 'Quando especificar um intervalo de notas, a mínima deve ser menor do que a máxima.';
 $string['error_invalidnumber'] = 'Intervalo de notas devem ser especificadas com porcentagens coerentes.';
 $string['error_selectgradeid'] = 'Você deve selecionar um item da nota para estabelecer a condição da nota.';

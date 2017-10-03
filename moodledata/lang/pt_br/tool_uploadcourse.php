@@ -120,11 +120,11 @@ $string['updateonly'] = 'Somente atualizar curso existentes';
 $string['updatewithdataonly'] = 'Atualizar com dados do CSV apenas';
 $string['updatewithdataordefaults'] = 'Atualizar com dados do CSV e padrões';
 $string['uploadcourses'] = 'Carregar cursos';
-$string['uploadcourses_help'] = 'Os cursos podem ser criados a partir de um arquivo texto. O formato do arquivo deve ser o seguinte:
+$string['uploadcourses_help'] = 'Os cursos podem ser carregados a partir de um arquivo texto. O formato do arquivo deve ser o seguinte:
 
 * Cada linha do arquivo contém um registro
 * Cada registro é uma sequência de dados separados por vírgulas (ou outros delimitadores)
-* A primeira linha contém uma lista de campos que define o formato do resto do arquivo
-* Campos Obrigatórios são shortname, fullname, summary e category';
+* A primeira linha contém uma lista com o nome dos campos que define o formato do resto do arquivo
+* Os campos obrigatórios são: shortname, fullname e category';
 $string['uploadcoursespreview'] = 'Pré-visualização de cursos carregados';
 $string['uploadcoursesresult'] = 'Resultado dos cursos carregados';

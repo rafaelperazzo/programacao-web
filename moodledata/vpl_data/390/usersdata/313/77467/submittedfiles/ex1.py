@@ -1,0 +1,13 @@
+
+ #x2 -5x +6 =0
+ 
+a = float(input(' digite o valor de a '))
+print( ' %.2f ' % a ) 
+
+b = float(input(' digite o valor de b '))
+print( ' %.2f ' % b ) 
+     
+c = float(input( 'digite o valor de c '))
+print( ' %.2f ' % c ) 
+     v = b*b
+     

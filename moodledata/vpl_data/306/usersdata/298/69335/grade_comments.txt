@@ -1,0 +1,58 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+Test 3: Test 3
+Test 4: Test 4
+-Test 1: Test 1 (-2.500)
+Incorrect program result
+ --- Input ---
+> 5
+
+ --- Program output ---
+>  File "poligono.py", line 3
+>SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 3, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (regular expression)---
+>.*5[.]*[0]*
+
+-Test 2: Test 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 7
+
+ --- Program output ---
+>  File "poligono.py", line 3
+>SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 3, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (regular expression)---
+>.*14[.]*[0]*
+
+-Test 3: Test 3 (-2.500)
+Incorrect program result
+ --- Input ---
+> 20
+
+ --- Program output ---
+>  File "poligono.py", line 3
+>SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 3, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (regular expression)---
+>.*170[.]*[0]*
+
+-Test 4: Test 4 (-2.500)
+Incorrect program result
+ --- Input ---
+> 50
+
+ --- Program output ---
+>  File "poligono.py", line 3
+>SyntaxError: Non-ASCII character '\xc3' in file poligono.py on line 3, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+
+ --- Expected output (regular expression)---
+>.*1175[.]*[0]*
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+

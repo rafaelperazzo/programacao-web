@@ -1,0 +1,90 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 3
+Test 4: Teste 4
+Test 5: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>6
+>1980
+>20
+>9
+>1987
+
+ --- Program output ---
+>digite o dia1digite o dia2digite o mes1digite o mes2digite o ano1digite o ano2DATA 1
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 3: Teste 3 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>6
+>1980
+>20
+>9
+>1980
+
+ --- Program output ---
+>digite o dia1digite o dia2digite o mes1digite o mes2digite o ano1digite o ano2DATA 1
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 4: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>9
+>1980
+>20
+>9
+>1980
+
+ --- Program output ---
+>digite o dia1digite o dia2digite o mes1digite o mes2digite o ano1digite o ano2DATA 1
+
+ --- Expected output (regular expression)---
+>.*DATA 2.*
+
+-Test 5: Teste 4 (-2.000)
+Incorrect program result
+ --- Input ---
+> 12
+>9
+>1980
+>12
+>9
+>1980
+
+ --- Program output ---
+>digite o dia1digite o dia2digite o mes1digite o mes2digite o ano1digite o ano2DATA 1
+
+ --- Expected output (regular expression)---
+>.*IGUAIS.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2

@@ -1,0 +1,29 @@
+Testing 1/5 : Teste 1
+Testing 2/5 : Teste 2
+Testing 3/5 : Teste 3
+Testing 4/5 : Teste 4
+Testing 5/5 : Teste 5
+
+<|--
+-Test 1: Teste 1 (-0.400)
+Incorrect program result
+ --- Input ---
+> 1
+
+ --- Program output ---
+>Digite um número :Negativo
+
+ --- Expected output (regular expression)---
+>.*POSITIVO.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  5 tests run/ 4 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 1.60

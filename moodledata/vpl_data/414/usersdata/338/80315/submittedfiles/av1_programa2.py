@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+
+matricula = input('Digite sua matrícula: ')
+nota1 = float(input('Digite a nota da sua primeira avaliação: '))
+nota2 = float(input('Digite a nota da sua segunda avaliação: '))
+nota3 = float(input('Digite a nota da sua terceira avaliação: '))
+ME = float(input('Digite a sua média de exercícios: '))
+
+MA0 = (((nota1) + (nota2 * 2) + (nota3 * 3) + (ME))/7)
+MA = ('%.1f' % MA0)
+print(MA)
+
+print('%.1f' % MA0)
+"""
+print(nota1)
+print(nota2)
+print(nota3)
+print(ME)
+"""

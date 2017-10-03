@@ -1,0 +1,13 @@
+s:716:"<p><strong>1) Dados de Entrada</strong></p>
+<ul><li>Mensalidade de manutenção fixa para residência</li>
+<li>Mensalidade de manutenção fixa para comércio</li>
+<li>Taxa por minuto excedente</li>
+<li>Quantidade de minutos regulamentar (sem exceder)</li>
+<li>Quantidade de minutos consumido no mês</li>
+</ul><p><strong>2) Saída(s) Esperada(s)</strong></p>
+<ul><li>Valor total da fatura a ser pago</li>
+</ul><p><strong>3) Sequência de ações para se chegar ao resultado esperado</strong></p>
+<ul><li>Consumo = Quantidade minutos consumo mês - Quantidade regulamentar</li>
+<li>ValorConsumo = Consumo * Taxa por minuto excedente</li>
+<li>ValorFatura = ValorConsumo + Taxa manutenção fixa</li>
+</ul>";

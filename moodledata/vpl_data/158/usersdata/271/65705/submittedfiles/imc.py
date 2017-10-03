@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+#ENTRADA
+p = float(input('Digite o valor do peso: '))
+h = float(input('Digite o valor da altura: '))
+#PROCESSAMENTO
+
+
+

@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+N=int=input()
+
+if (N>99999999 or N<10000000) :
+  print('NAO SEI')
+else:  
+  A=10000000
+  x=(N//A)
+  y=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  x=(N//A)
+  N=(N-(x*A))
+  A=(A/10)
+  y=(y+(N//A))
+  print(y)
+

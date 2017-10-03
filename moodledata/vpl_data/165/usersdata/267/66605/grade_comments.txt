@@ -1,0 +1,21 @@
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite o 1º número: Digite o 2º número: Digite o 3º número: Digite o 4º número:
+>Verificação de LECKER. S = Sim, N = Não:
+>N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,97 @@
+s:2342:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br />Test 5: Teste 5
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1987
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um dia: Digite um mês: Digite um ano:
+
+Digite um dia: Digite um mês: Traceback (most recent call last):
+  File "ex11.py", line 7, in &lt;module&gt;
+    m2 = int(input("Digite um mês: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+06
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um dia: Digite um mês: Digite um ano:
+
+Digite um dia: Digite um mês: Traceback (most recent call last):
+  File "ex11.py", line 7, in &lt;module&gt;
+    m2 = int(input("Digite um mês: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+20
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um dia: Digite um mês: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    m1 = int(input("Digite um mês: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*DATA 2.*
+</i></pre>
+<br /><b>Test 5: Teste 5 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 12
+09
+1980
+12
+09
+1980
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um dia: Digite um mês: Traceback (most recent call last):
+  File "ex11.py", line 3, in &lt;module&gt;
+    m1 = int(input("Digite um mês: "))
+  File "&lt;string&gt;", line 1
+    09
+     ^
+SyntaxError: invalid token
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>.*IGUAIS.*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  5 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

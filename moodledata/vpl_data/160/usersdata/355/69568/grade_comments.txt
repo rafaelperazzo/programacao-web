@@ -1,0 +1,23 @@
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>18
+>11
+>1
+>18
+
+ --- Program output ---
+>Cormengo
+>Número de vitórias: Número de empates: Saldo de gols: Flaminthians
+>Número de vitórias: Número de empates: Saldo de gols: F
+
+ --- Expected output (text)---
+>'C'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

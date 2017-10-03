@@ -1,0 +1,41 @@
+-Failed tests
+Test 1: Test 1
+Test 2: Test 2
+-Test 1: Test 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>-4
+
+ --- Program output ---
+>Digite o valor do coeficiente a da equação: Digite o valor do coeficiente b da equação: Traceback (most recent call last):
+>  File "ex1.py", line 4, in <module>
+>    c =  flaot (input('Digite o valor do coeficiente c da equação: '))
+>NameError: name 'flaot' is not defined
+
+ --- Expected output (regular expression)---
+>.*2\.0[0]*
+>.*-2\.0[0]*
+
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite o valor do coeficiente a da equação: Digite o valor do coeficiente b da equação: Traceback (most recent call last):
+>  File "ex1.py", line 4, in <module>
+>    c =  flaot (input('Digite o valor do coeficiente c da equação: '))
+>NameError: name 'flaot' is not defined
+
+ --- Expected output (text)---
+> 'SRR'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

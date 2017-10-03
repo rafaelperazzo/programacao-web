@@ -1,0 +1,56 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.500)
+Incorrect program result
+ --- Input ---
+> 2
+>2
+>3
+>0.5
+>0.2
+
+ --- Program output ---
+>Digite o numero de pontos: Digite a coordenada x: Digite a coordenada y: Nao
+
+ --- Expected output (regular expression)---
+>.*(NAO|N).*
+>.*(SIM|s).*
+
+-Test 2: Teste 2 (-0.500)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>1
+>1.5
+>1.5
+>-0.87
+>1.2
+
+ --- Program output ---
+>Digite o numero de pontos: Digite a coordenada x: Digite a coordenada y: Nao
+
+ --- Expected output (regular expression)---
+>.*(NAO|N).*
+>.*(NAO|N).*
+>.*(NAO|N).*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

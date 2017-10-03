@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+valor = foat(input('digite o valor do produto')
+codigo1= valor*0,15
+print(Á Vista em dinheiro ou cheque, recebe {} de desconto'.format ( codigo1))
+codigo2 = valor*,10 
+print(Á Vistano no cartão de crédito,recebe {} de desconto'.format ( codig2))
+codigo3 = valor
+print(Em duas vezes, preço {} normal de etiqueta sem juros'.format (codigo3))
+codigo4= valor*,10
+print(Em duas vezes, preço  norma de etiqueta mais juros de {}'.format(codigo4))
+

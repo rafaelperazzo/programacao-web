@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+
+print('vamos calcular sua media')
+print('\n')
+nota1 = float(input('digite sua primeira nota; '))
+print('\n')
+nota2 = float(input('ditite sua segunda nota; '))
+print('\n')
+nota3 = float(input('digite sua terceira nota; '))
+print('\n')
+nota4 = float(input('digite sua quarta nota;'))
+media  = ((nota1+nota2+nota3+nota4)/4)
+print('\n')
+print(input('sua media final é: %.2f ' %media))
+print('\n')
+print('vamos calcular a sua em centímetros!')
+print('\n')
+altura = float(int('digite sua altura em metros em até duas casas decimais; ')
+print(input('sua altura é ; %.2f ' %altura))

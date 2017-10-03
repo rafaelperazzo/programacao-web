@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+R = float(input('Digite o raio da lata de oleo em cm: '))
+H = float(input('Digite a altura da lata de oleo em cm: '))
+C = 3.14159*R*H
+print(C)

@@ -1,0 +1,31 @@
+Testing 1/2 : Test 1
+Testing 2/2 : Test 2
+
+<|--
+-Test 2: Test 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+
+ --- Program output ---
+>Digite a: Digite b: Digite c: Traceback (most recent call last):
+>  File "ex1.py", line 7, in <module>
+>    raizdelta=(delta**0.5)
+>ValueError: negative number cannot be raised to a fractional power
+
+ --- Expected output (text)---
+> 'SRR'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

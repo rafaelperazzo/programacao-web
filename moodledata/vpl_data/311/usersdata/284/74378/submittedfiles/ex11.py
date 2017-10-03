@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+dia1=int(input('dia1: '))
+mes1=int(input('mes1: '))
+ano1=int(input('ano1: '))
+dia2=int(input('dia2: '))
+mes2=int(input('mes2: '))
+ano2=int(input('digite o ano2: '))
+data1=d1+m1+a1
+data2=d2+m2+a2
+if data1<data2:   
+    print(DATA1)
+elif a2>a1: 
+    print(data2)
+else data1=data2:
+    print(iguais)
+
+
+    
+    

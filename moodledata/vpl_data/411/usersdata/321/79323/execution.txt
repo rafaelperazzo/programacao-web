@@ -1,0 +1,29 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 521.78
+>3
+
+ --- Program output ---
+>Preço normal da etiqueta: Condição de pagamento (1, 2, 3 ou 4): 521.78
+
+ --- Expected output (numbers)---
+>521.78
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 3 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 2.25
