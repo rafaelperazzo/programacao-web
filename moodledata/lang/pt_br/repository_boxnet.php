@@ -26,13 +26,13 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['apikey'] = 'Chave da API';
-$string['boxnet:view'] = 'Visualizar o repositório box.net';
+$string['boxnet:view'] = 'Ver o repositório Box';
 $string['cannotcreatereference'] = 'Não é possível criar uma referência, as permissões não são suficientes para compartilhar o arquivo na caixa.';
 $string['clientid'] = 'ID do cliente';
 $string['clientsecret'] = 'Chave do cliente';
-$string['configplugin'] = 'Configuração do box.net';
+$string['configplugin'] = 'Configuração do Box';
 $string['filesourceinfo'] = 'Box ({$a->fullname}): {$a->filename}';
-$string['information'] = 'Obtenha uma chave API em <a href="http://www.box.net/developers/services">Box.net developer page</a> para seu site Moodle.';
+$string['information'] = 'Obtenha um ID de cliente e um segredo em <a href="https://app.box.com/developers/services">Box developer page</a> para seu site Moodle.';
 $string['invalidpassword'] = 'Senha inválida';
 $string['nullfilelist'] = 'Não há arquivos neste repositório';
 $string['password'] = 'Senha';

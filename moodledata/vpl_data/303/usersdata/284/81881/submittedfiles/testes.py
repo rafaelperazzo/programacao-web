@@ -1,0 +1,9 @@
+i=0
+while not(i>10):   
+    print(i)
+    i+=1
+        
+ 
+             
+   
+        

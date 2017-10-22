@@ -1,0 +1,40 @@
+-Failed tests
+Test 1: Teste 1
+Test 4: Teste 4
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+>42
+
+ --- Program output ---
+>Digite o número: Número Inválido!
+>Tente um número de oito algarismos.
+>Digite o número: Traceback (most recent call last):
+>  File "exe11.py", line 8, in <module>
+>    a=int(input('Digite o número: '))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+-Test 4: Teste 4 (-2.500)
+Incorrect program result
+ --- Input ---
+>123
+
+ --- Program output ---
+>Digite o número: Número Inválido!
+>Tente um número de oito algarismos.
+>Digite o número: Traceback (most recent call last):
+>  File "exe11.py", line 8, in <module>
+>    a=int(input('Digite o número: '))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+

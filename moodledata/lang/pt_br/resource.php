@@ -44,7 +44,7 @@ $string['contentheader'] = 'Conteúdo';
 $string['displayoptions'] = 'Opções de exibição disponíveis';
 $string['displayselect'] = 'Exibir';
 $string['displayselectexplain'] = 'Escolha o tipo de exibição, infelizmente nem todos os tipos são adequados para todos os arquivos.';
-$string['displayselect_help'] = 'Esta definição, juntamente com o tipo de arquivo e se o navegador permitir incorporação, determina como o arquivo é exibido. As opções podem incluir:
+$string['displayselect_help'] = 'Esta definição, juntamente com o tipo de arquivo e se o navegador permitir incorporação, determina como o arquivo é exibido. As opções são:
 
 Automático - A melhor opção de exibição para o tipo de arquivo é selecionado automaticamente
 Incorporado - O arquivo é exibido dentro da página, abaixo da barra de navegação em conjunto com a descrição do arquivo e todos os blocos
@@ -79,7 +79,7 @@ Um arquivo pode ser usado
 $string['modulename_link'] = 'mod/resource/view';
 $string['modulenameplural'] = 'Arquivos';
 $string['notmigrated'] = 'Este tipo de recurso legado ({$a}) ainda não foi migrado, desculpe.';
-$string['optionsheader'] = 'Opções';
+$string['optionsheader'] = 'Mostrar opções';
 $string['page-mod-resource-x'] = 'Qualquer página do módulo arquivo';
 $string['pluginadministration'] = 'Administração do Arquivo';
 $string['pluginname'] = 'Arquivo';
@@ -90,7 +90,7 @@ $string['popupresourcelink'] = 'Em caso contrário, clicar aqui: {$a}';
 $string['popupwidth'] = 'Largura da janela pop-up (em pixels)';
 $string['popupwidthexplain'] = 'Especifica a largura padrão de janelas pop-up.';
 $string['printintro'] = 'Exibir a descrição dos recursos';
-$string['printintroexplain'] = 'Exibir descrição de recursos abaixo do conteúdo? Alguns tipos de exibição não podem exibir a descrição mesmo ativados.';
+$string['printintroexplain'] = 'Mostrar a descrição do recurso abaixo do conteúdo? Alguns tipos de exibição não podem mostrar a descrição mesmo habilitados.';
 $string['resource:addinstance'] = 'Adicionar novo recurso';
 $string['resourcecontent'] = 'Arquivos e subpastas';
 $string['resourcedetails_sizedate'] = '{$a->size} {$a->date}';

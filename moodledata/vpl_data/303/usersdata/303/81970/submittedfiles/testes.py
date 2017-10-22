@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+x = 0
+while(x <= 100):
+    if x% == 0:
+        print(x)
+    x +=1
+    
+    
+
+    
+    

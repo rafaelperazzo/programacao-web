@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 $string['apikey'] = 'Chave API';
 $string['contenttype'] = 'Tipos de conteúdo';
 $string['err_noapikey'] = 'Sem chave de API';
-$string['err_noapikey_help'] = 'Não há uma chave API configurada para este plugin. Você deve obter uma em http://flickr.com/services/api/keys/apply';
+$string['err_noapikey_help'] = 'Não há uma chave da API configurada para este plugin. Você deve obter na página de serviços do Flickr em http://flickr.com/services/api/keys/.';
 $string['hidefrompublicsearches'] = 'Ocultar estas imagens de buscas públicas?';
 $string['isfamily'] = 'Visível para a família';
 $string['isfriend'] = 'Visível para os amigos';

@@ -1,0 +1,45 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+>34576890
+
+ --- Program output ---
+>digite o número com 8 algarismos:42
+
+ --- Expected output (numbers)---
+>42
+
+-Test 3: Teste 3 (-2.500)
+Incorrect program result
+ --- Input ---
+>17286328
+
+ --- Program output ---
+>digite o número com 8 algarismos:37
+
+ --- Expected output (numbers)---
+>37
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 5

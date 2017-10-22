@@ -1,0 +1,71 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+-Test 1: Teste 1 (-2.500)
+Incorrect program result
+ --- Input ---
+>42
+
+ --- Program output ---
+>digite o numero:2
+>6
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+>34576890
+
+ --- Program output ---
+>digite o numero:0
+>9
+>17
+>23
+>30
+>35
+>39
+>42
+
+ --- Expected output (numbers)---
+>42
+
+-Test 3: Teste 3 (-2.500)
+Incorrect program result
+ --- Input ---
+>17286328
+
+ --- Program output ---
+>digite o numero:8
+>10
+>13
+>19
+>27
+>29
+>36
+>37
+
+ --- Expected output (numbers)---
+>37
+
+-Test 4: Teste 4 (-2.500)
+Incorrect program result
+ --- Input ---
+>123
+
+ --- Program output ---
+>digite o numero:3
+>5
+>6
+
+ --- Expected output (text)---
+>'NAO SEI'
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+

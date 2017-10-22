@@ -249,7 +249,7 @@ $string['fixeddate'] = 'Data fixa';
 $string['footer'] = 'Rodapé';
 $string['forcemidnight'] = 'Forçar meia noite';
 $string['fsearchuserfield'] = 'Caixa de busca do campo Usuário';
-$string['fuserfield'] = 'Filtrar Campo Usuário';
+$string['fuserfield'] = 'Filtrar campo de perfil de usuário';
 $string['global'] = 'Relatório Global';
 $string['global_help'] = 'Relatório global pode ser acessado de qualquer curso na plataforma bastando colocar &courseid=MY_COURSE_ID na URL do relatório';
 $string['globalstatsshouldbeenabled'] = 'Estatísticas do site deve estar habilitada. Vá para Administração -> Servidor -> Estatísticas';

@@ -1,0 +1,19 @@
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>Digite o número a: Digite o número b: Digite o número c: Digite o número d: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['add_item'] = 'Adicionar pergunta a atividade';
+$string['add_item'] = 'Adicionar uma questão';
 $string['add_pagebreak'] = 'Adicionar uma quebra de página';
 $string['adjustment'] = 'Ajuste';
 $string['after_submit'] = 'Após submissão';
@@ -41,6 +41,7 @@ $string['autonumbering_help'] = 'Habilita ou desabilita os números automáticos
 $string['average'] = 'Média';
 $string['bold'] = 'Negrito';
 $string['cancel_moving'] = 'Cancelar movimento';
+$string['cannotaccess'] = 'Você só pode acessar essa pesquisa a partir de um curso';
 $string['cannotmapfeedback'] = 'Problema no banco de dados, incapaz de mapear o gabarito para o curso';
 $string['cannotsavetempl'] = 'Não é permitido salvar modelos';
 $string['cannotunmap'] = 'Problema da base de dados. Não é possível desmapear.';
@@ -145,9 +146,7 @@ $string['info'] = 'Informação';
 $string['infotype'] = 'Tipo de informação';
 $string['insufficient_responses'] = 'Respostas insuficientes';
 $string['insufficient_responses_for_this_group'] = 'Há respostas insuficientes para este grupo';
-$string['insufficient_responses_help'] = 'Há respostas insuficientes para este grupo.
-
-Para manter a pesquisa anônima precisam-se, ao menos, duas respostas.';
+$string['insufficient_responses_help'] = 'Para que a pesquisa seja anônimo, devem existir pelo menos 2 respostas.';
 $string['item_label'] = 'Rótulo';
 $string['item_name'] = 'Questão';
 $string['label'] = 'Rótulo';
@@ -250,6 +249,7 @@ $string['save_entries'] = 'Submeter as suas respostas';
 $string['save_item'] = 'Salvar questão';
 $string['saving_failed'] = 'Falha ao salvar';
 $string['saving_failed_because_missing_or_false_values'] = 'Falha ao tentar salvar devido a valores não informados ou incorretos';
+$string['search:activity'] = 'Pesquisa - informação da atividade';
 $string['search_course'] = 'Buscar curso';
 $string['searchcourses'] = 'Buscar cursos';
 $string['searchcourses_help'] = 'Procure pelo(s) código(s) ou nome(s) do(s) curso(s) que você deseja associar a esta pesquisa.
@@ -289,7 +289,7 @@ $string['typemissing'] = 'valor \'tipo\' perdido';
 $string['update_item'] = 'Gravar modificações da pergunta';
 $string['url_for_continue'] = 'Link para a próxima atividade';
 $string['url_for_continue_help'] = 'Após enviar o feedback, um botão de continuar é exibida, que liga à página do curso. Alternativamente, pode ligar para a próxima atividade, se o URL da atividade é adicionado aqui.';
-$string['use_one_line_for_each_value'] = '<br/>Use uma linha para cada resposta!';
+$string['use_one_line_for_each_value'] = 'Use uma linha para cada resposta!';
 $string['use_this_template'] = 'Utilizar este template';
 $string['using_templates'] = 'Utilizar um template';
 $string['vertical'] = 'vertical';

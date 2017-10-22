@@ -52,7 +52,7 @@ $string['aggregateoutcomes'] = 'Incluir resultado da aprendizagem na agregação
 $string['aggregateoutcomes_help'] = 'Se habilitado, os resultados de aprendizagem são incluídos na agregação de notas. Isto pode resultar num valor inesperado para o total de uma categoria de notas.';
 $string['aggregatesonly'] = 'Alteração apenas para agregados';
 $string['aggregatesubcatsupgradedgrades'] = 'Nota: A definição de agregação "Aggregate incluindo subcategorias" foi removida como parte de uma atualização do site. Desde "agregado incluindo subcategorias" já foi usado neste curso, é recomendável que você reveja esta mudança no livro de notas.';
-$string['aggregatesum'] = 'Natural';
+$string['aggregatesum'] = 'Soma das notas (Natural)';
 $string['aggregateweightedmean'] = 'Média ponderada das notas';
 $string['aggregateweightedmean2'] = 'Média ponderada simples das notas';
 $string['aggregation'] = 'Forma de agregação das notas';
@@ -97,7 +97,7 @@ $string['aggregation_help'] = 'A agregação determina como as notas em uma cate
 * Menor nota
 * Maior nota
 * Moda das notas - A nota que ocorre mais frequentemente
-* Soma das notas - A soma de todos os valores de notas, com notas em escala sendo ignoradas';
+* Soma das notas (Natural) - A soma de todos os valores de notas, com notas em escala sendo ignoradas';
 $string['aggregationhintdropped'] = 'Baixado';
 $string['aggregationhintexcluded'] = '(Excluído)';
 $string['aggregationhintextra'] = '(Crédito Extra)';
@@ -501,7 +501,7 @@ $string['modgradedonotmodify'] = 'Não modificar as notas existentes';
 $string['modgradeerrorbadpoint'] = 'Valor da nota inválido. Este valor deve ser um inteiro entre 1 e {$a}';
 $string['modgradeerrorbadscale'] = 'Escala selecionada inválida. Por favor, certifique-se de selecionar uma escala das opções abaixo.';
 $string['modgrade_help'] = 'Selecione o tipo de notas (escala ou pontos) que será utilizado nesta atividade. Esta escolha habilitará os itens (escala ou pontos) nos quais pode ser escolhida a escala ou a pontuação máxima, conforme o caso.';
-$string['modgrademaxgrade'] = 'Pontuação máxima';
+$string['modgrademaxgrade'] = 'Nota máxima';
 $string['modgraderescalegrades'] = 'Reajustar notas existentes';
 $string['modgraderescalegrades_help'] = 'Ao alterar as notas máximas de um item da pauta, deve indicar se pretende que esta ação altere, ou não, a percentagem das notas já existentes.
 
@@ -709,7 +709,7 @@ $string['showingaggregatesonly'] = 'Mostrar apenas agregados';
 $string['showingfullmode'] = 'Mostrar visão completa';
 $string['showinggradesonly'] = 'Mostrar apenas notas';
 $string['showlettergrade'] = 'Exibir letras das notas';
-$string['showlettergrade_help'] = 'Mostrar coluna de avaliação por letras?';
+$string['showlettergrade_help'] = 'Mostrar a coluna de notas de letras?';
 $string['showlocks'] = 'Mostrar travas';
 $string['showlocks_help'] = 'Mostrar um ícone de Travar/Destravar perto de cada nota';
 $string['shownohidden'] = 'Não mostrar';

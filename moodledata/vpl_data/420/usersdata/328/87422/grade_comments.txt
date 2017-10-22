@@ -1,0 +1,44 @@
+-Failed tests
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+>34576890
+
+ --- Program output ---
+>Digite um número com 8 dígitos:0
+>9
+>17
+>23
+>30
+>35
+>39
+>42
+
+ --- Expected output (numbers)---
+>42
+
+-Test 3: Teste 3 (-2.500)
+Incorrect program result
+ --- Input ---
+>17286328
+
+ --- Program output ---
+>Digite um número com 8 dígitos:8
+>10
+>13
+>19
+>27
+>29
+>36
+>37
+
+ --- Expected output (numbers)---
+>37
+
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+

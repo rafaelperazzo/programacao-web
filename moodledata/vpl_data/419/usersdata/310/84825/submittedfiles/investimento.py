@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+n = int(input('Digite o valor de n: '))
+m = float(input('Digite o valor de m: '))
+x=1
+x >= 1
+x <=10
+for i in range(n,n+11,1):
+   print(n*((1+m)**x))
+    

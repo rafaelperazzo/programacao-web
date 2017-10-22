@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+from jogoDaVelha_BIB import *
+
+# COLOQUE SEU PROGRAMA A PARTIR DAQUI
+print('Bem vindo ao jogo da velha da equipe ...')
+nome=str(input('Qual o seu nome (ou apelido)? '))
+simb ()
+import random
+j1 = raw_input('(1º jogador) Digite seu nome: ')
+PC = raw_input('(2º jogador) Digite seu nome: ')
+sort = random.randit(1,2)
+if sort == 1:
+    print('escolha uma posição')
+else:
+    print('aguarde sua vez')

@@ -1,0 +1,96 @@
+Testing 1/7 : Teste 1
+Testing 2/7 : Teste 2
+Testing 3/7 : Teste 3
+Testing 4/7 : Teste 4
+Testing 5/7 : Teste 5
+Testing 6/7 : Teste 6
+Testing 7/7 : Teste 7
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-1.429)
+Incorrect program result
+ --- Input ---
+> 2
+>4
+>34
+
+ --- Program output ---
+>a: b: c: a = 0, b = 0
+>INTERNO: a = 0, b = 1
+>INTERNO: a = 1, b = 1
+>INTERNO: a = 2, b = 1
+>INTERNO: a = 3, b = 1
+>INTERNO: a = 4, b = 1
+>INTERNO: a = 5, b = 1
+>INTERNO: a = 6, b = 1
+>INTERNO: a = 7, b = 1
+>INTERNO: a = 8, b = 1
+>INTERNO: a = 9, b = 1
+>INTERNO: a = 10, b = 1
+>INTERNO: a = 11, b = 1
+>INTERNO: a = 12, b = 1
+>INTERNO: a = 13, b = 1
+>INTERNO: a = 14, b = 1
+>INTERNO: a = 15, b = 1
+>15
+>1
+
+ --- Expected output (regular expression)---
+>17
+>0|1
+>8
+
+-Test 4: Teste 4 (-1.429)
+Incorrect program result
+ --- Input ---
+> 5
+>2
+>101
+
+ --- Program output ---
+>a: b: c: a = 0, b = 0
+>INTERNO: a = 0, b = 1
+>INTERNO: a = 1, b = 1
+>INTERNO: a = 2, b = 1
+>INTERNO: a = 3, b = 1
+>INTERNO: a = 4, b = 1
+>INTERNO: a = 5, b = 1
+>INTERNO: a = 6, b = 1
+>INTERNO: a = 7, b = 1
+>INTERNO: a = 8, b = 1
+>INTERNO: a = 9, b = 1
+>INTERNO: a = 10, b = 1
+>INTERNO: a = 11, b = 1
+>INTERNO: a = 12, b = 1
+>INTERNO: a = 13, b = 1
+>INTERNO: a = 14, b = 1
+>INTERNO: a = 15, b = 1
+>INTERNO: a = 16, b = 1
+>INTERNO: a = 17, b = 1
+>INTERNO: a = 18, b = 1
+>INTERNO: a = 19, b = 1
+>INTERNO: a = 20, b = 1
+>N
+
+ --- Expected output (regular expression)---
+>1
+>48|19
+>3
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  7 tests run/ 5 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 7.14

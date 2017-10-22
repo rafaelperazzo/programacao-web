@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+import math
+
+#COMECE SEU CÓDIGO ABAIXO DESTA LINHA
+#ENTRADA
+a = int(input('Digite o valor da primeira carta : '))
+b = int(input('Digite o valor da segunda carta : '))
+c = int(input('Digite o valor da terceira carta : '))
+d = int(input('Digite o valor da quarta carta : '))
+e = int(input('Digite o valor da quinta carta : '))
+#PROCESSAMENTO
+if (a>b) and (b>c) and (c>d) and (d>e) :
+    print('D')
+elif (e>d) and (d>c) and (c>b) and (b>a) :
+    print('C')
+else :
+    print('N')
+
+
+

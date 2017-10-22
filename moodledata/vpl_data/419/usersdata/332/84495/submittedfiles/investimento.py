@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from __future__ import division
+
+#COMECE SEU CODIGO AQUI
+m=float(input("Digite o valor investido"))
+t=float(input("Digite a taxa de crescimento"))
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)
+m=(m+m*t)
+print('%.2f' %m)

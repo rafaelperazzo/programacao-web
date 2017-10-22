@@ -1,0 +1,12 @@
+case = Teste 1
+input=42
+output='NAO SEI'
+case = Teste 2
+input=34576890
+output=42
+case = Teste 3
+input=17286328
+output=37
+case = Teste 4
+input=123
+output='NAO SEI'

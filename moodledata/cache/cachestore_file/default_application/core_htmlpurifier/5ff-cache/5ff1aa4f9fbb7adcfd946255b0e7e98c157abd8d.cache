@@ -1,0 +1,5 @@
+s:413:"<p>Olá Mateus,<br />
+A entrada consiste de quatro variáveis correspondendo a quatro inteiros positivos T1,T2,T3,T4, indicando o número de tomadas de cada uma das quatro réguas. <br />
+Logo, Tn pode ser T1, T2, T3 ou T4.  <br />
+Você deve validar a entrada de cada variável para exigir que Tn seja sempre maior que 1.<br />
+Assim, isso quer dizer que você precisa validar cada uma dessas variáveis.</p>";

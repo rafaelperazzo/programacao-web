@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+import math
+
+n=int(input('digite a quantidade de multiplos: '))
+a=int(input('Qual o numero a?: '))
+b=int(input('Qual o numero b?: '))
+numeroteste=1
+contador=0
+while(contador<n):
+    if (numeroteste%a)==0 or (numeroteste%0)==0:
+        print (numeroteste)
+        numeroteste=numeroteste+1
+        contador=contador+1
+    else:
+        numeroteste=numeroteste+1

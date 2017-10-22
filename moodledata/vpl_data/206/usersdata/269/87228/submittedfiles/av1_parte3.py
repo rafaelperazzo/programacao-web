@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+
+#COMECE AQUI ABAIXO
+n=int(input('digite n: '))
+
+if n%2==0:
+    sp=0
+    si=0
+    denominador=1
+    for i in range(0,n,1):
+        if i%2==0:
+            sp=sp+ (1/(denominador*(3**i)))
+        if i%2==1:
+            si=si- (1/(denominador*(3**i)))
+        denominador=denominador+2    
+    soma=sp+si
+    pi=(12**0.5)*soma
+    
+    print('valor de pi é %.6f' %pi)
+else:
+    n=n-1
+    sp=0
+    si=0
+    denominador=1
+    for i in range(0,n,1):
+        if i%2==0:
+            sp=sp+ (1/(denominador*(3**i)))
+        if i%2==1:
+            si=si- (1/(denominador*(3**i)))
+        denominador=denominador+2    
+    soma=sp+si
+    i=i+1
+    soma=soma+ (1/(denominador*(3**i)))
+    pi=(12**0.5)*soma
+    print('valor de pi é %.6f' %pi)

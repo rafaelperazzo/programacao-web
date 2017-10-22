@@ -1,0 +1,73 @@
+# -*- coding: utf-8 -*-
+
+'''
+/********************************************************************************/
+/* Equipe : Felipe Tavares de Menezes Pereira e Vitória Tiffany Teixeira Braga  */
+/* Numeros de Matriculas : 405949 e 405410                                      */
+/* Exercicio-Programa 1 -- Raizes de Equações Quadráticas                       */
+/* ECI0007(T2) -- 2017 -- Professor : Rafael Perazzo                            */
+/* Interpretador: Python versão 3                                               */
+/********************************************************************************/
+'''
+
+#ENTRADA
+
+n = int(input('Digite a quantidade de equacoes : '))
+eps = float(input('Digite o valor da precisao : '))
+
+#FUNÇÃO
+
+def raiz(x,eps) :
+    r0 = x
+    r1 = (1/2) * (r0+(x/r0))
+    
+    while (abs(r1-r0)>=eps) :
+        r0 = r1
+        r1 = (1/2) * (r0+(x/r0))
+    return(r1)
+
+#PROCESSAMENTO
+
+contador = 1
+
+while (n>=contador):
+    
+    a = float(input('Digite o valor de a : '))
+    b = float(input('Digite o valor de b : '))
+    c = float(input('Digite o valor de c : '))
+    
+    delta = (b*b) - (4*a*c)
+    
+    if (a==0):
+        print(' a     b     c')
+        print('%.2f %.2f %.2f *** ERRO: equação não é do segundo grau! ***' % (a,b,c))
+        
+    elif (delta>0):
+        resposta_raiz = raiz(delta,eps)
+        
+        x1 = (-b + resposta_raiz)/(2*a)
+        x2 = (-b - resposta_raiz)/(2*a)
+        print(' a     b     c      solução      raiz 1   raiz 2')
+        print('%.2f %.2f %.2f  reais simples  %.4f  %.4f' % (a,b,c,x1,x2))
+    
+    elif (delta==0) :
+        x = (-b)/(2*a)
+        print(' a     b    c     solução    raiz 1  raiz 2')
+        print('%.2f %.2f %.2f  real dupla  %.4f  %.4f' % (a,b,c,x,x))
+        
+    else:
+        delta = -delta
+        resposta_raiz = raiz (delta,eps)
+        
+        x1_parte_real =(-b)/(2*a)
+        x1_parte_imaginaria = resposta_raiz/(2*a)
+        
+        x2_parte_real =(-b)/(2*a)
+        x2_parte_imaginaria = resposta_raiz/(2*a)
+        print(' a     b     c      solução      raiz 1   raiz 2')
+        print('%.2f %.2f %.2f  complexas  %.4f + %.4f*i %.4f - %.4f*i' % (a,b,c,x1_parte_real,x1_parte_imaginaria,x2_parte_real,x2_parte_imaginaria))
+        
+    contador = contador + 1
+
+
+    

@@ -445,6 +445,7 @@ $string['devicedetectregex_desc'] = '<p>Por padrão, o Moodle pode detectar comp
 $string['devicedetectregexexpression'] = 'Expressão regular';
 $string['devicedetectregexvalue'] = 'Valor de retorno';
 $string['devicetype'] = 'Tipo de dispositivo';
+$string['devlibdirpresent'] = 'Diretórios com bibliotecas de desenvolvimento como <em>vendor</ em> ou <em>node_modules</ em> não devem estar presentes em sites públicos. Consulte o <a href="{$a->moreinfourl} "> relatório de visão geral de segurança </a> para mais detalhes.';
 $string['disableuserimages'] = 'Desabilitar imagens de perfil de usuário';
 $string['displayerrorswarning'] = 'Desabilitar a opção PHP <em>display_errors</em> para evitar que dados sensíveis sejam revelados. Isto serve apenas em sites de teste para revisão de código.';
 $string['displayloginfailures'] = 'Mostrar falhas de login';
@@ -618,6 +619,7 @@ $string['iplookupinfo'] = 'Por padrão o Moodle usa o servidor NetGeo(The Intern
 É recomendado instalar uma cópia local do banco de dados livre GeoLite City de MaxMind.<br/>
 Localização de endereço IP é mostrado em mapas simples ou usando Google Maps. Observe que você precisa ter uma conta Google e se solicitar uma chave grátis da API Google Maps para habilitar mapas interativos.';
 $string['iplookupmaxmindnote'] = 'Esse produto inclue dados GeoLite criados por MaxMind, disponível em <a href="http://www.maxmind.com/">http://www.maxmind.com/</a>.';
+$string['ishttpswarning'] = 'Foi detectado que seu site não está seguro porque não utiliza HTTPS. É altamente recomendável migrar seu site para  HTTPS para aumentar a segurança e melhorar a integração com outros sistemas.';
 $string['keeptagnamecase'] = 'Mantenha formato de letra do nome do rótulo';
 $string['lang'] = 'Idioma predefinido';
 $string['langcache'] = 'Memória temporária da lista de idiomas';
@@ -779,6 +781,7 @@ $string['numberofmissingstrings'] = 'Número de expressões não traduzidas: {$a
 $string['numberofstrings'] = 'Número total de expressões: {$a->strings}<br />Faltando: {$a->missing} ({$a->missingpercent}&nbsp;%)';
 $string['opcacherecommended'] = 'PHP cache opcode melhora o desempenho e reduz os requisitos de memória, extensão OPcache é recomendado e totalmente suportado.';
 $string['opensslrecommended'] = 'É altamente recomendável a instalação da biblioteca OpenSSL, que é opcional, isto permite a funcionalidade Moodle em Rede.';
+$string['opensslrequired'] = 'A extensão OpenSSL do PHP agora é exigida pelo Moodle para fornecer serviços de criptografia mais robustos.';
 $string['opentogoogle'] = 'Aberto para o Google';
 $string['optionalmaintenancemessage'] = 'Mensagem opcional de manutenção';
 $string['order1'] = 'Primeiro';

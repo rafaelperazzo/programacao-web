@@ -1,0 +1,38 @@
+-Failed tests
+Test 2: teste2
+Test 3: teste3
+-Test 2: teste2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>5
+>10
+>17
+>20
+>30
+
+ --- Program output ---
+>40
+
+ --- Expected output (text)---
+> '35'
+
+-Test 3: teste3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>3
+
+ --- Program output ---
+>13
+
+ --- Expected output (text)---
+>'12'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

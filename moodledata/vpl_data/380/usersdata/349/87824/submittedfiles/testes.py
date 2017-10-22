@@ -1,0 +1,1 @@
+a = int(input('De zero a 10, qual a chance de vc sair comigo? [0-10] ')) 

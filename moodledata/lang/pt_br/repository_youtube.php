@@ -36,5 +36,4 @@ $string['sortpublished'] = 'Data de publicação';
 $string['sortrating'] = 'Notas';
 $string['sortrelevance'] = 'Relevância';
 $string['sortviewcount'] = 'Visualizar contagem';
-$string['youtube:view'] = 'Utilize o YouTube no selecionador de
-arquivos';
+$string['youtube:view'] = 'Utilizar o YouTube no seletor de arquivos';

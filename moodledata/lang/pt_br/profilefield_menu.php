@@ -25,4 +25,4 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Menu de escolhas';
+$string['pluginname'] = 'Dropdown menu';

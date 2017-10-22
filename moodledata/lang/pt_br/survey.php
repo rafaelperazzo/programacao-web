@@ -74,15 +74,13 @@ $string['attls8'] = 'Estou sempre interessado(a) em saber por que as pessoas diz
 $string['attls8short'] = 'saber por quê';
 $string['attls9'] = 'Freqüentemente discordo de autores de livros que leio, e procuro uma explicação lógica que comprove que eles estão errados.';
 $string['attls9short'] = 'discorda do autor';
-$string['attlsintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
-
-O objetivo deste questionário é fazer uma pesquisa sobre as posturas dos participantes do curso perante a aprendizagem e a reflexão crítica.
+$string['attlsintro'] = 'O objetivo deste questionário é fazer uma pesquisa de avaliação sobre a postura do participante do curso em relação a aprendizagem e a reflexão crítica.
 
 Cada ítem abaixo consiste em uma declaração que descreve posturas e atitudes que você pode assumir ao longo deste curso.
 
 Reflita sobre cada ítem e decida se as afirmações são válidas em relação a você mesmo, e em que medida. Depois, escolha a opção correspondente às suas conclusões.
 
-Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não tem nenhum impacto sobre a avaliação do participante.
+Não há respostas certas ou erradas; Estamos interessados apenas na sua opinião. Tenha certeza de que suas respostas serão tratadas com um alto grau de confidencialidade e não afetarão sua avaliação.
 
 Agradecemos a sua colaboração.';
 $string['attlsm1'] = 'Posturas perante a Aprendizagem e a Reflexão Crítica';
@@ -155,15 +153,13 @@ $string['colles8'] = 'Faço reflexões críticas sobre os conteúdos do curso...
 $string['colles8short'] = 'eu critico os conteúdos';
 $string['colles9'] = 'Eu explico as minhas idéias aos outros participantes.';
 $string['colles9short'] = 'eu explico as minhas idéias';
-$string['collesaintro'] = '<b>COMO RESPONDER AO QUESTIONÁRIO</b>
+$string['collesaintro'] = 'O objetivo desta pesquisa de avaliação é entender quanto as atividades desta unidade favoreceram o seu processo de aprendizagem.
 
-O objetivo deste questionário é fazer uma pesquisa sobre a medida em que as atividades deste curso favorecem o seu processo de aprendizagem.
+Cada uma das 24 afirmações abaixo, perguntam sobre sua experiência nesta unidade.
 
-Cada frase abaixo é uma declaração que descreve situações que podem caracterizar o seu processo de aprendizagem neste curso.
+Não há respostas certas ou erradas; Estamos interessados apenas na sua opinião. Tenha certeza de que suas respostas serão tratadas com um alto grau de confidencialidade e não afetarão sua avaliação.
 
-Reflita sobre cada declaração e, depois, selecione a opção que descreve melhor a freqüência em que as situações descritas ocorrem neste curso.
-
-Não há respostas certas ou erradas; nós estamos interessados apenas na sua opinião. Todas as respostas dadas são confidenciais e não têm nenhum impacto sobre a avaliação do participante.
+Suas respostas serão cuidadosamente consideradas e nos ajudarão a melhorar a forma como esta unidade online será apresentada no futuro.
 
 Agradecemos a sua colaboração.';
 $string['collesaname'] = 'COLLES (experiência efetiva)';
@@ -254,6 +250,7 @@ $string['savednotes'] = 'As suas anotações foram gravadas';
 $string['scaleagree5'] = 'Discordo completamente,Discordo em parte,Não concordo nem discordo,Concordo em parte,Concordo plenamente';
 $string['scales'] = 'Escalas';
 $string['scaletimes5'] = 'Quase nunca,Raramente,Algumas vezes,Freqüentemente,Quase sempre';
+$string['search:activity'] = 'Pesquisa - informação da atividade';
 $string['seemoredetail'] = 'Clique aqui para mais detalhes';
 $string['selectedquestions'] = 'Perguntas selecionadas de uma escala, todos os participantes';
 $string['summary'] = 'Sumário';

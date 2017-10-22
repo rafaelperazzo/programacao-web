@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+import math
+x=int(input('digite o valor de x: '))
+y=int(input('digite o valor de y: '))
+i=1
+
+while (i<=x):
+    if (x%i)==0 and (y%i)==0:
+        mdc=i
+        
+    i=i+1
+print(mdc)
+
+

@@ -1,0 +1,29 @@
+s:793:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 23
+57238
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de a: digite o valor de b: N
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 17
+171717
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite o valor de a: digite o valor de b: N
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'S'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 2 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

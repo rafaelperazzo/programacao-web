@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clientid'] = 'Id de cliente';
-$string['noauthtoken'] = 'Um token de autenticação não foi recebido do Google. Certifique-se que está permitindo que o moodle acesse sua conta do Google';
+$string['noauthtoken'] = 'Um token de autenticação não foi recebido do Google. Certifique-se que está permitindo que o Moodle acesse sua conta do Google';
 $string['nooauthcredentials'] = 'Credenciais OAuth exigidas.';
 $string['nooauthcredentials_help'] = 'Para usar o plugin de portfólio do Google Drive você precisa configurar as credenciais OAuth nas configurações do portfólio.';
 $string['nosessiontoken'] = 'Um token de sessão não existe prevenindo exportar ao Google.';

@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+n = int(input(''))
+if n > 9999999 and n <= 99999999:
+    soma = 0
+    while (n!=0):
+        resto = n%10
+        n = (n-resto)//10
+        soma = soma + resto
+    print(soma)
+else:
+    print('NAO SEI')
+    

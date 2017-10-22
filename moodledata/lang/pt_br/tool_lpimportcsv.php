@@ -25,6 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['confirm'] = 'Confirmar';
 $string['csvdelimiter'] = 'Delimitador CSV';
 $string['encoding'] = 'Codificação';
 $string['export'] = 'Exportar';

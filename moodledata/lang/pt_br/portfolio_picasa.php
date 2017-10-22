@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['clientid'] = 'ID do cliente';
-$string['noauthtoken'] = 'Um token de autenticação do google não foi recebido. Verifique se você cedeu permissão ao moodle para acessar sua conta do Google';
+$string['noauthtoken'] = 'Um token de autenticação não foi recebido do Google. Certifique-se que está permitindo que o Moodle acesse sua conta do Google';
 $string['nooauthcredentials'] = 'Credenciais OAuth necessário.';
 $string['nooauthcredentials_help'] = 'Para usar o plugin portfolio Picasa, você deve configurar credenciais OAuth nas configurações de carteira.';
 $string['oauthinfo'] = '<p> Para usar a carteira Picasa, você deve ser registrado com o Google. Instruções para registing sua instalação com Google estão descritos no <a href="{$a->docsurl}">Moodle Docs</a> . A redirecionar url deve ser definido como: </p><p> {$a->callbackurl} </p>';

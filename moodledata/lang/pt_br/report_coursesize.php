@@ -37,6 +37,7 @@ $string['diskusage'] = 'Utilização do disco';
 $string['emptycourseshidden'] = 'Cursos que não utilizam armazenamento de arquivos foram excluídos deste relatório.';
 $string['nouserfiles'] = 'Nenhum arquivo de usuários listado.';
 $string['pluginname'] = 'Tamanho do curso';
+$string['sharedusage'] = 'Uso compartilhado';
 $string['sitefilesusage'] = 'Relatório de uso de arquivos';
 $string['sizepermitted'] = '(Utilização permitida {$a}MB)';
 $string['sizerecorded'] = '(Gravado {$a})';

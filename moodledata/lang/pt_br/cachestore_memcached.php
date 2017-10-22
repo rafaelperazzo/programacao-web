@@ -56,17 +56,18 @@ $string['serialiser_json'] = 'O serializador JSON.';
 $string['serialiser_php'] = 'O serializador PHP.';
 $string['servers'] = 'Servidores';
 $string['serversclusterinvalid'] = 'Exatamente um servidor é necessário quando o agrupamento é ativado.';
-$string['servers_help'] = 'Isso define os servidores que devem ser utilizados por este adaptador memcached. Servidores devem ser definidos por uma linha e constituído por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta é fornecida será utilizada a porta padrão (11211).
+$string['servers_help'] = 'Isso define os servidores que devem ser utilizados por este adaptador memcached.
+Os servidores devem ser definidos um por linha, onde cada linha é constituída por um endereço de servidor e, opcionalmente, uma porta e um peso.
+Se nenhuma porta for fornecida, a porta padrão (11211) é utilizada.
 
 Por exemplo:
-
 <pre>
 server.url.com
 ipaddress:port
 servername:port:weight
 </pre>
 
-Se * Ativar servidores em cluster * está habilitado a seguir, deve haver apenas um servidor listado aqui. Isso normalmente seria um nome que sempre decide por uma maquina local, como 127.0.0.1 ou localhost.';
+Se * Habilitar servidores em cluster * estiver habilitado a seguir, deve haver apenas um servidor listado aqui. Isso normalmente seria um nome que sempre aponta para a maquina local, como 127.0.0.1 ou localhost.';
 $string['sessionhandlerconflict'] = 'Aviso: Um exemplo memcache ({$a}) tem que ser configurado para usar o mesmo servidor memcached como sessões. Limpar todos os caches levará a sessões igualmente limpas.';
 $string['setservers'] = 'Definir servidores';
 $string['setservers_help'] = 'Isso define os servidores que devem ser utilizados por este adaptador memcached. Servidores devem ser definidos por uma linha e constituído por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta é fornecida será utilizada a porta padrão (11211).

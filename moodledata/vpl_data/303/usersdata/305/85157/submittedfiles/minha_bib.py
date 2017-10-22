@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+
+#COMECE AQUI ABAIXO
+#def multiplicacao(x,y):
+    #m = x*y
+    #return m
+    
+def fatorial(n):
+    f = 1
+    for i in range(2,n+1,1)
+        f *= i
+        print('Estou pensando no %d' %i)
+    return f

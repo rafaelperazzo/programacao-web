@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+#COMECE AQUI ABAIXO
+n=int(input('Digite o valor de n: '))
+soma=0
+
+while():
+    if (i%2==0):
+        soma=soma-(1)/i*3**(i-1)
+    else:
+        soma=soma+(1)/i*3**(i-1)
+pi=(soma*(12**0.5))
+print(pi)
+
+    
+    

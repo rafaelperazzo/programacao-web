@@ -50,6 +50,7 @@ $string['choice:readresponses'] = 'Ver respostas';
 $string['choicesaved'] = 'A opção escolhida foi gravada';
 $string['choicetext'] = 'Texto da Escolha';
 $string['chooseaction'] = 'Escolha uma ação...';
+$string['closebeforeopen'] = 'Você especificou uma data de fechamento anterior a data de abertura.';
 $string['completionsubmit'] = 'Mostrar como completa quando o usuário fizer uma escolha';
 $string['description'] = 'Descrição';
 $string['displayhorizontal'] = 'Disposição Horizontal';

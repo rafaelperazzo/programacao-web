@@ -249,7 +249,7 @@ $string['list'] = 'Ver lista';
 $string['listtemplate'] = 'Modelo de Lista';
 $string['longitude'] = 'Longitude';
 $string['manageapproved'] = 'Permitir a edição de entradas aprovadas';
-$string['manageapproved_help'] = 'Se desativado, entradas aprovadas não poderão ser editadas ou excluídas pelo usuário que as acrescentou. Essa configuração não tem efeito a menos que \'É necessária aprovação\' esteja ativada.';
+$string['manageapproved_help'] = 'Se desabilitado, itens aprovados não poderão ser editados ou excluídos pelo usuário que as adicionou. Essa configuração não tem efeito a menos que \'Aprovação necessária\' esteja habilitada.';
 $string['mapexistingfield'] = '	
 Mapear para {$a}';
 $string['mapnewfield'] = 'Criar um novo campo';
@@ -341,9 +341,7 @@ $string['recorddisapproved'] = 'Entrada não aprovada';
 $string['recordsnotsaved'] = 'Nenhum item foi registrado. Por favor controle o formato do arquivo carregado no servidor.';
 $string['recordssaved'] = 'Item gravado';
 $string['requireapproval'] = 'Aprovação necessária';
-$string['requireapproval_help'] = '<p align="center"><strong>Exigir aprovação</strong></p>
-
-<p>As entradas devem ser aprovadas pelo professor antes que sejam acessíveis aos estudantes? Isto é útil para moderar a publicação de conteúdos que podem ser potencialmente ofensivos ou impróprios.</p>';
+$string['requireapproval_help'] = 'Se habilitado, os itens têm que ser aprovados pelo professor para que sejam visíveis a todos.';
 $string['required'] = 'Obrigatório';
 $string['requiredentries'] = 'Entradas necessárias para a conclusão';
 $string['requiredentries_help'] = '<p align="center"><strong>Itens Obrigatórios</strong></p>
@@ -412,4 +410,5 @@ $string['usestandard_help'] = '<p align="center"><strong>Usar Predefinição</st
 <p> Se você adicionou a predefinição à biblioteca usando a opção \'Salvar como Predefinição\', você pode apagá-la.</p>';
 $string['viewfromdate'] = 'Visível a partir de';
 $string['viewtodate'] = 'Visível até';
+$string['viewtodatevalidation'] = 'A data do campo \'Visível até\' não pode ser anterior a data do campo \'Visível a partir de\'';
 $string['wrongdataid'] = 'ID de dados errado';

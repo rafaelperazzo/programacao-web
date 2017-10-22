@@ -1,0 +1,8 @@
+a= float(input('Digite seu investimento:'))
+t= float(input('Digite sua taxa de lucro:'))
+
+for a in range (0,11,1):
+    a = a + (a*t)
+    print('%.2f' %i)
+    continue
+    

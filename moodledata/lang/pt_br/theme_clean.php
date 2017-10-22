@@ -63,4 +63,5 @@ $string['region-side-post'] = 'Direita';
 $string['region-side-pre'] = 'Esquerda';
 $string['sitelogo'] = 'Logotipo do site';
 $string['sitename'] = 'Exibir nome do site ao lado do logotipo pequeno';
+$string['sitenamedesc'] = 'Se não houver um pequeno logotipo, o nome do site é sempre exibido na barra de navegação. Se um pequeno logotipo estiver configurado, ele pode ser exibido com ou sem o nome do site.';
 $string['smalllogo'] = 'Logotipo pequeno';

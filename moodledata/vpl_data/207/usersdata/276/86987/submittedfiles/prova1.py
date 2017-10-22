@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+import math
+
+#COMECE SEU CÓDIGO ABAIXO DESTA LINHA
+
+a = int (input('Digite a: '))
+b = int (input('Digite b: '))
+c = int (input('Digite c: '))
+d = int (input('Digite d: '))
+e = int (input('Digite e: '))
+
+if (a>b) and (a>c) and (a>d) and (a>e):
+    
+

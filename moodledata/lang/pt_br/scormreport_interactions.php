@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Relatório de interções';
+$string['pluginname'] = 'Relatório de interações';
 $string['questionx'] = 'Questão {$a}';
 $string['responsex'] = 'Resposta {$a}';
 $string['resultx'] = 'Resultado {$a}';

@@ -1,0 +1,36 @@
+-Failed tests
+Test 6: Teste 6
+Test 9: Teste 9
+-Test 6: Teste 6 (-1.111)
+Incorrect program result
+ --- Input ---
+> 10
+>5
+>7
+>8
+
+ --- Program output ---
+>n1: n2: n3: n4: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>n1: n2: n3: n4: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 7 tests passed |
+>+------------------------------+
+

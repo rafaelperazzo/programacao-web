@@ -1,0 +1,19 @@
+case = Teste 1
+input = 3
+output = /.*NAO DIVISIVEL POR 3 E POR 7.*/i
+
+case = Teste 2
+input = 21
+output = /.*DIVISIVEL POR 3 E POR 7.*/i
+
+case = Teste 3
+input = 51
+output = /.*NAO DIVISIVEL POR 3 E POR 7.*/i
+
+case = Teste 4
+input = 5250
+output = /.*DIVISIVEL POR 3 E POR 7.*/i
+
+case = Teste 5
+input = -42
+output = /.*DIVISIVEL POR 3 E POR 7.*/i

@@ -1,0 +1,19 @@
+-Test 9: Teste 9 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>1
+>1
+>0
+
+ --- Program output ---
+>digite um numero:4 digite um numero:7 digite um numero:5 digite um numero:3 s
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+

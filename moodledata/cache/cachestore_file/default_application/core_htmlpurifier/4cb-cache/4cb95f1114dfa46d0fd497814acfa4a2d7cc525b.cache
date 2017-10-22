@@ -1,0 +1,115 @@
+s:16153:"<p dir="ltr"><span><strong> </strong></span></p>
+<p dir="ltr" style="text-align:center;"><span style="font-size:xx-large;"><strong>Jogo da Velha em Python</strong></span></p>
+<p> </p>
+<p><span style="font-size:large;"><strong>CONTEXTO</strong></span></p>
+<p dir="ltr">O jogo da velha (português brasileiro) ou jogo do galo (português europeu) é um jogo e passatempo popular. É um jogo de regras extremamente simples, que não traz grandes dificuldades para seus jogadores e é facilmente aprendido. A origem é desconhecida, com indicações de que pode ter começado no antigo Egito, onde foram encontrados tabuleiros esculpidos na rocha, que teriam mais de 3.500 anos [1].</p>
+<p dir="ltr">O jogo pode ser jogado sobre um tabuleiro 3 x 3 ou mesmo sendo riscado sobre um pedaço de papel ou mesa. Sempre são dois jogadores por jogo. Um jogador usa o símbolo “X” para suas jogadas, enquanto o outro usa o símbolo “O”. Em uma partida, cada jogador realiza uma jogada por vez em uma casa vazia do tabuleiro, alternando jogadas entre eles, uma de cada vez, até existir um vencedor ou um empate. A jogada de início da partida é realizada após um sorteio que define qual jogador (X ou O) dará a primeira jogada no tabuleiro vazio. Vence o jogo aquele jogador que primeiro formar uma sequência de três jogadas na horizontal, vertical ou diagonal. Logo, a estratégia básica do jogador oponente é evitar que se formem sequências de três do jogador adversário.</p>
+<p><span>Exemplos de uma partida [1]:</span></p>
+<p></p>
+<p dir="ltr">No exemplo da figura acima, têm-se que o jogador com símbolo "X" venceu a rodada, uma vez que ele conseguiu formar uma sequência de três "X" na horizontal antes que seu oponente pudesse formar uma sequência de três.</p>
+<p dir="ltr">Quando a rodada empata, costuma-se dizer que o jogo "deu velha" [1]. Empata o jogo quando se chega em um ponto em que não é mais possível formar uma sequência vencedora ou quando o tabuleiro 3 x 3 está completo e nenhuma sequência de 3 jogadas foi formada pelos jogadores. Exemplo de um empate [1]:</p>
+<p dir="ltr"></p>
+<p>Perceba que, na imagem acima, o tabuleiro ficou completo (sem mais opções de jogada) e não houve nenhuma sequência de 3 de nenhum jogador. Logo, Deu Velha!</p>
+<p>[1] <span><span>https://pt.wikipedia.org/wiki/Jogo_da_velha </span></span></p>
+<p><span><strong> </strong></span></p>
+<p><span style="font-size:large;"><strong>O PROGRAMA A SER FEITO</strong></span></p>
+<p><span>Você e seus colegas do grupo formado deverão então desenvolver um jogo da velha em Python 3, onde o usuário do programa (jogador) irá jogar contra o computador (máquina). Antes do jogo iniciar, o usuário deve informar seu nome (ou apelido) e qual o símbolo que quer usar (X ou O). Feito isso, seu programa-jogo deve sortear quem inicia a partida (humano ou computador) e informar na tela o vencedor do sorteio e o primeiro a iniciar a partida (nome/apelido ou “computador”). </span></p>
+<p><span>Caso o computador inicie a partida, o programa já deve mostrar o tabuleiro com a primeira jogada do computador, pedindo então que o usuário informe sua jogada. Caso o usuário inicie a partida, o programa deve então pedir ao usuário que informe sua jogada. O usuário (humano) informa então sua jogada apenas indicando a posição do tabuleiro (x e y) onde deseja colocar seu símbolo. Para isso, a cada jogada, o usuário informará dois números inteiros em uma só entrada, onde o primeiro corresponde ao valor de x e o segundo corresponde ao valor de y.</span></p>
+<p>A figura abaixo mostra um mapeamento de opções de jogada com os pares x e y que endereçam cada posição do tabuleiro:</p>
+<p style="text-align:center;"></p>
+<p><span>Para a jogada ser válida, x e y precisam estar no intervalo [0,2], cada, e a posição da jogada não pode estar ocupada com uma outra jogada da mesma partida, seja do próprio usuário, seja do computador. Caso o usuário informe uma jogada inválida, este deverá tentar novamente até que sua jogada seja válida.</span></p>
+<p>Após a inserção de uma jogada válida do usuário, o programa-jogo deve mostrar o tabuleiro atualizado, contendo a jogada do usuário e a jogada do computador. Então, deve-se pedir uma nova jogada ao usuário. Isso deve se repetir até haver um vencedor ou empate do jogo. <span>Veja o exemplo a seguir para entender como seu programa-jogo deve se comportar.</span></p>
+<p> </p>
+<p dir="ltr"><span style="font-size:large;"><strong>EXEMPLO COMPORTAMENTAL DO PROGRAMA</strong></span></p>
+<p> </p>
+<p dir="ltr">Bem vindo ao JogoDaVelha do grupo X [ A, B, C e D ]</p>
+<p dir="ltr">Qual o seu nome (ou apelido)?  Max</p>
+<p dir="ltr">Qual símbolo você deseja utilizar no jogo?  X</p>
+<p dir="ltr">Vencedor do sorteio para início do jogo: Computador</p>
+<p> O  |     |        </p>
+<p dir="ltr">      |     |        </p>
+<p dir="ltr">      |     |        </p>
+<p dir="ltr">Qual a sua jogada, Max?  1 1</p>
+<p>  O  |      |  O     </p>
+<p dir="ltr">      |  X  |        </p>
+<p dir="ltr">      |      |        </p>
+<p> Qual a sua jogada, Max?  0 1</p>
+<p>  O  |  X  |  O     </p>
+<p dir="ltr">      |  X  |        </p>
+<p dir="ltr">      |  O  |     </p>
+<p dir="ltr">Qual a sua jogada, Max?  2 1</p>
+<p dir="ltr">OPS!!! Essa jogada não está disponível. Tente novamente!</p>
+<p dir="ltr">Qual a sua jogada, Max?  1 0</p>
+<p dir="ltr"> O  |  X  |  O     </p>
+<p dir="ltr"> X   |  X  |        </p>
+<p dir="ltr"> O   |  O  |     </p>
+<p dir="ltr">Qual a sua jogada, Max? 1 2</p>
+<p dir="ltr"> O  |  X  |  O     </p>
+<p dir="ltr"> X   |  X  |  X    </p>
+<p dir="ltr"> O   |  O  |     </p>
+<p dir="ltr">Vencedor: Max</p>
+<p> </p>
+<p dir="ltr"><span style="color:#008000;"><strong>OBS: Seu programa-jogo deve seguir ESTRITAMENTE o modelo do EXEMPLO em relação às entradas e saídas. Não invente moda. Você deve ser criativo nos detalhes de sua solução. Porém, as entradas e saídas do seu programa precisam respeitar as regras aqui estabelecidas. Não fique repetidamente perguntando ao professor sobre o que já está bem claro aqui.</strong></span></p>
+<p> </p>
+<p><span style="font-size:large;"><strong>ARTEFATOS A SEREM ENTREGUES</strong></span></p>
+<p>O líder de cada grupo (o aluno que informou na enquete os componentes do grupo), deverá submeter três arquivos contendo todo o trabalho desenvolvido pela sua equipe:</p>
+<ol><li>JogoDaVelha_Principal.py --&gt; arquivo contendo o código principal do jogo. Este deve ser o arquivo a ser executado para rodar o jogo e avaliar o programa;</li>
+<li>JogoDaVelha_BIB.py --&gt; arquivo contendo as funções desenvolvidas e utilizadas pelo jogo (principal);</li>
+<li>Fluxograma.jpg --&gt; diagramação em fluxograma de toda a lógica do programa-jogo desenvolvido. O fluxo deve coincidir com sua implementação em Python.</li>
+</ol><p><strong>ENVIO DOS CÓDIGOS-FONTE</strong></p>
+<p>Para escrever e testar os arquivos .py, pode ser utilizado o <a href="https://programacao.ufca.edu.br/moodle/mod/vpl/view.php?id=1032">Ambiente Virtual de Programação</a>, ou você pode baixar e instalar o pacote <a href="https://www.continuum.io/downloads#windows">Anaconda Python</a>. Este pacote instala uma aplicação chamada Spyder, que pode ser utilizado para escrever e testar seu código sem a necessidade de conexão com a Internet. Lembrem-se apenas de usar a versão 3.6 do Python quando usarem o Anaconda/Spyder ou outro ambiente de desenvolvimento.</p>
+<p>Recomenda-se, entretanto, que antes de enviar os dois arquivos contendo os códigos-fonte, estes sejam testados com o uso do botão "Executar" disponível pelo moodle após clicar em "Salvar" com seu código copiado ou enviado para o editor. Utilize o link <a href="https://programacao.ufca.edu.br/moodle/mod/vpl/view.php?id=1271"><strong>AQUI</strong></a> para testar seus códigos a vontade antes de proceder com o envio. Lembrando, o envio dos códigos deverá ser realizado <a href="https://programacao.ufca.edu.br/moodle/mod/vpl/view.php?id=1271">neste link</a>, de forma semelhante ao envio de atividades práticas de programação. O último "Salvar" será o considerado para correção.</p>
+<p style="text-align:center;"><a href="https://programacao.ufca.edu.br/moodle/mod/vpl/view.php?id=1271"><span style="font-size:medium;"><strong>LINK PARA TESTES E ENVIO DEFINITIVO DOS ARTEFATOS 1 E 2 !!!</strong></span></a></p>
+<p> </p>
+<p><strong>ENVIO DA IMAGEM CONTENDO O FLUXOGRAMA</strong></p>
+<p>Para gerar o fluxograma, pode ser utilizado o Microsoft PowerPoint. Ao finalizar a diagramação, <strong>você deve exportar para o formato JPG.</strong> Só será aceito arquivos em formato de imagem JPG. Não insista! <span style="color:#ff0000;"><strong>Fluxogramas enviados em QUALQUER OUTRO FORMATO receberão nota ZERO.</strong></span> Tomem cuidado para que os termos estejam legíveis no fluxograma. Também tenham cuidado em utilizar os símbolos corretos para o que desejar representar. Tudo isso será objeto de avaliação.</p>
+<p>A entrega do arquivo JPG contendo o fluxograma deverá ser feita unicamente aqui nesta página, clicando em "Enviar".</p>
+<p>Pede-se que apenas o líder do grupo realize o envio dos três artefatos deste projeto, em seus devidos locais, conforme explicado acima.</p>
+<p> </p>
+<p><span style="font-size:large;"><strong>FUNÇÕES OBRIGATÓRIAS A SEREM DESENVOLVIDAS</strong></span></p>
+<p>Sua biblioteca de funções deverá implementar, obrigatoriamente, as seguintes funções:</p>
+<ul><li dir="ltr"><strong>solicitaSimboloDoHumano</strong>: solicita ao usuário o símbolo que ele deseja utilizar na partida e garante que ele informou um símbolo válido (X ou O);</li>
+<li dir="ltr"><strong>sorteioPrimeiraJogada</strong>: realiza um sorteio totalmente aleatório para definir quem começa o jogo (humano ou computador);</li>
+<li dir="ltr"><strong>jogadaHumana</strong>: recebe uma jogada válida do usuário;</li>
+<li dir="ltr"><strong>jogadaComputador</strong>: realiza uma jogada válida pelo computador;</li>
+<li dir="ltr"><strong>validaJogada</strong>: verifica se o jogador inseriu ou realizou uma jogada válida;</li>
+<li dir="ltr"><strong>mostraTabuleiro</strong>: exibe o tabuleiro atualizado na tela.</li>
+<li dir="ltr"><strong>verificaVencedor</strong>: verifica se há vencedor ou empate e, caso positivo, exibe “Vencedor: Computador” (sem as aspas) ou “Vencedor: nome” (nome é o valor do nome ou apelido do jogador humano informado no começo, sem as aspas) ou “Deu Velha!” (empate!, sem as aspas).</li>
+</ul><p>Cada grupo é livre para desenvolver quantas funções julgar necessário. Porém, é obrigatório o desenvolvimento das 7 funções enumeradas acima. <span style="color:#ff6600;"><strong>O grupo que não definir, implementar e utilizar essas funções, receberá nota 0 no código-fonte do programa-jogo.</strong></span></p>
+<p> </p>
+<p><span style="font-size:large;"><strong>ENTREGAS</strong></span></p>
+<p>Os três arquivos deverão ser enviados <strong>improrrogavelmente até às 23h55 do dia 26/11/2017 (domingo)</strong>. Além disso, cada grupo terá entre 15 e 20 minutos para fazer uma apresentação da sua solução, explicando o fluxograma desenvolvido, os trechos mais importantes de seus códigos-fonte e executando seu programa-jogo ao vivo, demonstrando o funcionamento para a classe. TODOS os membros do grupo deverão participar da apresentação expondo alguma parte do trabalho. <strong>Logo, é importante que cada grupo providencie um notebook (ou laptop) para a sua apresentação. Também recomenda-se que o dispositivo possua o Anaconda/Spider para caso o ambiente virtual esteja inacessível no momento da apresentação.</strong></p>
+<p>As apresentações serão nos dias 27 e 29/11/2017. No começo de novembro, haverá um sorteio em sala para definir a ordem de apresentação e o dia em que cada grupo deverá se apresentar.</p>
+<p><span style="color:#0000ff;"><strong>Datas Importantes:</strong></span></p>
+<ul><li>08/11/2017: Sorteio da ordem e data de apresentação dos grupos</li>
+<li>26/11/2017: Entrega dos três artefatos juntos (usando o ambiente virtual e seguindo as regras aqui dispostas)</li>
+<li>27/11/2017: Apresentação dos grupos em sala</li>
+<li>29/11/2017: Apresentação dos grupos em sala</li>
+</ul><p> </p>
+<p><span style="color:#ff0000;"><strong>ATENÇÃO: Os códigos-fonte recebidos passarão por um software especialista em detecção de plágio. Logo, se a solução de um grupo for considerada muito similar (plágio) da solução de outro(s) grupo(s). Os dois (ou mais) grupos terão nota ZERO em todo o projeto, o que implicará em -2 pontos na média final da disciplina. Não adianta modificar nome de variáveis ou alterar a ordem de trechos de código. O software de detecção de plágio analisa a ideia por trás da solução de vocês e não apenas o texto em si.</strong></span></p>
+<p><span><strong> </strong></span></p>
+<p><span style="font-size:large;"><strong>CRITÉRIOS PARA AVALIAÇÃO DO PROJETO</strong></span></p>
+<p dir="ltr">A nota final do projeto <strong>NP</strong>, será calculada com base nas seguintes notas intermediárias:</p>
+<ul><li dir="ltr">NF: Nota do fluxograma (0 a 10)</li>
+<li dir="ltr">NC: Nota dos códigos-fonte (principal e biblioteca de funções) (0 a 10)
+<ul><li dir="ltr">Execução sem erros: vale 3,0</li>
+<li dir="ltr">Implementação e utilização correta de todas as funções obrigatórias: vale 5,0</li>
+<li dir="ltr">Implementação do programa principal: vale 2,0</li>
+</ul></li>
+<li dir="ltr">NA: Nota da apresentação individual de cada componente do grupo (0 a 10)
+<ul><li dir="ltr">Explicação oral de parte do trabalho e desempenho nas respostas de perguntas: vale 7,0</li>
+<li dir="ltr">Participação na classe como perguntador: vale 3,0</li>
+</ul></li>
+</ul><p>A NP será então calculada usando a seguinte fórmula:</p>
+<p> </p>
+<p style="text-align:center;"><span style="font-size:medium;">NP = NF*0,2 + NC*0,4 + NA*0,4</span></p>
+<p> </p>
+<p>Para os dias de apresentação, todas as equipes deverão estar presentes desde o começo da aula, tanto as que apresentarem no dia como também as equipes do outro dia. Será permitido a ausência de, no máximo, um membro de cada grupo que não esteja apresentando no dia. Caso essa regra não seja cumprida, o grupo será penalizado em -1 ponto na NP. No caso de ausência de membro de grupo que apresente no dia, a NA do membro ausente será ZERO.</p>
+<p>O cálculo da NA será baseado na apresentação individual de cada membro dos grupos e também nas respostas de eventuais perguntas realizadas pela classe ou pelo professor. Ao final de cada apresentação, dois alunos distintos da classe serão sorteados para dirigir perguntas a membros distintos do grupo (definidos também por sorteio) sobre a implementação que acabaram de apresentar.</p>
+<p> </p>
+<p><span style="font-size:large;"><strong>TAREFA BONUS</strong></span></p>
+<p>Espera-se que os grupos implementem uma estratégia boba de jogada do computador, como, por exemplo, a escolha aleatória de uma jogada. Porém, os grupos que implementarem uma estratégia de jogo que maximize as chances do computador ganhar as rodadas, serão bonificados com +0,5 ponto na NP. O grupo deve explicar essa estratégia em sua apresentação.</p>
+<p>Também espera-se que os grupos implementem o programa-jogo de modo que, após encerrada uma partida, o programa seja fechado e, caso o usuário queira jogar novamente, precisará executar o programa novamente. Porém, os grupos que implementarem a funcionalidade de permitir que seja iniciada uma nova jogada SEM PRECISAR FECHAR E EXECUTAR NOVAMENTE O PROGRAMA, serão bonificados com +0,5 ponto na NP.</p>
+<p> </p>
+<p>Mãos à obra, pessoal!</p>
+<p> </p>";
