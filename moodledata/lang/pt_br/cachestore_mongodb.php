@@ -38,7 +38,8 @@ $string['replicaset_help'] = 'O nome do conjunto de réplicas para ser conectar.
 $string['server'] = 'Servidor';
 $string['server_help'] = 'Esta é a string de conexão para o servidor que você deseja usar. Múltiplos servidores podem ser especificados utilizando uma lista de valores separados por vírgulas.';
 $string['testserver'] = 'Servidor de teste';
-$string['testserver_desc'] = 'Esta é a string de conexão para o servidor teste que você deseja usar. Servidores teste são opcionais. Ao especificar um servidor teste, você poderá rodar testes de PHPunit para este armazenamento e rodar testes de performance.';
+$string['testserver_desc'] = 'Esta é a string de conexão para o servidor de testes. Se um servidor de teste for especificado, o desempenho do MongoDB pode ser testado na página de performance de teste do cache no bloco de administração.
+Como exemplo: mongodb: //127.0.0.1: 27017';
 $string['username'] = 'Identificação de usuário';
 $string['username_help'] = 'A identificação de usuário a ser utilizada quando fizer a conexão.';
 $string['usesafe'] = 'Utilização segura';

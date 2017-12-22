@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+lista1=[]
+n=int(input('digite o numero de elementos da lista:'))
+for i in range(0,n,1):
+    lista1.append(int(input('digite o valor:' %(i+1))))
+print(lista1)
+
+lista2=[]
+n=int(input('digite o numero de elementos da lista:'))
+for i in range(0,n,1):
+    lista2.append(int(input('digite o valor:' %(i+1))))
+print(lista2)
+
+lista3=[]
+n=int(input('digite o numero de elementos da lista:'))
+for i in range(0,n,1):
+    lista3.append(int(input('digite o valor:' %(i+1))))
+print(lista3)
+
+def crescente (lista):
+    if lista[i]<lista[i+1]:
+        print('S')
+    else:
+        print('N')
+
+
+
+
+
+
+
+

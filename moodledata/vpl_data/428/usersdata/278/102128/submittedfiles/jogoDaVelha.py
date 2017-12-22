@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+from jogoDaVelha_BIB import *
+
+# COLOQUE SEU PROGRAMA A PARTIR DAQUI
+m=[
+    [' ',' ', ' '],
+    [' ',' ', ' '],
+    [' ',' ', ' ']
+]
+print("Bem vindo ao JogoDaVelha do grupo E")
+nome = str(input("Qual o seu nome (ou apelido)? "))
+s = simbolo_escolhido ()
+if s=="X":
+    X="humano"
+    O="computador"
+sorteio = sorteio ()
+mostraTabuleiro (m)
+sorteio_i ()
+sorteio_j ()
+x = jogadaComputador ()
+if s=="X":
+    for i in range (0,3,1):
+        for j in range (0,3,1):
+            if m[i][j]==x:
+                m[i][j] = 'O'
+        m.append(m[i][j])
+    mostraTabuleiro (m)
+            

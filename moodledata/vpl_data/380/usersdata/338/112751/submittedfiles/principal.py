@@ -1,0 +1,15 @@
+n = input("digite a quantidade de elementos: ')
+lista=[]
+lista_par=[]
+lista_impar=[]
+for i in range(n):
+    x = input('Digite os elementos: ')
+    if x%2 == 0: 
+        lista.append(x)
+        lista_par.append(x)
+    if x%2 == 1:
+        lista.append(x)
+        lista_impar.append(x)
+        
+for i in range(len.lista_par):
+    

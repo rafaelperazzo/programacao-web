@@ -1,0 +1,48 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite o tamanho da lista:Digite [][0]:Digite [1][1]:Digite [1, 2][2]:Digite [1, 2, 3][3]:Digite [1, 2, 3, 4][4]:Digite [1, 2, 3, 4, 5][5]:Digite [][0]:Digite [7][1]:Digite [7, 6][2]:Digite [7, 6, 5][3]:Digite [7, 6, 5, 4][4]:Digite [7, 6, 5, 4, 3][5]:Digite [][0]:Digite [9][1]:Digite [9, 8][2]:Digite [9, 8, 8][3]:Digite [9, 8, 8, 8][4]:Digite [9, 8, 8, 8, 9][5]:S
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 57, in <module>
+>    decrescente(A)
+>  File "funcoes1.py", line 24, in decrescente
+>    soma += 1
+>UnboundLocalError: local variable 'soma' referenced before assignment
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

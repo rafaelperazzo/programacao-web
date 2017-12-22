@@ -1,0 +1,104 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite a quantidade de elementos: adicione elementos em a: adicione elementos em a: adicione elementos em a: adicione elementos em a: adicione elementos em a: adicione elementos em a: adicione elementos em b: adicione elementos em b: adicione elementos em b: adicione elementos em b: adicione elementos em b: adicione elementos em b: adicione elementos em c: adicione elementos em c: adicione elementos em c: adicione elementos em c: adicione elementos em c: adicione elementos em c: S
+>S
+>S
+>S
+>S
+>None
+>N
+>N
+>N
+>N
+>N
+>None
+>N
+>N
+>N
+>N
+>N
+>None
+>N
+>N
+>N
+>N
+>N
+>None
+>S
+>S
+>S
+>S
+>S
+>None
+>N
+>N
+>N
+>N
+>N
+>None
+>N
+>N
+>N
+>S
+>N
+>None
+>S
+>N
+>N
+>N
+>S
+>None
+>N
+>N
+>S
+>N
+>N
+>None
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

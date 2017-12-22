@@ -25,11 +25,23 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['competencyscaledescription'] = 'Escala de competências criada por importação';
 $string['confirm'] = 'Confirmar';
 $string['csvdelimiter'] = 'Delimitador CSV';
+$string['description'] = 'Descrição';
+$string['descriptionformat'] = 'Formato da descrição';
 $string['encoding'] = 'Codificação';
 $string['export'] = 'Exportar';
+$string['exportnavlink'] = 'Exportar estrutura de competência';
 $string['import'] = 'Importar';
+$string['importfile'] = 'Arquivo CSV de descrição da estrutura';
+$string['invalidimportfile'] = 'Formato de arquivo inválido';
+$string['isframework'] = 'É uma estrutura';
+$string['noframeworks'] = 'Ainda não foram criadas estruturas de competência';
+$string['pluginname'] = 'Importar estrutura de competência';
+$string['ruleconfig'] = 'Configuração da regra (opcional)';
+$string['ruleoutcome'] = 'Resultado da regra (opcional)';
+$string['ruletype'] = 'Tipo de regra (opcional)';
 $string['scaleconfiguration'] = 'Configuração da escala';
 $string['scalevalues'] = 'Valores da escala';
 $string['taxonomy'] = 'Taxonomia';

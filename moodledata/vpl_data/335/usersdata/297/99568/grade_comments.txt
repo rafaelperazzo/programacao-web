@@ -1,0 +1,32 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>digite o numero de linhas dejado: digite o numero de colunas dejado: digite o valor do indice da linha1 e da coluna 1 : digite o valor do indice da linha1 e da coluna 2 : digite o valor do indice da linha1 e da coluna 3 : digite o valor do indice da linha1 e da coluna 4 : digite o valor do indice da linha2 e da coluna 1 : digite o valor do indice da linha2 e da coluna 2 : digite o valor do indice da linha2 e da coluna 3 : digite o valor do indice da linha2 e da coluna 4 : digite o valor do indice da linha3 e da coluna 1 : digite o valor do indice da linha3 e da coluna 2 : digite o valor do indice da linha3 e da coluna 3 : digite o valor do indice da linha3 e da coluna 4 : [[0, 0, 0, 1], [0, 0, 1, 1], [0, 0, 0, 0]]
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

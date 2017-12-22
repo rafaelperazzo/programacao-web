@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['encoding'] = 'Codificação de arquivo';
 $string['expiredaction'] = 'Ação de vencimento de Inscrição';
-$string['expiredaction_help'] = 'Escolha a acção para levar a cabo quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição no curso.';
+$string['expiredaction_help'] = 'Selecione a ação a ser realizada quando a inscrição do usuário terminar. Por favor, observe que alguns dados e configurações do usuário são removidos do curso durante a desinscrição no curso.';
 $string['filelockedmail'] = 'O arquivo de texto que você está utilizando para fazer as inscrições ({$a}) não pôde ser cancelado pelo processo cron. Isto normalmente significa que a configuração das permissões do arquivo não é compatível. Por favor corrija as permissões para que o sistema possa cancelar o arquivo e impedir que o mesmo seja processado diversas vezes.';
 $string['filelockedmailsubject'] = 'Erro importante: Arquivo de inscrição';
 $string['flatfile:manage'] = 'Gerenciar inscrição de usuário manualmente';

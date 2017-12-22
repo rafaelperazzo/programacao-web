@@ -1,0 +1,88 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: informe o 1° elemento da lista: informe o 2° elemento da lista: informe o 3° elemento da lista: Traceback (most recent call last):
+>  File "pico.py", line 27, in <module>
+>    print(crescente(l1))    
+>  File "pico.py", line 9, in crescente
+>    elif (lista[i] < lita[i +1]) and (lista[n] > lista[n-1]):
+>NameError: name 'lita' is not defined
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 7
+>1
+>2
+>1
+>2
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: informe o 1° elemento da lista: informe o 2° elemento da lista: informe o 3° elemento da lista: informe o 4° elemento da lista: informe o 5° elemento da lista: informe o 6° elemento da lista: informe o 7° elemento da lista: Traceback (most recent call last):
+>  File "pico.py", line 27, in <module>
+>    print(crescente(l1))    
+>  File "pico.py", line 9, in crescente
+>    elif (lista[i] < lita[i +1]) and (lista[n] > lista[n-1]):
+>NameError: name 'lita' is not defined
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 3: Teste 4 (-3.333)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: informe o 1° elemento da lista: informe o 2° elemento da lista: informe o 3° elemento da lista: informe o 4° elemento da lista: informe o 5° elemento da lista: informe o 6° elemento da lista: informe o 7° elemento da lista: Traceback (most recent call last):
+>  File "pico.py", line 27, in <module>
+>    print(crescente(l1))    
+>  File "pico.py", line 9, in crescente
+>    elif (lista[i] < lita[i +1]) and (lista[n] > lista[n-1]):
+>NameError: name 'lita' is not defined
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

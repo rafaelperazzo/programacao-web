@@ -1,0 +1,41 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7 
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite a quantidade de termos da lista: Digite um termo para l: Digite um termo para l: Digite um termo para l: Digite um termo para l: Digite um termo para l: Digite um termo para l: Digite um termo para l: Digite um valor para m: Digite um valor para m: Digite um valor para m: Digite um valor para m: Digite um valor para m: Digite um valor para m: Digite um valor para m: SIM
+>NÃO
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

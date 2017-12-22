@@ -1,0 +1,50 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite a quantidade de valores das listas:digite os valores lista a:digite os valores lista a:digite os valores lista a:digite os valores lista a:digite os valores lista a:digite os valores lista a:digite os valores lista b:digite os valores lista b:digite os valores lista b:digite os valores lista b:digite os valores lista b:digite os valores lista b:digite os valores lista c:digite os valores lista c:digite os valores lista c:digite os valores lista c:digite os valores lista c:digite os valores lista c:S
+>N
+>N
+>N
+>S
+>N
+>N
+>N
+>N
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

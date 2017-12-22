@@ -1,0 +1,50 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 2: Teste 2
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 2: Teste 2 (-2.500)
+Incorrect program result
+ --- Input ---
+> 23
+>258347
+
+ --- Program output ---
+>S
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 4: Teste 4 (-10.000)
+Incorrect program result
+ --- Input ---
+> 20
+>34567
+
+ --- Program output ---
+>Traceback (most recent call last):
+>  File "dec2bin.py", line 41, in <module>
+>    h=int(b)
+>ValueError: invalid literal for int() with base 10: ''
+
+ --- Expected output (text)---
+> 'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

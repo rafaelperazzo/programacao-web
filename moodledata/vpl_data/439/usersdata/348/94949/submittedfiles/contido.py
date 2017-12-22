@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+#funçao 
+def verificar((b)(a)):
+    b[i] in a[i]
+    return 
+
+
+
+
+
+#codigo geral 
+n = int(input( 'informe na quantidade de elementos de n: '))
+m = int(input( 'informe a quantidade de elementos de m: '))
+
+l1 = []
+l2 = []
+
+for i in range (0,n,1):
+    l1.append(int(input('informe o %d° elemento da lista1: ' %(i+1))))
+for i in range (0,m,1):
+    l2.append(int(input('informe o %d° elemento da lista2: ' %(i+1))))
+
+
+    
+    
+

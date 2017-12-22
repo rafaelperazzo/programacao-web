@@ -1,0 +1,117 @@
+Testing 1/4 : Teste 1
+Testing 2/4 : Teste 2
+Testing 3/4 : Teste 3
+Testing 4/4 : Teste 4
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+Test 4: Teste 4
+--|>
+
+<|--
+-Test 1: Teste 1 (-0.750)
+Incorrect program result
+ --- Input ---
+> 25
+>1.72
+>26
+>1.91
+>24
+>1.48
+>33
+>1.83
+>31
+>1.69
+>-1
+
+ --- Program output ---
+>Digite sua idade: Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Traceback (most recent call last):
+>  File "AvF_Parte2.py", line 17, in <module>
+>    y = int(input("Digite sua altura: "))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>1
+
+-Test 2: Teste 2 (-0.750)
+Incorrect program result
+ --- Input ---
+> 22
+>1.46
+>28
+>2.26
+>27
+>1.80
+>26
+>1.69
+>-1
+
+ --- Program output ---
+>Digite sua idade: Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Traceback (most recent call last):
+>  File "AvF_Parte2.py", line 17, in <module>
+>    y = int(input("Digite sua altura: "))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2
+
+-Test 3: Teste 3 (-0.750)
+Incorrect program result
+ --- Input ---
+> 22
+>-1
+>1.46
+>28
+>2.26
+>27
+>1.80
+>26
+>1.69
+>-1
+
+ --- Program output ---
+>Digite sua idade: Digite sua altura: Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Traceback (most recent call last):
+>  File "AvF_Parte2.py", line 17, in <module>
+>    y = int(input("Digite sua altura: "))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2
+
+-Test 4: Teste 4 (-0.750)
+Incorrect program result
+ --- Input ---
+> 22
+>1.46
+>17
+>18
+>2.26
+>27
+>1.80
+>26
+>1.69
+>-1
+
+ --- Program output ---
+>Digite sua idade: Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Digite sua altura: Digite sua idade:Traceback (most recent call last):
+>  File "AvF_Parte2.py", line 16, in <module>
+>    x = int(input("Digite sua idade:"))
+>EOFError: EOF when reading a line
+
+ --- Expected output (numbers)---
+>2
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  4 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Número de linhas: Número de colunas: Digite a Matriz como uma única linha: Traceback (most recent call last):
+>  File "matriz1.py", line 9, in <module>
+>    A = np.fromstring(a, sep=' ').reshape(n, m)
+>ValueError: total size of new array must be unchanged
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

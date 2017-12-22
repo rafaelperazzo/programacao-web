@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+c1=0
+c2=0
+c3=0
+dim=int(input("Dimensão da matriz: "))
+while dim<2:
+    dim=int(input("Dimensão n da matriz: "))
+matriz=np.empty([dim,dim])
+matriztrans=np.empty([dim,dim])
+matrizdiag=np.empty([2,dim])
+matrizultprim=np.empty([dim,dim])
+for i in range(0,dim,1):
+    for j in range(0,dim,1):
+        matriz[i][j]=float(input("Digite"))
+    
+for i in range(0,dim,1):
+    for i in range(0,dim,1):
+        matriztrans[i][j]=matriz[j][i]
+
+for i in range(0,dim,1):
+    for j in range(0,dim,1):
+        matrizultprim[i][j]=matriz[i][dim-1-j]
+    
+for i in range(0,dim,1):
+    matrizdiag[1][i]=matriz[i][i]
+
+for i in range(0,dim-1,1):
+    if sum(matriz[i])==sum(matriz[i+1]):
+        c1+=1
+    
+for i in range(0,dim-1,1):
+    if sum(matriztrans[i])==sum(matriztrans[i+1]):
+        c2+=1
+    
+if sum(matrizdiag[0])==sum(matrizdiag[1]):
+    c3+=1
+    
+    
+if c1==dim-1 and c2==dim-1 and c3==1:
+    print("N")
+else:
+    print("S")

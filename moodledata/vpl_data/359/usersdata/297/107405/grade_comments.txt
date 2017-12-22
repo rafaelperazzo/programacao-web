@@ -1,0 +1,32 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>digite o numero de elementos que irao compor as listas; digite o 1 elemento que compora a lista1: digite o 2 elemento que compora a lista1: digite o 3 elemento que compora a lista1: digite o 4 elemento que compora a lista1: digite o 5 elemento que compora a lista1: digite o 6 elemento que compora a lista1: digite o 7 elemento que compora a lista1: digite o 1 elemento que compora a lista2: digite o 2 elemento que compora a lista2: digite o 3 elemento que compora a lista2: digite o 4 elemento que compora a lista2: digite o 5 elemento que compora a lista2: digite o 6 elemento que compora a lista2: digite o 7 elemento que compora a lista2: N
+>N
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

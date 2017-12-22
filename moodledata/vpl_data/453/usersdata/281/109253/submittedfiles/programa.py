@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+m=[]
+n=int(input('Digite a dimensão do tabuleiro: '))
+for i in range (0,n,1):
+    m.append(int(input('Digite os números %d de entrada: '% (i+1))))
+print(m)    

@@ -1,0 +1,87 @@
+# -*- coding: utf-8 -*-
+m=(int(input()))
+n=(int(input()))
+desvio=0
+matriz=[]
+for i in range(0,m,1) :
+    lista=[]
+    for j in range (0,n,1) :
+      lista.append(float(input()))
+    matriz.append(lista) 
+media=[]
+total=[]
+desvio=[]
+soma=0
+print(matriz)
+for i in range(0,m,1):
+    for j in range(0,n,1) :
+      soma+=(matriz[i][j])
+    media.apppend(soma/n)
+    i=i+1
+    if i==m:
+        break
+    
+    
+    
+    
+while(True):
+    i=0
+    
+    for j in range(0,n,1) :
+        
+     desvio=desvio+((matriz[i][j]-media[i])**2/(len(matriz[i])-1.0))
+     i=i+1
+     if i==m:
+        break
+    
+    total.append(desvio)
+for i in range (0,m,1):
+    print(media[i])
+    print(desvio**0.5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

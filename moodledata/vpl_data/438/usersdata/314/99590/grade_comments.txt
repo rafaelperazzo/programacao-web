@@ -1,0 +1,45 @@
+-Failed tests
+Test 1: Teste 1
+Test 3: Teste 4
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite n: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Traceback (most recent call last):
+>  File "pico.py", line 37, in <module>
+>    pico(lista)
+>  File "pico.py", line 20, in pico
+>    if crescente and decrescente:
+>UnboundLocalError: local variable 'decrescente' referenced before assignment
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 3: Teste 4 (-3.333)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite n: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: Digite a quantidade de elementos da lista: 'N'
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+

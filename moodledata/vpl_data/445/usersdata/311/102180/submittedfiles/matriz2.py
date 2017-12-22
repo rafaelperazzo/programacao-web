@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+import numpy
+#função que verifica a magia da matriz
+def magimatriz(matriz):
+    for i in range (0,n,1):
+        if sum(matriz[i])==(matriz[i+1]):
+            for z in range (0,n,1):
+                if sum(matriz[0][i])==sum(matriz[1][i]):
+                    return 'S'
+    
+        
+n=int(input('Digite a dimensão da matriz: '))
+a=numpy.empty([n,n])
+for w in range (0,n,1):
+    for j in range (0,n,1):
+        a[w] [j]=float(input('Digite o A%d%d: ' % ((w+1),(j+1))))
+print (magimatriz(a))
+        
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+

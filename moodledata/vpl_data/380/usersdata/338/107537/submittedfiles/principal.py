@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+nome_do_jogador = input("Digite o seu nome: ")
+
+simb = input("Digite um simbolo para jogar: ")
+print(simb)
+while simb!="X" or simb!="O" : 
+    input("Digite um simbolo válido: ")
+print("seu simbolo foi válido")
+
+simb = input("Digite um simbolo [X ou O]: ")
+print(type(simb))
+
+if simb == X :
+    print("igual a X")
+elif simb == O :
+    print("igual a O")
+"""
+simbolo = input('Digite o simbolo que voce quer jogar; ')
+while(True):
+    if simbolo=="x" or simbolo=="o" :
+        break
+    

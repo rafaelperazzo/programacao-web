@@ -1,0 +1,57 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 3
+>8
+>0
+>7
+>4
+>5
+>6
+>3
+>10
+>2
+
+ --- Program output ---
+>Digite a dimensão da matriz quadrada: Digite o valor da linha1 e da coluna1: Digite o valor da linha2 e da coluna1: Digite o valor da linha3 e da coluna1: Digite o valor da linha1 e da coluna2: Digite o valor da linha2 e da coluna2: Digite o valor da linha3 e da coluna2: Digite o valor da linha1 e da coluna3: Digite o valor da linha2 e da coluna3: Digite o valor da linha3 e da coluna3: n
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 2: Teste 2 (-3.333)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>1
+>1
+>1
+
+ --- Program output ---
+>Digite a dimensão da matriz quadrada: Digite o valor da linha1 e da coluna1: Digite o valor da linha2 e da coluna1: Digite o valor da linha1 e da coluna2: Digite o valor da linha2 e da coluna2: n
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 3.33

@@ -33,5 +33,5 @@ $string['importedcategory'] = 'Importado categoria {$a}';
 $string['importnotext'] = 'Faltando texto da pergunta no arquivo XML';
 $string['notenoughtsubans'] = 'Não é possível importar &quot;{$a} \'pergunta de correspondência, porque uma pergunta de correspondência deve comportar pelo menos duas perguntas e três respostas.';
 $string['pluginname'] = 'Blackboard';
-$string['pluginname_help'] = 'Formato Blackboard V6+ habilita questões salvas no formato de exportação do Blackboard a serme importadas via arquivo zip. Existe um suporte limitado às versões 6 e 7 do Blackboard.';
+$string['pluginname_help'] = 'O formato Blackboard permite que as questões salvas em todos os formatos de exportação do Blackboard sejam importadas através de um arquivo dat ou zip. Para arquivos zip, a importação de imagens é suportada.';
 $string['unhandledpresblock'] = 'Bloco apresentação não tratado';

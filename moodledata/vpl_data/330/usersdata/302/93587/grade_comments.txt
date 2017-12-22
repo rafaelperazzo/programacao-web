@@ -1,0 +1,61 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 10
+>10
+>11
+>20
+>22
+>30
+>33
+>40
+>44
+>50
+>55
+
+ --- Program output ---
+>Digite a quantidade de valores da matriz: Digite a1:Digite a2:Digite a3:Digite a4:Digite a5:Digite a6:Digite a7:Digite a8:Digite a9:Digite a10:99
+>216
+>7
+>3
+>[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]
+
+ --- Expected output (text)---
+> '99'
+>'216'
+>'3'
+>'7'
+>'[10, 11, 20, 22, 30, 33, 40, 44, 50, 55]'
+
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite a quantidade de valores da matriz: Digite a1:Digite a2:Digite a3:Digite a4:Digite a5:9
+>6
+>2
+>3
+>[1, 2, 3, 4, 5]
+
+ --- Expected output (text)---
+> '9'
+>'6'
+>'3'
+>'2'
+>'[1, 2, 3, 4, 5]'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

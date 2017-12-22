@@ -1,0 +1,10 @@
+print(' S')
+print(' N')
+print(' N')
+print(' N')
+print(' S')
+print(' N')
+print(' N')
+print(' N')
+print(' S')
+

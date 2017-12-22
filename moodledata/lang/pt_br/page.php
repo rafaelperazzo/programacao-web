@@ -36,7 +36,16 @@ $string['legacyfiles'] = 'Migração de arquivo de curso antigo';
 $string['legacyfilesactive'] = 'Ativo';
 $string['legacyfilesdone'] = 'Terminado';
 $string['modulename'] = 'Página';
-$string['modulename_help'] = 'Uma página habilita que uma página web seja exibida e editada em um curso.';
+$string['modulename_help'] = 'O módulo de página permite que um professor crie um recurso de página da web utilizando o editor de texto. Uma página pode exibir texto, imagens, som, vídeo, links da web e código incorporado, como mapas do Google.
+
+As vantagens de utilizar o módulo de página em vez do módulo de arquivo incluem o fato da página ser mais acessível (por exemplo, para usuários de dispositivos móveis) e mais fácil de atualizar.
+
+Para grandes conteúdos, é recomenda-se a utilizar o módulo livro em vez de uma página.
+
+Uma página pode ser utilizada para:
+
+* Apresentar os termos e condições de um curso ou um resumo do programa do curso
+* Para incorporar vários vídeos ou arquivos de som juntamente com algum texto explicativo';
 $string['modulename_link'] = 'mod/page/view';
 $string['modulenameplural'] = 'Páginas';
 $string['optionsheader'] = 'Mostrar opções';

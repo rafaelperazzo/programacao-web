@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+def matriz01(matriz):
+    m = len(matriz)
+    n = len(matriz[0])
+    la = m
+    lb = 0
+    ca = n
+    cb = 0
+    for i in range(m):
+        for j in range(n):
+            if matriz[i][j] == 1:
+                if i < la:
+                    li = i
+                if i + 1 > lb:
+                    lb = i + 1
+                if j < ci:
+                    ci = j
+                if j + 1 > cf:
+                    cf = j + 1
+    matriz2 = []
+    for i in range(la,lb):
+        l = []
+        for j in range(ca,cb):
+            l.append(matriz[i][j])
+        matriz2.append(l)
+    return print(matriz2)
+    
+m = []
+L = int(input('Digite o número de linhas: '))
+C = int(input('Digite o número de colunas: '))
+for i in range(0,L,1):
+    l = []
+    for j in range(0,C,1):
+        l.append(int(input('Digite o elemento %d de %d: ' % ((j+1),(i+1)))))
+    m.append(l)
+    
+matriz(m)    
+    
+
+            

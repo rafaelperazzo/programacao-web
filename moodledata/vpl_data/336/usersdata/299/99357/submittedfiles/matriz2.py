@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+'''def analisemagica(x,n):
+    c=0
+    #analise de linhas
+    for i in range(1,n-1,1):
+        if sum(x[i-1])==sum(x[i]):
+            c=True
+        else:
+            c=False
+            break
+    #analise de colunas
+    cont=[]
+    for j in range(0,n-1,1):
+        for i  in range(1,len(x)-1,1):
+            cont.append(x[i-1][j])
+            
+    for i in range(1,n-1,1):
+        if sum(cont[i-1])==sum(cont[i]):
+            c=True
+        else:
+            c=False
+            break
+    if c==True:
+        return 'S'
+    else:
+        return 'N'''
+matriz=[]
+n=int(input(''))
+for i in range(0,n,1):
+    linha=[]
+    for j in range(0,n,1):
+        linha.append(int(input('')))
+    matriz.append(linha)    
+        
+        
+        
+print(matriz)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

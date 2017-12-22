@@ -1,0 +1,76 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>3
+>6
+>6
+>8
+>6
+>7
+>4
+>3
+>8
+
+ --- Program output ---
+>digite o numero de linhs/colunas que tera o quadrado: digite o elemento da linha1 e coluna1: digite o elemento da linha1 e coluna2: digite o elemento da linha1 e coluna3: digite o elemento da linha2 e coluna1: digite o elemento da linha2 e coluna2: digite o elemento da linha2 e coluna3: digite o elemento da linha3 e coluna1: digite o elemento da linha3 e coluna2: digite o elemento da linha3 e coluna3: Traceback (most recent call last):
+>  File "programa.py", line 26, in <module>
+>    if list_sum_col[0]==list_sum_col[1]:
+>IndexError: list index out of range
+
+ --- Expected output (text)---
+> '1'
+>'7'
+
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 4
+>16
+>3
+>2
+>13
+>5
+>10
+>11
+>8
+>8
+>6
+>7
+>12
+>4
+>15
+>14
+>1
+
+ --- Program output ---
+>digite o numero de linhs/colunas que tera o quadrado: digite o elemento da linha1 e coluna1: digite o elemento da linha1 e coluna2: digite o elemento da linha1 e coluna3: digite o elemento da linha1 e coluna4: digite o elemento da linha2 e coluna1: digite o elemento da linha2 e coluna2: digite o elemento da linha2 e coluna3: digite o elemento da linha2 e coluna4: digite o elemento da linha3 e coluna1: digite o elemento da linha3 e coluna2: digite o elemento da linha3 e coluna3: digite o elemento da linha3 e coluna4: digite o elemento da linha4 e coluna1: digite o elemento da linha4 e coluna2: digite o elemento da linha4 e coluna3: digite o elemento da linha4 e coluna4: Traceback (most recent call last):
+>  File "programa.py", line 26, in <module>
+>    if list_sum_col[0]==list_sum_col[1]:
+>IndexError: list index out of range
+
+ --- Expected output (text)---
+> '9'
+>'8'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

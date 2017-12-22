@@ -1,0 +1,47 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite a quantidade de n:Digite o elemento da primeira lista: Digite o elemento da primeira lista: Digite o elemento da primeira lista: Digite o elemento da primeira lista: Digite o elemento da primeira lista: Digite o elemento da primeira lista: Digite o elemento da segunda lista: Digite o elemento da segunda lista: Digite o elemento da segunda lista: Digite o elemento da segunda lista: Digite o elemento da segunda lista: Digite o elemento da segunda lista: Digite o elemento da terceira lista: Digite o elemento da terceira lista: Digite o elemento da terceira lista: Digite o elemento da terceira lista: Digite o elemento da terceira lista: Digite o elemento da terceira lista: Traceback (most recent call last):
+>  File "funcoes1.py", line 79, in <module>
+>    if consec_iguais (a):
+>  File "funcoes1.py", line 52, in consec_iguais
+>    if (a[i+1] == a[i]):
+>IndexError: list index out of range
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

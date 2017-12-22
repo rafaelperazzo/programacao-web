@@ -1,0 +1,44 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>digite o numero de linhas  digite o numero de colunas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  digite o valor das listas  Traceback (most recent call last):
+>  File "matriz1.py", line 37, in <module>
+>    n.append(a[i][j])
+>IndexError: list index out of range
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -32,7 +32,7 @@ $string['langimportdisabled'] = 'A funcionalidade de importação de idiomas foi
 Não se esqueça de limpar caches depois de fazê-lo.';
 $string['langpackinstalled'] = 'O pacote de idioma "{$a}" foi instalado com sucesso.';
 $string['langpackinstalledevent'] = 'Pacote de idioma instalado';
-$string['langpacknotremoved'] = 'Ocorreu um erro, o pacote de idioma \'{$a}\' não está completamente desinstalado, por favor verifique as permissões do arquivo do pacote de idioma';
+$string['langpacknotremoved'] = 'Ocorreu um erro, o pacote de idioma \'{$a}\' não foi completamente desinstalado, por favor verifique as permissões do arquivo do pacote de idioma';
 $string['langpackremoved'] = 'Pacote de idioma \'{$a}\' foi desinstalado';
 $string['langpackremovedevent'] = 'Pacote de idioma desinstalado';
 $string['langpackupdated'] = 'Pacote de idioma \'{$a}\' foi atualizado com sucesso';

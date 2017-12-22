@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+
+n=int(input('Digite a quantidade de números: '))
+a=[]
+somapar=0
+somaimpar=0
+for i in range(0,n,1):
+    a.append(int(input('Digite um valor: ')))
+    if(a[i]%2==0):
+        somapar += a[i]
+        
+print('soma dos pares: %d' %somapar)
+        

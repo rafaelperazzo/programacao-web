@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+
+
+def crescente (lista):
+    #escreva o código da função crescente aqui
+    for i in range (0,n,1):
+    
+    
+
+
+#escreva as demais funções
+
+
+
+
+
+#escreva o programa principal
+n=(int(input('Digite a quantidade de numeros na lista: ')
+a=[]
+b=[]
+c=[]
+for i in range (0,n,1):
+    a.append(int(input(

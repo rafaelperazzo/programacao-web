@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+'''
+/**********************************************************/
+/* Equipe: Fulano de Tal                                  */
+/* N ́umero de matriculas: 12345678, ...                    */
+/* Exercicio-Programa 3 -- TEMA */
+/* ECI0007 ou EM0006 (EC/EM) -- 2017 -- Professor:  */
+/* Interpretador: Python vers~ao 3                            */
+/**********************************************************
+'''
+#COMECE SEU CODIGO NA LINHA ABAIXO.
+a=1
+b=1/((2)**(1/2))
+epsilon=float(input('Digite o valor da precisão: '))
+
+n=1
+soma=0
+
+while((a-b)>epsilon):
+    aritmetica=(a+b)/2
+    geometrica=(a*b)**(1/2)
+    c=(aritmetica**2)-(geometrica**2)
+    soma=soma+(c*(2**(n+1)))
+    n= n+1
+    a=aritmetica
+    b=geometrica
+Passo4=soma
+pi=(4*(a**2))/(1-Passo4)
+
+print('O valor de pi é %f' %pi)
+    
+    

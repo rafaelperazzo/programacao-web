@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+lista=[]
+n=int(input(''))
+for i in range(0,n,1):
+    lista.append(int(input('')))
+listamodulos=[]
+for i in range(1,n,1):
+    listamodulos.append(lista[i-1]-lista[i])
+    
+for i in range(0,len(listamodulos),1):
+    if listamodulos[i]<0:
+        listamodulos[i]*=-1
+    else:
+        continue
+x=sorted(listamodulos)
+print(x[len(x)-1])
+    
+    
+    
+    
+

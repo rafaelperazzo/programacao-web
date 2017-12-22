@@ -1,0 +1,128 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-6.667)
+Incorrect program result
+ --- Input ---
+> 6
+>3
+>3
+>4
+>1
+>3
+>8
+>4
+>5
+>9
+>2
+>8
+>9
+>2
+>7
+>5
+>5
+>4
+>3
+>2
+>5
+>8
+>2
+>9
+>1
+>9
+>8
+>7
+>1
+>3
+>2
+>1
+>2
+>5
+>1
+>2
+>9
+>3
+>8
+
+ --- Program output ---
+>Dimensão do tabuleiro: 
+>Número da linha em que a torre se encontra: 
+>Número da coluna em que a torre se encontra: 
+>Digite o valor da posição 11: Digite o valor da posição 12: Digite o valor da posição 13: Digite o valor da posição 14: Digite o valor da posição 15: Digite o valor da posição 16: Digite o valor da posição 21: Digite o valor da posição 22: Digite o valor da posição 23: Digite o valor da posição 24: Digite o valor da posição 25: Digite o valor da posição 26: Digite o valor da posição 31: Digite o valor da posição 32: Digite o valor da posição 33: Digite o valor da posição 34: Digite o valor da posição 35: Digite o valor da posição 36: Digite o valor da posição 41: Digite o valor da posição 42: Digite o valor da posição 43: Digite o valor da posição 44: Digite o valor da posição 45: Digite o valor da posição 46: Digite o valor da posição 51: Digite o valor da posição 52: Digite o valor da posição 53: Digite o valor da posição 54: Digite o valor da posição 55: Digite o valor da posição 56: Digite o valor da posição 61: Digite o valor da posição 62: Digite o valor da posição 63: Digite o valor da posição 64: Digite o valor da posição 65: Digite o valor da posição 66: 36.0
+
+ --- Expected output (regular expression)---
+>67.*
+
+-Test 2: Teste 2 (-6.667)
+Incorrect program result
+ --- Input ---
+> 3
+>0
+>0
+>4
+>2
+>9
+>1
+>5
+>5
+>2
+>2
+>7
+
+ --- Program output ---
+>Dimensão do tabuleiro: 
+>Número da linha em que a torre se encontra: 
+>Número da coluna em que a torre se encontra: 
+>Digite o valor da posição 11: Digite o valor da posição 12: Digite o valor da posição 13: Digite o valor da posição 21: Digite o valor da posição 22: Digite o valor da posição 23: Digite o valor da posição 31: Digite o valor da posição 32: Digite o valor da posição 33: 15.0
+
+ --- Expected output (regular expression)---
+>14.*
+
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 3
+>2
+>0
+>5
+>1
+>1
+>5
+>2
+>1
+>8
+>5
+>5
+
+ --- Program output ---
+>Dimensão do tabuleiro: 
+>Número da linha em que a torre se encontra: 
+>Número da coluna em que a torre se encontra: 
+>Digite o valor da posição 11: Digite o valor da posição 12: Digite o valor da posição 13: Digite o valor da posição 21: Digite o valor da posição 22: Digite o valor da posição 23: Digite o valor da posição 31: Digite o valor da posição 32: Digite o valor da posição 33: Traceback (most recent call last):
+>  File "av2_p3_civil.py", line 21, in <module>
+>    somaL=somaL+a[x+1,i]
+>IndexError: index 3 is out of bounds for axis 0 with size 3
+
+ --- Expected output (regular expression)---
+>20.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

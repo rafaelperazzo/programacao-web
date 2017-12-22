@@ -1,0 +1,55 @@
+s:1765:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br />Test 3: Teste 3
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 4
+80
+100
+80
+50
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>insira o número de consultas: digite o comprimento do taco: digite o comprimento do taco: digite o comprimento do taco: digite o comprimento do taco: Traceback (most recent call last):
+  File "programa.py", line 8, in &lt;module&gt;
+    if pedidos[i] in estoque:
+NameError: name 'estoque' is not defined
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>6
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 1
+1000
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>insira o número de consultas: digite o comprimento do taco: Traceback (most recent call last):
+  File "programa.py", line 8, in &lt;module&gt;
+    if pedidos[i] in estoque:
+NameError: name 'estoque' is not defined
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>2
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+60
+30
+25
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>insira o número de consultas: digite o comprimento do taco: digite o comprimento do taco: digite o comprimento do taco: Traceback (most recent call last):
+  File "programa.py", line 8, in &lt;module&gt;
+    if pedidos[i] in estoque:
+NameError: name 'estoque' is not defined
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>6
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  3 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite o número de linhas: Digite o número de colunas: Digite o elemento 1 de 1: Digite o elemento 2 de 1: Digite o elemento 3 de 1: Digite o elemento 4 de 1: Digite o elemento 1 de 2: Digite o elemento 2 de 2: Digite o elemento 3 de 2: Digite o elemento 4 de 2: Digite o elemento 1 de 3: Digite o elemento 2 de 3: Digite o elemento 3 de 3: Digite o elemento 4 de 3: Traceback (most recent call last):
+>  File "matriz1.py", line 37, in <module>
+>    matriz(m)
+>NameError: name 'matriz' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

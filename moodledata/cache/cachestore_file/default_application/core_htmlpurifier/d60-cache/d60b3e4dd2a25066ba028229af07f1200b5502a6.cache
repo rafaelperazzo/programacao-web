@@ -1,0 +1,12 @@
+s:1538:"<p>Pra quem nunca usou o <a title="Repl.it" href="https://repl.it/repls/TotalWeeklyEyra" target="_blank" rel="noreferrer">repl.it</a> e irá usar para rodar os códigos enquanto não é solucionado o problema no ambiente virtual, para evitar instalar o Anaconda/spyder, saibam que nele há uma ferramenta de automação de inputs.</p>
+<p>Quando é feita a avaliação do código no ambiente virtual, por trás do servidor tem uma certa automação de inputs e extração de prints, onde com base nos inputs que são predefinidos, é avaliado as saídas da aplicação. O Repl.it tem um serviço similar que eu acredito que vá ajudar muita gente para testar seus códigos mais rapidamente.</p>
+<p>No prompt do Repl tem, logo em cima, um botão com título "Input". Clicando nele, vai aparecer uma janela, onde você pode colocar todos os imputs que você deseja. MUITO CUIDADO COM A ORDEM, pois, se colocar numa ordem errada, pode trazer resultados errados. </p>
+<p>Com esse recurso, evita do usuário ter que ficar colocando vários inputs sempre que quiser executar o código. Você poderá rodar várias vezes sem que os inputs automaticos se apaguem. Acredito que se fechar a aba onde está o repl.it, os inputs serão desativados, tendo que colocar novamente.</p>
+<p>Espero ter ajudado.</p>
+<p> </p>
+<p>Como fazer: (Segue imagem)</p>
+<ol><li>Clique em Input, no prompt;</li>
+<li>Insira os inputs, na mesma ordem que o seu código solicita;</li>
+<li>Clique em Set Input;</li>
+<li>Pode rodar o código.</li>
+</ol><p> </p>";

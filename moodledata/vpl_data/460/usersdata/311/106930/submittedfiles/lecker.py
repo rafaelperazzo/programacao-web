@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+conjunto=[l1,l2,l3,l4]
+
+nleck = 0
+ if conjunto [0] > conjunto[1]:
+    nleck+=1
+ for i in range (1,3):
+   if (conjunto[i-1] < conjunto[i]) and (conjunto[i] > conjunto[i+1]):
+        nleck+=1
+if conjunto[3]>conjunto[2]:
+        nleck+=1
+if nleck==1:
+   print ('S')
+  else:
+    print ('N')
+

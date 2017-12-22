@@ -34,4 +34,4 @@ $string['orphaned'] = 'Órfão';
 $string['orphanedwarning'] = 'Estas atividades estão indisponíveis para os usuários!';
 $string['pluginname'] = 'Formato de atividade única';
 $string['sectionname'] = '';
-$string['warningchangeformat'] = 'Ao alterar o formato de curso corrente para o "Formato de atividade única" certifique-se de remover todas as demais atividades do curso, incluindo o "Fórum de notícias". Note que a estrutura de tópicos pode ser modificada.';
+$string['warningchangeformat'] = 'Ao mudar o formato deste curso para o "Formato de atividade única" certifique-se de ter excluído todas as demais atividades do curso, incluindo o "Fórum de notícias". Note que a estrutura de seções pode ser modificada.';

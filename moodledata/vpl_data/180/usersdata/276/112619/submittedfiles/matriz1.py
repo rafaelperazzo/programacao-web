@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+
+import numpy as np
+
+def primeiralinha (matriz):
+    for i in range (0,matriz.shape[0], 1):
+        for j in range (0,matriz.shape[1],1):
+            if matriz[i,j]==1:
+                return i
+    
+def ultimalinha (matriz):
+    for i in range (0,matriz.shape[0],1):
+        for j in range (0,matriz.shape[1],1):
+            if matriz[i,j]==1:
+                l = i
+        return l
+
+def primeiracoluna (matriz):
+    for j in range (0,matriz.shape[1], 1):
+        for i in range (0,matriz.shape[0],1):
+            if matriz[i,j]==1:
+                return j
+    
+def ultimacoluna (matriz):
+    for j in range (0,matriz.shape[1],1):
+        for j in range (0,matriz.shape[0],1):
+            if matriz[i,j]==1:
+                c = j
+        return c
+
+linhas = int (input('Digite a quantidade de linhas: '))
+colunas = int (input('Digite a quantidade de colunas: '))
+
+a = np.zeros ((linhas, colunas))
+
+for i in range (0,linhas,1):
+    for j in range (0,colunas,1):
+        a[i,j] = int(input('Digite o elemento da matriz:'))
+
+menorlinha = primeiralinha (a)
+maiorlinha = ultimalinha (a)
+menorcoluna = primeiracoluna (a)
+maiorcoluna = ultimacoluna (a)
+
+
+b = a[menorlinha:maiorlinha+1,menorcoluna:maiorcoluna+1]
+print (b)

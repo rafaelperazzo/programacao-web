@@ -1,0 +1,67 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>10
+>2
+>3
+>2
+>7
+>2
+>4
+>5
+>11
+
+ --- Program output ---
+>  File "diagonaldominante.py", line 20
+>    if soma-a[i,i],a[i,i]:
+>                  ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> 'SIM'
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>2
+>3
+>2
+>3
+>2
+>4
+>5
+>8
+
+ --- Program output ---
+>  File "diagonaldominante.py", line 20
+>    if soma-a[i,i],a[i,i]:
+>                  ^
+>SyntaxError: invalid syntax
+
+ --- Expected output (text)---
+> 'NAO'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -1,0 +1,25 @@
+# inicializando matriz de notas da turma
+turma = []
+
+# lendo três notas de cinco alunos
+for i in range(0,5,1):
+    for j in range(0,3,1):
+        notas = []
+        notas.append(float(input('Digite a nota%d do aluno%d: ' % ((j+1),(i+1)))))
+        turma.append(notas)
+
+# mostrando toda a matriz de notas
+print(turma)
+
+
+"""
+from minha_bib import *
+# -*- coding: utf-8 -*-
+a = [8.0, 5.0, 10.0, 5.0]
+print(a)
+print(len(a))
+# 2.0 na posicao 2 (indice 1)
+inserir(a,10.0,0)
+print(a)
+print(len(a))
+"""

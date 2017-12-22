@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+qa= int(input('Quantidade de elementos de a: '))
+qb= int(input('Quantidade de elementos de b: '))
+a= []
+b= []
+
+for i in range(qa):
+    a.append(int(input('Digite o valor%d de a: ' % i)))
+    i+=1
+    for i in range(qb):
+        b.append(int(input('Digite o valor%d de b: ' % i)))
+

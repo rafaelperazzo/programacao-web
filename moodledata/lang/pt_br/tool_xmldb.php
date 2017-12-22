@@ -64,7 +64,7 @@ $string['confirmdeleteindex'] = 'Você está certo de que quer excluir o índice
 $string['confirmdeletekey'] = 'Você está certo de que quer excluir a chave:';
 $string['confirmdeletetable'] = 'Você está certo de que quer excluir a tabela:';
 $string['confirmdeletexmlfile'] = 'Você está certo de que quer excluir o arquivo:';
-$string['confirmrevertchanges'] = 'Você está absolutamente certo de que quer desfazer as mudanças feitas em:';
+$string['confirmrevertchanges'] = 'Você está absolutamente certo de que quer desfazer as mudanças realizadas em:';
 $string['create'] = 'Criar';
 $string['createtable'] = 'Criar tabela:';
 $string['defaultincorrect'] = 'Padrão incorreto';
@@ -196,7 +196,10 @@ $string['wronglengthforenum'] = 'Tamanho incorreto para campo enum';
 $string['wrongnumberofreffields'] = 'Número errado de campos de referência';
 $string['wrongoraclesemantics'] = 'Semântica BYTE erradas da Oracle encontrado';
 $string['wrongreservedwords'] = 'Palavras reservadas utilizadas atualmente<br />(note que os nomes das tabelas não são importantes se utilizar $CFG->prefix)';
-$string['yesmissingindexesfound'] = 'Foram encontrados alguns índices faltando no seu BD. Aqui estão os seus detalhes e as instruções SQL necessárias a serem executadas com sua interface SQL favorita para criar todos eles (não esqueça de fazer uma cópia de segurança dos seus dados antes de fazer isso).<br /><br />Após fazer isso, é altamente recomendável executar essa utilidade novamente para verificar se outros índices ausentes são encontrados.';
-$string['yeswrongdefaultsfound'] = 'Foram encontradas inconsistências padrão no seu BD. Estes são os detalhes e as instruções SQL necessárias a serem executadas com sua interface SQL favorita para criar todos eles (não esqueça de fazer uma cópia de segurança dos seus dados antes de fazer isso).<br /><br />Após fazer isso, é altamente recomendável executar essa utilidade novamente para verificar se outras inconsistências são encontradas.';
+$string['yesmissingindexesfound'] = '<p>Alguns índices não foram encontrados no seu BD. Aqui estão os detalhes e as instruções SQL que devem ser executadas em sua interface SQL favorita para criar todos eles . Não esqueça de fazer uma cópia de segurança dos seus dados antes .</p>
+<p>Após fazer isso, é altamente recomendável executar essa funcionalidade novamente para para verificar se não há mais índices ausentes.</p>';
+$string['yeswrongdefaultsfound'] = '<p>Foram encontradas inconsistências nos valores padrão no seu BD. Aqui estão os detalhes e as instruções SQL que devem ser executadas em sua interface SQL favorita para criar todos eles.
+ Não esqueça de fazer uma cópia de segurança dos seus dados antes.</p>
+<p>Após fazer isso, é altamente recomendável executar essa funcionalidade novamente para verificar se outras inconsistências serão encontradas.</p>';
 $string['yeswrongintsfound'] = 'Foram encontrados integrais errados no seu BD. Aqui estão os seus detalhes e as instruções SQL necessárias a serem executadas com sua interface SQL favorita para criar todos eles (não esqueça de fazer uma cópia de segurança dos seus dados antes de fazer isso).<br /><br />Após fazer isso, é altamente recomendável executar essa utilidade novamente para verificar se outras inconsistências são encontrados.';
 $string['yeswrongoraclesemanticsfound'] = 'Algumas colunas Oracle usando semântica BYTE foram encontrados em seu banco de dados. Aqui estão os detalhes e as declarações necessárias SQL a serem executadas com sua interface favorita do SQL para criar todos eles (não se esqueça de fazer backup de seus dados antes de fazer isso). <br /><br /> Após fazer isso, é altamente recomendável para executar este utilitário novamente para verificar que não semântica mais errados são encontrados.';

@@ -1,0 +1,38 @@
+s:1080:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 3: Teste 3
+<br />Test 4: Teste 4
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>42
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um número com oito algarismos:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'NAO SEI'
+</i></pre>
+<br /><b>Test 3: Teste 3 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>17286328
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um número com oito algarismos:42
+</i></pre>
+<br /> --- Expected output (numbers)---
+<br /><pre><i>37
+</i></pre>
+<br /><b>Test 4: Teste 4 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i>123
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite um número com oito algarismos:
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i>'NAO SEI'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  4 tests run/ 1  test passed |
++------------------------------+
+</i></pre>
+<br /><br />";

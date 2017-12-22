@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+import math
+
+#comece abaixo
+n= int(input('Digite a quantidade de elementos: '))
+
+a = []
+
+for i in range (0,n,1):
+    valor_a = float (input('Digite o elemento da lista: '))
+    a.append (valor_a)
+
+def media (lista):
+    soma = 0
+    for i in range (0,len(lista),1):
+        soma = soma + a[i]
+    media = soma /n
+    return (media)
+    
+def desvio (lista):
+    media = media (lista)
+    somatorio = 0
+    for i in range  (0,len(lista),1):
+        somatorio = somatorio + (a[i]-media)**2
+    desvio = (somatorio/(n-1))**(1/2)
+    return (desvio)
+    

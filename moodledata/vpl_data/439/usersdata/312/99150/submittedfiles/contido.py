@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+a=[1,2,3,4,5,6,7,8,9,10]
+b=[5,9,18,20]
+n = input('quantidade de eloemnetos de a:')
+m = input('quantidade de eloemnetos de b:')
+
+print(2)

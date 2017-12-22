@@ -1108,6 +1108,7 @@ $string['unsupporteddbstorageengine'] = 'O mecanismo de armazenamento do banco d
 $string['unsupporteddbtablerowformat'] = 'Seu banco de dados possui tabelas usando Antelope como formato de arquivo. Recomenda-se converter as tabelas para o formato de arquivo Barracuda. Consulte a documentação <a href="https://docs.moodle.org/en/cli">Administração via linha de comando</a> para detalhes de uma ferramenta para converter tabelas InnoDB para Barracuda.';
 $string['unsupportedphpversion7'] = 'PHP versão 7 não é suportada.';
 $string['unsupportedphpversion71'] = 'A versão 7.1 do PHP não é suportada.';
+$string['unsupportedphpversion72'] = 'O PHP versão 7.2 não é suportado.';
 $string['unsuspenduser'] = 'Ativar conta de usuário';
 $string['updateaccounts'] = 'Atualizar contas existentes';
 $string['updateautocheck'] = 'Verificar automaticamente novas atualizações';
@@ -1186,7 +1187,7 @@ $string['userpreference'] = 'Preferências de usuário';
 $string['userquota'] = 'Cota de usuário';
 $string['users'] = 'Usuários';
 $string['usesitenameforsitepages'] = 'Use nome do site para as páginas do site';
-$string['usetags'] = 'Funcionalidade de habilitar rótulos';
+$string['usetags'] = 'Habilitar funcionalidade de tags';
 $string['validateerror'] = 'Este valor não é válido';
 $string['verifychangedemail'] = 'Restringir domínios quando na alteração do endereço de email';
 $string['warningcurrentsetting'] = 'Valor atual inválido: {$a}';

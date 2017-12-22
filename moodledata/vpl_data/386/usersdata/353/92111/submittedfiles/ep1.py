@@ -1,0 +1,54 @@
+# -*- coding: utf-8 -*-
+'''
+/**********************************************************/
+/* Equipe: Igor Emanuel Lucas Farias, Victória Cruz Gouveia                                  */
+/* N ́umero de matriculas: 407553, 407582                    */
+/* Exercicio-Programa 1 -- Ra ́ızes de Equa ̧c~oes Quadr ́aticas */
+/* ECI0007 ou EM0006 (EC/EM) -- 2017 -- Professor:Rafael  */
+/* Interpretador: Python vers~ao 3                            */
+/**********************************************************
+'''
+#COMECE SEU CODIGO NA LINHA ABAIXO.
+def raiz2(x,epsilon):
+    rm=(x+1)/2
+    rn=x
+    while (rm-rn)>=epsilon:
+        rm=(1/2)*(rn +(x/rn))
+    return(rm)
+
+def baskara(a,b,c):
+    delta=(b**2) - 4*a*c
+    if delta>=0:
+        x1=((-b)+(raiz2(delta,epsilon)))/(2*a)
+        x2=((-b)-(raiz2(delta,epsilon)))/(2*a)
+        if delta>0:
+            return('reais simples')
+            return(x1) 
+            return(x2)
+        elif delta==0:
+            return('real dupla')
+            return(x1)
+            return(x2)
+    else:
+        x3=((raiz2(((-1)*delta),epsilon))/(2*a))       
+        x1=((-b)/(2*a))
+        x2=((-b)/(2*a))
+        return('complexas')
+        return('%f+%f i'%(x1,x3))
+        return('%f-%f i'%(x2,x3))
+   
+        
+   
+    
+epsilon= float(input('Digite o epsilon: '))
+nequacoes=int(input('Digite o número de equações: '))
+
+for equação in range(0,nequacoes,1):
+    a=float(input('Digite o a da equação: '))
+    b=float(input('Digite o b da equação: '))
+    c=float(input('Digite o c da equação: '))
+    
+    if a!=0:
+        print(a), print(b), print(c), print(baskara(a,b,c))
+    else:
+        print('***ERRO: equação não é do segundo grau! ***')

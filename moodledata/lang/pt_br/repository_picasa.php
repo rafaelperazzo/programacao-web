@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['clientid'] = 'ID de cliente';
 $string['configplugin'] = 'Configuração do repositório Picasa';
-$string['oauthinfo'] = '<p>Para usar este plugin, você deve registrar seu site com o Google, conforme descrito na documentação <a href="{$a->docsurl}">Google OAuth 2.0 setup</a>.</p><p>Como parte do processo de registro, você precisará digitar o seguinte URL como "Autorizado redirecionamento URIs":</p><p>{$a->callbackurl}</p><p>Uma vez cadastrado, será fornecido a você uma ID do cliente e o segredo que pode ser usado para configurar todos os plugins do Google Drive e Picasa.</p>';
+$string['oauthinfo'] = '<p>Para utilizar este plugin, você deve registrar seu site com o Google, conforme descrito na documentação <a href="{$a->docsurl} "> Configuração do Google OAuth 2.0</a>. </ p> <p > Como parte do processo de registro, você precisará inserir a seguinte URL como "URIs de redirecionamento autorizado": </ p><p>{$a->callbackurl}</ p> <p> Uma vez registrado, você receberá um ID de cliente e um segredo que podem ser utilizados para configurar todos os plugins do Google Drive e do Picasa.</ p>';
 $string['picasa:view'] = 'Visualize o repositório Picasa';
 $string['pluginname'] = 'Web albúm do Picasa';
 $string['secret'] = 'Segredo';

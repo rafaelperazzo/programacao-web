@@ -1,0 +1,36 @@
+Testing 1/9 : Teste 1
+Testing 2/9 : Teste 2
+Testing 3/9 : Teste 3
+Testing 4/9 : Teste 4
+Testing 5/9 : Teste 5
+Testing 6/9 : Teste 6
+Testing 7/9 : Teste 7
+Testing 8/9 : Teste 8
+Testing 9/9 : Teste 9
+
+<|--
+-Test 8: Teste 8 (-1.111)
+Incorrect program result
+ --- Input ---
+> 1
+>0
+>1
+>1
+
+ --- Program output ---
+>insira o primeiro número:insira o segundo número:insira o terceiro número:insira o quarto número:N
+
+ --- Expected output (text)---
+> 'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  9 tests run/ 8 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 8.89

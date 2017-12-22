@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+matriz=[]
+matriz2=[]
+m = int(input('Digite a quantidade de linhas (m): '))
+n = int(input('Digite a quantidade de colunas (n): '))
+for i in range(0,m,1):
+    linha=[]
+    for j in range(0,n,1):
+        linha.append(int(input('Digite um termo binario[0,1]: ')))
+    matriz.append(linha)
+for i in range (0,m,1):
+    if sum (a[i])>=1:
+        matriz2.append(i)
+        break
+for i in range (m-1,-1,-1):
+    if sum (a[i])>=1:
+        matriz2.append(i)
+        break
+    
+lat=[]
+for i in range (0,m,1):
+    for j in range (0,n,1):
+        if matriz[i][j]==1:
+            lat.append(j)
+
+x=sorted(lat)
+
+c1=int(c[0])
+c2=int(c[1])
+x1=int(x[0])
+x2=int(x[len(x)-1])
+n=[]
+for i in range (c1,c2+1,1):
+    for j in range (x1,x2+1,1):
+        n.append(matriz[i][j])
+print(n)
+
+
+

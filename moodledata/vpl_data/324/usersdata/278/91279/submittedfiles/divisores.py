@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+import math
+n = int(input("Digite a quantidade de números a serem mostrados: "))
+a = int(input("Digite o número 1: "))
+b = int(input("Digite o número 2: "))
+i=2
+x=2
+if a>b:
+    while (n>0):
+        while (i<=a):
+            if a%i==0 or b%i==0:
+                print(i)
+                n-=1
+                i+=1
+        b1=b*x
+        n-=1
+        a1=a*x
+        n-=1
+        x+=1
+        if a1==b1:
+            print(b1)
+        else:
+            print(b1)
+            print(a1)
+if b>a:
+    while (n>0):
+        while (i<=b):
+            if a%i==0 or b%i==0:
+                print(i)
+                n-=1
+                i+=1

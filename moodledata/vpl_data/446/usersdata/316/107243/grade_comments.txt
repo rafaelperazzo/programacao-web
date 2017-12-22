@@ -1,0 +1,25 @@
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>2
+>3
+>2
+>3
+>2
+>4
+>5
+>8
+
+ --- Program output ---
+>digite a ordem da matriz: digite o valor da linha 1 e da coluna 1: digite o valor da linha 2 e da coluna 1: digite o valor da linha 3 e da coluna 1: digite o valor da linha 1 e da coluna 2: digite o valor da linha 2 e da coluna 2: digite o valor da linha 3 e da coluna 2: digite o valor da linha 1 e da coluna 3: digite o valor da linha 2 e da coluna 3: digite o valor da linha 3 e da coluna 3: NÃO
+
+ --- Expected output (text)---
+> 'NAO'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

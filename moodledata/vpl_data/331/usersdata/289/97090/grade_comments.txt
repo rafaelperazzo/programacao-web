@@ -1,0 +1,50 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos:digite número1 da lista 1: digite número2 da lista 1: digite número3 da lista 1: digite número4 da lista 1: digite número5 da lista 1: digite número6 da lista 1: digite número1 da lista 2: digite número2 da lista 2: digite número3 da lista 2: digite número4 da lista 2: digite número5 da lista 2: digite número6 da lista 2: digite número1 da lista 3: digite número2 da lista 3: digite número3 da lista 3: digite número4 da lista 3: digite número5 da lista 3: digite número6 da lista 3: S
+>N
+>S
+>N
+>S
+>N
+>N
+>N
+>S
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

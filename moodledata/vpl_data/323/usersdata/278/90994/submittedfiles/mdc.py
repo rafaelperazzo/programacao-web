@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+import math
+n1 = int(input("Digite o primeiro número inteiro: "))
+n2 = int(input("Digite o segundo número inteiro: "))
+mdc=1
+resto=0
+if n1>n2:
+    for i in range (2,n2,1):
+        for x in range (2,n2,1):
+            restox=i%x
+            resto+=restox
+        if resto==i:
+                resto1=n1%resto
+                resto2=n2%resto
+                if resto1==0 and resto2==0:
+                    mdc=mdc*resto
+    print(mdc)
+if n2>n1:
+    for i in range (2,n1,1):
+        resto1=n1%i
+        resto2=n2%i
+        if resto1==0 and resto2==0:
+            mdc=mdc*i
+    print(mdc)
+if n1==n2:
+    print(n1)
+    
+        
+    
+    

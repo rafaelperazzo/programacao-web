@@ -1,0 +1,52 @@
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 6
+>4
+>1
+>3
+>8
+>4
+>5
+>9
+>2
+>8
+>9
+>2
+>7
+>5
+>5
+>4
+>3
+>2
+>5
+>8
+>2
+>9
+>1
+>9
+>8
+>7
+>1
+>3
+>2
+>1
+>2
+>5
+>1
+>2
+>9
+>3
+>8
+
+ --- Program output ---
+>digite o numero de linhas/colunas que o tabuleiro tera: digite o valor da posição de linha1 e coluna1 : digite o valor da posição de linha1 e coluna2 : digite o valor da posição de linha1 e coluna3 : digite o valor da posição de linha1 e coluna4 : digite o valor da posição de linha1 e coluna5 : digite o valor da posição de linha1 e coluna6 : digite o valor da posição de linha2 e coluna1 : digite o valor da posição de linha2 e coluna2 : digite o valor da posição de linha2 e coluna3 : digite o valor da posição de linha2 e coluna4 : digite o valor da posição de linha2 e coluna5 : digite o valor da posição de linha2 e coluna6 : digite o valor da posição de linha3 e coluna1 : digite o valor da posição de linha3 e coluna2 : digite o valor da posição de linha3 e coluna3 : digite o valor da posição de linha3 e coluna4 : digite o valor da posição de linha3 e coluna5 : digite o valor da posição de linha3 e coluna6 : digite o valor da posição de linha4 e coluna1 : digite o valor da posição de linha4 e coluna2 : digite o valor da posição de linha4 e coluna3 : digite o valor da posição de linha4 e coluna4 : digite o valor da posição de linha4 e coluna5 : digite o valor da posição de linha4 e coluna6 : digite o valor da posição de linha5 e coluna1 : digite o valor da posição de linha5 e coluna2 : digite o valor da posição de linha5 e coluna3 : digite o valor da posição de linha5 e coluna4 : digite o valor da posição de linha5 e coluna5 : digite o valor da posição de linha5 e coluna6 : digite o valor da posição de linha6 e coluna1 : digite o valor da posição de linha6 e coluna2 : digite o valor da posição de linha6 e coluna3 : digite o valor da posição de linha6 e coluna4 : digite o valor da posição de linha6 e coluna5 : digite o valor da posição de linha6 e coluna6 : 51
+
+ --- Expected output (numbers)---
+>67
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

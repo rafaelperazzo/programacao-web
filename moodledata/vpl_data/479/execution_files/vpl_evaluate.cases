@@ -1,0 +1,14 @@
+case = Teste 1
+input = 144
+12
+output = '12'
+
+case = Teste 2 
+input = 982
+16
+output = '2'
+
+case = Teste 3
+input = 980
+20
+output = '20'

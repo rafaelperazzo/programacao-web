@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+N=int(input('Digite quantos postos terão : '))
+M=int(input('Digite o limite do participante: '))
+soma =0
+cont=0
+for i in range(0,N,1):
+    
+    X9=int(input('Digite a distancia: '))
+    
+    if (x9 - soma)>=M:
+        print('N')
+        cont=cont+1
+        break
+    if(x9 - soma)<M:
+        soma= soma + x9
+if cont!=1:
+    print('S')
+    

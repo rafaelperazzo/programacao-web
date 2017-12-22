@@ -1,0 +1,45 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>5
+>7
+>8
+>2
+>1
+>4
+>5
+>3
+>0
+>8
+>6
+>9
+
+ --- Program output ---
+>digite o numero de linhas: digite o numero de colunas: digite um valor: digite um valor: digite um valor: digite um valor: Traceback (most recent call last):
+>  File "matriz1.py", line 10, in <module>
+>    a.append(linha)
+>NameError: name 'a' is not defined
+
+ --- Expected output (text)---
+> '[[ 9.  6.  8.  0.]
+> [ 3.  5.  4.  1.]
+> [ 2.  8.  7.  5.]]'
+> 
+> 
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

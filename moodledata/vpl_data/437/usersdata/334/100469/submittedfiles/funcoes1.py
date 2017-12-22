@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+
+def crescente (lista):
+    c = 0
+    for i in range (0,len(a)-1,1):
+        if a[i] < a[i+1]:
+            c += 1
+        if cont == len(a)-1:
+            return 'S'
+        else:
+            return 'N'
+
+def decrescente (lista):
+    c = 0
+    for i in range (0,len(a)-1,1):
+        if a[i] > a[i+1]:
+            c += 1
+        if cont == len(a)-1:
+            return 'S'
+        else:
+            return 'N'
+
+def iguais (lista):
+    c = 0
+    for i in range (0,len(a)-1,1):
+        if a[i] == a[i+1]:
+            c += 1
+        if cont == len(a)-1:
+            return 'S'
+        else:
+            return 'N'
+
+#escreva o programa principal
+
+n = int(input())
+a = []
+for i in range (0,n,1):
+    a.append(int(input()))
+b[]
+for i in range (0,n,1):
+    b.append(int(input()))
+c = []
+for i in range (0,n,1):
+    c.append(int(input()))
+
+print(crescente(a))
+print(decrescente(a))
+print(iguais(a))
+
+print(crescente(b))
+print(decrescente(b))
+print(iguais(b))
+
+print(crescente(c))
+print(decrescente(c))
+print(iguais(c))
+
+
+
+
+

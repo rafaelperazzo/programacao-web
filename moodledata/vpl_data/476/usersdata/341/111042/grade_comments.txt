@@ -1,0 +1,29 @@
+-Test 1: Teste 1 (-1.000)-Test 2: Teste 2 (-1.000)
+Incorrect program result
+ --- Input ---
+> 7
+>5
+>22
+>11
+>10
+>8
+>12
+>76
+>50
+>5
+>9
+>76
+>20
+>21
+
+ --- Program output ---
+>Digite um número: Digite um número: Digite o valor de a: Digite o valor de a: Digite o valor de a: Digite o valor de a: Digite o valor de a: Digite o valor de a: Digite o valor de a: Digite o valor de b: Digite o valor de b: Digite o valor de b: Digite o valor de b: Digite o valor de b: 2
+
+ --- Expected output (text)---
+> '1'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

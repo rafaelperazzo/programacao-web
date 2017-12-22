@@ -1,0 +1,28 @@
+-Test 3: Teste 3 (-6.667)
+Incorrect program result
+ --- Input ---
+> 3
+>2
+>0
+>5
+>1
+>1
+>5
+>2
+>1
+>8
+>5
+>5
+
+ --- Program output ---
+>Digite a dimensao n da matriz: Digite a linha do numero: Digite o valor da coluna: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: Digite os valores para a matriz: 23.0
+>23.0
+
+ --- Expected output (regular expression)---
+>20.*
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

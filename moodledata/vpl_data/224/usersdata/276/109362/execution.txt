@@ -1,0 +1,80 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+--|>
+
+<|--
+-Test 1: Teste 1 (-33.333)
+Incorrect program result
+ --- Input ---
+> 4
+>0 10 15 12 13 0 23 14 31 43 0 11 19 32 18 0
+>0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Digite a Matriz A como uma única linha entre aspas: Digite a Matriz D como uma única linha entre aspas: Digite o valor de alfa: Traceback (most recent call last):
+>  File "gravitacional.py", line 19, in <module>
+>    a = funcoes.somacolunas (A)
+>  File "/home/p11863/funcoes.py", line 11, in somacolunas
+>    for j in range (0, dimensao,1):
+>NameError: name 'dimensao' is not defined
+
+ --- Expected output (regular expression)---
+>.*241\.[0-9]{4}.*
+
+-Test 2: Teste 2 (-90.000)
+Incorrect program result
+ --- Input ---
+> 4
+>0 10 15 20 13 0 23 14 31 43 0 11 19 32 18 0
+>0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Digite a Matriz A como uma única linha entre aspas: Digite a Matriz D como uma única linha entre aspas: Digite o valor de alfa: Traceback (most recent call last):
+>  File "gravitacional.py", line 19, in <module>
+>    a = funcoes.somacolunas (A)
+>  File "/home/p11863/funcoes.py", line 11, in somacolunas
+>    for j in range (0, dimensao,1):
+>NameError: name 'dimensao' is not defined
+
+ --- Expected output (regular expression)---
+>.*249\.[0-9]{4}.*
+
+-Test 3: Teste 3 (-90.000)
+Incorrect program result
+ --- Input ---
+> 4
+>0 10 15 20 19 0 23 14 40 43 0 11 19 38 18 0
+>0 3 2 4 4 0 5 6 3 6 0 3 3 5 4 0
+>1
+
+ --- Program output ---
+>Digite a dimensao das matrizes: Digite a Matriz A como uma única linha entre aspas: Digite a Matriz D como uma única linha entre aspas: Digite o valor de alfa: Traceback (most recent call last):
+>  File "gravitacional.py", line 19, in <module>
+>    a = funcoes.somacolunas (A)
+>  File "/home/p11863/funcoes.py", line 11, in somacolunas
+>    for j in range (0, dimensao,1):
+>NameError: name 'dimensao' is not defined
+
+ --- Expected output (regular expression)---
+>.*270\.[0-9]{4}.*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

@@ -41,7 +41,7 @@ $string['multivaluedfield'] = 'O campo "{$a}" retornou uma matriz em vez de um e
 $string['nodatafromserver'] = 'Não há dados de servidor';
 $string['pluginname'] = 'Solr';
 $string['schemafieldautocreated'] = 'O campo "{$a}" já existe no esquema Solr. Provavelmente esqueceu-se de executar este script antes de indexar os dados e os campos foram criados automaticamente pelo Solr. Por favor apague esta indexação, crie uma nova e execute o script setup_schema.php novamente antes de indexar os dados no Solr.';
-$string['schemasetupfromsolr5'] = 'Sua versão do servidor Solr é menor do que 5,0. Este script só pode definir o esquema se sua versão Solr é 5.0 ou superior. Você precisará configurar manualmente os campos no seu esquema de acordo com search_solrdocument::get_default_fields_definition().';
+$string['schemasetupfromsolr5'] = 'Sua versão do servidor Solr é menor do que 5,0. Este script só pode definir o esquema se sua versão Solr é 5.0 ou superior. Você precisará configurar manualmente os campos no seu esquema de acordo com \\search_solr\\document::get_default_fields_definition().';
 $string['searchinfo'] = 'Procurar consultas na base de dados';
 $string['searchinfo_help'] = 'O campo pesquisado pode ser especificado na pesquisa pelo prefixo com \'title:\', \'content:\', \'name:\', ou \'intro:\'. Por exemplo, ao pesquisar por \'title:notícias\' irão aparecer resultados com a palavra \'notícias\' no título.
 

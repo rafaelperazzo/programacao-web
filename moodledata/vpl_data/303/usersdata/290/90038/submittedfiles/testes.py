@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+#COMECE AQUI ABAIXO
+print("___________________________________")
+def avaliar(z):
+    resultado=z
+    if z<0:
+        resultado=resultado*(-1)
+    return resultado
+a=-100
+valor=avaliar(a)
+print(valor)
+def misterio(x):
+    cont=0
+    for i in range(2,x,1):
+        if x%i==0:
+            cont=cont+1
+            break
+        if cont==0:
+            return True
+        else:
+            return False
+y=100
+for i in range(1,y,1):
+    if misterio(i):
+        print(i)

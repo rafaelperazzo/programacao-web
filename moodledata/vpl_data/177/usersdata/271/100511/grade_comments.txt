@@ -1,0 +1,69 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+Test 3: Teste 3
+-Test 1: Teste 1 (-13.333)
+Incorrect program result
+ --- Input ---
+> 7
+>1
+>2
+>1
+>2
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: Traceback (most recent call last):
+>  File "pico.py", line 59, in <module>
+>    for i in range (0,n,1) :
+>TypeError: 'str' object cannot be interpreted as an integer
+
+ --- Expected output (text)---
+> 'N'
+
+-Test 2: Teste 2 (-13.333)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: Traceback (most recent call last):
+>  File "pico.py", line 59, in <module>
+>    for i in range (0,n,1) :
+>TypeError: 'str' object cannot be interpreted as an integer
+
+ --- Expected output (text)---
+> 'S'
+
+-Test 3: Teste 3 (-13.333)
+Incorrect program result
+ --- Input ---
+> 4
+>3
+>1
+>2
+>1
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: Traceback (most recent call last):
+>  File "pico.py", line 59, in <module>
+>    for i in range (0,n,1) :
+>TypeError: 'str' object cannot be interpreted as an integer
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 0 tests passed |
+>+------------------------------+
+

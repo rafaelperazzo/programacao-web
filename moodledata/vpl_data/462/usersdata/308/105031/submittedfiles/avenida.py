@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+def inteiro(texto, min, max):
+    valor = int(input(texto))
+    while not(min<=valor<=max):
+        valor = int(input(texto))
+    return valor
+M = []
+m = inteiro('Informe a quantidade de quadras no sentido Norte-Sul: ', 2, 1000)
+n = inteiro('Informe a quantidade de quadras no sentido Leste-Oeste: ', 2, 1000)
+for i in range (m):
+    m.append([])
+    for j in range (n):
+        m[i].append(inteiro('Informe o valor da quadra %i %j: ' % (i+1, j+1)))
+print(M)

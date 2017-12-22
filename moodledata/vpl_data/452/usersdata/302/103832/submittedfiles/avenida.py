@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+m = int(input('Digite o número de linhas: '))
+n = int(input('DIgite o número de colunas: '))
+matriz = []
+for i in range(m):
+    linha = []
+    for j in range(n):
+        linha.append(float(input('Digite o elemento %d de %d: ' %((j+1),(i+1)))))
+    matriz.append(linha)
+print(matriz)
+#linhas
+a = sorted(matriz, reverse = a)
+print(a)
+        

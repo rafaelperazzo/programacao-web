@@ -1,0 +1,217 @@
+# IMPORTACOES
+import time
+import random
+# #############################################################################
+# INICIALIZA VARIAVEIS GLOBAIS
+# #############################################################################
+nome_arquivo_log = 'log.txt'
+arquivo_log = ''
+grupos = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
+grupos_sorteados = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+membros= [
+    ['Gabriel', 'Levy', 'Marcos'],
+    ['Antonio Marcos', 'Nelson', 'Pedro', 'Renan'],
+    ['Antonio Segundo', 'Carlos Edmundo', 'Igor', 'Sibelle'],
+    ['Fabio', 'Marlon', 'Thayna'],
+    ['Alane', 'Caroline', 'Maria', 'Rafaela'],
+    ['Jose Igor', 'Klinsmann', 'Mateus', 'Victor'],
+    ['Carlos Eduardo', 'Nicholas Pereira', 'Nikolas Sivini'],
+    ['Andre'],
+    ['Haroldo']
+]
+datas= [
+    '27/11 (Seg) - 1º (14:00-14:25)',
+    '27/11 (Seg) - 2º (14:25-14:50)',
+    '27/11 (Seg) - 3º (14:50-15:15)',
+    '27/11 (Seg) - 4º (15:15-15:40)',
+    '27/11 (Seg) - 5º (15:40-16:00)',
+    '29/11 (Qua) - 1º (14:10-14:35)',
+    '29/11 (Qua) - 2º (14:35-15:05)',
+    '29/11 (Qua) - 3º (15:05-15:30)',
+    '29/11 (Qua) - 4º (15:30-15:55)'
+]
+datas_sorteadas = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+perguntadores = []
+respondedores = []
+# #############################################################################    
+# FUNCOES DO PROGRAMA
+# #############################################################################
+def print_log(texto):
+    .write(“Hello World”) 
+    return
+# #############################################################################
+def log_dados_variavel(var):
+
+    return
+# #############################################################################
+def sorteio(tipo):
+    sorteado = -1
+    while(True) :
+        sorteado = random.randint(0,len(grupos)-1)
+        if (tipo=='G') :
+            if (grupos_sorteados[sorteado] == -1):
+                break
+        else:
+            if (datas_sorteadas[sorteado] == -1):
+                break
+    return sorteado
+# #############################################################################
+def sorteioPerguntador(grupo_atual):
+    i_sorteado = -1
+    j_sorteado = -1
+    while(True) :
+        # sorteia um grupo
+        i_sorteado = random.randint(0,len(grupos)-1)
+        if (i_sorteado != grupo_atual) :
+            # sorteia um membro do grupo
+            j_sorteado = random.randint(0,len(membros[i_sorteado])-1)
+            if (perguntadores[i_sorteado][j_sorteado] == 0) :
+                perguntadores[i_sorteado][j_sorteado] = 1
+                break
+    return [i_sorteado,j_sorteado]
+# #############################################################################
+def sorteioRespondedor(grupo_atual):
+    j_sorteado = -1
+    while(True) :
+        # sorteia um membro do grupo
+        j_sorteado = random.randint(0,len(membros[grupo_atual])-1)
+        if (respondedores[grupo_atual][j_sorteado] == 0) :
+            respondedores[grupo_atual][j_sorteado] = 1
+            break
+    return j_sorteado
+# #############################################################################
+def mostra_sorteado(tipo, indice):
+    if (tipo=='G') :
+        print ('\n \tGrupo: %s %s\n' % (grupos[indice], str(membros[indice])) )
+    else:
+        print ('\n \tData: %s\n' % datas[indice] )
+    return
+# #############################################################################
+def salva_sorteio(indice_grupo, indice_data):
+    grupos_sorteados[indice_grupo] = indice_data
+    datas_sorteadas[indice_data] = indice_grupo
+    return
+# #############################################################################   
+def mostra_quadro_apresentacoes():
+    if len(datas_sorteadas)%2 == 0:
+        range_dia1 = len(datas_sorteadas)//2
+    else:
+        range_dia1 = len(datas_sorteadas)//2 + 1
+    print(' ------------------------------------------------- ')
+    print('           Ordem de apresentação do P1 ')
+    print(' ------------------------------------------------- ')
+    print(' DIA 1: ')
+    print(' ------------------------------------------------- ')
+    for i in range (0,range_dia1,1):
+        data = datas[i]
+        grupo = grupos[datas_sorteadas[i]]
+        grupo_membros = membros[datas_sorteadas[i]]
+        print(' Dia %s\n \t Grupo %s %s' % (data, grupo, grupo_membros) )
+    print(' ------------------------------------------------- ')
+    print(' DIA 2: ')
+    print(' ------------------------------------------------- ')
+    for i in range (range_dia1,len(datas_sorteadas),1):
+        data = datas[i]
+        grupo = grupos[datas_sorteadas[i]]
+        grupo_membros = membros[datas_sorteadas[i]]
+        print(' Dia %s\n \t Grupo %s %s' % (data, grupo, grupo_membros) )
+    print(' ------------------------------------------------- ')
+    print('\n\n')
+    return
+# #############################################################################    
+def programa_sorteio_ordem_apresentacao():
+    print(' ------------------------------------------------- ')
+    print('  Olá, turma! Iniciaremos o sorteio em 5 segundos ')
+    print(' ------------------------------------------------- ')
+    time.sleep(5)
+    print(' Vamos lá... \n')
+    time.sleep(2)
+    for i in range(1,len(grupos)+1,1):
+        input(' Pressione ENTER para sortear o %dº grupo...' % i)
+        indice_grupo = sorteio('G')
+        time.sleep(2)
+        mostra_sorteado('G',indice_grupo)
+        input(' Pressione ENTER para sortear a %dª data...' % i)
+        indice_data = sorteio('D')
+        time.sleep(3)
+        mostra_sorteado('D',indice_data)
+        salva_sorteio(indice_grupo, indice_data)
+    time.sleep(2)
+    mostra_quadro_apresentacoes()
+    print('grupos_sorteados = ' + str(grupos_sorteados))
+    print('datas_sorteadas = ' + str(datas_sorteadas))
+    return
+# #############################################################################
+def inicializa_matriz(matriz):
+    if len(matriz) == 0:
+        for i in range(0,len(membros),1):
+            linha = []
+            for j in range(0,len(membros[i]),1):
+                linha.append(0)
+            matriz.append(linha)
+    return matriz
+# #############################################################################
+def programa_sorteio_perguntador():
+    inicializa_matriz(perguntadores)
+    inicializa_matriz(respondedores)
+    while(True) :
+        dia_apres = int(input('Qual o dia da apresentacao (1 ou 2)? '))
+        dia_apres -= 1
+        num_apres = int(input('Qual a apresentacao do dia (1 a 4 ou 5)? '))
+        num_apres -= 1
+        if len(datas_sorteadas)%2 == 0:
+            range_dia1 = len(datas_sorteadas)//2
+        else:
+            range_dia1 = len(datas_sorteadas)//2 + 1
+        if dia_apres == 0:
+            x = num_apres
+        else:
+            x = range_dia1 + num_apres
+        mostra_sorteado('D', x)
+        mostra_sorteado('G', datas_sorteadas[x])
+        opt = input('O grupo esta correto (S/N)? ')
+        print('\n')
+        if (opt != 'S' and opt != 's'):
+            continue
+        while (True) :
+            input(' Pressione ENTER para sortear um perguntador...')
+            indice_sorteado = sorteioPerguntador(datas_sorteadas[x])
+            print('\n\t Quem Pergunta: %s (Grupo %s)' % 
+                    (membros[indice_sorteado[0]][indice_sorteado[1]],
+                     grupos[indice_sorteado[0]]))
+            indice_sorteado = sorteioRespondedor(datas_sorteadas[x])
+            print('\n\t Quem Responde: %s (Grupo %s)\n' %
+                    (membros[datas_sorteadas[x]][indice_sorteado],
+                     grupos[datas_sorteadas[x]]))
+            opt = input('Deseja sortear outro (S/N)? ')
+            if (opt == 'N' or opt == 'n'):
+                return
+    return
+# #############################################################################
+# PROGRAMA PRINCIPAL
+# #############################################################################
+arquivo_log = open(nome_arquivo_log,"a") 
+while(True):
+    print('Por favor, selecione uma das seguintes opcoes:\n')
+    print('\tO \tsorteia nova ordem de apresentacao dos grupos')
+    print('\tM \tmostra cronograma de apresentacao dos grupos (08/11)')
+    print('\tP \tsorteia um perguntador da plateia')
+    print('\tX \tencerra o programa\n')
+    opt = input('Sua opcao: ')
+    print('\n')
+    if (opt == 'O' or opt == 'o'):
+        programa_sorteio_ordem_apresentacao()
+    elif (opt == 'M' or opt == 'm'):
+        grupos_sorteados = [1, 0, 4, 5, 6, 7, 3, 2, 4]
+        datas_sorteadas = [1, 0, 7, 6, 8, 2, 3, 4, 5]
+        mostra_quadro_apresentacoes()
+    elif (opt == 'P' or opt == 'p'):
+        grupos_sorteados = [1, 0, 4, 5, 6, 7, 3, 2, 4]
+        datas_sorteadas = [1, 0, 7, 6, 8, 2, 3, 4, 5]
+        programa_sorteio_perguntador()
+    elif (opt == 'X' or opt == 'x'):
+        print('SAINDO... ATE MAIS!')
+        break
+    else:
+        print('OPCAO INVALIDA!!!\n')
+        time.sleep(1)

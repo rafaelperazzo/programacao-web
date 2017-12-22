@@ -1,0 +1,58 @@
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 10
+>4
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>8
+>9
+>10
+>5
+>9
+>18
+>20
+
+ --- Program output ---
+>digite o numero de elementos da lista1: digite o numero de elementos da lista2: digite um valor1 para lista1: digite um valor2 para lista1: digite um valor3 para lista1: digite um valor4 para lista1: digite um valor5 para lista1: digite um valor6 para lista1: digite um valor7 para lista1: digite um valor8 para lista1: digite um valor9 para lista1: digite um valor10 para lista1: digite um valor1 para lista2: digite um valor2 para lista2: digite um valor3 para lista2: digite um valor4 para lista2: f
+
+ --- Expected output (text)---
+> '2'
+
+-Test 2: Teste 2 (-5.000)
+Incorrect program result
+ --- Input ---
+> 7
+>5
+>22
+>11
+>10
+>8
+>12
+>76
+>50
+>5
+>9
+>76
+>20
+>21
+
+ --- Program output ---
+>digite o numero de elementos da lista1: digite o numero de elementos da lista2: digite um valor1 para lista1: digite um valor2 para lista1: digite um valor3 para lista1: digite um valor4 para lista1: digite um valor5 para lista1: digite um valor6 para lista1: digite um valor7 para lista1: digite um valor1 para lista2: digite um valor2 para lista2: digite um valor3 para lista2: digite um valor4 para lista2: digite um valor5 para lista2: f
+
+ --- Expected output (text)---
+> '1'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+

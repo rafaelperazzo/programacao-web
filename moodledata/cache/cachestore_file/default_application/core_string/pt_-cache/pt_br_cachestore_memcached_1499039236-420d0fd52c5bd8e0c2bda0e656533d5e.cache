@@ -2,17 +2,18 @@ a:38:{s:12:"bufferwrites";s:18:"Escritas no buffer";s:17:"bufferwrites_help";s:3
 
 Se o cache é compartilhado por outras aplicações, então cada chave será excluída individualmente para garantir que apenas são excluídos os dados pertencentes a essa aplicação (o que deixará os dados do cache da aplicação externa inalterados). Isto pode provocar uma diminuição de desempenho quando limpar a cache, dependendo da configuração do seu servidor.
 
-Se o cache for dedicado para esta aplicação, então o cache pode ser esvaziado seguramente sem qualquer risco de destruição de dados de cache de outra aplicação. Isto deve resultar num aumento de desempenho quando limpar o cache.";s:10:"pluginname";s:9:"Memcached";s:6:"prefix";s:16:"Tecla de prefixo";s:11:"prefix_help";s:293:"Isso pode ser usado para se criar um "domínio" para os seus itens chave, permitindo que você crie múltiplos depósitos de "memcached" em uma única instalação de  "memcached". Não pode ser maior do que 16 caracteres para se garantir de que não haverá problemas de comprimento de chave.";s:13:"prefixinvalid";s:53:"Prefixo inválido. Você só pode usar a-z A-Z 0-9-_.";s:19:"serialiser_igbinary";s:24:"O serializador igbinary.";s:15:"serialiser_json";s:20:"O serializador JSON.";s:14:"serialiser_php";s:19:"O serializador PHP.";s:7:"servers";s:10:"Servidores";s:12:"servers_help";s:566:"Isso define os servidores que devem ser utilizados por este adaptador memcached. Servidores devem ser definidos por uma linha e constituído por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta é fornecida será utilizada a porta padrão (11211).
+Se o cache for dedicado para esta aplicação, então o cache pode ser esvaziado seguramente sem qualquer risco de destruição de dados de cache de outra aplicação. Isto deve resultar num aumento de desempenho quando limpar o cache.";s:10:"pluginname";s:9:"Memcached";s:6:"prefix";s:16:"Tecla de prefixo";s:11:"prefix_help";s:293:"Isso pode ser usado para se criar um "domínio" para os seus itens chave, permitindo que você crie múltiplos depósitos de "memcached" em uma única instalação de  "memcached". Não pode ser maior do que 16 caracteres para se garantir de que não haverá problemas de comprimento de chave.";s:13:"prefixinvalid";s:53:"Prefixo inválido. Você só pode usar a-z A-Z 0-9-_.";s:19:"serialiser_igbinary";s:24:"O serializador igbinary.";s:15:"serialiser_json";s:20:"O serializador JSON.";s:14:"serialiser_php";s:19:"O serializador PHP.";s:7:"servers";s:10:"Servidores";s:12:"servers_help";s:591:"Isso define os servidores que devem ser utilizados por este adaptador memcached.
+Os servidores devem ser definidos um por linha, onde cada linha é constituída por um endereço de servidor e, opcionalmente, uma porta e um peso.
+Se nenhuma porta for fornecida, a porta padrão (11211) é utilizada.
 
 Por exemplo:
-
 <pre>
 server.url.com
 ipaddress:port
 servername:port:weight
 </pre>
 
-Se * Ativar servidores em cluster * está habilitado a seguir, deve haver apenas um servidor listado aqui. Isso normalmente seria um nome que sempre decide por uma maquina local, como 127.0.0.1 ou localhost.";s:21:"serversclusterinvalid";s:70:"Exatamente um servidor é necessário quando o agrupamento é ativado.";s:10:"setservers";s:18:"Definir servidores";s:15:"setservers_help";s:357:"Isso define os servidores que devem ser utilizados por este adaptador memcached. Servidores devem ser definidos por uma linha e constituído por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta é fornecida será utilizada a porta padrão (11211).
+Se * Habilitar servidores em cluster * estiver habilitado a seguir, deve haver apenas um servidor listado aqui. Isso normalmente seria um nome que sempre aponta para a maquina local, como 127.0.0.1 ou localhost.";s:21:"serversclusterinvalid";s:70:"Exatamente um servidor é necessário quando o agrupamento é ativado.";s:10:"setservers";s:18:"Definir servidores";s:15:"setservers_help";s:357:"Isso define os servidores que devem ser utilizados por este adaptador memcached. Servidores devem ser definidos por uma linha e constituído por um endereço de servidor e, opcionalmente, uma porta e peso. Se nenhuma porta é fornecida será utilizada a porta padrão (11211).
 
 Por exemplo:
 

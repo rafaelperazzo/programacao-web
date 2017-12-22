@@ -39,8 +39,8 @@ $string['addarandomselectedquestion'] = 'Adicionar uma questão aleatória';
 $string['addasection'] = 'Novo título da seção';
 $string['adddescriptionlabel'] = 'Adicionar um item de descrição';
 $string['addingquestion'] = 'Adicionando uma questão';
-$string['addingquestions'] = 'Neste lado da página você administra a sua base de dados de questões. As questões são organizadas em categorias e podem ser usadas por qualquer questionário deste curso ou de outros cursos.
-<br /><br />Depois de selecionar ou criar uma categoria você poderá criar ou editar questões. Você pode selecionar qualquer destas questões para adicionar ao seu questionário que se encontra no outro lado desta página.';
+$string['addingquestions'] = '<p>Neste lado da página você administra seu baco de questões. As questões são organizadas em categorias e podem ser utilizadas por qualquer questionário deste curso ou mesmo em outros cursos se você optar por "publicá-las".</p>
+<p>Depois de selecionar ou criar uma categoria você poderá criar ou editar questões. Você pode selecionar qualquer uma destas questões para adicionar ao seu questionário no outro lado desta página.';
 $string['addmoreoverallfeedbacks'] = 'Adicionar {no} outro(s) campo(s) de feedback';
 $string['addnewgroupoverride'] = 'Adicionar sobreposição de grupo';
 $string['addnewpagesafterselected'] = 'Adicionar novas páginas após questões selecionadas';
@@ -385,8 +385,8 @@ $string['generalfeedback_help'] = '<p>Feedback geral da Questão é um texto mos
 
 <p>Você pode usar o feedback geral para dar aos estudantes mais informações sobre qual conhecimento a questão estava testando. Ou dar a eles referências de outras informações para estudo caso eles não tenham entendido as questões.</p>';
 $string['graceperiod'] = 'Período de carência de envio';
-$string['graceperiod_desc'] = 'Se a opção "O que fazer quando o tempo expira" está configurada com a opção "Permitir um período de carência de envio, mas não muda nenhuma resposta" este é o tempo extra permitido em segundos.';
-$string['graceperiod_help'] = 'Se a opção "O que fazer quando o tempo expira" está configurada com a opção "Permitir um período de carência de envio, mas não muda nenhuma resposta" este é o tempo extra permitido.';
+$string['graceperiod_desc'] = 'Se a opção "Quando o tempo expirar" está configurada com a opção "Existe um período de carência quando as tentativas abertas podem ser enviadas, mas não é possível modificar as questões respondidas" esta será a quantidade padrão de tempo extra permitido.';
+$string['graceperiod_help'] = 'Se a opção "Quando o tempo expirar" está configurada com a opção "Existe um período de carência quando as tentativas abertas podem ser enviadas, mas não é possível modificar as questões respondidas" esta será a quantidade de tempo extra permitido.';
 $string['graceperiodmin'] = 'Período de carência do último envio';
 $string['graceperiodmin_desc'] = 'Há um problema potencial bem no final do questionário. Por um lado precisamos garantir que os alunos continuem sua tentativa até o último segundo - com a ajuda do cronômetro que envia automaticamente a tentativa quando o tempo termina. Por outro lado, o servidor pode ficar sobrecarregado e levar algum tempo para processar todas as respostas. Tendo esse problema em vista, esta configuração cria um período de carência após a expiração do tempo assim os alunos não são penalizados se o servidor ficar lento. Entretanto, seus alunos podem \'colar\' e gastar estes segundos respondendo o questionário. Você terá que tomar uma decisão baseada em quanto confia nos seus servidores durante a aplicação de questionários.';
 $string['graceperiodtoosmall'] = 'O período de carência deve ser mais do que {$a}.';
@@ -606,7 +606,7 @@ $string['overduehandling'] = 'Quando o tempo expirar';
 $string['overduehandlingautoabandon'] = 'Tentativas devem ser submetidas antes que o tempo expire ou elas não serão contabilizadas';
 $string['overduehandlingautosubmit'] = 'As tentativas abertas são enviadas automaticamente';
 $string['overduehandling_desc'] = 'O que deveria acontecer por padrão se um aluno não enviar o questionário antes de o tempo expirar.';
-$string['overduehandlinggraceperiod'] = 'há um período de carência no qual a tentativa pode ser enviada, mas não é possível modificar questões';
+$string['overduehandlinggraceperiod'] = 'Existe um período de carência quando as tentativas abertas podem ser enviadas, mas não é possível modificar as questões respondidas';
 $string['overduehandling_help'] = 'Esta configuração controla o que acontece se o aluno não envia sua tentativa questionário antes do tempo expirar. Se o aluno está trabalhando ativamente no questionário, no momento, então a contagem regressiva irá sempre enviar automaticamente a tentativa para eles, mas se eles deslogare, então essa configuração controla o que acontece.';
 $string['overduehandling_link'] = 'mod/quiz/timing';
 $string['overduemustbesubmittedby'] = 'Esta tentativa está vencida. Ela já deveria ter sido enviada. Se você quiser que este questionário seja avaliado, você deve enviá-lo até {$a}. Se você não enviar até até lá, nenhuma nota dessa tentativa será levada em conta.';

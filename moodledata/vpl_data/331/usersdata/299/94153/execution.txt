@@ -1,0 +1,59 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>forneça quantos elementos as listas devem ter: Digite o elemento 1 da lista a: Digite o elemento 2 da lista a: Digite o elemento 3 da lista a: Digite o elemento 4 da lista a: Digite o elemento 5 da lista a: Digite o elemento 6 da lista a: Digite o elemento 1 da lista b: Digite o elemento 2 da lista b: Digite o elemento 3 da lista b: Digite o elemento 4 da lista b: Digite o elemento 5 da lista b: Digite o elemento 6 da lista b: Digite o elemento 1 da lista c: Digite o elemento 2 da lista c: Digite o elemento 3 da lista c: Digite o elemento 4 da lista c: Digite o elemento 5 da lista c: Digite o elemento 6 da lista c: S
+>N
+>N
+>N
+>S
+>N
+>N
+>N
+>N
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

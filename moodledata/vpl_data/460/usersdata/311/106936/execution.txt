@@ -1,0 +1,43 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 7 
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+>13
+>5
+>4
+>2
+>3
+>0
+>-3
+
+ --- Program output ---
+>Digite o numero de elementos: Digite o A1: Digite o A2: Digite o A3: Digite o A4: Digite o A5: Digite o A6: Digite o A7: Digite o A1: Digite o A2: Digite o A3: Digite o A4: Digite o A5: Digite o A6: Digite o A7: Traceback (most recent call last):
+>  File "lecker.py", line 12, in <module>
+>    if conjunto [0] > conjunto[1]:
+>NameError: name 'conjunto' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

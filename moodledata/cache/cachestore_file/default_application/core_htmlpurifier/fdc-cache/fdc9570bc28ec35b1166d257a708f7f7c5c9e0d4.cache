@@ -1,0 +1,38 @@
+s:842:"<b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 2
+5
+10
+20
+30
+40
+50
+1
+2
+3
+4
+5
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>Digite o numero de elementos(coluna): Digite o numero de listas (linhas): Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: Digite o numero abaixo: 15.00
+5.48
+35.00
+5.48
+25.50
+24.99
+2.50
+0.87
+4.50
+0.87
+</i></pre>
+<br /> --- Expected output (regular expression)---
+<br /><pre><i>30\.0[0-9]*
+15\.81[0-9]*
+3\.0[0-9]*
+1\.58[0-9]*
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  1  test run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

@@ -26,5 +26,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['cohortroles'] = '';
+$string['selectcohorts'] = 'Selecionar coortes';
 $string['selectrole'] = 'Selecionar papel';
 $string['selectusers'] = 'Selecionar usuários para atribui papel';
+$string['taskname'] = 'Sincronizar atribuição de papéis do coorte';
+$string['thisuserroles'] = 'Papéis atribuídos a este usuário';

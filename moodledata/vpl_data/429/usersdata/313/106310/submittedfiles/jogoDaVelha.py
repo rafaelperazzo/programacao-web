@@ -1,0 +1,19 @@
+m = []
+class jogadainvalida(Exception):pass
+def mostraTabuleiro(m):
+    print ("""
+    ----------------
+    | %s | %s | %s |
+    ----------------
+    | %s | %s | %s |
+    ----------------
+    | %s | %s | %s |
+    ----------------
+    """) 
+    %(m[0][0],m[0][1],m[0][2],m[1][0],m[1][1],m[1][2],m[2][0],m[2][1],m[2][2]))
+    linha1=[' ',' ',' ']
+    linha2=[' ',' ',' ']
+    linha3=[' ',' ',' ']
+    matriz=[linha1,linha2,linha3]
+mostraTabuleiro(m)
+

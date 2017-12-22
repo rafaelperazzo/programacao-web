@@ -35,4 +35,4 @@ $string['pluginnameadding'] = 'Adicionando um arrastar e soltar sobre texto';
 $string['pluginnameediting'] = 'Edição de um arrastar e soltar sobre texto';
 $string['pluginname_help'] = 'Digite algum texto da questão como "O [[1]] saltou sobre as [[2]]" e, em seguida, insira as palavras possíveis para serem inseridas nos intervalos 1 e 2 abaixo.';
 $string['pluginname_link'] = 'question/type/ddwtos';
-$string['pluginnamesummary'] = 'Faltando palavras alguns textos são preenchidos usando arrastar e soltar.';
+$string['pluginnamesummary'] = 'As palavras que faltam no texto da questão são preenchidas utilizando o arrastar e soltar.';

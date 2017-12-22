@@ -1,0 +1,53 @@
+import time
+# INICIALIZA VARIAVEIS GLOBAIS
+
+grupos = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+
+grupos_sorteados = [-1, -1, -1, -1, -1, -1, -1]
+
+membros= [['Gabriel', 'Levy', 'Marcos'],
+['Antonio Marcos', 'Nelson', 'Pedro', 'Renan'],
+['Antonio Segundo', 'Carlos Edmundo', 'Igor', 'Sibelle'],
+['Fabio', 'Marlon', 'Thayna'],
+['Alane', 'Caroline', 'Maria', 'Rafaela'],
+['Jose Igor', 'Klinsmann', 'Mateus', 'Victor'],
+['Carlos Eduardo', 'Nicholas Pereira', 'Nikolas Sivini'],
+['Andre']]
+
+datas= ['27/11 (Seg) - 1º (14:10-14:35)','27/11 (Seg) - 2º (14:35-15:05)',
+'27/11 (Seg) - 3º (15:05-15:30)','27/11 (Seg) - 4º (15:30-15:55)',
+'29/11 (Qua) - 1º (14:10-14:35)','29/11 (Qua) - 2º (14:35-15:05)',
+'29/11 (Qua) - 3º (15:05-15:30)']
+
+datas_sorteadas = [-1, -1, -1, -1, -1, -1, -1]
+    
+# FUNCOES DO PROGRAMA
+def sorteio(tipo):
+
+    return
+
+def mostra_sorteado(tipo, indice):
+
+    return
+
+# PROGRAMA PRINCIPAL
+print(' ------------------------------------------------ ')
+print(' Olá, turma! Iniciaremos o sorteio em 10 segundos ')
+print(' ------------------------------------------------ ')
+time.sleep(10)
+print(' Vamos lá... \n')
+time.sleep(2)
+for i in range(1,8,1):
+    input(' Pressione ENTER para sortear o %dº grupo...' % i)
+    indice_grupo = sorteio('G')
+    time.sleep(2)
+    mostra_sorteado('G',indice_grupo)
+    input(' Pressione ENTER para sortear a %dª data...' % i)
+    indice_data = sorteio('D')
+    time.sleep(3)
+    mostra_sorteado('D',indice_data)
+time.sleep(2)
+print(' ------------------------------------------------ ')
+print('           Ordem de apresentação do P1 ')
+print(' ------------------------------------------------ ')
+ 

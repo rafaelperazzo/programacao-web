@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+import math
+
+a = int(input('Insira A: '))
+b = int(input('Insira B: '))
+
+mdc = 0
+c = 2
+while c<= a:
+    if a%c == 0 and b%c == 0:
+        mdc = c
+    c = c + 1
+print (mdc)

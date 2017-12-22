@@ -1,0 +1,33 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>5
+>7
+>8
+>2
+>1
+>4
+>5
+>3
+>0
+>8
+>6
+>9
+
+ --- Program output ---
+>Digite a quantidade de colunas: Digite a quantidade de linhas: Digite o 1 numero da linha: Digite o 1 numero da linha: Digite o 1 numero da linha: Digite o 1 numero da linha: Digite o 2 numero da linha: Digite o 2 numero da linha: Digite o 2 numero da linha: Digite o 2 numero da linha: Digite o 3 numero da linha: Digite o 3 numero da linha: Digite o 3 numero da linha: Digite o 3 numero da linha:
+
+ --- Expected output (text)---
+> '[[ 9.  6.  8.  0.]
+> [ 3.  5.  4.  1.]
+> [ 2.  8.  7.  5.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

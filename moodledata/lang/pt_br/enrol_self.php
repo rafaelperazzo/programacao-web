@@ -52,7 +52,7 @@ $string['enrolperiod_help'] = 'Intervalo de tempo no qual a inscrição é váli
 $string['enrolstartdate'] = 'Data de início';
 $string['enrolstartdate_help'] = 'Se habilitado, os usuários só podem inscrever-se apenas a partir desta data.';
 $string['expiredaction'] = 'Ação de expiração de Inscrição';
-$string['expiredaction_help'] = 'Escolha que determina quando a matrícula do usuário expira. Por favor, note que alguns dados e configurações do usuário são removidos naturalmente durante a desinscrição no curso.';
+$string['expiredaction_help'] = 'Selecione a ação a ser realizada quando a inscrição do usuário terminar. Por favor, observe que alguns dados e configurações do usuário são removidos do curso durante a desinscrição no curso.';
 $string['expirymessageenrolledbody'] = 'Caro {$a->user},
 
 Esta é uma notificação de que sua inscrição no curso &quot;{$a->course}&quot; expira em {$a->timeend}.

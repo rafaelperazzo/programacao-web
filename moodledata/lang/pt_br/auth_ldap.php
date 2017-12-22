@@ -70,7 +70,7 @@ $string['auth_ldap_noconnect_all'] = 'LDAP - O módulo não conseguiu se conecta
 $string['auth_ldap_noextension'] = '<em>O módulo LDAP para o PHP parece não estar presente. Por favor, certifique-se que ele está instalado e habilitado se você quiser usar este plugin de autenticação.</em>';
 $string['auth_ldap_no_mbstring'] = 'Você precisa da extensão mbstring para criar usuários no Active Directory.';
 $string['auth_ldapnotinstalled'] = 'Não foi possível usar a autenticação LDAP. O módulo LDAP do PHP não foi instalado.';
-$string['auth_ldap_objectclass'] = 'O filtro usado para a busca de nomes dos usuários. Normalmente é definido algo semelhante a objectClass=posixAccount . O padrão objectClass=* retorna todos os objetos do LDAP.';
+$string['auth_ldap_objectclass'] = 'Opcional: Sobrescreve objectClass usado para nomear/procurar usuários em ldap_user_type. Geralmente, você não precisa alterar isto.';
 $string['auth_ldap_objectclass_key'] = 'Classe do objeto';
 $string['auth_ldap_opt_deref'] = 'Determina como os aliases são tratados durante a busca. Escolha um dos seguintes valores:
 "Não" (LDAP_DEREF_NEVER) or "Sim" (LDAP_DEREF_ALWAYS)';
@@ -101,7 +101,7 @@ $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Marque sim para tentar uma inscrição única no domínio NTLM.
 <strong>Nota:</strong> isso requer configurações adicionais no servidor web para que funcione. Veja <a href="http://docs.moodle.org/en/NTLM_authentication">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Ativar';
-$string['auth_ntlmsso_ie_fastpath'] = 'Defina como “Sim” para habilitar o caminho rápido NTLM  SSO (ignora certos passos e só funciona se o navegador do cliente é o MS Internet Explorer)';
+$string['auth_ntlmsso_ie_fastpath'] = 'Defina como “Sim” para habilitar o caminho rápido NTLM  SSO (ignora certos passos se o navegador do cliente é o MS Internet Explorer)';
 $string['auth_ntlmsso_ie_fastpath_attempt'] = 'Tentar NTLM em todos os navegadores';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'Caminho mais rápido para o MS IE?';
 $string['auth_ntlmsso_ie_fastpath_yesattempt'] = 'Sim, tentar NTLM com outros navegadores';

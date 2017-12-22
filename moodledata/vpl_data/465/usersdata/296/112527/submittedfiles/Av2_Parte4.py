@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+n = int(input("Digite a dimensão da matriz: "))
+matriz = []
+for i in range (0,n,1):
+    lista=[]
+    for j in range (0,n,1):
+        lista.append(int(input("Digite o custo de transporte: ")))
+    matriz.append(lista)
+print(matriz)
+c = int(input("Digite a quantidade de cidades do seu itinerário: "))
+while not c>=2:
+    c = int(input("Dígito inválido! Digite a quantidade de cidades do seu itinerário: "))
+lista1 = []
+for i in range (0,c,1):
+    lista1.append(int(input("Digite os elementos do seu intinerário: ")))
+print(lista1)
+lista1[0] = a
+lista1[1] = b
+lista1[2] = c
+lista1[3] = d
+lista1[4] = c
+lista1[5] = d
+lista1[6] = e

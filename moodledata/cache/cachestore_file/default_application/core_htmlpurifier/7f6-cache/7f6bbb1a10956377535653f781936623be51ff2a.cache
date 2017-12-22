@@ -1,0 +1,8 @@
+s:1630:"<p> </p>
+<p>Pessoal,</p>
+<p>Estamos enfrentando problemas para rodar o Python pelo ambiente virtual ao utilizá-lo fora da rede da UFCA. A DTI já foi acionada, mas não sei quando o problema vai ser resolvido e nem se eles vão trabalhar amanhã para solucioná-lo. Parece que o problema tem origem em alguma configuração que fizeram por lá, mas infelizmente não posso fazer nada a não ser aguardá-los, pois não tenho permissão nem prerrogativas de acesso ao servidor.</p>
+<p>O que eu recomendo fortemente a vocês é:</p>
+<ol><li>Estudem e façam os exercícios testando localmente, usando o Python 3.6 do Anaconda/Spider, ou baixando outro ambiente, se acharem mais fácil e rápido. Existem várias opções na Internet. É só ir pelo Google e procurar por "Python 3.6 IDE".</li>
+<li>Para os exercícios com prazo até 03/12, vocês podem fazer localmente e testar quantas vezes for necessário para garantir que está correto... e só depois transcrever para o envio pelo ambiente virtual. Infelizmente o botão "Avaliar" não vai funcionar. Porém, na semana que vem, quando eu estiver na UFCA, poderei clicar no "Avaliar" por vocês e computar as notas desses exercícios. Entretanto, o prazo final para o envio permanece em 03/12 às 23:55.</li>
+</ol><p>Vamos torcer que o servidor Python volte até o domingo, porém, como o tempo está passando, vocês precisam partir para esse plano B, pois a prova já é segunda e não temos como fazer logística para outra data devido à questão de separação das turmas e alocação do laboratório nos horários fora de nossas aulas.</p>
+<p>Bons estudos.</p>";

@@ -1,0 +1,63 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite os valores da lista: digite os valores de a: digite os valores de a: digite os valores de a: digite os valores de a: digite os valores de a: digite os valores de a: digite os valores de b: digite os valores de b: digite os valores de b: digite os valores de b: digite os valores de b: digite os valores de b: digite os valores de c: digite os valores de c: digite os valores de c: digite os valores de c: digite os valores de c: digite os valores de c: S
+>N
+>N
+>N
+>S
+>N
+>N
+>N
+>S
+>Traceback (most recent call last):
+>  File "funcoes1.py", line 69, in <module>
+>    A
+>NameError: name 'A' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

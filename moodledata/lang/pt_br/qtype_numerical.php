@@ -102,9 +102,9 @@ $string['unitx'] = 'Unidade {no}';
 $string['validnumberformats'] = 'Formatos válidos de números';
 $string['validnumberformats_help'] = '* números regulares 13500.67 : 13 500.67 : 13500,67: 13 500,67
 
-* se você utilizar vírgula (,) como separador de milhares, SEMPRE utilize ponto (.) como separador de decimais, como em 13,500.67 : 13,500.
+* se a configuração do seu pacote de idiomas utiliza vírgula (,) como separador de milhares, SEMPRE utilize ponto (.) como separador de decimais, como em 13,500.67 : 13,500.
 
-* para formato de expoente para 1.350067 * 10<sup>4</sup>, use 1.350067 E4 : 1.350067 E04';
+* para formato de expoente para 1.350067 * 10<sup>4</sup>, utilize 1.350067 E4 : 1.350067 E04';
 $string['validnumbers'] = '13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 ou 1.350067 E04';
 $string['xmustbenumeric'] = '{$a} deve ser um número.';
 $string['xmustnotbenumeric'] = '{$a} não pode ser um número.';

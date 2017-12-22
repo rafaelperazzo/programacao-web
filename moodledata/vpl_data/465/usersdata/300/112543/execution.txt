@@ -1,0 +1,66 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>13
+>25
+>42
+>4
+>1
+>0
+>1
+>1
+
+ --- Program output ---
+>Digite o valor de n: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite o valor de c: Digite um elemento de b: Digite um elemento de b: Digite um elemento de b: Digite um elemento de b: Traceback (most recent call last):
+>  File "Av2_Parte4.py", line 17, in <module>
+>    s = s + a[c[i]][c[i+1]]
+>TypeError: 'int' object is not subscriptable
+
+ --- Expected output (numbers)---
+>68
+
+-Test 2: Teste 2 (-1.000)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>13
+>25
+>42
+>3
+>1
+>0
+>1
+
+ --- Program output ---
+>Digite o valor de n: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite um elemento de a: Digite o valor de c: Digite um elemento de b: Digite um elemento de b: Digite um elemento de b: Traceback (most recent call last):
+>  File "Av2_Parte4.py", line 17, in <module>
+>    s = s + a[c[i]][c[i+1]]
+>TypeError: 'int' object is not subscriptable
+
+ --- Expected output (numbers)---
+>26
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

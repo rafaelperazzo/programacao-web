@@ -1,0 +1,51 @@
+s:1470:"<b>Failed tests</b><br />Test 1: Teste 1
+<br />Test 2: Teste 2
+<br /><b>Test 1: Teste 1 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+10
+2
+3
+2
+7
+2
+4
+5
+11
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite a quantidade de linhas e colunas: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: Traceback (most recent call last):
+  File "diagonaldominante.py", line 15, in &lt;module&gt;
+    cont=o
+NameError: name 'o' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'SIM'
+</i></pre>
+<br /><b>Test 2: Teste 2 </b><br />Incorrect program result
+<br /> --- Input ---
+<br /><pre><i> 3
+5
+2
+3
+2
+3
+2
+4
+5
+8
+</i></pre>
+<br /> --- Program output ---
+<br /><pre><i>digite a quantidade de linhas e colunas: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: digite os elementos: Traceback (most recent call last):
+  File "diagonaldominante.py", line 15, in &lt;module&gt;
+    cont=o
+NameError: name 'o' is not defined
+</i></pre>
+<br /> --- Expected output (text)---
+<br /><pre><i> 'NAO'
+</i></pre>
+<br /><b>Summary of tests</b><br /><pre><i>+------------------------------+
+|  2 tests run/ 0 tests passed |
++------------------------------+
+</i></pre>
+<br /><br />";

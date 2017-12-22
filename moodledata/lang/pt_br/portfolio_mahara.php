@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['enableleap2a'] = 'Habilitar o suporte para Portfólio Leap2a (requer Mahara 1.3)';
+$string['enableleap2a'] = 'Habilitar o suporte para Portfólio Leap2a (requer Mahara 1.3 ou superior)';
 $string['err_invalidhost'] = 'Servidor MNet inválido';
 $string['err_invalidhost_help'] = 'Este plugin está mal configurado para apontar para um host do MNet inválido (ou excluído). Este plugin se baseia em pares Moodle Networking com SSO IDP publicou, SSO_SP subscrito e portfólio subscrito <b>e</b> publicado.';
 $string['err_networkingoff'] = 'MNet está desabilitado';

@@ -1,0 +1,44 @@
+# -*- coding: utf-8 -*-
+
+def crescente (lista):
+    for i in range (0,len(lista),1) :
+        if lista[i] > lista[i+1] :
+            break
+        return(True)
+        
+    #escreva o código da função crescente aqui
+
+
+#escreva as demais funções
+def decrescente (lista) :
+    for i in range(0,len(lista),1) :
+        if lista[i] < lista[i+1] :
+            break
+        return(True)
+def iguais (lista) :
+    cont = 0
+    for i in range(0,len(lista),1) :
+        if lista[i] == lista[i+1] :
+            cont = cont + 1
+        if cont > 0 :
+            return(True)
+        else :
+            return(False)
+
+
+#escreva o programa principal
+n = int(input('Digite a quantidade de valores : '))
+a = []
+b = []
+c = []
+for i in range (0,n,1) :
+    valora = int(input('Digite o valor para a lista a : '))
+    a.append (valora)
+for i in range (0,n,1) :
+    valorb = int(input('Digite o valor para a lista b : '))
+    b.append (valorb)
+for i in range (0,n,1) :
+    valor c = int(input('Digite o valor para a lista c : '))
+    c.append (valorc)
+    
+

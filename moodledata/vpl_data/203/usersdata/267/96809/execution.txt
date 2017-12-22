@@ -1,0 +1,46 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-1.000)
+Incorrect program result
+ --- Input ---
+> 5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Quant de elementos: LISTA 1: 
+>Digite os elementos da lista 1: Digite os elementos da lista 1: Digite os elementos da lista 1: Digite os elementos da lista 1: Digite os elementos da lista 1: 
+>LISTA 2: 
+>Digite os elementos da lista 2: Digite os elementos da lista 2: Digite os elementos da lista 2: Digite os elementos da lista 2: Digite os elementos da lista 2: Traceback (most recent call last):
+>  File "estatistica.py", line 32, in <module>
+>    dev_a=desvio(a,media_a)
+>  File "estatistica.py", line 14, in desvio
+>    for i in range(0,a[i],1):
+>UnboundLocalError: local variable 'i' referenced before assignment
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

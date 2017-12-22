@@ -1,0 +1,72 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Failed tests
+Test 1: Teste 1
+Test 2: Teste 2
+--|>
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>3
+>6
+>6
+>8
+>6
+>7
+>4
+>3
+>8
+
+ --- Program output ---
+>Digite a dimensão da matriz: Digite o valor da posição 11: Digite o valor da posição 12: Digite o valor da posição 13: Digite o valor da posição 21: Digite o valor da posição 22: Digite o valor da posição 23: Digite o valor da posição 31: Digite o valor da posição 32: Digite o valor da posição 33: 1.0
+>7.0
+
+ --- Expected output (text)---
+> '1'
+>'7'
+
+-Test 2: Teste 2 (-10.000)
+Incorrect program result
+ --- Input ---
+> 4
+>16
+>3
+>2
+>13
+>5
+>10
+>11
+>8
+>8
+>6
+>7
+>12
+>4
+>15
+>14
+>1
+
+ --- Program output ---
+>Digite a dimensão da matriz: Digite o valor da posição 11: Digite o valor da posição 12: Digite o valor da posição 13: Digite o valor da posição 14: Digite o valor da posição 21: Digite o valor da posição 22: Digite o valor da posição 23: Digite o valor da posição 24: Digite o valor da posição 31: Digite o valor da posição 32: Digite o valor da posição 33: Digite o valor da posição 34: Digite o valor da posição 41: Digite o valor da posição 42: Digite o valor da posição 43: Digite o valor da posição 44: 9.0
+>8.0
+
+ --- Expected output (text)---
+> '9'
+>'8'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

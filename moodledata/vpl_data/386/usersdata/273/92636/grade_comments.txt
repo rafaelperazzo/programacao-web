@@ -1,0 +1,2 @@
+Apenas uma equação é resolvida.
+O enunciado pedia para que várias equações fossem pedidas ao usuário. 

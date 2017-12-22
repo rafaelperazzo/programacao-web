@@ -71,7 +71,6 @@ $string['gpl'] = 'General Public License v3';
 $string['h5pfile'] = 'Arquivo H5P';
 $string['hideadvanced'] = 'Esconder avançado';
 $string['hvp:addinstance'] = 'Adicionar uma nova atividade H5P';
-$string['hvp:getcontent'] = 'Obter/visualizar conteúdo de arquivo H5P file do curso';
 $string['hvp:getexport'] = 'Obter arquivo de exportação de H5P em curso';
 $string['hvp:restrictlibraries'] = 'Restringir uma biblioteca H5P';
 $string['hvp:savecontentuserdata'] = 'Salvar dados de usuário do conteúdo H5P';

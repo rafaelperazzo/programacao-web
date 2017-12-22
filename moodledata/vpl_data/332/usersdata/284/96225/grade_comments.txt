@@ -1,0 +1,23 @@
+-Test 3: Teste 4 (-3.333)
+Incorrect program result
+ --- Input ---
+> 7
+>2
+>5
+>10
+>46
+>25
+>12
+>7
+
+ --- Program output ---
+>Digite a quantidade de elementos da lista: digite um valor1: digite um valor2: digite um valor3: digite um valor4: digite um valor5: digite um valor6: digite um valor7: N
+
+ --- Expected output (text)---
+> 'S'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

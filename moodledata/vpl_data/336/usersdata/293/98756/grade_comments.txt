@@ -1,0 +1,20 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 2
+>1
+>2
+>5
+>8
+
+ --- Program output ---
+>Digite o número de linhas da matriz: Digite o elemento da 1ª linhas e da 1ª coluna, respectivamente: Digite o elemento da 1ª linhas e da 2ª coluna, respectivamente: Digite o elemento da 2ª linhas e da 1ª coluna, respectivamente: Digite o elemento da 2ª linhas e da 2ª coluna, respectivamente: S
+
+ --- Expected output (text)---
+> 'N'
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

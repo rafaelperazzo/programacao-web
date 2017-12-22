@@ -1,0 +1,42 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 2
+>5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>digite o número de listas: digite o número de elementos: digite o valor da lista1 e posição1 : digite o valor da lista1 e posição2 : digite o valor da lista1 e posição3 : digite o valor da lista1 e posição4 : digite o valor da lista1 e posição5 : digite o valor da lista2 e posição1 : digite o valor da lista2 e posição2 : digite o valor da lista2 e posição3 : digite o valor da lista2 e posição4 : digite o valor da lista2 e posição5 : 30.00
+>22.36
+>3.00
+>1.12
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

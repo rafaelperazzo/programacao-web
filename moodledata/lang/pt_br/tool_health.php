@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['healthnoproblemsfound'] = 'Nenhum problema de saúde encontrado!';
+$string['healthnoproblemsfound'] = 'Nenhum problema encontrado!';
 $string['healthproblemsdetected'] = 'Problemas de saúde detectados!';
 $string['healthproblemsolution'] = 'Solução para problema de saúde';
 $string['healthreturntomain'] = 'Continuar';

@@ -1,0 +1,37 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>4
+>0
+>0
+>0
+>1
+>0
+>0
+>1
+>1
+>0
+>0
+>0
+>0
+
+ --- Program output ---
+>Digite a quantidade de linhas da matriz: Digite a quantidade de colunas da matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Digite um elemento para a matriz: Traceback (most recent call last):
+>  File "matriz1.py", line 48, in <module>
+>    g = verifica_coluna_nula (matriz)
+>  File "matriz1.py", line 35, in verifica_coluna_nula
+>    if not matriz[j][i]==0:
+>NameError: name 'j' is not defined
+
+ --- Expected output (text)---
+> '[[ 0.  1.]
+> [ 1.  1.]]'
+>
+>
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

@@ -1,0 +1,11 @@
+case = Teste 1
+input = max
+max
+max
+Max
+output = ENTROU
+
+case = Teste 2
+input = root
+123
+output = ENTROU

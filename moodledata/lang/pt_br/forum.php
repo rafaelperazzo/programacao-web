@@ -96,7 +96,7 @@ $string['configcleanreadtime'] = 'Hora do dia em que as mensagens antigas serão
 $string['configdigestmailtime'] = 'Quem escolher esta opção receberá todas as mensagens do fórum agrupadas em um sumário diário. Esta opção controla a hora do dia em que a mensagem diária é enviada (o primeiro cron depois deste horário fará o envio).';
 $string['configdisplaymode'] = 'Modalidade de visualização das discussões predefinida, se uma outra não for configurada.';
 $string['configenablerssfeeds'] = 'Esta opção ativa a possibilidade de gerar alimentadores RSS nos fóruns. É necessário configurar cada fórum para que sejam gerados os feeds correspondentes.';
-$string['configenabletimedposts'] = 'Escolher \'sim\' para permitir a configuração de períodos de exibição de novas discussões (funcionalidade ainda em fase de testes)';
+$string['configenabletimedposts'] = 'Defina para \'sim\' se você quiser permitir a configuração dos períodos de exibição ao postar uma nova discussão no fórum.';
 $string['configlongpost'] = 'Todas as mensagens maiores que esta dimensão (sem contar o html) são consideradas longas.';
 $string['configmanydiscussions'] = 'Número máximo de discussões mostrado em um fórum, por página.';
 $string['configmaxattachments'] = 'Número máximo padrão de anexos permitido por mensagem.';
@@ -234,7 +234,7 @@ $string['forum:addquestion'] = 'Adicionar questão';
 $string['forum:allowforcesubscribe'] = 'Permitir forçar assinatura';
 $string['forumauthorhidden'] = 'Autor (oculto)';
 $string['forumblockingalmosttoomanyposts'] = 'Você está atingindo o limite máximo de mensagens. Você publicou {$a->numposts} vezes nos últimos {$a->blockperiod} e o limite é de {$a->blockafter} mensagens.';
-$string['forumbodyhidden'] = 'Você não pode ver esta mensagem provavelmente porque ainda não publicou nada nesta discussão.';
+$string['forumbodyhidden'] = 'Este post não pode ser visualizada por você, provavelmente porque você ainda não postou na discussão, o tempo máximo de edição ainda não terminou, a discussão não iniciou ou a discussão expirou.';
 $string['forum:canposttomygroups'] = 'Pode enviar a todos os grupos que você tem acesso';
 $string['forum:createattachment'] = 'Criar anexos';
 $string['forum:deleteanypost'] = 'Cancelar todas as mensagens (sempre)';
@@ -412,9 +412,10 @@ $string['postbymailsuccess'] = 'Parabéns, o seu post no fórum com o assunto "{
 $string['postbymailsuccess_html'] = 'Parabéns, o seu <a href="{$a->discussionurl}">post no fórum</a> com o assunto "{$a->subject}" foi publicado com sucesso.';
 $string['postbyuser'] = '{$a->post} por {$a->user}';
 $string['postincontext'] = 'Veja esta mensagem em seu contexto';
-$string['postmailinfo'] = 'Esta é a cópia de uma mensagem enviada ao fórum do website {$a}.
-Clique o link abaixo para consultar as mensagens no site e participar das discussões:';
-$string['postmailinfolink'] = 'Esta é uma cópia da mensagem postada no {$a->coursename} website.
+$string['postmailinfo'] = 'Esta é uma cópia de uma mensagem postada no site {$a}.
+
+Para respondê-la, clique neste link:';
+$string['postmailinfolink'] = 'Esta é uma cópia da mensagem postada no {$a->coursename}.
 
 Para respondê-la clique neste link: {$a->replylink}';
 $string['postmailnow'] = '<p>Esta mensagem será enviada imediatamente para todos os assinantes deste fórum.</p>';
@@ -447,7 +448,7 @@ $string['reply'] = 'Responder';
 $string['replyforum'] = 'Responder ao fórum';
 $string['reply_handler'] = 'Responder a posts no fórum por e-mail';
 $string['reply_handler_name'] = 'Responder a posts no fórum';
-$string['replytopostbyemail'] = 'Se responder esta mensagem diretamente via e-mail, por favor, não inclua uma cópia do post que você está respondendo';
+$string['replytopostbyemail'] = 'Você pode responder por e-mail.';
 $string['replytouser'] = 'Usar endereço email na resposta';
 $string['resetdigests'] = 'Excluir todas as configurações de email por usuário';
 $string['resetforums'] = 'Excluir as mensagens de';
@@ -500,7 +501,7 @@ $string['subscribe'] = 'Assinar este fórum';
 $string['subscribeall'] = 'Inscrever todos os participantes neste fórum';
 $string['subscribed'] = 'Assinante';
 $string['subscribediscussion'] = 'Inscrever-se neste debate';
-$string['subscribeenrolledonly'] = 'Lamento, apenas usuários registrados podem suscreverem-se nos fóruns para receber mensagens por correio eletrónico.';
+$string['subscribeenrolledonly'] = 'Desculpe, apenas os usuários inscritos podem assinar o fórum para receber as notificações de postagem.';
 $string['subscribenone'] = 'Cancelar a inscrição de todos os participantes deste fórum';
 $string['subscribers'] = 'Assinantes';
 $string['subscribersto'] = 'Assinantes de "{$a->name}"';
@@ -534,7 +535,7 @@ $string['tracking'] = 'Monitorar';
 $string['trackingoff'] = 'Desativar';
 $string['trackingon'] = 'Forçado';
 $string['trackingoptional'] = 'Opcional';
-$string['trackingtype'] = 'Monitorar a leitura deste fórum?';
+$string['trackingtype'] = 'Monitorar leitura';
 $string['trackingtype_help'] = '<p>Se a opção \'monitorar leitura\' dos fóruns estiver ativada, os usuários podem monitorar as mensagens lidas e não-lidas em fóruns e discussões. O moderador pode escolher se forçar um tipo de monitoramento no fórum.
 </p>
 

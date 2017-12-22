@@ -1,0 +1,1 @@
+O programa resolve apenas 1 equação, o enunciado pediu várias equações. 

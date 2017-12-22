@@ -1,0 +1,22 @@
+-Test 3: Teste 3 (-3.333)
+Incorrect program result
+ --- Input ---
+> 5
+>-10
+>-5
+>2
+>4
+>9
+
+ --- Program output ---
+>quantidade de elementos: elementos para a: elementos para a: elementos para a: elementos para a: elementos para a: 5
+
+ --- Expected output (text)---
+> '7'
+>
+
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+

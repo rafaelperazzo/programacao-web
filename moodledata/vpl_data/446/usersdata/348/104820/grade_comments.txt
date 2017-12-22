@@ -1,0 +1,26 @@
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>10
+>2
+>3
+>2
+>7
+>2
+>4
+>5
+>11
+
+ --- Program output ---
+>informe o tamanho da MATRIZ: informe os elementos: informe os elementos: informe os elementos: informe os elementos: informe os elementos: informe os elementos: informe os elementos: informe os elementos: informe os elementos: 28
+>NAO
+
+ --- Expected output (text)---
+> 'SIM'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

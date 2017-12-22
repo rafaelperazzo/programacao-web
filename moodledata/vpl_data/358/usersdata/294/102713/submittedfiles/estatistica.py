@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+
+def media(lista):
+    soma = 0
+    for i in range(0,len(lista),1):
+        soma = soma + lista[i]
+    resultado = soma/len(lista)
+    return resultado
+
+#Baseado na função acima, escreva a função para calcular o desvio padrão de uma lista
+def desvio_padrao()
+    
+
+#Por último escreva o programa principal, que pede a entrada e chama as funções criadas. 
+m= int(input('Digite a quantidade de listas: '))
+for i in range (0,m,1):
+    n= int(input('Digite a quantidade de elementos da lista%d: ' %(i+1)))

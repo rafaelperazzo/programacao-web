@@ -1,0 +1,35 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 2
+>5
+>10
+>20
+>30
+>40
+>50
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>insira a quantidade de listas:insira a quantidade de elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:digite os elementos:Traceback (most recent call last):
+>  File "estatistica.py", line 33, in <module>
+>    v.append(dp(mat[i],v[i*2]))
+>  File "estatistica.py", line 15, in dp
+>    soma = soma + (((lista[i] - resultado))**2.0/(len(lista)-1))
+>NameError: name 'resultado' is not defined
+
+ --- Expected output (regular expression)---
+>30\.0[0-9]*
+>15\.81[0-9]*
+>3\.0[0-9]*
+>1\.58[0-9]*
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

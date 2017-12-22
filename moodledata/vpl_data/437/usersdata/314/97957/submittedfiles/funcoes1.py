@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+#escreva o código da função crescente aqui
+
+            
+#escreva as demais funções
+def lerLista(lista, quantidade, letra) :
+    for i in range(0, quantidade, 1):
+        lista.append(int(input('Digite o {}º elemento da lista {}: ' .format(i+1, letra))))
+        
+def imprimeLista(lista) :
+    print(lista)
+
+n = int(input('Digite n: '))
+
+a = []
+b = []
+c = []
+
+lerLista(a, n, "A")
+lerLista(b, n, "B")
+lerLista(c, n, "C")
+
+imprimeLista(a)
+imprimeLista(b)
+imprimeLista(c)

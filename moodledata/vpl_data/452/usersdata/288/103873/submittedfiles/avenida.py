@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+m=0
+n=0 
+while 2<=m<=1000:
+    m=int(input("Digite a quantidade de quadras norte-sul: "))
+while 2<=n<=1000:
+    n=int(input("Digite a quantidade de quadras leste-oeste: "))
+matriz=[]
+i=0
+j=0
+for i in range (0,m,1):
+    if 0<=i<=m-1:
+        linha=[]
+        for j in range (0,n,1):
+           if 0<=j<=n-1:
+                linha.append (int(input("Digite um valor para a quadra: "))) 
+    matriz.append(linha)            
+print (matriz)

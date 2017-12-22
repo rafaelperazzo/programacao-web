@@ -1,0 +1,56 @@
+Testing 1/1 : Teste 1
+
+<|--
+-Test 1: Teste 1 (-2.000)
+Incorrect program result
+ --- Input ---
+> 6 
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>informe a quantidade de elementos: informe o 1° elemento da lista1: informe o 2° elemento da lista1: informe o 3° elemento da lista1: informe o 4° elemento da lista1: informe o 5° elemento da lista1: informe o 6° elemento da lista1: [1, 2, 3, 4, 5, 6]
+>informe o 1° elemento da lista2: informe o 2° elemento da lista2: informe o 3° elemento da lista2: informe o 4° elemento da lista2: informe o 5° elemento da lista2: informe o 6° elemento da lista2: [7, 6, 5, 4, 3, 2]
+>informe o 1° elemento da lista3: informe o 2° elemento da lista3: informe o 3° elemento da lista3: informe o 4° elemento da lista3: informe o 5° elemento da lista3: informe o 6° elemento da lista3: [9, 8, 8, 8, 9, 1]
+>S
+>N
+>N
+>S
+>N
+>S
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

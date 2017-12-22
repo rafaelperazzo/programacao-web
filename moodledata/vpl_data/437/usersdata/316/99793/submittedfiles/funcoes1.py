@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+notas=[]
+for i in range(0,5,1):
+    notas.append(float(input('digite a nota:') %(i+1)))
+print(notas)
+
+
+
+
+
+
+
+
+
+
+
+l1=int(input('digite o numero de elementos da lista:'))
+i=1
+while i<=l1:
+    e=int(input('digite um numero:'))
+    i=i+1
+
+l2=int(input('digite o numero de elementos da lista:'))
+i=1
+while i<=l2:
+    e=int(input('digite um numero:'))
+    i=i+1
+        
+l3=int(input('digite o numero de elementos da lista:'))
+i=1
+while i<=l3:
+    e=int(input('digite um numero:'))
+    i=i+1
+        
+        
+        
+        
+        
+        
+        
+        
+        
+def crescente (lista):
+    n=int(input('digite o numero de elementos da lista:'))
+    i=1
+    while i<n:
+        e=int(input('digite um numero:'))
+        i=i+1
+
+#escreva as demais funções
+
+
+
+
+
+#escreva o programa principal

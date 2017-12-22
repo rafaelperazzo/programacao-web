@@ -122,6 +122,7 @@ $string['lastviewed'] = 'Você recebeu este certificado pela última vez em:';
 $string['letter'] = 'Carta';
 $string['lockingoptions'] = 'Bloquear Opções';
 $string['modulename'] = 'Certificado';
+$string['modulename_help'] = 'Este módulo permite a geração dinâmica de certificados com base em condições predefinidas estabelecidas pelo professor.';
 $string['modulenameplural'] = 'Certificados';
 $string['mycertificates'] = 'Meus certificados';
 $string['nocertificates'] = 'Não existem certificados';

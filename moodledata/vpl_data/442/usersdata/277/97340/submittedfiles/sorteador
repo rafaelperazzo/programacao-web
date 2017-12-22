@@ -1,0 +1,38 @@
+import time
+# INICIALIZA VARIAVEIS GLOBAIS
+
+grupos = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+
+membros= [['Gabriel', 'Levy', 'Marcos'],
+['Antonio Marcos', 'Nelson', 'Pedro', 'Renan'],
+['Antonio Segundo', 'Carlos Edmundo', 'Igor', 'Sibelle'],
+['Fabio, Marlon, Thayna],
+['Alane, Caroline, Maria, Rafaela],
+['Jose Igor, Klinsmann, Mateus, Victor],
+['Carlos Eduardo, Nicholas Pereira, Nikolas Sivini],
+['Andre']]
+
+datas= ['27/11 (Seg) - 1º (14:10-14:35)','27/11 (Seg) - 2º (14:35-15:05)',
+'27/11 (Seg) - 3º (15:05-15:30)','27/11 (Seg) - 4º (15:30-15:55)',
+'29/11 (Qua) - 1º (14:10-14:35)','29/11 (Qua) - 2º (14:35-15:05)',
+'29/11 (Qua) - 3º (15:05-15:30)']
+    
+# FUNCOES DO PROGRAMA
+def sorteio(tipo):
+
+    return
+
+def mostra_sorteado(indice):
+
+    return
+
+# PROGRAMA PRINCIPAL
+print('
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 

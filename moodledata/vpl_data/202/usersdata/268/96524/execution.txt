@@ -1,0 +1,40 @@
+Testing 1/2 : Teste 1
+Testing 2/2 : Teste 2
+
+<|--
+-Test 1: Teste 1 (-15.000)
+Incorrect program result
+ --- Input ---
+> 5
+>1
+>2
+>3
+>4
+>5
+
+ --- Program output ---
+>Digite o numero de termos : Digite o termo :Digite o termo :Digite o termo :Digite o termo :Digite o termo :1.00
+>5.00
+>3.00
+>Traceback (most recent call last):
+>  File "desvpad.py", line 25, in <module>
+>    print('%.2f'%var)
+>TypeError: can't convert complex to float
+
+ --- Expected output (text)---
+> '1.00'
+>'5.00'
+>'3.00'
+>'1.58'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>>15

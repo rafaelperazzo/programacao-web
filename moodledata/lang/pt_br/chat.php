@@ -85,16 +85,16 @@ $string['methodajax'] = 'Método ajax';
 $string['methoddaemon'] = 'Servidor chat daemon';
 $string['methodnormal'] = 'Método normal';
 $string['modulename'] = 'Chat';
-$string['modulename_help'] = 'O módulo de atividade bate-papo permite que os participantes possa conversar em tempo real.
+$string['modulename_help'] = 'O módulo de atividade chat permite que os participantes possam conversar em tempo real.
 
-A conversa pode ser uma atividade de uma só vez ou pode ser repetido na mesma hora todos os dias ou todas as semanas. Sessões de chat são salvas e podem ser disponibilizados para que todos possam visualizar ou restrito a usuários com a capacidade de visualizar os logs de bate-papo da sessão.
+A conversa pode ser uma atividade de uma só vez ou pode ser repetida na mesma hora todos os dias ou todas as semanas. Sessões de chat são salvas e podem ser disponibilizadas para que todos possam visualizar ou restritas a usuários com a capacidade de visualizar os logs de sessão do chat.
 
-Bate-papo são especialmente úteis quando o bate-papo grupo não é capaz de se encontrarem cara-a-cara, como:
+Chats são especialmente úteis quando um grupo de bate-papo não é capaz de se encontrar cara-a-cara, como:
 
-* As reuniões regulares dos estudantes que participam de cursos on-line para que possam compartilhar experiências com outros no mesmo curso, mas em um local diferente
-* Um estudante temporariamente impossibilitado de comparecer pessoalmente conversar com seu professor para conversar com trabalho
-* Os estudantes fora na experiência de trabalho se reunir para discutir as suas experiências uns com os outros e seu professor
-* As crianças mais novas que usam bate-papo em casa à noite como um (monitorado) introdução controlada ao mundo das redes sociais
+* Reuniões regulares dos estudantes participantes de cursos online para que possam compartilhar experiências com outros no mesmo curso, mas em um local diferente
+* Um estudante temporariamente impossibilitado de comparecer pessoalmente conversar com seu professor para acompanhar o trabalho
+* Estudantes na experiência de trabalho se reúnem para discutir suas experiências entre si e com seu professor
+* Crianças mais jovens que usam chat em casa à noite como uma introdução controlada (monitorada) para o mundo das redes sociais
 * A sessão de perguntas e respostas com um orador convidado em um local diferente
 * Sessões para ajudar os estudantes a se prepararem para testes em que o professor ou outros estudantes, colocariam exemplos de perguntas';
 $string['modulename_link'] = 'mod/chat/view';

@@ -215,7 +215,7 @@ $string['eolstudentoutoftimenoanswers'] = 'Você não respondeu nenhuma questão
 $string['essay'] = 'Dissertação';
 $string['essayemailmessage'] = '<p>Dissertação:<blockquote>{$a->question}</blockquote></p><p>Resposta:<blockquote><em>{$a->response}</em></blockquote></p><p>{$a->comment}:<blockquote><em>{$a->comment}</em></blockquote></p><p>Nota igual a {$a->earned} sobre {$a->outof} .</p><p>A sua nota foi modificada para {$a->newgrade}&#37;.</p>';
 $string['essayemailmessage2'] = '<p>Questão Ensaio:<blockquote>{$a->question}</blockquote></p><p>Sua resposta:<blockquote><em>{$a->response}</em></blockquote></p><p>Comentário do avaliador:<blockquote><em>{$a->comment}</em></blockquote></p><p>Você recebeu {$a->earned} por {$a->outof} por esta questão de ensaio.</p><p>Sua avaliação para a lição foi modificada para {$a->newgrade}%.</p>';
-$string['essayemailsubject'] = 'A sua nota da questão {$a}';
+$string['essayemailsubject'] = 'Nota disponível para a questão da lição';
 $string['essayresponses'] = 'Respostas dissertativas';
 $string['essays'] = 'Dissertações';
 $string['essayscore'] = 'Nota da dissertação';
@@ -362,47 +362,17 @@ $string['maximumnumberofanswersbranches_help'] = '<p>Este valor determina o núm
     questão ou Painel de Navegação pouco comum tiver sido acrescentada, este parâmetro
     pode ser reduzido para valores mais comuns.</p>';
 $string['maximumnumberofattempts'] = 'Número máximo de tentativas';
-$string['maximumnumberofattempts_help'] = '<p>Este valor determina o número máximo de tentativas que um Aluno tem
-    para responder <b>qualquer</b> uma das questões da lição. No caso de questões
-    que não fornecem a resposta, por exemplo questões de Resposta Breve
-    e questões Numéricas, este valor fornece uma necessária <i>via de fuga</i> para
-    a próxima página da lição. </p>
-
-<p>O valor padrão é 5. Valores menores podem desencorajar o aluno
-    a pensar sobre as questões. Valores maiores podem levar a mais
-    frustração.</p>
-
-<p>Fixar este valor em 1 dá ao aluno apenas uma chance para responder cada
-    questão. Isto dá um tipo de tarefa parecida com o módulo Questionário, exceto
-    que as questões são apresentadas em páginas individuais.</p>
-
-<p>Note que esse valor é um parâmetro global e que ele se aplica a todas as
-    questões da lição, independentemente do seu tipo.</p>
-
-<p>Note que este parâmetro <b>não</b> se aplica ao professor quando estiver verificando as
-    questões ou navegando através da lição. A verificação do número de tentativas
-    baseia-se em valores armazenados na base de dados e as tentativas feitas pelos professores
-    não são registradas. Afinal de contas, o professor deve conhecer as respostas!</p>';
+$string['maximumnumberofattempts_help'] = 'Esta configuração especifica o número máximo de tentativas permitidas para cada questão. Se for respondida repetidamente de forma incorreta, quando o máximo for atingido, a próxima página da lição será mostrada.';
 $string['maximumnumberofattemptsreached'] = 'Número máximo de tentativas atingido - indo para a próxima página';
-$string['mediaclose'] = 'Mostrar botão de encerramento:';
-$string['mediafile'] = 'Pop-up de arquivo';
+$string['mediaclose'] = 'Mostrar botão finalizar';
+$string['mediafile'] = 'Mídia vinculada';
 $string['mediafile_help'] = 'Um arquivo multimídia pode ser enviado para uso na lição. Um link \'Clique aqui para ver o arquivo multimídia desta lição\' será exibido em um bloco chamado \'Arquivo multimídia vinculado\' em cada página da lição.';
 $string['mediafilepopup'] = 'Clique aqui para ver o arquivo multimídia desta lição';
 $string['mediaheight'] = 'Altura da janela <em>popup</em>:';
 $string['mediawidth'] = 'Largura da janela <em>popup</em>:';
 $string['messageprovider:graded_essay'] = 'Notificação da avaliação de dissertação';
 $string['minimumnumberofquestions'] = 'Número mínimo  de questões';
-$string['minimumnumberofquestions_help'] = '<p>Quando uma lição contém um ou mais Painéis de Navegação o professor normalmente deve ativar esse parâmetro. O seu valor determina um limite mínimo do número de questões analisadas quando uma média é calculada, mas <b>sem</b> forçar os estudantes a responderem essa quantidade na lição</p>
-
-<p>Por exemplo, alterando esse parâmetro para, digamos, 20, certificaremos que as notas serão dadas como se os alunos tivessem visto <b>no mínimo</b> esse número de questões. Tomemos o caso de um estudante que só viu uma única ramificação na lição, com 5 páginas, e respondeu corretamente todas as questões associadas a ela. Eles podem preferir terminar a lição (assumindo que haja essa opção no  "topo" dos Painéis de Navegação, uma suposição razoável). Se esse parâmetro estiver desmarcado, a nota dele poderia ser 5 de 5, que é 100%. Entretanto, definido para 20, sua nota cairia para 5 de 20, que é 25%. No caso de outro aluno que passa por todas as seções e lê, digamos, 25 páginas e deixa em branco apenas 2 questões, a nota dele seria 23 de 25, ou seja, 92%.</p>
-
-<p>Se esse parâmetro for usado, a página inicial da lição será mais ou menos assim:</p>
-
-<blockquote><p>Nessa lição esperamos que você responda pelo menos n questões. Você pode tentar mais, se quiser. Entretanto, se você responder menos de n questões, sua nota será calculada como se houvesse n.</p></blockquote>
-
-<p>Obviamente, "n" é substituído pelo valor real do parâmetro dado.</p>
-
-<p>Quando este parâmetro estiver definido, os estudantes verão a quantidade de questões respondidas por eles, e a quantidade esperada pelos professores.</p>';
+$string['minimumnumberofquestions_help'] = 'Esta configuração especifica o número mínimo de questões que serão utilizadas para calcular uma nota para a atividade.';
 $string['missingname'] = 'Inserir apelido';
 $string['modattempts'] = 'Permitir revisão pelo estudante';
 $string['modattempts_help'] = '<p>Isto permitirá que o estudante volte atrás na lição, caso queira mudar suas respostas.</p>';
@@ -518,7 +488,7 @@ $string['pluginname'] = 'Lição';
 $string['pointsearned'] = 'Pontos recebidos';
 $string['postprocesserror'] = 'Ocorreu um erro durante o processamento da mensagem!';
 $string['postsuccess'] = 'Envio bem sucedido';
-$string['practice'] = 'Exercício';
+$string['practice'] = 'Lição para praticar';
 $string['practice_help'] = 'Uma lição prática não aparece no livro de notas.';
 $string['preprocesserror'] = 'Ocorreu um erro durante o pré-processamento!';
 $string['prerequisiteisobsolete'] = 'A opção de pré-requisito da lição esta para ser removida. Por favor, use as restrições de acesso.';
@@ -538,7 +508,7 @@ $string['question'] = 'Questão';
 $string['questionoption'] = 'Modalidade opcional';
 $string['questiontype'] = 'Tipo de questão';
 $string['randombranch'] = 'Página de conteúdo aleatório';
-$string['randompageinbranch'] = 'Questão aleatória de uma seção';
+$string['randompageinbranch'] = 'Questão aleatória dentro de uma página de conteúdo';
 $string['rank'] = 'Classificação';
 $string['rawgrade'] = 'Nota não ponderada';
 $string['receivedcredit'] = 'Créditos recebidos';
@@ -594,7 +564,7 @@ $string['submit'] = 'Enviar';
 $string['submitname'] = 'Enviar nome';
 $string['teacherjumpwarning'] = 'Um destino {$a->cluster} ou um destino {$a->unseen} está sendo usado nesta lição. O destino Próxima Página substituirá o anterior. Faça o login como estudante para testar estes destinos.';
 $string['teacherongoingwarning'] = 'Para testar a pontuação corrente é necessário fazer o login como estudante.';
-$string['teachertimerwarning'] = 'Para testar o timer é necessário fazer o login como estudante.';
+$string['teachertimerwarning'] = 'O temporizador funciona somente para estudantes. Teste o temporizador acessando como estudante.';
 $string['thatsthecorrectanswer'] = 'Esta é a resposta correta';
 $string['thatsthewronganswer'] = 'Esta é a resposta errada';
 $string['thefollowingpagesjumptothispage'] = 'As seguintes páginas tem como destino esta página';
@@ -641,4 +611,4 @@ $string['youmadehighscore'] = 'O seu resultado está incluído entre os melhores
 $string['youranswer'] = 'A sua resposta';
 $string['yourcurrentgradeis'] = 'A sua avaliação atual é {$a}';
 $string['yourcurrentgradeisoutof'] = 'A sua nota atual é {$a->grade} sobre {$a->total}';
-$string['youshouldview'] = 'Você deve visitar pelo menos: {$a}';
+$string['youshouldview'] = 'Você deve responder pelo menos: {$a}';

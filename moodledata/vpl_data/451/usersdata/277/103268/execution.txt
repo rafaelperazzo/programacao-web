@@ -1,0 +1,31 @@
+Testing 1/3 : Teste 1
+Testing 2/3 : Teste 2
+Testing 3/3 : Teste 3
+
+<|--
+-Test 1: Teste 1 (-3.333)
+Incorrect program result
+ --- Input ---
+> 4
+>2
+>1
+>1
+>2
+
+ --- Program output ---
+>Digite o numero de secoes da piscina: Altura da secao 0ª: Altura da secao 1ª: Altura da secao 2ª: Altura da secao 3ª: 2
+
+ --- Expected output (numbers)---
+>2
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  3 tests run/ 2 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 6.67

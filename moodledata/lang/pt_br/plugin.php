@@ -67,9 +67,7 @@ $string['notdownloadable_help'] = 'Pacote ZIP com a atualização não pode ser 
 $string['notdownloadable_link'] = 'admin/mdeploy/notdownloadable';
 $string['notes'] = 'Notas';
 $string['notwritable'] = 'Arquivos do plugin não graváveis';
-$string['notwritable_help'] = 'Você ativou a implantação automática de atualizações e existe uma atualização disponível para este plugin. No entanto, os arquivos do plugin não são graváveis pelo servidor web, impedindo a instalação automática desta atualização.
-
-Você precisa fazer com que o diretório do plugin e todo o seu conteúdo sejam graváveis para poder instalar a atualização disponível automaticamente.';
+$string['notwritable_help'] = 'Os arquivos do plugin não podem ser gravados pelo servidor da Web. O processo do servidor web deve ter acesso de gravação à pasta do plugin e a todos os seus conteúdos. O acesso de gravação à pasta raiz do tipo de plugin fornecido também pode ser necessário.';
 $string['otherplugin'] = '{$a->component}';
 $string['otherpluginversion'] = '{$a->component} ({$a->version})';
 $string['overviewall'] = 'Todos os plugins';
@@ -84,7 +82,7 @@ $string['packagesvalidatingok'] = 'Validação bem sucedida, a instalação pode
 $string['plugincheckall'] = 'Todos os plugins';
 $string['plugincheckattention'] = 'Plugins que requerem atenção';
 $string['pluginchecknone'] = 'Não há plugins que requerem sua atenção agora';
-$string['pluginchecknotice'] = 'Essa página mostra os plugins que podem requerer sua atenção durante a atualização. Itens destacados incluem novos plugins que serão instalados, plugins com novas versões que serão atualizados e plugins que estão faltando. Plugins de terceiros são destacados se houver uma atualização disponível para eles. Recomenda-se que você verifique se há versões mais recentes do plugins disponíveis e atualizar seu código fonte antes de continuar com esta atualização Moodle.';
+$string['pluginchecknotice'] = 'Essa página mostra os plugins que podem requerer sua atenção durante a atualização, como os novos plugins que serão instalados, plugins com novas versões que serão atualizados e plugins que estão faltando, etc.. Plugins de terceiros são mostrados se houver uma atualização disponível para eles. Recomenda-se que você verifique se há versões mais recentes do plugins disponíveis e atualize seu código fonte antes de continuar com esta atualização Moodle.';
 $string['plugindisable'] = 'Desabilitar';
 $string['plugindisabled'] = 'Desabilitado';
 $string['pluginenable'] = 'Habilitar';

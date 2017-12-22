@@ -1,0 +1,65 @@
+Testing 1/2 : teste1
+Testing 2/2 : teste2
+
+<|--
+-Failed tests
+Test 1: teste1
+Test 2: teste2
+--|>
+
+<|--
+-Test 1: teste1 (-15.000)
+Incorrect program result
+ --- Input ---
+>3
+>100
+>50
+>50
+>100
+>0
+>49
+>50
+
+ --- Program output ---
+>  File "OBI.py", line 8
+>    if ´pont1+pont2>=p:
+>            ^
+>SyntaxError: invalid character in identifier
+
+ --- Expected output (text)---
+>'2'
+
+-Test 2: teste2 (-15.000)
+Incorrect program result
+ --- Input ---
+>4
+>235
+>100
+>134
+>0
+>0
+>200
+>200
+>150
+>150
+
+ --- Program output ---
+>  File "OBI.py", line 8
+>    if ´pont1+pont2>=p:
+>            ^
+>SyntaxError: invalid character in identifier
+
+ --- Expected output (text)---
+>'2'
+
+--|>
+
+<|--
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 0 tests passed |
+>+------------------------------+
+
+--|>
+
+Grade :=>> 0

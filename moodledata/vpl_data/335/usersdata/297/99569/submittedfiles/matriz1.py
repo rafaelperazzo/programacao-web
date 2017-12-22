@@ -1,0 +1,113 @@
+# -*- coding: utf-8 -*-
+matriz=[]
+m=int(input('digite o numero de linhas dejado: '))
+n=int(input('digite o numero de colunas dejado: '))
+for i in range(m):
+    linha= []
+    for j in range(n):
+        linha.append(int(input('digite o valor do indice da linha%d e da coluna %d : ' %((i+1),(j+1)))))
+    matriz.append(linha)
+
+linhas_superiores=m
+linhas_inferiores=0
+colunas_da_esquerda=n
+colunas_da_direita=0
+for i in range(m):
+    for j in range(n):
+        if matriz[i][j]==1:
+            if i<linhas_superiores :
+                linhas_superiores=i
+            if i+1>linhas_inferiores:
+                linhas_inferiores=i+1
+            if j<colunas_da_esquerda :
+                colunas_da_esquerda=j
+            if j+1>colunas_da_direita:
+                colunas_da_direita=j+1
+submatriz=[]
+for i in range(linhas_superiores,linhas_inferiores):
+    linha= []
+    for j in range(colunas_da_esquerda,colunas_da_direita):
+        linha.append(matriz[i][j])
+    submatriz.append(linha)
+print(submatriz)
+'''
+#professor se o sr ver esse codigo abaixo testa ele pfvr e ve onde esta o erro de logica dele,pq na parte q ele testa a corte direita,eu coloco pra ele apagar o termo matriz[i][j],com for i in range,mas ele n apga da posição indicada ele apaga do ultimo j
+import numpy as np
+matriz=[]
+m=int(input('digite o numero de linhas da matriz que voceh deseja recortar: '))
+n=int(input('digite o numero de colunas da matriz que voceh deseja recortar: '))
+for i in range(0,m,1):
+    linha=[]
+    for j in range(0,n,1):
+        linha.append(int(input('digite o valor do elemento da linha%d e da coluna%d desejada: '%((i+1),(j+1)))))
+    matriz.append(linha)
+linhaszeradas=0
+linhaszeradas2=0
+colunaszeradas=0
+colunaszeradas2=0
+#corte superior
+for i in range(0,m-1,1) :
+    y=sum(matriz[i])
+    if y > 0 :
+        break
+    else :
+        linhaszeradas=linhaszeradas+1
+if linhaszeradas>0 :
+    for i in range(0,linhaszeradas,1):
+        del matriz[i]
+#corte inferior
+for i in range(m-linhaszeradas-1,0,-1) :
+    r=int(sum(matriz[i]))
+    if r > 0 :
+        break
+    else :
+        linhaszeradas2=linhaszeradas2+1
+if linhaszeradas2>0:
+    for i in range(m-1,m-linhaszeradas2-1,-1):
+        del matriz[i]
+t=0
+#corte direito
+for i in range(0,m-linhaszeradas-linhaszeradas2,1):
+    for j in range(0,n,1) :
+        if i+1<m-linhaszeradas-linhaszeradas2 :
+            t=t+matriz[i][j]+matriz[i+1][j]
+            if t > 0 :
+                break
+            else :
+                colunaszeradas=colunaszeradas+1
+if colunaszeradas > 0:
+    for i in range(0,m-linhaszeradas-linhaszeradas2,1):
+        for j in range(colunaszeradas-1,0,-1):
+            del matriz[i][j]
+#corte esquerdo
+f=0
+for i in range(0,m-linhaszeradas-linhaszeradas2,1):
+    for j in range(n-colunaszeradas-1,0,-1) :
+        f=f+matriz[i][j]
+        if f > 0 :
+            break
+        else :
+            colunaszeradas2=colunaszeradas2+1
+if colunaszeradas2>0 :
+    for i in range(0,m-linhaszeradas-linhaszeradas2,1):
+        for j in range(n-colunaszeradas-colunaszeradas2,n-colunaszeradas-colunaszeradas2-1,-1):
+            del matriz[i][j]
+#saida
+print(matriz)'''
+'''matriz=[]
+m=int(input('digite o numero de linhas da matriz que voceh deseja recortar: '))
+n=int(input('digite o numero de colunas da matriz que voceh deseja recortar: '))
+for i in range(0,m,1):
+    linha=[]
+    for j in range(0,n,1):
+        linha.append(int(input('digite o valor do elemento da linha %d desejada: '%(j+1))))
+    matriz.append(linha)
+indice_superior=m-1
+indice_inferior=0
+indice_superior=0
+indice_superior=n-1
+for i in range(0,m,1):
+    encontrou_na_linha = False
+    for j in range(0,n,1):
+        if matriz[i][j]==1 :'''
+            

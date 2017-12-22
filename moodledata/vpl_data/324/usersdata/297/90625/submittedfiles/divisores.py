@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+import math
+n=int(input('digite o numero de multiplos desejado: '))
+a=int(input('digite o numero desejado a: '))
+b=int(input('digite o numero desejado b: '))
+y=1
+for i in range(1,n+1,1):
+    print(1)
+    t=a*y
+    u=b*y
+    y=y+1
+    if u<t :
+        print('%d'%u)
+        print('%d'%t)
+    elif u==t :
+        print('%d'%u)
+    else :
+        print('%d'%t)
+        print('%d'%u)

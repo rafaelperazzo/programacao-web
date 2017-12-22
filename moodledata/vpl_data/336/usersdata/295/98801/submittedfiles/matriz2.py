@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+import numpy as np 
+cont1=0
+cont2=0
+cont3=0
+n=int(input("Dimensão n da matriz :"))
+while(n<2):
+    n=int(input("Dimensão n da matriz :"))
+matriz=np.empty([n,n])
+matriztrans=np.empty([n,n])
+matrizdiag=np.empty([2,n])
+matrizultprim=np.empty([n,n])
+
+for i in range(n):
+    for j in range(n):
+        matriz[i][j]=float(input("Digite o valor na linha %d e na coluna %d: "%((1+i),(1+j)))
+
+#transposta
+for i in range(n):
+    for j in range(n):
+        matriztrans[i][j] = matriz[j][i]
+        
+for i in range(n):
+    for j in range(n):
+        matrizultprim[i][j]=matriz[i][n-1-j]
+        
+for i in range(n):
+    matrizdiag[0][i]=matriz[i][i]
+for i in range(n):
+    matrizdiag[1][i]=matrizultprim[i][i]
+    
+for i in range(n-1):
+    if sum(matriz[i]) == sum(matriz[i+1]):
+        cont1=cont1+1
+        
+for i in range(n-1):
+    if sum(matriztrans[i]) == sum(matriztrans[i+1]):
+        cont2=cont2+1
+        
+if sum(matrizdiag[0]) == sum(matrizdiag[1]):
+    cont3=cont+1
+    
+if cont1 == n-1 and cont2 == n-1 and cont3 == 1:
+    print("S")
+else:
+    print("N")

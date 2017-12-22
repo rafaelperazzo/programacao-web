@@ -1,0 +1,25 @@
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>1
+>1
+>5
+>2
+>1
+>8
+>5
+>5
+
+ --- Program output ---
+>digite o numero de linhas/colunas que o tabuleiro tera: digite o valor da posição de linha1 e coluna1 : digite o valor da posição de linha1 e coluna2 : digite o valor da posição de linha1 e coluna3 : digite o valor da posição de linha2 e coluna1 : digite o valor da posição de linha2 e coluna2 : digite o valor da posição de linha2 e coluna3 : digite o valor da posição de linha3 e coluna1 : digite o valor da posição de linha3 e coluna2 : digite o valor da posição de linha3 e coluna3 : 25
+
+ --- Expected output (numbers)---
+>20
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

@@ -1,0 +1,28 @@
+-Test 1: Teste 1 (-10.000)
+Incorrect program result
+ --- Input ---
+> 3
+>10
+>2
+>3
+>2
+>7
+>2
+>4
+>5
+>11
+
+ --- Program output ---
+>Digite a ordem da matriz: Digite o elemento 11 da matriz: Digite o elemento 12 da matriz: Digite o elemento 13 da matriz: Digite o elemento 21 da matriz: Digite o elemento 22 da matriz: Digite o elemento 23 da matriz: Digite o elemento 31 da matriz: Digite o elemento 32 da matriz: Digite o elemento 33 da matriz: [[ 10.   2.   3.]
+> [  2.   7.   2.]
+> [  4.   5.  11.]]
+>NAO
+
+ --- Expected output (text)---
+> 'SIM'
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

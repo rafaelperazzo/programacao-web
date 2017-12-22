@@ -1,0 +1,47 @@
+-Test 1: Teste 1 (-20.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>Digite a quantidade de termos da lista: 1° Lista
+>Digite o numero da lista: Digite o numero da lista: Digite o numero da lista: Digite o numero da lista: Digite o numero da lista: Digite o numero da lista: 2° lista
+>Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Digite um numero da lista: Traceback (most recent call last):
+>  File "funcoes1.py", line 48, in <module>
+>    print(crescent(lista0))
+>NameError: name 'crescent' is not defined
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

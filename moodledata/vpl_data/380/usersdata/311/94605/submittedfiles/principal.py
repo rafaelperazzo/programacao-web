@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+
+#COMECE AQUI ABAIXO
+a=[2,1,1]
+n=int(input('Digite seu numero: '))
+
+def crescente(lista):
+    cont= 0
+    while (cont<n):
+        while lista[cont]<lista[cont+1]:
+            return True
+        cont=+1
+print (crescente(a))

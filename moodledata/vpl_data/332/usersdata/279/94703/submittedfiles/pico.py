@@ -1,0 +1,103 @@
+# -*- coding: utf-8 -*-
+
+n=(int(input()))
+c=0
+r=0
+d=0
+s=0
+if n<3 :
+    print('N')
+else :    
+  lista=[]
+  
+  for i in range (0,n,1) :
+   lista.append(int(input()))
+  for i in range (0,n-1,1) :  
+    if lista[i] < lista[i+1] :
+      c+=1
+      r=(i+1)
+         
+     
+    if lista[i] == lista[i+1] :
+        print ('N')
+        r=(i+1)
+        break
+      
+    if lista[i] > lista [i+1] :
+       d+=1
+       s=(i+1)
+  if c==r and  (s-d)==r :
+    print ('S')
+  else :
+    print('N')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

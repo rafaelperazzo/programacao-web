@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+n = int(input('informe o tamanho da MATRIZ: '))
+
+matriz = []
+for i in range (n):
+    linhas = []
+    for j range (n):
+        linhas.append(int(input( 'informe os elementos: ')))
+    matriz.append(linhas)
+print(matriz)

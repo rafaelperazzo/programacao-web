@@ -1,0 +1,25 @@
+-Test 1: Teste 1 (-5.000)
+Incorrect program result
+ --- Input ---
+> 3
+>5
+>1
+>1
+>5
+>2
+>1
+>8
+>5
+>5
+
+ --- Program output ---
+>Digite a dimensão do tabuleiro: Digite o elemento 1 de 1: Digite o elemento 2 de 1: Digite o elemento 3 de 1: Digite o elemento 1 de 2: Digite o elemento 2 de 2: Digite o elemento 3 de 2: Digite o elemento 1 de 3: Digite o elemento 2 de 3: Digite o elemento 3 de 3: 0
+
+ --- Expected output (numbers)---
+>20
+
+-Summary of tests
+>+------------------------------+
+>|  2 tests run/ 1  test passed |
+>+------------------------------+
+

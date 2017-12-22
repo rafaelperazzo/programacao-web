@@ -1,0 +1,2 @@
+a = 'testando'
+print(a[::])

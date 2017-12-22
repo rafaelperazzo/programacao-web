@@ -1,0 +1,107 @@
+# IMPORTACOES
+import time
+import random
+# #############################################################################
+# INICIALIZA VARIAVEIS GLOBAIS
+# #############################################################################
+grupos = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
+
+num_grupos = len(grupos)
+
+grupos_sorteados = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+
+membros= [
+    ['Almir', 'Joao Victor', 'Jose Alan', 'Vinicius'],
+    ['Davi', 'Joao Arthur', 'Julia'],
+    ['Ana Larissa', 'Anderson Zhong Fan', 'Nicolas'],
+    ['Anderson Bezerra', 'Caio', 'Hugo', 'Juan'],
+    ['Matheus', 'Pedro Paulino', 'Pedro Pinheiro'],
+    ['Antonio', 'Laura', 'Yhasmim'],
+    ['Aquila', 'Joao Otavio', 'Jose Salviano', 'Ricardo'],
+    ['Breendon', 'Gustavo', 'Paulo', 'Rafael'],
+    ['Iara', 'Ingrid', 'Luiz Otavio', 'Tatiane']
+]
+
+datas= [
+    '27/11 (Seg) - 1º (10:00-10:20)',
+    '27/11 (Seg) - 2º (10:20-10:40)',
+    '27/11 (Seg) - 3º (10:40-11:00)',
+    '27/11 (Seg) - 4º (11:00-11:20)',
+    '27/11 (Seg) - 5º (11:20-11:40)',
+    '29/11 (Qua) - 1º (10:00-10:20)',
+    '29/11 (Qua) - 2º (10:20-10:40)',
+    '29/11 (Qua) - 3º (10:40-11:00)',
+    '29/11 (Qua) - 4º (11:00-11:20)'
+]
+
+#datas_sorteadas = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+# #############################################################################    
+# FUNCOES DO PROGRAMA
+# #############################################################################
+def sorteio(tipo):
+    sorteado = -1
+    while(True) :
+        sorteado = random.randint(0,num_grupos-1)
+        if (tipo=='G') :
+            if (grupos_sorteados[sorteado] == -1):
+                break
+        else:
+            if (datas_sorteadas[sorteado] == -1):
+                break
+    return sorteado
+# #############################################################################
+def mostra_sorteado(tipo, indice):
+    if (tipo=='G') :
+        print ('\n \tGrupo: %s %s\n' % (grupos[indice], str(membros[indice])) )
+    else:
+        print ('\n \tData: %s\n' % datas[indice] )
+    return
+# #############################################################################
+def salva_sorteio(indice_grupo, indice_data):
+    grupos_sorteados[indice_grupo] = indice_data
+    datas_sorteadas[indice_data] = indice_grupo
+    return
+# #############################################################################
+# PROGRAMA PRINCIPAL
+# #############################################################################
+"""
+print(' ------------------------------------------------- ')
+print('  Olá, turma! Iniciaremos o sorteio em 5 segundos ')
+print(' ------------------------------------------------- ')
+time.sleep(5)
+print(' Vamos lá... \n')
+time.sleep(2)
+for i in range(1,num_grupos+1,1):
+    input(' Pressione ENTER para sortear o %dº grupo...' % i)
+    indice_grupo = sorteio('G')
+    time.sleep(2)
+    mostra_sorteado('G',indice_grupo)
+    input(' Pressione ENTER para sortear a %dª data...' % i)
+    indice_data = sorteio('D')
+    time.sleep(3)
+    mostra_sorteado('D',indice_data)
+    salva_sorteio(indice_grupo, indice_data)
+time.sleep(2)
+"""
+print(' ------------------------------------------------- ')
+print('           Ordem de apresentação do P1 ')
+print(' ------------------------------------------------- ')
+print(' DIA 1: ')
+print(' ------------------------------------------------- ')
+for i in range (0,5,1):
+    data = datas[i]
+    grupo = grupos[datas_sorteadas[i]]
+    grupo_membros = membros[datas_sorteadas[i]]
+    print(' Dia %s\n \t Grupo %s %s' % (data, grupo, grupo_membros) )
+print(' ------------------------------------------------- ')
+print(' DIA 2: ')
+print(' ------------------------------------------------- ')
+for i in range (5,num_grupos,1):
+    data = datas[i]
+    grupo = grupos[datas_sorteadas[i]]
+    grupo_membros = membros[datas_sorteadas[i]]
+    print(' Dia %s\n \t Grupo %s %s' % (data, grupo, grupo_membros) )
+print(' ------------------------------------------------- ')
+# #############################################################################
+print('grupos_sorteados = ' + str(grupos_sorteados))
+print('datas_sorteadas = ' + str(datas_sorteadas))

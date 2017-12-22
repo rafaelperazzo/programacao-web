@@ -1,0 +1,67 @@
+-Test 1: Teste 1 (-2.000)
+Incorrect program result
+ --- Input ---
+> 6
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>6
+>5
+>4
+>3
+>2
+>9
+>8
+>8
+>8
+>9
+>1
+
+ --- Program output ---
+>digite o tamanho da lista: digite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da lista[1, 2, 3, 4, 5, 6]
+>S
+>N
+>S
+>N
+>S
+>N
+>S
+>N
+>S
+>N
+>6
+>digite o tamanho da lista: digite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listaS
+>N
+>S
+>N
+>S
+>N
+>S
+>N
+>S
+>N
+>digite o tamanho da lista: digite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listadigite os elementos%d da listaTraceback (most recent call last):
+>  File "Av2_Parte2.py", line 37, in <module>
+>    c.append(int(input('digite os elementos%d da lista')))
+>EOFError: EOF when reading a line
+
+ --- Expected output (text)---
+> 'S'
+>'N'
+>'N'
+>'N'
+>'S'
+>'N'
+>'N'
+>'N'
+>'S'
+
+-Summary of tests
+>+------------------------------+
+>|  1  test run/ 0 tests passed |
+>+------------------------------+
+

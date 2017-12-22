@@ -1,0 +1,51 @@
+case = Teste 1
+input = 2
+4
+34
+output = /17
+0|1
+8/i
+
+case = Teste 2
+input = 4
+2
+34
+output = /0
+17|8
+1/i
+
+case = Teste 3
+input = 2
+5
+101
+output = /48
+1|3
+19/i
+
+case = Teste 4
+input = 5
+2
+101
+output = /1
+48|19
+3/i
+
+case = Teste 5
+input = 4
+2
+33
+output = 'N'
+
+case = Teste 6
+input = 2
+4
+33
+output = 'N'
+
+case = Teste 7
+input = 2
+3
+33
+output = /15
+1|0
+11/i

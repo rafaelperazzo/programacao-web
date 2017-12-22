@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+from minha_bib import *
+
+#COMECE AQUI ABAIXO
+
+
+
+
+
+
+print('Bem vindo ao JogoDaVelha do grupo D [Anderson Bezerra, Caio César]')
+nome = input('\nQual o seu nome (ou apelido)? ')
+jogador = 2
+smbH = 0
+smbH = solicitaSimbolodoHumano(smbH)
+
+if smbH == ' X ':
+    smbPC = ' O '
+else:
+    smbPC = ' X '
+
+
+jogador = sorteioPrimeiraJogada(jogador, nome)
+
+
+tabuleiro = [
+    ['   ','   ','   '],
+    ['   ','   ','   '],
+    ['   ','   ','   ']
+    ]
+
+
+
+while True:
+    if jogador == 1:
+        while True:
+            JogadaHumana(smbH,tabuleiro, nome)
+            break
+        if verificaVencedor(smbH, tabuleiro):
+            print('\nVencedor: %s'%nome)
+            break
+        jogador = 0
+    
+    
+    else:
+        tabuleiro = JogadaComputador(smbPC,tabuleiro)
+        if verificaVencedor(smbPC, tabuleiro):
+            print ('\nVencedor: Computador')
+            break
+        
+        jogador = 1
